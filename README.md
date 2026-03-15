@@ -92,7 +92,7 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 4 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 4 | Execution, session isolation, secrets, and gateway |
-| 7 | [Memory & State](#7-memory--state-services) | 3 | Persistent agent memory across sessions |
+| 7 | [Memory & State](#7-memory--state-services) | 4 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 2 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 1 | Secure sandboxes for AI-generated code |
 | 10 | [Observability & Tracing](#10-observability--tracing-services) | 1 | Agent trajectory tracing and evaluation |
@@ -199,6 +199,7 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | [Mem0](services/memory-and-state/mem0.md) | The memory layer for your AI agents | Memory extraction · Conflict resolution (ADD/UPDATE/DELETE/NOOP) · Semantic retrieval · 90% token savings | ✅ | `pip install mem0ai` then `m.add(messages, user_id=...)` |
 | [Zep](services/memory-and-state/zep.md) | Agent memory powered by a temporal knowledge graph | Temporal knowledge graph · Automatic fact invalidation · Business data fusion · Sub-200ms retrieval | ✅ | `pip install zep-python` then `zep.add_session_message(...)` |
 | [Ensue](services/memory-and-state/ensue.md) | The shared memory network for AI agents | Claim · Publish result · Hypothesis exchange · Insight network · Collective best · Hypergraph | ✅ | Read https://ensue.dev/docs — call `POST /auth/agent-register` to join |
+| [OpenViking](services/memory-and-state/openviking.md) | The context database for AI agents | `viking://` filesystem · `viking://agent/` namespace · L0/L1/L2 tiered loading · Self-evolution loop | ✅ | `pip install openviking` → `openviking-server` → add MCP at `localhost:8000/mcp` |
 
 ---
 
