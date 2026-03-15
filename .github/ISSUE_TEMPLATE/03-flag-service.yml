@@ -1,0 +1,78 @@
+name: "🚩 Flag or remove a service"
+description: "Report a service that no longer meets the criteria, has shut down, pivoted away from agent-native positioning, or was incorrectly included."
+title: "[Flag] <service-name> — <reason>"
+labels: ["flag", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when a listed service should be **removed** or **reclassified**:
+        - Service has shut down or gone dark
+        - Service has pivoted to a human-facing product (now `agent-adapted` or `agent-builder`)
+        - Service never met the criteria and was incorrectly included
+        - Service has been acquired and the original product discontinued
+        - The homepage no longer positions AI agents as the primary consumer
+
+  - type: input
+    id: service-name
+    attributes:
+      label: Service name
+      placeholder: "e.g. Acme Agent API"
+    validations:
+      required: true
+
+  - type: input
+    id: file-path
+    attributes:
+      label: File path in this repository
+      placeholder: "services/communication/acme.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason for flagging
+      options:
+        - Service shut down / domain expired
+        - Product pivoted — no longer agent-native
+        - Acquired — original product discontinued
+        - Never met the criteria (explain below)
+        - Reclassify from agent-native to agent-adapted
+        - Reclassify from agent-native to agent-builder
+        - Other (explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: "Provide links or screenshots showing why the service no longer qualifies. For shut-down services, link to a status page, social media announcement, or archived page."
+      placeholder: |
+        - https://... (official announcement)
+        - https://web.archive.org/... (archived homepage showing pivot)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: proposed-action
+    attributes:
+      label: Proposed action
+      options:
+        - Remove from list entirely
+        - Move to Excluded / Boundary Cases section (agent-adapted)
+        - Move to Excluded / Boundary Cases section (agent-builder)
+        - Keep but add a deprecation notice
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I have verified the evidence is current (checked within the last 7 days).
+          required: true
+        - label: I have no undisclosed financial interest in a competing service.
+          required: true
