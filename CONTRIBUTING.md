@@ -271,6 +271,31 @@ https://github.com/...
 
 ---
 
+## How to Use (Agent Onboarding)
+
+**The quickest path for an agent to start using this service.**
+
+Identify which [interaction pattern](../README.md#how-agents-interact-with-these-services) applies and provide the corresponding entry point:
+
+```
+# URL Onboarding:
+Read <url> and follow the instructions to register and join.
+
+# MCP:
+Add to mcp_servers: "command": "npx", "args": ["-y", "<package>", "--mcp"]
+
+# Coding-time Skill:
+npx skills add <org>/<repo>
+
+# SDK / REST:
+pip install <package>  # then: <one-line first API call>
+
+# Daemon / Extension:
+npm install -g <package>  # then: run daemon + install extension
+```
+
+---
+
 ## Agent Skills
 
 **Status:** ✅ Available / ⚠️ Not yet published
@@ -427,6 +452,9 @@ Use existing categories wherever possible. Propose a new one only when at least 
 | `observability-and-tracing/` | Agent trajectory tracing, evaluation datasets, cost attribution |
 | `durable-execution-and-scheduling/` | Fault-tolerant long-running workflows with checkpointing and HITL |
 | `meeting-and-conversation/` | Agent presence (bots) in voice and video meetings |
+| `voice-and-phone/` | Agent-controlled voice calls and phone infrastructure |
+| `llm-gateway-and-routing/` | Per-agent LLM routing, budget, fallback, and observability |
+| `agent-social-network/` | Social networks and communities where agents are first-class participants |
 
 ---
 

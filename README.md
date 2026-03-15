@@ -20,6 +20,22 @@ Skills are published on [ClawHub](https://clawhub.ai) under [`@haoruilee`](https
 
 ---
 
+## How Agents Interact with These Services
+
+As the agent ecosystem matures, a new taxonomy of agent interaction patterns is emerging. Understanding which pattern a service uses tells you how an agent actually *starts using* it:
+
+| Pattern | Description | How to activate | Examples |
+|---|---|---|---|
+| **URL Onboarding** | Agent reads a skill/doc URL and self-registers | `Read <url> and follow the instructions` | Moltbook (`skill.md`), autoresearch@home (`collab.md`) |
+| **MCP Tool** | Agent adds a server to its MCP config; tools appear automatically | Add to `mcp_servers` config | Browserbase, Tavily, Mem0, Langfuse |
+| **Coding-time Skill** | Installed via `npx skills add` or `clawhub install`; teaches a coding agent how to use the service | `npx skills add org/repo` | Tavily, Composio, Inngest, Trigger.dev |
+| **SDK / REST** | Agent calls API directly using SDK or HTTP; no pre-configuration | Import SDK, set API key | E2B, AgentMail, HumanLayer, Payman AI |
+| **Daemon/Extension** | Agent connects to a local process or browser extension | Run daemon, install extension | bb-browser |
+
+> **Most services support multiple patterns.** The "How to Use" column in each category table shows the **quickest agent entry point** for that service.
+
+---
+
 ## Classification System
 
 Every service in this repository is tagged with one of three labels:
@@ -66,6 +82,7 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 1 | Agent presence in voice and video meetings |
 | 13 | [Voice & Phone](#13-voice--phone-services) | 1 | Agent-controlled voice calls and phone infrastructure |
 | 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 1 | Per-agent budget, routing, caching, and observability for LLM calls |
+| 15 | [Agent Social & Community](#15-agent-social--community-services) | 1 | Social networks where agents are first-class participants |
 
 ---
 
@@ -75,10 +92,10 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/communication/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [AgentMail](services/communication/agentmail.md) | Email for AI agents | Agent inbox · Threaded conversation · Webhook on inbound mail · Semantic search | ✅ |
-| [Novu](services/communication/novu.md) | Notification infrastructure with Agent Toolkit | Workflow-as-tool · Cross-channel delivery · HITL notification flow | ✅ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [AgentMail](services/communication/agentmail.md) | Email for AI agents | Agent inbox · Threaded conversation · Webhook on inbound mail · Semantic search | ✅ | `pip install agentmail` then `POST /inboxes` |
+| [Novu](services/communication/novu.md) | Notification infrastructure with Agent Toolkit | Workflow-as-tool · Cross-channel delivery · HITL notification flow | ✅ | `npx skills add novuhq/skills` |
 
 ---
 
@@ -88,12 +105,12 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/browser-and-web-execution/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [Browserbase](services/browser-and-web-execution/browserbase.md) | A web browser for AI agents & applications | Remote browser session · Stagehand NL actions · Session recording · Stealth mode | ✅ |
-| [Firecrawl](services/browser-and-web-execution/firecrawl.md) | Turn any website into LLM-ready data | Intent-driven extraction · LLM-ready markdown · Schema-typed JSON output | ✅ |
-| [Bright Data Agent Browser](services/browser-and-web-execution/bright-data-agent-browser.md) | Cloud browser for AI agents with built-in website unlocking | Built-in CAPTCHA/fingerprint unlocking · 150M+ proxy IPs · Parallel sessions | ✅ |
-| [bb-browser](services/browser-and-web-execution/bb-browser.md) | Your browser is the API — 103 commands, 36 platforms, your real login state | Authenticated session delegation · Site commands · MCP built-in | ✅ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Browserbase](services/browser-and-web-execution/browserbase.md) | A web browser for AI agents & applications | Remote browser session · Stagehand NL actions · Session recording · Stealth mode | ✅ | `npx skills add browserbase/skills` |
+| [Firecrawl](services/browser-and-web-execution/firecrawl.md) | Turn any website into LLM-ready data | Intent-driven extraction · LLM-ready markdown · Schema-typed JSON output | ✅ | `npx skills add firecrawl/cli` |
+| [Bright Data Agent Browser](services/browser-and-web-execution/bright-data-agent-browser.md) | Cloud browser for AI agents with built-in website unlocking | Built-in CAPTCHA/fingerprint unlocking · 150M+ proxy IPs · Parallel sessions | ✅ | Add Web MCP to config: `npx -y @brightdata/mcp` |
+| [bb-browser](services/browser-and-web-execution/bb-browser.md) | Your browser is the API — 103 commands, 36 platforms, your real login state | Authenticated session delegation · Site commands · MCP built-in | ✅ | `npm install -g bb-browser` + Chrome extension, then `bb-browser site <platform>/<cmd>` |
 
 ---
 
@@ -103,11 +120,11 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/tool-access-and-integration/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [Composio](services/tool-access-and-integration/composio.md) | The tool platform built for agents | Runtime tool discovery · Connect Link OAuth · Per-user credential scoping | ✅ |
-| [Nango](services/tool-access-and-integration/nango.md) | OAuth and credential layer for AI agents | `getConnection()` · Automatic token refresh · 700+ API integrations | ✅ |
-| [Toolhouse](services/tool-access-and-integration/toolhouse.md) | BaaS for AI agents — tools, memory, and execution | Agent endpoint · MCP tool registry · Built-in RAG · Cron scheduling | ✅ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Composio](services/tool-access-and-integration/composio.md) | The tool platform built for agents | Runtime tool discovery · Connect Link OAuth · Per-user credential scoping | ✅ | `npx skills add composiohq/skills` |
+| [Nango](services/tool-access-and-integration/nango.md) | OAuth and credential layer for AI agents | `getConnection()` · Automatic token refresh · 700+ API integrations | ✅ | `$skills install @NangoHQ/sync-builder-skill` |
+| [Toolhouse](services/tool-access-and-integration/toolhouse.md) | BaaS for AI agents — tools, memory, and execution | Agent endpoint · MCP tool registry · Built-in RAG · Cron scheduling | ✅ | `npm install -g toolhouse` then `th deploy` |
 
 ---
 
@@ -117,9 +134,9 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/oversight-and-approval/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [HumanLayer](services/oversight-and-approval/humanlayer.md) | Human in the Loop for AI Agents | `@require_approval()` · Denial-feedback injection · Run/Call ID audit trail | ✅ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [HumanLayer](services/oversight-and-approval/humanlayer.md) | Human in the Loop for AI Agents | `@require_approval()` · Denial-feedback injection · Run/Call ID audit trail | ✅ | `pip install humanlayer` then decorate high-risk functions with `@hl.require_approval()` |
 
 ---
 
@@ -129,12 +146,12 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/commerce-and-payments/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [Payman AI](services/commerce-and-payments/payman-ai.md) | Agentic AI that does the banking. Under your control. | Policy-gated transaction · Intent reasoning · Execution trace | ❌ |
-| [Skyfire](services/commerce-and-payments/skyfire.md) | Identity and payments for autonomous AI agents | KYA identity token · Agent wallet · KYAPay open protocol | ❌ |
-| [AgentsPay](services/commerce-and-payments/agentspay.md) | Crypto identity and embedded wallets for AI agents | W3C DID on Base L2 · USDC wallet · MCP-native API gateway | ✅ |
-| [Nevermined](services/commerce-and-payments/nevermined.md) | The payment layer AI agents actually need | HTTP x402 protocol · Inline payment · Usage/outcome-based billing | ❌ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Payman AI](services/commerce-and-payments/payman-ai.md) | Agentic AI that does the banking. Under your control. | Policy-gated transaction · Intent reasoning · Execution trace | ✅ | `npm install @paymanai/payman-node` — use `client_credentials` OAuth flow |
+| [Skyfire](services/commerce-and-payments/skyfire.md) | Identity and payments for autonomous AI agents | KYA identity token · Agent wallet · KYAPay open protocol | ⚠️ | Register at skyfire.xyz/product — receive agent wallet + KYA identity token |
+| [AgentsPay](services/commerce-and-payments/agentspay.md) | Crypto identity and embedded wallets for AI agents | W3C DID on Base L2 · USDC wallet · MCP-native API gateway | ✅ | Provision wallet at agentspay.dev, then use MCP-native gateway |
+| [Nevermined](services/commerce-and-payments/nevermined.md) | The payment layer AI agents actually need | HTTP x402 protocol · Inline payment · Usage/outcome-based billing | ⚠️ | `pip install payments-py` — x402 handles payments transparently in the HTTP cycle |
 
 ---
 
@@ -144,12 +161,12 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/agent-runtime-and-infrastructure/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [Amazon Bedrock AgentCore](services/agent-runtime-and-infrastructure/amazon-bedrock-agentcore.md) | Purpose-built for deploying and scaling dynamic AI agents and tools | Agent runtime · Long-term memory · Identity tokens · Tool gateway · OTEL tracing | ❌ |
-| [Infisical Agent Sentinel](services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md) | Secrets and credential governance for AI agents | Dynamic secret generation · Token lifecycle daemon · Per-agent policy | ✅ |
-| [Letta](services/agent-runtime-and-infrastructure/letta.md) | The fastest way to bring stateful agents to production | Stateful agent · Model-agnostic state · Agent templates · Self-editing memory | ✅ |
-| [Aembit](services/agent-runtime-and-infrastructure/aembit.md) | Secretless workload identity and access management for AI agents | Agent workload identity · Blended identity · JIT credentials · Anomaly detection | ✅ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Amazon Bedrock AgentCore](services/agent-runtime-and-infrastructure/amazon-bedrock-agentcore.md) | Purpose-built for deploying and scaling dynamic AI agents and tools | Agent runtime · Long-term memory · Identity tokens · Tool gateway · OTEL tracing | ⚠️ | `pip install boto3` — configure AgentCore runtime via AWS SDK |
+| [Infisical Agent Sentinel](services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md) | Secrets and credential governance for AI agents | Dynamic secret generation · Token lifecycle daemon · Per-agent policy | ✅ | `npx -y @infisical/mcp` or deploy the agent daemon sidecar |
+| [Letta](services/agent-runtime-and-infrastructure/letta.md) | The fastest way to bring stateful agents to production | Stateful agent · Model-agnostic state · Agent templates · Self-editing memory | ✅ | `pip install letta-client` then `client.agents.create(...)` |
+| [Aembit](services/agent-runtime-and-infrastructure/aembit.md) | Secretless workload identity and access management for AI agents | Agent workload identity · Blended identity · JIT credentials · Anomaly detection | ✅ | Configure Aembit access policy — agent requests JIT credentials at runtime, no code changes |
 
 ---
 
@@ -159,11 +176,11 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/memory-and-state/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [Mem0](services/memory-and-state/mem0.md) | The memory layer for your AI agents | Memory extraction · Conflict resolution (ADD/UPDATE/DELETE/NOOP) · Semantic retrieval · 90% token savings | ✅ |
-| [Zep](services/memory-and-state/zep.md) | Agent memory powered by a temporal knowledge graph | Temporal knowledge graph · Automatic fact invalidation · Business data fusion · Sub-200ms retrieval | ✅ |
-| [Ensue](services/memory-and-state/ensue.md) | The shared memory network for AI agents | Claim · Publish result · Hypothesis exchange · Insight network · Collective best · Hypergraph | ✅ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Mem0](services/memory-and-state/mem0.md) | The memory layer for your AI agents | Memory extraction · Conflict resolution (ADD/UPDATE/DELETE/NOOP) · Semantic retrieval · 90% token savings | ✅ | `pip install mem0ai` then `m.add(messages, user_id=...)` |
+| [Zep](services/memory-and-state/zep.md) | Agent memory powered by a temporal knowledge graph | Temporal knowledge graph · Automatic fact invalidation · Business data fusion · Sub-200ms retrieval | ✅ | `pip install zep-python` then `zep.add_session_message(...)` |
+| [Ensue](services/memory-and-state/ensue.md) | The shared memory network for AI agents | Claim · Publish result · Hypothesis exchange · Insight network · Collective best · Hypergraph | ✅ | Read https://ensue.dev/docs — call `POST /auth/agent-register` to join |
 
 ---
 
@@ -173,10 +190,10 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/search-and-web-intelligence/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [Tavily](services/search-and-web-intelligence/tavily.md) | Connect your agent to the web | Agent-optimized search · Multi-step research · Source attribution | ✅ |
-| [Exa](services/search-and-web-intelligence/exa.md) | The search engine designed for AI | Neural/semantic search · `exa-code` for coding agents · Websets | ✅ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Tavily](services/search-and-web-intelligence/tavily.md) | Connect your agent to the web | Agent-optimized search · Multi-step research · Source attribution | ✅ | `npx skills add tavily-ai/skills` |
+| [Exa](services/search-and-web-intelligence/exa.md) | The search engine designed for AI | Neural/semantic search · `exa-code` for coding agents · Websets | ✅ | `pip install exa-py` then `exa.search(query)` |
 
 ---
 
@@ -186,9 +203,9 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/code-execution/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [E2B](services/code-execution/e2b.md) | Cloud for AI agents — secure sandboxes for AI-generated code | Ephemeral Linux VM · ~150ms cold start · Stateful execution context · Streaming output | ❌ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [E2B](services/code-execution/e2b.md) | Cloud for AI agents — secure sandboxes for AI-generated code | Ephemeral Linux VM · ~150ms cold start · Stateful execution context · Streaming output | ✅ | `pip install e2b-code-interpreter` then `with Sandbox() as sandbox:` |
 
 ---
 
@@ -198,9 +215,9 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/observability-and-tracing/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [Langfuse](services/observability-and-tracing/langfuse.md) | Open-source LLM observability, tracing, and evaluation | Typed trace hierarchy · Dataset-based evaluation · Trajectory replay · OTEL-compatible | ❌ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Langfuse](services/observability-and-tracing/langfuse.md) | Open-source LLM observability, tracing, and evaluation | Typed trace hierarchy · Dataset-based evaluation · Trajectory replay · OTEL-compatible | ✅ | `npx skills add https://github.com/langfuse/skills --skill langfuse-observability` |
 
 ---
 
@@ -210,11 +227,11 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/durable-execution-and-scheduling/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [Trigger.dev](services/durable-execution-and-scheduling/trigger-dev.md) | Build and deploy fully-managed AI agents and workflows | No-timeout tasks · Step checkpointing · HITL waitForApproval · Streaming response | ❌ |
-| [Inngest](services/durable-execution-and-scheduling/inngest.md) | Durable execution for AI agents in production | Durable step · Context-preserving retry · HITL suspend/resume · Low-latency interactive mode | ✅ |
-| [Restate](services/durable-execution-and-scheduling/restate.md) | Durable execution for AI agents — any framework, any cloud | Durable AI loop · Compensation pattern · A2A exactly-once · Suspend-when-idle | ✅ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Trigger.dev](services/durable-execution-and-scheduling/trigger-dev.md) | Build and deploy fully-managed AI agents and workflows | No-timeout tasks · Step checkpointing · HITL waitForApproval · Streaming response | ❌ | `npx skills add triggerdotdev/skills` |
+| [Inngest](services/durable-execution-and-scheduling/inngest.md) | Durable execution for AI agents in production | Durable step · Context-preserving retry · HITL suspend/resume · Low-latency interactive mode | ✅ | `npx skills add inngest/inngest-skills` |
+| [Restate](services/durable-execution-and-scheduling/restate.md) | Durable execution for AI agents — any framework, any cloud | Durable AI loop · Compensation pattern · A2A exactly-once · Suspend-when-idle | ✅ | `pip install restate-sdk` — wrap existing agent with 2-line middleware |
 
 ---
 
@@ -224,9 +241,9 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/meeting-and-conversation/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [Recall.ai](services/meeting-and-conversation/recall-ai.md) | The meeting bot API for every platform | Meeting bot lifecycle · Real-time diarized transcript · Calendar-triggered deployment · 6 platforms | ❌ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Recall.ai](services/meeting-and-conversation/recall-ai.md) | The meeting bot API for every platform | Meeting bot lifecycle · Real-time diarized transcript · Calendar-triggered deployment · 6 platforms | ❌ | `POST https://api.recall.ai/api/v1/bot` with the meeting URL |
 
 ---
 
@@ -236,9 +253,9 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/voice-and-phone/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [Vapi](services/voice-and-phone/vapi.md) | Build advanced voice AI agents | Voice assistant lifecycle · Tool-calling mid-call · Webhook per utterance · Voice simulation testing | ✅ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Vapi](services/voice-and-phone/vapi.md) | Build advanced voice AI agents | Voice assistant lifecycle · Tool-calling mid-call · Webhook per utterance · Voice simulation testing | ✅ | `pip install vapi-server-sdk` then `POST /assistant` |
 
 ---
 
@@ -248,9 +265,21 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 → **[Full category overview and criteria](services/llm-gateway-and-routing/README.md)**
 
-| Service | Tagline | Primitives | MCP |
-|---|---|---|---|
-| [Portkey](services/llm-gateway-and-routing/portkey.md) | The AI gateway built for production agents | Virtual key · Per-agent budget limit · Automatic fallback · Sticky session routing · Agent trace | ❌ |
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Portkey](services/llm-gateway-and-routing/portkey.md) | The AI gateway built for production agents | Virtual key · Per-agent budget limit · Automatic fallback · Sticky session routing · Agent trace | ⚠️ | `pip install portkey-ai` — point LLM client at `api.portkey.ai` with a virtual key |
+
+---
+
+## 15. Agent Social & Community Services
+
+> Social networks and communities where AI agents are first-class participants — not bots tolerated in human spaces, but the primary actors building reputation, discourse, and relationships.
+
+→ **[Full category overview and criteria](services/agent-social-network/README.md)**
+
+| Service | Tagline | Primitives | MCP | How to Use |
+|---|---|---|---|---|
+| [Moltbook](services/agent-social-network/moltbook.md) | The front page of the agent internet | Agent registration · Post/comment/vote · Submolts · Agent karma · Agent DMs | ❌ | Read https://www.moltbook.com/skill.md and follow the instructions to register and join |
 
 ---
 
