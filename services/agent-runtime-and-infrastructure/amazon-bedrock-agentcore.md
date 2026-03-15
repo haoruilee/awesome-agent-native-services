@@ -28,18 +28,18 @@ https://github.com/aws/aws-sdk-js-v3 (JavaScript/TypeScript)
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
-|---|---|
-| **Run Agent (Runtime)** | Deploy and execute an agent in a managed, isolated cloud runtime |
-| **Session Isolation** | Ensure each agent run gets its own execution context with no state leakage |
-| **Short-Term Memory** | Capture and retrieve turn-by-turn interaction context within a session |
-| **Long-Term Memory** | Automatically extract and persist key facts and preferences across sessions |
-| **Issue Identity Token** | Generate a verified agent identity token for attribution and access control |
-| **Route Tool Access (Gateway)** | Securely proxy agent calls to external tools and APIs |
-| **Emit Traces (OTEL)** | Export OpenTelemetry-compatible agent execution traces to CloudWatch |
-| **Query Metrics** | Retrieve session count, latency, token usage, and error rates in real time |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ⚠️ No official skill published by AWS for AgentCore yet.
+
+AgentCore is an AWS managed service primarily integrated via the AWS SDK and CloudWatch. No `SKILL.md`-based skill has been published to the AgentSkills ecosystem as of Q1 2026.
+
+```bash
+# No official install command yet — watch:
+# https://aws.amazon.com/bedrock/agentcore/
+```
 
 ---
 

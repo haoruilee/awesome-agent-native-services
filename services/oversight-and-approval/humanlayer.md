@@ -24,16 +24,21 @@ https://github.com/humanlayer/humanlayer
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
-|---|---|
-| **Require Approval** | Gate any function call on asynchronous human approval with `@require_approval()` |
-| **Denial Feedback Injection** | Automatically inject a human's denial explanation into the agent's context window |
-| **Escalation Routing** | Route approval requests to Slack, email, Discord, Teams, SMS, or RCS by urgency |
-| **Agent Webhook** | Launch an agent run in response to an inbound human message |
-| **Approval Lifecycle Management** | Create, poll, and resolve approval requests via REST API |
-| **Run / Call ID Audit** | Tag every approval event with a run ID and call ID for fine-grained audit |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ⚠️ No official skill published by HumanLayer yet.
+
+Community-built skills covering approval patterns exist on the ClawHub marketplace. Search for them with:
+
+```bash
+npx clawhub@latest search humanlayer
+# or
+npx clawhub@latest search human-approval
+```
+
+> If you want to contribute a skill, see the [AgentSkills specification](https://agentskills.io/specification) and the [HumanLayer SDK docs](https://humanlayer.dev/docs).
 
 ---
 

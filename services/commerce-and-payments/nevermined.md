@@ -28,18 +28,18 @@ https://github.com/nevermined-io/protocol — Core smart contracts
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
-|---|---|
-| **HTTP x402 Payment** | Pay for an API call inline within the HTTP request/response cycle |
-| **Prepay Credits** | Pre-fund an agent account; payments deducted automatically per call |
-| **Usage-Based Billing** | Pay per API call, per token, or per request |
-| **Outcome-Based Billing** | Pay only on successful task completion |
-| **Dynamic Pricing** | Accept variable prices based on demand, priority, or resource cost |
-| **Agent-to-Agent Payment** | Charge peer agents for specialist services in a multi-agent network |
-| **Create Pricing Plan** | Define time-based or credit-based plans for service monetization |
-| **Query Transaction History** | Retrieve per-agent payment records for audit |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ⚠️ No official skill published by Nevermined yet.
+
+Nevermined operates at the HTTP protocol layer (x402), which is transparent to the agent application code. No `SKILL.md`-based skill has been published as of Q1 2026.
+
+```bash
+# No official install command yet — watch the repo:
+# https://github.com/nevermined-io
+```
 
 ---
 

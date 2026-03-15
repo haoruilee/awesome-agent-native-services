@@ -25,18 +25,20 @@ https://github.com/toolhouseai/toolhouse-sdk-typescript — TypeScript SDK
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
-|---|---|
-| **Deploy Agent** | Publish an agent as a streaming REST API endpoint with `th deploy` |
-| **Tool Discovery (MCP)** | Automatically connect to Toolhouse's MCP server to discover available tools at runtime |
-| **Built-in RAG** | Retrieve relevant documents from a knowledge base without managing a vector store |
-| **Agent Memory** | Persist and retrieve agent memory across sessions |
-| **Scheduled Execution** | Run agents autonomously on cron schedules |
-| **Code Execution** | Execute code safely in a managed sandbox |
-| **Browser Use** | Control a headless browser from within an agent |
-| **Observability** | Inspect execution logs and MCP call traces per agent run |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ⚠️ No official skill published by Toolhouse yet.
+
+Toolhouse's MCP server is itself the primary extension mechanism — agents connect to it at runtime to discover tools. No `SKILL.md`-based skill has been published to the AgentSkills ecosystem as of Q1 2026.
+
+```bash
+# No official install command yet — watch the repo:
+# https://github.com/toolhouseai
+```
+
+> If you want to contribute a skill, see the [AgentSkills specification](https://agentskills.io/specification) and reference the [Toolhouse docs](https://docs.toolhouse.ai).
 
 ---
 

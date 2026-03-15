@@ -24,16 +24,18 @@ https://github.com/AgentPayy/AgentPayy — Core platform (TypeScript / Python)
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
-|---|---|
-| **Issue Agent DID** | Create a W3C Decentralized Identifier on Base L2 for a new agent |
-| **Bootstrap Agent Wallet** | Provision a non-custodial USDC wallet for an agent without KYC |
-| **Execute Payment** | Pay for a service (API, data, tool) from the agent's USDC wallet |
-| **Discover Services (MCP Gateway)** | Query the MCP-native gateway to find and access paid services |
-| **Set Spending Ceiling** | Configure operator-defined maximum spend for an agent |
-| **Query On-Chain Record** | Retrieve an agent's transaction history from Base L2 |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ⚠️ No official skill published by AgentsPay yet.
+
+AgentsPay's primary integration surface is the MCP-native API gateway and Base L2 on-chain operations. No `SKILL.md`-based skill has been published as of Q1 2026.
+
+```bash
+# No official install command yet — watch the repo:
+# https://github.com/AgentPayy/AgentPayy
+```
 
 ---
 

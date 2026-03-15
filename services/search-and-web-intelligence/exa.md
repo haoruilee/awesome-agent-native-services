@@ -28,17 +28,27 @@ https://github.com/exa-labs/exa-mcp-server — Official MCP server
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official skill and community skills available
+
+```bash
+# Community skill via LobeHub marketplace
+npx -y @lobehub/market-cli skills install ngxtm-devkit-exa-search
+
+# Or via playbooks registry (openclaw/skills bundle)
+npx playbooks add skill openclaw/skills --skill exa-search
+```
+
+| Skill | What It Teaches the Agent |
 |---|---|
-| **Neural Search** | Embedding-based semantic search that understands conceptual meaning, not just keywords |
-| **Content Extraction** | Return full, clean parsed text from search results |
-| **Answer Synthesis** | Generate a synthesized answer with cited sources from multiple web pages |
-| **Websets** | Build structured datasets of entities (companies, people, papers) from web search |
-| **`exa-code` Search** | Specialized corpus search for code examples and documentation (optimized for coding agents) |
-| **Similarity Search** | Find documents semantically similar to a given URL or text |
-| **Domain-Constrained Search** | Limit semantic search to specific domains or site types |
+| `exa-search` | Perform neural/semantic web search and retrieve full parsed content; run searches with optional date filtering via `node scripts/exa_search.mjs "<query>"` |
+
+> **Note:** Exa has not yet published an official `SKILL.md` skill under the `exa-labs` GitHub org. The `exa-search` skill is currently community-maintained. Set `EXA_API_KEY` in your agent's environment settings.
+
+**Compatibility:** Claude Code, Cursor, Windsurf, and all [AgentSkills](https://agentskills.io/)-compatible tools.
 
 ---
 

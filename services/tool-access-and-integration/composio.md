@@ -25,16 +25,31 @@ https://github.com/ComposioHQ/composio
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official skills published at [`composiohq/skills`](https://github.com/composiohq/skills)
+
+```bash
+npx skills add composiohq/skills
+```
+
+Install a specific skill:
+
+```bash
+npx skills add composiohq/skills --skill composio
+# or
+npx skills add composiohq/skills --skill composio-tool-router
+```
+
+| Skill | What It Teaches the Agent |
 |---|---|
-| **Runtime Tool Discovery** | Query the tool registry at runtime to find the right integration for the current task |
-| **Agent-Initiated OAuth** | Serve a Connect Link inline during conversation for one-time user consent |
-| **Tool Execution** | Call any of 250+ external APIs with managed authentication and result formatting |
-| **Credential Lifecycle** | Automatic OAuth token creation, refresh, and revocation per user |
-| **Per-User Scoping** | Isolate credentials per `user_id` so one agent serves thousands of users safely |
-| **Meta-Tool Access** | Receive `discover_tools`, `authenticate_app`, `execute_tool` as agent primitives |
+| `composio` | Build AI agents with access to 200+ external tools; authenticate users; discover and call integrations at runtime |
+| `composio-tool-router` | Create isolated, secure tool sessions for multi-user agents; manage connection state and toolkit configuration per user |
+| `skill-installer` | Install additional skills from curated lists or GitHub repos |
+
+**Compatibility:** Claude Code, Cursor, Codex, Vercel AI SDK, LangChain, OpenAI Agents, and all [AgentSkills](https://agentskills.io/)-compatible tools.
 
 ---
 

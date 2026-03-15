@@ -28,19 +28,24 @@ https://github.com/browserbase/mcp-server-browserbase — Official MCP server
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official skills published at [`browserbase/skills`](https://github.com/browserbase/skills)
+
+```bash
+npx skills add browserbase/skills
+```
+
+| Skill | What It Teaches the Agent |
 |---|---|
-| **Create Browser Session** | Spin up an isolated cloud browser instance via API |
-| **Navigate** | Direct the browser to any URL |
-| **Act (Natural Language)** | Issue natural-language web actions (`"click the login button"`) via Stagehand |
-| **Extract** | Extract structured data from the current page |
-| **Screenshot** | Capture a screenshot of the current page state |
-| **Session Recording** | Record and replay the full agent browser trajectory |
-| **Stealth Mode** | Randomize fingerprint and rotate proxy to avoid bot detection |
-| **Parallel Sessions** | Run thousands of concurrent browser sessions |
-| **CDP Access** | Low-level Chrome DevTools Protocol access for custom tooling |
+| `browser` | Automate web interactions via CLI with remote Browserbase sessions, stealth mode, CAPTCHA solving, and residential proxy support |
+| `functions` | Deploy serverless browser automation functions to Browserbase cloud |
+
+**Compatibility:** Claude Code, Cursor, Codex, Windsurf, and all [AgentSkills](https://agentskills.io/)-compatible tools.
+
+> **Tip:** After installation, set `BROWSERBASE_API_KEY` and `BROWSERBASE_PROJECT_ID` in your agent's environment settings.
 
 ---
 

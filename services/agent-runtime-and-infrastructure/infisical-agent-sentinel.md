@@ -26,17 +26,21 @@ https://github.com/Infisical/infisical-mcp-server — Official MCP server
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
-|---|---|
-| **Dynamic Secret Generation** | Create temporary, time-bounded credentials on demand — never static long-lived secrets |
-| **Token Lifecycle Management** | Automatically renew access tokens before expiration via the agent daemon |
-| **Templated Secret Delivery** | Render secrets in Go templates and deliver as formatted config files or env vars |
-| **Policy-Scoped Access** | Define which secrets each agent class can access via access policies |
-| **JIT Credential Access** | Generate just-in-time credentials that expire automatically after use |
-| **Secret CRUD** | Create, read, update, and delete secrets and environments via API |
-| **Project Management** | Create projects, environments, and folders programmatically |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ⚠️ No official `SKILL.md` skill published by Infisical yet.
+
+Infisical's MCP server (`@infisical/mcp`) is the primary agent integration surface. No `SKILL.md`-based skill has been published to the AgentSkills ecosystem as of Q1 2026.
+
+```bash
+# Use the MCP server directly instead:
+npx -y @infisical/mcp
+
+# Or search community skills:
+npx clawhub@latest search infisical
+```
 
 ---
 
