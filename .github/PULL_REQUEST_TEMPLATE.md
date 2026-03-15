@@ -68,6 +68,7 @@ Closes #<!-- issue number -->
 
 ### Bonus signals (check all that apply)
 
+- [ ] **⭐ URL Onboarding** — agent joins with `Read <url> and follow the instructions` (provide URL + what agent gets)
 - [ ] Has dedicated agent identity model
 - [ ] MCP server is published and linked
 - [ ] Agent Skills (`SKILL.md`) are published and install command is documented

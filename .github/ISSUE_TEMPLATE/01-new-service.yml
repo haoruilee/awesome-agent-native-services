@@ -111,11 +111,26 @@ body:
     attributes:
       label: Bonus signals (check all that apply)
       options:
+        - label: "⭐ URL Onboarding — agent joins with a single sentence: `Read <url> and follow the instructions`"
         - label: Has a dedicated agent identity model (agent gets its own credential)
         - label: Supports MCP (Model Context Protocol) — provide server link below
         - label: Has published Agent Skills (`SKILL.md`) — provide install command below
         - label: Provides per-agent state / memory / session
         - label: Provides audit / trajectory / replay / approval artifacts
+
+  - type: textarea
+    id: url-onboarding
+    attributes:
+      label: "⭐ URL Onboarding instruction (if applicable)"
+      description: |
+        The highest form of agent-nativeness. If the service hosts a machine-readable onboarding
+        file (skill.md, collab.md, protocol doc) an agent can read and follow to self-register,
+        provide the exact one-sentence instruction here.
+      placeholder: |
+        Read https://... and follow the instructions to [register / join / participate].
+
+        What the agent gets by reading that URL:
+        [complete registration flow, credentials, protocol, community rules, etc.]
 
   - type: textarea
     id: mcp-and-skills

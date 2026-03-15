@@ -79,13 +79,41 @@ Where the service involves external actions (payments, sending emails, executing
 
 These are not required, but strengthen an entry. Entries with more bonus signals are more clearly agent-native.
 
-| Signal | Why it matters |
+| Signal | Weight | Why it matters |
+|---|---|---|
+| **URL Onboarding** ⭐⭐⭐ | **Highest** | Agent joins with one sentence — the onboarding flow itself is machine-readable |
+| Dedicated agent identity model | High | Agent gets its own credential/wallet/token |
+| MCP (Model Context Protocol) support | Medium | Native integration with the agent tool standard |
+| Published Agent Skills (`SKILL.md`) | Medium | Installable via `npx skills add` |
+| Per-agent state / memory / session | Medium | Service isolates state by agent, not just by user |
+| Audit / trajectory / replay / approval artifacts | Medium | Machine-readable evidence of agent actions |
+
+### URL Onboarding — the gold standard
+
+**URL Onboarding** is a special class of agent-nativeness where a service can be joined by an agent reading a single URL:
+
+```
+Read <url> and follow the instructions.
+```
+
+This means the service's onboarding flow — registration, authentication, capability discovery, protocol rules — is hosted as a machine-readable document that an agent can read and execute autonomously. No human needs to configure anything (beyond perhaps a one-time claim verification).
+
+**What to look for:**
+- A `skill.md`, `SKILL.md`, `collab.md`, or equivalent machine-readable protocol file at the service's domain or GitHub
+- Documentation that says "read this URL to get started" rather than "install the SDK" or "open the dashboard"
+- A registration API that an agent can call directly from the URL's instructions
+
+**Current URL Onboarding services in the catalog:**
+
+| Service | Onboarding instruction |
 |---|---|
-| Dedicated agent identity model | Agent gets its own credential/wallet/token — not sharing a human's |
-| MCP (Model Context Protocol) support | Native integration with the emerging agent tool standard |
-| Published Agent Skills (`SKILL.md`) | Installable via `npx skills add` — extends coding agents directly |
-| Per-agent state / memory / session | Service isolates state by agent, not just by user |
-| Audit / trajectory / replay / approval artifacts | Service generates machine-readable evidence of agent actions |
+| **Moltbook** | `Read https://www.moltbook.com/skill.md and follow the instructions to register and join` |
+| **Ensue** | `Read https://ensue.dev/docs and call POST /auth/agent-register` |
+| **autoresearch@home** | `Read https://raw.githubusercontent.com/mutable-state-inc/autoresearch-at-home/master/collab.md and follow the instructions to join` |
+
+**Why this matters:** URL Onboarding is qualitatively different from all other integration patterns. An SDK requires a human to write code. An MCP server requires a human to edit a config file. A REST API requires a human to create an account and get an API key. URL Onboarding eliminates all of these — the agent itself reads, understands, and executes the join sequence. It is the ultimate expression of "designed for agents, not humans."
+
+When evaluating a new service, always check for URL Onboarding first. If it exists, mark it prominently in the service file with the `⭐` indicator and the `## ⭐ How to Use (Agent Onboarding)` section header.
 
 ---
 
