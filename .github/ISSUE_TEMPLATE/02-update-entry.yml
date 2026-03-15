@@ -1,0 +1,85 @@
+name: "✏️ Update an existing entry"
+description: "Report outdated information, a broken link, a new MCP server, a new Agent Skills release, or any other factual correction."
+title: "[Update] <service-name> — <what changed>"
+labels: ["update", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to report factual changes to an already-listed service:
+        - Broken or redirected links
+        - New MCP server published
+        - New Agent Skills (`SKILL.md`) published
+        - Funding, pricing, or compliance status change
+        - Changed official tagline or positioning
+        - Service rebranded or acquired
+        - New category of primitives added
+
+  - type: input
+    id: service-name
+    attributes:
+      label: Service name
+      placeholder: "e.g. Browserbase"
+    validations:
+      required: true
+
+  - type: input
+    id: file-path
+    attributes:
+      label: File path in this repository
+      placeholder: "services/browser-and-web-execution/browserbase.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: Type of change
+      options:
+        - Broken / redirected link
+        - New MCP server published
+        - New Agent Skills (SKILL.md) published
+        - Pricing or tier change
+        - New feature or primitive added
+        - Official tagline or positioning changed
+        - Rebranding or acquisition
+        - Service shut down or deprecated
+        - Other (explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: Current (incorrect) content
+      description: "Quote the specific line(s) in the file that need updating."
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-content
+    attributes:
+      label: Proposed replacement content
+      description: "Provide the corrected text. Include source URL(s) to verify the change."
+      render: markdown
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source URL confirming the change
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I have verified the proposed content against the official source URL above.
+          required: true
+        - label: I have no undisclosed financial interest in this service.
+          required: true

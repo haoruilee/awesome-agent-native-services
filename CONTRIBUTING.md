@@ -1,234 +1,470 @@
 # Contributing to Awesome Agent-Native Services
 
-Thank you for your interest in contributing! This list applies strict criteria to ensure every entry genuinely represents a service **designed from inception for AI agents**, not adapted from a human-facing product.
-
-Please read this guide in full before submitting a pull request.
+This repository maintains a curated list of services **designed from the ground up for AI agents**. Quality over quantity: every entry must meet strict criteria, follow a consistent format, and remain accurate over time.
 
 ---
 
-## The Five Hard Requirements
+## Table of Contents
 
-A service must satisfy **all five** of the following criteria to be eligible for the main list.
+1. [The Five Hard Criteria](#1-the-five-hard-criteria)
+2. [Bonus Signals](#2-bonus-signals)
+3. [Explicit Exclusions](#3-explicit-exclusions)
+4. [Contribution Workflow](#4-contribution-workflow)
+5. [Issue Types and Templates](#5-issue-types-and-templates)
+6. [PR Rules](#6-pr-rules)
+7. [Service File Format](#7-service-file-format)
+8. [Repository Structure](#8-repository-structure)
+9. [Category Guidelines](#9-category-guidelines)
+10. [Maintenance Responsibilities](#10-maintenance-responsibilities)
+11. [Code of Conduct](#11-code-of-conduct)
 
-### 1. Agent-First Positioning
+---
 
-The official website or documentation must explicitly identify AI agents as the **primary consumer**, not a secondary use case or marketing footnote.
+## 1. The Five Hard Criteria
+
+A service must satisfy **all five** to be listed.
+
+### 1.1 Agent-First Positioning
+
+The official website or documentation must explicitly identify AI agents as the **primary consumer** — not a secondary use case, not an integration footnote, not a marketing addition.
 
 **Pass examples:**
 - "Email for AI agents" (AgentMail)
 - "A web browser for AI agents & applications" (Browserbase)
 - "Human in the Loop for AI Agents" (HumanLayer)
+- "Identity and payments for autonomous AI agents" (Skyfire)
 
 **Fail examples:**
 - "Powerful automation platform — now with AI agent support"
-- "Build apps, workflows, and AI agents" (positions agents as one of many outputs)
+- "Build apps, workflows, and AI agents" (agents are one of many outputs)
+- "The developer platform for everything" (agents mentioned in a blog post)
 
-### 2. Agent-Specific Primitives
+### 1.2 Agent-Specific Primitives
 
-The API must expose **primitives that only make sense for agents**. If a human developer could use the exact same primitives without modification, the service likely does not qualify.
+The API must expose **primitives that only make sense for agents** — abstractions with no meaningful human-facing equivalent. If a human developer would use the exact same API without modification to build a human-facing product, the service does not qualify.
 
 **Pass examples:**
-- Agent inbox with webhook-on-inbound-message
-- Approval gate with denial-feedback-to-context-window injection
+- Agent inbox (not a user inbox) with webhook-on-inbound-message
+- Approval gate with denial-feedback injection into the agent's context window
 - Know Your Agent (KYA) identity token
-- Remote browser session controlled via natural language
+- Remote browser session lifecycle controlled by an agent
+- Durable step checkpoint between LLM calls
 
 **Fail examples:**
 - A standard REST CRUD API that happens to be callable by an agent
 - A webhook that any server can receive
+- An email API that requires a human Gmail account
 
-### 3. Autonomy-Compatible Control Plane
+### 1.3 Autonomy-Compatible Control Plane
 
-The service must allow agents to operate **without per-action human confirmation**, while providing agent-appropriate constraint mechanisms (spending limits, policy gates, session isolation, etc.).
+The service must allow agents to operate **without per-action human confirmation**, while providing agent-appropriate constraint mechanisms (spending limits, policy gates, session isolation, approval gates, etc.).
 
-### 4. Machine-to-Machine Integration Surface
+The key question: *Can an agent complete a full task loop — including the actions this service provides — without a human clicking anything?*
 
-The **primary interface** must be an SDK, REST API, MCP server, or webhook — not a human-facing UI or dashboard. A management UI is acceptable as a secondary surface.
+### 1.4 Machine-to-Machine Integration Surface
 
-### 5. Agent Identity / Delegation Semantics
+The **primary interface** must be an SDK, REST API, MCP server, or webhook. A human-facing management dashboard is acceptable as a secondary surface but must not be required for the agent's operational flow.
 
-If the service involves external actions (payments, email sending, tool execution), it must distinguish:
-- The agent's own identity
-- Permissions delegated by the operator/user
-- An audit trail attributable to the agent
+### 1.5 Agent Identity / Delegation Semantics
 
----
+Where the service involves external actions (payments, sending emails, executing tools, making API calls on behalf of users), it must:
 
-## Bonus Signals (Not Required)
-
-The following signals strengthen an entry but are not individually mandatory:
-
-- Dedicated agent identity model (agent gets its own credential, not reused from a human)
-- MCP (Model Context Protocol) or agent protocol support
-- Per-agent state / memory / session (not just shared state)
-- Specialized audit / trajectory / replay / approval artifacts
+- Distinguish the **agent's own identity** from the user's identity
+- Model **delegated permissions** — what the agent is authorized to do on the user's behalf
+- Maintain an **audit trail** attributable to the specific agent
 
 ---
 
-## Explicit Exclusions
+## 2. Bonus Signals
 
-The following categories of products are **not eligible**, regardless of their "AI agent" marketing:
+These are not required, but strengthen an entry. Entries with more bonus signals are more clearly agent-native.
 
-| Category | Reason |
+| Signal | Why it matters |
 |---|---|
-| **Agent builders** | Products where humans configure, orchestrate, or visually assemble agent workflows (e.g., Dify, n8n, Flowise, AutoGen Studio, LangGraph) |
-| **RAG studios** | Products that help humans build retrieval pipelines (e.g., LlamaIndex Cloud, Cohere Compass) |
-| **Chat workspaces** | Products designed for humans to interact with AI models (e.g., ChatGPT Teams, Claude.ai, Notion AI) |
-| **No-code AI platforms** | Products targeting non-technical users for building AI applications |
-| **Human-adapted services** | Products originally built for humans that have added an agent interface layer (see `agent-adapted` tag in the README) |
+| Dedicated agent identity model | Agent gets its own credential/wallet/token — not sharing a human's |
+| MCP (Model Context Protocol) support | Native integration with the emerging agent tool standard |
+| Published Agent Skills (`SKILL.md`) | Installable via `npx skills add` — extends coding agents directly |
+| Per-agent state / memory / session | Service isolates state by agent, not just by user |
+| Audit / trajectory / replay / approval artifacts | Service generates machine-readable evidence of agent actions |
 
 ---
 
-## Repository Structure
+## 3. Explicit Exclusions
 
-This repository is organized as follows:
+The following categories are **not eligible** regardless of marketing language:
 
-```
-README.md                          — Index and summary of all services
-CONTRIBUTING.md                    — This file
-services/
-  communication/
-    README.md                      — Category overview and criteria
-    agentmail.md                   — Per-service detail file
-  browser-and-web-execution/
-    README.md
-    browserbase.md
-    firecrawl.md
-  tool-access-and-integration/
-    README.md
-    composio.md
-    nango.md
-    toolhouse.md
-  oversight-and-approval/
-    README.md
-    humanlayer.md
-  commerce-and-payments/
-    README.md
-    payman-ai.md
-    skyfire.md
-    agentspay.md
-    nevermined.md
-  agent-runtime-and-infrastructure/
-    README.md
-    amazon-bedrock-agentcore.md
-    infisical-agent-sentinel.md
-  memory-and-state/
-    README.md
-    mem0.md
-  search-and-web-intelligence/
-    README.md
-    tavily.md
-    exa.md
-  code-execution/
-    README.md
-    e2b.md
-  observability-and-tracing/
-    README.md
-    langfuse.md
-  durable-execution-and-scheduling/
-    README.md
-    trigger-dev.md
-    inngest.md
-  meeting-and-conversation/
-    README.md
-    recall-ai.md
-```
+| Category | Why excluded | Example |
+|---|---|---|
+| **Agent builders** | Humans configure, orchestrate, or visually assemble agents | Dify, n8n, Flowise, AutoGen Studio, LangGraph |
+| **RAG studios** | Help humans build retrieval pipelines | LlamaIndex Cloud, Cohere Compass |
+| **Chat workspaces** | Designed for humans to interact with AI | ChatGPT Teams, Claude.ai, Notion AI |
+| **No-code AI platforms** | Target non-technical users building AI apps | Voiceflow, Botpress |
+| **Agent-adapted services** | Originally human-facing, agent interface added later | Resend (added MCP), Stripe (added Agent Toolkit), Twilio |
 
-When adding a new service, you must:
-1. Create a new file in the appropriate category folder: `services/{category}/{service-name}.md`
-2. Add a row to the table in that category's `README.md`
-3. Add a row to the corresponding section in the root `README.md`
+> **Agent-adapted services** belong in the `Excluded / Boundary Cases` section of `README.md`, not the main list. They are not wrong — they are in the wrong list.
 
 ---
 
-## Submission Checklist
+## 4. Contribution Workflow
 
-Before opening a pull request, confirm all of the following:
+### Step 1 — Check before you start
 
-- [ ] The service has a public website or documentation page you can link to.
-- [ ] The homepage or official docs explicitly name AI agents as the primary consumer.
-- [ ] The service exposes at least one primitive with no meaningful human-facing equivalent.
-- [ ] The primary interface is an API, SDK, MCP server, or webhook — not exclusively a UI.
-- [ ] The service is production-ready (not a demo, proof-of-concept, or invite-only alpha with no public documentation).
-- [ ] You have created a per-service file at `services/{category}/{service-name}.md` following the format below.
-- [ ] You have updated the category `README.md` table.
-- [ ] You have updated the root `README.md` table for the relevant section.
-- [ ] You have added the entry to the correct category, or proposed a new category with justification.
-- [ ] You have verified all links are live and accurate.
+1. Search [open and closed issues](../../issues?q=) to see if your service has been discussed.
+2. Check the [current list](../../blob/main/README.md) — the service may already be listed.
+3. Read the [five criteria](#1-the-five-hard-criteria) honestly. If you are unsure, open an issue before writing any files.
+
+### Step 2 — Open an issue
+
+**All new service proposals require a pre-approved issue before a PR is opened.** This prevents wasted work on entries that do not qualify.
+
+Use the appropriate issue template:
+
+| Scenario | Template |
+|---|---|
+| Proposing a new service | [🆕 New service](../../issues/new?template=01-new-service.yml) |
+| Reporting outdated info / broken link / new MCP / new Skills | [✏️ Update entry](../../issues/new?template=02-update-entry.yml) |
+| Service shut down / pivoted / should be removed | [🚩 Flag service](../../issues/new?template=03-flag-service.yml) |
+| Proposing a new category | [📂 New category](../../issues/new?template=04-new-category.yml) |
+
+> **Exception:** PRs that fix broken links, typos, or obvious factual errors may be opened directly without a prior issue.
+
+### Step 3 — Wait for maintainer review
+
+A maintainer will respond to new service issues within **7 days** with one of:
+- ✅ **Go** — proceed with the PR
+- ❌ **No-go** — explanation of which criterion is not met
+- ❓ **Needs clarification** — follow-up questions before a decision
+
+Do not open a PR until you receive a ✅ Go on your issue.
+
+### Step 4 — Write the PR
+
+Follow the [service file format](#7-service-file-format) exactly. Use the [PR template](PULL_REQUEST_TEMPLATE.md) checklist to verify your submission is complete.
+
+**PR title format:**
+
+| Type | Format |
+|---|---|
+| New service | `[New Service] ServiceName` |
+| Update existing | `[Update] ServiceName — what changed` |
+| Fix (no issue needed) | `[Fix] brief description` |
+| New category | `[New Category] CategoryName` |
+| Maintenance | `[Maintenance] brief description` |
+
+### Step 5 — Review and merge
+
+- Maintainers review PRs within **14 days**.
+- Minor formatting issues may be requested via review comments.
+- Once approved, a maintainer merges the PR and closes the linked issue.
 
 ---
 
-## Entry Format
+## 5. Issue Types and Templates
 
-Each entry must follow this format exactly:
+### 🆕 New Service Proposal
+
+**Template:** `.github/ISSUE_TEMPLATE/01-new-service.yml`
+
+Required information:
+- Service name, website, official repo
+- Official tagline (exact quote from homepage)
+- Proposed category
+- Evidence for each of the five criteria (quote + source URL)
+- MCP status and Agent Skills install command (if available)
+- Classification (`agent-native` / `agent-adapted` / `agent-builder`)
+- Why the obvious generic alternative does not qualify
+
+### ✏️ Update Existing Entry
+
+**Template:** `.github/ISSUE_TEMPLATE/02-update-entry.yml`
+
+Required information:
+- Service name and file path
+- Current (incorrect) content — exact quote
+- Proposed replacement content
+- Source URL confirming the change
+
+Use this for: broken links, new MCP server, new Agent Skills, pricing/tier changes, new primitives, rebranding.
+
+### 🚩 Flag or Remove a Service
+
+**Template:** `.github/ISSUE_TEMPLATE/03-flag-service.yml`
+
+Required information:
+- Service name and file path
+- Reason (shut down / pivoted / never qualified / acquired)
+- Evidence with source URLs
+- Proposed action (remove / reclassify / deprecation notice)
+
+### 📂 New Category Proposal
+
+**Template:** `.github/ISSUE_TEMPLATE/04-new-category.yml`
+
+Required information:
+- Proposed category name
+- What agent-specific problem it solves (distinct from existing categories)
+- Why existing categories are insufficient
+- At least **two** qualifying services with criterion evidence
+
+---
+
+## 6. PR Rules
+
+### Must-haves for all PRs
+
+- [ ] PR title follows the format above.
+- [ ] All links in modified files are live (you have clicked them).
+- [ ] No undisclosed financial interest in any mentioned service.
+
+### Must-haves for new service PRs
+
+- [ ] Linked issue has a ✅ Go from a maintainer.
+- [ ] Created `services/{category}/{service-name}.md` with all required sections.
+- [ ] Added a row to `services/{category}/README.md`.
+- [ ] Added a row to the correct section of the root `README.md`.
+- [ ] Classification is `agent-native` (not `agent-adapted` or `agent-builder`).
+
+### Must-haves for update PRs
+
+- [ ] Source URL confirming the change is included.
+- [ ] Classification was not changed without a prior issue.
+
+### What gets a PR rejected
+
+- Missing required sections in the service file
+- No linked issue for a new service
+- Classification as `agent-native` without meeting all five criteria
+- Broken links in the submitted file
+- Undisclosed conflict of interest
+
+---
+
+## 7. Service File Format
+
+Every service file at `services/{category}/{service-name}.md` must contain all of the following sections in this order:
 
 ```markdown
-### [Service Name](https://service-homepage.com)
-`agent-native`
+# Service Name
 
-**"Official tagline from the homepage."**
+> **"Official tagline from the homepage."**
 
-One to three sentences describing what the service does and why it is agent-native.
-
-| Field | Detail |
+| | |
 |---|---|
-| **Why agent-native** | Specific evidence from the homepage/docs |
-| **Primary primitive** | The agent-specific abstraction(s) this service provides |
-| **Autonomy model** | How agents operate without per-action human intervention |
-| **Identity / delegation** | How agent identity and delegated permissions are modeled |
-| **Protocol surface** | SDK, REST API, MCP, webhook, etc. |
-| **Human-in-the-loop** | Whether and how human approval is integrated |
-| **Why [generic alternative] does not qualify** | Contrast with the obvious non-agent alternative |
+| **Website** | https://... |
+| **Docs** | https://... |
+| **GitHub** | https://... |
+| **Classification** | `agent-native` |
+| **Category** | [Category Name](README.md) |
+| **Funding / Compliance** | (if notable) |
 
-**Links:** [Website](https://...) · [Docs](https://...) · [GitHub](https://...) (include only applicable links)
+---
+
+## Official Website
+
+https://...
+
+---
+
+## Official Repo
+
+https://github.com/...
+
+---
+
+## Agent Skills
+
+**Status:** ✅ Available / ⚠️ Not yet published
+
+<!-- If available: -->
+```bash
+npx skills add org/repo
 ```
 
----
-
-## Category Guidelines
-
-Use the existing categories where possible:
-
-| Category | What belongs here |
+| Skill | What It Teaches the Agent |
 |---|---|
-| Communication Services | Agent email, messaging, or notification identity |
-| Browser & Web Execution Services | Remote browser or web extraction for agents |
-| Tool Access & Integration Services | Agent-runtime tool discovery, auth, and execution |
-| Oversight & Approval Services | Human-in-the-loop approval and escalation |
-| Commerce & Payment Services | Agent-native payments, wallets, and identity |
-| Agent Runtime & Infrastructure Services | Execution, session isolation, secrets, gateway |
-| Memory & State Services | Persistent agent memory and session state |
-| Search & Web Intelligence Services | Agent-optimized search and content retrieval |
-| Code Execution Services | Sandboxed code execution for agent-generated code |
-| Observability & Tracing Services | Agent trajectory tracing and evaluation |
-| Durable Execution & Scheduling Services | Fault-tolerant long-running agent workflows |
-| Meeting & Conversation Services | Agent presence in voice/video/meetings |
+| `skill-name` | Description |
 
-To propose a new category, open an issue describing the category, why existing categories don't fit, and provide at least two qualifying services for it.
+<!-- If not available: -->
+Search community skills: `npx clawhub@latest search service-name`
+See: https://agentskills.io/specification to contribute one.
 
 ---
 
-## What to Do If You're Not Sure
+## MCP
 
-If you believe a service is agent-native but are uncertain whether it meets the criteria, open an **issue** (not a PR) with:
+**Status:** ✅ Available / ⚠️ Not yet published
 
-1. The service name and homepage URL.
-2. A quote from the official docs or homepage positioning it as agent-first.
-3. A description of the agent-specific primitive it provides.
-4. Your assessment of the five criteria above.
-
-Maintainers will review and respond before you invest time in writing a full PR.
+| Detail | Value |
+|---|---|
+| **MCP Repo** | https://github.com/... |
+| **Transport** | stdio / Streamable HTTP |
+| **Compatible Clients** | Claude Desktop, Cursor, ... |
 
 ---
 
-## Code of Conduct
+## What It Does
 
-- Be respectful of other contributors and maintainers.
-- Do not submit entries for services you have a financial interest in without disclosing the relationship.
-- Do not submit entries for services that are vaporware, shut down, or have no public documentation.
+One to three paragraphs.
+
+---
+
+## Why It Is Agent-Native
+
+| Criterion | Evidence |
+|---|---|
+| **Agent-first positioning** | Exact quote + source URL |
+| **Agent-specific primitive** | Description |
+| **Autonomy-compatible control plane** | Description |
+| **M2M integration surface** | List of interfaces |
+| **Identity / delegation** | Description |
+
+---
+
+## Primary Primitives
+
+| Primitive | Description |
+|---|---|
+| **Name** | Description |
+
+---
+
+## Autonomy Model
+
+Step-by-step flow showing how an agent uses the service without human intervention.
+
+---
+
+## Identity and Delegation Model
+
+Bullet list explaining agent identity, delegated permissions, audit trail.
+
+---
+
+## Protocol Surface
+
+| Interface | Detail |
+|---|---|
+| REST API | ... |
+| Python SDK | ... |
+
+---
+
+## Human-in-the-Loop Support
+
+Description of whether and how HITL is supported.
+
+---
+
+## Why Generic Alternatives Do Not Qualify
+
+| Alternative | Why It Fails |
+|---|---|
+| **Name** | Explanation |
+
+---
+
+## Use Cases
+
+- **Use case name** — description
+```
+
+### Naming conventions
+
+- File name: lowercase, hyphens only, matches the service's common name. Examples: `agentmail.md`, `amazon-bedrock-agentcore.md`, `trigger-dev.md`
+- Category folder: lowercase, hyphens only. Examples: `commerce-and-payments/`, `browser-and-web-execution/`
+
+---
+
+## 8. Repository Structure
+
+```
+README.md                                    ← Index: category tables + service summary tables
+CONTRIBUTING.md                              ← This file
+.github/
+  ISSUE_TEMPLATE/
+    01-new-service.yml                       ← New service proposal template
+    02-update-entry.yml                      ← Update existing entry template
+    03-flag-service.yml                      ← Flag / remove service template
+    04-new-category.yml                      ← New category proposal template
+    config.yml                               ← Disables blank issues
+  PULL_REQUEST_TEMPLATE.md                   ← PR checklist
+services/
+  {category}/
+    README.md                                ← Category overview, rationale, criteria, service table
+    {service-name}.md                        ← Full per-service detail file
+```
+
+**When adding a new service, you must update three places:**
+
+1. Create `services/{category}/{service-name}.md`
+2. Add a row to `services/{category}/README.md` (service table)
+3. Add a row to the correct section of the root `README.md` (summary table)
+
+**When adding a new category, you must update four places:**
+
+1. Create `services/{new-category}/README.md`
+2. Create at least one `services/{new-category}/{service-name}.md`
+3. Add the category to the root `README.md` (categories table + new section)
+4. Add the category to the Category Guidelines table in this file
+
+---
+
+## 9. Category Guidelines
+
+Use existing categories wherever possible. Propose a new one only when at least two qualifying services do not fit any existing category.
+
+| Category folder | What belongs here |
+|---|---|
+| `communication/` | Services giving agents a first-class communication identity (email, messaging, notifications) |
+| `browser-and-web-execution/` | Remote browser sessions and intent-driven web extraction for agents |
+| `tool-access-and-integration/` | Runtime tool discovery, delegated OAuth, and managed tool execution |
+| `oversight-and-approval/` | Agent-initiated human approval gates, denial feedback, and escalation |
+| `commerce-and-payments/` | Agent wallets, KYA identity, autonomous payment execution |
+| `agent-runtime-and-infrastructure/` | Execution environments, session isolation, secrets, tool gateway, identity tokens |
+| `memory-and-state/` | Persistent, queryable, self-managing agent memory across sessions |
+| `search-and-web-intelligence/` | LLM-optimized web search and structured content retrieval |
+| `code-execution/` | Secure, isolated sandboxes for AI-generated code |
+| `observability-and-tracing/` | Agent trajectory tracing, evaluation datasets, cost attribution |
+| `durable-execution-and-scheduling/` | Fault-tolerant long-running workflows with checkpointing and HITL |
+| `meeting-and-conversation/` | Agent presence (bots) in voice and video meetings |
+
+---
+
+## 10. Maintenance Responsibilities
+
+### Keeping entries current
+
+Anyone can open an [✏️ Update issue](../../issues/new?template=02-update-entry.yml) to report a stale entry. Common triggers:
+
+- A service's MCP server is published → update the MCP section status from ⚠️ to ✅
+- A service publishes Agent Skills → update the Agent Skills section with the install command
+- A pricing tier changes → update the Pricing section if present
+- The homepage changes its tagline or positioning → update the quote and verify the criteria
+- A link returns 404 → fix immediately via a direct PR (no issue needed)
+
+### Flagging dead or pivoted services
+
+If a service shuts down or pivots away from agent-native positioning, open a [🚩 Flag issue](../../issues/new?template=03-flag-service.yml). The service will be either removed or moved to the `Excluded / Boundary Cases` section in `README.md` depending on the situation.
+
+### Agent Skills update cadence
+
+The Agent Skills ecosystem is evolving quickly. When a service that currently shows `⚠️ Not yet published` releases an official skill:
+
+1. Open an [✏️ Update issue](../../issues/new?template=02-update-entry.yml).
+2. In the PR, update the `## Agent Skills` section: change `⚠️` to `✅`, add the install command, and add the skill table.
+
+---
+
+## 11. Code of Conduct
+
+- Be respectful and constructive in all issue and PR discussions.
+- **Disclose financial interests.** If you work for, invest in, or otherwise benefit financially from a service you are proposing, state this clearly in your issue and PR. Failure to disclose is grounds for immediate rejection.
+- Do not submit services that are vaporware, in closed beta without public documentation, or have not shipped a production-ready product.
+- Do not open duplicate issues. Search first.
+- Maintainers reserve the right to close issues and reject PRs that do not follow these guidelines without extended discussion.
 
 ---
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.
+By contributing, you agree that your contributions will be licensed under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).

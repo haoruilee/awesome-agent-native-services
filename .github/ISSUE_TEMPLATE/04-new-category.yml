@@ -1,0 +1,72 @@
+name: "📂 Propose a new category"
+description: "Suggest a new top-level category for services that do not fit any existing category. Requires at least two qualifying services."
+title: "[New Category] <category-name>"
+labels: ["new-category", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New categories are added rarely and only when:
+        1. At least **two** services qualify that do not fit any existing category.
+        2. The category represents a meaningfully distinct agent-native problem domain.
+        3. The category is not just a subcategory of an existing one.
+
+        Existing categories: Communication · Browser & Web Execution · Tool Access & Integration · Oversight & Approval · Commerce & Payment · Agent Runtime & Infrastructure · Memory & State · Search & Web Intelligence · Code Execution · Observability & Tracing · Durable Execution & Scheduling · Meeting & Conversation
+
+  - type: input
+    id: category-name
+    attributes:
+      label: Proposed category name
+      placeholder: "e.g. Voice & Phone Services"
+    validations:
+      required: true
+
+  - type: textarea
+    id: category-rationale
+    attributes:
+      label: What agent-specific problem does this category solve?
+      description: "Explain why the problem this category addresses is distinct from existing categories and is inherently agent-specific."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-not-existing
+    attributes:
+      label: Why don't existing categories cover this?
+      description: "Name the closest existing category and explain why it is insufficient."
+    validations:
+      required: true
+
+  - type: textarea
+    id: service-1
+    attributes:
+      label: "Qualifying service #1"
+      description: "Provide the service name, website, and a brief argument for why it meets all five criteria."
+    validations:
+      required: true
+
+  - type: textarea
+    id: service-2
+    attributes:
+      label: "Qualifying service #2"
+      description: "Provide the service name, website, and a brief argument for why it meets all five criteria."
+    validations:
+      required: true
+
+  - type: textarea
+    id: service-3
+    attributes:
+      label: "Additional qualifying services (optional)"
+      description: "List any further services that would belong in this category."
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I have read all existing category definitions in CONTRIBUTING.md.
+          required: true
+        - label: I have provided at least two qualifying services with evidence.
+          required: true
+        - label: I have no undisclosed financial interest in any of the services listed.
+          required: true

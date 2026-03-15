@@ -1,0 +1,165 @@
+name: "🆕 Propose a new service"
+description: "Suggest an agent-native service for inclusion in the list. Read CONTRIBUTING.md before submitting."
+title: "[New Service] <service-name>"
+labels: ["new-service", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before you submit
+        - Read the [five hard criteria](../blob/main/CONTRIBUTING.md#the-five-hard-requirements) in CONTRIBUTING.md.
+        - Search [existing issues](../issues) and the [current list](../blob/main/README.md) to confirm this service is not already tracked.
+        - If you are unsure whether the service qualifies, open this issue **before** writing a PR. Maintainers will give a go/no-go.
+
+  - type: input
+    id: service-name
+    attributes:
+      label: Service name
+      placeholder: "e.g. AgentMail"
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Official website
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Official repository (if public)
+      placeholder: "https://github.com/..."
+
+  - type: input
+    id: tagline
+    attributes:
+      label: Official tagline (copy from the homepage)
+      placeholder: '"Email for AI agents."'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Proposed category
+      options:
+        - Communication Services
+        - Browser & Web Execution Services
+        - Tool Access & Integration Services
+        - Oversight & Approval Services
+        - Commerce & Payment Services
+        - Agent Runtime & Infrastructure Services
+        - Memory & State Services
+        - Search & Web Intelligence Services
+        - Code Execution Services
+        - Observability & Tracing Services
+        - Durable Execution & Scheduling Services
+        - Meeting & Conversation Services
+        - New category (explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-1
+    attributes:
+      label: "Criterion 1 — Agent-first positioning"
+      description: "Paste the exact quote from the official homepage or docs that positions AI agents as the primary consumer."
+      placeholder: |
+        Quote: "..."
+        Source URL: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-2
+    attributes:
+      label: "Criterion 2 — Agent-specific primitive"
+      description: "Describe the primitive(s) this service provides that have no meaningful human-facing equivalent."
+      placeholder: |
+        Primitive: ...
+        Why a human would not use this: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-3
+    attributes:
+      label: "Criterion 3 — Autonomy-compatible control plane"
+      description: "How does the service let agents operate without per-action human confirmation? What are the constraint mechanisms?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-4
+    attributes:
+      label: "Criterion 4 — Machine-to-machine integration surface"
+      description: "What is the primary interface? (SDK, REST API, MCP, webhook, etc.) Is there a human-facing UI? Is it the primary or secondary surface?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-5
+    attributes:
+      label: "Criterion 5 — Agent identity / delegation semantics"
+      description: "If the service involves external actions, how does it distinguish agent identity, delegated user permissions, and audit trail? If it does not involve external actions, write N/A."
+
+  - type: checkboxes
+    id: bonus-signals
+    attributes:
+      label: Bonus signals (check all that apply)
+      options:
+        - label: Has a dedicated agent identity model (agent gets its own credential)
+        - label: Supports MCP (Model Context Protocol) — provide server link below
+        - label: Has published Agent Skills (`SKILL.md`) — provide install command below
+        - label: Provides per-agent state / memory / session
+        - label: Provides audit / trajectory / replay / approval artifacts
+
+  - type: textarea
+    id: mcp-and-skills
+    attributes:
+      label: MCP server URL and/or Agent Skills install command (if applicable)
+      placeholder: |
+        MCP: https://...
+        Skills: npx skills add org/repo
+
+  - type: dropdown
+    id: classification
+    attributes:
+      label: Classification
+      description: "See CONTRIBUTING.md for definitions."
+      options:
+        - agent-native (designed from inception for agents)
+        - agent-adapted (originally human-facing, agent interface added later)
+        - agent-builder (for humans to build agents — not eligible for main list)
+    validations:
+      required: true
+
+  - type: textarea
+    id: generic-alternative
+    attributes:
+      label: Why the obvious generic alternative does not qualify
+      description: "Name the human-facing equivalent and explain why it fails the criteria."
+      placeholder: |
+        Generic alternative: Gmail API
+        Why it fails: Built for human accounts; requires OAuth consent from a real user; inbox belongs to a person.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I have read CONTRIBUTING.md in full.
+          required: true
+        - label: I searched existing issues and the current list — this service is not already tracked.
+          required: true
+        - label: The service has public documentation I can link to.
+          required: true
+        - label: The service is production-ready (not a demo or closed alpha).
+          required: true
+        - label: I have no undisclosed financial interest in this service.
+          required: true

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "📖 Read CONTRIBUTING.md first"
+    url: https://github.com/haoruilee/awesome-agent-native-services/blob/main/CONTRIBUTING.md
+    about: "Before opening any issue, please read the contribution guide — especially the five hard criteria."
+  - name: "🔍 Browse existing issues"
+    url: https://github.com/haoruilee/awesome-agent-native-services/issues
+    about: "Check whether your service, update, or category has already been proposed."
+  - name: "📋 View the current list"
+    url: https://github.com/haoruilee/awesome-agent-native-services/blob/main/README.md
+    about: "See which services are already listed before proposing a new one."
