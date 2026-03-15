@@ -27,6 +27,7 @@ Agent-native memory services solve this by providing:
 | [Mem0](mem0.md) | The memory layer for your AI agents | Python SDK, REST API | ✅ |
 | [Zep](zep.md) | Agent memory powered by a temporal knowledge graph | Python SDK, TypeScript SDK, Go SDK, REST API | ✅ |
 | [Ensue](ensue.md) | The shared memory network for AI agents | REST API, MCP stdio, Python Coordinator SDK, Agent Skill | ✅ |
+| [OpenViking](openviking.md) | The context database for AI agents | Python SDK, Rust CLI, HTTP MCP server, Agent Plugins | ✅ |
 
 ---
 
