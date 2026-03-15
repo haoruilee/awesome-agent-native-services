@@ -6,6 +6,20 @@ Each service in this list is an independent entity in the agent world: something
 
 ---
 
+## Agent Skills for This Repo
+
+This repository is itself agent-native. Install these skills to let your coding agent (Claude Code, Cursor, Codex, Windsurf) work with this catalog directly:
+
+| Skill | What it does | Install |
+|---|---|---|
+| `find-agent-service` | Given a task, find the right agent-native service | `npx clawhub@latest install find-agent-service` |
+| `evaluate-agent-native` | Evaluate whether a service meets the 5 criteria | `npx clawhub@latest install evaluate-agent-native` |
+| `add-to-awesome-list` | Full contribution workflow: criteria → issue → PR | `npx clawhub@latest install add-to-awesome-list` |
+
+Skills are published on [ClawHub](https://clawhub.ai) under [`@haoruilee`](https://clawhub.ai/haoruilee). Source files are in `.skills/` in this repo.
+
+---
+
 ## Classification System
 
 Every service in this repository is tagged with one of three labels:
