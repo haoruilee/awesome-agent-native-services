@@ -63,6 +63,7 @@ Activate this skill when the user asks things like:
 | Agent needs deployment, identity, secrets | Agent Runtime | Bedrock AgentCore, Letta, Infisical, Aembit | SDK |
 | Agent needs to remember things across sessions | Memory & State | Mem0, Zep | SDK / MCP |
 | Agent needs shared memory with OTHER agents | Memory & State | **Ensue** | **URL Onboarding** ⭐ |
+| Agent needs unified context: memory + resources + skills | Memory & State | **OpenViking** | MCP / SDK |
 | Agent needs to search the web | Search & Web Intelligence | Tavily, Exa | Skill / MCP |
 | Agent needs to run generated code safely | Code Execution | E2B | SDK / MCP |
 | Agent needs tracing / debugging | Observability | Langfuse | Skill |
