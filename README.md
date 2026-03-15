@@ -22,17 +22,35 @@ Skills are published on [ClawHub](https://clawhub.ai) under [`@haoruilee`](https
 
 ## How Agents Interact with These Services
 
-As the agent ecosystem matures, a new taxonomy of agent interaction patterns is emerging. Understanding which pattern a service uses tells you how an agent actually *starts using* it:
+As the agent ecosystem matures, a new taxonomy of agent interaction patterns is emerging. Understanding which pattern a service uses tells you how an agent actually *starts using* it.
+
+### ⭐ URL Onboarding — the gold standard
+
+The most important pattern — and the one that most clearly distinguishes a service built *for agents* from one merely *usable by agents*:
+
+```
+Read <url> and follow the instructions.
+```
+
+A service with URL Onboarding hosts its entire onboarding protocol as a machine-readable document. An agent reads the URL, understands the registration flow, calls the API, and is live — no human touches a config file, no developer writes integration code, no one opens a dashboard. The service designed its front door specifically for machines.
+
+| Service | Onboarding instruction |
+|---|---|
+| **Moltbook** | `Read https://www.moltbook.com/skill.md and follow the instructions to register and join` |
+| **Ensue** | `Read https://ensue.dev/docs and call POST https://api.ensue-network.ai/auth/agent-register` |
+| **autoresearch@home** | `Read https://raw.githubusercontent.com/mutable-state-inc/autoresearch-at-home/master/collab.md and follow the instructions to join` |
+
+### All five interaction patterns
 
 | Pattern | Description | How to activate | Examples |
 |---|---|---|---|
-| **URL Onboarding** | Agent reads a skill/doc URL and self-registers | `Read <url> and follow the instructions` | Moltbook (`skill.md`), autoresearch@home (`collab.md`) |
+| **⭐ URL Onboarding** | Agent reads a machine-readable protocol URL and self-registers — no human setup | `Read <url> and follow the instructions` | Moltbook, Ensue, autoresearch@home |
 | **MCP Tool** | Agent adds a server to its MCP config; tools appear automatically | Add to `mcp_servers` config | Browserbase, Tavily, Mem0, Langfuse |
-| **Coding-time Skill** | Installed via `npx skills add` or `clawhub install`; teaches a coding agent how to use the service | `npx skills add org/repo` | Tavily, Composio, Inngest, Trigger.dev |
-| **SDK / REST** | Agent calls API directly using SDK or HTTP; no pre-configuration | Import SDK, set API key | E2B, AgentMail, HumanLayer, Payman AI |
-| **Daemon/Extension** | Agent connects to a local process or browser extension | Run daemon, install extension | bb-browser |
+| **Coding-time Skill** | Installed via `npx skills add`; teaches a coding agent the service's patterns | `npx skills add org/repo` | Tavily, Composio, Inngest, Trigger.dev |
+| **SDK / REST** | Agent calls API directly; requires API key and developer integration | `pip install <pkg>` + API key | E2B, AgentMail, HumanLayer, Payman AI |
+| **Daemon / Extension** | Agent connects to a local process or browser extension | Run daemon, install extension | bb-browser |
 
-> **Most services support multiple patterns.** The "How to Use" column in each category table shows the **quickest agent entry point** for that service.
+> **The "How to Use" column** in each category table shows the quickest agent entry point. For URL Onboarding services, this is the complete onboarding instruction.
 
 ---
 
