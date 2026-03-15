@@ -24,17 +24,18 @@ Not yet publicly released as open-source. API and SDK available to registered de
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
-|---|---|
-| **Create Agent Identity (KYA)** | Issue a verified Know Your Agent identity token for a new agent |
-| **Fund Agent Wallet** | Credit an agent's Skyfire wallet via card, ACH, wire, or USDC |
-| **Execute Agent Checkout** | Pay for a service using the standardized KYAPay protocol |
-| **Set Spend Limits** | Configure per-agent budget caps and per-transaction maximums |
-| **Query Behavioral Record** | Retrieve an agent's immutable transaction history for fraud assessment |
-| **Authenticate Agent (OAuth2/OIDC)** | Verify agent identity using OAuth2/OIDC-compatible token flow |
-| **Monetize Service (Receiver)** | Accept agent payments by implementing the KYAPay receiver protocol |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ⚠️ No official skill published by Skyfire yet.
+
+Skyfire's integration is primarily via its REST API and the KYAPay open protocol. No `SKILL.md`-based skill has been published to the AgentSkills ecosystem as of Q1 2026.
+
+```bash
+# No official install command yet — watch the repo:
+# https://skyfire.xyz/product
+```
 
 ---
 

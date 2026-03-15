@@ -24,16 +24,35 @@ https://github.com/mendableai/firecrawl
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official skill published at [`firecrawl/cli`](https://github.com/firecrawl/cli)
+
+```bash
+npx skills add firecrawl/cli
+```
+
+Or install globally with full depth and all editors auto-detected:
+
+```bash
+npx skills add firecrawl/cli --full-depth --global --all
+```
+
+Or use the full CLI setup:
+
+```bash
+npx -y firecrawl-cli@latest init -y --browser
+```
+
+| Skill | What It Teaches the Agent |
 |---|---|
-| **Intent-Driven Extraction (`/agent`)** | Describe what data you need in natural language — no URLs required |
-| **Scrape** | Extract clean markdown or structured JSON from a single URL |
-| **Crawl** | Recursively crawl an entire site with configurable depth and rules |
-| **Extract (Schema)** | Pull structured data from one or many URLs using Pydantic/Zod schemas |
-| **Map** | Enumerate all URLs on a website as a structured graph |
-| **LLM-Ready Output** | All endpoints return markdown or typed JSON, never raw HTML |
+| `firecrawl` | Scrape, search, crawl, map, and autonomously extract web data; use browser mode for dynamic/JS-rendered sites |
+
+**Compatibility:** Claude Code, Cursor, Codex, OpenCode, and all MCP-compatible tools.
+
+> Released as part of Firecrawl v2.8.0 (February 2026). Set `FIRECRAWL_API_KEY` in your environment after installation.
 
 ---
 

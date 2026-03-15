@@ -25,17 +25,21 @@ https://github.com/agentmail-to
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
-|---|---|
-| **Create Agent Inbox** | Provision a new email address owned by an agent via API in milliseconds |
-| **Send Email** | Compose and send outbound email from an agent-owned inbox |
-| **Receive Email (Webhook)** | React to inbound email in real time via push webhook |
-| **Read Threads** | Retrieve and inject full conversation threads as structured context |
-| **Semantic Search** | Search across an agent's email history with natural language queries |
-| **Manage Attachments** | Read and write file attachments programmatically |
-| **Manage Inboxes** | List, update, and delete agent-owned inboxes via API |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ⚠️ No official skill published by AgentMail yet.
+
+Community skills are available on the ClawHub and LobeHub marketplaces. You can find email-related skills by searching:
+
+```bash
+npx clawhub@latest search agentmail
+# or
+npx -y @lobehub/market-cli skills search email agent
+```
+
+If you want to write a skill for AgentMail, see the [AgentSkills specification](https://agentskills.io/specification) and the AgentMail [REST API docs](https://docs.agentmail.to/api-reference/inboxes/create).
 
 ---
 

@@ -24,17 +24,33 @@ https://github.com/inngest/inngest — Core platform (open-source)
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official skills published at [`inngest/inngest-skills`](https://github.com/inngest/inngest-skills) — launched February 2026
+
+```bash
+npx skills add inngest/inngest-skills
+```
+
+Install specific skills:
+
+```bash
+npx skills add inngest/inngest-skills --skill inngest-durable-functions
+npx skills add inngest/inngest-skills --skill inngest-agents
+```
+
+| Skill | What It Teaches the Agent |
 |---|---|
-| **Define Durable Step** | Checkpoint state after each `step.run()` for resilient multi-step agent workflows |
-| **Context-Preserving Retry** | Retry failed steps while restoring all prior agent reasoning context |
-| **HITL Suspend/Resume** | Suspend execution via `step.waitForEvent()` until a human approval event arrives |
-| **Low-Latency Interactive Mode** | Optimized execution paths for real-time, interactive agent responses |
-| **Event-Driven Trigger** | Launch agent workflows in response to external events or webhooks |
-| **Cron Scheduling** | Schedule autonomous agent runs on cron expressions |
-| **Full Event History** | Query the complete execution history for any agent run |
+| `inngest-setup` | Initialize and configure an Inngest project |
+| `inngest-events` | Define, send, and handle Inngest events |
+| `inngest-durable-functions` | Write durable, checkpointed multi-step functions that survive failures |
+| `inngest-steps` | Use `step.run()`, `step.sleep()`, `step.waitForEvent()` for agent control flow |
+| `inngest-flow-control` | Implement concurrency limits, rate limiting, debouncing, and prioritization |
+| `inngest-middleware` | Add logging, error handling, and instrumentation middleware |
+
+**Compatibility:** Claude Code, Cursor, Codex, and all [AgentSkills](https://agentskills.io/)-compatible tools.
 
 ---
 

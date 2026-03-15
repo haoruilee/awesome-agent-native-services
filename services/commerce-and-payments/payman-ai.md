@@ -27,18 +27,28 @@ https://github.com/PaymanAI/payman-python — Python SDK
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official documentation MCP skill published at [`@PaymanAI/payman-doc-mcp-server`](https://glama.ai/mcp/servers/%40PaymanAI/payman-doc-mcp-server)
+
+The official skill provides documentation access and code examples. For the payment API skill, a community implementation is available:
+
+```bash
+# Install official documentation skill via Smithery
+npx @smithery/cli install @PaymanAI/payman-doc-mcp-server
+
+# Community payment API skill
+npx skills add hrishi0102/payman_mcp
+```
+
+| Skill | What It Teaches the Agent |
 |---|---|
-| **Execute Payment** | Initiate a real banking transaction (transfer, bill payment) autonomously |
-| **Policy Validation** | Validate a proposed transaction against operator-defined rules before execution |
-| **Intent Reasoning** | Interpret natural-language payment instructions (`"pay enough to cover rent"`) |
-| **Multi-Step Banking Workflow** | Chain analyze → plan → execute → confirm sequences autonomously |
-| **Generate Execution Trace** | Produce a tamper-evident audit record per transaction |
-| **Multi-Channel Deployment** | Run the same agent logic across voice, mobile, web, and SMS |
-| **Manage Payees** | Create, search, and manage payment recipients programmatically |
-| **Check Balance** | Query account balance on behalf of an agent |
+| `payman-doc-mcp-server` *(official)* | Access Payman documentation, code examples, and SDK help |
+| `payman_mcp` *(community)* | Execute payments, manage payees, check balances via natural language |
+
+**Compatibility:** Claude Desktop, Cursor, and all [AgentSkills](https://agentskills.io/)-compatible tools.
 
 ---
 

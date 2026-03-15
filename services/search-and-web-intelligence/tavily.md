@@ -29,18 +29,29 @@ https://github.com/tavily-ai/tavily-js — TypeScript/JavaScript SDK
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
-|---|---|
-| **Web Search** | Real-time agent-optimized web search returning ranked, pre-processed content snippets |
-| **Extract** | Clean content extraction from specific URLs in markdown or plain text |
-| **Crawl** | Combine map + extract for site-scale content retrieval |
-| **Map** | Enumerate all URLs on a site as a structured graph |
-| **Multi-Step Research** | Automated multi-angle research with synthesis and source attribution |
-| **Answer Generation** | Return a synthesized answer with supporting sources for a query |
-| **Domain Filtering** | Include or exclude specific domains from search results |
-| **Recency Filtering** | Filter results by publication date for time-sensitive queries |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official skills published at [`tavily-ai/skills`](https://github.com/tavily-ai/tavily-plugins) — also listed on [skills.sh/tavily-ai/tavily-plugins](https://skills.sh/tavily-ai/tavily-plugins)
+
+```bash
+npx skills add tavily-ai/skills
+```
+
+| Skill | Installs | What It Teaches the Agent |
+|---|---|---|
+| `research` | 128 | Multi-step web research with synthesis and source attribution |
+| `crawl-url` | 73 | Extract content from a URL with depth control and path filtering |
+| `search` | 32 | Real-time web search returning ranked, AI-optimized results |
+| `extract` | 30 | Clean content extraction from specific URLs |
+| `crawl` | 31 | Recursively crawl a site, saving pages as markdown |
+| `tavily-api-expert` | — | Best practices for using the Tavily API efficiently |
+| `deal-hunt` | — | Discover deals and pricing data across the web |
+
+**Compatibility:** Claude Code, Cursor, Codex, Windsurf, and all [AgentSkills](https://agentskills.io/)-compatible tools.
+
+> Set `TAVILY_API_KEY` in `~/.claude/settings.json` (or your agent's equivalent) before first use.
 
 ---
 

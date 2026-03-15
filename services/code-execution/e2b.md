@@ -29,18 +29,29 @@ https://github.com/e2b-dev/code-interpreter — Code interpreter SDK
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official and community skills available via ClawHub and LobeHub
+
+```bash
+# Core e2b skill (LobeHub marketplace)
+npx -y @lobehub/market-cli skills install beran-t-e2b-claude-skills-e2b
+
+# e2b-desktop skill for computer-use agents
+npx -y @lobehub/market-cli skills install openclaw-skills-e2b-desktop
+```
+
+| Skill | What It Teaches the Agent |
 |---|---|
-| **Create Sandbox** | Spin up an isolated Linux VM in ~150ms via API |
-| **Run Code** | Execute Python, JavaScript, shell commands, or any language in the sandbox |
-| **Stateful Execution** | Persist variables and state across multiple code blocks in the same session |
-| **Stream Output** | Receive stdout, stderr, charts (matplotlib, plotly), and file output in real time |
-| **Upload / Download Files** | Transfer files to and from the sandbox programmatically |
-| **Run MCP Server in Sandbox** | Host any MCP server inside a sandbox for safe, isolated tool execution |
-| **200+ Pre-built MCP Tools** | Access the Docker MCP Catalog from within E2B sandboxes |
-| **Destroy Sandbox** | Terminate and clean up a sandbox session via API |
+| `e2b` | SDK patterns for sandbox creation, lifecycle management, and code execution |
+| `e2b-desktop` *(computer-use)* | Control a headless Ubuntu+XFCE sandbox: screenshots, mouse/keyboard actions, VNC streaming |
+| `e2b-sandbox` *(community, skillmd.ai)* | Full sandbox lifecycle: create, pause, resume, kill, list; file upload/download; streaming output; env var management |
+
+**Compatibility:** Claude Code, Cursor, and all [AgentSkills](https://agentskills.io/)-compatible tools.
+
+> Set `E2B_API_KEY` in your agent's environment settings. See [skillmd.ai/how-to-build/e2b-sandbox](https://skillmd.ai/how-to-build/e2b-sandbox) for the community specification.
 
 ---
 

@@ -27,18 +27,31 @@ https://github.com/langfuse/mcp-server-langfuse — Official MCP server
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official skill published at [`langfuse/skills`](https://github.com/langfuse/skills) — listed on [skills.sh/langfuse/skills](https://skills.sh/langfuse/skills)
+
+```bash
+npx skills add https://github.com/langfuse/skills --skill langfuse-observability
+```
+
+| Skill | What It Teaches the Agent |
 |---|---|
-| **Trace Agent Run** | Capture a typed, hierarchical execution trace (session → span → LLM call → tool call) |
-| **Record Tool Call** | Log tool name, input, output, latency, and cost for every agent tool invocation |
-| **Track Context Injection** | Record which memories, documents, and prompts were injected per LLM call |
-| **Score Trace** | Annotate traces with human or LLM-as-judge quality scores |
-| **Create Eval Dataset** | Convert production traces to evaluation cases with one click |
-| **Run Evaluation** | Measure agent quality metrics across prompt versions or model updates |
-| **Query Cost / Token Usage** | Retrieve token usage and cost attribution per run, tool, or LLM call |
-| **Manage Prompts** | List, fetch, create, and update prompt templates via MCP or API |
+| `langfuse-observability` | Instrument LLM applications with Langfuse tracing following best practices: model name, token usage, proper span hierarchy, and framework integrations (OpenAI SDK, LangChain, LlamaIndex, Vercel AI SDK) |
+
+Additional skills from Langfuse:
+
+| Skill | What It Teaches the Agent |
+|---|---|
+| CLI tools | Use the Langfuse CLI for prompt management and export |
+| Prompt migration | Migrate prompts between environments |
+| API integration | Interact with Langfuse's REST API from agent code |
+
+**Compatibility:** Claude Code, Cursor, Codex, Windsurf, and all [AgentSkills](https://agentskills.io/)-compatible tools.
+
+> Set `LANGFUSE_PUBLIC_KEY` and `LANGFUSE_SECRET_KEY` in your agent's environment settings.
 
 ---
 

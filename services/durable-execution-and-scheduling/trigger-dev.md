@@ -24,18 +24,32 @@ https://github.com/triggerdotdev/trigger.dev
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official skills published at [`triggerdotdev/skills`](https://github.com/triggerdotdev/skills) — see [trigger.dev/docs/skills](https://trigger.dev/docs/skills)
+
+```bash
+npx skills add triggerdotdev/skills
+```
+
+Install specific skills:
+
+```bash
+npx skills add triggerdotdev/skills --skill trigger-tasks
+npx skills add triggerdotdev/skills --skill trigger-agents
+```
+
+| Skill | What It Teaches the Agent |
 |---|---|
-| **Define Durable Task** | Write a long-running agent task in TypeScript with step-level checkpointing |
-| **Step Checkpoint** | Persist task state after each `step.run()` so failures resume from the last checkpoint |
-| **HITL Suspend/Resume** | Pause task execution pending human approval; resume automatically on approval event |
-| **Trigger via API** | Invoke a task programmatically from any system via REST |
-| **Schedule with Cron** | Execute tasks autonomously on a cron schedule |
-| **Stream to Frontend** | Send real-time token stream to a user-facing frontend during long-running tasks |
-| **Retry with Context** | Retry failed steps while preserving agent reasoning context from prior steps |
-| **Full Execution Trace** | Inspect step timings, inputs, outputs, and error details per run |
+| `trigger-setup` | Initialize a Trigger.dev project with correct configuration |
+| `trigger-tasks` | Write and deploy background tasks and durable workflows |
+| `trigger-agents` | Build LLM workflows and multi-step AI agents with checkpointing |
+| `trigger-realtime` | Implement live progress updates and streaming to frontends |
+| `trigger-config` | Configure Trigger.dev build and runtime settings |
+
+**Compatibility:** Claude Code, Cursor, Codex, and all [AgentSkills](https://agentskills.io/)-compatible tools.
 
 ---
 

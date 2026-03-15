@@ -25,16 +25,30 @@ https://github.com/NangoHQ/nango
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official skills published by NangoHQ on the AgentSkills marketplace
+
+```bash
+$skills install @NangoHQ/sync-builder-skill
+```
+
+Or via the skills CLI:
+
+```bash
+npx skills add NangoHQ/sync-builder-skill
+```
+
+| Skill | What It Teaches the Agent |
 |---|---|
-| **Create Connect Session** | Initiate a hosted OAuth consent flow that the agent triggers inline during conversation |
-| **Get Connection** | Retrieve a valid, refreshed access token for a specific user + API pair at runtime |
-| **Automatic Token Refresh** | Keep credentials valid across agent sessions without manual intervention |
-| **Connection Management** | Create, inspect, and revoke per-user, per-API credential connections |
-| **Auth Observability** | Log authorization attempts, diagnose connection failures, detect credential expiry |
-| **700+ API Integrations** | Pre-built OAuth configurations for Salesforce, GitHub, Google, Slack, HubSpot, and 695+ more |
+| `sync-builder-skill` | Create and configure Nango syncs for continuous data synchronization from external APIs |
+| `github-oauth-nango-integration` *(community)* | Set up GitHub OAuth and GitHub App authentication flows using Nango |
+
+**Compatibility:** Claude Code, Cursor, Codex, and all [AgentSkills](https://agentskills.io/)-compatible tools.
+
+> See all Nango skills at [agentskills.in/@NangoHQ](https://www.agentskills.in/es/marketplace/%40NangoHQ).
 
 ---
 

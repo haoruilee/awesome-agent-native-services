@@ -25,18 +25,20 @@ https://github.com/recallai — GitHub organization (SDKs and integration librar
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
-|---|---|
-| **Deploy Meeting Bot** | Programmatically send a bot into a live or scheduled meeting |
-| **Receive Real-Time Transcript** | Stream speaker-diarized transcript segments via webhook within 10 seconds |
-| **Access Audio/Video Stream** | Retrieve raw audio and video feed from a bot session programmatically |
-| **Calendar-Triggered Deployment** | Auto-deploy bots for calendar events without per-meeting human action |
-| **Configure Per-Event Rules** | Set different recording behavior per calendar event type via Calendar V2 |
-| **Handle Edge Cases** | Automatically manage meeting reschedules, cancellations, and back-to-back sessions |
-| **Retrieve Meeting Metadata** | Access participants, timestamps, recording status, and platform details |
-| **Prevent Duplicate Bots** | Detect and block multiple bots from joining the same meeting |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ⚠️ No official skill published by Recall.ai yet.
+
+Recall.ai does not currently publish a `SKILL.md`-based skill. Integration is via REST API and webhook events.
+
+```bash
+# No official install command yet — watch the GitHub org:
+# https://github.com/recallai
+```
+
+> Note: `recallnet/recall-mcp` on npm is a different product (blockchain storage), not the Recall.ai meeting bot platform.
 
 ---
 

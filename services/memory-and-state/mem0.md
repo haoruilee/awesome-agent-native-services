@@ -28,18 +28,25 @@ https://github.com/mem0ai/mem0-mcp — Official MCP server
 
 ---
 
-## Skills
+## Agent Skills
 
-| Skill | Description |
+Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
+
+**Status:** ✅ Official skill available via the AgentSkills ecosystem
+
+Community skill published on skills.sh:
+
+```bash
+npx skills add yonatangross/orchestkit --skill mem0-memory
+```
+
+| Skill | What It Teaches the Agent |
 |---|---|
-| **Add Memory** | Extract and store salient facts from a conversation turn automatically |
-| **Search Memories** | Semantic search across stored memories to retrieve relevant context |
-| **Get Memories** | List memories with structured filters (user, agent, session, app) |
-| **Update Memory** | Overwrite or correct a specific stored memory |
-| **Delete Memory** | Remove a single memory or bulk-delete all memories for an entity |
-| **Conflict Resolution** | Automatically reconcile new facts with existing memories (ADD/UPDATE/DELETE/NOOP) |
-| **Graph Memory (Mem0ᵍ)** | Build relational graphs of entities and their relationships |
-| **List Entities** | Enumerate users, agents, or sessions that have stored memories |
+| `mem0-memory` | Persist and retrieve semantic memories across Claude sessions; organize by scope (project-decisions, project-patterns, project-continuity); auto-categorize across auth, testing, deployment, and database domains |
+
+**Compatibility:** Claude Code, Cursor, and all [AgentSkills](https://agentskills.io/)-compatible tools.
+
+> Set `MEM0_API_KEY` and `MEM0_USER_ID` in your agent's environment settings after installation. See [skills.sh/yonatangross/orchestkit/mem0-memory](https://skills.sh/yonatangross/orchestkit/mem0-memory).
 
 ---
 
