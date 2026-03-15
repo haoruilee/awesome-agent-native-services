@@ -79,6 +79,68 @@ The following categories of products are **not eligible**, regardless of their "
 
 ---
 
+## Repository Structure
+
+This repository is organized as follows:
+
+```
+README.md                          — Index and summary of all services
+CONTRIBUTING.md                    — This file
+services/
+  communication/
+    README.md                      — Category overview and criteria
+    agentmail.md                   — Per-service detail file
+  browser-and-web-execution/
+    README.md
+    browserbase.md
+    firecrawl.md
+  tool-access-and-integration/
+    README.md
+    composio.md
+    nango.md
+    toolhouse.md
+  oversight-and-approval/
+    README.md
+    humanlayer.md
+  commerce-and-payments/
+    README.md
+    payman-ai.md
+    skyfire.md
+    agentspay.md
+    nevermined.md
+  agent-runtime-and-infrastructure/
+    README.md
+    amazon-bedrock-agentcore.md
+    infisical-agent-sentinel.md
+  memory-and-state/
+    README.md
+    mem0.md
+  search-and-web-intelligence/
+    README.md
+    tavily.md
+    exa.md
+  code-execution/
+    README.md
+    e2b.md
+  observability-and-tracing/
+    README.md
+    langfuse.md
+  durable-execution-and-scheduling/
+    README.md
+    trigger-dev.md
+    inngest.md
+  meeting-and-conversation/
+    README.md
+    recall-ai.md
+```
+
+When adding a new service, you must:
+1. Create a new file in the appropriate category folder: `services/{category}/{service-name}.md`
+2. Add a row to the table in that category's `README.md`
+3. Add a row to the corresponding section in the root `README.md`
+
+---
+
 ## Submission Checklist
 
 Before opening a pull request, confirm all of the following:
@@ -88,9 +150,11 @@ Before opening a pull request, confirm all of the following:
 - [ ] The service exposes at least one primitive with no meaningful human-facing equivalent.
 - [ ] The primary interface is an API, SDK, MCP server, or webhook — not exclusively a UI.
 - [ ] The service is production-ready (not a demo, proof-of-concept, or invite-only alpha with no public documentation).
-- [ ] The entry follows the standard format (see below).
+- [ ] You have created a per-service file at `services/{category}/{service-name}.md` following the format below.
+- [ ] You have updated the category `README.md` table.
+- [ ] You have updated the root `README.md` table for the relevant section.
 - [ ] You have added the entry to the correct category, or proposed a new category with justification.
-- [ ] You have verified the links are live and accurate.
+- [ ] You have verified all links are live and accurate.
 
 ---
 
