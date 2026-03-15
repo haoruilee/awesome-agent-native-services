@@ -21,7 +21,8 @@ Durable execution for agents requires:
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
 | [Trigger.dev](trigger-dev.md) | Build and deploy fully-managed AI agents and workflows | TypeScript SDK, REST API, Cron | ❌ |
-| [Inngest](inngest.md) | Durable execution for AI agents in production | TypeScript SDK, Python SDK, REST API | ❌ |
+| [Inngest](inngest.md) | Durable execution for AI agents in production | TypeScript SDK, Python SDK, REST API | ✅ |
+| [Restate](restate.md) | Durable execution for AI agents — any framework, any cloud | Python SDK, TypeScript SDK, REST API | ✅ |
 
 ---
 

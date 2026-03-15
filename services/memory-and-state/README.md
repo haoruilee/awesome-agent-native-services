@@ -25,6 +25,7 @@ Agent-native memory services solve this by providing:
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
 | [Mem0](mem0.md) | The memory layer for your AI agents | Python SDK, REST API | ✅ |
+| [Zep](zep.md) | Agent memory powered by a temporal knowledge graph | Python SDK, TypeScript SDK, Go SDK, REST API | ✅ |
 
 ---
 
