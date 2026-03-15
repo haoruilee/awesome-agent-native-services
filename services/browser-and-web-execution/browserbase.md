@@ -14,6 +14,52 @@
 
 ---
 
+## Official Website
+
+https://browserbase.com
+
+---
+
+## Official Repo
+
+https://github.com/browserbase/stagehand — Stagehand (open-source NL web automation SDK built on Browserbase)
+
+https://github.com/browserbase/mcp-server-browserbase — Official MCP server
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Create Browser Session** | Spin up an isolated cloud browser instance via API |
+| **Navigate** | Direct the browser to any URL |
+| **Act (Natural Language)** | Issue natural-language web actions (`"click the login button"`) via Stagehand |
+| **Extract** | Extract structured data from the current page |
+| **Screenshot** | Capture a screenshot of the current page state |
+| **Session Recording** | Record and replay the full agent browser trajectory |
+| **Stealth Mode** | Randomize fingerprint and rotate proxy to avoid bot detection |
+| **Parallel Sessions** | Run thousands of concurrent browser sessions |
+| **CDP Access** | Low-level Chrome DevTools Protocol access for custom tooling |
+
+---
+
+## MCP
+
+**Status:** ✅ Available
+
+Browserbase provides an official MCP server that allows LLMs to control remote browser sessions directly through the Model Context Protocol.
+
+| Detail | Value |
+|---|---|
+| **MCP Page** | https://www.browserbase.com/mcp |
+| **MCP Docs** | https://docs.browserbase.com/integrations/mcp/introduction |
+| **MCP Repo** | https://github.com/browserbase/mcp-server-browserbase |
+| **Transport** | stdio / Streamable HTTP |
+| **Compatible Clients** | Claude Desktop, Cursor, OpenAI Agents, any MCP-compatible client |
+
+---
+
 ## What It Does
 
 Browserbase provides managed, cloud-hosted headless browser infrastructure specifically for AI agents. Agents spin up isolated browser sessions via API, control them through Playwright, Puppeteer, or Selenium — or through the Stagehand SDK using natural-language web actions — and destroy them when done. The entire browser lifecycle is agent-controlled, with no human sitting at a keyboard.

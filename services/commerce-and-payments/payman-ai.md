@@ -13,6 +13,50 @@
 
 ---
 
+## Official Website
+
+https://paymanai.com
+
+---
+
+## Official Repo
+
+https://github.com/PaymanAI/payman-node — Node.js / TypeScript SDK
+
+https://github.com/PaymanAI/payman-python — Python SDK
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Execute Payment** | Initiate a real banking transaction (transfer, bill payment) autonomously |
+| **Policy Validation** | Validate a proposed transaction against operator-defined rules before execution |
+| **Intent Reasoning** | Interpret natural-language payment instructions (`"pay enough to cover rent"`) |
+| **Multi-Step Banking Workflow** | Chain analyze → plan → execute → confirm sequences autonomously |
+| **Generate Execution Trace** | Produce a tamper-evident audit record per transaction |
+| **Multi-Channel Deployment** | Run the same agent logic across voice, mobile, web, and SMS |
+| **Manage Payees** | Create, search, and manage payment recipients programmatically |
+| **Check Balance** | Query account balance on behalf of an agent |
+
+---
+
+## MCP
+
+**Status:** ✅ Available
+
+Payman provides an official documentation MCP server (`@PaymanAI/payman-doc-mcp-server`) and a community payment API MCP server that enables AI assistants to perform payment operations through natural language.
+
+| Detail | Value |
+|---|---|
+| **Official Doc MCP** | `@PaymanAI/payman-doc-mcp-server` (via Smithery) |
+| **Payment API MCP** | https://github.com/hrishi0102/payman_mcp |
+| **Transport** | stdio / SSE |
+| **Compatible Clients** | Claude Desktop, Cursor, any MCP-compatible client |
+
+---
+
 ## What It Does
 
 Payman AI enables AI agents to **execute real banking transactions** — payments, transfers, and multi-step account operations — through natural conversation or API calls. Unlike a chatbot that describes how to make a payment, Payman's agents actually move money. Every transaction is validated against operator-defined policies before execution, with full compliance traces.

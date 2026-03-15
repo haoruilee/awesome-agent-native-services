@@ -12,6 +12,48 @@
 
 ---
 
+## Official Website
+
+https://inngest.com
+
+---
+
+## Official Repo
+
+https://github.com/inngest/inngest — Core platform (open-source)
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Define Durable Step** | Checkpoint state after each `step.run()` for resilient multi-step agent workflows |
+| **Context-Preserving Retry** | Retry failed steps while restoring all prior agent reasoning context |
+| **HITL Suspend/Resume** | Suspend execution via `step.waitForEvent()` until a human approval event arrives |
+| **Low-Latency Interactive Mode** | Optimized execution paths for real-time, interactive agent responses |
+| **Event-Driven Trigger** | Launch agent workflows in response to external events or webhooks |
+| **Cron Scheduling** | Schedule autonomous agent runs on cron expressions |
+| **Full Event History** | Query the complete execution history for any agent run |
+
+---
+
+## MCP
+
+**Status:** ✅ Available (via dev server)
+
+Inngest provides an MCP server built into its local dev server (`inngest-cli dev`). It exposes function invocation, event triggering, monitoring, and documentation search as MCP tools for use in Claude Code, Cursor, and compatible clients.
+
+| Detail | Value |
+|---|---|
+| **MCP Docs** | https://www.inngest.com/docs/ai-dev-tools/mcp |
+| **Local Endpoint** | `http://127.0.0.1:8288/mcp` (started with `npx inngest-cli@latest dev`) |
+| **Transport** | HTTP (local) |
+| **MCP Tools** | `send_event`, `list_functions`, `invoke_function`, `get_run`, and more |
+| **Compatible Clients** | Claude Code, Cursor, any MCP-compatible client |
+
+---
+
 ## What It Does
 
 Inngest provides a durable execution platform specifically addressing the production challenges of AI agents. It checkpoints state between tool calls, handles external API failures through intelligent retries that preserve agent context, and maps human-in-the-loop approval patterns to native suspend/resume primitives. In 2025, durable execution became a mainstream requirement as AWS, Cloudflare, and Vercel all launched competing offerings — Inngest was ahead of this trend.

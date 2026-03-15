@@ -12,6 +12,46 @@
 
 ---
 
+## Official Website
+
+https://skyfire.xyz
+
+---
+
+## Official Repo
+
+Not yet publicly released as open-source. API and SDK available to registered developers via the Skyfire developer portal.
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Create Agent Identity (KYA)** | Issue a verified Know Your Agent identity token for a new agent |
+| **Fund Agent Wallet** | Credit an agent's Skyfire wallet via card, ACH, wire, or USDC |
+| **Execute Agent Checkout** | Pay for a service using the standardized KYAPay protocol |
+| **Set Spend Limits** | Configure per-agent budget caps and per-transaction maximums |
+| **Query Behavioral Record** | Retrieve an agent's immutable transaction history for fraud assessment |
+| **Authenticate Agent (OAuth2/OIDC)** | Verify agent identity using OAuth2/OIDC-compatible token flow |
+| **Monetize Service (Receiver)** | Accept agent payments by implementing the KYAPay receiver protocol |
+
+---
+
+## MCP
+
+**Status:** ⚠️ Not yet publicly documented
+
+Skyfire does not currently publish a standalone MCP server. Integration is via REST API and the open KYAPay protocol. An agent framework integration (SDK) is available through the developer portal.
+
+| Detail | Value |
+|---|---|
+| **Developer Portal** | https://skyfire.xyz/product |
+| **Protocol** | KYAPay (open standard, OAuth2/OIDC-compatible) |
+| **API Docs** | Available after registration at skyfire.xyz |
+
+---
+
 ## What It Does
 
 Skyfire is a payment network and identity infrastructure built from the ground up for autonomous AI agents. It provides **Know Your Agent (KYA)** verified identities, agent wallets with programmable spend controls, and an open **KYAPay protocol** — so agents can sign up for services, authenticate, and pay without any human in the transaction loop. Service providers can monetize AI agent access directly, treating agents as a new class of verified customer.

@@ -13,6 +13,48 @@
 
 ---
 
+## Official Website
+
+https://recall.ai
+
+---
+
+## Official Repo
+
+https://github.com/recallai — GitHub organization (SDKs and integration libraries)
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Deploy Meeting Bot** | Programmatically send a bot into a live or scheduled meeting |
+| **Receive Real-Time Transcript** | Stream speaker-diarized transcript segments via webhook within 10 seconds |
+| **Access Audio/Video Stream** | Retrieve raw audio and video feed from a bot session programmatically |
+| **Calendar-Triggered Deployment** | Auto-deploy bots for calendar events without per-meeting human action |
+| **Configure Per-Event Rules** | Set different recording behavior per calendar event type via Calendar V2 |
+| **Handle Edge Cases** | Automatically manage meeting reschedules, cancellations, and back-to-back sessions |
+| **Retrieve Meeting Metadata** | Access participants, timestamps, recording status, and platform details |
+| **Prevent Duplicate Bots** | Detect and block multiple bots from joining the same meeting |
+
+---
+
+## MCP
+
+**Status:** ⚠️ No dedicated MCP server from Recall.ai
+
+Recall.ai does not currently publish a standalone MCP server. Integration is via REST API and webhook events. A third-party recall-themed MCP exists (`recallnet/recall-mcp`) but is for a different product (blockchain storage, not the meeting bot platform).
+
+| Detail | Value |
+|---|---|
+| **API Docs** | https://docs.recall.ai |
+| **Meeting Bot API** | https://www.recall.ai/product/meeting-bot-api |
+| **Calendar API** | https://www.recall.ai/product/calendar-integration-api |
+| **Primary Interface** | REST API + webhook events |
+
+---
+
 ## What It Does
 
 Recall.ai provides a unified API for deploying bots into Zoom, Google Meet, Microsoft Teams, Webex, Slack Huddles, and GoTo Meeting. Agents create bots via API, bots join scheduled or live meetings, and Recall.ai streams back real-time speaker-diarized transcripts, audio/video, and meeting metadata within 10 seconds — all without a human operating a meeting client.

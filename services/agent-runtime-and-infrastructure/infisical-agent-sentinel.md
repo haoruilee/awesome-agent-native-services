@@ -12,6 +12,50 @@
 
 ---
 
+## Official Website
+
+https://infisical.com
+
+---
+
+## Official Repo
+
+https://github.com/Infisical/infisical — Core platform
+
+https://github.com/Infisical/infisical-mcp-server — Official MCP server
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Dynamic Secret Generation** | Create temporary, time-bounded credentials on demand — never static long-lived secrets |
+| **Token Lifecycle Management** | Automatically renew access tokens before expiration via the agent daemon |
+| **Templated Secret Delivery** | Render secrets in Go templates and deliver as formatted config files or env vars |
+| **Policy-Scoped Access** | Define which secrets each agent class can access via access policies |
+| **JIT Credential Access** | Generate just-in-time credentials that expire automatically after use |
+| **Secret CRUD** | Create, read, update, and delete secrets and environments via API |
+| **Project Management** | Create projects, environments, and folders programmatically |
+
+---
+
+## MCP
+
+**Status:** ✅ Available
+
+Infisical provides an official MCP server (`@infisical/mcp`) that exposes secrets management operations — including CRUD on secrets, project management, and environment operations — as MCP tools.
+
+| Detail | Value |
+|---|---|
+| **MCP Repo** | https://github.com/Infisical/infisical-mcp-server |
+| **NPM Package** | `@infisical/mcp` |
+| **Transport** | stdio (run via `npx -y @infisical/mcp`) |
+| **Compatible Clients** | Claude Desktop, Cursor, any MCP-compatible client |
+| **Auth** | `INFISICAL_UNIVERSAL_AUTH_CLIENT_ID` + `INFISICAL_UNIVERSAL_AUTH_CLIENT_SECRET` |
+
+---
+
 ## What It Does
 
 Infisical Agent Sentinel governs how AI agents access external tools and services by centralizing authentication and policy enforcement. The Infisical Agent daemon runs alongside the agent process, manages token lifecycle and automatic renewal, and delivers secrets to the agent at runtime — without the secrets ever appearing in agent code or environment variables. Agent Sentinel specifically extends this to govern *AI agent* access to tools and APIs.

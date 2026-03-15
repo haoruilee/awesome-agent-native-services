@@ -12,6 +12,51 @@
 
 ---
 
+## Official Website
+
+https://nevermined.io
+
+---
+
+## Official Repo
+
+https://github.com/nevermined-io/payments — TypeScript SDK
+
+https://github.com/nevermined-io/payments-py — Python SDK
+
+https://github.com/nevermined-io/protocol — Core smart contracts
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **HTTP x402 Payment** | Pay for an API call inline within the HTTP request/response cycle |
+| **Prepay Credits** | Pre-fund an agent account; payments deducted automatically per call |
+| **Usage-Based Billing** | Pay per API call, per token, or per request |
+| **Outcome-Based Billing** | Pay only on successful task completion |
+| **Dynamic Pricing** | Accept variable prices based on demand, priority, or resource cost |
+| **Agent-to-Agent Payment** | Charge peer agents for specialist services in a multi-agent network |
+| **Create Pricing Plan** | Define time-based or credit-based plans for service monetization |
+| **Query Transaction History** | Retrieve per-agent payment records for audit |
+
+---
+
+## MCP
+
+**Status:** ⚠️ Not yet published as standalone MCP server
+
+Nevermined integrates at the HTTP protocol layer (x402). Any MCP-based agent that makes HTTP calls can transparently benefit from x402 payment handling. A dedicated MCP server tool has not been published as of Q1 2026.
+
+| Detail | Value |
+|---|---|
+| **Protocol** | HTTP x402 (RFC-level payment standard) |
+| **SDK Docs** | https://docs.nevermined.app/docs/libraries/getting-started/ |
+| **GitHub Org** | https://github.com/nevermined-io |
+
+---
+
 ## What It Does
 
 Nevermined's **x402 Facilitator** embeds payment directly into the HTTP protocol. When an agent makes an API request, the server responds with HTTP 402 Payment Required; the agent pays via the x402 protocol and the request is fulfilled — all within a single HTTP exchange. No human checkout flow. No redirect. Payment is part of the API call itself.

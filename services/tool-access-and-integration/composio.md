@@ -13,6 +13,45 @@
 
 ---
 
+## Official Website
+
+https://composio.dev
+
+---
+
+## Official Repo
+
+https://github.com/ComposioHQ/composio
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Runtime Tool Discovery** | Query the tool registry at runtime to find the right integration for the current task |
+| **Agent-Initiated OAuth** | Serve a Connect Link inline during conversation for one-time user consent |
+| **Tool Execution** | Call any of 250+ external APIs with managed authentication and result formatting |
+| **Credential Lifecycle** | Automatic OAuth token creation, refresh, and revocation per user |
+| **Per-User Scoping** | Isolate credentials per `user_id` so one agent serves thousands of users safely |
+| **Meta-Tool Access** | Receive `discover_tools`, `authenticate_app`, `execute_tool` as agent primitives |
+
+---
+
+## MCP
+
+**Status:** ✅ Available
+
+Composio is MCP-compatible and can expose all 250+ integrations as MCP tools. Agents using Claude Desktop, Cursor, or OpenAI Agents can call Composio tools without framework-specific packages.
+
+| Detail | Value |
+|---|---|
+| **MCP Docs** | https://docs.composio.dev/concepts/authentication |
+| **Transport** | stdio / SSE |
+| **Compatible Clients** | Claude Desktop, Cursor, OpenAI Agents SDK, any MCP-compatible client |
+
+---
+
 ## What It Does
 
 Composio gives AI agents the ability to **discover, authenticate, and call external tools at runtime**. Rather than a developer pre-configuring a fixed set of integrations at build time, agents receive meta-tools at runtime that let them find the right integration, authenticate on behalf of the user, and execute the call — all within the agent loop, without any human clicking an OAuth button.

@@ -13,6 +13,46 @@
 
 ---
 
+## Official Website
+
+https://agentmail.to
+
+---
+
+## Official Repo
+
+https://github.com/agentmail-to
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Create Agent Inbox** | Provision a new email address owned by an agent via API in milliseconds |
+| **Send Email** | Compose and send outbound email from an agent-owned inbox |
+| **Receive Email (Webhook)** | React to inbound email in real time via push webhook |
+| **Read Threads** | Retrieve and inject full conversation threads as structured context |
+| **Semantic Search** | Search across an agent's email history with natural language queries |
+| **Manage Attachments** | Read and write file attachments programmatically |
+| **Manage Inboxes** | List, update, and delete agent-owned inboxes via API |
+
+---
+
+## MCP
+
+**Status:** ✅ Available
+
+AgentMail provides an official MCP server for direct LLM tool use — agents can create inboxes, send emails, read threads, and manage attachments through the Model Context Protocol without writing REST API calls.
+
+| Detail | Value |
+|---|---|
+| **MCP Docs** | https://docs.agentmail.to/mcp |
+| **Transport** | stdio |
+| **Compatible Clients** | Claude Desktop, Cursor, any MCP-compatible client |
+
+---
+
 ## What It Does
 
 AgentMail is an email inbox API built for AI agents to **own** email identities. Rather than proxying through a human's Gmail or Outlook account, agents create dedicated inboxes via API, receive emails via webhook, participate in threaded conversations, and send replies — all without any human mail client in the loop.
