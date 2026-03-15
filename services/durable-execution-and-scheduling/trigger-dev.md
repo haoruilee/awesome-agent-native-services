@@ -12,6 +12,47 @@
 
 ---
 
+## Official Website
+
+https://trigger.dev
+
+---
+
+## Official Repo
+
+https://github.com/triggerdotdev/trigger.dev
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Define Durable Task** | Write a long-running agent task in TypeScript with step-level checkpointing |
+| **Step Checkpoint** | Persist task state after each `step.run()` so failures resume from the last checkpoint |
+| **HITL Suspend/Resume** | Pause task execution pending human approval; resume automatically on approval event |
+| **Trigger via API** | Invoke a task programmatically from any system via REST |
+| **Schedule with Cron** | Execute tasks autonomously on a cron schedule |
+| **Stream to Frontend** | Send real-time token stream to a user-facing frontend during long-running tasks |
+| **Retry with Context** | Retry failed steps while preserving agent reasoning context from prior steps |
+| **Full Execution Trace** | Inspect step timings, inputs, outputs, and error details per run |
+
+---
+
+## MCP
+
+**Status:** ⚠️ No dedicated MCP server published
+
+Trigger.dev does not currently provide a standalone MCP server. Tasks are triggered via REST API or cron. The TypeScript SDK integrates with any agentic framework including those that use MCP for tool orchestration.
+
+| Detail | Value |
+|---|---|
+| **API Docs** | https://trigger.dev/docs |
+| **GitHub** | https://github.com/triggerdotdev/trigger.dev |
+| **SDK** | TypeScript (primary), with streaming REST API |
+
+---
+
 ## What It Does
 
 Trigger.dev provides a durable execution runtime for AI agent tasks with **no timeouts**, type-safe TypeScript agent definitions, first-class human-in-the-loop pause/resume, full observability, and streaming responses to frontends. Agents can run multi-step workflows for hours or days — surviving infrastructure failures through automatic state checkpointing between steps.

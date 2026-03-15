@@ -12,6 +12,50 @@
 
 ---
 
+## Official Website
+
+https://exa.ai
+
+---
+
+## Official Repo
+
+https://github.com/exa-labs/exa-py — Python SDK
+
+https://github.com/exa-labs/exa-js — JavaScript/TypeScript SDK
+
+https://github.com/exa-labs/exa-mcp-server — Official MCP server
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Neural Search** | Embedding-based semantic search that understands conceptual meaning, not just keywords |
+| **Content Extraction** | Return full, clean parsed text from search results |
+| **Answer Synthesis** | Generate a synthesized answer with cited sources from multiple web pages |
+| **Websets** | Build structured datasets of entities (companies, people, papers) from web search |
+| **`exa-code` Search** | Specialized corpus search for code examples and documentation (optimized for coding agents) |
+| **Similarity Search** | Find documents semantically similar to a given URL or text |
+| **Domain-Constrained Search** | Limit semantic search to specific domains or site types |
+
+---
+
+## MCP
+
+**Status:** ✅ Available
+
+Exa provides an official MCP server (`exa-mcp-server`) enabling agents to trigger neural search, content extraction, and Webset operations directly through the Model Context Protocol.
+
+| Detail | Value |
+|---|---|
+| **MCP Repo** | https://github.com/exa-labs/exa-mcp-server |
+| **Transport** | stdio |
+| **Compatible Clients** | Claude Desktop, Cursor, Windsurf, Mastra, any MCP-compatible client |
+
+---
+
 ## What It Does
 
 Exa is a neural search engine that retrieves semantically relevant web content using embeddings rather than keyword matching. Its output is clean, parsed text ready for LLM consumption — not SERP links. Where keyword search fails on complex entity queries (specific people, companies, research topics), Exa's semantic model returns 20× more accurate results. The `exa-code` product specifically targets coding agents with token-efficient code and documentation retrieval.

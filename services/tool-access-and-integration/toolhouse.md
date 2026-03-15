@@ -11,6 +11,49 @@
 
 ---
 
+## Official Website
+
+https://toolhouse.ai
+
+---
+
+## Official Repo
+
+https://github.com/toolhouseai/toolhouse-sdk-python — Python SDK
+
+https://github.com/toolhouseai/toolhouse-sdk-typescript — TypeScript SDK
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Deploy Agent** | Publish an agent as a streaming REST API endpoint with `th deploy` |
+| **Tool Discovery (MCP)** | Automatically connect to Toolhouse's MCP server to discover available tools at runtime |
+| **Built-in RAG** | Retrieve relevant documents from a knowledge base without managing a vector store |
+| **Agent Memory** | Persist and retrieve agent memory across sessions |
+| **Scheduled Execution** | Run agents autonomously on cron schedules |
+| **Code Execution** | Execute code safely in a managed sandbox |
+| **Browser Use** | Control a headless browser from within an agent |
+| **Observability** | Inspect execution logs and MCP call traces per agent run |
+
+---
+
+## MCP
+
+**Status:** ✅ Built-in
+
+MCP is the core tool access mechanism in Toolhouse. Every deployed agent automatically connects to Toolhouse's MCP server, gaining access to all registered tools (RAG, memory, code execution, browser) without additional configuration.
+
+| Detail | Value |
+|---|---|
+| **MCP Docs** | https://docs.toolhouse.ai/toolhouse |
+| **Transport** | Streaming HTTP (built into agent endpoint) |
+| **Compatible Clients** | Any Toolhouse-deployed agent; Claude Desktop; Cursor |
+
+---
+
 ## What It Does
 
 Toolhouse is a Backend-as-a-Service platform where agents are the deployment unit. Developers define agents as code, publish them with `th deploy`, and Toolhouse exposes each agent as a streaming API endpoint. Each deployed agent automatically connects to Toolhouse's MCP server, gaining access to RAG, memory, code execution, browser use, and custom tools — without managing any infrastructure.

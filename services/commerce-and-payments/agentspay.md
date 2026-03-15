@@ -12,6 +12,46 @@
 
 ---
 
+## Official Website
+
+https://agentspay.dev
+
+---
+
+## Official Repo
+
+https://github.com/AgentPayy/AgentPayy — Core platform (TypeScript / Python)
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Issue Agent DID** | Create a W3C Decentralized Identifier on Base L2 for a new agent |
+| **Bootstrap Agent Wallet** | Provision a non-custodial USDC wallet for an agent without KYC |
+| **Execute Payment** | Pay for a service (API, data, tool) from the agent's USDC wallet |
+| **Discover Services (MCP Gateway)** | Query the MCP-native gateway to find and access paid services |
+| **Set Spending Ceiling** | Configure operator-defined maximum spend for an agent |
+| **Query On-Chain Record** | Retrieve an agent's transaction history from Base L2 |
+
+---
+
+## MCP
+
+**Status:** ✅ MCP-Native
+
+AgentsPay's API gateway is designed natively around the Model Context Protocol — service discovery and payment are MCP-native primitives, not an add-on layer.
+
+| Detail | Value |
+|---|---|
+| **MCP Gateway** | Built into the AgentsPay platform |
+| **Transport** | MCP-native (HTTP) |
+| **Chain** | Base L2 (Ethereum L2) |
+| **Standard** | W3C DID + x402 payment protocol |
+
+---
+
 ## What It Does
 
 AgentsPay issues **W3C Decentralized Identifiers (DIDs)** to AI agents on the Base L2 blockchain, embeds USDC wallets with operator-set spending limits, and provides an MCP-native API gateway. Agents can discover which services require payment and pay for them directly — solving the common agent failure mode where execution halts when an API key or payment is needed.

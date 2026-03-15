@@ -12,6 +12,45 @@
 
 ---
 
+## Official Website
+
+https://firecrawl.dev
+
+---
+
+## Official Repo
+
+https://github.com/mendableai/firecrawl
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Intent-Driven Extraction (`/agent`)** | Describe what data you need in natural language — no URLs required |
+| **Scrape** | Extract clean markdown or structured JSON from a single URL |
+| **Crawl** | Recursively crawl an entire site with configurable depth and rules |
+| **Extract (Schema)** | Pull structured data from one or many URLs using Pydantic/Zod schemas |
+| **Map** | Enumerate all URLs on a website as a structured graph |
+| **LLM-Ready Output** | All endpoints return markdown or typed JSON, never raw HTML |
+
+---
+
+## MCP
+
+**Status:** ✅ Available
+
+Firecrawl provides an official MCP server enabling agents to trigger scraping, extraction, and crawling operations directly through the Model Context Protocol.
+
+| Detail | Value |
+|---|---|
+| **MCP Repo** | https://github.com/mendableai/firecrawl/tree/main/apps/mcp-server |
+| **Transport** | stdio |
+| **Compatible Clients** | Claude Desktop, Cursor, any MCP-compatible client |
+
+---
+
 ## What It Does
 
 Firecrawl is a web extraction API that converts websites into clean, LLM-ready markdown or structured JSON. Its `/agent` endpoint goes further: agents describe *what data they need* in natural language — no URLs required. Firecrawl autonomously searches, navigates, and extracts across multiple sources in parallel, returning structured output directly consumable by an LLM.

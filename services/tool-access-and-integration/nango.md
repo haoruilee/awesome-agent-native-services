@@ -13,6 +13,46 @@
 
 ---
 
+## Official Website
+
+https://nango.dev
+
+---
+
+## Official Repo
+
+https://github.com/NangoHQ/nango
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Create Connect Session** | Initiate a hosted OAuth consent flow that the agent triggers inline during conversation |
+| **Get Connection** | Retrieve a valid, refreshed access token for a specific user + API pair at runtime |
+| **Automatic Token Refresh** | Keep credentials valid across agent sessions without manual intervention |
+| **Connection Management** | Create, inspect, and revoke per-user, per-API credential connections |
+| **Auth Observability** | Log authorization attempts, diagnose connection failures, detect credential expiry |
+| **700+ API Integrations** | Pre-built OAuth configurations for Salesforce, GitHub, Google, Slack, HubSpot, and 695+ more |
+
+---
+
+## MCP
+
+**Status:** ✅ Available
+
+Nango exposes a built-in MCP server that allows agents to connect to and interact with any of its 700+ integrations via the Model Context Protocol. Agents can call `mcp-generic` for any OAuth 2.0-compatible service with dynamic discovery.
+
+| Detail | Value |
+|---|---|
+| **MCP Docs** | https://docs.nango.dev/guides/mcp |
+| **MCP Generic** | https://nango.dev/docs/integrations/all/mcp-generic |
+| **Transport** | stdio / HTTP |
+| **Compatible Clients** | Claude Desktop, Cursor, OpenAI Agents SDK, any MCP-compatible client |
+
+---
+
 ## What It Does
 
 Nango manages OAuth authentication and credential lifecycle for 700+ external APIs so AI agents can access third-party services without ever handling tokens directly. Agents call `getConnection()` at runtime to receive a valid access token; Nango handles token storage, automatic refresh, and credential validation invisibly.

@@ -12,6 +12,45 @@
 
 ---
 
+## Official Website
+
+https://humanlayer.dev
+
+---
+
+## Official Repo
+
+https://github.com/humanlayer/humanlayer
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Require Approval** | Gate any function call on asynchronous human approval with `@require_approval()` |
+| **Denial Feedback Injection** | Automatically inject a human's denial explanation into the agent's context window |
+| **Escalation Routing** | Route approval requests to Slack, email, Discord, Teams, SMS, or RCS by urgency |
+| **Agent Webhook** | Launch an agent run in response to an inbound human message |
+| **Approval Lifecycle Management** | Create, poll, and resolve approval requests via REST API |
+| **Run / Call ID Audit** | Tag every approval event with a run ID and call ID for fine-grained audit |
+
+---
+
+## MCP
+
+**Status:** ⚠️ Not yet available as standalone MCP server
+
+HumanLayer does not currently publish a dedicated MCP server. However, the Python and TypeScript SDKs integrate natively with MCP-based agent frameworks (OpenAI Agents SDK, LangChain, CrewAI) so approval gates work in any MCP-orchestrated agent loop.
+
+| Detail | Value |
+|---|---|
+| **SDK Docs** | https://humanlayer.dev/docs |
+| **GitHub** | https://github.com/humanlayer/humanlayer |
+| **Framework Support** | LangChain, CrewAI, OpenAI, Claude, ControlFlow, Vercel AI SDK, Mastra |
+
+---
+
 ## What It Does
 
 HumanLayer is an API and SDK that lets AI agents request human approval before executing high-risk functions. The agent annotates specific functions with `@require_approval()`; when called, HumanLayer pauses execution, routes an approval request to a human via Slack, email, SMS, or other channels, and resumes the agent with the human's decision injected into its context window.

@@ -13,6 +13,52 @@
 
 ---
 
+## Official Website
+
+https://tavily.com
+
+---
+
+## Official Repo
+
+https://github.com/tavily-ai/tavily-python — Python SDK
+
+https://github.com/tavily-ai/tavily-mcp — Official MCP server (1,376+ stars)
+
+https://github.com/tavily-ai/tavily-js — TypeScript/JavaScript SDK
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Web Search** | Real-time agent-optimized web search returning ranked, pre-processed content snippets |
+| **Extract** | Clean content extraction from specific URLs in markdown or plain text |
+| **Crawl** | Combine map + extract for site-scale content retrieval |
+| **Map** | Enumerate all URLs on a site as a structured graph |
+| **Multi-Step Research** | Automated multi-angle research with synthesis and source attribution |
+| **Answer Generation** | Return a synthesized answer with supporting sources for a query |
+| **Domain Filtering** | Include or exclude specific domains from search results |
+| **Recency Filtering** | Filter results by publication date for time-sensitive queries |
+
+---
+
+## MCP
+
+**Status:** ✅ Available
+
+Tavily provides an official MCP server (`tavily-mcp`) with over 1,376 GitHub stars — one of the most widely adopted agent MCP integrations. Exposes search, extract, map, and crawl as MCP tools.
+
+| Detail | Value |
+|---|---|
+| **MCP Repo** | https://github.com/tavily-ai/tavily-mcp |
+| **Transport** | stdio |
+| **Compatible Clients** | Claude Desktop, Cursor, Windsurf, any MCP-compatible client |
+| **Agent Skills Repo** | https://github.com/tavily-ai/tavily-plugins |
+
+---
+
 ## What It Does
 
 Tavily is a web intelligence API built specifically for AI agents and RAG pipelines. Unlike general search APIs that return links for a human to click, Tavily returns **ranked, pre-processed content** ready for direct injection into an LLM's context window. It provides multiple specialized endpoints covering search, extraction, crawling, site mapping, and multi-step research.

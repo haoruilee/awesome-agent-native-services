@@ -14,6 +14,51 @@
 
 ---
 
+## Official Website
+
+https://mem0.ai
+
+---
+
+## Official Repo
+
+https://github.com/mem0ai/mem0
+
+https://github.com/mem0ai/mem0-mcp — Official MCP server
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Add Memory** | Extract and store salient facts from a conversation turn automatically |
+| **Search Memories** | Semantic search across stored memories to retrieve relevant context |
+| **Get Memories** | List memories with structured filters (user, agent, session, app) |
+| **Update Memory** | Overwrite or correct a specific stored memory |
+| **Delete Memory** | Remove a single memory or bulk-delete all memories for an entity |
+| **Conflict Resolution** | Automatically reconcile new facts with existing memories (ADD/UPDATE/DELETE/NOOP) |
+| **Graph Memory (Mem0ᵍ)** | Build relational graphs of entities and their relationships |
+| **List Entities** | Enumerate users, agents, or sessions that have stored memories |
+
+---
+
+## MCP
+
+**Status:** ✅ Available
+
+Mem0 provides an official MCP server (`mem0-mcp`) that exposes all nine memory management operations as MCP tools, enabling any MCP-compatible client to read and write agent memory.
+
+| Detail | Value |
+|---|---|
+| **MCP Docs** | https://docs.mem0.ai/integrations/mcp-server |
+| **MCP Repo** | https://github.com/mem0ai/mem0-mcp |
+| **PyPI Package** | `mem0-mcp-server` (install via `uvx` or `pip`) |
+| **Transport** | stdio / Docker / Smithery (hosted) |
+| **Compatible Clients** | Claude Desktop, Cursor, Windsurf, any MCP-compatible client |
+
+---
+
 ## What It Does
 
 Mem0 is a self-improving, adaptive memory layer for AI agents. It automatically extracts salient facts from conversations, reconciles new information with existing memories, and returns only the relevant context at query time — reducing token costs by 90% versus full context injection, while improving answer accuracy by 26% on memory benchmarks.

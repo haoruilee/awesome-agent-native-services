@@ -13,6 +13,55 @@
 
 ---
 
+## Official Website
+
+https://e2b.dev
+
+---
+
+## Official Repo
+
+https://github.com/e2b-dev/e2b — Core sandbox SDK
+
+https://github.com/e2b-dev/mcp-server — Official MCP server
+
+https://github.com/e2b-dev/code-interpreter — Code interpreter SDK
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Create Sandbox** | Spin up an isolated Linux VM in ~150ms via API |
+| **Run Code** | Execute Python, JavaScript, shell commands, or any language in the sandbox |
+| **Stateful Execution** | Persist variables and state across multiple code blocks in the same session |
+| **Stream Output** | Receive stdout, stderr, charts (matplotlib, plotly), and file output in real time |
+| **Upload / Download Files** | Transfer files to and from the sandbox programmatically |
+| **Run MCP Server in Sandbox** | Host any MCP server inside a sandbox for safe, isolated tool execution |
+| **200+ Pre-built MCP Tools** | Access the Docker MCP Catalog from within E2B sandboxes |
+| **Destroy Sandbox** | Terminate and clean up a sandbox session via API |
+
+---
+
+## MCP
+
+**Status:** ✅ Available — and uniquely, E2B *runs MCP servers inside sandboxes*
+
+E2B has a dual MCP relationship:
+1. **E2B as MCP tool** — An official MCP server (`e2b-dev/mcp-server`) that exposes code interpreter capabilities to LLMs via MCP.
+2. **E2B as MCP host** — E2B sandboxes can run any MCP server (200+ from the Docker MCP Catalog) inside isolated VMs, providing a safe execution environment for MCP tools.
+
+| Detail | Value |
+|---|---|
+| **MCP Docs** | https://e2b.dev/docs/mcp |
+| **MCP Server Repo** | https://github.com/e2b-dev/mcp-server |
+| **MCP in Sandbox Docs** | https://e2b.dev/docs/mcp/quickstart |
+| **Transport** | stdio (as MCP server) / HTTP (MCP gateway inside sandbox) |
+| **Compatible Clients** | Claude Desktop, OpenAI Agents SDK, any MCP-compatible client |
+
+---
+
 ## What It Does
 
 E2B provides secure, isolated Linux cloud sandboxes that AI agents can spin up in ~150ms to execute generated code. Each agent session gets its own sandbox with a full Linux filesystem, internet connectivity, and stateful execution contexts. Agents can run Python, JavaScript, shell commands, and more — with stdout, stderr, charts, and files streamed back in real time.

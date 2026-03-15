@@ -12,6 +12,51 @@
 
 ---
 
+## Official Website
+
+https://aws.amazon.com/bedrock/agentcore/
+
+---
+
+## Official Repo
+
+AWS managed service — no open-source repository. SDK access via the standard AWS SDK:
+
+https://github.com/aws/aws-sdk-python (Python: `boto3`)
+
+https://github.com/aws/aws-sdk-js-v3 (JavaScript/TypeScript)
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Run Agent (Runtime)** | Deploy and execute an agent in a managed, isolated cloud runtime |
+| **Session Isolation** | Ensure each agent run gets its own execution context with no state leakage |
+| **Short-Term Memory** | Capture and retrieve turn-by-turn interaction context within a session |
+| **Long-Term Memory** | Automatically extract and persist key facts and preferences across sessions |
+| **Issue Identity Token** | Generate a verified agent identity token for attribution and access control |
+| **Route Tool Access (Gateway)** | Securely proxy agent calls to external tools and APIs |
+| **Emit Traces (OTEL)** | Export OpenTelemetry-compatible agent execution traces to CloudWatch |
+| **Query Metrics** | Retrieve session count, latency, token usage, and error rates in real time |
+
+---
+
+## MCP
+
+**Status:** ⚠️ No standalone MCP server
+
+AgentCore uses OpenTelemetry as its telemetry standard and integrates with AWS-native tooling (CloudWatch, ADOT SDK). It does not publish a standalone MCP server. Agents running on AgentCore can consume MCP servers hosted externally via the AgentCore Gateway.
+
+| Detail | Value |
+|---|---|
+| **Observability Docs** | https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/observability.html |
+| **Memory Docs** | https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/memory.html |
+| **Telemetry Standard** | OpenTelemetry (OTEL) + AWS Distro for OpenTelemetry (ADOT) |
+
+---
+
 ## What It Does
 
 Amazon Bedrock AgentCore is a modular, purpose-built agent runtime suite from AWS. Unlike Bedrock's model inference APIs (which are general-purpose), AgentCore addresses the specific operational problems of running agents at scale: **Runtime** (managed execution), **Memory** (session and cross-session persistence), **Identity** (verified agent tokens), **Gateway** (tool access routing and security), and **Observability** (OpenTelemetry-based tracing and dashboards).

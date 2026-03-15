@@ -13,6 +13,52 @@
 
 ---
 
+## Official Website
+
+https://langfuse.com
+
+---
+
+## Official Repo
+
+https://github.com/langfuse/langfuse — Core platform (open-source)
+
+https://github.com/langfuse/mcp-server-langfuse — Official MCP server
+
+---
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| **Trace Agent Run** | Capture a typed, hierarchical execution trace (session → span → LLM call → tool call) |
+| **Record Tool Call** | Log tool name, input, output, latency, and cost for every agent tool invocation |
+| **Track Context Injection** | Record which memories, documents, and prompts were injected per LLM call |
+| **Score Trace** | Annotate traces with human or LLM-as-judge quality scores |
+| **Create Eval Dataset** | Convert production traces to evaluation cases with one click |
+| **Run Evaluation** | Measure agent quality metrics across prompt versions or model updates |
+| **Query Cost / Token Usage** | Retrieve token usage and cost attribution per run, tool, or LLM call |
+| **Manage Prompts** | List, fetch, create, and update prompt templates via MCP or API |
+
+---
+
+## MCP
+
+**Status:** ✅ Available
+
+Langfuse provides an official MCP server (`mcp-server-langfuse`) that exposes prompt management as MCP tools — enabling agents and IDEs to list, fetch, create, and update prompts directly through the Model Context Protocol.
+
+| Detail | Value |
+|---|---|
+| **MCP Docs** | https://langfuse.com/docs/api-and-data-platform/features/mcp-server |
+| **MCP Repo** | https://github.com/langfuse/mcp-server-langfuse |
+| **Transport** | StreamableHttp (native, no external setup) |
+| **Endpoint** | `https://cloud.langfuse.com/api/public/mcp` |
+| **Auth** | Basic Auth with base64-encoded project API keys |
+| **Compatible Clients** | Claude Desktop, Cursor, any MCP-compatible client |
+
+---
+
 ## What It Does
 
 Langfuse provides structured tracing for multi-step agent workflows. It captures the full execution trajectory of an agent — LLM calls, tool invocations, retriever steps, guardrail checks — organized in a typed, hierarchical trace structure. Production traces can be converted to evaluation datasets with one click, and OpenTelemetry integration allows existing monitoring infrastructure to receive agent telemetry.
