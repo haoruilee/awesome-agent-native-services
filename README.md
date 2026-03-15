@@ -52,18 +52,20 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 | # | Category | Services | Description |
 |---|---|---|---|
-| 1 | [Communication](#1-communication-services) | 1 | Give agents a communication identity on the internet |
-| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 2 | Remote browser and web data extraction for agents |
+| 1 | [Communication](#1-communication-services) | 2 | Give agents a communication identity on the internet |
+| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 3 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 3 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 4 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 2 | Execution, session isolation, secrets, and gateway |
-| 7 | [Memory & State](#7-memory--state-services) | 1 | Persistent agent memory across sessions |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 4 | Execution, session isolation, secrets, and gateway |
+| 7 | [Memory & State](#7-memory--state-services) | 2 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 2 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 1 | Secure sandboxes for AI-generated code |
 | 10 | [Observability & Tracing](#10-observability--tracing-services) | 1 | Agent trajectory tracing and evaluation |
-| 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 2 | Fault-tolerant long-running agent workflows |
+| 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 3 | Fault-tolerant long-running agent workflows |
 | 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 1 | Agent presence in voice and video meetings |
+| 13 | [Voice & Phone](#13-voice--phone-services) | 1 | Agent-controlled voice calls and phone infrastructure |
+| 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 1 | Per-agent budget, routing, caching, and observability for LLM calls |
 
 ---
 
@@ -76,6 +78,7 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | Service | Tagline | Primitives | MCP |
 |---|---|---|---|
 | [AgentMail](services/communication/agentmail.md) | Email for AI agents | Agent inbox · Threaded conversation · Webhook on inbound mail · Semantic search | ✅ |
+| [Novu](services/communication/novu.md) | Notification infrastructure with Agent Toolkit | Workflow-as-tool · Cross-channel delivery · HITL notification flow | ✅ |
 
 ---
 
@@ -89,6 +92,7 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 |---|---|---|---|
 | [Browserbase](services/browser-and-web-execution/browserbase.md) | A web browser for AI agents & applications | Remote browser session · Stagehand NL actions · Session recording · Stealth mode | ✅ |
 | [Firecrawl](services/browser-and-web-execution/firecrawl.md) | Turn any website into LLM-ready data | Intent-driven extraction · LLM-ready markdown · Schema-typed JSON output | ✅ |
+| [Bright Data Agent Browser](services/browser-and-web-execution/bright-data-agent-browser.md) | Cloud browser for AI agents with built-in website unlocking | Built-in CAPTCHA/fingerprint unlocking · 150M+ proxy IPs · Parallel sessions | ✅ |
 
 ---
 
@@ -142,7 +146,9 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | Service | Tagline | Primitives | MCP |
 |---|---|---|---|
 | [Amazon Bedrock AgentCore](services/agent-runtime-and-infrastructure/amazon-bedrock-agentcore.md) | Purpose-built for deploying and scaling dynamic AI agents and tools | Agent runtime · Long-term memory · Identity tokens · Tool gateway · OTEL tracing | ❌ |
-| [Infisical Agent Sentinel](services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md) | Secrets and credential governance for AI agents | Dynamic secret generation · Token lifecycle daemon · Per-agent policy | ❌ |
+| [Infisical Agent Sentinel](services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md) | Secrets and credential governance for AI agents | Dynamic secret generation · Token lifecycle daemon · Per-agent policy | ✅ |
+| [Letta](services/agent-runtime-and-infrastructure/letta.md) | The fastest way to bring stateful agents to production | Stateful agent · Model-agnostic state · Agent templates · Self-editing memory | ✅ |
+| [Aembit](services/agent-runtime-and-infrastructure/aembit.md) | Secretless workload identity and access management for AI agents | Agent workload identity · Blended identity · JIT credentials · Anomaly detection | ✅ |
 
 ---
 
@@ -155,6 +161,7 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | Service | Tagline | Primitives | MCP |
 |---|---|---|---|
 | [Mem0](services/memory-and-state/mem0.md) | The memory layer for your AI agents | Memory extraction · Conflict resolution (ADD/UPDATE/DELETE/NOOP) · Semantic retrieval · 90% token savings | ✅ |
+| [Zep](services/memory-and-state/zep.md) | Agent memory powered by a temporal knowledge graph | Temporal knowledge graph · Automatic fact invalidation · Business data fusion · Sub-200ms retrieval | ✅ |
 
 ---
 
@@ -204,7 +211,8 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | Service | Tagline | Primitives | MCP |
 |---|---|---|---|
 | [Trigger.dev](services/durable-execution-and-scheduling/trigger-dev.md) | Build and deploy fully-managed AI agents and workflows | No-timeout tasks · Step checkpointing · HITL waitForApproval · Streaming response | ❌ |
-| [Inngest](services/durable-execution-and-scheduling/inngest.md) | Durable execution for AI agents in production | Durable step · Context-preserving retry · HITL suspend/resume · Low-latency interactive mode | ❌ |
+| [Inngest](services/durable-execution-and-scheduling/inngest.md) | Durable execution for AI agents in production | Durable step · Context-preserving retry · HITL suspend/resume · Low-latency interactive mode | ✅ |
+| [Restate](services/durable-execution-and-scheduling/restate.md) | Durable execution for AI agents — any framework, any cloud | Durable AI loop · Compensation pattern · A2A exactly-once · Suspend-when-idle | ✅ |
 
 ---
 
@@ -217,6 +225,30 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | Service | Tagline | Primitives | MCP |
 |---|---|---|---|
 | [Recall.ai](services/meeting-and-conversation/recall-ai.md) | The meeting bot API for every platform | Meeting bot lifecycle · Real-time diarized transcript · Calendar-triggered deployment · 6 platforms | ❌ |
+
+---
+
+## 13. Voice & Phone Services
+
+> Give AI agents a first-class voice and telephony identity — letting agents make and receive phone calls, conduct voice conversations, and interact via speech autonomously.
+
+→ **[Full category overview and criteria](services/voice-and-phone/README.md)**
+
+| Service | Tagline | Primitives | MCP |
+|---|---|---|---|
+| [Vapi](services/voice-and-phone/vapi.md) | Build advanced voice AI agents | Voice assistant lifecycle · Tool-calling mid-call · Webhook per utterance · Voice simulation testing | ✅ |
+
+---
+
+## 14. LLM Gateway & Routing Services
+
+> Give AI agents a reliable, observable, and cost-controlled interface to LLM providers — with per-agent routing, budget enforcement, fallback, and semantic caching as first-class primitives.
+
+→ **[Full category overview and criteria](services/llm-gateway-and-routing/README.md)**
+
+| Service | Tagline | Primitives | MCP |
+|---|---|---|---|
+| [Portkey](services/llm-gateway-and-routing/portkey.md) | The AI gateway built for production agents | Virtual key · Per-agent budget limit · Automatic fallback · Sticky session routing · Agent trace | ❌ |
 
 ---
 

@@ -17,6 +17,7 @@ The web was designed for humans sitting in front of browsers. AI agents that nee
 |---|---|---|---|
 | [Browserbase](browserbase.md) | A web browser for AI agents & applications | REST, Playwright, Puppeteer, Selenium, CDP | ✅ |
 | [Firecrawl](firecrawl.md) | Turn any website into LLM-ready data | REST, Python SDK, Node.js SDK | ✅ |
+| [Bright Data Agent Browser](bright-data-agent-browser.md) | A cloud browser built for AI agents — with built-in website unlocking | REST API, AI SDK, MCP | ✅ |
 
 ---
 
