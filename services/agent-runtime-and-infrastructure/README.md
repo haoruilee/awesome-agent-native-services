@@ -19,6 +19,7 @@ The services in this category were purpose-built to fill this gap.
 
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
+| [acpx](acpx.md) | Headless ACP CLI — agents talk to coding agents over structured protocol, not PTY scraping | CLI, ACP protocol, SKILL.md | N/A |
 | [Amazon Bedrock AgentCore](amazon-bedrock-agentcore.md) | Purpose-built for deploying and scaling dynamic AI agents and tools | AWS SDK, REST API, OpenTelemetry | ❌ |
 | [Infisical Agent Sentinel](infisical-agent-sentinel.md) | Secrets and credential governance for AI agents | Daemon sidecar, REST API | ✅ |
 | [Letta](letta.md) | The fastest way to bring stateful agents to production | REST API, Python SDK, TypeScript SDK, MCP | ✅ |
