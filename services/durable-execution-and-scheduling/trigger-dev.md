@@ -7,6 +7,7 @@
 | **Website** | https://trigger.dev |
 | **Docs** | https://trigger.dev/docs |
 | **GitHub** | https://github.com/triggerdotdev/trigger.dev |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social)](https://github.com/triggerdotdev/trigger.dev) |
 | **Classification** | `agent-native` |
 | **Category** | [Durable Execution & Scheduling Services](README.md) |
 

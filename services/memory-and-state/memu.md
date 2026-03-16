@@ -7,10 +7,10 @@
 | **Website** | https://memu.pro |
 | **Docs** | https://memu.pro/docs |
 | **GitHub** | https://github.com/NevaMind-AI/memU |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/NevaMind-AI/memU?style=social)](https://github.com/NevaMind-AI/memU) |
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | Open-source |
-| **GitHub Stars** | 12,948+ |
 | **Publisher** | NevaMind AI |
 
 ---

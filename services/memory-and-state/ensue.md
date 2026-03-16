@@ -7,6 +7,7 @@
 | **Website** | https://ensue-network.ai |
 | **Docs** | https://ensue.dev/docs |
 | **GitHub** | https://github.com/mutable-state-inc |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/mutable-state-inc/autoresearch-at-home?style=social)](https://github.com/mutable-state-inc/autoresearch-at-home) |
 | **MCP** | https://github.com/mutable-state-inc/ensue-mcp-stdio |
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |

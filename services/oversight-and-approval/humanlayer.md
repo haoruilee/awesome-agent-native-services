@@ -7,6 +7,7 @@
 | **Website** | https://humanlayer.dev |
 | **Docs** | https://humanlayer.dev/docs |
 | **GitHub** | https://github.com/humanlayer/humanlayer |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/humanlayer/humanlayer?style=social)](https://github.com/humanlayer/humanlayer) |
 | **Classification** | `agent-native` |
 | **Category** | [Oversight & Approval Services](README.md) |
 

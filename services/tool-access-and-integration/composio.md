@@ -7,6 +7,7 @@
 | **Website** | https://composio.dev |
 | **Docs** | https://docs.composio.dev |
 | **GitHub** | https://github.com/ComposioHQ/composio |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/ComposioHQ/composio?style=social)](https://github.com/ComposioHQ/composio) |
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration Services](README.md) |
 | **Integrations** | 250+ external APIs |

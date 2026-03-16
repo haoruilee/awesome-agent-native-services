@@ -7,6 +7,7 @@
 | **Website** | https://www.getzep.com |
 | **Docs** | https://help.getzep.com |
 | **GitHub** | https://github.com/getzep/zep |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/getzep/zep?style=social)](https://github.com/getzep/zep) |
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **Research** | arxiv.org/abs/2501.13956 — Temporal Knowledge Graph Architecture |

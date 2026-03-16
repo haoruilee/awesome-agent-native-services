@@ -7,6 +7,7 @@
 | **Website** | https://tavily.com |
 | **Docs** | https://docs.tavily.com |
 | **GitHub** | https://github.com/tavily-ai/tavily-python |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/tavily-ai/tavily-mcp?style=social)](https://github.com/tavily-ai/tavily-mcp) |
 | **Classification** | `agent-native` |
 | **Category** | [Search & Web Intelligence Services](README.md) |
 | **Funding** | $25M |

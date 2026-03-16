@@ -7,6 +7,7 @@
 | **Website** | https://mem0.ai |
 | **Docs** | https://docs.mem0.ai |
 | **GitHub** | https://github.com/mem0ai/mem0 |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social)](https://github.com/mem0ai/mem0) |
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **Funding** | $24M Series A |

@@ -7,6 +7,7 @@
 | **Website** | https://restate.dev |
 | **Docs** | https://docs.restate.dev |
 | **GitHub** | https://github.com/restatedev/restate |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/restatedev/restate?style=social)](https://github.com/restatedev/restate) |
 | **Classification** | `agent-native` |
 | **Category** | [Durable Execution & Scheduling Services](README.md) |
 | **License** | BSL 1.1 (open-source) + Restate Cloud |

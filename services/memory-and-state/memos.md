@@ -7,10 +7,10 @@
 | **Website** | https://openmem.net |
 | **Docs** | https://memos-docs.openmem.net |
 | **GitHub** | https://github.com/MemTensor/MemOS |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/MemTensor/MemOS?style=social)](https://github.com/MemTensor/MemOS) |
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | Apache 2.0 |
-| **GitHub Stars** | 7,072+ |
 | **Publisher** | MemTensor / OpenMem |
 
 ---
