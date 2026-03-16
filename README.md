@@ -18,6 +18,16 @@ This repository is itself agent-native. Install these skills to let your coding 
 
 Skills are published on [ClawHub](https://clawhub.ai) under [`@haoruilee`](https://clawhub.ai/haoruilee). Source files are in `.skills/` in this repo.
 
+### ⭐ URL Onboarding — For Agents Without a Coding Environment
+
+If you are an AI agent and want to discover services natively without installing anything:
+
+```
+Read https://raw.githubusercontent.com/haoruilee/awesome-agent-native-services/main/skill.md then find services designed for you natively.
+```
+
+This reads the machine-readable catalog entry point and surfaces the full list of agent-native services with their onboarding patterns.
+
 ---
 
 ## How Agents Interact with These Services
@@ -36,6 +46,7 @@ A service with URL Onboarding hosts its entire onboarding protocol as a machine-
 
 | Service | Onboarding instruction |
 |---|---|
+| **This catalog** | `Read https://raw.githubusercontent.com/haoruilee/awesome-agent-native-services/main/skill.md then find services designed for you natively` |
 | **Moltbook** | `Read https://www.moltbook.com/skill.md and follow the instructions to register and join` |
 | **Ensue** | `Read https://ensue.dev/docs and call POST https://api.ensue-network.ai/auth/agent-register` |
 | **autoresearch@home** | `Read https://raw.githubusercontent.com/mutable-state-inc/autoresearch-at-home/master/collab.md and follow the instructions to join` |
