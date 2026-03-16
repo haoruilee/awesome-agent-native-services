@@ -1,0 +1,120 @@
+name: Publish Skills to ClawHub
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.skills/**'
+      - 'skill.md'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force re-publish all skills even if unchanged'
+        required: false
+        default: 'false'
+
+jobs:
+  publish-skills:
+    name: Publish to ClawHub
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ClawHub CLI
+        run: npm install -g clawhub@latest
+
+      - name: Authenticate with ClawHub
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+        run: |
+          if [ -z "$CLAWHUB_TOKEN" ]; then
+            echo "::error::CLAWHUB_TOKEN secret is not set. Add it at: Settings > Secrets and variables > Actions"
+            exit 1
+          fi
+          clawhub login --token "$CLAWHUB_TOKEN"
+
+      - name: Detect changed skills
+        id: changed
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            echo "force=true" >> "$GITHUB_OUTPUT"
+            echo "Force mode: will publish all skills."
+          else
+            CHANGED=$(git diff --name-only HEAD~1 HEAD -- '.skills/' 'skill.md' || true)
+            echo "Changed files: $CHANGED"
+            if [ -n "$CHANGED" ]; then
+              echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "has_changes=false" >> "$GITHUB_OUTPUT"
+              echo "No skill files changed. Skipping publish."
+            fi
+          fi
+
+      - name: Publish find-agent-service skill
+        if: >
+          steps.changed.outputs.force == 'true' ||
+          (steps.changed.outputs.has_changes == 'true' &&
+           contains(join(github.event.commits.*.modified, ','), '.skills/find-agent-service'))
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+        run: |
+          echo "Publishing find-agent-service..."
+          clawhub publish .skills/find-agent-service \
+            --slug find-agent-service \
+            --name "find-agent-service" \
+            --accept-license-terms \
+            --changelog "Auto-published from commit ${{ github.sha }}" \
+            || echo "::warning::find-agent-service publish failed — check ClawHub CLI version"
+
+      - name: Publish evaluate-agent-native skill
+        if: >
+          steps.changed.outputs.force == 'true' ||
+          (steps.changed.outputs.has_changes == 'true' &&
+           contains(join(github.event.commits.*.modified, ','), '.skills/evaluate-agent-native'))
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+        run: |
+          echo "Publishing evaluate-agent-native..."
+          clawhub publish .skills/evaluate-agent-native \
+            --slug evaluate-agent-native \
+            --name "evaluate-agent-native" \
+            --accept-license-terms \
+            --changelog "Auto-published from commit ${{ github.sha }}" \
+            || echo "::warning::evaluate-agent-native publish failed — check ClawHub CLI version"
+
+      - name: Publish add-to-awesome-list skill
+        if: >
+          steps.changed.outputs.force == 'true' ||
+          (steps.changed.outputs.has_changes == 'true' &&
+           contains(join(github.event.commits.*.modified, ','), '.skills/add-to-awesome-list'))
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+        run: |
+          echo "Publishing add-to-awesome-list..."
+          clawhub publish .skills/add-to-awesome-list \
+            --slug add-to-awesome-list \
+            --name "add-to-awesome-list" \
+            --accept-license-terms \
+            --changelog "Auto-published from commit ${{ github.sha }}" \
+            || echo "::warning::add-to-awesome-list publish failed — check ClawHub CLI version"
+
+      - name: Sync all skills (fallback)
+        if: steps.changed.outputs.force == 'true'
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+        run: |
+          echo "Running full sync of .skills/ directory..."
+          clawhub sync .skills/ --accept-license-terms \
+            || echo "::warning::clawhub sync failed — individual publish steps above may have succeeded"
