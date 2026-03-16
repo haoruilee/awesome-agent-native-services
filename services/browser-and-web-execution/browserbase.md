@@ -7,6 +7,7 @@
 | **Website** | https://browserbase.com |
 | **Docs** | https://docs.browserbase.com |
 | **GitHub** | https://github.com/browserbase |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/browserbase/stagehand?style=social)](https://github.com/browserbase/stagehand) |
 | **MCP** | https://www.browserbase.com/mcp |
 | **Classification** | `agent-native` |
 | **Category** | [Browser & Web Execution Services](README.md) |

@@ -7,6 +7,7 @@
 | **Website** | https://nango.dev |
 | **Docs** | https://docs.nango.dev |
 | **GitHub** | https://github.com/NangoHQ/nango |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/NangoHQ/nango?style=social)](https://github.com/NangoHQ/nango) |
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration Services](README.md) |
 | **Integrations** | 700+ external APIs |

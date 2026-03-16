@@ -7,11 +7,11 @@
 | **Website** | https://github.com/epiral/bb-browser |
 | **npm** | https://www.npmjs.com/package/bb-browser |
 | **GitHub** | https://github.com/epiral/bb-browser |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/epiral/bb-browser?style=social)](https://github.com/epiral/bb-browser) |
 | **Adapters** | https://github.com/epiral/bb-sites |
 | **Classification** | `agent-native` |
 | **Category** | [Browser & Web Execution Services](README.md) |
 | **License** | MIT |
-| **GitHub Stars** | 376+ |
 | **Scale** | 103 commands · 36 platforms |
 
 ---

@@ -7,6 +7,7 @@
 | **Website** | https://portkey.ai |
 | **Docs** | https://portkey.ai/docs |
 | **GitHub** | https://github.com/Portkey-AI/portkey-python-sdk |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social)](https://github.com/Portkey-AI/gateway) |
 | **Classification** | `agent-native` |
 | **Category** | [LLM Gateway & Routing Services](README.md) |
 | **Compliance** | SOC 2 · ISO 27001 |

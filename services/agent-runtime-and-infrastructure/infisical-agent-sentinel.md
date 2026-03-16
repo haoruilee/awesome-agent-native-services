@@ -7,6 +7,7 @@
 | **Website** | https://infisical.com |
 | **Agent Docs** | https://infisical.com/docs/infisical-agent/overview |
 | **GitHub** | https://github.com/Infisical/infisical |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/Infisical/infisical?style=social)](https://github.com/Infisical/infisical) |
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
 

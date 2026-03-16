@@ -7,6 +7,7 @@
 | **Website** | https://e2b.dev |
 | **Docs** | https://e2b.dev/docs |
 | **GitHub** | https://github.com/e2b-dev/e2b |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/e2b-dev/e2b?style=social)](https://github.com/e2b-dev/e2b) |
 | **Classification** | `agent-native` |
 | **Category** | [Code Execution Services](README.md) |
 | **GitHub Org Description** | "Cloud for AI Agents" |

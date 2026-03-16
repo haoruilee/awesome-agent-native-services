@@ -7,6 +7,7 @@
 | **Website** | https://inngest.com |
 | **Docs** | https://www.inngest.com/docs |
 | **GitHub** | https://github.com/inngest/inngest |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/inngest/inngest?style=social)](https://github.com/inngest/inngest) |
 | **Classification** | `agent-native` |
 | **Category** | [Durable Execution & Scheduling Services](README.md) |
 

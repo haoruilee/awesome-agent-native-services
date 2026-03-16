@@ -7,6 +7,7 @@
 | **Website** | https://letta.com |
 | **Docs** | https://docs.letta.com |
 | **GitHub** | https://github.com/letta-ai/letta |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/letta-ai/letta?style=social)](https://github.com/letta-ai/letta) |
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
 | **Origin** | Evolved from MemGPT (UC Berkeley) |

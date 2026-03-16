@@ -7,6 +7,7 @@
 | **Website** | https://langfuse.com |
 | **Docs** | https://langfuse.com/docs |
 | **GitHub** | https://github.com/langfuse/langfuse |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social)](https://github.com/langfuse/langfuse) |
 | **Classification** | `agent-native` |
 | **Category** | [Observability & Tracing Services](README.md) |
 | **License** | Open-source (MIT / enterprise) |

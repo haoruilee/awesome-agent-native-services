@@ -7,6 +7,7 @@
 | **Website** | https://novu.co |
 | **Docs** | https://docs.novu.co |
 | **GitHub** | https://github.com/novuhq/novu |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/novuhq/novu?style=social)](https://github.com/novuhq/novu) |
 | **Classification** | `agent-native` |
 | **Category** | [Communication Services](README.md) |
 | **License** | Open-source (MIT) + Novu Cloud |

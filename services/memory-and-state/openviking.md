@@ -7,10 +7,10 @@
 | **Website** | https://openviking.ai |
 | **Docs** | https://openviking.ai/docs |
 | **GitHub** | https://github.com/volcengine/OpenViking |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=social)](https://github.com/volcengine/OpenViking) |
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | Apache 2.0 |
-| **GitHub Stars** | 11,800+ |
 | **Publisher** | Volcengine (ByteDance) |
 
 ---
