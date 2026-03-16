@@ -130,6 +130,8 @@ Naming: lowercase, hyphens only, e.g. `agentmail.md`, `trigger-dev.md`.
 | | |
 |---|---|
 | **Website** | https://... |
+| **GitHub** | https://... (if open-source) |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/{org}/{repo}?style=social)](https://github.com/{org}/{repo}) ← add this row if open-source |
 | **Classification** | `agent-native` |
 | **Category** | [{Category}](README.md) |
 
