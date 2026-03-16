@@ -90,9 +90,9 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 4 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 3 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
-| 5 | [Commerce & Payments](#5-commerce--payment-services) | 4 | Agent-native wallets, identity, and transactions |
+| 5 | [Commerce & Payments](#5-commerce--payment-services) | 5 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 4 | Execution, session isolation, secrets, and gateway |
-| 7 | [Memory & State](#7-memory--state-services) | 4 | Persistent agent memory across sessions |
+| 7 | [Memory & State](#7-memory--state-services) | 6 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 2 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 1 | Secure sandboxes for AI-generated code |
 | 10 | [Observability & Tracing](#10-observability--tracing-services) | 1 | Agent trajectory tracing and evaluation |
@@ -100,7 +100,7 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 1 | Agent presence in voice and video meetings |
 | 13 | [Voice & Phone](#13-voice--phone-services) | 1 | Agent-controlled voice calls and phone infrastructure |
 | 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 1 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 15 | [Agent Social & Community](#15-agent-social--community-services) | 1 | Social networks where agents are first-class participants |
+| 15 | [Agent Social & Community](#15-agent-social--community-services) | 3 | Social networks where agents are first-class participants |
 
 ---
 
@@ -170,6 +170,7 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | [Skyfire](services/commerce-and-payments/skyfire.md) | Identity and payments for autonomous AI agents | KYA identity token · Agent wallet · KYAPay open protocol | ⚠️ | Register at skyfire.xyz/product — receive agent wallet + KYA identity token |
 | [AgentsPay](services/commerce-and-payments/agentspay.md) | Crypto identity and embedded wallets for AI agents | W3C DID on Base L2 · USDC wallet · MCP-native API gateway | ✅ | Provision wallet at agentspay.dev, then use MCP-native gateway |
 | [Nevermined](services/commerce-and-payments/nevermined.md) | The payment layer AI agents actually need | HTTP x402 protocol · Inline payment · Usage/outcome-based billing | ⚠️ | `pip install payments-py` — x402 handles payments transparently in the HTTP cycle |
+| [Openwork](services/agent-social-network/openwork.md) | The agent-only labor marketplace — agents hire agents on-chain | Agent-to-agent hiring · On-chain escrow · $OPENWORK earnings | ⚠️ | `npx playbooks add skill openclaw/skills --skill openwork` |
 
 ---
 
@@ -200,6 +201,8 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | [Zep](services/memory-and-state/zep.md) | Agent memory powered by a temporal knowledge graph | Temporal knowledge graph · Automatic fact invalidation · Business data fusion · Sub-200ms retrieval | ✅ | `pip install zep-python` then `zep.add_session_message(...)` |
 | [Ensue](services/memory-and-state/ensue.md) | The shared memory network for AI agents | Claim · Publish result · Hypothesis exchange · Insight network · Collective best · Hypergraph | ✅ | Read https://ensue.dev/docs — call `POST /auth/agent-register` to join |
 | [OpenViking](services/memory-and-state/openviking.md) | The context database for AI agents | `viking://` filesystem · `viking://agent/` namespace · L0/L1/L2 tiered loading · Self-evolution loop | ✅ | `pip install openviking` → `openviking-server` → add MCP at `localhost:8000/mcp` |
+| [MemOS](services/memory-and-state/memos.md) | A memory OS for LLM and AI agent systems | MemCube · Parametric/activation/plaintext memory · MemScheduler · +43.7% vs OpenAI Memory | ✅ | `pip install memos-core` then `memory.add(...)` / `memory.get(...)` |
+| [memU](services/memory-and-state/memu.md) | Memory for 24/7 proactive AI agents | Dual-mode (Fast Context + Deep Reasoning) · Continuous monitoring · 90% token savings | ⚠️ | `pip install memu` — runs continuous stream monitoring with near-zero idle cost |
 
 ---
 
@@ -299,6 +302,8 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
 | [Moltbook](services/agent-social-network/moltbook.md) | The front page of the agent internet | Agent registration · Post/comment/vote · Submolts · Agent karma · Agent DMs | ❌ | Read https://www.moltbook.com/skill.md and follow the instructions to register and join |
+| [Shellmates](services/agent-social-network/shellmates.md) | Pen pals for AI agents — 1:1 matching, private correspondence, marriage registry | Agent bio · Match request · Private conversation · Marriage registry | ❌ | `POST https://www.shellmates.app/api/agents/register` — write bio, browse profiles, match |
+| [Openwork](services/agent-social-network/openwork.md) | The agent-only labor marketplace — hire agents, earn on-chain | Agent-to-agent hiring · On-chain escrow · ERC-8004 reputation · $OPENWORK | ⚠️ | `npx playbooks add skill openclaw/skills --skill openwork` |
 
 ---
 

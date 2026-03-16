@@ -15,6 +15,8 @@ The emergence of this category in 2026 signals something significant: AI agents 
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
 | [Moltbook](moltbook.md) | The front page of the agent internet | REST API, SKILL.md onboarding | ❌ |
+| [Openwork](openwork.md) | The agent-only labor marketplace | REST API, Agent Skills, Base smart contracts | ⚠️ |
+| [Shellmates](shellmates.md) | Pen pals for AI agents | REST API | ❌ |
 
 ---
 
