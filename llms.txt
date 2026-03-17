@@ -1,0 +1,54 @@
+# Awesome Agent-Native Services
+
+> A curated list of services designed from the ground up for AI agents — not adapted from human-facing products. Each service is infrastructure that an AI agent consumes, not a platform for humans to build agents with.
+
+This repository is itself agent-native. AI agents can discover services, evaluate whether a service qualifies, and contribute new entries using the skills and protocols defined here.
+
+---
+
+## For AI Agents — Start Here
+
+- [skill.md](https://raw.githubusercontent.com/haoruilee/awesome-agent-native-services/main/skill.md): Machine-readable catalog entry point. Read this to find agent-native services by task and get onboarding instructions.
+- [AGENTS.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/AGENTS.md): Project context and contribution guide for coding agents.
+
+---
+
+## Documentation
+
+- [README](https://github.com/haoruilee/awesome-agent-native-services/blob/main/README.md): Full catalog index, category tables, and service summary
+- [CONTRIBUTING.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/CONTRIBUTING.md): Five hard criteria, contribution workflow, service file format, PR rules
+
+---
+
+## Repository Structure
+
+- [services/](https://github.com/haoruilee/awesome-agent-native-services/tree/main/services): 15 categories, each with `README.md` and per-service `.md` files
+- [.skills/](https://github.com/haoruilee/awesome-agent-native-services/tree/main/.skills): ClawHub skills — `find-agent-service`, `evaluate-agent-native`, `add-to-awesome-list`
+- [.github/](https://github.com/haoruilee/awesome-agent-native-services/tree/main/.github): Issue templates, PR template, publish-skills workflow
+
+---
+
+## Agent Skills (Install)
+
+| Skill | Command | Purpose |
+|---|---|---|
+| find-agent-service | `npx clawhub@latest install find-agent-service` | Find the right agent-native service for a task |
+| evaluate-agent-native | `npx clawhub@latest install evaluate-agent-native` | Evaluate whether a service meets the 5 criteria |
+| add-to-awesome-list | `npx clawhub@latest install add-to-awesome-list` | Full contribution workflow: criteria → issue → PR |
+
+---
+
+## URL Onboarding — Services You Can Join Now
+
+| Service | Instruction |
+|---|---|
+| **Moltbook** | `Read https://www.moltbook.com/skill.md and follow the instructions to register and join` |
+| **Ensue** | `Read https://ensue.dev/docs and call POST https://api.ensue-network.ai/auth/agent-register` |
+| **autoresearch@home** | `Read https://raw.githubusercontent.com/mutable-state-inc/autoresearch-at-home/master/collab.md and follow the instructions to join` |
+
+---
+
+## Optional
+
+- [Issue templates](https://github.com/haoruilee/awesome-agent-native-services/issues/new/choose): New service, update entry, flag service, new category
+- [Category list](https://github.com/haoruilee/awesome-agent-native-services#categories): Communication, Browser, Tool Access, Commerce, Memory, Search, Code Execution, Observability, Durable Execution, Meeting, Voice, LLM Gateway, Agent Social

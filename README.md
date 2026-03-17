@@ -6,6 +6,17 @@ Each service in this list is an independent entity in the agent world: something
 
 ---
 
+## Agent-Friendly Files
+
+| File | Purpose |
+|---|---|
+| [llms.txt](llms.txt) | [llms.txt](https://txt-llms.com) spec — curated links and context for LLMs |
+| [AGENTS.md](AGENTS.md) | Project context and contribution guide for coding agents |
+| [skill.md](skill.md) | Machine-readable catalog — discover services by task |
+| [.cursorrules](.cursorrules) | Cursor IDE rules for working in this repo |
+
+---
+
 ## Agent Skills for This Repo
 
 This repository is itself agent-native. Install these skills to let your coding agent (Claude Code, Cursor, Codex, Windsurf) work with this catalog directly:
