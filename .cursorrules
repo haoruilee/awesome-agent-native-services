@@ -1,0 +1,32 @@
+# Awesome Agent-Native Services — Cursor Rules
+
+You are working in a curated catalog of services designed for AI agents. This repo maintains quality over quantity: every entry must meet five hard criteria and follow strict formatting.
+
+## Project Context
+
+- **Purpose**: List services that treat AI agents as first-class consumers (agent-native), not human-facing products with agent extensions (agent-adapted).
+- **Key files**: `README.md` (index), `CONTRIBUTING.md` (criteria + workflow), `skill.md` (machine-readable catalog), `llms.txt` (LLM-friendly manifest).
+- **Structure**: `services/{category}/{service-name}.md` — each category has a README and per-service detail files.
+
+## When Editing
+
+1. **New service**: Requires prior approved issue. Create `services/{category}/{service-name}.md`, add row to category README, add row to root README. Follow the exact service file format in CONTRIBUTING.md §7.
+2. **Updates**: Use [Update entry](https://github.com/haoruilee/awesome-agent-native-services/issues/new?template=02-update-entry.yml) template. Include source URL.
+3. **PR title format**: `[New Service] Name`, `[Update] Name — what changed`, `[Fix] description`, `[New Category] Name`.
+
+## Conventions
+
+- File names: lowercase, hyphens only (e.g. `agentmail.md`, `trigger-dev.md`).
+- Classification: Only `agent-native` in main list. `agent-adapted` and `agent-builder` go in Excluded section.
+- Mark URL Onboarding services with ⭐ — agent joins with `Read <url> and follow the instructions`.
+- Verify all links before committing.
+
+## Five Hard Criteria (all required)
+
+1. Agent-first positioning (official docs)
+2. Agent-specific primitives (no human equivalent)
+3. Autonomy-compatible control plane
+4. Machine-to-machine integration (API/SDK/MCP)
+5. Agent identity / delegation semantics
+
+Read CONTRIBUTING.md for full criteria and evidence requirements.
