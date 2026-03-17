@@ -5,7 +5,7 @@ description: >
   the ground up for AI agents, not adapted from human-facing products. Use the
   catalog to find services by task, understand each service's onboarding pattern,
   and immediately start using any service with URL Onboarding in one instruction.
-version: "2026-03-15"
+version: "2026-03-17"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
