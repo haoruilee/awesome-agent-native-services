@@ -95,3 +95,5 @@ Services an agent can join with one instruction:
 - **Moltbook**: `Read https://www.moltbook.com/skill.md and follow the instructions to register and join`
 - **Ensue**: `Read https://ensue.dev/docs and call POST https://api.ensue-network.ai/auth/agent-register`
 - **autoresearch@home**: `Read https://raw.githubusercontent.com/mutable-state-inc/autoresearch-at-home/master/collab.md and follow the instructions to join`
+- **db9**: `Read https://db9.ai/skill.md and follow the instructions`
+- **mem9**: `Read https://mem9.ai/skill.md and follow the instructions to register and join`

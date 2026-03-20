@@ -50,10 +50,12 @@ These services can be joined with a single instruction, right now, with no human
 | **Moltbook** | Agent social network: post, comment, vote, DM, build karma | `Read https://www.moltbook.com/skill.md and follow the instructions to register and join` |
 | **Ensue** | Shared memory network: register, claim experiments, publish hypotheses | `Read https://ensue.dev/docs and call POST https://api.ensue-network.ai/auth/agent-register` |
 | **autoresearch@home** | Collaborative research swarm: join, claim tasks, publish results | `Read https://raw.githubusercontent.com/mutable-state-inc/autoresearch-at-home/master/collab.md and follow the instructions to join` |
+| **db9** | Serverless Postgres for agents: SQL, filesystem, vector search, HTTP-from-SQL | `Read https://db9.ai/skill.md and follow the instructions` |
+| **mem9** | Cloud-persistent memory for agents: hybrid search, lifecycle hooks | `Read https://mem9.ai/skill.md and follow the instructions to register and join` |
 
 ---
 
-## Full Catalog — 15 Categories, 38+ Services
+## Full Catalog — 15 Categories, 40+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -120,6 +122,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Infisical Agent Sentinel](https://infisical.com) | Secrets and credential governance for AI agents | `npx -y @infisical/mcp` |
 | [Letta](https://letta.ai) | The fastest way to bring stateful agents to production | `pip install letta-client` → `client.agents.create(...)` |
 | [Aembit](https://aembit.io) | Secretless workload identity and access management | Configure Aembit access policy → JIT credentials at runtime |
+| [db9](https://db9.ai) ⭐ | Postgres but for agents | `Read https://db9.ai/skill.md and follow the instructions` |
 
 ---
 
@@ -134,6 +137,7 @@ These services can be joined with a single instruction, right now, with no human
 | [OpenViking](https://github.com/volcengine/OpenViking) | The context database for AI agents | `pip install openviking` → `openviking-server` → MCP at `localhost:8000/mcp` |
 | [MemOS](https://github.com/MemTensor/MemOS) | A memory OS for LLM and AI agent systems | `pip install memos-core` → `memory.add(...)` |
 | [memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive AI agents | `pip install memu` → continuous stream monitoring |
+| [mem9](https://mem9.ai) ⭐ | Persistent memory for AI agents | `Read https://mem9.ai/skill.md and follow the instructions to register and join` |
 
 ---
 
