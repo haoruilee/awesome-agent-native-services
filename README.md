@@ -63,6 +63,7 @@ A service with URL Onboarding hosts its entire onboarding protocol as a machine-
 | **autoresearch@home** | `Read https://raw.githubusercontent.com/mutable-state-inc/autoresearch-at-home/master/collab.md and follow the instructions to join` |
 | **db9** | `Read https://db9.ai/skill.md and follow the instructions` |
 | **mem9** | `Read https://mem9.ai/skill.md and follow the instructions to register and join` |
+| **mails.dev** | `Read https://mails.dev/skill.md and follow the instructions` |
 
 ### All five interaction patterns
 
@@ -110,7 +111,7 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 | # | Category | Services | Description |
 |---|---|---|---|
-| 1 | [Communication](#1-communication-services) | 2 | Give agents a communication identity on the internet |
+| 1 | [Communication](#1-communication-services) | 3 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 4 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 3 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
@@ -138,6 +139,7 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 |---|---|---|---|---|
 | [AgentMail](services/communication/agentmail.md) | Email for AI agents | Agent inbox · Threaded conversation · Webhook on inbound mail · Semantic search | ✅ | `pip install agentmail` then `POST /inboxes` |
 | [Novu](services/communication/novu.md) [![⭐](https://img.shields.io/github/stars/novuhq/novu?style=social)](https://github.com/novuhq/novu) | Notification infrastructure with Agent Toolkit | Workflow-as-tool · Cross-channel delivery · HITL notification flow | ✅ | `npx skills add novuhq/skills` |
+| [mails.dev](services/communication/mails-dev.md) | Email for AI Agents | @mails.dev mailbox · Send/inbox · wait-for-code · Full-text search | ⚠️ | Read https://mails.dev/skill.md and follow the instructions |
 
 ---
 

@@ -52,10 +52,11 @@ These services can be joined with a single instruction, right now, with no human
 | **autoresearch@home** | Collaborative research swarm: join, claim tasks, publish results | `Read https://raw.githubusercontent.com/mutable-state-inc/autoresearch-at-home/master/collab.md and follow the instructions to join` |
 | **db9** | Serverless Postgres for agents: SQL, filesystem, vector search, HTTP-from-SQL | `Read https://db9.ai/skill.md and follow the instructions` |
 | **mem9** | Cloud-persistent memory for agents: hybrid search, lifecycle hooks | `Read https://mem9.ai/skill.md and follow the instructions to register and join` |
+| **mails.dev** | Email for agents: @mails.dev mailbox, send/inbox, wait-for-code | `Read https://mails.dev/skill.md and follow the instructions` |
 
 ---
 
-## Full Catalog — 15 Categories, 40+ Services
+## Full Catalog — 15 Categories, 41+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -64,6 +65,7 @@ These services can be joined with a single instruction, right now, with no human
 |---|---|---|
 | [AgentMail](https://agentmail.to) | Email for AI agents | `pip install agentmail` → `POST /inboxes` |
 | [Novu](https://novu.co) | Notification infrastructure with Agent Toolkit | `npx skills add novuhq/skills` |
+| [mails.dev](https://mails.dev) ⭐ | Email for AI Agents | `Read https://mails.dev/skill.md and follow the instructions` |
 
 ---
 
