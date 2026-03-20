@@ -30,6 +30,7 @@ Agent-native memory services solve this by providing:
 | [OpenViking](openviking.md) | The context database for AI agents | Python SDK, Rust CLI, HTTP MCP server, Agent Plugins | ✅ |
 | [MemOS](memos.md) | A memory OS for LLM and AI agent systems | Python SDK, REST API, MCP server, OpenClaw Plugin | ✅ |
 | [memU](memu.md) | Memory for 24/7 proactive AI agents | Python SDK, REST API | ⚠️ |
+| [mem9](mem9.md) | Persistent memory for AI agents | REST API, OpenClaw/Claude Code/OpenCode plugins | ⚠️ |
 
 ---
 

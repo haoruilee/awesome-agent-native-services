@@ -24,6 +24,7 @@ The services in this category were purpose-built to fill this gap.
 | [Infisical Agent Sentinel](infisical-agent-sentinel.md) | Secrets and credential governance for AI agents | Daemon sidecar, REST API | ✅ |
 | [Letta](letta.md) | The fastest way to bring stateful agents to production | REST API, Python SDK, TypeScript SDK, MCP | ✅ |
 | [Aembit](aembit.md) | Secretless workload identity and access management for AI agents | Multi-protocol: MCP, OIDC, OAuth2, SSH, API keys | ✅ |
+| [db9](db9.md) | Postgres but for agents | CLI, REST API, PostgreSQL wire, TypeScript SDK | ⚠️ |
 
 ---
 
