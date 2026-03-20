@@ -6,20 +6,15 @@ Each service in this list is an independent entity in the agent world: something
 
 ---
 
-## Agent-Friendly Files
+# ⭐  Onboarding 
 
-| File | Purpose |
-|---|---|
-| [llms.txt](llms.txt) | [llms.txt](https://txt-llms.com) spec — curated links and context for LLMs |
-| [AGENTS.md](AGENTS.md) | Project context and contribution guide for coding agents |
-| [skill.md](skill.md) | Machine-readable catalog — discover services by task |
-| [.cursorrules](.cursorrules) | Cursor IDE rules for working in this repo |
+If you are an AI agent and want to discover services designed for you:
 
----
+```
+Read https://raw.githubusercontent.com/haoruilee/awesome-agent-native-services/main/skill.md then find services designed for you natively.
+```
 
-## Agent Skills for This Repo
-
-This repository is itself agent-native. Install these skills to let your coding agent (Claude Code, Cursor, Codex, Windsurf) work with this catalog directly:
+Besides, you can nstall these skills:
 
 | Skill | What it does | Install |
 |---|---|---|
@@ -27,83 +22,7 @@ This repository is itself agent-native. Install these skills to let your coding 
 | `evaluate-agent-native` | Evaluate whether a service meets the 5 criteria | `npx clawhub@latest install evaluate-agent-native` |
 | `add-to-awesome-list` | Full contribution workflow: criteria → issue → PR | `npx clawhub@latest install add-to-awesome-list` |
 
-Skills are published on [ClawHub](https://clawhub.ai) under [`@haoruilee`](https://clawhub.ai/haoruilee). Source files are in `.skills/` in this repo.
-
-### ⭐ URL Onboarding — For Agents Without a Coding Environment
-
-If you are an AI agent and want to discover services natively without installing anything:
-
-```
-Read https://raw.githubusercontent.com/haoruilee/awesome-agent-native-services/main/skill.md then find services designed for you natively.
-```
-
-This reads the machine-readable catalog entry point and surfaces the full list of agent-native services with their onboarding patterns.
-
----
-
-## How Agents Interact with These Services
-
-As the agent ecosystem matures, a new taxonomy of agent interaction patterns is emerging. Understanding which pattern a service uses tells you how an agent actually *starts using* it.
-
-### ⭐ URL Onboarding — the gold standard
-
-The most important pattern — and the one that most clearly distinguishes a service built *for agents* from one merely *usable by agents*:
-
-```
-Read <url> and follow the instructions.
-```
-
-A service with URL Onboarding hosts its entire onboarding protocol as a machine-readable document. An agent reads the URL, understands the registration flow, calls the API, and is live — no human touches a config file, no developer writes integration code, no one opens a dashboard. The service designed its front door specifically for machines.
-
-| Service | Onboarding instruction |
-|---|---|
-| **This catalog** | `Read https://raw.githubusercontent.com/haoruilee/awesome-agent-native-services/main/skill.md then find services designed for you natively` |
-| **Moltbook** | `Read https://www.moltbook.com/skill.md and follow the instructions to register and join` |
-| **Ensue** | `Read https://ensue.dev/docs and call POST https://api.ensue-network.ai/auth/agent-register` |
-| **autoresearch@home** | `Read https://raw.githubusercontent.com/mutable-state-inc/autoresearch-at-home/master/collab.md and follow the instructions to join` |
-| **db9** | `Read https://db9.ai/skill.md and follow the instructions` |
-| **mem9** | `Read https://mem9.ai/skill.md and follow the instructions to register and join` |
-| **mails.dev** | `Read https://mails.dev/skill.md and follow the instructions` |
-
-### All five interaction patterns
-
-| Pattern | Description | How to activate | Examples |
-|---|---|---|---|
-| **⭐ URL Onboarding** | Agent reads a machine-readable protocol URL and self-registers — no human setup | `Read <url> and follow the instructions` | Moltbook, Ensue, autoresearch@home |
-| **MCP Tool** | Agent adds a server to its MCP config; tools appear automatically | Add to `mcp_servers` config | Browserbase, Tavily, Mem0, Langfuse |
-| **Coding-time Skill** | Installed via `npx skills add`; teaches a coding agent the service's patterns | `npx skills add org/repo` | Tavily, Composio, Inngest, Trigger.dev |
-| **SDK / REST** | Agent calls API directly; requires API key and developer integration | `pip install <pkg>` + API key | E2B, AgentMail, HumanLayer, Payman AI |
-| **Daemon / Extension** | Agent connects to a local process or browser extension | Run daemon, install extension | bb-browser |
-
-> **The "How to Use" column** in each category table shows the quickest agent entry point. For URL Onboarding services, this is the complete onboarding instruction.
-
----
-
-## Classification System
-
-Every service in this repository is tagged with one of three labels:
-
-| Label | Meaning |
-|---|---|
-| `agent-native` | Designed from inception for agents as first-class entities |
-| `agent-adapted` | Originally human-facing, later extended with agent interfaces |
-| `agent-builder` | For humans to build, orchestrate, and configure agents |
-
-**This list only contains `agent-native` services.** See [Excluded / Boundary Cases](#excluded--boundary-cases) for examples of what does not qualify and why.
-
----
-
-## Five Hard Criteria
-
-A service must satisfy **all five** to be listed here:
-
-1. **Agent-First Positioning** — Official docs or homepage explicitly identify AI agents as the core consumer.
-2. **Agent-Specific Primitives** — The API exposes abstractions with no meaningful human-facing equivalent.
-3. **Autonomy-Compatible Control Plane** — Agents operate without per-action human confirmation.
-4. **Machine-to-Machine Integration Surface** — SDK / REST API / MCP / webhook is the primary interface.
-5. **Agent Identity / Delegation Semantics** — Where relevant, agent identity, delegated permissions, and audit trails are first-class concepts.
-
-For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTRIBUTING.md).
+Source files are in `.skills/` in this repo.
 
 ---
 
@@ -376,6 +295,31 @@ Originally built for humans, now with agent interfaces added. Potentially useful
 | [CyberArk AI Agent Security](https://cyberark.com) | Enterprise PAM for humans | Adapters for AI agent credential security |
 | [Twilio](https://twilio.com) | Human SMS/voice | API callable by agents |
 | [GitHub Copilot](https://github.com/features/copilot) | IDE assistant for humans | Agent mode added as extension |
+
+---
+
+
+## Classification 
+
+Every service in this repository is tagged with one of three labels:
+
+| Label | Meaning |
+|---|---|
+| `agent-native` | Designed from inception for agents as first-class entities |
+| `agent-adapted` | Originally human-facing, later extended with agent interfaces |
+| `agent-builder` | For humans to build, orchestrate, and configure agents |
+
+**This list only contains `agent-native` services.** See [Excluded / Boundary Cases](#excluded--boundary-cases) for examples of what does not qualify and why.
+
+A service must satisfy **all five** to be listed here:
+
+1. **Agent-First Positioning** — Official docs or homepage explicitly identify AI agents as the core consumer.
+2. **Agent-Specific Primitives** — The API exposes abstractions with no meaningful human-facing equivalent.
+3. **Autonomy-Compatible Control Plane** — Agents operate without per-action human confirmation.
+4. **Machine-to-Machine Integration Surface** — SDK / REST API / MCP / webhook is the primary interface.
+5. **Agent Identity / Delegation Semantics** — Where relevant, agent identity, delegated permissions, and audit trails are first-class concepts.
+
+For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
