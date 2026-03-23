@@ -35,7 +35,7 @@ Source files are in `.skills/` in this repo.
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 3 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 5 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 6 | Execution, session isolation, secrets, and gateway |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 7 | Execution, session isolation, secrets, and gateway |
 | 7 | [Memory & State](#7-memory--state-services) | 7 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 2 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 1 | Secure sandboxes for AI-generated code |
@@ -127,6 +127,7 @@ Source files are in `.skills/` in this repo.
 
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
+| [Claude Peers](services/agent-runtime-and-infrastructure/claude-peers.md) [![⭐](https://img.shields.io/github/stars/louislva/claude-peers-mcp?style=social)](https://github.com/louislva/claude-peers-mcp) | Claude Code sessions discover peers and message each other locally | Peer discovery · Ad-hoc messaging · Channel push · Repo/directory scope | ✅ | Clone repo → `bun install` → `claude mcp add` per [README](https://github.com/louislva/claude-peers-mcp/blob/main/README.md) |
 | [acpx](services/agent-runtime-and-infrastructure/acpx.md) [![⭐](https://img.shields.io/github/stars/openclaw/acpx?style=social)](https://github.com/openclaw/acpx) | Headless ACP CLI — agents talk to coding agents over structured protocol | Persistent sessions · Prompt queueing · Cooperative cancel · Structured output | N/A | `npm install -g acpx` then `acpx codex "fix the tests"` |
 | [Amazon Bedrock AgentCore](services/agent-runtime-and-infrastructure/amazon-bedrock-agentcore.md) | Purpose-built for deploying and scaling dynamic AI agents and tools | Agent runtime · Long-term memory · Identity tokens · Tool gateway · OTEL tracing | ⚠️ | `pip install boto3` — configure AgentCore runtime via AWS SDK |
 | [Infisical Agent Sentinel](services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md) [![⭐](https://img.shields.io/github/stars/Infisical/infisical?style=social)](https://github.com/Infisical/infisical) | Secrets and credential governance for AI agents | Dynamic secret generation · Token lifecycle daemon · Per-agent policy | ✅ | `npx -y @infisical/mcp` or deploy the agent daemon sidecar |

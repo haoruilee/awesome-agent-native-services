@@ -5,7 +5,7 @@ description: >
   the ground up for AI agents, not adapted from human-facing products. Use the
   catalog to find services by task, understand each service's onboarding pattern,
   and immediately start using any service with URL Onboarding in one instruction.
-version: "2026-03-17"
+version: "2026-03-23"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -56,7 +56,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 41+ Services
+## Full Catalog — 15 Categories, 42+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -119,6 +119,7 @@ These services can be joined with a single instruction, right now, with no human
 
 | Service | Tagline | Onboarding |
 |---|---|---|
+| [Claude Peers](https://github.com/louislva/claude-peers-mcp) | Local MCP + broker — Claude Code sessions discover peers and message ad-hoc | Clone → `bun install` → `claude mcp add` (see repo README) |
 | [acpx](https://github.com/openclaw/acpx) | Headless ACP CLI — agents talk to coding agents over structured protocol | `npm install -g acpx` → `acpx codex "fix the tests"` |
 | [Amazon Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore/) | Purpose-built for deploying and scaling dynamic AI agents | `pip install boto3` → configure AgentCore runtime |
 | [Infisical Agent Sentinel](https://infisical.com) | Secrets and credential governance for AI agents | `npx -y @infisical/mcp` |
