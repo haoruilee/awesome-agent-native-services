@@ -56,7 +56,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 42+ Services
+## Full Catalog — 15 Categories, 43+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -78,6 +78,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Firecrawl](https://firecrawl.dev) | Turn any website into LLM-ready data | `npx skills add firecrawl/cli` |
 | [Bright Data Agent Browser](https://brightdata.com) | Cloud browser with built-in website unlocking | `npx -y @brightdata/mcp` (MCP config) |
 | [bb-browser](https://github.com/epiral/bb-browser) | Your browser is the API — 103 commands, 36 platforms | `npm install -g bb-browser` + Chrome extension |
+| [OpenCLI](https://github.com/jackwener/opencli) | Sites + Electron + local CLIs as one CLI; reuse Chrome login | `npm install -g @jackwener/opencli` → `opencli list`; read raw `SKILL.md` in repo |
 
 ---
 
