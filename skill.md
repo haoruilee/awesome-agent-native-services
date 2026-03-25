@@ -222,6 +222,17 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
+## Agent skills hubs (registries like ClawHub)
+
+These are **curated skill packs and marketplaces** — machine-readable instructions (`SKILL.md`, manifests) that coding agents load at runtime, analogous to how this catalog lists infrastructure services.
+
+| Hub | Role | How to start |
+|---|---|---|
+| **ClawHub** | Public registry for OpenClaw-style skills — search, install, publish via CLI | `npx clawhub@latest search <topic>` — [claw-hub.net](https://claw-hub.net/) · [openclaw/clawhub](https://github.com/openclaw/clawhub) |
+| **MiniMax Skills** | Official deep-tuned development skills for AI coding agents (frontend, fullstack, Android, iOS, shaders, office docs) | [github.com/MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) — follow **Installation** in the repo README (Claude Code plugin, Cursor `skills/` path, Codex / OpenCode symlinks) |
+
+---
+
 ## Interaction Patterns Reference
 
 | Pattern | How to activate | Best for |
