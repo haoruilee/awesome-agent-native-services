@@ -28,6 +28,13 @@ This repository is itself agent-native. AI agents can discover services, evaluat
 
 ---
 
+## Related — agent skills registries (ecosystem hubs)
+
+- [ClawHub](https://claw-hub.net/): OpenClaw skill marketplace — `npx clawhub@latest` ([openclaw/clawhub](https://github.com/openclaw/clawhub))
+- [MiniMax Skills](https://github.com/MiniMax-AI/skills): Curated `SKILL.md` packs for AI coding agents (Claude Code, Cursor, Codex, OpenCode) — see repo README for install paths
+
+---
+
 ## Agent Skills (Install)
 
 | Skill | Command | Purpose |

@@ -264,6 +264,8 @@ Organizations that provide multiple agent-native services or tools:
 | Hub | What It Provides | Notable Projects |
 |---|---|---|
 | [OpenClaw](https://github.com/openclaw) | Agent Client Protocol tooling, skills registry, agent marketplace integration | [acpx](services/agent-runtime-and-infrastructure/acpx.md) (ACP CLI), [openclaw/skills](https://github.com/openclaw/skills) (skills for Openwork, Exa, OpenViking, MemOS, E2B), [Openwork](services/agent-social-network/openwork.md) integration |
+| [ClawHub](https://claw-hub.net/) | Public skill registry and marketplace for OpenClaw-style agents — search, install, and publish skills from the CLI | [openclaw/clawhub](https://github.com/openclaw/clawhub) (CLI), [`.skills/`](https://github.com/haoruilee/awesome-agent-native-services/tree/main/.skills) in this repo |
+| [MiniMax Skills](https://github.com/MiniMax-AI/skills) [![⭐](https://img.shields.io/github/stars/MiniMax-AI/skills?style=social)](https://github.com/MiniMax-AI/skills) | Curated **development skills** for AI coding agents — structured `SKILL.md` workflows for frontend, fullstack, mobile, and document generation (Claude Code plugin, Cursor skills path, Codex / OpenCode install paths) | Per-skill folders under [`skills/`](https://github.com/MiniMax-AI/skills/tree/main/skills) with YAML-frontmatter `SKILL.md` ([contributing spec](https://github.com/MiniMax-AI/skills/blob/main/CONTRIBUTING.md)) |
 
 ---
 
