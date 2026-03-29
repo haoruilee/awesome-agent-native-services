@@ -7,6 +7,7 @@
 | **Website** | https://lycheemem.github.io/ |
 | **Docs** | https://github.com/LycheeMem/LycheeMem/blob/master/README.md |
 | **GitHub** | https://github.com/LycheeMem/LycheeMem |
+| **OpenClaw setup** | https://github.com/LycheeMem/LycheeMem/blob/master/openclaw-plugin/INSTALL_OPENCLAW.md |
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/LycheeMem/LycheeMem?style=social)](https://github.com/LycheeMem/LycheeMem) |
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
@@ -39,7 +40,9 @@ python main.py         # API at http://localhost:8000 — docs at /docs
 
 **MCP (remote HTTP):** After the server is running, point MCP clients at `http://localhost:8000/mcp` — use `POST /mcp` for JSON-RPC; reuse `Mcp-Session-Id` from `initialize` on later requests (see the MCP section in the repo README).
 
-**First API calls:** `POST /memory/search` → `POST /memory/synthesize` → `POST /memory/reason` with a `session_id` (see README API Reference).
+**MCP tools (names from upstream README):** `lychee_memory_search`, `lychee_memory_synthesize`, `lychee_memory_consolidate` — recommended flow: search → synthesize → consolidate with the same `session_id` after the turn.
+
+**First REST calls:** `POST /memory/search` → `POST /memory/synthesize` → `POST /memory/reason` with a `session_id` (see README API Reference).
 
 **OpenClaw:** `openclaw plugins install "/path/to/LycheeMem/openclaw-plugin"` then `openclaw gateway restart` — see [INSTALL_OPENCLAW.md](https://github.com/LycheeMem/LycheeMem/blob/master/openclaw-plugin/INSTALL_OPENCLAW.md).
 
@@ -64,6 +67,7 @@ npx clawhub@latest search lycheemem memory
 | **Endpoint** | `http://localhost:8000/mcp` (when `python main.py` is running) |
 | **Transport** | Streamable HTTP — `POST /mcp` (JSON-RPC); `GET /mcp` for SSE where supported |
 | **Session** | Server returns `Mcp-Session-Id` during `initialize`; reuse on subsequent requests |
+| **Tools** | `lychee_memory_search`, `lychee_memory_synthesize`, `lychee_memory_consolidate` (see repo README MCP section) |
 | **Compatible Clients** | Any MCP client that supports remote HTTP servers (configure URL per client docs) |
 
 Example Cursor-style config (local server):
@@ -94,7 +98,7 @@ Agents integrate through REST, HTTP MCP, or the OpenClaw plugin (`lychee_memory_
 |---|---|
 | **Agent-first positioning** | README: *"LycheeMem is a compact memory framework for LLM agents"* and *"gradually extends toward action-aware, usage-aware memory for more capable agentic systems"* — [source](https://github.com/LycheeMem/LycheeMem/blob/master/README.md) |
 | **Agent-specific primitive** | **Three-store agent memory pipeline** (working / semantic / procedural) with LLM-as-judge synthesis, typed semantic records, skill extraction from tool traces, and token-budget-governed compression — not a generic document store |
-| **Autonomy-compatible control plane** | Agents call search → synthesize → reason and trigger `POST /memory/consolidate/{session_id}`; consolidator runs in the background; no human must approve each memory write |
+| **Autonomy-compatible control plane** | Agents call search → synthesize → reason; **ConsolidatorAgent** runs in a **background thread** after `ReasoningAgent` completes (repo pipeline diagram) — novelty-gated consolidation without blocking the user-visible reply; optional `POST /memory/consolidate/{session_id}` |
 | **M2M integration surface** | REST API (`/docs`), HTTP `/mcp`, OpenClaw plugin, Python package (`pip install -e .`) |
 | **Identity / delegation** | **`session_id`** namespaces conversation and consolidation; API responses include **provenance** linking fused context to source records; optional HTTP basic auth for multi-user setups in demos |
 

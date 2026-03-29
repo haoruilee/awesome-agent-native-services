@@ -127,7 +127,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Letta](https://letta.ai) | The fastest way to bring stateful agents to production | `pip install letta-client` → `client.agents.create(...)` |
 | [Aembit](https://aembit.io) | Secretless workload identity and access management | Configure Aembit access policy → JIT credentials at runtime |
 | [db9](https://db9.ai) ⭐ | Postgres but for agents | `Read https://db9.ai/skill.md and follow the instructions` |
-| [AgentAnycast](https://github.com/AgentAnycast/agentanycast) | Connect AI agents across any network — no public IP | `pip install agentanycast` → `agentanycast demo` — MCP: `uvx agentanycast-mcp` |
+| [AgentAnycast](https://github.com/AgentAnycast/agentanycast) | Connect AI agents across any network — no public IP | `pip install agentanycast` → `agentanycast demo` — MCP: `agentanycastd --mcp-listen stdio` or `uvx agentanycast-mcp` |
 
 ---
 
