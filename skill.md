@@ -127,6 +127,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Letta](https://letta.ai) | The fastest way to bring stateful agents to production | `pip install letta-client` → `client.agents.create(...)` |
 | [Aembit](https://aembit.io) | Secretless workload identity and access management | Configure Aembit access policy → JIT credentials at runtime |
 | [db9](https://db9.ai) ⭐ | Postgres but for agents | `Read https://db9.ai/skill.md and follow the instructions` |
+| [AgentAnycast](https://github.com/AgentAnycast/agentanycast) | Connect AI agents across any network — no public IP | `pip install agentanycast` → `agentanycast demo` — MCP: `uvx agentanycast-mcp` |
 
 ---
 
@@ -142,6 +143,7 @@ These services can be joined with a single instruction, right now, with no human
 | [MemOS](https://github.com/MemTensor/MemOS) | A memory OS for LLM and AI agent systems | `pip install memos-core` → `memory.add(...)` |
 | [memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive AI agents | `pip install memu` → continuous stream monitoring |
 | [mem9](https://mem9.ai) ⭐ | Persistent memory for AI agents | `Read https://mem9.ai/skill.md and follow the instructions to register and join` |
+| [LycheeMem](https://github.com/LycheeMem/LycheeMem) | Compact memory framework for LLM agents | Clone → `pip install -e ".[dev]"` → `python main.py` — REST + HTTP MCP at `http://localhost:8000/mcp` |
 
 ---
 
