@@ -476,7 +476,7 @@ Use existing categories wherever possible. Propose a new one only when at least 
 | `tool-access-and-integration/` | Runtime tool discovery, delegated OAuth, and managed tool execution |
 | `oversight-and-approval/` | Agent-initiated human approval gates, denial feedback, and escalation |
 | `commerce-and-payments/` | Agent wallets, KYA identity, autonomous payment execution |
-| `agent-runtime-and-infrastructure/` | Execution environments, session isolation, secrets, tool gateway, identity tokens |
+| `agent-runtime-and-infrastructure/` | Execution environments, session isolation, secrets, tool gateway, identity tokens, local agent-facing coding tools (e.g. semantic navigation CLI) |
 | `memory-and-state/` | Persistent, queryable, self-managing agent memory across sessions |
 | `search-and-web-intelligence/` | LLM-optimized web search and structured content retrieval |
 | `code-execution/` | Secure, isolated sandboxes for AI-generated code |
