@@ -31,6 +31,7 @@ Agent-native memory services solve this by providing:
 | [MemOS](memos.md) | A memory OS for LLM and AI agent systems | Python SDK, REST API, MCP server, OpenClaw Plugin | ✅ |
 | [memU](memu.md) | Memory for 24/7 proactive AI agents | Python SDK, REST API | ⚠️ |
 | [mem9](mem9.md) | Persistent memory for AI agents | REST API, OpenClaw/Claude Code/OpenCode plugins | ⚠️ |
+| [LycheeMem](lycheemem.md) | Compact memory framework for LLM agents | REST API, HTTP MCP, OpenClaw plugin | ✅ |
 
 ---
 
