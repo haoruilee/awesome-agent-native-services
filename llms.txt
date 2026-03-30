@@ -26,6 +26,11 @@ This repository is itself agent-native. AI agents can discover services, evaluat
 - [.skills/](https://github.com/haoruilee/awesome-agent-native-services/tree/main/.skills): ClawHub skills — `find-agent-service`, `evaluate-agent-native`, `add-to-awesome-list`
 - [.github/](https://github.com/haoruilee/awesome-agent-native-services/tree/main/.github): Issue templates, PR template, publish-skills workflow
 
+Self-hosted and P2P entries (full write-ups under `services/`):
+
+- [LycheeMem](https://github.com/LycheeMem/LycheeMem): Compact memory framework for LLM agents — REST + HTTP MCP + OpenClaw plugin
+- [AgentAnycast](https://github.com/AgentAnycast/agentanycast): P2P agent reachability without a public IP — SDKs, `agentanycastd` MCP, `uvx agentanycast-mcp`
+
 ---
 
 ## Related — agent skills registries (ecosystem hubs)
