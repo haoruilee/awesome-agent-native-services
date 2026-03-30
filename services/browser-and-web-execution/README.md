@@ -20,6 +20,7 @@ The web was designed for humans sitting in front of browsers. AI agents that nee
 | [Bright Data Agent Browser](bright-data-agent-browser.md) | A cloud browser built for AI agents — with built-in website unlocking | REST API, AI SDK, MCP | ✅ |
 | [bb-browser](bb-browser.md) | Your browser is the API — 103 commands across 36 platforms using your real login state | CLI, MCP server, HTTP daemon | ✅ |
 | [OpenCLI](opencli.md) | Make any website, Electron app, or local tool your CLI — reuse Chrome login, structured output | CLI, Browser Bridge extension, npm `registry` export | ⚠️ |
+| [Steel](steel.md) | Browser infrastructure for AI agents | Sessions API, Puppeteer/Playwright/Selenium connect, MCP | ✅ |
 
 ---
 

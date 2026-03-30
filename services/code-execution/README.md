@@ -21,6 +21,7 @@ Agent-native code execution services solve this with:
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
 | [E2B](e2b.md) | Cloud for AI agents — secure sandboxes for AI-generated code | Python SDK, TypeScript SDK, REST API | ❌ |
+| [Daytona](daytona.md) | Secure elastic infrastructure for running AI-generated code | Python/TS/Ruby/Go SDK, REST, Daytona CLI + MCP | ✅ |
 
 ---
 
