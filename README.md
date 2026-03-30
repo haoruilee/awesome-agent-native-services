@@ -31,14 +31,14 @@ Source files are in `.skills/` in this repo.
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 3 | Give agents a communication identity on the internet |
-| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 5 | Remote browser and web data extraction for agents |
+| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 6 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 3 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 5 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 9 | Execution, session isolation, secrets, and gateway |
 | 7 | [Memory & State](#7-memory--state-services) | 8 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 2 | LLM-optimized web search and content retrieval |
-| 9 | [Code Execution](#9-code-execution-services) | 1 | Secure sandboxes for AI-generated code |
+| 9 | [Code Execution](#9-code-execution-services) | 2 | Secure sandboxes for AI-generated code |
 | 10 | [Observability & Tracing](#10-observability--tracing-services) | 1 | Agent trajectory tracing and evaluation |
 | 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 3 | Fault-tolerant long-running agent workflows |
 | 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 1 | Agent presence in voice and video meetings |
@@ -75,6 +75,7 @@ Source files are in `.skills/` in this repo.
 | [Bright Data Agent Browser](services/browser-and-web-execution/bright-data-agent-browser.md) | Cloud browser for AI agents with built-in website unlocking | Built-in CAPTCHA/fingerprint unlocking · 150M+ proxy IPs · Parallel sessions | ✅ | Add Web MCP to config: `npx -y @brightdata/mcp` |
 | [bb-browser](services/browser-and-web-execution/bb-browser.md) [![⭐](https://img.shields.io/github/stars/epiral/bb-browser?style=social)](https://github.com/epiral/bb-browser) | Your browser is the API — 103 commands, 36 platforms, your real login state | Authenticated session delegation · Site commands · MCP built-in | ✅ | `npm install -g bb-browser` + Chrome extension, then `bb-browser site <platform>/<cmd>` |
 | [OpenCLI](services/browser-and-web-execution/opencli.md) [![⭐](https://img.shields.io/github/stars/jackwener/opencli?style=social)](https://github.com/jackwener/opencli) | Websites, Electron apps, and local CLIs as one agent-discoverable CLI | Chrome session reuse · YAML/TS adapters · External CLI hub · `explore`/`synthesize` | ⚠️ | `npm install -g @jackwener/opencli` → `opencli list -f yaml`; read [SKILL.md](https://raw.githubusercontent.com/jackwener/opencli/main/SKILL.md) |
+| [Steel](services/browser-and-web-execution/steel.md) [![⭐](https://img.shields.io/github/stars/steel-dev/steel-browser?style=social)](https://github.com/steel-dev/steel-browser) | Browser infrastructure for AI agents | Sessions API · Puppeteer/Playwright/Selenium connect · CAPTCHA/proxy · Session viewer · MCP | ✅ | `pip install steel-sdk` → `Steel().sessions.create()` — MCP: [steel-mcp-server](https://github.com/steel-dev/steel-mcp-server) |
 
 ---
 
@@ -181,6 +182,7 @@ Source files are in `.skills/` in this repo.
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
 | [E2B](services/code-execution/e2b.md) [![⭐](https://img.shields.io/github/stars/e2b-dev/e2b?style=social)](https://github.com/e2b-dev/e2b) | Cloud for AI agents — secure sandboxes for AI-generated code | Ephemeral Linux VM · ~150ms cold start · Stateful execution context · Streaming output | ✅ | `pip install e2b-code-interpreter` then `with Sandbox() as sandbox:` |
+| [Daytona](services/code-execution/daytona.md) [![⭐](https://img.shields.io/github/stars/daytonaio/daytona?style=social)](https://github.com/daytonaio/daytona) | Secure elastic infrastructure for AI-generated code | Sub-90ms sandboxes · Git/LSP/exec · Preview URLs · CLI MCP | ✅ | `brew install daytonaio/cli/daytona` → `daytona login` → `daytona mcp init cursor` — or `pip install daytona` |
 
 ---
 
