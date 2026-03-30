@@ -79,6 +79,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Bright Data Agent Browser](https://brightdata.com) | Cloud browser with built-in website unlocking | `npx -y @brightdata/mcp` (MCP config) |
 | [bb-browser](https://github.com/epiral/bb-browser) | Your browser is the API — 103 commands, 36 platforms | `npm install -g bb-browser` + Chrome extension |
 | [OpenCLI](https://github.com/jackwener/opencli) | Sites + Electron + local CLIs as one CLI; reuse Chrome login | `npm install -g @jackwener/opencli` → `opencli list`; read raw `SKILL.md` in repo |
+| [Steel](https://steel.dev) | Browser infrastructure for AI agents | `pip install steel-sdk` → `Steel().sessions.create()` — MCP: [steel-mcp-server](https://github.com/steel-dev/steel-mcp-server) |
 
 ---
 
@@ -128,7 +129,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Letta](https://letta.ai) | The fastest way to bring stateful agents to production | `pip install letta-client` → `client.agents.create(...)` |
 | [Aembit](https://aembit.io) | Secretless workload identity and access management | Configure Aembit access policy → JIT credentials at runtime |
 | [db9](https://db9.ai) ⭐ | Postgres but for agents | `Read https://db9.ai/skill.md and follow the instructions` |
-| [AgentAnycast](https://github.com/AgentAnycast/agentanycast) | Connect AI agents across any network — no public IP | `pip install agentanycast` → `agentanycast demo` — MCP: `uvx agentanycast-mcp` |
+| [AgentAnycast](https://github.com/AgentAnycast/agentanycast) | Connect AI agents across any network — no public IP | `pip install agentanycast` → `agentanycast demo` — MCP: `agentanycastd --mcp-listen stdio` or `uvx agentanycast-mcp` |
 
 ---
 
@@ -164,6 +165,7 @@ These services can be joined with a single instruction, right now, with no human
 | Service | Tagline | Onboarding |
 |---|---|---|
 | [E2B](https://e2b.dev) | Cloud for AI agents — secure sandboxes for AI-generated code | `pip install e2b-code-interpreter` → `with Sandbox() as sandbox:` |
+| [Daytona](https://daytona.io) | Secure elastic infrastructure for AI-generated code | `daytona login` → `daytona mcp init cursor` — or `pip install daytona` |
 
 ---
 
