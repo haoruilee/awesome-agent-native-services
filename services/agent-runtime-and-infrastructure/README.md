@@ -6,6 +6,8 @@
 
 Running a single agent in a Jupyter notebook is easy. Running thousands of agents in production — with isolated sessions, verified identities, managed secrets, secure tool access, and end-to-end observability — requires infrastructure that did not exist before AI agents became a first-class workload.
 
+This category also includes **local agent-facing tooling** that changes how agents interact with codebases at scale — for example, semantic navigation CLIs that avoid standing up a full language-server stack for every short-lived session.
+
 General-purpose cloud infrastructure (AWS EC2, Lambda, GCP Cloud Run) was designed for stateless functions and long-running services. It has no concept of:
 
 - **Agent session isolation** — each agent run getting its own execution context
@@ -27,6 +29,7 @@ The services in this category were purpose-built to fill this gap.
 | [Aembit](aembit.md) | Secretless workload identity and access management for AI agents | Multi-protocol: MCP, OIDC, OAuth2, SSH, API keys | ✅ |
 | [db9](db9.md) | Postgres but for agents | CLI, REST API, PostgreSQL wire, TypeScript SDK | ⚠️ |
 | [AgentAnycast](agentanycast.md) | Connect AI agents across any network — no public IP | Python SDK, TypeScript SDK, MCP (`agentanycastd` / `uvx agentanycast-mcp`), P2P daemon | ✅ |
+| [cx](cx.md) | Semantic code navigation for AI agents without a language server | CLI (TOON / JSON), tree-sitter index | ❌ |
 
 ---
 
@@ -34,8 +37,8 @@ The services in this category were purpose-built to fill this gap.
 
 To qualify for this category, a service must:
 
-1. Provide **agent-specific execution or deployment primitives** (not just generic cloud compute).
-2. Address **session isolation** — multiple agent runs do not share state.
-3. Address **agent identity** — verifiable attribution of actions to specific agents.
-4. Provide **agent-aware observability** — tracing that understands tool calls, memory, and reasoning steps.
-5. Be designed for **production scale**, not just prototyping.
+1. Provide **agent-specific execution, deployment, or coding-workflow primitives** (not just generic cloud compute).
+2. Address **session isolation** — multiple agent runs do not share state (for hosted runtimes) **or** provide **agent-scoped local tooling** (for CLI utilities) that fits autonomous coding loops.
+3. Address **agent identity** — verifiable attribution of actions to specific agents **or** clear **local OS-user / workspace** delegation for tools without cloud accounts.
+4. Provide **agent-aware observability** — tracing that understands tool calls, memory, and reasoning steps **or** **token-efficient structured outputs** for agent navigation.
+5. Be designed for **production scale** or **repeatable agent sessions**, not one-off demos.

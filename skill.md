@@ -56,7 +56,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 43+ Services
+## Full Catalog — 15 Categories, 44+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -122,6 +122,7 @@ These services can be joined with a single instruction, right now, with no human
 |---|---|---|
 | [Claude Peers](https://github.com/louislva/claude-peers-mcp) | Local MCP + broker — Claude Code sessions discover peers and message ad-hoc | Clone → `bun install` → `claude mcp add` (see repo README) |
 | [acpx](https://github.com/openclaw/acpx) | Headless ACP CLI — agents talk to coding agents over structured protocol | `npm install -g acpx` → `acpx codex "fix the tests"` |
+| [cx](https://github.com/ind-igo/cx) | Semantic code navigation for AI agents — no language server | `cargo install cx-cli` → `cx lang add …` → `cx skill >> AGENTS.md` |
 | [Amazon Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore/) | Purpose-built for deploying and scaling dynamic AI agents | `pip install boto3` → configure AgentCore runtime |
 | [Infisical Agent Sentinel](https://infisical.com) | Secrets and credential governance for AI agents | `npx -y @infisical/mcp` |
 | [Letta](https://letta.ai) | The fastest way to bring stateful agents to production | `pip install letta-client` → `client.agents.create(...)` |
