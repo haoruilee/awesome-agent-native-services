@@ -30,6 +30,7 @@ The services in this category were purpose-built to fill this gap.
 | [Aembit](aembit.md) | Secretless workload identity and access management for AI agents | Multi-protocol: MCP, OIDC, OAuth2, SSH, API keys | ✅ |
 | [db9](db9.md) | Postgres but for agents | CLI, REST API, PostgreSQL wire, TypeScript SDK | ⚠️ |
 | [AgentAnycast](agentanycast.md) | Connect AI agents across any network — no public IP | Python SDK, TypeScript SDK, MCP (`agentanycastd` / `uvx agentanycast-mcp`), P2P daemon | ✅ |
+| [Multica](multica.md) | AI-native PM — agents as assignable teammates; local daemon runs Claude Code / Codex | Go backend + WebSocket · `multica` CLI (`--output json`) · local agent daemon | ⚠️ |
 | [cx](cx.md) | Semantic code navigation for AI agents without a language server | CLI (TOON / JSON), tree-sitter index | ❌ |
 
 ---
