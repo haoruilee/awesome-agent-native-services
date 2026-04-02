@@ -107,6 +107,14 @@ If later step fails: compensation pattern undoes earlier side effects
 
 ---
 
+## Identity and Delegation Model
+
+- Each invocation receives a durable execution identity, so retries and resumes stay attached to the same logical run
+- Restate persists step boundaries and side effects in its journal, giving operators an audit trail per agent workflow
+- Access control is typically delegated from the host application or framework; Restate preserves those calls durably rather than inventing a separate user-facing approval loop
+
+---
+
 ## How Restate Differs from Trigger.dev / Inngest
 
 | Dimension | Restate | Trigger.dev / Inngest |
