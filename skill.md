@@ -233,7 +233,7 @@ These are **curated skill packs and marketplaces** — machine-readable instruct
 
 | Hub | Role | How to start |
 |---|---|---|
-| **ClawHub** | Public registry for OpenClaw-style skills — search, install, publish via CLI | `npx clawhub@latest search <topic>` — [claw-hub.net](https://claw-hub.net/) · [openclaw/clawhub](https://github.com/openclaw/clawhub) |
+| **ClawHub** | Public registry for OpenClaw-style skills — search, install, publish via CLI | `npx clawhub@latest search <topic>` — [claw-hub.net](https://claw-hub.net/) · [openclaw/clawhub](https://github.com/openclaw/clawhub). **China mirror (加速):** [mirror-cn.clawhub.com](https://mirror-cn.clawhub.com) — set `CLAWHUB_REGISTRY=https://cn.clawhub-mirror.com` or `clawhub --registry https://cn.clawhub-mirror.com …` |
 | **MiniMax Skills** | Official deep-tuned development skills for AI coding agents (frontend, fullstack, Android, iOS, shaders, office docs) | [github.com/MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) — follow **Installation** in the repo README (Claude Code plugin, Cursor `skills/` path, Codex / OpenCode symlinks) |
 
 ---
@@ -271,5 +271,7 @@ npx clawhub@latest install find-agent-service
 npx clawhub@latest install evaluate-agent-native
 npx clawhub@latest install add-to-awesome-list
 ```
+
+If ClawHub is slow to reach, use the official China mirror: [https://mirror-cn.clawhub.com](https://mirror-cn.clawhub.com) — export `CLAWHUB_REGISTRY=https://cn.clawhub-mirror.com` or add `--registry https://cn.clawhub-mirror.com` to commands above.
 
 Full catalog: https://github.com/haoruilee/awesome-agent-native-services

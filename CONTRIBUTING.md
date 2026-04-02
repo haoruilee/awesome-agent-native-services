@@ -341,7 +341,8 @@ npx skills add org/repo
 | `skill-name` | Description |
 
 <!-- If not available: -->
-Search community skills: `npx clawhub@latest search service-name`
+Search community skills: `npx clawhub@latest search service-name`. For faster access in China, use the official ClawHub mirror: set `CLAWHUB_REGISTRY=https://cn.clawhub-mirror.com` or `--registry https://cn.clawhub-mirror.com` — [mirror-cn.clawhub.com](https://mirror-cn.clawhub.com).
+
 See: https://agentskills.io/specification to contribute one.
 
 ---
