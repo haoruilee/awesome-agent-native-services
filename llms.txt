@@ -35,7 +35,7 @@ Self-hosted and P2P entries (full write-ups under `services/`):
 
 ## Related — agent skills registries (ecosystem hubs)
 
-- [ClawHub](https://claw-hub.net/): OpenClaw skill marketplace — `npx clawhub@latest` ([openclaw/clawhub](https://github.com/openclaw/clawhub))
+- [ClawHub](https://claw-hub.net/): OpenClaw skill marketplace — `npx clawhub@latest` ([openclaw/clawhub](https://github.com/openclaw/clawhub)). China access acceleration: [mirror-cn.clawhub.com](https://mirror-cn.clawhub.com) — registry URL `https://cn.clawhub-mirror.com` via env `CLAWHUB_REGISTRY` or CLI `--registry`
 - [MiniMax Skills](https://github.com/MiniMax-AI/skills): Curated `SKILL.md` packs for AI coding agents (Claude Code, Cursor, Codex, OpenCode) — see repo README for install paths
 
 ---

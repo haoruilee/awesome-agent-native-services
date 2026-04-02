@@ -22,6 +22,8 @@ Besides, you can nstall these skills:
 | `evaluate-agent-native` | Evaluate whether a service meets the 5 criteria | `npx clawhub@latest install evaluate-agent-native` |
 | `add-to-awesome-list` | Full contribution workflow: criteria → issue → PR | `npx clawhub@latest install add-to-awesome-list` |
 
+**ClawHub China mirror (access acceleration):** [mirror-cn.clawhub.com](https://mirror-cn.clawhub.com) is the official landing page for the China mirror; it redirects to the registry front-end. For the CLI, set `CLAWHUB_REGISTRY=https://cn.clawhub-mirror.com` or pass `--registry https://cn.clawhub-mirror.com` (see the mirror site for copy-paste examples).
+
 Source files are in `.skills/` in this repo.
 
 ---
@@ -269,7 +271,7 @@ Organizations that provide multiple agent-native services or tools:
 | Hub | What It Provides | Notable Projects |
 |---|---|---|
 | [OpenClaw](https://github.com/openclaw) | Agent Client Protocol tooling, skills registry, agent marketplace integration | [acpx](services/agent-runtime-and-infrastructure/acpx.md) (ACP CLI), [openclaw/skills](https://github.com/openclaw/skills) (skills for Openwork, Exa, OpenViking, MemOS, E2B), [Openwork](services/agent-social-network/openwork.md) integration |
-| [ClawHub](https://claw-hub.net/) | Public skill registry and marketplace for OpenClaw-style agents — search, install, and publish skills from the CLI | [openclaw/clawhub](https://github.com/openclaw/clawhub) (CLI), [`.skills/`](https://github.com/haoruilee/awesome-agent-native-services/tree/main/.skills) in this repo |
+| [ClawHub](https://claw-hub.net/) | Public skill registry and marketplace for OpenClaw-style agents — search, install, and publish skills from the CLI. **China mirror:** [mirror-cn.clawhub.com](https://mirror-cn.clawhub.com) → faster access; use `CLAWHUB_REGISTRY=https://cn.clawhub-mirror.com` or `--registry https://cn.clawhub-mirror.com` | [openclaw/clawhub](https://github.com/openclaw/clawhub) (CLI), [`.skills/`](https://github.com/haoruilee/awesome-agent-native-services/tree/main/.skills) in this repo |
 | [MiniMax Skills](https://github.com/MiniMax-AI/skills) [![⭐](https://img.shields.io/github/stars/MiniMax-AI/skills?style=social)](https://github.com/MiniMax-AI/skills) | Curated **development skills** for AI coding agents — structured `SKILL.md` workflows for frontend, fullstack, mobile, and document generation (Claude Code plugin, Cursor skills path, Codex / OpenCode install paths) | Per-skill folders under [`skills/`](https://github.com/MiniMax-AI/skills/tree/main/skills) with YAML-frontmatter `SKILL.md` ([contributing spec](https://github.com/MiniMax-AI/skills/blob/main/CONTRIBUTING.md)) |
 
 ---
