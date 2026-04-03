@@ -32,7 +32,7 @@ https://github.com/exa-labs/exa-mcp-server — Official MCP server
 
 Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
 
-**Status:** ✅ Official skill and community skills available
+**Status:** ⚠️ Community skills available; no official `SKILL.md` published by Exa yet
 
 ```bash
 # Community skill via LobeHub marketplace
@@ -123,6 +123,14 @@ A specialized search product for coding agents:
 2. Exa retrieves semantically relevant documents, extracts clean text
 3. Returns ranked results with full content — LLM-ready, no HTML parsing
 4. Agent injects directly into context window
+
+---
+
+## Identity and Delegation Model
+
+- API-key-based authentication lets operators provision per-agent or per-environment credentials
+- Requests are attributed to the calling integration account, which is sufficient for search and retrieval workflows that do not impersonate a human user
+- Delegation is intentionally narrow: Exa returns search results and parsed content, but does not execute external side effects on a user's behalf
 
 ---
 

@@ -126,7 +126,15 @@ None required. Bright Data handles all unlocking autonomously. Session recording
 
 ---
 
-## Why Browserbase Does Not Make Bright Data Redundant
+## Why Generic Alternatives Do Not Qualify
+
+| Alternative | Why It Fails |
+|---|---|
+| **Self-hosted Playwright/Puppeteer** | Browser automation only; agents must build and maintain their own proxy, fingerprinting, and CAPTCHA bypass layers |
+| **Generic proxy providers** | Provide IP rotation, but not a full browser runtime with integrated unlocking and MCP-facing agent controls |
+| **Human-oriented scraping SaaS** | Often optimized for dashboard-led usage, not agent-managed session lifecycle and direct LLM/MCP integration |
+
+## How It Differs from Browserbase
 
 Both qualify as agent-native browser services, but they address different problems:
 

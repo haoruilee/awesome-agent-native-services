@@ -75,7 +75,17 @@ Amazon Bedrock AgentCore is a modular, purpose-built agent runtime suite from AW
 
 ---
 
-## Module Breakdown
+## Primary Primitives
+
+| Primitive | Description |
+|---|---|
+| **AgentCore Runtime** | Managed execution environment for hosting and running AI agents with isolated, scalable runtime sessions |
+| **AgentCore Memory** | Short-term and long-term memory services that capture session interactions and extract durable insights across sessions |
+| **AgentCore Identity** | Verified identity tokens for agent instances, enabling attribution and policy enforcement |
+| **AgentCore Gateway** | Secure proxy for routing and governing tool and API access on behalf of agents |
+| **AgentCore Observability** | OpenTelemetry-compatible traces, metrics, and dashboards for agent execution |
+
+### Module Breakdown
 
 ### AgentCore Runtime
 
@@ -143,7 +153,7 @@ Optional. Observability layer captures all agent actions for post-hoc human revi
 
 ---
 
-## Why Generic AWS Services Do Not Qualify
+## Why Generic Alternatives Do Not Qualify
 
 | Alternative | Why It Fails |
 |---|---|
