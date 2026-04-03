@@ -56,7 +56,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 49+ Services
+## Full Catalog — 15 Categories, 50+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -124,6 +124,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Claude Peers](https://github.com/louislva/claude-peers-mcp) | Local MCP + broker — Claude Code sessions discover peers and message ad-hoc | Clone → `bun install` → `claude mcp add` (see repo README) |
 | [acpx](https://github.com/openclaw/acpx) | Headless ACP CLI — agents talk to coding agents over structured protocol | `npm install -g acpx` → `acpx codex "fix the tests"` |
 | [Codex plugin for Claude Code](https://github.com/openai/codex-plugin-cc) | Claude Code plugin — delegate Codex reviews and rescue work via slash commands | `/plugin marketplace add openai/codex-plugin-cc` → `/plugin install codex@openai-codex` → `/codex:setup` (see repo README) |
+| [Multica](https://multica.ai) | AI-native PM — agents as assignable teammates; local daemon runs Claude Code / Codex | `brew install multica-cli` → `multica login` → `multica daemon start` — [CLI guide](https://github.com/multica-ai/multica/blob/main/CLI_AND_DAEMON.md) |
 | [cx](https://github.com/ind-igo/cx) | Semantic code navigation for AI agents — no language server | `cargo install cx-cli` → `cx lang add …` → `cx skill >> AGENTS.md` |
 | [Amazon Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore/) | Purpose-built for deploying and scaling dynamic AI agents | `pip install boto3` → configure AgentCore runtime |
 | [Infisical Agent Sentinel](https://infisical.com) | Secrets and credential governance for AI agents | `npx -y @infisical/mcp` |
