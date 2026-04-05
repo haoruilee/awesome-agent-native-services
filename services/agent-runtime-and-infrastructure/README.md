@@ -32,6 +32,7 @@ The services in this category were purpose-built to fill this gap.
 | [AgentAnycast](agentanycast.md) | Connect AI agents across any network — no public IP | Python SDK, TypeScript SDK, MCP (`agentanycastd` / `uvx agentanycast-mcp`), P2P daemon | ✅ |
 | [Multica](multica.md) | AI-native PM — agents as assignable teammates; local daemon runs Claude Code / Codex | Go backend + WebSocket · `multica` CLI (`--output json`) · local agent daemon | ⚠️ |
 | [cx](cx.md) | Semantic code navigation for AI agents without a language server | CLI (TOON / JSON), tree-sitter index | ❌ |
+| [Scrapybara](scrapybara.md) [![⭐](https://img.shields.io/github/stars/Scrapybara/scrapybara-python?style=social)](https://github.com/Scrapybara/scrapybara-python) | Remote desktops for computer-use agents (CUA) | Ubuntu/Browser/Windows instances · Act SDK · scrapybara-mcp | ✅ |
 
 ---
 

@@ -22,6 +22,8 @@ The services in this category were designed with these requirements as the prima
 |---|---|---|---|
 | [Tavily](tavily.md) | Connect your agent to the web | REST API, Python SDK, LangChain/LlamaIndex/CrewAI integrations | ✅ |
 | [Exa](exa.md) | The search engine designed for AI | REST API, Python SDK, LangChain/CrewAI/LlamaIndex/Mastra integrations | ✅ |
+| [Parallel](parallel.md) [![⭐](https://img.shields.io/github/stars/parallel-web/search-mcp?style=social)](https://github.com/parallel-web/search-mcp) | The highest accuracy web search for your AI | Search/Task/FindAll/Monitor APIs · SDKs · search-mcp & task-mcp | ✅ |
+| [Jina Reader](jina-reader.md) [![⭐](https://img.shields.io/github/stars/jina-ai/reader?style=social)](https://github.com/jina-ai/reader) | URL and search results as LLM-friendly text | `r.jina.ai` / `s.jina.ai` · MCP · PDF & image handling | ✅ |
 
 ---
 

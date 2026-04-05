@@ -22,6 +22,12 @@ The web was designed for humans sitting in front of browsers. AI agents that nee
 | [OpenCLI](opencli.md) | Make any website, Electron app, or local tool your CLI — reuse Chrome login, structured output | CLI, Browser Bridge extension, npm `registry` export | ⚠️ |
 | [Steel](steel.md) | Browser infrastructure for AI agents | Sessions API, Puppeteer/Playwright/Selenium connect, MCP | ✅ |
 | [Notte](notte.md) | Browser infrastructure that lets AI run on the internet at speed | CDP sessions, web agents, vaults, notte-mcp | ✅ |
+| [Skyvern](skyvern.md) [![⭐](https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=social)](https://github.com/Skyvern-AI/skyvern) | AI agents to automate workflows on any website | Task API · Vision browser · 2FA/TOTP · Sessions · Structured extraction | ✅ |
+| [Browser Use Cloud](browser-use-cloud.md) [![⭐](https://img.shields.io/github/stars/browser-use/browser-use?style=social)](https://github.com/browser-use/browser-use) | Managed stealth browsers, CAPTCHA, proxies — agent or CDP mode | `run()` NL tasks · Sessions · Profiles · Hosted MCP | ✅ |
+| [Anchor Browser](anchor-browser.md) | The secure infrastructure for computer use agents | Web Action Cache · OmniConnect auth · MCP · SDKs | ✅ |
+| [Hyperbrowser](hyperbrowser.md) [![⭐](https://img.shields.io/github/stars/hyperbrowserai/mcp?style=social)](https://github.com/hyperbrowserai/mcp) | Web infra for AI agents | Scrape/crawl/CUA tools · HyperAgent · MCP | ✅ |
+| [AgentQL](agentql.md) [![⭐](https://img.shields.io/github/stars/tinyfish-io/agentql?style=social)](https://github.com/tinyfish-io/agentql) | Make the web AI-ready | AgentQL queries · Remote browser CDP · Browserless REST | ⚠️ |
+| [Crawl4AI](crawl4ai.md) [![⭐](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social)](https://github.com/unclecode/crawl4ai) | Open-source LLM-friendly web crawler & scraper | LLM-ready markdown · Extraction · Docker · MCP | ✅ |
 
 ---
 

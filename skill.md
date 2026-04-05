@@ -56,7 +56,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 51+ Services
+## Full Catalog — 15 Categories, 62+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -81,6 +81,12 @@ These services can be joined with a single instruction, right now, with no human
 | [OpenCLI](https://github.com/jackwener/opencli) | Sites + Electron + local CLIs as one CLI; reuse Chrome login | `npm install -g @jackwener/opencli` → `opencli list`; read raw `SKILL.md` in repo |
 | [Steel](https://steel.dev) | Browser infrastructure for AI agents | `pip install steel-sdk` → `Steel().sessions.create()` — MCP: [steel-mcp-server](https://github.com/steel-dev/steel-mcp-server) |
 | [Notte](https://www.notte.cc) | Browser platform for AI — sessions, agents, vaults | `pip install notte-sdk` → `NotteClient().Session()` — MCP: `pip install notte-mcp` → `python -m notte_mcp.server` |
+| [Skyvern](https://www.skyvern.com) | Vision browser agents for any website | API key → `POST https://api.skyvern.com/v1/run/tasks` — [docs](https://www.skyvern.com/docs) |
+| [Browser Use Cloud](https://browser-use.com) | Managed stealth browsers + NL `run()` or CDP | `pip install browser-use-sdk` → `AsyncBrowserUse().run(...)` — MCP `https://api.browser-use.com/v3/mcp` |
+| [Anchor Browser](https://www.anchorbrowser.io) | Secure infra for computer-use agents | [docs.anchorbrowser.io](https://docs.anchorbrowser.io/introduction) — SDKs on GitHub |
+| [Hyperbrowser](https://www.hyperbrowser.ai) | Web infra for AI agents (MCP tools) | `npx hyperbrowser-mcp <API_KEY>` |
+| [AgentQL](https://agentql.com) | AgentQL queries → structured JSON from the web | API key → [docs.agentql.com](https://docs.agentql.com) |
+| [Crawl4AI](https://crawl4ai.com) | OSS LLM-friendly crawler + MCP | [docs.crawl4ai.com](https://docs.crawl4ai.com) |
 
 ---
 
@@ -133,6 +139,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Aembit](https://aembit.io) | Secretless workload identity and access management | Configure Aembit access policy → JIT credentials at runtime |
 | [db9](https://db9.ai) ⭐ | Postgres but for agents | `Read https://db9.ai/skill.md and follow the instructions` |
 | [AgentAnycast](https://github.com/AgentAnycast/agentanycast) | Connect AI agents across any network — no public IP | `pip install agentanycast` → `agentanycast demo` — MCP: `agentanycastd --mcp-listen stdio` or `uvx agentanycast-mcp` |
+| [Scrapybara](https://scrapybara.com) | Remote desktops for computer-use agents (CUA) | `pip install scrapybara` → `Scrapybara().start_ubuntu()` — [Act SDK](https://docs.scrapybara.com/act-sdk) |
 
 ---
 
@@ -159,6 +166,8 @@ These services can be joined with a single instruction, right now, with no human
 |---|---|---|
 | [Tavily](https://tavily.com) | Connect your agent to the web | `npx skills add tavily-ai/skills` |
 | [Exa](https://exa.ai) | The search engine designed for AI | `pip install exa-py` → `exa.search(query)` |
+| [Parallel](https://www.parallel.ai) | Web APIs purpose-built for AIs | `pip install parallel-web` — MCP: [parallel-web/search-mcp](https://github.com/parallel-web/search-mcp) |
+| [Jina Reader](https://jina.ai/reader) | `r.jina.ai` / `s.jina.ai` — LLM-friendly URL & search | `curl "https://r.jina.ai/https://example.com"` — MCP: `mcp.jina.ai` |
 
 ---
 
@@ -178,6 +187,7 @@ These services can be joined with a single instruction, right now, with no human
 | Service | Tagline | Onboarding |
 |---|---|---|
 | [Langfuse](https://langfuse.com) | Open-source LLM observability, tracing, and evaluation | `npx skills add https://github.com/langfuse/skills --skill langfuse-observability` |
+| [AgentOps](https://www.agentops.ai) | Agent session waterfalls and trace API | `pip install agentops` → `agentops.init(<API_KEY>)` |
 
 ---
 
@@ -216,6 +226,7 @@ These services can be joined with a single instruction, right now, with no human
 | Service | Tagline | Onboarding |
 |---|---|---|
 | [Portkey](https://portkey.ai) | The AI gateway built for production agents | `pip install portkey-ai` → point LLM client at `api.portkey.ai` with a virtual key |
+| [Keywords AI](https://www.keywordsai.co) | OpenAI-compatible gateway + agent tracing | Base URL `https://api.keywordsai.co` — [gateway quickstart](https://docs.keywordsai.co/get-started/quickstart/gateway) |
 
 ---
 
