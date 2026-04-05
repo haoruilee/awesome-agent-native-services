@@ -21,6 +21,7 @@ The web was designed for humans sitting in front of browsers. AI agents that nee
 | [bb-browser](bb-browser.md) | Your browser is the API — 103 commands across 36 platforms using your real login state | CLI, MCP server, HTTP daemon | ✅ |
 | [OpenCLI](opencli.md) | Make any website, Electron app, or local tool your CLI — reuse Chrome login, structured output | CLI, Browser Bridge extension, npm `registry` export | ⚠️ |
 | [Steel](steel.md) | Browser infrastructure for AI agents | Sessions API, Puppeteer/Playwright/Selenium connect, MCP | ✅ |
+| [Notte](notte.md) | Browser infrastructure that lets AI run on the internet at speed | CDP sessions, web agents, vaults, notte-mcp | ✅ |
 
 ---
 
