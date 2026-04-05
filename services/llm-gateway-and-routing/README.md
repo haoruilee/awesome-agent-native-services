@@ -17,6 +17,7 @@ Calling an LLM directly is fine for prototyping. Running agents in production �
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
 | [Portkey](portkey.md) | The AI gateway built for production agents | REST API (OpenAI-compatible), Python SDK, TypeScript SDK | ❌ |
+| [Keywords AI](keywords-ai.md) | AI gateway — 250+ models via OpenAI-compatible API | Fallback · Load balancing · OpenAI Agents trace processor | ⚠️ |
 
 ---
 

@@ -33,19 +33,19 @@ Source files are in `.skills/` in this repo.
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 3 | Give agents a communication identity on the internet |
-| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 6 | Remote browser and web data extraction for agents |
+| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 13 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 3 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 5 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 10 | Execution, session isolation, secrets, and gateway |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 11 | Execution, session isolation, secrets, and gateway |
 | 7 | [Memory & State](#7-memory--state-services) | 8 | Persistent agent memory across sessions |
-| 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 2 | LLM-optimized web search and content retrieval |
+| 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 4 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 2 | Secure sandboxes for AI-generated code |
-| 10 | [Observability & Tracing](#10-observability--tracing-services) | 1 | Agent trajectory tracing and evaluation |
+| 10 | [Observability & Tracing](#10-observability--tracing-services) | 2 | Agent trajectory tracing and evaluation |
 | 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 3 | Fault-tolerant long-running agent workflows |
 | 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 1 | Agent presence in voice and video meetings |
 | 13 | [Voice & Phone](#13-voice--phone-services) | 1 | Agent-controlled voice calls and phone infrastructure |
-| 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 1 | Per-agent budget, routing, caching, and observability for LLM calls |
+| 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 2 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 15 | [Agent Social & Community](#15-agent-social--community-services) | 3 | Social networks where agents are first-class participants |
 
 ---
@@ -78,6 +78,13 @@ Source files are in `.skills/` in this repo.
 | [bb-browser](services/browser-and-web-execution/bb-browser.md) [![⭐](https://img.shields.io/github/stars/epiral/bb-browser?style=social)](https://github.com/epiral/bb-browser) | Your browser is the API — 103 commands, 36 platforms, your real login state | Authenticated session delegation · Site commands · MCP built-in | ✅ | `npm install -g bb-browser` + Chrome extension, then `bb-browser site <platform>/<cmd>` |
 | [OpenCLI](services/browser-and-web-execution/opencli.md) [![⭐](https://img.shields.io/github/stars/jackwener/opencli?style=social)](https://github.com/jackwener/opencli) | Websites, Electron apps, and local CLIs as one agent-discoverable CLI | Chrome session reuse · YAML/TS adapters · External CLI hub · `explore`/`synthesize` | ⚠️ | `npm install -g @jackwener/opencli` → `opencli list -f yaml`; read [SKILL.md](https://raw.githubusercontent.com/jackwener/opencli/main/SKILL.md) |
 | [Steel](services/browser-and-web-execution/steel.md) [![⭐](https://img.shields.io/github/stars/steel-dev/steel-browser?style=social)](https://github.com/steel-dev/steel-browser) | Browser infrastructure for AI agents | Sessions API · Puppeteer/Playwright/Selenium connect · CAPTCHA/proxy · Session viewer · MCP | ✅ | `pip install steel-sdk` → `Steel().sessions.create()` — MCP: [steel-mcp-server](https://github.com/steel-dev/steel-mcp-server) |
+| [Notte](services/browser-and-web-execution/notte.md) [![⭐](https://img.shields.io/github/stars/nottelabs/notte?style=social)](https://github.com/nottelabs/notte) | Browser infrastructure that lets AI run on the internet at speed | CDP sessions · NL web agents · Vault (secrets never to LLM) · Scraping · notte-mcp | ✅ | `pip install notte-sdk` → `NotteClient().Session()` — MCP: `pip install notte-mcp` → `python -m notte_mcp.server` |
+| [Skyvern](services/browser-and-web-execution/skyvern.md) [![⭐](https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=social)](https://github.com/Skyvern-AI/skyvern) | AI agents to automate workflows on any website | `POST /v1/run/tasks` · Vision agent engines · 2FA/TOTP · Browser sessions · JSON extraction | ✅ | API key → [Run a task](https://www.skyvern.com/docs/api-reference/api-reference/agent/run-task) — SDKs in docs |
+| [Browser Use Cloud](services/browser-and-web-execution/browser-use-cloud.md) [![⭐](https://img.shields.io/github/stars/browser-use/browser-use?style=social)](https://github.com/browser-use/browser-use) | Managed stealth browsers and NL agent tasks for AI | `client.run()` · CDP `browsers.create()` · Profiles · Hosted MCP | ✅ | `pip install browser-use-sdk` → `AsyncBrowserUse().run(...)` — MCP: `https://api.browser-use.com/v3/mcp` |
+| [Anchor Browser](services/browser-and-web-execution/anchor-browser.md) | The secure infrastructure for computer use agents | Web Action Cache · OmniConnect auth · Stealth Chromium · MCP | ✅ | [docs.anchorbrowser.io](https://docs.anchorbrowser.io/introduction) — Python/TS SDKs on GitHub |
+| [Hyperbrowser](services/browser-and-web-execution/hyperbrowser.md) [![⭐](https://img.shields.io/github/stars/hyperbrowserai/mcp?style=social)](https://github.com/hyperbrowserai/mcp) | Web infra for AI agents | Scrape/crawl/CUA MCP tools · HyperAgent · Profiles | ✅ | `npx hyperbrowser-mcp <API_KEY>` |
+| [AgentQL](services/browser-and-web-execution/agentql.md) [![⭐](https://img.shields.io/github/stars/tinyfish-io/agentql?style=social)](https://github.com/tinyfish-io/agentql) | Make the web AI-ready | AgentQL query → JSON · Remote browser CDP · Browserless REST | ⚠️ | API key → [docs.agentql.com](https://docs.agentql.com) |
+| [Crawl4AI](services/browser-and-web-execution/crawl4ai.md) [![⭐](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social)](https://github.com/unclecode/crawl4ai) | Open-source LLM-friendly web crawler & scraper | LLM-ready markdown · Extraction · Docker · MCP | ✅ | Deploy per [docs.crawl4ai.com](https://docs.crawl4ai.com) — MCP from repo |
 
 ---
 
@@ -142,6 +149,7 @@ Source files are in `.skills/` in this repo.
 | [Aembit](services/agent-runtime-and-infrastructure/aembit.md) | Secretless workload identity and access management for AI agents | Agent workload identity · Blended identity · JIT credentials · Anomaly detection | ✅ | Configure Aembit access policy — agent requests JIT credentials at runtime, no code changes |
 | [db9](services/agent-runtime-and-infrastructure/db9.md) | Postgres but for agents | SQL + filesystem · Vector search · HTTP-from-SQL · Environment branching · Cron | ⚠️ | Read https://db9.ai/skill.md and follow the instructions |
 | [AgentAnycast](services/agent-runtime-and-infrastructure/agentanycast.md) [![⭐](https://img.shields.io/github/stars/AgentAnycast/agentanycast?style=social)](https://github.com/AgentAnycast/agentanycast) | Connect AI agents across any network — no public IP | Peer ID · AgentCard skills · NAT traversal · E2E Noise_XX · Task artifacts | ✅ | `pip install agentanycast` → `agentanycast demo`; MCP: `agentanycastd --mcp-listen stdio` or `uvx agentanycast-mcp` |
+| [Scrapybara](services/agent-runtime-and-infrastructure/scrapybara.md) [![⭐](https://img.shields.io/github/stars/Scrapybara/scrapybara-python?style=social)](https://github.com/Scrapybara/scrapybara-python) | Remote desktops for computer-use agents | Ubuntu/Browser/Windows instances · Act SDK (Computer/Bash/Edit) · scrapybara-mcp | ✅ | `pip install scrapybara` → `Scrapybara().start_ubuntu()` — [Act SDK](https://docs.scrapybara.com/act-sdk) |
 
 ---
 
@@ -174,6 +182,8 @@ Source files are in `.skills/` in this repo.
 |---|---|---|---|---|
 | [Tavily](services/search-and-web-intelligence/tavily.md) [![⭐](https://img.shields.io/github/stars/tavily-ai/tavily-mcp?style=social)](https://github.com/tavily-ai/tavily-mcp) | Connect your agent to the web | Agent-optimized search · Multi-step research · Source attribution | ✅ | `npx skills add tavily-ai/skills` |
 | [Exa](services/search-and-web-intelligence/exa.md) | The search engine designed for AI | Neural/semantic search · `exa-code` for coding agents · Websets | ✅ | `pip install exa-py` then `exa.search(query)` |
+| [Parallel](services/search-and-web-intelligence/parallel.md) [![⭐](https://img.shields.io/github/stars/parallel-web/search-mcp?style=social)](https://github.com/parallel-web/search-mcp) | The highest accuracy web search for your AI | Search/Task/FindAll/Monitor APIs · Citations · Official MCP | ✅ | `pip install parallel-web` — MCP: [search-mcp](https://github.com/parallel-web/search-mcp) · [task-mcp](https://github.com/parallel-web/task-mcp) |
+| [Jina Reader](services/search-and-web-intelligence/jina-reader.md) [![⭐](https://img.shields.io/github/stars/jina-ai/reader?style=social)](https://github.com/jina-ai/reader) | URL and SERP as LLM-friendly text | `r.jina.ai` · `s.jina.ai` · MCP · PDF/images | ✅ | `curl "https://r.jina.ai/https://example.com"` — MCP: `mcp.jina.ai` |
 
 ---
 
@@ -199,6 +209,7 @@ Source files are in `.skills/` in this repo.
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
 | [Langfuse](services/observability-and-tracing/langfuse.md) [![⭐](https://img.shields.io/github/stars/langfuse/langfuse?style=social)](https://github.com/langfuse/langfuse) | Open-source LLM observability, tracing, and evaluation | Typed trace hierarchy · Dataset-based evaluation · Trajectory replay · OTEL-compatible | ✅ | `npx skills add https://github.com/langfuse/skills --skill langfuse-observability` |
+| [AgentOps](services/observability-and-tracing/agentops.md) [![⭐](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=social)](https://github.com/AgentOps-AI/agentops) | Testing, debugging, and deploying AI agents and LLM apps | Session waterfall · Framework auto-instrumentation · Public trace API | ⚠️ | `pip install agentops` → `agentops.init(<API_KEY>)` |
 
 ---
 
@@ -249,6 +260,7 @@ Source files are in `.skills/` in this repo.
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
 | [Portkey](services/llm-gateway-and-routing/portkey.md) [![⭐](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social)](https://github.com/Portkey-AI/gateway) | The AI gateway built for production agents | Virtual key · Per-agent budget limit · Automatic fallback · Sticky session routing · Agent trace | ⚠️ | `pip install portkey-ai` — point LLM client at `api.portkey.ai` with a virtual key |
+| [Keywords AI](services/llm-gateway-and-routing/keywords-ai.md) | AI gateway — 250+ LLMs via OpenAI-compatible API | Fallback · Load balancing · `KeywordsAITraceProcessor` for OpenAI Agents SDK | ⚠️ | Point OpenAI SDK at `https://api.keywordsai.co` — [gateway quickstart](https://docs.keywordsai.co/get-started/quickstart/gateway) |
 
 ---
 
