@@ -40,7 +40,7 @@ curl -X POST "https://api.meetingbaas.com/bots" \
   -d '{"meeting_url": "YOUR-MEETING-URL", "bot_name": "AI Notetaker", "recording_mode": "speaker_view", "speech_to_text": {"provider": "Default"}}'
 ```
 
-3. Configure a webhook URL to receive `bot.status_change`, `complete`, and `failed` events — see [Getting the Data](https://docs.meetingbaas.com/docs/api/getting-started/getting-the-data).
+3. Configure webhooks in account settings (Meeting BaaS **v2** delivers via **SVIX** with signed headers) — event names include `bot.status_change`, `bot.completed`, and `bot.failed` — see [Webhooks (v2)](https://docs.meetingbaas.com/docs/api-v2/webhooks). The older [Getting the Data](https://docs.meetingbaas.com/docs/api/getting-started/getting-the-data) guide uses `complete` / `failed` payloads for the v1-style flow.
 
 **TypeScript SDK:** `npm install @meeting-baas/sdk` — see homepage examples at https://meetingbaas.com/en
 
@@ -95,8 +95,9 @@ Meeting BaaS provides a hosted API (with a self-hosting option) to deploy bots i
 |---|---|
 | **Meeting Bot** | API-created participant that joins a live meeting from a URL |
 | **Recording Modes** | `speaker_view`, `gallery_view`, or `audio_only` |
-| **Speech-to-Text** | Optional transcription with word-level timestamps and speaker labels in `complete` webhook payload |
-| **Webhook Events** | Live `bot.status_change` and terminal `complete` / `failed` with structured payloads |
+| **Speech-to-Text** | Optional transcription; **v2** exposes transcript/diarization as linked artifacts on `bot.completed` — [Artifacts](https://docs.meetingbaas.com/docs/api-v2/artifacts) |
+| **Webhook Events** | **v2:** `bot.status_change`, `bot.completed`, `bot.failed`, `bot.chat_message`, plus calendar events — signed via **SVIX** — [Webhooks (v2)](https://docs.meetingbaas.com/docs/api-v2/webhooks) |
+| **Per-Bot Callbacks** | Optional `callback_config` on bot create: direct HTTP for completion/failure; verify with `x-mb-secret` when a secret is set |
 | **Streaming (optional)** | WebSocket input/output audio and diarized JSON for real-time agents — [Sending a bot — Advanced Options](https://docs.meetingbaas.com/docs/api/getting-started/sending-a-bot) |
 | **Automatic Leave** | Timeouts for waiting room and empty meetings |
 
@@ -111,7 +112,7 @@ Bot joins Zoom / Meet / Teams without a human opening the client
     ↓
 Webhooks stream status (joining, in_call_recording, …)
     ↓
-On complete: webhook delivers mp4 URL, speakers[], optional word-level diarized transcript
+On success: **`bot.completed`** (v2) delivers artifact URLs (mp4, transcription JSON, diarization, etc.); presigned URLs expire (see v2 docs — typically a few hours)
     ↓
 Agent consumes structured transcript + metadata; may DELETE / remove bot via API
 ```
@@ -124,8 +125,9 @@ No human is required to start or stop recording from inside the meeting app.
 
 - Each deployment returns a **`bot_id`** (UUID) used for status correlation, removal, and follow-up API calls
 - **Operator API key** (`x-meeting-baas-api-key`) identifies the integrating account; bots are attributed to that project
-- **Webhook signing** — configure endpoint verification per docs so only your agent backend accepts payloads
-- Transcript and recording URLs in `complete` events are time-limited (e.g. pre-signed URLs); agents should fetch or persist promptly — [Getting the Data](https://docs.meetingbaas.com/docs/api/getting-started/getting-the-data)
+- **Webhook authenticity (v2)** — SVIX-signed requests: verify using `svix-id`, `svix-timestamp`, and `svix-signature` headers and your endpoint signing secret — [Webhook Security](https://docs.meetingbaas.com/docs/api-v2/webhooks#webhook-security)
+- **Callback authenticity** — when `callback_config.secret` is set, Meeting BaaS sends `x-mb-secret` on bot callbacks — [Callbacks](https://docs.meetingbaas.com/docs/api-v2/webhooks#callbacks)
+- **Artifact URLs** — presigned S3 URLs in `bot.completed` expire (v2 docs: **4 hours**); agents should fetch or persist promptly — [Artifacts](https://docs.meetingbaas.com/docs/api-v2/artifacts)
 
 ---
 
@@ -134,7 +136,8 @@ No human is required to start or stop recording from inside the meeting app.
 | Interface | Detail |
 |---|---|
 | REST API | `POST https://api.meetingbaas.com/bots` — create bot; removal and listing per docs |
-| Webhooks | `bot.status_change`, `complete`, `failed` — [Getting the Data](https://docs.meetingbaas.com/docs/api/getting-started/getting-the-data) |
+| Webhooks (v2) | Account-level, SVIX-signed — `bot.status_change`, `bot.completed`, `bot.failed`, calendar events — [Webhooks (v2)](https://docs.meetingbaas.com/docs/api-v2/webhooks) |
+| Callbacks | Per-bot `callback_config` for direct HTTP completion/failure notifications |
 | TypeScript SDK | `@meeting-baas/sdk` — `createBaasClient` + `createBot` — [homepage](https://meetingbaas.com/en) |
 | MCP | https://github.com/Meeting-Baas/meeting-mcp |
 
