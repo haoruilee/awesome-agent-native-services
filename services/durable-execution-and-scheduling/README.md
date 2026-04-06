@@ -22,6 +22,7 @@ Durable execution for agents requires:
 |---|---|---|---|
 | [Trigger.dev](trigger-dev.md) | Build and deploy fully-managed AI agents and workflows | TypeScript SDK, REST API, Cron | ❌ |
 | [Inngest](inngest.md) | Durable execution for AI agents in production | TypeScript SDK, Python SDK, REST API | ✅ |
+| [Kitaru](kitaru.md) | Durable execution for AI agents — primitives first, frameworks second | Python SDK, CLI (`--output json`), MCP server | ✅ |
 | [Restate](restate.md) | Durable execution for AI agents — any framework, any cloud | Python SDK, TypeScript SDK, REST API | ✅ |
 
 ---
