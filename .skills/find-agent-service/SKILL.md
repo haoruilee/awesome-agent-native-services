@@ -71,7 +71,7 @@ Activate this skill when the user asks things like:
 | Agent needs to search the web | Search & Web Intelligence | Tavily, Exa | Skill / MCP |
 | Agent needs to run generated code safely | Code Execution | E2B | SDK / MCP |
 | Agent needs tracing / debugging | Observability | Langfuse | Skill |
-| Agent needs long-running fault-tolerant tasks | Durable Execution | Trigger.dev, Inngest, Restate | Skill / SDK |
+| Agent needs long-running fault-tolerant tasks | Durable Execution | Trigger.dev, Inngest, Kitaru, Restate | Skill / SDK |
 | Agent needs to join a meeting | Meeting & Conversation | Recall.ai | REST |
 | Agent needs to make or receive phone calls | Voice & Phone | Vapi | SDK |
 | Agent needs to control LLM costs and routing | LLM Gateway | Portkey | SDK |

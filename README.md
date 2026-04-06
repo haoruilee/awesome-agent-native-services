@@ -42,7 +42,7 @@ Source files are in `.skills/` in this repo.
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 4 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 2 | Secure sandboxes for AI-generated code |
 | 10 | [Observability & Tracing](#10-observability--tracing-services) | 2 | Agent trajectory tracing and evaluation |
-| 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 3 | Fault-tolerant long-running agent workflows |
+| 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 4 | Fault-tolerant long-running agent workflows |
 | 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 1 | Agent presence in voice and video meetings |
 | 13 | [Voice & Phone](#13-voice--phone-services) | 1 | Agent-controlled voice calls and phone infrastructure |
 | 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 2 | Per-agent budget, routing, caching, and observability for LLM calls |
@@ -223,6 +223,7 @@ Source files are in `.skills/` in this repo.
 |---|---|---|---|---|
 | [Trigger.dev](services/durable-execution-and-scheduling/trigger-dev.md) [![⭐](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social)](https://github.com/triggerdotdev/trigger.dev) | Build and deploy fully-managed AI agents and workflows | No-timeout tasks · Step checkpointing · HITL waitForApproval · Streaming response | ❌ | `npx skills add triggerdotdev/skills` |
 | [Inngest](services/durable-execution-and-scheduling/inngest.md) [![⭐](https://img.shields.io/github/stars/inngest/inngest?style=social)](https://github.com/inngest/inngest) | Durable execution for AI agents in production | Durable step · Context-preserving retry · HITL suspend/resume · Low-latency interactive mode | ✅ | `npx skills add inngest/inngest-skills` |
+| [Kitaru](services/durable-execution-and-scheduling/kitaru.md) [![⭐](https://img.shields.io/github/stars/zenml-io/kitaru?style=social)](https://github.com/zenml-io/kitaru) | Durable execution for AI agents — primitives first, frameworks second | `@flow` / `@checkpoint` · Built-in memory · LLM tracking · Replay with overrides · MCP server | ✅ | `pip install kitaru` — `@flow` / `@checkpoint` decorators |
 | [Restate](services/durable-execution-and-scheduling/restate.md) [![⭐](https://img.shields.io/github/stars/restatedev/restate?style=social)](https://github.com/restatedev/restate) | Durable execution for AI agents — any framework, any cloud | Durable AI loop · Compensation pattern · A2A exactly-once · Suspend-when-idle | ✅ | `pip install restate-sdk` — wrap existing agent with 2-line middleware |
 
 ---

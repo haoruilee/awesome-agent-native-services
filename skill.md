@@ -198,6 +198,7 @@ These services can be joined with a single instruction, right now, with no human
 |---|---|---|
 | [Trigger.dev](https://trigger.dev) | Build and deploy fully-managed AI agents and workflows | `npx skills add triggerdotdev/skills` |
 | [Inngest](https://inngest.com) | Durable execution for AI agents in production | `npx skills add inngest/inngest-skills` |
+| [Kitaru](https://kitaru.ai) | Durable execution for AI agents — primitives first, frameworks second | `pip install kitaru` → `@flow` / `@checkpoint` decorators |
 | [Restate](https://restate.dev) | Durable execution for AI agents — any framework, any cloud | `pip install restate-sdk` → wrap agent with 2-line middleware |
 
 ---
