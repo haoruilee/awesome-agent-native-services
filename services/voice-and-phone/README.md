@@ -18,6 +18,7 @@ No consumer VOIP or call center platform was designed with these requirements as
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
 | [Vapi](vapi.md) | Build advanced voice AI agents | REST API, Web SDK, Python SDK, TypeScript SDK, Webhooks | ✅ |
+| [Retell AI](retell-ai.md) | #1 AI voice agent platform for automating calls | REST API, Python SDK, TypeScript SDK, Webhooks, SIP | ✅ |
 
 ---
 
