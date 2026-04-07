@@ -40,12 +40,12 @@ Source files are in `.skills/` in this repo.
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 11 | Execution, session isolation, secrets, and gateway |
 | 7 | [Memory & State](#7-memory--state-services) | 8 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 4 | LLM-optimized web search and content retrieval |
-| 9 | [Code Execution](#9-code-execution-services) | 2 | Secure sandboxes for AI-generated code |
+| 9 | [Code Execution](#9-code-execution-services) | 3 | Secure sandboxes for AI-generated code |
 | 10 | [Observability & Tracing](#10-observability--tracing-services) | 3 | Agent trajectory tracing and evaluation |
 | 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 4 | Fault-tolerant long-running agent workflows |
-| 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 2 | Agent presence in voice and video meetings |
-| 13 | [Voice & Phone](#13-voice--phone-services) | 1 | Agent-controlled voice calls and phone infrastructure |
-| 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 2 | Per-agent budget, routing, caching, and observability for LLM calls |
+| 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 3 | Agent presence in voice and video meetings |
+| 13 | [Voice & Phone](#13-voice--phone-services) | 2 | Agent-controlled voice calls and phone infrastructure |
+| 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 3 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 15 | [Agent Social & Community](#15-agent-social--community-services) | 3 | Social networks where agents are first-class participants |
 
 ---
@@ -197,6 +197,7 @@ Source files are in `.skills/` in this repo.
 |---|---|---|---|---|
 | [E2B](services/code-execution/e2b.md) [![⭐](https://img.shields.io/github/stars/e2b-dev/e2b?style=social)](https://github.com/e2b-dev/e2b) | Cloud for AI agents — secure sandboxes for AI-generated code | Ephemeral Linux VM · ~150ms cold start · Stateful execution context · Streaming output | ✅ | `pip install e2b-code-interpreter` then `with Sandbox() as sandbox:` |
 | [Daytona](services/code-execution/daytona.md) [![⭐](https://img.shields.io/github/stars/daytonaio/daytona?style=social)](https://github.com/daytonaio/daytona) | Secure elastic infrastructure for AI-generated code | Sub-90ms sandboxes · Git/LSP/exec · Preview URLs · CLI MCP | ✅ | `brew install daytonaio/cli/daytona` → `daytona login` → `daytona mcp init cursor` — or `pip install daytona` |
+| [Runloop](services/code-execution/runloop.md) [![⭐](https://img.shields.io/github/stars/runloopai/api-client-python?style=social)](https://github.com/runloopai/api-client-python) | Your AI agent accelerator | Devbox micro-VM · Snapshot/branch disk state · Benchmark jobs · Suspend/resume | ✅ | `export RUNLOOP_API_KEY=...` → `npm install -g @runloop/rl-cli` → `rli mcp install` — [CLI docs](https://docs.runloop.ai/docs/tools/rl-cli) |
 
 ---
 
@@ -239,6 +240,7 @@ Source files are in `.skills/` in this repo.
 |---|---|---|---|---|
 | [Recall.ai](services/meeting-and-conversation/recall-ai.md) | The meeting bot API for every platform | Meeting bot lifecycle · Real-time diarized transcript · Calendar-triggered deployment · 6 platforms | ❌ | `POST https://api.recall.ai/api/v1/bot` with the meeting URL |
 | [Meeting BaaS](services/meeting-and-conversation/meeting-baas.md) | Meeting bots as a service — Zoom, Meet, Teams | Bot lifecycle · Webhook transcripts · Optional bidirectional audio stream · meeting-mcp | ✅ | `POST https://api.meetingbaas.com/bots` with `x-meeting-baas-api-key` — [docs](https://docs.meetingbaas.com/docs/api/getting-started/sending-a-bot) |
+| [MeetStream](services/meeting-and-conversation/meetstream.md) | Unified meeting-bot API for Zoom, Meet, Teams | Real-time diarized webhooks · WebSocket A/V · In-meeting chat/TTS · Calendar auto-dispatch | ⚠️ | `POST https://api.meetstream.ai/api/v1/bots/create_bot` with `Authorization: Token <key>` — [Create Bot](https://docs.meetstream.ai/api-reference/ap-is/bot-endpoints/create-bot.mdx) |
 
 ---
 
@@ -251,6 +253,7 @@ Source files are in `.skills/` in this repo.
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
 | [Vapi](services/voice-and-phone/vapi.md) | Build advanced voice AI agents | Voice assistant lifecycle · Tool-calling mid-call · Webhook per utterance · Voice simulation testing | ✅ | `pip install vapi-server-sdk` then `POST /assistant` |
+| [Retell AI](services/voice-and-phone/retell-ai.md) [![⭐](https://img.shields.io/github/stars/RetellAI/retell-python-sdk?style=social)](https://github.com/RetellAI/retell-python-sdk) | #1 AI voice agent platform for automating calls | Phone agent lifecycle · Mid-call MCP/tools · SIP · Simulation testing · Webhooks | ✅ | `pip install retell-sdk` — [docs.retellai.com](https://docs.retellai.com) |
 
 ---
 
@@ -264,6 +267,7 @@ Source files are in `.skills/` in this repo.
 |---|---|---|---|---|
 | [Portkey](services/llm-gateway-and-routing/portkey.md) [![⭐](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social)](https://github.com/Portkey-AI/gateway) | The AI gateway built for production agents | Virtual key · Per-agent budget limit · Automatic fallback · Sticky session routing · Agent trace | ⚠️ | `pip install portkey-ai` — point LLM client at `api.portkey.ai` with a virtual key |
 | [Keywords AI](services/llm-gateway-and-routing/keywords-ai.md) | AI gateway — 250+ LLMs via OpenAI-compatible API | Fallback · Load balancing · `KeywordsAITraceProcessor` for OpenAI Agents SDK | ⚠️ | Point OpenAI SDK at `https://api.keywordsai.co` — [gateway quickstart](https://docs.keywordsai.co/get-started/quickstart/gateway) |
+| [Agentgateway](services/llm-gateway-and-routing/agentgateway.md) [![⭐](https://img.shields.io/github/stars/agentgateway/agentgateway?style=social)](https://github.com/agentgateway/agentgateway) | Open-source proxy for agentic AI (LLM + MCP + A2A) | MCP federation · A2A routing · OpenAI-compatible LLM path · OTEL · CEL RBAC | ✅ | [Quickstart](https://agentgateway.dev/docs/quickstart/): install binary/Docker/K8s → `agentgateway -f config.yaml` |
 
 ---
 
