@@ -5,7 +5,7 @@ description: >
   the ground up for AI agents, not adapted from human-facing products. Use the
   catalog to find services by task, understand each service's onboarding pattern,
   and immediately start using any service with URL Onboarding in one instruction.
-version: "2026-04-06"
+version: "2026-04-07"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -56,7 +56,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 68+ Services
+## Full Catalog — 15 Categories, 80+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -87,6 +87,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Hyperbrowser](https://www.hyperbrowser.ai) | Web infra for AI agents (MCP tools) | `npx hyperbrowser-mcp <API_KEY>` |
 | [AgentQL](https://agentql.com) | AgentQL queries → structured JSON from the web | API key → [docs.agentql.com](https://docs.agentql.com) |
 | [Crawl4AI](https://crawl4ai.com) | OSS LLM-friendly crawler + MCP | [docs.crawl4ai.com](https://docs.crawl4ai.com) |
+| [Apify](https://apify.com) | Real-time web data for AI — Actor API & marketplace | API token → [Apify API v2](https://docs.apify.com/api/v2) — `apify-client` |
 
 ---
 
@@ -98,6 +99,8 @@ These services can be joined with a single instruction, right now, with no human
 | [Composio](https://composio.dev) | The tool platform built for agents | `npx skills add composiohq/skills` |
 | [Nango](https://nango.dev) | OAuth and credential layer for AI agents | `$skills install @NangoHQ/sync-builder-skill` |
 | [Toolhouse](https://toolhouse.ai) | BaaS for AI agents — tools, memory, and execution | `npm install -g toolhouse` → `th deploy` |
+| [Smithery](https://smithery.ai) | MCP registry — thousands of remote MCP servers & skills | `npx @smithery/cli@latest setup` — [docs.smithery.ai](https://docs.smithery.ai/) |
+| [MCP Gateway](https://mcpgateway.com) | Enterprise MCP — tools, skills, sandboxes, one API | `pip install mcpgateway-sdk` — [mcpgateway.com](https://mcpgateway.com) |
 
 ---
 
@@ -140,6 +143,8 @@ These services can be joined with a single instruction, right now, with no human
 | [db9](https://db9.ai) ⭐ | Postgres but for agents | `Read https://db9.ai/skill.md and follow the instructions` |
 | [AgentAnycast](https://github.com/AgentAnycast/agentanycast) | Connect AI agents across any network — no public IP | `pip install agentanycast` → `agentanycast demo` — MCP: `agentanycastd --mcp-listen stdio` or `uvx agentanycast-mcp` |
 | [Scrapybara](https://scrapybara.com) | Remote desktops for computer-use agents (CUA) | `pip install scrapybara` → `Scrapybara().start_ubuntu()` — [Act SDK](https://docs.scrapybara.com/act-sdk) |
+| [Agentuity](https://agentuity.com) | Full-stack platform for AI agents | [agentuity.dev](https://agentuity.dev) — SDK + CLI |
+| [Modal](https://modal.com) | Serverless AI infra — GPUs, sandboxes, batch | `pip install modal` → `modal setup` — [modal.com/docs](https://modal.com/docs) |
 
 ---
 
@@ -190,6 +195,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Langfuse](https://langfuse.com) | Open-source LLM observability, tracing, and evaluation | `npx skills add https://github.com/langfuse/skills --skill langfuse-observability` |
 | [AgentEvals](https://aevals.ai) | Score agent behavior from OpenTelemetry traces (no re-runs) | `pip install agentevals-cli` → `agentevals run <trace> --eval-set <set> -m tool_trajectory_avg_score` |
 | [AgentOps](https://www.agentops.ai) | Agent session waterfalls and trace API | `pip install agentops` → `agentops.init(<API_KEY>)` |
+| [Braintrust](https://www.braintrust.dev) | AI observability & evals — OpenAI Agents trace processor + MCP | `pip install "braintrust[openai-agents]"` — MCP: [Braintrust MCP](https://www.braintrust.dev/docs/integrations/developer-tools/mcp) |
 
 ---
 
@@ -202,6 +208,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Inngest](https://inngest.com) | Durable execution for AI agents in production | `npx skills add inngest/inngest-skills` |
 | [Kitaru](https://kitaru.ai) | Durable execution for AI agents — primitives first, frameworks second | `pip install kitaru` → `@flow` / `@checkpoint` decorators |
 | [Restate](https://restate.dev) | Durable execution for AI agents — any framework, any cloud | `pip install restate-sdk` → wrap agent with 2-line middleware |
+| [MCP-Cloud (mcp-agent)](https://docs.mcp-agent.com) | Host mcp-agents on cloud — Temporal-backed MCP | `uvx mcp-agent login` → `uvx mcp-agent deploy …` — [MCP-Cloud](https://docs.mcp-agent.com/get-started/cloud) |
 
 ---
 
@@ -223,6 +230,7 @@ These services can be joined with a single instruction, right now, with no human
 |---|---|---|
 | [Vapi](https://vapi.ai) | Build advanced voice AI agents | `pip install vapi-server-sdk` → `POST /assistant` |
 | [Retell AI](https://www.retellai.com) | #1 AI voice agent platform for automating calls | `pip install retell-sdk` — [docs.retellai.com](https://docs.retellai.com) |
+| [LiveKit Agents](https://livekit.io/agents) | Realtime voice/video AI agents | [docs.livekit.io/agents](https://docs.livekit.io/agents/) — Python/TS SDK |
 
 ---
 
@@ -234,6 +242,9 @@ These services can be joined with a single instruction, right now, with no human
 | [Portkey](https://portkey.ai) | The AI gateway built for production agents | `pip install portkey-ai` → point LLM client at `api.portkey.ai` with a virtual key |
 | [Keywords AI](https://www.keywordsai.co) | OpenAI-compatible gateway + agent tracing | Base URL `https://api.keywordsai.co` — [gateway quickstart](https://docs.keywordsai.co/get-started/quickstart/gateway) |
 | [Agentgateway](https://agentgateway.dev) | Open-source LLM + MCP + A2A proxy | Install via [quickstart](https://agentgateway.dev/docs/quickstart/) → run `agentgateway -f config.yaml` |
+| [LiteLLM](https://www.litellm.ai) | Open-source gateway — 100+ LLMs + Agent Gateway (A2A) | Self-host per [proxy quickstart](https://docs.litellm.ai/docs/proxy/docker_quick_start) — [A2A](https://docs.litellm.ai/docs/a2a) |
+| [OpenRouter](https://openrouter.ai) | Unified OpenAI-compatible API — 300+ models | [Quickstart](https://openrouter.ai/docs/quickstart) + `OPENROUTER_API_KEY` |
+| [Helicone](https://www.helicone.ai) | AI Gateway + observability — `ai-gateway.helicone.ai` | OpenAI SDK `baseURL` per [Helicone quickstart](https://docs.helicone.ai/) |
 
 ---
 
@@ -245,6 +256,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Moltbook](https://moltbook.com) ⭐ | The front page of the agent internet | `Read https://www.moltbook.com/skill.md and follow the instructions to register and join` |
 | [Shellmates](https://shellmates.app) | Pen pals for AI agents — 1:1 matching, private correspondence | `POST https://www.shellmates.app/api/agents/register` |
 | [Openwork](https://openwork.so) | The agent-only labor marketplace — hire agents, earn on-chain | `npx playbooks add skill openclaw/skills --skill openwork` |
+| [MCP Verse](https://mcpverse.org) | Open town square for autonomous MCP agents | `npx create-mcpverse-agent my-bot` — [mcpverse.org/docs](https://mcpverse.org/docs) |
 
 ---
 

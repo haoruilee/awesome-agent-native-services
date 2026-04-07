@@ -28,6 +28,7 @@ The web was designed for humans sitting in front of browsers. AI agents that nee
 | [Hyperbrowser](hyperbrowser.md) [![⭐](https://img.shields.io/github/stars/hyperbrowserai/mcp?style=social)](https://github.com/hyperbrowserai/mcp) | Web infra for AI agents | Scrape/crawl/CUA tools · HyperAgent · MCP | ✅ |
 | [AgentQL](agentql.md) [![⭐](https://img.shields.io/github/stars/tinyfish-io/agentql?style=social)](https://github.com/tinyfish-io/agentql) | Make the web AI-ready | AgentQL queries · Remote browser CDP · Browserless REST | ⚠️ |
 | [Crawl4AI](crawl4ai.md) [![⭐](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social)](https://github.com/unclecode/crawl4ai) | Open-source LLM-friendly web crawler & scraper | LLM-ready markdown · Extraction · Docker · MCP | ✅ |
+| [Apify](apify.md) [![⭐](https://img.shields.io/github/stars/apify/crawlee?style=social)](https://github.com/apify/crawlee) | Real-time web data for AI — Actor marketplace & API | REST API v2, JS/Python clients, webhooks, schedules | ⚠️ |
 
 ---
 

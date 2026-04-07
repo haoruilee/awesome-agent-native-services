@@ -134,7 +134,7 @@ Not applicable as a core primitive. Portkey is infrastructure — HITL is compos
 | Alternative | Why It Fails |
 |---|---|
 | **Direct OpenAI/Anthropic API** | No fallback, no per-agent budget, no cross-provider routing, no agent trace linking |
-| **LiteLLM (self-hosted)** | Open-source proxy without managed per-agent budget enforcement, enterprise security, or agent-specific trace primitives |
+| **LiteLLM (see catalog entry)** | Open-source/self-hosted sibling — Portkey emphasizes managed virtual keys, enterprise compliance posture, and hosted agent-trace UX without operating the proxy fleet |
 | **AWS Bedrock (routing)** | AWS-vendor-locked; no per-agent virtual keys, no cross-cloud fallback |
 | **API gateway (Kong, NGINX)** | Generic HTTP proxies; no LLM-specific primitives, no semantic caching, no agent trace |
 

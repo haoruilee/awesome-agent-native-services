@@ -122,7 +122,7 @@ Dashboard for prompts, logs, and limits; runtime is automated.
 | Alternative | Why It Fails |
 |---|---|
 | **Call OpenAI directly** | No **central fallback**, **multi-model** routing, or **agent trace processor** |
-| **Raw LiteLLM self-host** | Keywords is a **hosted** product with **dashboard** governance for orgs |
+| **LiteLLM (see catalog entry)** | Keywords is a **hosted** product with **dashboard** governance for orgs; LiteLLM is **self-hosted OSS** with overlapping gateway features |
 
 ---
 

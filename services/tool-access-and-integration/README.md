@@ -19,6 +19,8 @@ Agent-native tool access services solve all three problems with primitives that 
 | [Composio](composio.md) | The tool platform built for agents | Python SDK, TypeScript SDK, 10+ framework integrations | ✅ |
 | [Nango](nango.md) | OAuth and credential layer for AI agents | REST API, Node SDK | ✅ |
 | [Toolhouse](toolhouse.md) | BaaS for AI agents — tools, memory, and execution | CLI, MCP Server, Streaming REST API | ✅ |
+| [Smithery](smithery.md) [![⭐](https://img.shields.io/github/stars/smithery-ai/cli?style=social)](https://github.com/smithery-ai/cli) | Connect agents to thousands of MCP tools and Agent Skills | CLI, TypeScript SDK, remote MCP registry, OAuth brokerage | ✅ |
+| [MCP Gateway](mcpgateway.md) | The platform for production AI agents — tools, skills, sandboxes | Python SDK (`mcpgateway-sdk`), federated MCP, RBAC | ✅ |
 
 ---
 
