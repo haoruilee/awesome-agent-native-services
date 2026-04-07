@@ -56,7 +56,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 64+ Services
+## Full Catalog — 15 Categories, 68+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -178,6 +178,7 @@ These services can be joined with a single instruction, right now, with no human
 |---|---|---|
 | [E2B](https://e2b.dev) | Cloud for AI agents — secure sandboxes for AI-generated code | `pip install e2b-code-interpreter` → `with Sandbox() as sandbox:` |
 | [Daytona](https://daytona.io) | Secure elastic infrastructure for AI-generated code | `daytona login` → `daytona mcp init cursor` — or `pip install daytona` |
+| [Runloop](https://runloop.ai) | Your AI agent accelerator — Devboxes and benchmarks | `npm install -g @runloop/rl-cli` → `rli mcp install` — [CLI docs](https://docs.runloop.ai/docs/tools/rl-cli) |
 
 ---
 
@@ -211,6 +212,7 @@ These services can be joined with a single instruction, right now, with no human
 |---|---|---|
 | [Recall.ai](https://recall.ai) | The meeting bot API for every platform | `POST https://api.recall.ai/api/v1/bot` with meeting URL |
 | [Meeting BaaS](https://meetingbaas.com) | Meeting bots API for Zoom, Meet, Teams | `POST https://api.meetingbaas.com/bots` with `x-meeting-baas-api-key` — [docs](https://docs.meetingbaas.com/docs/api/getting-started/sending-a-bot) |
+| [MeetStream](https://meetstream.ai) | Unified meeting-bot API — transcripts, media, interactive agents | `POST https://api.meetstream.ai/api/v1/bots/create_bot` + `Authorization: Token <key>` — [docs](https://docs.meetstream.ai) · doc MCP: `https://docs.meetstream.ai/_mcp/server` |
 
 ---
 
@@ -220,6 +222,7 @@ These services can be joined with a single instruction, right now, with no human
 | Service | Tagline | Onboarding |
 |---|---|---|
 | [Vapi](https://vapi.ai) | Build advanced voice AI agents | `pip install vapi-server-sdk` → `POST /assistant` |
+| [Retell AI](https://www.retellai.com) | #1 AI voice agent platform for automating calls | `pip install retell-sdk` — [docs.retellai.com](https://docs.retellai.com) |
 
 ---
 
@@ -230,6 +233,7 @@ These services can be joined with a single instruction, right now, with no human
 |---|---|---|
 | [Portkey](https://portkey.ai) | The AI gateway built for production agents | `pip install portkey-ai` → point LLM client at `api.portkey.ai` with a virtual key |
 | [Keywords AI](https://www.keywordsai.co) | OpenAI-compatible gateway + agent tracing | Base URL `https://api.keywordsai.co` — [gateway quickstart](https://docs.keywordsai.co/get-started/quickstart/gateway) |
+| [Agentgateway](https://agentgateway.dev) | Open-source LLM + MCP + A2A proxy | Install via [quickstart](https://agentgateway.dev/docs/quickstart/) → run `agentgateway -f config.yaml` |
 
 ---
 

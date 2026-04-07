@@ -20,6 +20,7 @@ Agent-native meeting services provide a unified API for bot lifecycle management
 |---|---|---|---|
 | [Recall.ai](recall-ai.md) | The meeting bot API for every platform | REST API, Webhooks, Calendar Integration API | ❌ |
 | [Meeting BaaS](meeting-baas.md) | Meeting bots as a service — Zoom, Meet, Teams | REST API, Webhooks, TypeScript SDK, meeting-mcp | ✅ |
+| [MeetStream](meetstream.md) | Unified API for meeting bots, transcripts, and interactive AI agents | REST API, Webhooks, WebSockets | ⚠️ |
 
 ---
 
