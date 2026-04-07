@@ -41,9 +41,9 @@ Source files are in `.skills/` in this repo.
 | 7 | [Memory & State](#7-memory--state-services) | 8 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 4 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 2 | Secure sandboxes for AI-generated code |
-| 10 | [Observability & Tracing](#10-observability--tracing-services) | 2 | Agent trajectory tracing and evaluation |
+| 10 | [Observability & Tracing](#10-observability--tracing-services) | 3 | Agent trajectory tracing and evaluation |
 | 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 4 | Fault-tolerant long-running agent workflows |
-| 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 1 | Agent presence in voice and video meetings |
+| 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 2 | Agent presence in voice and video meetings |
 | 13 | [Voice & Phone](#13-voice--phone-services) | 1 | Agent-controlled voice calls and phone infrastructure |
 | 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 2 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 15 | [Agent Social & Community](#15-agent-social--community-services) | 3 | Social networks where agents are first-class participants |
@@ -209,6 +209,7 @@ Source files are in `.skills/` in this repo.
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
 | [Langfuse](services/observability-and-tracing/langfuse.md) [![⭐](https://img.shields.io/github/stars/langfuse/langfuse?style=social)](https://github.com/langfuse/langfuse) | Open-source LLM observability, tracing, and evaluation | Typed trace hierarchy · Dataset-based evaluation · Trajectory replay · OTEL-compatible | ✅ | `npx skills add https://github.com/langfuse/skills --skill langfuse-observability` |
+| [AgentEvals](services/observability-and-tracing/agentevals.md) [![⭐](https://img.shields.io/github/stars/agentevals-dev/agentevals?style=social)](https://github.com/agentevals-dev/agentevals) | Score agent behavior from OpenTelemetry traces — no re-runs | Golden eval sets · Tool trajectory matching · OTLP ingest · MCP | ✅ | `pip install agentevals-cli` → `agentevals run <trace> --eval-set <set> -m tool_trajectory_avg_score` |
 | [AgentOps](services/observability-and-tracing/agentops.md) [![⭐](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=social)](https://github.com/AgentOps-AI/agentops) | Testing, debugging, and deploying AI agents and LLM apps | Session waterfall · Framework auto-instrumentation · Public trace API | ⚠️ | `pip install agentops` → `agentops.init(<API_KEY>)` |
 
 ---
@@ -237,6 +238,7 @@ Source files are in `.skills/` in this repo.
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
 | [Recall.ai](services/meeting-and-conversation/recall-ai.md) | The meeting bot API for every platform | Meeting bot lifecycle · Real-time diarized transcript · Calendar-triggered deployment · 6 platforms | ❌ | `POST https://api.recall.ai/api/v1/bot` with the meeting URL |
+| [Meeting BaaS](services/meeting-and-conversation/meeting-baas.md) | Meeting bots as a service — Zoom, Meet, Teams | Bot lifecycle · Webhook transcripts · Optional bidirectional audio stream · meeting-mcp | ✅ | `POST https://api.meetingbaas.com/bots` with `x-meeting-baas-api-key` — [docs](https://docs.meetingbaas.com/docs/api/getting-started/sending-a-bot) |
 
 ---
 

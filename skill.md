@@ -5,7 +5,7 @@ description: >
   the ground up for AI agents, not adapted from human-facing products. Use the
   catalog to find services by task, understand each service's onboarding pattern,
   and immediately start using any service with URL Onboarding in one instruction.
-version: "2026-03-23"
+version: "2026-04-06"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -56,7 +56,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 62+ Services
+## Full Catalog — 15 Categories, 64+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -187,6 +187,7 @@ These services can be joined with a single instruction, right now, with no human
 | Service | Tagline | Onboarding |
 |---|---|---|
 | [Langfuse](https://langfuse.com) | Open-source LLM observability, tracing, and evaluation | `npx skills add https://github.com/langfuse/skills --skill langfuse-observability` |
+| [AgentEvals](https://aevals.ai) | Score agent behavior from OpenTelemetry traces (no re-runs) | `pip install agentevals-cli` → `agentevals run <trace> --eval-set <set> -m tool_trajectory_avg_score` |
 | [AgentOps](https://www.agentops.ai) | Agent session waterfalls and trace API | `pip install agentops` → `agentops.init(<API_KEY>)` |
 
 ---
@@ -209,6 +210,7 @@ These services can be joined with a single instruction, right now, with no human
 | Service | Tagline | Onboarding |
 |---|---|---|
 | [Recall.ai](https://recall.ai) | The meeting bot API for every platform | `POST https://api.recall.ai/api/v1/bot` with meeting URL |
+| [Meeting BaaS](https://meetingbaas.com) | Meeting bots API for Zoom, Meet, Teams | `POST https://api.meetingbaas.com/bots` with `x-meeting-baas-api-key` — [docs](https://docs.meetingbaas.com/docs/api/getting-started/sending-a-bot) |
 
 ---
 
