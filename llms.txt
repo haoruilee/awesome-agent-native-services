@@ -22,7 +22,7 @@ This repository is itself agent-native. AI agents can discover services, evaluat
 
 ## Repository Structure
 
-- [services/](https://github.com/haoruilee/awesome-agent-native-services/tree/main/services): 15 categories, each with `README.md` and per-service `.md` files
+- [services/](https://github.com/haoruilee/awesome-agent-native-services/tree/main/services): 15 categories, each with `README.md` and per-service `.md` files (including [ClawHub](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/clawhub.md) under Tool Access & Integration)
 - [.skills/](https://github.com/haoruilee/awesome-agent-native-services/tree/main/.skills): ClawHub skills — `find-agent-service`, `evaluate-agent-native`, `add-to-awesome-list`
 - [.github/](https://github.com/haoruilee/awesome-agent-native-services/tree/main/.github): Issue templates, PR template, publish-skills workflow
 
@@ -35,7 +35,7 @@ Self-hosted and P2P entries (full write-ups under `services/`):
 
 ## Related — agent skills registries (ecosystem hubs)
 
-- [ClawHub](https://claw-hub.net/): OpenClaw skill marketplace — `npx clawhub@latest` ([openclaw/clawhub](https://github.com/openclaw/clawhub)). China access acceleration: [mirror-cn.clawhub.com](https://mirror-cn.clawhub.com) — registry URL `https://cn.clawhub-mirror.com` via env `CLAWHUB_REGISTRY` or CLI `--registry`
+- [ClawHub](https://claw-hub.net/): OpenClaw skill marketplace — `npx clawhub@latest` ([openclaw/clawhub](https://github.com/openclaw/clawhub)); catalog entry: [services/tool-access-and-integration/clawhub.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/clawhub.md). China access acceleration: [mirror-cn.clawhub.com](https://mirror-cn.clawhub.com) — registry URL `https://cn.clawhub-mirror.com` via env `CLAWHUB_REGISTRY` or CLI `--registry`
 - [MiniMax Skills](https://github.com/MiniMax-AI/skills): Curated `SKILL.md` packs for AI coding agents (Claude Code, Cursor, Codex, OpenCode) — see repo README for install paths
 
 ---
