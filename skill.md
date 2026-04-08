@@ -101,6 +101,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Toolhouse](https://toolhouse.ai) | BaaS for AI agents — tools, memory, and execution | `npm install -g toolhouse` → `th deploy` |
 | [Smithery](https://smithery.ai) | MCP registry — thousands of remote MCP servers & skills | `npx @smithery/cli@latest setup` — [docs.smithery.ai](https://docs.smithery.ai/) |
 | [MCP Gateway](https://mcpgateway.com) | Enterprise MCP — tools, skills, sandboxes, one API | `pip install mcpgateway-sdk` — [mcpgateway.com](https://mcpgateway.com) |
+| [ClawHub](https://claw-hub.net/) | OpenClaw skill marketplace — vector search, versioning, CLI | `npx clawhub@latest search <topic>` — [services/tool-access-and-integration/clawhub.md](services/tool-access-and-integration/clawhub.md) |
 
 ---
 
@@ -266,7 +267,7 @@ These are **curated skill packs and marketplaces** — machine-readable instruct
 
 | Hub | Role | How to start |
 |---|---|---|
-| **ClawHub** | Public registry for OpenClaw-style skills — search, install, publish via CLI | `npx clawhub@latest search <topic>` — [claw-hub.net](https://claw-hub.net/) · [openclaw/clawhub](https://github.com/openclaw/clawhub). **China mirror (加速):** [mirror-cn.clawhub.com](https://mirror-cn.clawhub.com) — set `CLAWHUB_REGISTRY=https://cn.clawhub-mirror.com` or `clawhub --registry https://cn.clawhub-mirror.com …` |
+| **ClawHub** | Public registry for OpenClaw-style skills — search, install, publish via CLI | `npx clawhub@latest search <topic>` — [claw-hub.net](https://claw-hub.net/) · [openclaw/clawhub](https://github.com/openclaw/clawhub) · [catalog: clawhub.md](services/tool-access-and-integration/clawhub.md). **China mirror (加速):** [mirror-cn.clawhub.com](https://mirror-cn.clawhub.com) — set `CLAWHUB_REGISTRY=https://cn.clawhub-mirror.com` or `clawhub --registry https://cn.clawhub-mirror.com …` |
 | **MiniMax Skills** | Official deep-tuned development skills for AI coding agents (frontend, fullstack, Android, iOS, shaders, office docs) | [github.com/MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) — follow **Installation** in the repo README (Claude Code plugin, Cursor `skills/` path, Codex / OpenCode symlinks) |
 
 ---
