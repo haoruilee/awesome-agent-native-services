@@ -86,7 +86,7 @@ npx clawhub@latest install evaluate-agent-native
 npx clawhub@latest install add-to-awesome-list
 ```
 
-**ClawHub China mirror:** For faster access in China, see [mirror-cn.clawhub.com](https://mirror-cn.clawhub.com). Set `CLAWHUB_REGISTRY=https://cn.clawhub-mirror.com` or use `--registry https://cn.clawhub-mirror.com` on CLI commands.
+ClawHub CLI options (including the China mirror): [clawhub/README.md](clawhub/README.md).
 
 ---
 

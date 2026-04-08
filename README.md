@@ -22,9 +22,7 @@ Besides, you can nstall these skills:
 | `evaluate-agent-native` | Evaluate whether a service meets the 5 criteria | `npx clawhub@latest install evaluate-agent-native` |
 | `add-to-awesome-list` | Full contribution workflow: criteria → issue → PR | `npx clawhub@latest install add-to-awesome-list` |
 
-**ClawHub China mirror (access acceleration):** [mirror-cn.clawhub.com](https://mirror-cn.clawhub.com) is the official landing page for the China mirror; it redirects to the registry front-end. For the CLI, set `CLAWHUB_REGISTRY=https://cn.clawhub-mirror.com` or pass `--registry https://cn.clawhub-mirror.com` (see the mirror site for copy-paste examples).
-
-Source files are in `.skills/` in this repo.
+Source files are in `.skills/` in this repo. ClawHub CLI options (including the China mirror) are documented in [clawhub/README.md](clawhub/README.md).
 
 ---
 
