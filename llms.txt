@@ -66,4 +66,4 @@ Self-hosted and P2P entries (full write-ups under `services/`):
 ## Optional
 
 - [Issue templates](https://github.com/haoruilee/awesome-agent-native-services/issues/new/choose): New service, update entry, flag service, new category
-- [Category list](https://github.com/haoruilee/awesome-agent-native-services#categories): Communication, Browser, Tool Access, Commerce, Memory, Search, Code Execution, Observability, Durable Execution, Meeting, Voice, LLM Gateway, Agent Social
+- [Category list](https://github.com/haoruilee/awesome-agent-native-services#categories): Communication, Browser, Tool Access, Oversight, Commerce, Agent Runtime, Memory, Search, Code Execution, Observability, Durable Execution, Meeting, Voice, LLM Gateway, Agent Social

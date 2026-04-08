@@ -26,6 +26,7 @@ Agent-native observability services capture **agent trajectory** — the semanti
 | [Langfuse](langfuse.md) | Open-source LLM observability, tracing, and evaluation | OpenTelemetry, Python SDK, TypeScript SDK | ✅ |
 | [AgentEvals](agentevals.md) [![⭐](https://img.shields.io/github/stars/agentevals-dev/agentevals?style=social)](https://github.com/agentevals-dev/agentevals) | Score agent behavior from OpenTelemetry traces — no re-runs | CLI, OTLP ingest, REST (with serve), MCP | ✅ |
 | [AgentOps](agentops.md) [![⭐](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=social)](https://github.com/AgentOps-AI/agentops) | Testing, debugging, and deploying AI agents and LLM apps | Session waterfall · Framework auto-instrumentation · Public trace API | ⚠️ |
+| [Braintrust](braintrust.md) [![⭐](https://img.shields.io/github/stars/braintrustdata/autoevals?style=social)](https://github.com/braintrustdata/autoevals) | AI observability and evaluation — traces, evals, MCP for IDEs | Python/TS SDKs, OpenAI Agents trace processor, MCP (`api.braintrust.dev/mcp`) | ✅ |
 
 ---
 

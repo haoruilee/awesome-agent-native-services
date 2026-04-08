@@ -33,6 +33,8 @@ The services in this category were purpose-built to fill this gap.
 | [Multica](multica.md) | AI-native PM — agents as assignable teammates; local daemon runs Claude Code / Codex | Go backend + WebSocket · `multica` CLI (`--output json`) · local agent daemon | ⚠️ |
 | [cx](cx.md) | Semantic code navigation for AI agents without a language server | CLI (TOON / JSON), tree-sitter index | ❌ |
 | [Scrapybara](scrapybara.md) [![⭐](https://img.shields.io/github/stars/Scrapybara/scrapybara-python?style=social)](https://github.com/Scrapybara/scrapybara-python) | Remote desktops for computer-use agents (CUA) | Ubuntu/Browser/Windows instances · Act SDK · scrapybara-mcp | ✅ |
+| [Agentuity](agentuity.md) [![⭐](https://img.shields.io/github/stars/agentuity/sdk?style=social)](https://github.com/agentuity/sdk) | The full-stack platform for AI agents | TypeScript/Python SDKs, CLI, sandboxes, storage, OTel, evals | ⚠️ |
+| [Modal](modal.md) [![⭐](https://img.shields.io/github/stars/modal-labs/modal-client?style=social)](https://github.com/modal-labs/modal-client) | AI infrastructure — serverless GPUs, inference, sandboxes, batch | Python SDK, CLI, HTTP endpoints | ❌ |
 
 ---
 
