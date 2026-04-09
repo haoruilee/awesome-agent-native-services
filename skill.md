@@ -56,7 +56,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 80+ Services
+## Full Catalog — 15 Categories, 82+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -138,6 +138,8 @@ These services can be joined with a single instruction, right now, with no human
 | [Multica](https://multica.ai) | AI-native PM — agents as assignable teammates; local daemon runs Claude Code / Codex | `brew install multica-cli` → `multica login` → `multica daemon start` — [CLI guide](https://github.com/multica-ai/multica/blob/main/CLI_AND_DAEMON.md) |
 | [cx](https://github.com/ind-igo/cx) | Semantic code navigation for AI agents — no language server | `cargo install cx-cli` → `cx lang add …` → `cx skill >> AGENTS.md` |
 | [Amazon Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore/) | Purpose-built for deploying and scaling dynamic AI agents | `pip install boto3` → configure AgentCore runtime |
+| [Vertex AI Agent Engine](https://cloud.google.com/agent-builder/agent-engine/overview) | Deploy, manage, and scale AI agents in production on GCP | `pip install "google-cloud-aiplatform[agent_engines,adk]"` → [set up](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/set-up) → [deploy](https://cloud.google.com/agent-builder/agent-engine/deploy) |
+| [Claude Managed Agents](https://docs.anthropic.com/en/api/overview) | Managed agents, sessions, environments on Claude API | `pip install anthropic` → [quickstart](https://platform.claude.com/docs/en/managed-agents/quickstart) + [beta headers](https://platform.claude.com/docs/en/api/beta-headers) |
 | [Infisical Agent Sentinel](https://infisical.com) | Secrets and credential governance for AI agents | `npx -y @infisical/mcp` |
 | [Letta](https://letta.ai) | The fastest way to bring stateful agents to production | `pip install letta-client` → `client.agents.create(...)` |
 | [Aembit](https://aembit.io) | Secretless workload identity and access management | Configure Aembit access policy → JIT credentials at runtime |

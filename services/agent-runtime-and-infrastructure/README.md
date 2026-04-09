@@ -25,6 +25,8 @@ The services in this category were purpose-built to fill this gap.
 | [acpx](acpx.md) | Headless ACP CLI — agents talk to coding agents over structured protocol, not PTY scraping | CLI, ACP protocol, SKILL.md | N/A |
 | [Codex plugin for Claude Code](codex-plugin-cc.md) | Claude Code marketplace plugin — delegate reviews and rescue work to OpenAI Codex via slash commands | Slash commands · Subagent · Background jobs · Optional review gate | N/A |
 | [Amazon Bedrock AgentCore](amazon-bedrock-agentcore.md) | Purpose-built for deploying and scaling dynamic AI agents and tools | AWS SDK, REST API, OpenTelemetry | ❌ |
+| [Vertex AI Agent Engine](vertex-ai-agent-engine.md) | Deploy, manage, and scale AI agents in production (Google Cloud) | Vertex AI SDK, REST, OpenTelemetry, A2A | ⚠️ |
+| [Claude Managed Agents](claude-managed-agents.md) | Managed agents, sessions, environments — direct Claude API | REST (`api.anthropic.com`), official SDKs (beta endpoints) | ⚠️ |
 | [Infisical Agent Sentinel](infisical-agent-sentinel.md) | Secrets and credential governance for AI agents | Daemon sidecar, REST API | ✅ |
 | [Letta](letta.md) | The fastest way to bring stateful agents to production | REST API, Python SDK, TypeScript SDK, MCP | ✅ |
 | [Aembit](aembit.md) | Secretless workload identity and access management for AI agents | Multi-protocol: MCP, OIDC, OAuth2, SSH, API keys | ✅ |
