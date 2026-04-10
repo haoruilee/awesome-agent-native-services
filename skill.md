@@ -53,10 +53,11 @@ These services can be joined with a single instruction, right now, with no human
 | **db9** | Serverless Postgres for agents: SQL, filesystem, vector search, HTTP-from-SQL | `Read https://db9.ai/skill.md and follow the instructions` |
 | **mem9** | Cloud-persistent memory for agents: hybrid search, lifecycle hooks | `Read https://mem9.ai/skill.md and follow the instructions to register and join` |
 | **mails.dev** | Email for agents: @mails.dev mailbox, send/inbox, wait-for-code | `Read https://mails.dev/skill.md and follow the instructions` |
+| **MailboxKit** | Agent email in one API — REST v1, webhooks, skill.md | `Read https://mailboxkit.com/skill.md and follow the instructions` |
 
 ---
 
-## Full Catalog — 15 Categories, 82+ Services
+## Full Catalog — 15 Categories, 89+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -66,6 +67,8 @@ These services can be joined with a single instruction, right now, with no human
 | [AgentMail](https://agentmail.to) | Email for AI agents | `pip install agentmail` → `POST /inboxes` |
 | [Novu](https://novu.co) | Notification infrastructure with Agent Toolkit | `npx skills add novuhq/skills` |
 | [mails.dev](https://mails.dev) ⭐ | Email for AI Agents | `Read https://mails.dev/skill.md and follow the instructions` |
+| [OpenMail](https://openmail.sh) | Email API for AI agents | `npm install -g @openmail/cli` → `openmail setup` — [docs.openmail.sh/quickstart](https://docs.openmail.sh/quickstart) |
+| [MailboxKit](https://mailboxkit.com) ⭐ | Email infrastructure for AI agents | `Read https://mailboxkit.com/skill.md and follow the instructions` |
 
 ---
 
@@ -87,6 +90,8 @@ These services can be joined with a single instruction, right now, with no human
 | [Hyperbrowser](https://www.hyperbrowser.ai) | Web infra for AI agents (MCP tools) | `npx hyperbrowser-mcp <API_KEY>` |
 | [AgentQL](https://agentql.com) | AgentQL queries → structured JSON from the web | API key → [docs.agentql.com](https://docs.agentql.com) |
 | [Crawl4AI](https://crawl4ai.com) | OSS LLM-friendly crawler + MCP | [docs.crawl4ai.com](https://docs.crawl4ai.com) |
+| [Cloudflare Browser Rendering](https://developers.cloudflare.com/browser-rendering/) | Headless Chrome on Cloudflare for AI agents | Workers bindings + [Use with AI](https://developers.cloudflare.com/browser-rendering/how-to/ai/) (Playwright MCP) |
+| [Olostep](https://www.olostep.com) | Web data API for AI agents | API key → [docs.olostep.com](https://docs.olostep.com) — `npx -y olostep-mcp` or `https://mcp.olostep.com/mcp` |
 | [Apify](https://apify.com) | Real-time web data for AI — Actor API & marketplace | API token → [Apify API v2](https://docs.apify.com/api/v2) — `apify-client` |
 
 ---
@@ -102,6 +107,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Smithery](https://smithery.ai) | MCP registry — thousands of remote MCP servers & skills | `npx @smithery/cli@latest setup` — [docs.smithery.ai](https://docs.smithery.ai/) |
 | [MCP Gateway](https://mcpgateway.com) | Enterprise MCP — tools, skills, sandboxes, one API | `pip install mcpgateway-sdk` — [mcpgateway.com](https://mcpgateway.com) |
 | [ClawHub](https://claw-hub.net/) | OpenClaw skill marketplace — vector search, versioning, CLI | `npx clawhub@latest search <topic>` — [services/tool-access-and-integration/clawhub.md](services/tool-access-and-integration/clawhub.md) |
+| [Arcade](https://www.arcade.dev) | MCP tools with managed OAuth | `uv tool install arcade-mcp` → `arcade new my_server` — [docs.arcade.dev](https://docs.arcade.dev) |
 
 ---
 
@@ -123,6 +129,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Skyfire](https://skyfire.xyz) | Identity and payments for autonomous AI agents | Register at skyfire.xyz/product → agent wallet + KYA token |
 | [AgentsPay](https://agentspay.dev) | Crypto identity and embedded wallets for AI agents | Provision wallet at agentspay.dev → MCP-native gateway |
 | [Nevermined](https://nevermined.io) | The payment layer AI agents actually need | `pip install payments-py` → x402 inline payments |
+| [Coinbase CDP (x402)](https://docs.cdp.coinbase.com/x402/welcome) | HTTP-native payments for autonomous API clients | [docs.cdp.coinbase.com/x402](https://docs.cdp.coinbase.com/x402/welcome) — `pip install x402` or `@x402/*` per [coinbase/x402](https://github.com/coinbase/x402) |
 | [Openwork](https://openwork.so) | The agent-only labor marketplace | `npx playbooks add skill openclaw/skills --skill openwork` |
 
 ---
@@ -187,6 +194,7 @@ These services can be joined with a single instruction, right now, with no human
 | [E2B](https://e2b.dev) | Cloud for AI agents — secure sandboxes for AI-generated code | `pip install e2b-code-interpreter` → `with Sandbox() as sandbox:` |
 | [Daytona](https://daytona.io) | Secure elastic infrastructure for AI-generated code | `daytona login` → `daytona mcp init cursor` — or `pip install daytona` |
 | [Runloop](https://runloop.ai) | Your AI agent accelerator — Devboxes and benchmarks | `npm install -g @runloop/rl-cli` → `rli mcp install` — [CLI docs](https://docs.runloop.ai/docs/tools/rl-cli) |
+| [Vercel Sandbox](https://vercel.com/docs/vercel-sandbox) | Firecracker microVMs for AI-generated code | `npm install @vercel/sandbox` — [vercel.com/docs/vercel-sandbox](https://vercel.com/docs/vercel-sandbox) |
 
 ---
 

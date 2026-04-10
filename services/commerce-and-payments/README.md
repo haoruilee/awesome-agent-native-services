@@ -22,6 +22,7 @@ No legacy payment processor was designed with these requirements. The services i
 | [Skyfire](skyfire.md) | Identity and payments for autonomous AI agents | REST API, OAuth2/OIDC, KYAPay Protocol | ❌ |
 | [AgentsPay](agentspay.md) | Crypto identity and embedded wallets for AI agents | REST API, MCP-native API Gateway | ✅ |
 | [Nevermined](nevermined.md) | The payment layer AI agents actually need | HTTP x402 Protocol, REST API | ❌ |
+| [Coinbase CDP (x402)](coinbase-x402.md) [![⭐](https://img.shields.io/github/stars/coinbase/x402?style=social)](https://github.com/coinbase/x402) | HTTP-native x402 payments — facilitator, SDKs, Bazaar discovery | HTTP x402, TypeScript/Python/Go SDKs, CDP REST | ❌ |
 
 ---
 

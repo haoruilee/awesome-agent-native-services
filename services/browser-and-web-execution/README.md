@@ -28,6 +28,8 @@ The web was designed for humans sitting in front of browsers. AI agents that nee
 | [Hyperbrowser](hyperbrowser.md) [![⭐](https://img.shields.io/github/stars/hyperbrowserai/mcp?style=social)](https://github.com/hyperbrowserai/mcp) | Web infra for AI agents | Scrape/crawl/CUA tools · HyperAgent · MCP | ✅ |
 | [AgentQL](agentql.md) [![⭐](https://img.shields.io/github/stars/tinyfish-io/agentql?style=social)](https://github.com/tinyfish-io/agentql) | Make the web AI-ready | AgentQL queries · Remote browser CDP · Browserless REST | ⚠️ |
 | [Crawl4AI](crawl4ai.md) [![⭐](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social)](https://github.com/unclecode/crawl4ai) | Open-source LLM-friendly web crawler & scraper | LLM-ready markdown · Extraction · Docker · MCP | ✅ |
+| [Cloudflare Browser Rendering](cloudflare-browser-rendering.md) [![⭐](https://img.shields.io/github/stars/cloudflare/workers-sdk?style=social)](https://github.com/cloudflare/workers-sdk) | Headless Chrome on Cloudflare for AI-driven browsing | Workers bindings · Playwright/Puppeteer · Playwright MCP · REST | ✅ |
+| [Olostep](olostep.md) [![⭐](https://img.shields.io/github/stars/olostep/olostep-mcp-server?style=social)](https://github.com/olostep/olostep-mcp-server) | Web data API for AI agents — scrape, search, crawl, batch | REST API · Official MCP · Remote `mcp.olostep.com` | ✅ |
 | [Apify](apify.md) [![⭐](https://img.shields.io/github/stars/apify/crawlee?style=social)](https://github.com/apify/crawlee) | Real-time web data for AI — Actor marketplace & API | REST API v2, JS/Python clients, webhooks, schedules | ⚠️ |
 
 ---

@@ -22,6 +22,7 @@ Agent-native tool access services solve all three problems with primitives that 
 | [Smithery](smithery.md) [![⭐](https://img.shields.io/github/stars/smithery-ai/cli?style=social)](https://github.com/smithery-ai/cli) | Connect agents to thousands of MCP tools and Agent Skills | CLI, TypeScript SDK, remote MCP registry, OAuth brokerage | ✅ |
 | [MCP Gateway](mcpgateway.md) | The platform for production AI agents — tools, skills, sandboxes | Python SDK (`mcpgateway-sdk`), federated MCP, RBAC | ✅ |
 | [ClawHub](clawhub.md) [![⭐](https://img.shields.io/github/stars/openclaw/clawhub?style=social)](https://github.com/openclaw/clawhub) | OpenClaw skill marketplace — vector search, versioning, CLI install/publish | `npx clawhub@latest` CLI, Convex HTTP/registry API, `SKILL.md` artifact model | ⚠️ |
+| [Arcade](arcade.md) [![⭐](https://img.shields.io/github/stars/ArcadeAI/arcade-mcp?style=social)](https://github.com/ArcadeAI/arcade-mcp) | MCP tools with managed OAuth — secrets isolated from the LLM | MCP, Arcade CLI (`arcade-mcp`), Arcade Cloud | ✅ |
 
 ---
 
