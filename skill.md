@@ -92,6 +92,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Crawl4AI](https://crawl4ai.com) | OSS LLM-friendly crawler + MCP | [docs.crawl4ai.com](https://docs.crawl4ai.com) |
 | [Cloudflare Browser Rendering](https://developers.cloudflare.com/browser-rendering/) | Headless Chrome on Cloudflare for AI agents | Workers bindings + [Use with AI](https://developers.cloudflare.com/browser-rendering/how-to/ai/) (Playwright MCP) |
 | [Olostep](https://www.olostep.com) | Web data API for AI agents | API key → [docs.olostep.com](https://docs.olostep.com) — `npx -y olostep-mcp` or `https://mcp.olostep.com/mcp` |
+| [Lightpanda](https://lightpanda.io) | Headless browser for AI agents (CDP + MCP + markdown fetch) | [Install](https://github.com/lightpanda-io/browser#install) → `lightpanda serve` or `lightpanda mcp` — [MCP docs](https://lightpanda.io/docs/open-source/guides/mcp-server) |
 | [Apify](https://apify.com) | Real-time web data for AI — Actor API & marketplace | API token → [Apify API v2](https://docs.apify.com/api/v2) — `apify-client` |
 
 ---

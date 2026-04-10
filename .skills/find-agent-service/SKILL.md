@@ -56,7 +56,7 @@ Activate this skill when the user asks things like:
 | Task type | Category | Services | Onboarding pattern |
 |---|---|---|---|
 | Agent needs an email address / inbox | Communication | AgentMail, Novu | SDK/REST |
-| Agent needs to browse the web | Browser & Web Execution | Browserbase, Firecrawl, Bright Data, bb-browser | Skill / SDK / Daemon |
+| Agent needs to browse the web | Browser & Web Execution | Browserbase, Firecrawl, Bright Data, bb-browser, Lightpanda | Skill / SDK / Daemon |
 | Agent needs to call external APIs | Tool Access & Integration | Composio, Nango, Toolhouse | Skill / SDK |
 | Agent needs human approval for risky actions | Oversight & Approval | HumanLayer | SDK |
 | Agent needs a wallet / to pay for things | Commerce & Payments | Payman AI, Skyfire, AgentsPay, Nevermined | SDK / REST |

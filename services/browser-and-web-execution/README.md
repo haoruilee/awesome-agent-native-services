@@ -30,6 +30,7 @@ The web was designed for humans sitting in front of browsers. AI agents that nee
 | [Crawl4AI](crawl4ai.md) [![⭐](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social)](https://github.com/unclecode/crawl4ai) | Open-source LLM-friendly web crawler & scraper | LLM-ready markdown · Extraction · Docker · MCP | ✅ |
 | [Cloudflare Browser Rendering](cloudflare-browser-rendering.md) [![⭐](https://img.shields.io/github/stars/cloudflare/workers-sdk?style=social)](https://github.com/cloudflare/workers-sdk) | Headless Chrome on Cloudflare for AI-driven browsing | Workers bindings · Playwright/Puppeteer · Playwright MCP · REST | ✅ |
 | [Olostep](olostep.md) [![⭐](https://img.shields.io/github/stars/olostep/olostep-mcp-server?style=social)](https://github.com/olostep/olostep-mcp-server) | Web data API for AI agents — scrape, search, crawl, batch | REST API · Official MCP · Remote `mcp.olostep.com` | ✅ |
+| [Lightpanda](lightpanda.md) [![⭐](https://img.shields.io/github/stars/lightpanda-io/browser?style=social)](https://github.com/lightpanda-io/browser) | Headless browser built for AI agents and automation | CDP server · `fetch` CLI (HTML/markdown) · Built-in MCP (stdio) | ✅ |
 | [Apify](apify.md) [![⭐](https://img.shields.io/github/stars/apify/crawlee?style=social)](https://github.com/apify/crawlee) | Real-time web data for AI — Actor marketplace & API | REST API v2, JS/Python clients, webhooks, schedules | ⚠️ |
 
 ---
