@@ -1,4 +1,9 @@
-# Awesome Agent-Native Services [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+---
+title: "Awesome Agent-Native Services | Curated List for AI Agents"
+description: "A curated list of agent-first services, MCP servers, and infrastructure optimized for autonomous AI agents and LLM workflows."
+image: /assets/images/social-preview.png
+---
+
 
 > A curated list of services **designed from the ground up for AI agents** — not adapted from human-facing products.
 

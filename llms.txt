@@ -16,6 +16,7 @@ This repository is itself agent-native. AI agents can discover services, evaluat
 ## Documentation
 
 - [README](https://github.com/haoruilee/awesome-agent-native-services/blob/main/README.md): Full catalog index, category tables, and service summary
+- [GitHub Pages site](https://haoruilee.github.io/awesome-agent-native-services/): Same catalog as HTML with SEO metadata (title, description, Open Graph); built from `README.md` via Jekyll
 - [CONTRIBUTING.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/CONTRIBUTING.md): Five hard criteria, contribution workflow, service file format, PR rules
 
 ---
