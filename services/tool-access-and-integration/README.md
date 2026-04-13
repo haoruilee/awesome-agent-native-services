@@ -23,6 +23,9 @@ Agent-native tool access services solve all three problems with primitives that 
 | [MCP Gateway](mcpgateway.md) | The platform for production AI agents — tools, skills, sandboxes | Python SDK (`mcpgateway-sdk`), federated MCP, RBAC | ✅ |
 | [ClawHub](clawhub.md) [![⭐](https://img.shields.io/github/stars/openclaw/clawhub?style=social)](https://github.com/openclaw/clawhub) | OpenClaw skill marketplace — vector search, versioning, CLI install/publish | `npx clawhub@latest` CLI, Convex HTTP/registry API, `SKILL.md` artifact model | ⚠️ |
 | [Arcade](arcade.md) [![⭐](https://img.shields.io/github/stars/ArcadeAI/arcade-mcp?style=social)](https://github.com/ArcadeAI/arcade-mcp) | MCP tools with managed OAuth — secrets isolated from the LLM | MCP, Arcade CLI (`arcade-mcp`), Arcade Cloud | ✅ |
+| [Framelink MCP for Figma](framelink-figma-mcp.md) [![⭐](https://img.shields.io/github/stars/GLips/Figma-Context-MCP?style=social)](https://github.com/GLips/Figma-Context-MCP) | Give your coding agent access to your Figma data — layout context for one-shot UI | MCP (`figma-developer-mcp`), Figma REST API | ✅ |
+| [GitHub MCP Server](github-mcp-server.md) [![⭐](https://img.shields.io/github/stars/github/github-mcp-server?style=social)](https://github.com/github/github-mcp-server) | Official GitHub MCP — agents work with repos, issues, PRs, Actions | Remote HTTP MCP, OAuth/PAT, local server option | ✅ |
+| [MCP Toolbox for Databases](google-mcp-toolbox.md) [![⭐](https://img.shields.io/github/stars/googleapis/mcp-toolbox?style=social)](https://github.com/googleapis/mcp-toolbox) | MCP server connecting agents to enterprise databases | `@toolbox-sdk/server`, prebuilt packs, multi-language SDKs, IAM, OTEL | ✅ |
 
 ---
 
