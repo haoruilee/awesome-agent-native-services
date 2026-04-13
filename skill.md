@@ -57,7 +57,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 89+ Services
+## Full Catalog — 15 Categories, 96+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -109,6 +109,9 @@ These services can be joined with a single instruction, right now, with no human
 | [MCP Gateway](https://mcpgateway.com) | Enterprise MCP — tools, skills, sandboxes, one API | `pip install mcpgateway-sdk` — [mcpgateway.com](https://mcpgateway.com) |
 | [ClawHub](https://claw-hub.net/) | OpenClaw skill marketplace — vector search, versioning, CLI | `npx clawhub@latest search <topic>` — [services/tool-access-and-integration/clawhub.md](services/tool-access-and-integration/clawhub.md) |
 | [Arcade](https://www.arcade.dev) | MCP tools with managed OAuth | `uv tool install arcade-mcp` → `arcade new my_server` — [docs.arcade.dev](https://docs.arcade.dev) |
+| [Framelink MCP for Figma](https://www.framelink.ai) | Give your coding agent access to your Figma data | `npx -y figma-developer-mcp --figma-api-key=… --stdio` — [quickstart](https://www.framelink.ai/docs/quickstart) |
+| [GitHub MCP Server](https://github.com/github/github-mcp-server) | AI agents read repos, issues, PRs, Actions via MCP | Remote: `https://api.githubcopilot.com/mcp/` — [README](https://github.com/github/github-mcp-server) |
+| [MCP Toolbox for Databases](https://mcp-toolbox.dev/) | MCP server for enterprise databases (Google) | `npx -y @toolbox-sdk/server --prebuilt=postgres` + env — [docs](https://mcp-toolbox.dev/) |
 
 ---
 
@@ -145,6 +148,8 @@ These services can be joined with a single instruction, right now, with no human
 | [Codex plugin for Claude Code](https://github.com/openai/codex-plugin-cc) | Claude Code plugin — delegate Codex reviews and rescue work via slash commands | `/plugin marketplace add openai/codex-plugin-cc` → `/plugin install codex@openai-codex` → `/codex:setup` (see repo README) |
 | [Multica](https://multica.ai) | AI-native PM — agents as assignable teammates; local daemon runs Claude Code / Codex | `brew install multica-cli` → `multica login` → `multica daemon start` — [CLI guide](https://github.com/multica-ai/multica/blob/main/CLI_AND_DAEMON.md) |
 | [cx](https://github.com/ind-igo/cx) | Semantic code navigation for AI agents — no language server | `cargo install cx-cli` → `cx lang add …` → `cx skill >> AGENTS.md` |
+| [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Coding agents control and inspect live Chrome (DevTools + Puppeteer) | `npx -y chrome-devtools-mcp@latest` in MCP config — [README](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
+| [Serena](https://oraios.github.io/serena/) | The IDE for your coding agent — semantic MCP tools | `uv tool install -p 3.13 serena-agent@latest --prerelease=allow` → `serena init` — [clients](https://oraios.github.io/serena/02-usage/030_clients.html) |
 | [Amazon Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore/) | Purpose-built for deploying and scaling dynamic AI agents | `pip install boto3` → configure AgentCore runtime |
 | [Vertex AI Agent Engine](https://cloud.google.com/agent-builder/agent-engine/overview) | Deploy, manage, and scale AI agents in production on GCP | `pip install "google-cloud-aiplatform[agent_engines,adk]"` → [set up](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/set-up) → [deploy](https://cloud.google.com/agent-builder/agent-engine/deploy) |
 | [Claude Managed Agents](https://docs.anthropic.com/en/api/overview) | Managed agents, sessions, environments on Claude API | `pip install anthropic` → [quickstart](https://platform.claude.com/docs/en/managed-agents/quickstart) + [beta headers](https://platform.claude.com/docs/en/api/beta-headers) |
@@ -196,6 +201,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Daytona](https://daytona.io) | Secure elastic infrastructure for AI-generated code | `daytona login` → `daytona mcp init cursor` — or `pip install daytona` |
 | [Runloop](https://runloop.ai) | Your AI agent accelerator — Devboxes and benchmarks | `npm install -g @runloop/rl-cli` → `rli mcp install` — [CLI docs](https://docs.runloop.ai/docs/tools/rl-cli) |
 | [Vercel Sandbox](https://vercel.com/docs/vercel-sandbox) | Firecracker microVMs for AI-generated code | `npm install @vercel/sandbox` — [vercel.com/docs/vercel-sandbox](https://vercel.com/docs/vercel-sandbox) |
+| [AIO Sandbox](https://github.com/agent-infra/sandbox) | Browser + shell + VS Code + Jupyter + MCP in one Docker sandbox | `docker run -p 8080:8080 ghcr.io/agent-infra/sandbox:latest` — MCP `http://localhost:8080/mcp` |
 
 ---
 
