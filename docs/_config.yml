@@ -1,0 +1,38 @@
+# GitHub Pages / Jekyll — https://pages.github.com/
+# Built from README via scripts/build-github-pages.sh (CI + optional local runs)
+
+title: "Awesome Agent-Native Services | Curated List for AI Agents"
+description: "A curated list of agent-first services, MCP servers, and infrastructure optimized for autonomous AI agents and LLM workflows."
+url: "https://haoruilee.github.io"
+baseurl: "/awesome-agent-native-services"
+author: haoruilee
+
+# Open Graph / Twitter — used by jekyll-seo-tag
+logo: "/assets/images/social-preview.png"
+social:
+  name: Awesome Agent-Native Services
+  links:
+    - "https://github.com/haoruilee/awesome-agent-native-services"
+
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# jekyll-seo-tag default image when pages do not override
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social-preview.png
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
