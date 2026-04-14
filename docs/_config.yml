@@ -2,9 +2,12 @@
 # Built from README via scripts/build-github-pages.sh (CI + optional local runs)
 
 title: "Awesome Agent-Native Services | Curated List for AI Agents"
-description: "A curated list of agent-first services, MCP servers, and infrastructure optimized for autonomous AI agents and LLM workflows."
+# Used only in <title> (short for SEO). On-page <h1> still uses page title from index.md.
+seo_html_title: "Agent-native services catalog | GitHub"
+description: "Curated agent-native services and MCP tools for autonomous AI: communication, memory, browsers, sandboxes, and LLM gateways - full list on GitHub."
 url: "https://haoruilee.github.io"
 baseurl: "/awesome-agent-native-services"
+lang: en-US
 author: haoruilee
 
 # Open Graph / Twitter — used by jekyll-seo-tag
