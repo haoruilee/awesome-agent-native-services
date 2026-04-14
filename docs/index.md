@@ -1,6 +1,6 @@
 ---
 title: "Awesome Agent-Native Services | Curated List for AI Agents"
-description: "A curated list of agent-first services, MCP servers, and infrastructure optimized for autonomous AI agents and LLM workflows."
+description: "Curated agent-native services and MCP tools for autonomous AI: communication, memory, browsers, sandboxes, and LLM gateways - full list on GitHub."
 image: /assets/images/social-preview.png
 ---
 
