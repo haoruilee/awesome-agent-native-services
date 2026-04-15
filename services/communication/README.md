@@ -15,6 +15,7 @@ Human communication infrastructure (Gmail, Outlook, Slack) was built around the 
 | [mails.dev](mails-dev.md) | Email for AI Agents | CLI, REST API, TypeScript SDK | ⚠️ |
 | [OpenMail](openmail.md) | Email API for AI agents | REST API, WebSocket, Webhooks, CLI (`@openmail/cli`) | ⚠️ |
 | [MailboxKit](mailboxkit.md) | Email infrastructure for AI agents | REST API v1, Webhooks, URL Onboarding (`skill.md`) | ⚠️ |
+| [Agents Mail](agents-mail.md) | Email for AI Agents | REST API, URL Onboarding (`skill.md`), `.well-known/agent.json` discovery | ⚠️ |
 
 ---
 
