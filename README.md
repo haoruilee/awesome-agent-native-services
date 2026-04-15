@@ -58,7 +58,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 
 | # | Category | Services | Description |
 |---|---|---|---|
-| 1 | [Communication](#1-communication-services) | 5 | Give agents a communication identity on the internet |
+| 1 | [Communication](#1-communication-services) | 6 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 17 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 9 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
@@ -66,7 +66,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 17 | Execution, session isolation, secrets, and gateway |
 | 7 | [Memory & State](#7-memory--state-services) | 8 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 4 | LLM-optimized web search and content retrieval |
-| 9 | [Code Execution](#9-code-execution-services) | 5 | Secure sandboxes for AI-generated code |
+| 9 | [Code Execution](#9-code-execution-services) | 6 | Secure sandboxes for AI-generated code |
 | 10 | [Observability & Tracing](#10-observability--tracing-services) | 4 | Agent trajectory tracing and evaluation |
 | 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 5 | Fault-tolerant long-running agent workflows |
 | 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 3 | Agent presence in voice and video meetings |
@@ -91,6 +91,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [mails.dev](services/communication/mails-dev.md) | Email for AI Agents | @mails.dev mailbox · Send/inbox · wait-for-code · Full-text search | ⚠️ | Read https://mails.dev/skill.md and follow the instructions |
 | [OpenMail](services/communication/openmail.md) | Email API for AI agents | One inbox per agent · Webhook/WebSocket inbound · RAG-ready attachment parsing | ⚠️ | `npm install -g @openmail/cli` → `openmail setup` — [docs.openmail.sh](https://docs.openmail.sh/quickstart) |
 | [MailboxKit](services/communication/mailboxkit.md) | Email infrastructure for AI agents | Per-agent address · REST v1 · Inbound webhooks · URL Onboarding | ⚠️ | Read https://mailboxkit.com/skill.md and follow the instructions |
+| [Agents Mail](services/communication/agents-mail.md) | Email for AI Agents | Agent registration · Inbox lifecycle · Send/reply API · URL Onboarding | ⚠️ | Read https://agentsmail.org/skill.md and follow the instructions |
 
 ---
 
@@ -252,6 +253,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Runloop](services/code-execution/runloop.md) [![⭐](https://img.shields.io/github/stars/runloopai/api-client-python?style=social)](https://github.com/runloopai/api-client-python) | Your AI agent accelerator | Devbox micro-VM · Snapshot/branch disk state · Benchmark jobs · Suspend/resume | ✅ | `export RUNLOOP_API_KEY=...` → `npm install -g @runloop/rl-cli` → `rli mcp install` — [CLI docs](https://docs.runloop.ai/docs/tools/rl-cli) |
 | [Vercel Sandbox](services/code-execution/vercel-sandbox.md) [![⭐](https://img.shields.io/github/stars/vercel/sandbox?style=social)](https://github.com/vercel/sandbox) | Firecracker microVMs for AI-generated code | Node/Python runtimes · Snapshots · REST + `@vercel/sandbox` SDK | ❌ | `npm install @vercel/sandbox` — [vercel.com/docs/vercel-sandbox](https://vercel.com/docs/vercel-sandbox) |
 | [AIO Sandbox](services/code-execution/agent-infra-sandbox.md) [![⭐](https://img.shields.io/github/stars/agent-infra/sandbox?style=social)](https://github.com/agent-infra/sandbox) | All-in-one Docker sandbox for AI agents | Browser + shell + files + VS Code + Jupyter + MCP · Shared filesystem | ✅ | `docker run -p 8080:8080 ghcr.io/agent-infra/sandbox:latest` — MCP `http://localhost:8080/mcp` |
+| [Agent Sandbox](services/code-execution/agent-sandbox.md) | The trusted runtime for untrusted code | Hosted code sessions · Dependency install · Files/artifacts API · URL onboarding | ⚠️ | Read https://agentsandbox.co/skill.md and follow the instructions |
 
 ---
 

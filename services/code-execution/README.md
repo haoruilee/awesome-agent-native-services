@@ -25,6 +25,7 @@ Agent-native code execution services solve this with:
 | [Runloop](runloop.md) | Your AI agent accelerator — Devboxes and agent benchmarks | Python/TS SDK, REST, Runloop CLI (`rli`) + MCP | ✅ |
 | [Vercel Sandbox](vercel-sandbox.md) [![⭐](https://img.shields.io/github/stars/vercel/sandbox?style=social)](https://github.com/vercel/sandbox) | Firecracker microVMs for AI-generated and untrusted code | `@vercel/sandbox` SDK, REST API, Sandbox CLI | ❌ |
 | [AIO Sandbox](agent-infra-sandbox.md) [![⭐](https://img.shields.io/github/stars/agent-infra/sandbox?style=social)](https://github.com/agent-infra/sandbox) | All-in-one Docker sandbox — browser, shell, VS Code, Jupyter, MCP | Docker image, OpenAPI, Python/JS/Go SDKs, MCP HTTP | ✅ |
+| [Agent Sandbox](agent-sandbox.md) | The trusted runtime for untrusted code | REST API, Python SDK, URL onboarding (`skill.md`) | ⚠️ |
 
 ---
 
