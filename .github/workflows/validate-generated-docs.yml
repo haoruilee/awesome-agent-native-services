@@ -1,0 +1,23 @@
+name: Validate generated docs
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check-generated-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate docs artifacts
+        run: bash scripts/build-github-pages.sh
+
+      - name: Ensure generated docs are committed
+        run: |
+          if ! git diff --quiet -- docs/index.md docs/categories; then
+            echo "Generated docs are out of date. Please run: bash scripts/build-github-pages.sh"
+            git --no-pager diff -- docs/index.md docs/categories
+            exit 1
+          fi

@@ -1,2 +1,28 @@
 <meta name="robots" content="index, follow">
-<meta name="keywords" content="AI Agents, Agent-Native, MCP Protocol, LLM Tools, Model Context Protocol, MCP servers, autonomous agents, agent infrastructure">
+<meta name="keywords" content="AI agents, agent-native services, MCP servers, model context protocol, agent infrastructure, ai agent tools, autonomous agents">
+{% if page.url == "/" or page.url == "/awesome-agent-native-services/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Awesome Agent-Native Services Categories",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "url": "{{ '/categories/communication/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 2, "url": "{{ '/categories/browser-and-web-execution/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 3, "url": "{{ '/categories/tool-access-and-integration/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 4, "url": "{{ '/categories/oversight-and-approval/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 5, "url": "{{ '/categories/commerce-and-payments/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 6, "url": "{{ '/categories/agent-runtime-and-infrastructure/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 7, "url": "{{ '/categories/memory-and-state/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 8, "url": "{{ '/categories/search-and-web-intelligence/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 9, "url": "{{ '/categories/code-execution/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 10, "url": "{{ '/categories/observability-and-tracing/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 11, "url": "{{ '/categories/durable-execution-and-scheduling/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 12, "url": "{{ '/categories/meeting-and-conversation/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 13, "url": "{{ '/categories/voice-and-phone/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 14, "url": "{{ '/categories/llm-gateway-and-routing/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 15, "url": "{{ '/categories/agent-social-network/' | absolute_url }}" }
+  ]
+}
+</script>
+{% endif %}
