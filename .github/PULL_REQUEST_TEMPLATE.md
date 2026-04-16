@@ -92,4 +92,5 @@ Closes #<!-- issue number -->
 - [ ] All links in the changed files are live (I have clicked them).
 - [ ] I have no undisclosed financial interest in the service(s) mentioned.
 - [ ] Spell-check passed.
+- [ ] If I changed `README.md` or `services/**`, I regenerated docs with `bash scripts/build-github-pages.sh` and committed updated `docs/index.md` / `docs/categories/*`.
 - [ ] The PR title follows the format: `[New Service] ServiceName`, `[Update] ServiceName — what changed`, `[Fix] description`, or `[New Category] CategoryName`.

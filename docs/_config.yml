@@ -1,10 +1,10 @@
 # GitHub Pages / Jekyll — https://pages.github.com/
 # Built from README via scripts/build-github-pages.sh (CI + optional local runs)
 
-title: "Awesome Agent-Native Services | Curated List for AI Agents"
+title: "Awesome Agent-Native Services (2026) | MCP & Agent Infrastructure"
 # Used only in <title> (short for SEO). On-page <h1> still uses page title from index.md.
-seo_html_title: "Agent-native services catalog | GitHub"
-description: "Curated agent-native services and MCP tools for autonomous AI: communication, memory, browsers, sandboxes, and LLM gateways - full list on GitHub."
+seo_html_title: "Best Agent-Native Services 2026 | MCP, Memory, Browser, Runtime"
+description: "Best agent-native services in 2026: MCP tools, browser automation, memory, code sandboxes, observability, and agent infrastructure."
 url: "https://haoruilee.github.io"
 baseurl: "/awesome-agent-native-services"
 lang: en-US
