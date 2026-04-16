@@ -464,4 +464,4 @@ Navigate by category to compare services faster:
 - [Tool Access And Integration]({{ '/categories/tool-access-and-integration/' | relative_url }})
 - [Voice And Phone]({{ '/categories/voice-and-phone/' | relative_url }})
 
-_Last content update (git commit time): 2026-04-16T00:53:31+08:00_
+_Last site build time: {{ site.time | date: '%Y-%m-%d %H:%M UTC' }}_

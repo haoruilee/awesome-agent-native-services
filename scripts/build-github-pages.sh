@@ -45,7 +45,7 @@ tail -n +2 "$README" >>"$INDEX"
     echo "- [${pretty}]({{ '/categories/${slug}/' | relative_url }})"
   done
   echo ""
-  echo "_Last content update (git commit time): $(git -C "$ROOT" log -1 --format=%cI)_"
+  echo "_Last site build time: {{ site.time | date: '%Y-%m-%d %H:%M UTC' }}_"
 } >>"$INDEX"
 
 # Generate category landing pages (spokes)
