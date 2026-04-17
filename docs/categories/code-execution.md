@@ -14,5 +14,6 @@ permalink: /categories/code-execution/
 | Agent Sandbox | [services/code-execution/agent-sandbox.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/agent-sandbox.md) |
 | Daytona | [services/code-execution/daytona.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/daytona.md) |
 | E2B | [services/code-execution/e2b.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/e2b.md) |
+| Riza | [services/code-execution/riza.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/riza.md) |
 | Runloop | [services/code-execution/runloop.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/runloop.md) |
 | Vercel Sandbox | [services/code-execution/vercel-sandbox.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/vercel-sandbox.md) |

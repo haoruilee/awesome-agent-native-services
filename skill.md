@@ -57,7 +57,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 96+ Services
+## Full Catalog — 15 Categories, 97+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -202,6 +202,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Runloop](https://runloop.ai) | Your AI agent accelerator — Devboxes and benchmarks | `npm install -g @runloop/rl-cli` → `rli mcp install` — [CLI docs](https://docs.runloop.ai/docs/tools/rl-cli) |
 | [Vercel Sandbox](https://vercel.com/docs/vercel-sandbox) | Firecracker microVMs for AI-generated code | `npm install @vercel/sandbox` — [vercel.com/docs/vercel-sandbox](https://vercel.com/docs/vercel-sandbox) |
 | [AIO Sandbox](https://github.com/agent-infra/sandbox) | Browser + shell + VS Code + Jupyter + MCP in one Docker sandbox | `docker run -p 8080:8080 ghcr.io/agent-infra/sandbox:latest` — MCP `http://localhost:8080/mcp` |
+| [Riza](https://riza.io) | AI writes code. Riza runs it. | `uv add rizaio` → `riza.command.exec(...)` — [docs.riza.io](https://docs.riza.io) |
 
 ---
 
