@@ -71,7 +71,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 17 | Execution, session isolation, secrets, and gateway |
 | 7 | [Memory & State](#7-memory--state-services) | 8 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 4 | LLM-optimized web search and content retrieval |
-| 9 | [Code Execution](#9-code-execution-services) | 6 | Secure sandboxes for AI-generated code |
+| 9 | [Code Execution](#9-code-execution-services) | 7 | Secure sandboxes for AI-generated code |
 | 10 | [Observability & Tracing](#10-observability--tracing-services) | 4 | Agent trajectory tracing and evaluation |
 | 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 5 | Fault-tolerant long-running agent workflows |
 | 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 3 | Agent presence in voice and video meetings |
@@ -259,6 +259,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Vercel Sandbox](services/code-execution/vercel-sandbox.md) [![⭐](https://img.shields.io/github/stars/vercel/sandbox?style=social)](https://github.com/vercel/sandbox) | Firecracker microVMs for AI-generated code | Node/Python runtimes · Snapshots · REST + `@vercel/sandbox` SDK | ❌ | `npm install @vercel/sandbox` — [vercel.com/docs/vercel-sandbox](https://vercel.com/docs/vercel-sandbox) |
 | [AIO Sandbox](services/code-execution/agent-infra-sandbox.md) [![⭐](https://img.shields.io/github/stars/agent-infra/sandbox?style=social)](https://github.com/agent-infra/sandbox) | All-in-one Docker sandbox for AI agents | Browser + shell + files + VS Code + Jupyter + MCP · Shared filesystem | ✅ | `docker run -p 8080:8080 ghcr.io/agent-infra/sandbox:latest` — MCP `http://localhost:8080/mcp` |
 | [Agent Sandbox](services/code-execution/agent-sandbox.md) | The trusted runtime for untrusted code | Hosted code sessions · Dependency install · Files/artifacts API · URL onboarding | ⚠️ | Read https://agentsandbox.co/skill.md and follow the instructions |
+| [Riza](services/code-execution/riza.md) | AI writes code. Riza runs it. | Command Exec API · Tools API · Secrets · MCP · Self-hosting | ✅ | `uv add rizaio` then `riza.command.exec(...)` — [docs.riza.io](https://docs.riza.io/) |
 
 ---
 
