@@ -438,6 +438,18 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full submission guide, criteria c
 
 ---
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=haoruilee%2Fawesome-agent-native-services&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=haoruilee/awesome-agent-native-services&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=haoruilee/awesome-agent-native-services&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=haoruilee/awesome-agent-native-services&type=date&legend=top-left" />
+ </picture>
+</a>
+
+---
+
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
