@@ -27,6 +27,7 @@ Agent-native observability services capture **agent trajectory** — the semanti
 | [AgentEvals](agentevals.md) [![⭐](https://img.shields.io/github/stars/agentevals-dev/agentevals?style=social)](https://github.com/agentevals-dev/agentevals) | Score agent behavior from OpenTelemetry traces — no re-runs | CLI, OTLP ingest, REST (with serve), MCP | ✅ |
 | [AgentOps](agentops.md) [![⭐](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=social)](https://github.com/AgentOps-AI/agentops) | Testing, debugging, and deploying AI agents and LLM apps | Session waterfall · Framework auto-instrumentation · Public trace API | ⚠️ |
 | [Braintrust](braintrust.md) [![⭐](https://img.shields.io/github/stars/braintrustdata/autoevals?style=social)](https://github.com/braintrustdata/autoevals) | AI observability and evaluation — traces, evals, MCP for IDEs | Python/TS SDKs, OpenAI Agents trace processor, MCP (`api.braintrust.dev/mcp`) | ✅ |
+| [Galileo](galileo.md) | Agent reliability platform — observability, evals, and IDE MCP loop | Tracing + evals + Signals, MCP HTTP endpoint, Python/TS SDKs | ✅ |
 
 ---
 
