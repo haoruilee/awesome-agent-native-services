@@ -72,7 +72,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | 7 | [Memory & State](#7-memory--state-services) | 8 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 5 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 7 | Secure sandboxes for AI-generated code |
-| 10 | [Observability & Tracing](#10-observability--tracing-services) | 4 | Agent trajectory tracing and evaluation |
+| 10 | [Observability & Tracing](#10-observability--tracing-services) | 5 | Agent trajectory tracing and evaluation |
 | 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 5 | Fault-tolerant long-running agent workflows |
 | 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 3 | Agent presence in voice and video meetings |
 | 13 | [Voice & Phone](#13-voice--phone-services) | 3 | Agent-controlled voice calls and phone infrastructure |
@@ -276,6 +276,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [AgentEvals](services/observability-and-tracing/agentevals.md) [![⭐](https://img.shields.io/github/stars/agentevals-dev/agentevals?style=social)](https://github.com/agentevals-dev/agentevals) | Score agent behavior from OpenTelemetry traces — no re-runs | Golden eval sets · Tool trajectory matching · OTLP ingest · MCP | ✅ | `pip install agentevals-cli` → `agentevals run <trace> --eval-set <set> -m tool_trajectory_avg_score` |
 | [AgentOps](services/observability-and-tracing/agentops.md) [![⭐](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=social)](https://github.com/AgentOps-AI/agentops) | Testing, debugging, and deploying AI agents and LLM apps | Session waterfall · Framework auto-instrumentation · Public trace API | ⚠️ | `pip install agentops` → `agentops.init(<API_KEY>)` |
 | [Braintrust](services/observability-and-tracing/braintrust.md) [![⭐](https://img.shields.io/github/stars/braintrustdata/autoevals?style=social)](https://github.com/braintrustdata/autoevals) | AI observability & evals — traces, datasets, OpenAI Agents | Trace processors · Eval experiments · Trace→dataset · IDE MCP | ✅ | `pip install "braintrust[openai-agents]"` — MCP: [Braintrust MCP](https://www.braintrust.dev/docs/integrations/developer-tools/mcp) |
+| [Galileo](services/observability-and-tracing/galileo.md) | Agent reliability platform — observability, evals, and IDE MCP | Signals (root-cause insights) · synthetic datasets · experiments · MCP tools | ✅ | Add MCP URL `https://api.galileo.ai/mcp/http/mcp` with `Galileo-API-Key` header — [setup docs](https://docs.galileo.ai/getting-started/mcp/setup-galileo-mcp) |
 
 ---
 
