@@ -151,9 +151,9 @@ Optional. Human reviewers can inspect traces/signals and approve remediation cha
 
 | Alternative | Why It Fails |
 |---|---|
-| **Generic APM (Datadog/CloudWatch)** | Focuses on infra/app telemetry; lacks first-class agent eval primitives and MCP IDE loop |
-| **Plain logging stacks** | Store logs but do not provide agent-specific eval metrics, synthetic test generation, and signal-driven recommendations |
-| **Traditional QA dashboards** | Human-only workflows; no native MCP tool surface for coding agents |
+| **Infrastructure monitoring only (CPU, memory, uptime dashboards)** | Useful for system health, but does not natively model agent traces, eval datasets, or agent-quality metrics |
+| **Log storage/search tools** | Centralize logs, but typically require custom pipelines to derive agent-eval outcomes and trajectory-level analysis |
+| **Manual QA workflows** | Rely on human review cycles and do not provide a machine-callable MCP surface for coding-time agent remediation loops |
 
 ---
 
