@@ -25,5 +25,6 @@ permalink: /categories/browser-and-web-execution/
 | Notte | [services/browser-and-web-execution/notte.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/notte.md) |
 | Olostep | [services/browser-and-web-execution/olostep.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/olostep.md) |
 | OpenCLI | [services/browser-and-web-execution/opencli.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/opencli.md) |
+| Playwright MCP | [services/browser-and-web-execution/playwright-mcp.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/playwright-mcp.md) |
 | Skyvern | [services/browser-and-web-execution/skyvern.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/skyvern.md) |
 | Steel | [services/browser-and-web-execution/steel.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/steel.md) |
