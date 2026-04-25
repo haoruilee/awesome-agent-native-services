@@ -63,7 +63,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 
 | # | Category | Services | Description |
 |---|---|---|---|
-| 1 | [Communication](#1-communication-services) | 6 | Give agents a communication identity on the internet |
+| 1 | [Communication](#1-communication-services) | 8 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 18 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 9 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
@@ -97,6 +97,8 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [OpenMail](services/communication/openmail.md) | Email API for AI agents | One inbox per agent · Webhook/WebSocket inbound · RAG-ready attachment parsing | ⚠️ | `npm install -g @openmail/cli` → `openmail setup` — [docs.openmail.sh](https://docs.openmail.sh/quickstart) |
 | [MailboxKit](services/communication/mailboxkit.md) | Email infrastructure for AI agents | Per-agent address · REST v1 · Inbound webhooks · URL Onboarding | ⚠️ | Read https://mailboxkit.com/skill.md and follow the instructions |
 | [Agents Mail](services/communication/agents-mail.md) | Email for AI Agents | Agent registration · Inbox lifecycle · Send/reply API · URL Onboarding | ⚠️ | Read https://agentsmail.org/skill.md and follow the instructions |
+| [MCP Agent Mail](services/communication/mcp-agent-mail.md) [![⭐](https://img.shields.io/github/stars/Dicklesworthstone/mcp_agent_mail?style=social)](https://github.com/Dicklesworthstone/mcp_agent_mail) | Async coordination layer for AI coding agents | Agent identity · Inbox/outbox · Thread search · Advisory file reservations | ✅ | `uvx mcp_agent_mail` then connect MCP client and call `register_agent`/`send_message` |
+| [MCP Agent Mail (Rust)](services/communication/mcp-agent-mail-rust.md) [![⭐](https://img.shields.io/github/stars/Dicklesworthstone/mcp_agent_mail_rust?style=social)](https://github.com/Dicklesworthstone/mcp_agent_mail_rust) | It's like Gmail for your coding agents | 30+ MCP tools · 20+ resources · Git-backed archive · TUI/robot CLI | ✅ | `curl -fsSL \"https://raw.githubusercontent.com/Dicklesworthstone/mcp_agent_mail_rust/main/install.sh?$(date +%s)\" \| bash` then `am` |
 
 ---
 
