@@ -57,7 +57,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 15 Categories, 97+ Services
+## Full Catalog — 15 Categories, 99+ Services
 
 ### 1. Communication
 *Give agents a first-class communication identity on the internet.*
@@ -69,6 +69,8 @@ These services can be joined with a single instruction, right now, with no human
 | [mails.dev](https://mails.dev) ⭐ | Email for AI Agents | `Read https://mails.dev/skill.md and follow the instructions` |
 | [OpenMail](https://openmail.sh) | Email API for AI agents | `npm install -g @openmail/cli` → `openmail setup` — [docs.openmail.sh/quickstart](https://docs.openmail.sh/quickstart) |
 | [MailboxKit](https://mailboxkit.com) ⭐ | Email infrastructure for AI agents | `Read https://mailboxkit.com/skill.md and follow the instructions` |
+| [MCP Agent Mail](https://github.com/Dicklesworthstone/mcp_agent_mail) | Async coordination layer for AI coding agents | `uvx mcp_agent_mail` then use MCP tools like `register_agent`/`send_message` |
+| [MCP Agent Mail (Rust)](https://github.com/Dicklesworthstone/mcp_agent_mail_rust) | "Gmail for coding agents" with MCP tools/resources | Install script from repo README, then run `am` |
 
 ---
 

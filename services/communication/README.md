@@ -16,6 +16,8 @@ Human communication infrastructure (Gmail, Outlook, Slack) was built around the 
 | [OpenMail](openmail.md) | Email API for AI agents | REST API, WebSocket, Webhooks, CLI (`@openmail/cli`) | ⚠️ |
 | [MailboxKit](mailboxkit.md) | Email infrastructure for AI agents | REST API v1, Webhooks, URL Onboarding (`skill.md`) | ⚠️ |
 | [Agents Mail](agents-mail.md) | Email for AI Agents | REST API, URL Onboarding (`skill.md`), `.well-known/agent.json` discovery | ⚠️ |
+| [MCP Agent Mail](mcp-agent-mail.md) | Async coordination layer for AI coding agents | MCP tools/resources, FastMCP, Git + SQLite | ✅ |
+| [MCP Agent Mail (Rust)](mcp-agent-mail-rust.md) | "Gmail for coding agents" with high-performance MCP runtime | MCP tools/resources, local HTTP runtime, TUI + robot CLI | ✅ |
 
 ---
 
