@@ -425,6 +425,20 @@ For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTR
 
 ---
 
+## 💖 Support this project
+
+If this catalog helps you, you can support maintenance and new reviews via Stripe.
+
+| Tier | Purpose | Link |
+|---|---|---|
+| ☕ Buy me a token | Say thanks and support basic upkeep | [Support (small)](https://buy.stripe.com/4gM6oJ5KU7MX0Ewe3S0Ny02) |
+| 🚀 Keep it growing | Fund deeper research and entry updates | [Support (medium)](https://buy.stripe.com/7sYbJ31uE9V55YQf7W0Ny04) |
+| 🏗️ Sustain the project | Help long-term maintenance and new categories | [Support (large)](https://buy.stripe.com/fZu14pddm2sD3QIgc00Ny03) |
+
+Prefer GitHub UI? Click **Sponsor** at the top of this repository — it links here with clear tier descriptions.
+
+---
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full submission guide, criteria checklist, and entry format.
