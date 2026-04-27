@@ -1,5 +1,4 @@
 # GitHub reads this file to render the "Sponsor" button on the repository page.
 # Keep at most 4 custom links.
-github: [haoruilee]
 custom:
   - https://github.com/haoruilee/awesome-agent-native-services#-support-this-project
