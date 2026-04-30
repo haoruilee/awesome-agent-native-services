@@ -1,6 +1,6 @@
 ---
 title: "Awesome Agent-Native Services (2026) | MCP & Agent Infrastructure"
-description: "Best agent-native services in 2026: MCP tools, browser automation, memory, code sandboxes, observability, and agent infrastructure."
+description: "Explore top agent-native services for AI agents in 2026: MCP tools, browser automation, memory, code sandboxes, observability, and runtime infrastructure."
 image: /assets/images/social-preview.png
 ---
 
