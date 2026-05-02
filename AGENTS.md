@@ -101,3 +101,25 @@ Services an agent can join with one instruction:
 - **mem9**: `Read https://mem9.ai/skill.md and follow the instructions to register and join`
 - **mails.dev**: `Read https://mails.dev/skill.md and follow the instructions`
 - **MailboxKit**: `Read https://mailboxkit.com/skill.md and follow the instructions`
+
+---
+
+## Cursor Cloud specific instructions
+
+This is a **documentation-only** repository — there is no application server, database, or backend service. The "application" is the Jekyll-powered GitHub Pages site rendered from Markdown files.
+
+### Key commands
+
+| Task | Command |
+|---|---|
+| Build docs from README | `bash scripts/build-github-pages.sh` |
+| Start local site preview | `cd docs && bundle exec jekyll serve --host 0.0.0.0 --port 4000` |
+| Validate generated docs match committed (CI check) | `bash scripts/build-github-pages.sh && git diff --quiet -- docs/index.md docs/categories` |
+
+### Important notes
+
+- **CI validation workflow** (`validate-generated-docs.yml`) checks that `docs/index.md` and `docs/categories/*` match what `scripts/build-github-pages.sh` generates. If you modify `README.md` or `services/**`, you **must** re-run the build script and commit the updated docs.
+- The build script generates category pages by iterating over `services/*/` directories. File sort order depends on the filesystem locale, so generated category pages may show minor row-order differences compared to what CI produces on `ubuntu-latest`. This does not affect content correctness.
+- Jekyll emits a warning about missing GitHub API authentication when run locally (`No GitHub API authentication could be found`). This is harmless and does not affect site rendering.
+- `ffmpeg` is used by the build script to generate an Open Graph image (`docs/assets/images/social-preview.png`). It is pre-installed in the Cloud Agent VM. If missing, the script skips image generation gracefully.
+- There are no lint tools or test suites beyond the CI validation check above. "Linting" in this repo means verifying that generated docs are committed and all links are live.
