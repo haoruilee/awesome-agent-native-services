@@ -1,6 +1,6 @@
 ---
 title: "Awesome Agent-Native Services (2026) | MCP & Agent Infrastructure"
-description: "Explore top agent-native services for AI agents in 2026: MCP tools, browser automation, memory, code sandboxes, observability, and runtime infrastructure."
+description: "Best agent-native services in 2026: MCP tools, browser automation, memory, code sandboxes, observability, and agent infrastructure."
 image: /assets/images/social-preview.png
 ---
 
@@ -427,6 +427,20 @@ A service must satisfy **all five** to be listed here:
 5. **Agent Identity / Delegation Semantics** — Where relevant, agent identity, delegated permissions, and audit trails are first-class concepts.
 
 For the full criteria and contribution instructions, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## 💖 Support this project
+
+If this catalog helps you, you can support maintenance and new reviews via Stripe.
+
+| Tier | Purpose | Link |
+|---|---|---|
+| ☕ Buy me a token | Say thanks and support basic upkeep | [Support (small)](https://buy.stripe.com/4gM6oJ5KU7MX0Ewe3S0Ny02) |
+| 🚀 Keep it growing | Fund deeper research and entry updates | [Support (medium)](https://buy.stripe.com/7sYbJ31uE9V55YQf7W0Ny04) |
+| 🏗️ Sustain the project | Help long-term maintenance and new categories | [Support (large)](https://buy.stripe.com/fZu14pddm2sD3QIgc00Ny03) |
+
+Prefer GitHub UI? Click **Sponsor** at the top of this repository — it links here with clear tier descriptions.
 
 ---
 
