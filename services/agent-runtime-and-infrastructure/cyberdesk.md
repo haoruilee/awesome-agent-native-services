@@ -76,6 +76,44 @@ Cyberdesk provides cloud-hosted virtual desktops that AI agents can control prog
 
 ---
 
+
+## Autonomy Model
+
+Cyberdesk supports autonomous computer-use loops:
+
+1. Agent creates an isolated desktop session
+2. Agent executes UI actions (click/type/navigate/screenshot)
+3. Agent reads outputs and continues task flow
+4. Session is terminated/archived programmatically
+
+This flow is API-driven and does not require per-step human approval.
+
+---
+
+## Identity and Delegation Model
+
+- API keys identify the workspace and caller.
+- Desktop sessions are isolated units attributable to specific runs/agents.
+- Delegation boundaries are enforced by account/workspace-level credentials and quotas.
+
+---
+
+## Protocol Surface
+
+| Interface | Detail |
+|---|---|
+| SDK/API | Desktop lifecycle + computer-use action primitives |
+| Session artifacts | Screenshots/logs for replay, debugging, or compliance review |
+| Cloud runtime | Remote execution environment for agent browser/desktop tasks |
+
+---
+
+## Human-in-the-Loop Support
+
+Optional. Humans can observe, review, or take over workflows when needed, but default operation is agent-driven.
+
+---
+
 ## Why Generic Alternatives Do Not Qualify
 
 - Generic VDI/remote desktop products are human-operator-first and do not expose agent-native computer-use primitives as the default product surface.
