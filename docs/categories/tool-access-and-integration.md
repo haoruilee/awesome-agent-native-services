@@ -19,4 +19,5 @@ permalink: /categories/tool-access-and-integration/
 | MCP Gateway | [services/tool-access-and-integration/mcpgateway.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcpgateway.md) |
 | Nango | [services/tool-access-and-integration/nango.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/nango.md) |
 | Smithery | [services/tool-access-and-integration/smithery.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/smithery.md) |
+| ToolHive | [services/tool-access-and-integration/toolhive.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolhive.md) |
 | Toolhouse | [services/tool-access-and-integration/toolhouse.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolhouse.md) |

@@ -20,6 +20,7 @@ permalink: /categories/agent-runtime-and-infrastructure/
 | Claude Peers (claude-peers-mcp) | [services/agent-runtime-and-infrastructure/claude-peers.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/claude-peers.md) |
 | Codex plugin for Claude Code (codex-plugin-cc) | [services/agent-runtime-and-infrastructure/codex-plugin-cc.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/codex-plugin-cc.md) |
 | cx | [services/agent-runtime-and-infrastructure/cx.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cx.md) |
+| Cyberdesk | [services/agent-runtime-and-infrastructure/cyberdesk.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cyberdesk.md) |
 | db9 | [services/agent-runtime-and-infrastructure/db9.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/db9.md) |
 | Infisical Agent Sentinel | [services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md) |
 | Letta | [services/agent-runtime-and-infrastructure/letta.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/letta.md) |

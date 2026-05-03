@@ -60,10 +60,10 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 8 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 18 | Remote browser and web data extraction for agents |
-| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 9 | Runtime tool discovery, auth, and execution |
+| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 10 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 6 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 17 | Execution, session isolation, secrets, and gateway |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 18 | Execution, session isolation, secrets, and gateway |
 | 7 | [Memory & State](#7-memory--state-services) | 9 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 5 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 7 | Secure sandboxes for AI-generated code |
@@ -146,6 +146,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Framelink MCP for Figma](services/tool-access-and-integration/framelink-figma-mcp.md) [![⭐](https://img.shields.io/github/stars/GLips/Figma-Context-MCP?style=social)](https://github.com/GLips/Figma-Context-MCP) | Give your coding agent access to your Figma data | LLM-compacted layout/style context · Figma API · stdio MCP | ✅ | `npx -y figma-developer-mcp --figma-api-key=… --stdio` — [quickstart](https://www.framelink.ai/docs/quickstart) |
 | [GitHub MCP Server](services/tool-access-and-integration/github-mcp-server.md) [![⭐](https://img.shields.io/github/stars/github/github-mcp-server?style=social)](https://github.com/github/github-mcp-server) | Connect AI agents to GitHub — repos, issues, PRs, Actions | Remote HTTP MCP · OAuth or PAT · Toolsets · Enterprise paths | ✅ | `https://api.githubcopilot.com/mcp/` in MCP host — [repo README](https://github.com/github/github-mcp-server) |
 | [MCP Toolbox for Databases](services/tool-access-and-integration/google-mcp-toolbox.md) [![⭐](https://img.shields.io/github/stars/googleapis/mcp-toolbox?style=social)](https://github.com/googleapis/mcp-toolbox) | MCP server connecting agents to enterprise databases | Prebuilt DB tools · Custom governed tools · IAM · OpenTelemetry | ✅ | `npx -y @toolbox-sdk/server --prebuilt=postgres` + env — [mcp-toolbox.dev](https://mcp-toolbox.dev/) |
+| [ToolHive](services/tool-access-and-integration/toolhive.md) [![⭐](https://img.shields.io/github/stars/stacklok/toolhive-studio?style=social)](https://github.com/stacklok/toolhive-studio) | Run any MCP server securely, instantly, anywhere | MCP server discovery/deploy/manage · secure container runtime | ✅ | [toolhive.dev](https://toolhive.dev/) |
 
 ---
 
@@ -204,6 +205,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Scrapybara](services/agent-runtime-and-infrastructure/scrapybara.md) [![⭐](https://img.shields.io/github/stars/Scrapybara/scrapybara-python?style=social)](https://github.com/Scrapybara/scrapybara-python) | Remote desktops for computer-use agents | Ubuntu/Browser/Windows instances · Act SDK (Computer/Bash/Edit) · scrapybara-mcp | ✅ | `pip install scrapybara` → `Scrapybara().start_ubuntu()` — [Act SDK](https://docs.scrapybara.com/act-sdk) |
 | [Agentuity](services/agent-runtime-and-infrastructure/agentuity.md) [![⭐](https://img.shields.io/github/stars/agentuity/sdk?style=social)](https://github.com/agentuity/sdk) | Full-stack platform for AI agents | Sandboxes · Storage tools · OTel · Evals on live traffic · Edge deploy | ⚠️ | [agentuity.dev](https://agentuity.dev) — SDK + CLI per docs |
 | [Modal](services/agent-runtime-and-infrastructure/modal.md) [![⭐](https://img.shields.io/github/stars/modal-labs/modal-client?style=social)](https://github.com/modal-labs/modal-client) | Serverless AI infra — GPUs, inference, sandboxes, batch | Elastic containers · Programmatic sandboxes · Sub-second cold start | ❌ | `pip install modal` → `modal setup` — [modal.com/docs](https://modal.com/docs) |
+| [Cyberdesk](services/agent-runtime-and-infrastructure/cyberdesk.md) [![⭐](https://img.shields.io/github/stars/cyberdesk-hq/cyberdesk?style=social)](https://github.com/cyberdesk-hq/cyberdesk) | Open source virtual desktops for AI agents | Desktop lifecycle API · computer actions · isolated sessions | ⚠️ | `pip install cyberdesk` — [docs.cyberdesk.io](https://docs.cyberdesk.io) |
 
 ---
 
