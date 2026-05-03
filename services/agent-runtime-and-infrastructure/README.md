@@ -39,6 +39,8 @@ The services in this category were purpose-built to fill this gap.
 | [Scrapybara](scrapybara.md) [![⭐](https://img.shields.io/github/stars/Scrapybara/scrapybara-python?style=social)](https://github.com/Scrapybara/scrapybara-python) | Remote desktops for computer-use agents (CUA) | Ubuntu/Browser/Windows instances · Act SDK · scrapybara-mcp | ✅ |
 | [Agentuity](agentuity.md) [![⭐](https://img.shields.io/github/stars/agentuity/sdk?style=social)](https://github.com/agentuity/sdk) | The full-stack platform for AI agents | TypeScript/Python SDKs, CLI, sandboxes, storage, OTel, evals | ⚠️ |
 | [Modal](modal.md) [![⭐](https://img.shields.io/github/stars/modal-labs/modal-client?style=social)](https://github.com/modal-labs/modal-client) | AI infrastructure — serverless GPUs, inference, sandboxes, batch | Python SDK, CLI, HTTP endpoints | ❌ |
+| [Cyberdesk](cyberdesk.md) [![⭐](https://img.shields.io/github/stars/cyberdesk-hq/cyberdesk?style=social)](https://github.com/cyberdesk-hq/cyberdesk) | Open source virtual desktops for AI agents | SDK/API desktop lifecycle · computer actions · isolated sessions | ⚠️ |
+
 
 ---
 

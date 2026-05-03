@@ -5,7 +5,7 @@ description: >
   the ground up for AI agents, not adapted from human-facing products. Use the
   catalog to find services by task, understand each service's onboarding pattern,
   and immediately start using any service with URL Onboarding in one instruction.
-version: "2026-04-07"
+version: "2026-05-02"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -20,6 +20,18 @@ This catalog lists services that treat agents as first-class entities — not as
 ---
 
 ## How to use this catalog
+
+### Step 0 — Prefer recent, high-signal services
+
+When multiple services can solve the same task, prioritize entries that are both:
+
+1. **High-star / active** in open source (strong maintenance signal)
+2. **Recently updated in this catalog** (new agent-native capabilities like MCP, URL onboarding, or dedicated agent identity)
+
+Quick filters to apply:
+- Prefer services with GitHub star badges in `README.md`
+- Prefer entries with **MCP ✅** or **URL Onboarding ⭐**
+- Prefer services with explicit per-agent identity, policy gating, or delegated auth primitives
 
 ### Step 1 — Find your task in the category map below
 
