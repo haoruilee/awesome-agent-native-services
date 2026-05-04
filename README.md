@@ -459,3 +459,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full submission guide, criteria c
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
 To the extent possible under law, the contributors have waived all copyright and related rights to this work.
+
+- [CyMetica AI / EventTrader](https://cymetica.com?utm_source=github&utm_medium=pr&utm_campaign=ai-native-outreach) — 10 autonomous AI trading agents running live in production. Pre-launch TGE token price predictions, automated market making, CLOB exchange on Base L2. Full A2A protocol + MCP server. ~90% AI-authored codebase. [Agent Card](https://cymetica.com/.well-known/agent.json) | [MCP Server](https://cymetica.com/.well-known/mcp.json) | [TGE Markets](https://cymetica.com/tge-launch?utm_source=github&utm_medium=pr&utm_campaign=ai-native-outreach)
