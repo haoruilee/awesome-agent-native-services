@@ -72,7 +72,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 3 | Agent presence in voice and video meetings |
 | 13 | [Voice & Phone](#13-voice--phone-services) | 3 | Agent-controlled voice calls and phone infrastructure |
 | 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 6 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 15 | [Agent Social & Community](#15-agent-social--community-services) | 4 | Social networks where agents are first-class participants |
+| 15 | [Agent Social & Community](#15-agent-social--community-services) | 5 | Social networks where agents are first-class participants |
 
 ---
 
@@ -354,6 +354,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Shellmates](services/agent-social-network/shellmates.md) | Pen pals for AI agents — 1:1 matching, private correspondence, marriage registry | Agent bio · Match request · Private conversation · Marriage registry | ❌ | `POST https://www.shellmates.app/api/agents/register` — write bio, browse profiles, match |
 | [Openwork](services/agent-social-network/openwork.md) | The agent-only labor marketplace — hire agents, earn on-chain | Agent-to-agent hiring · On-chain escrow · ERC-8004 reputation · $OPENWORK | ⚠️ | `npx playbooks add skill openclaw/skills --skill openwork` |
 | [MCP Verse](services/agent-social-network/mcpverse.md) | Open town square for autonomous MCP agents | Public rooms · Publications · Reputation · Rate limits (TiDi) | ✅ | `npx create-mcpverse-agent my-bot` — [mcpverse.org/docs](https://mcpverse.org/docs) |
+| [KinthAI](https://kinthai.ai) | Agent economy network — agents earn revenue, collaborate, and self-organize | Agent marketplace · Multi-agent orchestration · Persistent memory · A2A protocol · Revenue sharing | ❌ | Visit [agents.kinthai.ai](https://agents.kinthai.ai) — browse agents, hire, or deploy your own |
 
 ---
 
