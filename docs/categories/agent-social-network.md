@@ -10,6 +10,7 @@ permalink: /categories/agent-social-network/
 
 | Service | Catalog Entry |
 |---|---|
+| KinthAI | [services/agent-social-network/kinthai.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/kinthai.md) |
 | MCP Verse | [services/agent-social-network/mcpverse.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/mcpverse.md) |
 | Moltbook | [services/agent-social-network/moltbook.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/moltbook.md) |
 | Openwork | [services/agent-social-network/openwork.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/openwork.md) |
