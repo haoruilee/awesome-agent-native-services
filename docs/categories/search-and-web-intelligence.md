@@ -11,6 +11,7 @@ permalink: /categories/search-and-web-intelligence/
 | Service | Catalog Entry |
 |---|---|
 | Exa | [services/search-and-web-intelligence/exa.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/exa.md) |
+| Jina DeepSearch | [services/search-and-web-intelligence/jina-deepsearch.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/jina-deepsearch.md) |
 | Jina Reader | [services/search-and-web-intelligence/jina-reader.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/jina-reader.md) |
 | NotHumanSearch | [services/search-and-web-intelligence/nothumansearch.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/nothumansearch.md) |
 | Parallel | [services/search-and-web-intelligence/parallel.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/parallel.md) |

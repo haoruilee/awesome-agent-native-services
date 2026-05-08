@@ -18,6 +18,7 @@ No legacy payment processor was designed with these requirements. The services i
 
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
+| [OpenLibx402](openlibx402.md) [![⭐](https://img.shields.io/github/stars/openlibx402/openlibx402?style=social)](https://github.com/openlibx402/openlibx402) | AI-native x402 integrations for autonomous payments | Python/Node SDK, FastAPI/Express middleware, HTTP 402 flow | ⚠️ |
 | [Payman AI](payman-ai.md) | Agentic AI that does the banking. Under your control. | REST API, SDK, Multi-channel | ❌ |
 | [Skyfire](skyfire.md) | Identity and payments for autonomous AI agents | REST API, OAuth2/OIDC, KYAPay Protocol | ❌ |
 | [AgentsPay](agentspay.md) | Crypto identity and embedded wallets for AI agents | REST API, MCP-native API Gateway | ✅ |

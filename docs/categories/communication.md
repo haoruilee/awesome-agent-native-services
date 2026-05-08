@@ -12,6 +12,7 @@ permalink: /categories/communication/
 |---|---|
 | AgentMail | [services/communication/agentmail.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/agentmail.md) |
 | Agents Mail | [services/communication/agents-mail.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/agents-mail.md) |
+| ATXP Email | [services/communication/atxp-email.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/atxp-email.md) |
 | MailboxKit | [services/communication/mailboxkit.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/mailboxkit.md) |
 | mails.dev | [services/communication/mails-dev.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/mails-dev.md) |
 | MCP Agent Mail (Rust) | [services/communication/mcp-agent-mail-rust.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/mcp-agent-mail-rust.md) |

@@ -21,6 +21,7 @@ The services in this category were purpose-built to fill this gap.
 
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
+| [ATXP](atxp.md) [![⭐](https://img.shields.io/github/stars/atxp-dev/atxp?style=social)](https://github.com/atxp-dev/atxp) | Wallet + paid MCP runtime layer for AI agents | CLI, SDK, wallet auth, paid MCP calls | ✅ |
 | [Claude Peers](claude-peers.md) | Local broker + MCP so Claude Code sessions discover peers and message ad-hoc | MCP (stdio), local broker, SQLite | ✅ |
 | [acpx](acpx.md) | Headless ACP CLI — agents talk to coding agents over structured protocol, not PTY scraping | CLI, ACP protocol, SKILL.md | N/A |
 | [Codex plugin for Claude Code](codex-plugin-cc.md) | Claude Code marketplace plugin — delegate reviews and rescue work to OpenAI Codex via slash commands | Slash commands · Subagent · Background jobs · Optional review gate | N/A |

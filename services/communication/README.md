@@ -10,6 +10,7 @@ Human communication infrastructure (Gmail, Outlook, Slack) was built around the 
 
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
+| [ATXP Email](atxp-email.md) | Email for AI agents | CLI, API docs, per-agent inbox workflow | ⚠️ |
 | [AgentMail](agentmail.md) | Email for AI agents | REST, Python SDK, TypeScript SDK, Webhooks | ✅ |
 | [Novu](novu.md) | Open-source notification infrastructure with Agent Toolkit | Node SDK, Python SDK, REST API, Agent Skills | ✅ |
 | [mails.dev](mails-dev.md) | Email for AI Agents | CLI, REST API, TypeScript SDK | ⚠️ |
