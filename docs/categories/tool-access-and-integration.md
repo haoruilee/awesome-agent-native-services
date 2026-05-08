@@ -10,6 +10,7 @@ permalink: /categories/tool-access-and-integration/
 
 | Service | Catalog Entry |
 |---|---|
+| Apify MCP Server | [services/tool-access-and-integration/apify-mcp-server.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/apify-mcp-server.md) |
 | Arcade | [services/tool-access-and-integration/arcade.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/arcade.md) |
 | ClawHub | [services/tool-access-and-integration/clawhub.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/clawhub.md) |
 | Composio | [services/tool-access-and-integration/composio.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/composio.md) |

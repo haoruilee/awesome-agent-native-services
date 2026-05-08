@@ -15,3 +15,4 @@ permalink: /categories/observability-and-tracing/
 | Braintrust | [services/observability-and-tracing/braintrust.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/braintrust.md) |
 | Galileo | [services/observability-and-tracing/galileo.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/galileo.md) |
 | Langfuse | [services/observability-and-tracing/langfuse.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/langfuse.md) |
+| LangWatch | [services/observability-and-tracing/langwatch.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/langwatch.md) |
