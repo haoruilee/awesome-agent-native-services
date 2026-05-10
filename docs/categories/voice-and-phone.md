@@ -12,4 +12,5 @@ permalink: /categories/voice-and-phone/
 |---|---|
 | LiveKit Agents | [services/voice-and-phone/livekit-agents.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/livekit-agents.md) |
 | Retell AI | [services/voice-and-phone/retell-ai.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/retell-ai.md) |
+| Stimm | [services/voice-and-phone/stimm.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/stimm.md) |
 | Vapi | [services/voice-and-phone/vapi.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/vapi.md) |

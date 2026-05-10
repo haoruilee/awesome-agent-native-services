@@ -63,20 +63,20 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 
 | # | Category | Services | Description |
 |---|---|---|---|
-| 1 | [Communication](#1-communication-services) | 8 | Give agents a communication identity on the internet |
-| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 18 | Remote browser and web data extraction for agents |
-| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 10 | Runtime tool discovery, auth, and execution |
+| 1 | [Communication](#1-communication-services) | 9 | Give agents a communication identity on the internet |
+| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 19 | Remote browser and web data extraction for agents |
+| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 11 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 6 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 18 | Execution, session isolation, secrets, and gateway |
-| 7 | [Memory & State](#7-memory--state-services) | 9 | Persistent agent memory across sessions |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 19 | Execution, session isolation, secrets, and gateway |
+| 7 | [Memory & State](#7-memory--state-services) | 11 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 5 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 7 | Secure sandboxes for AI-generated code |
-| 10 | [Observability & Tracing](#10-observability--tracing-services) | 5 | Agent trajectory tracing and evaluation |
-| 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 5 | Fault-tolerant long-running agent workflows |
-| 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 3 | Agent presence in voice and video meetings |
-| 13 | [Voice & Phone](#13-voice--phone-services) | 3 | Agent-controlled voice calls and phone infrastructure |
-| 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 6 | Per-agent budget, routing, caching, and observability for LLM calls |
+| 10 | [Observability & Tracing](#10-observability--tracing-services) | 6 | Agent trajectory tracing and evaluation |
+| 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
+| 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 4 | Agent presence in voice and video meetings |
+| 13 | [Voice & Phone](#13-voice--phone-services) | 4 | Agent-controlled voice calls and phone infrastructure |
+| 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 7 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 15 | [Agent Social & Community](#15-agent-social--community-services) | 5 | Social networks where agents are first-class participants |
 
 ---
@@ -99,6 +99,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Agents Mail](services/communication/agents-mail.md) | Email for AI Agents | Agent registration · Inbox lifecycle · Send/reply API · URL Onboarding | ⚠️ | Read https://agentsmail.org/skill.md and follow the instructions |
 | [MCP Agent Mail](services/communication/mcp-agent-mail.md) [![⭐](https://img.shields.io/github/stars/Dicklesworthstone/mcp_agent_mail?style=social)](https://github.com/Dicklesworthstone/mcp_agent_mail) | Async coordination layer for AI coding agents | Agent identity · Inbox/outbox · Thread search · Advisory file reservations | ✅ | `uvx mcp_agent_mail` then connect MCP client and call `register_agent`/`send_message` |
 | [MCP Agent Mail (Rust)](services/communication/mcp-agent-mail-rust.md) [![⭐](https://img.shields.io/github/stars/Dicklesworthstone/mcp_agent_mail_rust?style=social)](https://github.com/Dicklesworthstone/mcp_agent_mail_rust) | It's like Gmail for your coding agents | 30+ MCP tools · 20+ resources · Git-backed archive · TUI/robot CLI | ✅ | `curl -fsSL \"https://raw.githubusercontent.com/Dicklesworthstone/mcp_agent_mail_rust/main/install.sh?$(date +%s)\" \| bash` then `am` |
+| [AgenticMail](services/communication/agenticmail.md) [![⭐](https://img.shields.io/github/stars/agenticmail/agenticmail?style=social)](https://github.com/agenticmail/agenticmail) | Email & SMS infrastructure for AI agents | Agent inbox + phone bundle · Stalwart self-host · Google Voice bridge · 75+ REST endpoints | ⚠️ | `git clone https://github.com/agenticmail/agenticmail && docker compose up -d` |
 
 ---
 
@@ -128,6 +129,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Cloudflare Browser Rendering](services/browser-and-web-execution/cloudflare-browser-rendering.md) [![⭐](https://img.shields.io/github/stars/cloudflare/workers-sdk?style=social)](https://github.com/cloudflare/workers-sdk) | Headless Chrome on Cloudflare for AI agents | Workers bindings · Playwright/Puppeteer · Playwright MCP · REST API | ✅ | [Browser Rendering](https://developers.cloudflare.com/browser-rendering/) — [Use with AI](https://developers.cloudflare.com/browser-rendering/how-to/ai/) |
 | [Olostep](services/browser-and-web-execution/olostep.md) [![⭐](https://img.shields.io/github/stars/olostep/olostep-mcp-server?style=social)](https://github.com/olostep/olostep-mcp-server) | Web data API for AI agents | Scrape · Search · Map · Crawl · Batch · Official MCP | ✅ | API key → [docs.olostep.com](https://docs.olostep.com) — `npx -y olostep-mcp` or remote `https://mcp.olostep.com/mcp` |
 | [Lightpanda](services/browser-and-web-execution/lightpanda.md) [![⭐](https://img.shields.io/github/stars/lightpanda-io/browser?style=social)](https://github.com/lightpanda-io/browser) | Headless browser for AI agents and automation | CDP · `fetch --dump markdown` · Built-in MCP (`lightpanda mcp`) | ✅ | [Install binary or Docker](https://github.com/lightpanda-io/browser#install) → `lightpanda serve` — [MCP guide](https://lightpanda.io/docs/open-source/guides/mcp-server) |
+| [Vessel Browser](services/browser-and-web-execution/vessel-browser.md) [![⭐](https://img.shields.io/github/stars/unmodeled-tyler/vessel-browser?style=social)](https://github.com/unmodeled-tyler/vessel-browser) | Built from the ground-up for agents — durable state, action undo, MCP control, BYOK | Named durable sessions · Action undo · Checkpoints · Agent-editable bookmarks · MCP | ✅ | `npm install -g vessel-browser` then `vessel-browser --mcp` (or Linux AppImage) |
 
 ---
 
@@ -152,6 +154,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [GitHub MCP Server](services/tool-access-and-integration/github-mcp-server.md) [![⭐](https://img.shields.io/github/stars/github/github-mcp-server?style=social)](https://github.com/github/github-mcp-server) | Connect AI agents to GitHub — repos, issues, PRs, Actions | Remote HTTP MCP · OAuth or PAT · Toolsets · Enterprise paths | ✅ | `https://api.githubcopilot.com/mcp/` in MCP host — [repo README](https://github.com/github/github-mcp-server) |
 | [MCP Toolbox for Databases](services/tool-access-and-integration/google-mcp-toolbox.md) [![⭐](https://img.shields.io/github/stars/googleapis/mcp-toolbox?style=social)](https://github.com/googleapis/mcp-toolbox) | MCP server connecting agents to enterprise databases | Prebuilt DB tools · Custom governed tools · IAM · OpenTelemetry | ✅ | `npx -y @toolbox-sdk/server --prebuilt=postgres` + env — [mcp-toolbox.dev](https://mcp-toolbox.dev/) |
 | [ToolHive](services/tool-access-and-integration/toolhive.md) [![⭐](https://img.shields.io/github/stars/stacklok/toolhive-studio?style=social)](https://github.com/stacklok/toolhive-studio) | Run any MCP server securely, instantly, anywhere | MCP server discovery/deploy/manage · secure container runtime | ✅ | [toolhive.dev](https://toolhive.dev/) |
+| [Obot](services/tool-access-and-integration/obot.md) [![⭐](https://img.shields.io/github/stars/obot-platform/obot?style=social)](https://github.com/obot-platform/obot) | Complete MCP Platform — Hosting, Registry, Gateway, Chat Client | Hosted MCP servers · Registry · Gateway · OAuth 2.1 · RBAC | ✅ | `helm install obot obot/obot` (or Docker) — [obot.ai](https://obot.ai) |
 
 ---
 
@@ -211,6 +214,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Agentuity](services/agent-runtime-and-infrastructure/agentuity.md) [![⭐](https://img.shields.io/github/stars/agentuity/sdk?style=social)](https://github.com/agentuity/sdk) | Full-stack platform for AI agents | Sandboxes · Storage tools · OTel · Evals on live traffic · Edge deploy | ⚠️ | [agentuity.dev](https://agentuity.dev) — SDK + CLI per docs |
 | [Modal](services/agent-runtime-and-infrastructure/modal.md) [![⭐](https://img.shields.io/github/stars/modal-labs/modal-client?style=social)](https://github.com/modal-labs/modal-client) | Serverless AI infra — GPUs, inference, sandboxes, batch | Elastic containers · Programmatic sandboxes · Sub-second cold start | ❌ | `pip install modal` → `modal setup` — [modal.com/docs](https://modal.com/docs) |
 | [Cyberdesk](services/agent-runtime-and-infrastructure/cyberdesk.md) [![⭐](https://img.shields.io/github/stars/cyberdesk-hq/cyberdesk?style=social)](https://github.com/cyberdesk-hq/cyberdesk) | Open source virtual desktops for AI agents | Desktop lifecycle API · computer actions · isolated sessions | ⚠️ | `pip install cyberdesk` — [docs.cyberdesk.io](https://docs.cyberdesk.io) |
+| [Polos](services/agent-runtime-and-infrastructure/polos.md) [![⭐](https://img.shields.io/github/stars/polos-dev/polos?style=social)](https://github.com/polos-dev/polos) | Open-source runtime for AI agents — sandbox + durable workflow + HITL | Docker/E2B sandbox · Durable steps with prompt cache · HTTP/cron/webhook/event triggers · Slack HITL | ⚠️ | `pip install polos` (or `npm install polos`) — see [README](https://github.com/polos-dev/polos) |
 
 ---
 
@@ -233,6 +237,8 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [mem9](services/memory-and-state/mem9.md) | Persistent memory for AI agents | Cloud memory · Hybrid search · Lifecycle hooks · Cross-agent sharing | ⚠️ | Read https://mem9.ai/skill.md and follow the instructions to register and join |
 | [LLM Wiki](services/memory-and-state/llm-wiki.md) [![⭐](https://img.shields.io/github/stars/nvk/llm-wiki?style=social)](https://github.com/nvk/llm-wiki) | LLM-compiled knowledge bases for any AI agent | Parallel research · Source ingest · Wiki compile · Deep query · Artifact generation | ⚠️ | `claude plugin install wiki@llm-wiki` — [llm-wiki.net](https://llm-wiki.net/) |
 | [LycheeMem](services/memory-and-state/lycheemem.md) [![⭐](https://img.shields.io/github/stars/LycheeMem/LycheeMem?style=social)](https://github.com/LycheeMem/LycheeMem) | Compact memory framework for LLM agents | Working/semantic/procedural stores · Token-budget compression · HTTP MCP · OpenClaw plugin | ✅ | Clone repo → `pip install -e ".[dev]"` → `python main.py` — MCP at `http://localhost:8000/mcp` |
+| [MemMachine](services/memory-and-state/memmachine.md) [![⭐](https://img.shields.io/github/stars/MemMachine/MemMachine?style=social)](https://github.com/MemMachine/MemMachine) | Universal memory layer for AI Agents | Episodic graph · Profile SQL · Working memory · LangChain/CrewAI adapters | ⚠️ | `pip install memmachine` then `Memory().add(messages, agent_id=...)` |
+| [Cognee](services/memory-and-state/cognee.md) [![⭐](https://img.shields.io/github/stars/topoteretes/cognee?style=social)](https://github.com/topoteretes/cognee) | Memory control plane for AI agents — managed world model | Auto ontology · 28+ connectors · Per-agent permissions · MCP server | ✅ | `pip install cognee` → `cognee.add(docs)` → `cognee.cognify()` → `cognee.search(...)` |
 
 ---
 
@@ -283,6 +289,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [AgentOps](services/observability-and-tracing/agentops.md) [![⭐](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=social)](https://github.com/AgentOps-AI/agentops) | Testing, debugging, and deploying AI agents and LLM apps | Session waterfall · Framework auto-instrumentation · Public trace API | ⚠️ | `pip install agentops` → `agentops.init(<API_KEY>)` |
 | [Braintrust](services/observability-and-tracing/braintrust.md) [![⭐](https://img.shields.io/github/stars/braintrustdata/autoevals?style=social)](https://github.com/braintrustdata/autoevals) | AI observability & evals — traces, datasets, OpenAI Agents | Trace processors · Eval experiments · Trace→dataset · IDE MCP | ✅ | `pip install "braintrust[openai-agents]"` — MCP: [Braintrust MCP](https://www.braintrust.dev/docs/integrations/developer-tools/mcp) |
 | [Galileo](services/observability-and-tracing/galileo.md) | Agent reliability platform — observability, evals, and IDE MCP | Signals (root-cause insights) · synthetic datasets · experiments · MCP tools | ✅ | Add MCP URL `https://api.galileo.ai/mcp/http/mcp` with `Galileo-API-Key` header — [setup docs](https://docs.galileo.ai/getting-started/mcp/setup-galileo-mcp) |
+| [Laminar](services/observability-and-tracing/laminar.md) [![⭐](https://img.shields.io/github/stars/lmnr-ai/lmnr?style=social)](https://github.com/lmnr-ai/lmnr) | Open-source observability for long-running agents | Agent debugger (rerun at step N) · Browser session replay · Signals · SQL over traces · Apache 2.0 self-host | ⚠️ | `pip install lmnr` then `Laminar.initialize()` — self-host: `git clone https://github.com/lmnr-ai/lmnr && docker compose up -d` |
 
 ---
 
@@ -299,6 +306,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Kitaru](services/durable-execution-and-scheduling/kitaru.md) [![⭐](https://img.shields.io/github/stars/zenml-io/kitaru?style=social)](https://github.com/zenml-io/kitaru) | Durable execution for AI agents — primitives first, frameworks second | `@flow` / `@checkpoint` · Built-in memory · LLM tracking · Replay with overrides · MCP server | ✅ | `pip install kitaru` — `@flow` / `@checkpoint` decorators |
 | [Restate](services/durable-execution-and-scheduling/restate.md) [![⭐](https://img.shields.io/github/stars/restatedev/restate?style=social)](https://github.com/restatedev/restate) | Durable execution for AI agents — any framework, any cloud | Durable AI loop · Compensation pattern · A2A exactly-once · Suspend-when-idle | ✅ | `pip install restate-sdk` — wrap existing agent with 2-line middleware |
 | [MCP-Cloud (mcp-agent)](services/durable-execution-and-scheduling/mcp-cloud-mcp-agent.md) [![⭐](https://img.shields.io/github/stars/lastmile-ai/mcp-agent?style=social)](https://github.com/lastmile-ai/mcp-agent) | Host mcp-agents on cloud — Temporal-backed durable MCP | HTTPS MCP deploy · Managed secrets · Workflow logs · Client install | ✅ | `uvx mcp-agent login` → `uvx mcp-agent deploy …` — [MCP-Cloud docs](https://docs.mcp-agent.com/get-started/cloud) |
+| [Inferable](services/durable-execution-and-scheduling/inferable.md) [![⭐](https://img.shields.io/github/stars/inferablehq/inferable?style=social)](https://github.com/inferablehq/inferable) | Reliable AI workflows with humans in the loop, structured outputs, durable execution | Durable steps · `human_approval()` Slack/email · Structured outputs · Versioned workflows | ⚠️ | `npm install @inferable/sdk` (or `pip install inferable`) — [docs.inferable.ai](https://docs.inferable.ai) |
 
 ---
 
@@ -313,6 +321,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Recall.ai](services/meeting-and-conversation/recall-ai.md) | The meeting bot API for every platform | Meeting bot lifecycle · Real-time diarized transcript · Calendar-triggered deployment · 6 platforms | ❌ | `POST https://api.recall.ai/api/v1/bot` with the meeting URL |
 | [Meeting BaaS](services/meeting-and-conversation/meeting-baas.md) | Meeting bots as a service — Zoom, Meet, Teams | Bot lifecycle · Webhook transcripts · Optional bidirectional audio stream · meeting-mcp | ✅ | `POST https://api.meetingbaas.com/bots` with `x-meeting-baas-api-key` — [docs](https://docs.meetingbaas.com/docs/api/getting-started/sending-a-bot) |
 | [MeetStream](services/meeting-and-conversation/meetstream.md) | Unified meeting-bot API for Zoom, Meet, Teams | Real-time diarized webhooks · WebSocket A/V · In-meeting chat/TTS · Calendar auto-dispatch | ⚠️ | `POST https://api.meetstream.ai/api/v1/bots/create_bot` with `Authorization: Token <key>` — [Create Bot](https://docs.meetstream.ai/api-reference/ap-is/bot-endpoints/create-bot.mdx) |
+| [Vexa](services/meeting-and-conversation/vexa.md) [![⭐](https://img.shields.io/github/stars/Vexa-ai/vexa?style=social)](https://github.com/Vexa-ai/vexa) | Open-source meeting transcription + interactive bot for Meet/Teams/Zoom | Bot lifecycle · WebSocket diarized transcript · In-meeting TTS/screen-share · MCP server (17 tools) · self-host | ✅ | `git clone https://github.com/Vexa-ai/vexa && docker compose up -d` — or hosted at [vexa.ai](https://vexa.ai) |
 
 ---
 
@@ -327,6 +336,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Vapi](services/voice-and-phone/vapi.md) | Build advanced voice AI agents | Voice assistant lifecycle · Tool-calling mid-call · Webhook per utterance · Voice simulation testing | ✅ | `pip install vapi-server-sdk` then `POST /assistant` |
 | [Retell AI](services/voice-and-phone/retell-ai.md) [![⭐](https://img.shields.io/github/stars/RetellAI/retell-python-sdk?style=social)](https://github.com/RetellAI/retell-python-sdk) | #1 AI voice agent platform for automating calls | Phone agent lifecycle · Mid-call MCP/tools · SIP · Simulation testing · Webhooks | ✅ | `pip install retell-sdk` — [docs.retellai.com](https://docs.retellai.com) |
 | [LiveKit Agents](services/voice-and-phone/livekit-agents.md) [![⭐](https://img.shields.io/github/stars/livekit/agents?style=social)](https://github.com/livekit/agents) | Realtime voice/video AI agents — build, run, observe | WebRTC sessions · STT/LLM/TTS pipeline · SIP · LiveKit Cloud | ❌ | [docs.livekit.io/agents](https://docs.livekit.io/agents/) — Python/TS Agents SDK |
+| [Stimm](services/voice-and-phone/stimm.md) [![⭐](https://img.shields.io/github/stars/stimm-ai/stimm?style=social)](https://github.com/stimm-ai/stimm) | Open-source voice agent platform — ultra-low latency over WebRTC | Dual-agent (fast + slow) · Optimistic VUI · BYO STT/LLM/TTS · WebRTC media plane | ⚠️ | `git clone https://github.com/stimm-ai/stimm` then follow README to wire providers |
 
 ---
 
@@ -344,6 +354,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [LiteLLM](services/llm-gateway-and-routing/litellm.md) [![⭐](https://img.shields.io/github/stars/BerriAI/litellm?style=social)](https://github.com/BerriAI/litellm) | Open-source AI gateway — 100+ LLMs + Agent Gateway (A2A) | Virtual keys · Budgets · A2A agent routing · Trace/agent headers | ✅ | Self-host proxy per [docs.litellm.ai](https://docs.litellm.ai/docs/proxy/docker_quick_start) — [A2A gateway](https://docs.litellm.ai/docs/a2a) |
 | [OpenRouter](services/llm-gateway-and-routing/openrouter.md) | Unified OpenAI-compatible API — 300+ models | Cross-provider routing · Uptime optimization · Org data policies | ❌ | [openrouter.ai/docs/quickstart](https://openrouter.ai/docs/quickstart) — OpenAI SDK + `OPENROUTER_API_KEY` |
 | [Helicone](services/llm-gateway-and-routing/helicone.md) | AI Gateway + observability — 100+ models, unified credits | `ai-gateway.helicone.ai` · Fallbacks · Request logging | ❌ | OpenAI SDK `baseURL` `https://ai-gateway.helicone.ai` — [docs.helicone.ai](https://docs.helicone.ai/) |
+| [Routerly](services/llm-gateway-and-routing/routerly.md) [![⭐](https://img.shields.io/github/stars/Inebrio/Routerly?style=social)](https://github.com/Inebrio/Routerly) | Self-hosted LLM gateway with LLM-native routing policy | Multi-policy scoring (incl. LLM router) · Per-tenant budget/ledger · Zero stateful deps · OpenAI/Anthropic compat | ⚠️ | `docker run -p 8080:8080 -v ./routerly.json:/config/routerly.json inebrio/routerly:latest` then point client `OPENAI_BASE_URL` |
 
 ---
 

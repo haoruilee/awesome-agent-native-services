@@ -28,6 +28,7 @@ Agent-native tool access services solve all three problems with primitives that 
 | [GitHub MCP Server](github-mcp-server.md) [![⭐](https://img.shields.io/github/stars/github/github-mcp-server?style=social)](https://github.com/github/github-mcp-server) | Official GitHub MCP — agents work with repos, issues, PRs, Actions | Remote HTTP MCP, OAuth/PAT, local server option | ✅ |
 | [MCP Toolbox for Databases](google-mcp-toolbox.md) [![⭐](https://img.shields.io/github/stars/googleapis/mcp-toolbox?style=social)](https://github.com/googleapis/mcp-toolbox) | MCP server connecting agents to enterprise databases | `@toolbox-sdk/server`, prebuilt packs, multi-language SDKs, IAM, OTEL | ✅ |
 | [ToolHive](toolhive.md) [![⭐](https://img.shields.io/github/stars/stacklok/toolhive-studio?style=social)](https://github.com/stacklok/toolhive-studio) | Run any MCP server securely, instantly, anywhere | MCP server discovery/deploy/manage · secure container runtime | ✅ |
+| [Obot](obot.md) [![⭐](https://img.shields.io/github/stars/obot-platform/obot?style=social)](https://github.com/obot-platform/obot) | Complete MCP Platform — Hosting, Registry, Gateway, Chat Client | MCP (Streamable HTTP), REST admin API, OAuth 2.1, Helm chart | ✅ |
 
 
 ---

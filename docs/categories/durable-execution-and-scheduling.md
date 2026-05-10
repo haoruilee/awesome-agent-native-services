@@ -10,6 +10,7 @@ permalink: /categories/durable-execution-and-scheduling/
 
 | Service | Catalog Entry |
 |---|---|
+| Inferable | [services/durable-execution-and-scheduling/inferable.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/inferable.md) |
 | Inngest | [services/durable-execution-and-scheduling/inngest.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/inngest.md) |
 | Kitaru | [services/durable-execution-and-scheduling/kitaru.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/kitaru.md) |
 | MCP-Cloud (mcp-agent) | [services/durable-execution-and-scheduling/mcp-cloud-mcp-agent.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/mcp-cloud-mcp-agent.md) |

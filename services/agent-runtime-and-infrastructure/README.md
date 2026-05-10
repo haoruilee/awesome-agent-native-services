@@ -41,6 +41,7 @@ The services in this category were purpose-built to fill this gap.
 | [Agentuity](agentuity.md) [![⭐](https://img.shields.io/github/stars/agentuity/sdk?style=social)](https://github.com/agentuity/sdk) | The full-stack platform for AI agents | TypeScript/Python SDKs, CLI, sandboxes, storage, OTel, evals | ⚠️ |
 | [Modal](modal.md) [![⭐](https://img.shields.io/github/stars/modal-labs/modal-client?style=social)](https://github.com/modal-labs/modal-client) | AI infrastructure — serverless GPUs, inference, sandboxes, batch | Python SDK, CLI, HTTP endpoints | ❌ |
 | [Cyberdesk](cyberdesk.md) [![⭐](https://img.shields.io/github/stars/cyberdesk-hq/cyberdesk?style=social)](https://github.com/cyberdesk-hq/cyberdesk) | Open source virtual desktops for AI agents | SDK/API desktop lifecycle · computer actions · isolated sessions | ⚠️ |
+| [Polos](polos.md) [![⭐](https://img.shields.io/github/stars/polos-dev/polos?style=social)](https://github.com/polos-dev/polos) | Open-source runtime for AI agents — sandbox + durable workflow + HITL | Python/TS SDK · HTTP/webhook/cron/event triggers · Slack HITL · Docker/E2B sandbox | ⚠️ |
 
 
 ---

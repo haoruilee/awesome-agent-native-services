@@ -16,3 +16,4 @@ permalink: /categories/llm-gateway-and-routing/
 | LiteLLM | [services/llm-gateway-and-routing/litellm.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/litellm.md) |
 | OpenRouter | [services/llm-gateway-and-routing/openrouter.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/openrouter.md) |
 | Portkey | [services/llm-gateway-and-routing/portkey.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/portkey.md) |
+| Routerly | [services/llm-gateway-and-routing/routerly.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/routerly.md) |

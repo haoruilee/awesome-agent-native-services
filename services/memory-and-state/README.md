@@ -33,6 +33,8 @@ Agent-native memory services solve this by providing:
 | [mem9](mem9.md) | Persistent memory for AI agents | REST API, OpenClaw/Claude Code/OpenCode plugins | ⚠️ |
 | [LLM Wiki](llm-wiki.md) [![⭐](https://img.shields.io/github/stars/nvk/llm-wiki?style=social)](https://github.com/nvk/llm-wiki) | LLM-compiled knowledge bases for any AI agent | Claude plugin, Codex plugin, AGENTS.md protocol | ⚠️ |
 | [LycheeMem](lycheemem.md) | Compact memory framework for LLM agents | REST API, HTTP MCP, OpenClaw plugin | ✅ |
+| [MemMachine](memmachine.md) [![⭐](https://img.shields.io/github/stars/MemMachine/MemMachine?style=social)](https://github.com/MemMachine/MemMachine) | Universal memory layer — episodic graph + profile SQL + working memory | Python SDK, LangChain/CrewAI adapters, REST API | ⚠️ |
+| [Cognee](cognee.md) [![⭐](https://img.shields.io/github/stars/topoteretes/cognee?style=social)](https://github.com/topoteretes/cognee) | Memory control plane for AI agents — managed world model with auto ontology | Python SDK, 28+ connectors, MCP server, framework adapters | ✅ |
 
 ---
 

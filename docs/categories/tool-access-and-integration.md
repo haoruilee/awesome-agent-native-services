@@ -19,6 +19,7 @@ permalink: /categories/tool-access-and-integration/
 | MCP Toolbox for Databases | [services/tool-access-and-integration/google-mcp-toolbox.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/google-mcp-toolbox.md) |
 | MCP Gateway | [services/tool-access-and-integration/mcpgateway.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcpgateway.md) |
 | Nango | [services/tool-access-and-integration/nango.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/nango.md) |
+| Obot | [services/tool-access-and-integration/obot.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/obot.md) |
 | Smithery | [services/tool-access-and-integration/smithery.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/smithery.md) |
 | ToolHive | [services/tool-access-and-integration/toolhive.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolhive.md) |
 | Toolhouse | [services/tool-access-and-integration/toolhouse.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolhouse.md) |

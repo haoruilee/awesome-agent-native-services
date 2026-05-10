@@ -22,6 +22,7 @@ Calling an LLM directly is fine for prototyping. Running agents in production �
 | [LiteLLM](litellm.md) [![⭐](https://img.shields.io/github/stars/BerriAI/litellm?style=social)](https://github.com/BerriAI/litellm) | Open-source AI gateway — 100+ LLMs, virtual keys, Agent Gateway (A2A) | OpenAI-compatible proxy, Docker/K8s, A2A JSON-RPC, MCP (gateway) | ✅ |
 | [OpenRouter](openrouter.md) | The unified interface for LLMs — one API, 300+ models | OpenAI-compatible REST, TypeScript/Python/Go/Java SDKs | ❌ |
 | [Helicone](helicone.md) | AI Gateway & LLM observability — 100+ models, unified credits | OpenAI-compatible gateway (`ai-gateway.helicone.ai`), dashboard | ❌ |
+| [Routerly](routerly.md) [![⭐](https://img.shields.io/github/stars/Inebrio/Routerly?style=social)](https://github.com/Inebrio/Routerly) | Self-hosted LLM gateway with LLM-native routing policy — no DB required | OpenAI/Anthropic-compatible HTTP, JSON config, Docker single binary | ⚠️ |
 
 ---
 

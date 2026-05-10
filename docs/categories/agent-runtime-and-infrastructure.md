@@ -27,6 +27,7 @@ permalink: /categories/agent-runtime-and-infrastructure/
 | Letta | [services/agent-runtime-and-infrastructure/letta.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/letta.md) |
 | Modal | [services/agent-runtime-and-infrastructure/modal.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/modal.md) |
 | Multica | [services/agent-runtime-and-infrastructure/multica.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/multica.md) |
+| Polos | [services/agent-runtime-and-infrastructure/polos.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/polos.md) |
 | Scrapybara | [services/agent-runtime-and-infrastructure/scrapybara.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/scrapybara.md) |
 | Serena | [services/agent-runtime-and-infrastructure/serena.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/serena.md) |
 | Vertex AI Agent Engine | [services/agent-runtime-and-infrastructure/vertex-ai-agent-engine.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/vertex-ai-agent-engine.md) |

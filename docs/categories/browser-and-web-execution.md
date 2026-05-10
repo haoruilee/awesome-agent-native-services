@@ -15,8 +15,8 @@ permalink: /categories/browser-and-web-execution/
 | Apify | [services/browser-and-web-execution/apify.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/apify.md) |
 | bb-browser | [services/browser-and-web-execution/bb-browser.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/bb-browser.md) |
 | Bright Data Agent Browser | [services/browser-and-web-execution/bright-data-agent-browser.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/bright-data-agent-browser.md) |
-| Browser Use Cloud | [services/browser-and-web-execution/browser-use-cloud.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/browser-use-cloud.md) |
 | Browserbase | [services/browser-and-web-execution/browserbase.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/browserbase.md) |
+| Browser Use Cloud | [services/browser-and-web-execution/browser-use-cloud.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/browser-use-cloud.md) |
 | Cloudflare Browser Rendering | [services/browser-and-web-execution/cloudflare-browser-rendering.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/cloudflare-browser-rendering.md) |
 | Crawl4AI | [services/browser-and-web-execution/crawl4ai.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/crawl4ai.md) |
 | Firecrawl | [services/browser-and-web-execution/firecrawl.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/firecrawl.md) |
@@ -28,3 +28,4 @@ permalink: /categories/browser-and-web-execution/
 | Playwright MCP | [services/browser-and-web-execution/playwright-mcp.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/playwright-mcp.md) |
 | Skyvern | [services/browser-and-web-execution/skyvern.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/skyvern.md) |
 | Steel | [services/browser-and-web-execution/steel.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/steel.md) |
+| Vessel Browser | [services/browser-and-web-execution/vessel-browser.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/vessel-browser.md) |

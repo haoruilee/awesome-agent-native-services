@@ -19,6 +19,7 @@ Human communication infrastructure (Gmail, Outlook, Slack) was built around the 
 | [Agents Mail](agents-mail.md) | Email for AI Agents | REST API, URL Onboarding (`skill.md`), `.well-known/agent.json` discovery | ⚠️ |
 | [MCP Agent Mail](mcp-agent-mail.md) | Async coordination layer for AI coding agents | MCP tools/resources, FastMCP, Git + SQLite | ✅ |
 | [MCP Agent Mail (Rust)](mcp-agent-mail-rust.md) | "Gmail for coding agents" with high-performance MCP runtime | MCP tools/resources, local HTTP runtime, TUI + robot CLI | ✅ |
+| [AgenticMail](agenticmail.md) [![⭐](https://img.shields.io/github/stars/agenticmail/agenticmail?style=social)](https://github.com/agenticmail/agenticmail) | Email & SMS infrastructure for AI agents | REST API (75+ endpoints), self-hosted Stalwart + Google Voice bridge, Webhooks | ⚠️ |
 
 ---
 

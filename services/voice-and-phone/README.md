@@ -20,6 +20,7 @@ No consumer VOIP or call center platform was designed with these requirements as
 | [Vapi](vapi.md) | Build advanced voice AI agents | REST API, Web SDK, Python SDK, TypeScript SDK, Webhooks | ✅ |
 | [Retell AI](retell-ai.md) | #1 AI voice agent platform for automating calls | REST API, Python SDK, TypeScript SDK, Webhooks, SIP | ✅ |
 | [LiveKit Agents](livekit-agents.md) [![⭐](https://img.shields.io/github/stars/livekit/agents?style=social)](https://github.com/livekit/agents) | Build, run, and observe realtime voice/video AI agents | Python/TS Agents SDK, WebRTC, SIP, LiveKit Cloud | ❌ |
+| [Stimm](stimm.md) [![⭐](https://img.shields.io/github/stars/stimm-ai/stimm?style=social)](https://github.com/stimm-ai/stimm) | Open-source voice agent platform — dual-agent + optimistic VUI over WebRTC | WebRTC, orchestrator API, BYO STT/LLM/TTS adapters | ⚠️ |
 
 ---
 

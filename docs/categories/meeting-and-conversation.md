@@ -13,3 +13,4 @@ permalink: /categories/meeting-and-conversation/
 | Meeting BaaS | [services/meeting-and-conversation/meeting-baas.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/meeting-baas.md) |
 | MeetStream | [services/meeting-and-conversation/meetstream.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/meetstream.md) |
 | Recall.ai | [services/meeting-and-conversation/recall-ai.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/recall-ai.md) |
+| Vexa | [services/meeting-and-conversation/vexa.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/vexa.md) |
