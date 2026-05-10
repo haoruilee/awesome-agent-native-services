@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 # Generate docs/index.md from README.md, plus category landing pages for SEO/internal links.
 set -euo pipefail
+
+# Force C locale so glob expansion sorts identically across machines
+# (CI ubuntu-latest is C; en_US.UTF-8 collates differently around '-' / '.').
+export LC_ALL=C
+
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DOCS="$ROOT/docs"
 README="$ROOT/README.md"
