@@ -65,12 +65,12 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 6 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 20 | Execution, session isolation, secrets, and gateway |
 | 7 | [Memory & State](#7-memory--state-services) | 11 | Persistent agent memory across sessions |
-| 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 5 | LLM-optimized web search and content retrieval |
+| 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 6 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 7 | Secure sandboxes for AI-generated code |
-| 10 | [Observability & Tracing](#10-observability--tracing-services) | 6 | Agent trajectory tracing and evaluation |
+| 10 | [Observability & Tracing](#10-observability--tracing-services) | 7 | Agent trajectory tracing and evaluation |
 | 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
-| 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 4 | Agent presence in voice and video meetings |
-| 13 | [Voice & Phone](#13-voice--phone-services) | 4 | Agent-controlled voice calls and phone infrastructure |
+| 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 5 | Agent presence in voice and video meetings |
+| 13 | [Voice & Phone](#13-voice--phone-services) | 5 | Agent-controlled voice calls and phone infrastructure |
 | 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 7 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 15 | [Agent Social & Community](#15-agent-social--community-services) | 5 | Social networks where agents are first-class participants |
 
@@ -252,6 +252,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Parallel](services/search-and-web-intelligence/parallel.md) [![⭐](https://img.shields.io/github/stars/parallel-web/search-mcp?style=social)](https://github.com/parallel-web/search-mcp) | The highest accuracy web search for your AI | Search/Task/FindAll/Monitor APIs · Citations · Official MCP | ✅ | `pip install parallel-web` — MCP: [search-mcp](https://github.com/parallel-web/search-mcp) · [task-mcp](https://github.com/parallel-web/task-mcp) |
 | [Jina Reader](services/search-and-web-intelligence/jina-reader.md) [![⭐](https://img.shields.io/github/stars/jina-ai/reader?style=social)](https://github.com/jina-ai/reader) | URL and SERP as LLM-friendly text | `r.jina.ai` · `s.jina.ai` · MCP · PDF/images | ✅ | `curl "https://r.jina.ai/https://example.com"` — MCP: `mcp.jina.ai` |
 | [NotHumanSearch](services/search-and-web-intelligence/nothumansearch.md) | Agent-first search — the index of services designed for AI, not humans | `agentic_score` rank · `check_agent_readiness` · `verify_mcp` JSON-RPC probe · URL Onboarding | ✅ | Read https://nothumansearch.ai/llms.txt and follow the instructions — MCP: `https://nothumansearch.ai/mcp` |
+| [Linkup](services/search-and-web-intelligence/linkup.md) [![⭐](https://img.shields.io/github/stars/LinkupPlatform/python-sdk?style=social)](https://github.com/LinkupPlatform/python-sdk) | Search API for AI agents and LLM apps | LLM-oriented search · Structured retrieval · Citation-ready outputs | ⚠️ | API key via docs.linkup.so then call search endpoints via SDK/REST |
 
 ---
 

@@ -17,3 +17,4 @@ permalink: /categories/observability-and-tracing/
 | Laminar | [services/observability-and-tracing/laminar.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/laminar.md) |
 | Langfuse | [services/observability-and-tracing/langfuse.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/langfuse.md) |
 | LangWatch | [services/observability-and-tracing/langwatch.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/langwatch.md) |
+| OpenLIT | [services/observability-and-tracing/openlit.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/openlit.md) |
