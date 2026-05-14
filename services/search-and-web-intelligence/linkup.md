@@ -17,21 +17,42 @@ https://www.linkup.so
 ## Official Repo
 https://github.com/LinkupPlatform/python-sdk
 
+## How to Use (Agent Onboarding)
+Create API credentials, call search endpoints from SDK/REST, and feed structured responses into the agent planning loop.
+
+## Agent Skills
+**Status:** ⚠️ No official AgentSkills package found.
+
+## MCP
+**Status:** ⚠️ No standalone official MCP server package.
+
 ## What It Does
-Linkup offers LLM-oriented web search and structured retrieval outputs suitable for agent planning and citation workflows.
+Provides LLM-oriented web search and structured retrieval suitable for citations and downstream agent reasoning.
 
 ## Why It Is Agent-Native
-- Search output optimized for LLM context usage.
-- Structured machine-readable responses.
-- API-first integration for autonomous loops.
+Search output is optimized for machine consumption and context-window efficiency.
 
 ## Primary Primitives
-- Web search
-- Structured result extraction
+- Web search API
+- Structured retrieval outputs
 - Citation-ready sources
 
+## Autonomy Model
+Agents query and iterate automatically without human SERP interaction.
+
+## Identity and Delegation Model
+API keys scope tenant/agent usage and support auditable request attribution.
+
 ## Protocol Surface
-REST API and SDKs.
+REST API + Python SDK.
+
+## Human-in-the-Loop Support
+Humans can review citation chains and override decisions when needed.
 
 ## Why Generic Alternatives Do Not Qualify
-Human SERP products prioritize click UX rather than compact, structured outputs for agent pipelines.
+Human SERP interfaces optimize for clicks, not compact structured responses for autonomous loops.
+
+## Use Cases
+- Research agents
+- Fact-check assistants
+- Citation-aware report generation

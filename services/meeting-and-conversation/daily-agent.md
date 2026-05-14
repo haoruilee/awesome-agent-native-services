@@ -17,22 +17,42 @@ https://www.daily.co
 ## Official Repo
 https://github.com/daily-co/daily-python
 
+## How to Use (Agent Onboarding)
+Create a Daily room via API, then run an agent bot process that joins the room and handles meeting events programmatically.
+
+## Agent Skills
+**Status:** ⚠️ No official AgentSkills package found.
+
+## MCP
+**Status:** ⚠️ No standalone official MCP server package.
+
 ## What It Does
-Daily tooling lets agents join video/voice rooms programmatically, process live media streams, and run conversational workflows in meetings.
+Lets agents join live meetings, process media streams, and execute conversational workflows in real time.
 
 ## Why It Is Agent-Native
-- Agents can join/leave/control rooms via API.
-- Machine-to-machine media event handling.
-- Built for autonomous meeting participants.
+Provides machine-driven room lifecycle + realtime event hooks that autonomous agents consume directly.
 
 ## Primary Primitives
-- Room join/leave controls
-- Media stream hooks
-- Realtime event webhooks
-- Bot orchestration
+- Programmatic room join/leave
+- Media stream callbacks
+- Realtime meeting events
+
+## Autonomy Model
+Agent workers can run headlessly and participate in meetings without manual UI operations.
+
+## Identity and Delegation Model
+Bot identity is separated from human participants; room/API credentials scope agent permissions.
 
 ## Protocol Surface
 REST APIs, Python SDK, WebRTC transports, webhooks.
 
+## Human-in-the-Loop Support
+Humans can join the same room and supervise/escalate when needed.
+
 ## Why Generic Alternatives Do Not Qualify
-Human meeting apps without programmatic room control and media hooks cannot serve autonomous meeting agents.
+Human-only meeting apps lack API-first bot lifecycle controls for autonomous operation.
+
+## Use Cases
+- AI meeting assistants
+- Automated note-taking and summaries
+- Real-time call QA and routing
