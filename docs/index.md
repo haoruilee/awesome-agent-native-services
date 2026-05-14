@@ -70,12 +70,12 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 6 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 20 | Execution, session isolation, secrets, and gateway |
 | 7 | [Memory & State](#7-memory--state-services) | 11 | Persistent agent memory across sessions |
-| 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 5 | LLM-optimized web search and content retrieval |
+| 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 6 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 7 | Secure sandboxes for AI-generated code |
-| 10 | [Observability & Tracing](#10-observability--tracing-services) | 6 | Agent trajectory tracing and evaluation |
+| 10 | [Observability & Tracing](#10-observability--tracing-services) | 7 | Agent trajectory tracing and evaluation |
 | 11 | [Durable Execution & Scheduling](#11-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
-| 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 4 | Agent presence in voice and video meetings |
-| 13 | [Voice & Phone](#13-voice--phone-services) | 4 | Agent-controlled voice calls and phone infrastructure |
+| 12 | [Meeting & Conversation](#12-meeting--conversation-services) | 5 | Agent presence in voice and video meetings |
+| 13 | [Voice & Phone](#13-voice--phone-services) | 5 | Agent-controlled voice calls and phone infrastructure |
 | 14 | [LLM Gateway & Routing](#14-llm-gateway--routing-services) | 7 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 15 | [Agent Social & Community](#15-agent-social--community-services) | 5 | Social networks where agents are first-class participants |
 
@@ -257,6 +257,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Parallel](services/search-and-web-intelligence/parallel.md) [![⭐](https://img.shields.io/github/stars/parallel-web/search-mcp?style=social)](https://github.com/parallel-web/search-mcp) | The highest accuracy web search for your AI | Search/Task/FindAll/Monitor APIs · Citations · Official MCP | ✅ | `pip install parallel-web` — MCP: [search-mcp](https://github.com/parallel-web/search-mcp) · [task-mcp](https://github.com/parallel-web/task-mcp) |
 | [Jina Reader](services/search-and-web-intelligence/jina-reader.md) [![⭐](https://img.shields.io/github/stars/jina-ai/reader?style=social)](https://github.com/jina-ai/reader) | URL and SERP as LLM-friendly text | `r.jina.ai` · `s.jina.ai` · MCP · PDF/images | ✅ | `curl "https://r.jina.ai/https://example.com"` — MCP: `mcp.jina.ai` |
 | [NotHumanSearch](services/search-and-web-intelligence/nothumansearch.md) | Agent-first search — the index of services designed for AI, not humans | `agentic_score` rank · `check_agent_readiness` · `verify_mcp` JSON-RPC probe · URL Onboarding | ✅ | Read https://nothumansearch.ai/llms.txt and follow the instructions — MCP: `https://nothumansearch.ai/mcp` |
+| [Linkup](services/search-and-web-intelligence/linkup.md) [![⭐](https://img.shields.io/github/stars/LinkupPlatform/python-sdk?style=social)](https://github.com/LinkupPlatform/python-sdk) | Search API for AI agents and LLM apps | LLM-oriented search · Structured retrieval · Citation-ready outputs | ⚠️ | API key via docs.linkup.so then call search endpoints via SDK/REST |
 
 ---
 
@@ -292,6 +293,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Braintrust](services/observability-and-tracing/braintrust.md) [![⭐](https://img.shields.io/github/stars/braintrustdata/autoevals?style=social)](https://github.com/braintrustdata/autoevals) | AI observability & evals — traces, datasets, OpenAI Agents | Trace processors · Eval experiments · Trace→dataset · IDE MCP | ✅ | `pip install "braintrust[openai-agents]"` — MCP: [Braintrust MCP](https://www.braintrust.dev/docs/integrations/developer-tools/mcp) |
 | [Galileo](services/observability-and-tracing/galileo.md) | Agent reliability platform — observability, evals, and IDE MCP | Signals (root-cause insights) · synthetic datasets · experiments · MCP tools | ✅ | Add MCP URL `https://api.galileo.ai/mcp/http/mcp` with `Galileo-API-Key` header — [setup docs](https://docs.galileo.ai/getting-started/mcp/setup-galileo-mcp) |
 | [Laminar](services/observability-and-tracing/laminar.md) [![⭐](https://img.shields.io/github/stars/lmnr-ai/lmnr?style=social)](https://github.com/lmnr-ai/lmnr) | Open-source observability for long-running agents | Agent debugger (rerun at step N) · Browser session replay · Signals · SQL over traces · Apache 2.0 self-host | ⚠️ | `pip install lmnr` then `Laminar.initialize()` — self-host: `git clone https://github.com/lmnr-ai/lmnr && docker compose up -d` |
+| [OpenLIT](services/observability-and-tracing/openlit.md) [![⭐](https://img.shields.io/github/stars/openlit/openlit?style=social)](https://github.com/openlit/openlit) | OpenTelemetry-native observability for LLMs and AI agents | Agent traces · Tool-call spans · Cost/token analytics | ✅ | `pip install openlit` then configure OpenTelemetry export |
 
 ---
 
@@ -324,6 +326,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Meeting BaaS](services/meeting-and-conversation/meeting-baas.md) | Meeting bots as a service — Zoom, Meet, Teams | Bot lifecycle · Webhook transcripts · Optional bidirectional audio stream · meeting-mcp | ✅ | `POST https://api.meetingbaas.com/bots` with `x-meeting-baas-api-key` — [docs](https://docs.meetingbaas.com/docs/api/getting-started/sending-a-bot) |
 | [MeetStream](services/meeting-and-conversation/meetstream.md) | Unified meeting-bot API for Zoom, Meet, Teams | Real-time diarized webhooks · WebSocket A/V · In-meeting chat/TTS · Calendar auto-dispatch | ⚠️ | `POST https://api.meetstream.ai/api/v1/bots/create_bot` with `Authorization: Token <key>` — [Create Bot](https://docs.meetstream.ai/api-reference/ap-is/bot-endpoints/create-bot.mdx) |
 | [Vexa](services/meeting-and-conversation/vexa.md) [![⭐](https://img.shields.io/github/stars/Vexa-ai/vexa?style=social)](https://github.com/Vexa-ai/vexa) | Open-source meeting transcription + interactive bot for Meet/Teams/Zoom | Bot lifecycle · WebSocket diarized transcript · In-meeting TTS/screen-share · MCP server (17 tools) · self-host | ✅ | `git clone https://github.com/Vexa-ai/vexa && docker compose up -d` — or hosted at [vexa.ai](https://vexa.ai) |
+| [Daily Agent Toolkit](services/meeting-and-conversation/daily-agent.md) [![⭐](https://img.shields.io/github/stars/daily-co/daily-python?style=social)](https://github.com/daily-co/daily-python) | Build realtime meeting agents on Daily | Programmatic room control · Media stream hooks · Bot orchestration | ⚠️ | `pip install daily-python` then integrate room/bot lifecycle APIs |
 
 ---
 
@@ -339,6 +342,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | [Retell AI](services/voice-and-phone/retell-ai.md) [![⭐](https://img.shields.io/github/stars/RetellAI/retell-python-sdk?style=social)](https://github.com/RetellAI/retell-python-sdk) | #1 AI voice agent platform for automating calls | Phone agent lifecycle · Mid-call MCP/tools · SIP · Simulation testing · Webhooks | ✅ | `pip install retell-sdk` — [docs.retellai.com](https://docs.retellai.com) |
 | [LiveKit Agents](services/voice-and-phone/livekit-agents.md) [![⭐](https://img.shields.io/github/stars/livekit/agents?style=social)](https://github.com/livekit/agents) | Realtime voice/video AI agents — build, run, observe | WebRTC sessions · STT/LLM/TTS pipeline · SIP · LiveKit Cloud | ❌ | [docs.livekit.io/agents](https://docs.livekit.io/agents/) — Python/TS Agents SDK |
 | [Stimm](services/voice-and-phone/stimm.md) [![⭐](https://img.shields.io/github/stars/stimm-ai/stimm?style=social)](https://github.com/stimm-ai/stimm) | Open-source voice agent platform — ultra-low latency over WebRTC | Dual-agent (fast + slow) · Optimistic VUI · BYO STT/LLM/TTS · WebRTC media plane | ⚠️ | `git clone https://github.com/stimm-ai/stimm` then follow README to wire providers |
+| [Pipecat](services/voice-and-phone/pipecat.md) [![⭐](https://img.shields.io/github/stars/pipecat-ai/pipecat?style=social)](https://github.com/pipecat-ai/pipecat) | Open-source framework for real-time voice AI agents | Realtime voice pipeline · In-call tool invocation · WebRTC/SIP adapters | ⚠️ | `pip install pipecat-ai` then compose STT/LLM/TTS + transport pipeline |
 
 ---
 

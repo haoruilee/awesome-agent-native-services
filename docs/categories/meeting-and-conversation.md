@@ -10,6 +10,7 @@ permalink: /categories/meeting-and-conversation/
 
 | Service | Catalog Entry |
 |---|---|
+| Daily Agent Toolkit | [services/meeting-and-conversation/daily-agent.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/daily-agent.md) |
 | Meeting BaaS | [services/meeting-and-conversation/meeting-baas.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/meeting-baas.md) |
 | MeetStream | [services/meeting-and-conversation/meetstream.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/meetstream.md) |
 | Recall.ai | [services/meeting-and-conversation/recall-ai.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/recall-ai.md) |
