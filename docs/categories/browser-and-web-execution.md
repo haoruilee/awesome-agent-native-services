@@ -29,3 +29,4 @@ permalink: /categories/browser-and-web-execution/
 | Skyvern | [services/browser-and-web-execution/skyvern.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/skyvern.md) |
 | Steel | [services/browser-and-web-execution/steel.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/steel.md) |
 | Vessel Browser | [services/browser-and-web-execution/vessel-browser.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/vessel-browser.md) |
+| Weekly Impact Update (2026-05-11 → 2026-05-18) | [services/browser-and-web-execution/weekly-impact-2026-05-18.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/weekly-impact-2026-05-18.md) |

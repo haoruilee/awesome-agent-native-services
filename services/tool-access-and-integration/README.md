@@ -31,6 +31,15 @@ Agent-native tool access services solve all three problems with primitives that 
 | [Obot](obot.md) [![⭐](https://img.shields.io/github/stars/obot-platform/obot?style=social)](https://github.com/obot-platform/obot) | Complete MCP Platform — Hosting, Registry, Gateway, Chat Client | MCP (Streamable HTTP), REST admin API, OAuth 2.1, Helm chart | ✅ |
 
 
+
+
+## Weekly Impact Update (2026-05-11 → 2026-05-18)
+
+- 详见独立周报文档：[weekly-impact-2026-05-18.md](weekly-impact-2026-05-18.md)
+
+- **ClawHub**: 技能市场/分发层讨论热度较高，适合作为 Agent 工具发现与安装入口。
+- **GitHub MCP Server**: 作为官方生态入口之一，围绕仓库、Issue、PR、Actions 的 agent workflow 讨论持续增长。
+
 ---
 
 ## Criteria Reminder

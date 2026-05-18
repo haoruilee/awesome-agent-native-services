@@ -31,6 +31,15 @@ Agent-native observability services capture **agent trajectory** — the semanti
 | [Galileo](galileo.md) | Agent reliability platform — observability, evals, and IDE MCP loop | Tracing + evals + Signals, MCP HTTP endpoint, Python/TS SDKs | ✅ |
 | [Laminar](laminar.md) [![⭐](https://img.shields.io/github/stars/lmnr-ai/lmnr?style=social)](https://github.com/lmnr-ai/lmnr) | Open-source observability for long-running agents — agent debugger, browser session replay, Signals | OTLP, Python/TS SDK, SQL API, Evals SDK, self-host | ⚠️ |
 
+
+
+## Weekly Impact Update (2026-05-11 → 2026-05-18)
+
+- 详见独立周报文档：[weekly-impact-2026-05-18.md](weekly-impact-2026-05-18.md)
+
+- **LangWatch**: 开源 LLM/Agent 可观测性话题热度持续，适合作为 trace + eval 统一入口。
+- **AgentEvals**: 基于 OpenTelemetry trace 的“无需重跑评估”范式在本周讨论中较受关注。
+
 ---
 
 ## Criteria Reminder

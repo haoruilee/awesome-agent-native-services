@@ -36,6 +36,15 @@ Agent-native memory services solve this by providing:
 | [MemMachine](memmachine.md) [![⭐](https://img.shields.io/github/stars/MemMachine/MemMachine?style=social)](https://github.com/MemMachine/MemMachine) | Universal memory layer — episodic graph + profile SQL + working memory | Python SDK, LangChain/CrewAI adapters, REST API | ⚠️ |
 | [Cognee](cognee.md) [![⭐](https://img.shields.io/github/stars/topoteretes/cognee?style=social)](https://github.com/topoteretes/cognee) | Memory control plane for AI agents — managed world model with auto ontology | Python SDK, 28+ connectors, MCP server, framework adapters | ✅ |
 
+
+
+## Weekly Impact Update (2026-05-11 → 2026-05-18)
+
+- 详见独立周报文档：[weekly-impact-2026-05-18.md](weekly-impact-2026-05-18.md)
+
+- **Cognee**: 在“memory control plane + world model”方向保持高关注，适合需要结构化长期记忆的代理应用。
+- **MemMachine**: 围绕 episodic graph + profile memory 的实践讨论增多，适合需要多层记忆策略的复杂代理。
+
 ---
 
 ## Criteria Reminder
