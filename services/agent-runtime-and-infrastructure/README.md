@@ -29,6 +29,7 @@ The services in this category were purpose-built to fill this gap.
 | [Vertex AI Agent Engine](vertex-ai-agent-engine.md) | Deploy, manage, and scale AI agents in production (Google Cloud) | Vertex AI SDK, REST, OpenTelemetry, A2A | ⚠️ |
 | [Claude Managed Agents](claude-managed-agents.md) | Managed agents, sessions, environments — direct Claude API | REST (`api.anthropic.com`), official SDKs (beta endpoints) | ⚠️ |
 | [Infisical Agent Sentinel](infisical-agent-sentinel.md) | Secrets and credential governance for AI agents | Daemon sidecar, REST API | ✅ |
+| [APort Agent Guardrails](aport-agent-guardrails.md) | Pre-action authorization guardrails for AI agents before tool execution | CLI, npm, PyPI, OAP policy files, framework hooks | ❌ |
 | [Letta](letta.md) | The fastest way to bring stateful agents to production | REST API, Python SDK, TypeScript SDK, MCP | ✅ |
 | [Aembit](aembit.md) | Secretless workload identity and access management for AI agents | Multi-protocol: MCP, OIDC, OAuth2, SSH, API keys | ✅ |
 | [db9](db9.md) | Postgres but for agents | CLI, REST API, PostgreSQL wire, TypeScript SDK | ⚠️ |
