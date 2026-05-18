@@ -20,3 +20,4 @@ permalink: /categories/communication/
 | MCP Agent Mail | [services/communication/mcp-agent-mail.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/mcp-agent-mail.md) |
 | Novu | [services/communication/novu.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/novu.md) |
 | OpenMail | [services/communication/openmail.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/openmail.md) |
+| Weekly Impact Update (2026-05-11 → 2026-05-18) | [services/communication/weekly-impact-2026-05-18.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/weekly-impact-2026-05-18.md) |

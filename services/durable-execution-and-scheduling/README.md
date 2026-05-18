@@ -27,6 +27,15 @@ Durable execution for agents requires:
 | [MCP-Cloud (mcp-agent)](mcp-cloud-mcp-agent.md) [![⭐](https://img.shields.io/github/stars/lastmile-ai/mcp-agent?style=social)](https://github.com/lastmile-ai/mcp-agent) | Host mcp-agents on cloud — Temporal-backed durable MCP servers | `uvx mcp-agent` CLI, HTTPS MCP endpoint, secrets, observability | ✅ |
 | [Inferable](inferable.md) [![⭐](https://img.shields.io/github/stars/inferablehq/inferable?style=social)](https://github.com/inferablehq/inferable) | Reliable AI workflows — humans in the loop, structured outputs, durable execution | TypeScript SDK, Python SDK, REST API, Slack/email HITL | ⚠️ |
 
+
+
+## Weekly Impact Update (2026-05-11 → 2026-05-18)
+
+- 详见独立周报文档：[weekly-impact-2026-05-18.md](weekly-impact-2026-05-18.md)
+
+- **Inferable**: 在“durable execution + HITL + structured outputs”方向讨论升温，适合生产级 agent workflow。
+- **MCP-Cloud (mcp-agent)**: Temporal-backed durable MCP server 架构持续受到关注，适合长周期任务与失败恢复场景。
+
 ---
 
 ## Criteria Reminder

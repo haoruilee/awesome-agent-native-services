@@ -21,6 +21,15 @@ Human communication infrastructure (Gmail, Outlook, Slack) was built around the 
 | [MCP Agent Mail (Rust)](mcp-agent-mail-rust.md) | "Gmail for coding agents" with high-performance MCP runtime | MCP tools/resources, local HTTP runtime, TUI + robot CLI | ✅ |
 | [AgenticMail](agenticmail.md) [![⭐](https://img.shields.io/github/stars/agenticmail/agenticmail?style=social)](https://github.com/agenticmail/agenticmail) | Email & SMS infrastructure for AI agents | REST API (75+ endpoints), self-hosted Stalwart + Google Voice bridge, Webhooks | ⚠️ |
 
+
+
+## Weekly Impact Update (2026-05-11 → 2026-05-18)
+
+- 详见独立周报文档：[weekly-impact-2026-05-18.md](weekly-impact-2026-05-18.md)
+
+- **AgenticMail**: 社区关注度持续上升，作为“Email + SMS for agents”双通道基础设施，适合作为本周 Communication 方向重点跟踪项目。
+- **MCP Agent Mail (Rust)**: 在编码代理协作场景讨论热度较高，凭借完整的 MCP tools/resources + 本地 CLI 形态，适合多代理异步协调。
+
 ---
 
 ## Criteria Reminder

@@ -16,3 +16,4 @@ permalink: /categories/durable-execution-and-scheduling/
 | MCP-Cloud (mcp-agent) | [services/durable-execution-and-scheduling/mcp-cloud-mcp-agent.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/mcp-cloud-mcp-agent.md) |
 | Restate | [services/durable-execution-and-scheduling/restate.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/restate.md) |
 | Trigger.dev | [services/durable-execution-and-scheduling/trigger-dev.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/trigger-dev.md) |
+| Weekly Impact Update (2026-05-11 → 2026-05-18) | [services/durable-execution-and-scheduling/weekly-impact-2026-05-18.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/weekly-impact-2026-05-18.md) |
