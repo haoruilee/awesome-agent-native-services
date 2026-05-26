@@ -29,13 +29,6 @@ Durable execution for agents requires:
 
 
 
-## Weekly Impact Update (2026-05-11 → 2026-05-18)
-
-- 详见独立周报文档：[weekly-impact-2026-05-18.md](weekly-impact-2026-05-18.md)
-
-- **Inferable**: 在“durable execution + HITL + structured outputs”方向讨论升温，适合生产级 agent workflow。
-- **MCP-Cloud (mcp-agent)**: Temporal-backed durable MCP server 架构持续受到关注，适合长周期任务与失败恢复场景。
-
 ---
 
 ## Criteria Reminder

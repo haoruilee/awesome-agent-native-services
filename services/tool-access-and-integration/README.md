@@ -33,13 +33,6 @@ Agent-native tool access services solve all three problems with primitives that 
 
 
 
-## Weekly Impact Update (2026-05-11 → 2026-05-18)
-
-- 详见独立周报文档：[weekly-impact-2026-05-18.md](weekly-impact-2026-05-18.md)
-
-- **ClawHub**: 技能市场/分发层讨论热度较高，适合作为 Agent 工具发现与安装入口。
-- **GitHub MCP Server**: 作为官方生态入口之一，围绕仓库、Issue、PR、Actions 的 agent workflow 讨论持续增长。
-
 ---
 
 ## Criteria Reminder

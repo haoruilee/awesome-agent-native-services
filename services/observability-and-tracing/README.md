@@ -33,13 +33,6 @@ Agent-native observability services capture **agent trajectory** — the semanti
 
 
 
-## Weekly Impact Update (2026-05-11 → 2026-05-18)
-
-- 详见独立周报文档：[weekly-impact-2026-05-18.md](weekly-impact-2026-05-18.md)
-
-- **LangWatch**: 开源 LLM/Agent 可观测性话题热度持续，适合作为 trace + eval 统一入口。
-- **AgentEvals**: 基于 OpenTelemetry trace 的“无需重跑评估”范式在本周讨论中较受关注。
-
 ---
 
 ## Criteria Reminder

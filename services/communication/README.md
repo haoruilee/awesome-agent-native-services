@@ -23,13 +23,6 @@ Human communication infrastructure (Gmail, Outlook, Slack) was built around the 
 
 
 
-## Weekly Impact Update (2026-05-11 → 2026-05-18)
-
-- 详见独立周报文档：[weekly-impact-2026-05-18.md](weekly-impact-2026-05-18.md)
-
-- **AgenticMail**: 社区关注度持续上升，作为“Email + SMS for agents”双通道基础设施，适合作为本周 Communication 方向重点跟踪项目。
-- **MCP Agent Mail (Rust)**: 在编码代理协作场景讨论热度较高，凭借完整的 MCP tools/resources + 本地 CLI 形态，适合多代理异步协调。
-
 ---
 
 ## Criteria Reminder

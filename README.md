@@ -8,6 +8,8 @@ Each service in this list is an independent entity in the agent world: something
 
 ---
 
+---
+
 ## Table of contents
 
 - [Browse by category](#categories)
@@ -62,8 +64,8 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 19 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 11 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 1 | Human-in-the-loop approval and escalation |
-| 5 | [Commerce & Payments](#5-commerce--payment-services) | 6 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 21 | Execution, session isolation, secrets, and gateway |
+| 5 | [Commerce & Payments](#5-commerce--payment-services) | 7 | Agent-native wallets, identity, and transactions |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 22 | Execution, session isolation, secrets, and gateway |
 | 7 | [Memory & State](#7-memory--state-services) | 11 | Persistent agent memory across sessions |
 | 8 | [Search & Web Intelligence](#8-search--web-intelligence-services) | 6 | LLM-optimized web search and content retrieval |
 | 9 | [Code Execution](#9-code-execution-services) | 7 | Secure sandboxes for AI-generated code |
@@ -191,6 +193,7 @@ Source files are in `.skills/` in this repo. ClawHub CLI options (including the 
 
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
+| [agentOS by Fiserv](services/agent-runtime-and-infrastructure/fiserv-agentos.md) | Governed operating layer for deploying AI agents in banking | Governance guardrails · Audit trail · HITL controls · Agent marketplace | ⚠️ | Start at https://www.fiserv.com/en/lp/agentos-by-fiserv.html |
 | [ATXP](services/agent-runtime-and-infrastructure/atxp.md) [![⭐](https://img.shields.io/github/stars/atxp-dev/atxp?style=social)](https://github.com/atxp-dev/atxp) | Wallet + paid MCP runtime layer for AI agents | Agent wallet · Paid MCP tool invocation · Per-call pricing/authorization | ✅ | [docs.atxp.dev](https://docs.atxp.dev) — CLI / SDK / MCP-compatible endpoints |
 | [Claude Peers](services/agent-runtime-and-infrastructure/claude-peers.md) [![⭐](https://img.shields.io/github/stars/louislva/claude-peers-mcp?style=social)](https://github.com/louislva/claude-peers-mcp) | Claude Code sessions discover peers and message each other locally | Peer discovery · Ad-hoc messaging · Channel push · Repo/directory scope | ✅ | Clone repo → `bun install` → `claude mcp add` per [README](https://github.com/louislva/claude-peers-mcp/blob/main/README.md) |
 | [acpx](services/agent-runtime-and-infrastructure/acpx.md) [![⭐](https://img.shields.io/github/stars/openclaw/acpx?style=social)](https://github.com/openclaw/acpx) | Headless ACP CLI — agents talk to coding agents over structured protocol | Persistent sessions · Prompt queueing · Cooperative cancel · Structured output | N/A | `npm install -g acpx` then `acpx codex "fix the tests"` |

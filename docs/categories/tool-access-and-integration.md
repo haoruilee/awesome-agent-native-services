@@ -23,4 +23,3 @@ permalink: /categories/tool-access-and-integration/
 | Smithery | [services/tool-access-and-integration/smithery.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/smithery.md) |
 | ToolHive | [services/tool-access-and-integration/toolhive.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolhive.md) |
 | Toolhouse | [services/tool-access-and-integration/toolhouse.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolhouse.md) |
-| Weekly Impact Update (2026-05-11 → 2026-05-18) | [services/tool-access-and-integration/weekly-impact-2026-05-18.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/weekly-impact-2026-05-18.md) |

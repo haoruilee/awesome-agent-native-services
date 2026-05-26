@@ -23,6 +23,7 @@ No consumer VOIP or call center platform was designed with these requirements as
 | [Stimm](stimm.md) [![⭐](https://img.shields.io/github/stars/stimm-ai/stimm?style=social)](https://github.com/stimm-ai/stimm) | Open-source voice agent platform — dual-agent + optimistic VUI over WebRTC | WebRTC, orchestrator API, BYO STT/LLM/TTS adapters | ⚠️ |
 | [Pipecat](pipecat.md) [![⭐](https://img.shields.io/github/stars/pipecat-ai/pipecat?style=social)](https://github.com/pipecat-ai/pipecat) | Open-source framework for real-time voice AI agents | Realtime voice pipeline, in-call tool invocation, WebRTC/SIP adapters | ⚠️ |
 
+
 ---
 
 ## Criteria Reminder

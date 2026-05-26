@@ -19,6 +19,7 @@ No general-purpose approval workflow (Jira tickets, email threads, ServiceNow) w
 |---|---|---|---|
 | [HumanLayer](humanlayer.md) | Human in the Loop for AI Agents | Python SDK, TypeScript SDK, REST API, Webhooks | ✅ |
 
+
 ---
 
 ## Criteria Reminder

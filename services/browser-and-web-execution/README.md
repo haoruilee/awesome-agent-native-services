@@ -37,13 +37,6 @@ The web was designed for humans sitting in front of browsers. AI agents that nee
 
 
 
-## Weekly Impact Update (2026-05-11 → 2026-05-18)
-
-- 详见独立周报文档：[weekly-impact-2026-05-18.md](weekly-impact-2026-05-18.md)
-
-- **Crawl4AI**: 维持高 star 与高讨论度，开源可自托管、MCP 友好的网页抓取能力继续成为 Agent Web Data 默认选项之一。
-- **Browser Use Cloud**: 在“托管浏览器 + 反检测 + 会话化执行”方向持续活跃，适合需要稳定大规模网页操作的代理系统。
-
 ---
 
 ## Criteria Reminder
