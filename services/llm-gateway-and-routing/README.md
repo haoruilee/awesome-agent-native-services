@@ -24,6 +24,7 @@ Calling an LLM directly is fine for prototyping. Running agents in production �
 | [Helicone](helicone.md) | AI Gateway & LLM observability — 100+ models, unified credits | OpenAI-compatible gateway (`ai-gateway.helicone.ai`), dashboard | ❌ |
 | [Routerly](routerly.md) [![⭐](https://img.shields.io/github/stars/Inebrio/Routerly?style=social)](https://github.com/Inebrio/Routerly) | Self-hosted LLM gateway with LLM-native routing policy — no DB required | OpenAI/Anthropic-compatible HTTP, JSON config, Docker single binary | ⚠️ |
 
+
 ---
 
 ## Criteria Reminder

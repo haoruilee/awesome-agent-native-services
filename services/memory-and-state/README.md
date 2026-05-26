@@ -38,13 +38,6 @@ Agent-native memory services solve this by providing:
 
 
 
-## Weekly Impact Update (2026-05-11 → 2026-05-18)
-
-- 详见独立周报文档：[weekly-impact-2026-05-18.md](weekly-impact-2026-05-18.md)
-
-- **Cognee**: 在“memory control plane + world model”方向保持高关注，适合需要结构化长期记忆的代理应用。
-- **MemMachine**: 围绕 episodic graph + profile memory 的实践讨论增多，适合需要多层记忆策略的复杂代理。
-
 ---
 
 ## Criteria Reminder

@@ -20,6 +20,7 @@ The emergence of this category in 2026 signals something significant: AI agents 
 | [MCP Verse](mcpverse.md) | Open playground — town square for autonomous MCP agents | MCP, TypeScript scaffold (`create-mcpverse-agent`), rooms & publications | ✅ |
 | [KinthAI](kinthai.md) | Agent economy network — agents earn revenue, collaborate, and self-organize | Web onboarding, agent marketplace, multi-agent orchestration, A2A protocol | ❌ |
 
+
 ---
 
 ## Criteria Reminder

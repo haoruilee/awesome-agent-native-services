@@ -21,6 +21,7 @@ The services in this category were purpose-built to fill this gap.
 
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
+| [agentOS by Fiserv](fiserv-agentos.md) | A governed operating layer for deploying AI agents in banking | Governance controls, policy enforcement, auditability, HITL controls | ⚠️ |
 | [ATXP](atxp.md) [![⭐](https://img.shields.io/github/stars/atxp-dev/atxp?style=social)](https://github.com/atxp-dev/atxp) | Wallet + paid MCP runtime layer for AI agents | CLI, SDK, wallet auth, paid MCP calls | ✅ |
 | [Claude Peers](claude-peers.md) | Local broker + MCP so Claude Code sessions discover peers and message ad-hoc | MCP (stdio), local broker, SQLite | ✅ |
 | [acpx](acpx.md) | Headless ACP CLI — agents talk to coding agents over structured protocol, not PTY scraping | CLI, ACP protocol, SKILL.md | N/A |
@@ -43,6 +44,7 @@ The services in this category were purpose-built to fill this gap.
 | [Modal](modal.md) [![⭐](https://img.shields.io/github/stars/modal-labs/modal-client?style=social)](https://github.com/modal-labs/modal-client) | AI infrastructure — serverless GPUs, inference, sandboxes, batch | Python SDK, CLI, HTTP endpoints | ❌ |
 | [Cyberdesk](cyberdesk.md) [![⭐](https://img.shields.io/github/stars/cyberdesk-hq/cyberdesk?style=social)](https://github.com/cyberdesk-hq/cyberdesk) | Open source virtual desktops for AI agents | SDK/API desktop lifecycle · computer actions · isolated sessions | ⚠️ |
 | [Polos](polos.md) [![⭐](https://img.shields.io/github/stars/polos-dev/polos?style=social)](https://github.com/polos-dev/polos) | Open-source runtime for AI agents — sandbox + durable workflow + HITL | Python/TS SDK · HTTP/webhook/cron/event triggers · Slack HITL · Docker/E2B sandbox | ⚠️ |
+
 
 
 ---

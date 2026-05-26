@@ -11,6 +11,7 @@ permalink: /categories/commerce-and-payments/
 | Service | Catalog Entry |
 |---|---|
 | AgentsPay | [services/commerce-and-payments/agentspay.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/agentspay.md) |
+| Circle Agent Stack | [services/commerce-and-payments/circle-agent-stack.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/circle-agent-stack.md) |
 | Coinbase Developer Platform (x402) | [services/commerce-and-payments/coinbase-x402.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/coinbase-x402.md) |
 | CyMetica AI (EventTrader) | [services/commerce-and-payments/cymetica-ai.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/cymetica-ai.md) |
 | Nevermined | [services/commerce-and-payments/nevermined.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/nevermined.md) |

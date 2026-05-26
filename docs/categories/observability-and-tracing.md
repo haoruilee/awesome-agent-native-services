@@ -18,4 +18,3 @@ permalink: /categories/observability-and-tracing/
 | Langfuse | [services/observability-and-tracing/langfuse.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/langfuse.md) |
 | LangWatch | [services/observability-and-tracing/langwatch.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/langwatch.md) |
 | OpenLIT | [services/observability-and-tracing/openlit.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/openlit.md) |
-| Weekly Impact Update (2026-05-11 → 2026-05-18) | [services/observability-and-tracing/weekly-impact-2026-05-18.md](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/weekly-impact-2026-05-18.md) |

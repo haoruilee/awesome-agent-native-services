@@ -23,6 +23,7 @@ Agent-native meeting services provide a unified API for bot lifecycle management
 | [MeetStream](meetstream.md) | Unified API for meeting bots, transcripts, and interactive AI agents | REST API, Webhooks, WebSockets | ⚠️ |
 | [Vexa](vexa.md) [![⭐](https://img.shields.io/github/stars/Vexa-ai/vexa?style=social)](https://github.com/Vexa-ai/vexa) | Open-source meeting transcription + interactive bot for Meet/Teams/Zoom | REST API, WebSocket, MCP server (17 tools), self-host | ✅ |
 
+
 ---
 
 ## Criteria Reminder
