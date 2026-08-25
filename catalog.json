@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "84ca549b1cb86e190f88a1926ee804fad074d40d2b76640d4194a2fc9116a5fc",
+      "value": "759c8099552c99b6b77430b2c25eb75adaa79ac5c5aefb40943198cd3c3a5d9e",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -205,6 +205,7 @@
         "services/voice-and-phone/vapi.md",
         "services/llm-gateway-and-routing/README.md",
         "services/llm-gateway-and-routing/agentgateway.md",
+        "services/llm-gateway-and-routing/bifrost.md",
         "services/llm-gateway-and-routing/helicone.md",
         "services/llm-gateway-and-routing/keywords-ai.md",
         "services/llm-gateway-and-routing/litellm.md",
@@ -225,7 +226,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 189
+    "services": 190
   },
   "categories": [
     {
@@ -331,7 +332,7 @@
       "name": "LLM Gateway & Routing",
       "description": "Services that give AI agents a reliable, observable, and cost-controlled interface to LLM providers — with per-agent routing, budget enforcement, fallback logic, and semantic caching as first-class primitives.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/README.md",
-      "service_count": 8
+      "service_count": 9
     },
     {
       "id": "agent-social-network",
@@ -5825,6 +5826,41 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "llm-gateway-and-routing/bifrost",
+      "slug": "bifrost",
+      "name": "Bifrost",
+      "tagline": "The fastest way to build AI applications that never go down.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "llm-gateway-and-routing",
+      "website": "https://docs.getbifrost.ai",
+      "repository": "https://github.com/maximhq/bifrost",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/bifrost.md",
+      "source_path": "services/llm-gateway-and-routing/bifrost.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": null,
+        "instruction": "npx -y @maximhq/bifrost",
+        "url": "http://localhost:8080"
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "sdk",
+        "json-rpc",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": "2026-08-25",
+      "verification_sources": [
+        "https://github.com/maximhq/bifrost"
+      ]
     },
     {
       "id": "llm-gateway-and-routing/helicone",
