@@ -83,7 +83,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**189 services across 16 categories.**
+**190 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -101,7 +101,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 7 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 7 | Agent-controlled voice calls and phone infrastructure |
-| 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 8 | Per-agent budget, routing, caching, and observability for LLM calls |
+| 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 9 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 16 | [Agent Social & Community](#16-agent-social--community-services) | 7 | Social networks where agents are first-class participants |
 
 ---
@@ -452,6 +452,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Keywords AI](services/llm-gateway-and-routing/keywords-ai.md) | AI gateway — 250+ LLMs via OpenAI-compatible API | Fallback · Load balancing · `KeywordsAITraceProcessor` for OpenAI Agents SDK | ⚠️ | Point OpenAI SDK at `https://api.keywordsai.co` — [gateway quickstart](https://docs.keywordsai.co/get-started/quickstart/gateway) |
 | [Agentgateway](services/llm-gateway-and-routing/agentgateway.md) [![⭐](https://img.shields.io/github/stars/agentgateway/agentgateway?style=social)](https://github.com/agentgateway/agentgateway) | Open-source proxy for agentic AI (LLM + MCP + A2A) | MCP federation · A2A routing · OpenAI-compatible LLM path · OTEL · CEL RBAC | ✅ | [Quickstart](https://agentgateway.dev/docs/quickstart/): install binary/Docker/K8s → `agentgateway -f config.yaml` |
 | [LiteLLM](services/llm-gateway-and-routing/litellm.md) [![⭐](https://img.shields.io/github/stars/BerriAI/litellm?style=social)](https://github.com/BerriAI/litellm) | Open-source AI gateway — 100+ LLMs + Agent Gateway (A2A) | Virtual keys · Budgets · A2A agent routing · Trace/agent headers | ✅ | Self-host proxy per [docs.litellm.ai](https://docs.litellm.ai/docs/proxy/docker_quick_start) — [A2A gateway](https://docs.litellm.ai/docs/a2a) |
+| [Bifrost](services/llm-gateway-and-routing/bifrost.md) [![⭐](https://img.shields.io/github/stars/maximhq/bifrost?style=social)](https://github.com/maximhq/bifrost) | High-performance AI gateway for unified provider access | OpenAI-compatible API · Virtual keys · Fallback/load balancing · MCP gateway | ✅ | `npx -y @maximhq/bifrost` then connect an MCP client to `/mcp` |
 | [OpenRouter](services/llm-gateway-and-routing/openrouter.md) | Unified OpenAI-compatible API — 300+ models | Cross-provider routing · Uptime optimization · Org data policies | ❌ | [openrouter.ai/docs/quickstart](https://openrouter.ai/docs/quickstart) — OpenAI SDK + `OPENROUTER_API_KEY` |
 | [Helicone](services/llm-gateway-and-routing/helicone.md) | AI Gateway + observability — 100+ models, unified credits | `ai-gateway.helicone.ai` · Fallbacks · Request logging | ❌ | OpenAI SDK `baseURL` `https://ai-gateway.helicone.ai` — [docs.helicone.ai](https://docs.helicone.ai/) |
 | [Routerly](services/llm-gateway-and-routing/routerly.md) [![⭐](https://img.shields.io/github/stars/Inebrio/Routerly?style=social)](https://github.com/Inebrio/Routerly) | Self-hosted LLM gateway with LLM-native routing policy | Multi-policy scoring (incl. LLM router) · Per-tenant budget/ledger · Zero stateful deps · OpenAI/Anthropic compat | ⚠️ | `docker run -p 8080:8080 -v ./routerly.json:/config/routerly.json inebrio/routerly:latest` then point client `OPENAI_BASE_URL` |

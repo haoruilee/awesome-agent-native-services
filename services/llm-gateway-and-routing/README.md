@@ -20,6 +20,7 @@ Calling an LLM directly is fine for prototyping. Running agents in production �
 | [Keywords AI](keywords-ai.md) | AI gateway — 250+ models via OpenAI-compatible API | Fallback · Load balancing · OpenAI Agents trace processor | ⚠️ |
 | [Agentgateway](agentgateway.md) | Connect, secure, and observe agentic workflows (MCP, A2A, LLM) | OpenAI-compatible proxy, MCP gateway, A2A, Kubernetes/bare metal | ✅ |
 | [LiteLLM](litellm.md) [![⭐](https://img.shields.io/github/stars/BerriAI/litellm?style=social)](https://github.com/BerriAI/litellm) | Open-source AI gateway — 100+ LLMs, virtual keys, Agent Gateway (A2A) | OpenAI-compatible proxy, Docker/K8s, A2A JSON-RPC, MCP (gateway) | ✅ |
+| [Bifrost](bifrost.md) [![⭐](https://img.shields.io/github/stars/maximhq/bifrost?style=social)](https://github.com/maximhq/bifrost) | High-performance AI gateway with provider routing, governance, and MCP gateway | OpenAI-compatible REST, Go SDK, MCP gateway, HTTP/SSE | ✅ |
 | [OpenRouter](openrouter.md) | The unified interface for LLMs — one API, 300+ models | OpenAI-compatible REST, TypeScript/Python/Go/Java SDKs | ❌ |
 | [Helicone](helicone.md) | AI Gateway & LLM observability — 100+ models, unified credits | OpenAI-compatible gateway (`ai-gateway.helicone.ai`), dashboard | ❌ |
 | [Routerly](routerly.md) [![⭐](https://img.shields.io/github/stars/Inebrio/Routerly?style=social)](https://github.com/Inebrio/Routerly) | Self-hosted LLM gateway with LLM-native routing policy — no DB required | OpenAI/Anthropic-compatible HTTP, JSON config, Docker single binary | ⚠️ |
