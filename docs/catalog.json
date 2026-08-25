@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-08-19",
-  "generated_at": "2026-08-19",
+  "catalog_version": "2026-08-25",
+  "generated_at": "2026-08-25",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "414695665d51ecd39d640f5519d206566b775a824065983bfcf91544738baac1",
+      "value": "84ca549b1cb86e190f88a1926ee804fad074d40d2b76640d4194a2fc9116a5fc",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -68,6 +68,7 @@
         "services/tool-access-and-integration/nango.md",
         "services/tool-access-and-integration/obot.md",
         "services/tool-access-and-integration/openchatcut.md",
+        "services/tool-access-and-integration/sandbase-cli.md",
         "services/tool-access-and-integration/smithery.md",
         "services/tool-access-and-integration/snyk-agent-scan.md",
         "services/tool-access-and-integration/toolhive.md",
@@ -224,7 +225,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 188
+    "services": 189
   },
   "categories": [
     {
@@ -246,7 +247,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 16
+      "service_count": 17
     },
     {
       "id": "oversight-and-approval",
@@ -1915,6 +1916,40 @@
       "verification_sources": [
         "https://github.com/0xsline/OpenChatCut/releases/tag/v0.2.1",
         "https://github.com/0xsline/OpenChatCut/commit/a3c6d66d26e914e51b624638ae8861d0fd595720"
+      ]
+    },
+    {
+      "id": "tool-access-and-integration/sandbase-cli",
+      "slug": "sandbase-cli",
+      "name": "SandBase CLI",
+      "tagline": "Give your AI agent superpowers. One command. 2,000+ AI models.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "tool-access-and-integration",
+      "website": "https://www.sandbase.ai",
+      "repository": "https://github.com/sandbaseai/cli",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/sandbase-cli.md",
+      "source_path": "services/tool-access-and-integration/sandbase-cli.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "local MCP bridge (stdio) after one browser approval",
+        "instruction": "npx -y https://github.com/sandbaseai/cli/releases/download/v0.1.17/sandbaseai-cli-0.1.17.tgz connect",
+        "url": "https://github.com/sandbaseai/cli/releases/download/v0.1.17/sandbaseai-cli-0.1.17.tgz"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "cli",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Last GitHub push 2026-08-23; immutable v0.1.17 published 2026-08-19",
+      "verified_at": "2026-08-25",
+      "verification_sources": [
+        "https://github.com/sandbaseai/cli/releases/tag/v0.1.17"
       ]
     },
     {

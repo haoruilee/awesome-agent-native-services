@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with agents that can read repository files and browse official sources.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-08-19"
+  catalog-version: "2026-08-25"
 allowed-tools: WebSearch Read Bash
 ---
 

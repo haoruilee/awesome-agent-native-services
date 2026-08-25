@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-08-19"
+version: "2026-08-25"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -72,7 +72,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 188 Services
+## Full Catalog — 16 Categories, 189 Services
 
 ### 1. Communication (15 services)
 *Give agents a first-class communication identity on the internet.*
@@ -129,7 +129,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 3. Tool Access & Integration (16 services)
+### 3. Tool Access & Integration (17 services)
 *Runtime tool discovery, auth, and execution without human pre-configuration.*
 
 | Service | Tagline | Onboarding |
@@ -150,6 +150,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Snyk Agent Scan](https://github.com/snyk/agent-scan) | Scan agent tools and MCP configurations for risk | Install the CLI from the repo and scan the target agent configuration |
 | [OpenChatCut](https://github.com/0xsline/OpenChatCut) | Local-first agent-native video editor | `npx skills add 0xsline/OpenChatCut`, then ask the agent to set it up |
 | [Toolport](https://toolport.app) | Every tool. One port. | Install from GitHub Releases, add servers, connect each AI client to `toolport-gateway` |
+| [SandBase CLI](https://github.com/sandbaseai/cli) | Give your AI agent superpowers. One command. 2,000+ AI models. | GitHub `v0.1.17` tarball `connect`, then `npx skills add sandbaseai/cli --skill sandbase` |
 
 ---
 

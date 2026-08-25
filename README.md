@@ -83,13 +83,13 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**188 services across 16 categories.**
+**189 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 15 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 24 | Remote browser and web data extraction for agents |
-| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 16 | Runtime tool discovery, auth, and execution |
+| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 17 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 9 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 27 | Execution, session isolation, secrets, and gateway |
@@ -195,6 +195,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Snyk Agent Scan](services/tool-access-and-integration/snyk-agent-scan.md) [![⭐](https://img.shields.io/github/stars/snyk/agent-scan?style=social)](https://github.com/snyk/agent-scan) | Security scanner for AI agents, MCP servers and agent skills | Agent component inventory · MCP inspection · Prompt/tool risk detection · CI gates | ✅ | `uvx snyk-agent-scan@latest scan` |
 | [OpenChatCut](services/tool-access-and-integration/openchatcut.md) [![⭐](https://img.shields.io/github/stars/0xsline/OpenChatCut?style=social)](https://github.com/0xsline/OpenChatCut) | Local-first agent-native video editor with editable timelines | Agent Skill · Streamable HTTP MCP · isolated drafts · EditorCore tools | ✅ | `npx skills add 0xsline/OpenChatCut`, then ask the agent: `Set up OpenChatCut` |
 | [Toolport](services/tool-access-and-integration/toolport.md) [![⭐](https://img.shields.io/github/stars/tsouth89/toolport?style=social)](https://github.com/tsouth89/toolport) | Every tool. One port. | Lazy MCP meta-tools · per-client profiles · tool integrity · keychain secrets | ✅ | Install from [GitHub Releases](https://github.com/tsouth89/toolport/releases/latest), add servers, then connect each AI client to `toolport-gateway` |
+| [SandBase CLI](services/tool-access-and-integration/sandbase-cli.md) [![⭐](https://img.shields.io/github/stars/sandbaseai/cli?style=social)](https://github.com/sandbaseai/cli) | Give your AI agent superpowers. One command. 2,000+ AI models. | Local MCP bridge · discover/inspect/run · client-scoped credentials · Agent Skill | ✅ | Immutable `v0.1.17` tarball: `npx -y https://github.com/sandbaseai/cli/releases/download/v0.1.17/sandbaseai-cli-0.1.17.tgz connect`, then `npx skills add sandbaseai/cli --skill sandbase` |
 
 ---
 
