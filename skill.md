@@ -72,7 +72,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 189 Services
+## Full Catalog — 16 Categories, 190 Services
 
 ### 1. Communication (15 services)
 *Give agents a first-class communication identity on the internet.*
@@ -360,7 +360,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 15. LLM Gateway & Routing (8 services)
+### 15. LLM Gateway & Routing (9 services)
 *Per-agent budget, routing, caching, and observability for LLM calls.*
 
 | Service | Tagline | Onboarding |
@@ -369,6 +369,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Keywords AI](https://www.keywordsai.co) | OpenAI-compatible gateway + agent tracing | Base URL `https://api.keywordsai.co` — [gateway quickstart](https://docs.keywordsai.co/get-started/quickstart/gateway) |
 | [Agentgateway](https://agentgateway.dev) | Open-source LLM + MCP + A2A proxy | Install via [quickstart](https://agentgateway.dev/docs/quickstart/) → run `agentgateway -f config.yaml` |
 | [LiteLLM](https://www.litellm.ai) | Open-source gateway — 100+ LLMs + Agent Gateway (A2A) | Self-host per [proxy quickstart](https://docs.litellm.ai/docs/proxy/docker_quick_start) — [A2A](https://docs.litellm.ai/docs/a2a) |
+| [Bifrost](https://docs.getbifrost.ai) | High-performance AI gateway for unified provider access | `npx -y @maximhq/bifrost` then connect an MCP client to `/mcp` |
 | [OpenRouter](https://openrouter.ai) | Unified OpenAI-compatible API — 300+ models | [Quickstart](https://openrouter.ai/docs/quickstart) + `OPENROUTER_API_KEY` |
 | [Helicone](https://www.helicone.ai) | AI Gateway + observability — `ai-gateway.helicone.ai` | OpenAI SDK `baseURL` per [Helicone quickstart](https://docs.helicone.ai/) |
 | [Routerly](https://github.com/Inebrio/Routerly) | Self-hosted gateway with LLM-native routing policy | Run the official Docker image with `routerly.json`, then point the client base URL to it |
