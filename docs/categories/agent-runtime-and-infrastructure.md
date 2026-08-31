@@ -6,7 +6,7 @@ hero_image: "/assets/images/editorial-runtime.webp"
 permalink: /categories/agent-runtime-and-infrastructure/
 page_kind: collection
 collection_number: "06"
-service_count: 28
+service_count: 29
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md">Collection notes ↗</a></p>
@@ -298,6 +298,17 @@ service_count: 28
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <h2 class="service-card__title">SandBase Harness</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/sandbase-harness.md">Open dossier ↗</a>
+      <a href="https://github.com/sandbaseai/sandbase-harness">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--service atlas-visual--12">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
     <h2 class="service-card__title">Scrapybara</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/scrapybara.md">Open dossier ↗</a>
@@ -305,7 +316,7 @@ service_count: 28
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--12">
+  <article class="service-card atlas-sheet--service atlas-visual--13">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
