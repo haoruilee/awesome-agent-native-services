@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "aad81c9d638dbf5878753939bae121585358cb17edfffbb448936d34236f4f40",
+      "value": "e49c559e4f106007f0c783256fbd7fd87462b1dae92310cd72a71932dc3114c0",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -122,6 +122,7 @@
         "services/agent-runtime-and-infrastructure/multica.md",
         "services/agent-runtime-and-infrastructure/openai-symphony.md",
         "services/agent-runtime-and-infrastructure/polos.md",
+        "services/agent-runtime-and-infrastructure/sandbase-harness.md",
         "services/agent-runtime-and-infrastructure/scrapybara.md",
         "services/agent-runtime-and-infrastructure/serena.md",
         "services/agent-runtime-and-infrastructure/vertex-ai-agent-engine.md",
@@ -243,7 +244,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 207
+    "services": 208
   },
   "categories": [
     {
@@ -286,7 +287,7 @@
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 28
+      "service_count": 29
     },
     {
       "id": "agent-harnesses-and-control-planes",
@@ -3530,6 +3531,38 @@
       ],
       "mcp_status": "planned",
       "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/sandbase-harness",
+      "slug": "sandbase-harness",
+      "name": "SandBase Harness",
+      "tagline": "A local-first runtime for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://github.com/sandbaseai/sandbase-harness",
+      "repository": "https://github.com/sandbaseai/sandbase-harness",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/sandbase-harness.md",
+      "source_path": "services/agent-runtime-and-infrastructure/sandbase-harness.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": null,
+        "instruction": "Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md). Supported entry points include the local TypeScript runtime/CLI, Docker, Kubernetes, and self-hosted workers. For the MCP bridge, use the metadata in [server.json](https://github.com/sandbaseai/sandbase-harness/blob/main/server.json) and the official [MCP Registry entry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.sandbaseai%2Fsandbase-harness).",
+        "url": "https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md"
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unknown",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []

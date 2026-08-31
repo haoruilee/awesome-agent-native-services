@@ -83,7 +83,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**207 services across 16 categories.**
+**208 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -92,7 +92,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 19 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 12 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 28 | Execution, session isolation, secrets, and gateway |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 29 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 10 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 21 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
@@ -277,7 +277,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Cloudflare Computer](services/agent-runtime-and-infrastructure/cloudflare-computer.md) [![⭐](https://img.shields.io/github/stars/cloudflare/computer?style=social)](https://github.com/cloudflare/computer) | Give your agent a computer | Durable Object workspace FS · runtime.exec backends · preview APIs | ⚠️ | `npm install @cloudflare/computer` then `withWorkspace` on a Durable Object — preview only |
 | [Agent Executor (AX)](services/agent-runtime-and-infrastructure/google-ax.md) [![⭐](https://img.shields.io/github/stars/google/ax?style=social)](https://github.com/google/ax) | An open source distributed agent runtime | Conversation resume · event log · isolated harnesses · `ax` CLI | ⚠️ | `go install github.com/google/ax/cmd/ax@latest` then `ax --input "…"` |
 | [Agent Substrate](services/agent-runtime-and-infrastructure/agent-substrate.md) [![⭐](https://img.shields.io/github/stars/agent-substrate/substrate?style=social)](https://github.com/agent-substrate/substrate) | High-density Kubernetes runtime for large-scale agent deployments | Actors · WorkerPools · suspend/resume · atenet routing | ⚠️ | `hack/install-ate-kind.sh --deploy-ate-system` then `kubectl ate create actor` — early-dev, not a supported Google product |
-| [SandBase Harness](services/agent-runtime-and-infrastructure/sandbase-harness.md) | Local-first runtime for persistent, sandboxed, auditable AI-agent sessions | HTTP/API · stdio MCP · TypeScript runtime/CLI · Docker/Kubernetes/workers | ✅ | Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md) and `server.json` MCP metadata |
+| [SandBase Harness](services/agent-runtime-and-infrastructure/sandbase-harness.md) [![⭐](https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social)](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | HTTP/API · stdio MCP · TypeScript runtime/CLI · Docker/Kubernetes/workers | ✅ | Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md) and `server.json` MCP metadata |
 
 ---
 

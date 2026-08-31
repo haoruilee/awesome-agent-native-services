@@ -1,12 +1,13 @@
 # SandBase Harness
 
-> A local-first runtime for AI agents with persistent sessions, sandboxed turns, MCP tools, memory, credentials, audit trails, and replay.
+> **"A local-first runtime for AI agents."**
 
 | | |
 |---|---|
 | **Website** | https://github.com/sandbaseai/sandbase-harness |
 | **Docs** | https://github.com/sandbaseai/sandbase-harness/tree/main/docs |
 | **GitHub** | https://github.com/sandbaseai/sandbase-harness |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social)](https://github.com/sandbaseai/sandbase-harness) |
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure](README.md) |
 | **Status** | Open source · Apache-2.0 · self-hosted/local-first |
@@ -41,13 +42,15 @@ Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/b
 
 ## What It Does
 
+Official README: **"A local-first runtime for AI agents. Sessions, sandboxed tools, memory, credentials, audit trails, and a built-in Console — all running on your machine or in your own infrastructure."** — [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)
+
 SandBase Harness is a local-first runtime for operating multi-step AI-agent sessions. It combines persistent sessions and resumable event streams with sandboxed turns, MCP toolsets, credential scopes, permission policies, approvals, artifacts, memory, audit records, and replay. It can run on an operator's machine or in self-hosted infrastructure; the exact isolation boundary depends on the selected and configured execution backend.
 
 ## Why It Is Agent-Native
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | The official README describes it as a local-first runtime for AI agents with sessions, tools, memory, credentials, audit trails, and a Console. |
+| **Agent-first positioning** | Official README: **"A local-first runtime for AI agents. Sessions, sandboxed tools, memory, credentials, audit trails, and a built-in Console — all running on your machine or in your own infrastructure."** — [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) |
 | **Agent-specific primitive** | Persistent sessions, resumable streams, sandboxed turns, tool trajectories, artifacts, audit records, and replay model agent execution directly. |
 | **Autonomy-compatible control plane** | Agents can operate through the HTTP/API and MCP surfaces after configuration; permissions, credentials, approvals, audit, and replay constrain or review execution. |
 | **Machine-to-machine integration** | Local HTTP API, native stdio MCP bridge, TypeScript runtime/CLI, Docker, Kubernetes, and worker deployment paths. |

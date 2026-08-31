@@ -49,7 +49,7 @@ The services in this category were purpose-built to fill this gap.
 | [Cloudflare Computer](cloudflare-computer.md) [![⭐](https://img.shields.io/github/stars/cloudflare/computer?style=social)](https://github.com/cloudflare/computer) | Give your agent a computer | `@cloudflare/computer` workspace FS + runtime.exec, preview only | ⚠️ |
 | [Agent Executor (AX)](google-ax.md) [![⭐](https://img.shields.io/github/stars/google/ax?style=social)](https://github.com/google/ax) | An open source distributed agent runtime | `ax` CLI, gRPC serve, conversation resume, event log | ⚠️ |
 | [Agent Substrate](agent-substrate.md) [![⭐](https://img.shields.io/github/stars/agent-substrate/substrate?style=social)](https://github.com/agent-substrate/substrate) | High-density Kubernetes runtime for large-scale agent deployments | `kubectl-ate`, ate-api-server gRPC, actors/WorkerPools, atenet | ⚠️ |
-| [SandBase Harness](sandbase-harness.md) | Local-first runtime for persistent, sandboxed, auditable AI-agent sessions | HTTP/API · stdio MCP · TypeScript runtime/CLI · Docker/Kubernetes/workers | ✅ |
+| [SandBase Harness](sandbase-harness.md) [![⭐](https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social)](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | HTTP/API · stdio MCP · TypeScript runtime/CLI · Docker/Kubernetes/workers | ✅ |
 
 
 

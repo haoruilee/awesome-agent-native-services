@@ -60,7 +60,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 207 Services
+## Full Catalog — 16 Categories, 208 Services
 
 ### 1. Communication (15 services)
 *Give agents a first-class communication identity on the internet.*
@@ -178,7 +178,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 6. Agent Runtime & Infrastructure (28 services)
+### 6. Agent Runtime & Infrastructure (29 services)
 *Secure execution, session isolation, secrets, identity, and gateway for production agents.*
 
 | Service | Tagline | Onboarding |
@@ -211,6 +211,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Cloudflare Computer](https://github.com/cloudflare/computer) | Give your agent a computer | `npm install @cloudflare/computer` then attach `withWorkspace` to a Durable Object (preview only) |
 | [Agent Executor (AX)](https://github.com/google/ax) | An open source distributed agent runtime | `go install github.com/google/ax/cmd/ax@latest` then `ax --input "…"` |
 | [Agent Substrate](https://github.com/agent-substrate/substrate) | High-density Kubernetes runtime for large-scale agent deployments | `hack/install-ate-kind.sh --deploy-ate-system` then `kubectl ate create actor` |
+| [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md) and `server.json` MCP metadata |
 
 ---
 

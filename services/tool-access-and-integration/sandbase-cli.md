@@ -97,7 +97,7 @@ SandBase CLI is an Apache-2.0 TypeScript CLI that connects a coding agent to a c
 
 After that, the agent searches the catalog (`sandbase_discover`), reads the current schema and price (`sandbase_inspect`), and executes (`sandbase_run`), polling async jobs with `sandbase_run_get`. `sandbase_runs` and `sandbase_account` expose recent cost and balance without starting a paid run.
 
-This is a **tool-access bridge**, not an LLM gateway and not the SandBase Store. The homepage and [Getting Started](https://www.sandbase.ai/docs/getting-started/) docs describe a builder/FDE platform (Store, Setup, Build Agent). Those products are out of scope here. The sibling [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) and [sandbase-skills](https://github.com/sandbaseai/sandbase-skills) repositories are also not cataloged.
+This is a **tool-access bridge**, not an LLM gateway and not the SandBase Store. The homepage and [Getting Started](https://www.sandbase.ai/docs/getting-started/) docs describe a builder/FDE platform (Store, Setup, Build Agent). Those products are out of scope here. The sibling [SandBase Harness](../agent-runtime-and-infrastructure/sandbase-harness.md) is cataloged separately. [sandbase-skills](https://github.com/sandbaseai/sandbase-skills) is not cataloged.
 
 ---
 
