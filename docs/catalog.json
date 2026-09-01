@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "e49c559e4f106007f0c783256fbd7fd87462b1dae92310cd72a71932dc3114c0",
+      "value": "f63a78fa2fe8407462e7a721af15efd39399c91c33046982f90be33e3a57a57c",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -2442,8 +2442,8 @@
       "onboarding": {
         "type": "sdk",
         "pattern": "SDK + scenario samples",
-        "instruction": "# Types package (PyPI later; official install is from git)\nuv pip install git+https://github.com/google-agentic-commerce/AP2.git@main",
-        "url": "https://github.com/google-agentic-commerce/AP2.git@main"
+        "instruction": "# Types package (PyPI later; official install is from git): https://github.com/google-agentic-commerce/AP2\nuv pip install git+https://github.com/google-agentic-commerce/AP2.git@main",
+        "url": "https://github.com/google-agentic-commerce/AP2"
       },
       "protocols": [
         "sdk",

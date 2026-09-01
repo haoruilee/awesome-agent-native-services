@@ -23,7 +23,7 @@ Title: *Respan | LLM Engineering Platform*. [About](https://www.respan.ai/about)
 
 ## Official Repo
 
-No primary open-source gateway repo — integration is **OpenAI-compatible** HTTP. Live gateway copy uses base URL `https://api.respan.ai/api` ([AI Gateway](https://www.respan.ai/ai-gateway), [provider inference docs](https://www.respan.ai/docs/integrations/gateway/model-providers/inference.md)). `https://api.keywordsai.co` still returned HTTP 200 on 2026-08-29; prefer the Respan host the current docs publish.
+No primary open-source gateway repo — integration is **OpenAI-compatible** HTTP. Live gateway host: https://api.respan.ai/ (`{"status":"ok"}`). SDK/docs still use base URL `https://api.respan.ai/api` ([AI Gateway](https://www.respan.ai/ai-gateway), [provider inference docs](https://www.respan.ai/docs/integrations/gateway/model-providers/inference.md)). `https://api.keywordsai.co` still returned HTTP 200 on 2026-08-29; prefer the Respan host the current docs publish.
 
 ---
 

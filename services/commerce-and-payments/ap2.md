@@ -32,8 +32,10 @@ https://github.com/google-agentic-commerce/AP2
 
 **Interaction pattern:** `SDK` + scenario samples
 
+Install the types package from [google-agentic-commerce/AP2](https://github.com/google-agentic-commerce/AP2) (PyPI later; official install is from git):
+
 ```bash
-# Types package (PyPI later; official install is from git)
+# Types package (PyPI later; official install is from git): https://github.com/google-agentic-commerce/AP2
 uv pip install git+https://github.com/google-agentic-commerce/AP2.git@main
 ```
 
