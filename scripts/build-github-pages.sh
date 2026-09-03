@@ -35,6 +35,9 @@ EDITORIAL_IMAGES=(
   "$IMG_DIR/editorial-meeting.webp"
   "$IMG_DIR/editorial-voice.webp"
   "$IMG_DIR/editorial-social.webp"
+  "$IMG_DIR/editorial-vault.webp"
+  "$IMG_DIR/editorial-browser-2.webp"
+  "$IMG_DIR/editorial-memory-2.webp"
   "$IMG_DIR/social-preview-wide.webp"
 )
 
@@ -374,6 +377,9 @@ cat >>"$INDEX" <<HTML
   <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-search.webp' | relative_url }}" alt="Textured plates and a smoked-glass disc threaded on a brass rod that ends in a black block." width="1536" height="1024" loading="lazy" decoding="async"></figure>
   <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-tools.webp' | relative_url }}" alt="Slender brass instruments standing in a grooved stone block, with two tools lying before a dark slab." width="1536" height="1024" loading="lazy" decoding="async"></figure>
   <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-routing-2.webp' | relative_url }}" alt="Five brass rods with spherical nodes converging into a vertical slot on a plaster wall." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-vault.webp' | relative_url }}" alt="A beige stone block with a central brass keyhole, standing on a dark pedestal." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-browser-2.webp' | relative_url }}" alt="A gold sphere resting on the ledge of a stepped rectangular recess in a plaster wall." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-memory-2.webp' | relative_url }}" alt="Pale sheets stacked on a black cube and burgundy plinth, framed by a gold hoop, with a brass wedge marking one layer." width="1536" height="1024" loading="lazy" decoding="async"></figure>
   <figure class="editorial-gallery__item editorial-gallery__item--panorama"><img src="{{ '/assets/images/editorial-routing.webp' | relative_url }}" alt="Parallel gold pipes flowing through dark translucent panels above a winding marble and stone base." width="1536" height="1024" loading="lazy" decoding="async"></figure>
 </section>
 
