@@ -83,23 +83,23 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**208 services across 16 categories.**
+**216 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 15 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 25 | Remote browser and web data extraction for agents |
-| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 19 | Runtime tool discovery, auth, and execution |
+| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 21 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 12 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 29 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 10 | Durable agent-loop control and live operator visibility |
-| 8 | [Memory & State](#8-memory--state-services) | 21 | Persistent agent memory across sessions |
+| 8 | [Memory & State](#8-memory--state-services) | 26 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 13 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 13 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
-| 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
+| 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 8 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 7 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 10 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 16 | [Agent Social & Community](#16-agent-social--community-services) | 7 | Social networks where agents are first-class participants |
@@ -199,6 +199,8 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [SandBase CLI](services/tool-access-and-integration/sandbase-cli.md) [![⭐](https://img.shields.io/github/stars/sandbaseai/cli?style=social)](https://github.com/sandbaseai/cli) | Give your AI agent superpowers. One command. 2,000+ AI models. | Local MCP bridge · discover/inspect/run · client-scoped credentials · Agent Skill | ✅ | Immutable `v0.1.17` tarball: `npx -y https://github.com/sandbaseai/cli/releases/download/v0.1.17/sandbaseai-cli-0.1.17.tgz connect`, then `npx skills add sandbaseai/cli --skill sandbase` |
 | [ContextForge](services/tool-access-and-integration/contextforge.md) [![⭐](https://img.shields.io/github/stars/IBM/mcp-context-forge?style=social)](https://github.com/IBM/mcp-context-forge) | Registry and proxy that federates MCP, A2A, and REST/gRPC | Federated MCP · A2A routing · gRPC-to-MCP · UAID · OTEL | ✅ | `uvx --from mcp-contextforge-gateway mcpgateway --host 0.0.0.0 --port 4444` — or `docker pull ghcr.io/ibm/mcp-context-forge:latest` |
 | [MCP Gateway & Registry](services/tool-access-and-integration/mcp-gateway-registry.md) [![⭐](https://img.shields.io/github/stars/agentic-community/mcp-gateway-registry?style=social)](https://github.com/agentic-community/mcp-gateway-registry) | Unified Agent & MCP Server Registry – Gateway for AI Development Tools | IdP gateway · virtual MCP · A2A registry · 3LO egress · audit | ✅ | `git clone https://github.com/agentic-community/mcp-gateway-registry && ./build_and_run.sh --prebuilt` |
+| [MCPHub](services/tool-access-and-integration/mcphub.md) [![⭐](https://img.shields.io/github/stars/samanhappy/mcphub?style=social)](https://github.com/samanhappy/mcphub) | One gateway for all your MCP servers. | Unified `/mcp` · groups · `$smart` routing · bearer/OAuth · Docker | ✅ | `docker run -p 3000:3000 -v ./data:/app/data samanhappy/mcphub` — then connect to `http://localhost:3000/mcp` |
+| [MCPJungle](services/tool-access-and-integration/mcpjungle.md) [![⭐](https://img.shields.io/github/stars/mcpjungle/MCPJungle?style=social)](https://github.com/mcpjungle/MCPJungle) | Run all your MCP servers behind one endpoint | One `/mcp` · tool groups · enterprise client tokens · MPL-2.0 | ✅ | `docker compose up -d` then `mcpjungle register --name context7 --url https://mcp.context7.com/mcp` |
 
 ---
 
@@ -333,6 +335,11 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [MemSearch](services/memory-and-state/memsearch.md) [![⭐](https://img.shields.io/github/stars/zilliztech/memsearch?style=social)](https://github.com/zilliztech/memsearch) | Cross-platform semantic memory for AI coding agents | Markdown + Milvus hybrid search · progressive recall · harness plugins | ⚠️ | `uv tool install "memsearch[onnx]"` or `/plugin marketplace add zilliztech/memsearch` |
 | [Claude-Mem](services/memory-and-state/claude-mem.md) [![⭐](https://img.shields.io/github/stars/thedotmack/claude-mem?style=social)](https://github.com/thedotmack/claude-mem) | Persistent memory compression system for Claude Code | Auto-firehose observations · compression worker · session priming · MCP search | ✅ | `npx claude-mem install` or `/plugin marketplace add thedotmack/claude-mem` then `/plugin install claude-mem` |
 | [Engram](services/memory-and-state/engram.md) [![⭐](https://img.shields.io/github/stars/Gentleman-Programming/engram?style=social)](https://github.com/Gentleman-Programming/engram) | Persistent memory for AI coding agents | Agent-curated `mem_save`/`mem_search` · SQLite FTS5 · single Go binary | ✅ | `brew install gentleman-programming/tap/engram` then `claude plugin install engram` or `engram setup <agent>` |
+| [Beads](services/memory-and-state/beads.md) [![⭐](https://img.shields.io/github/stars/gastownhall/beads?style=social)](https://github.com/gastownhall/beads) | Dependency-aware, Dolt-backed issue tracker built for AI coding agents that survive context loss | `bd ready`/`claim` · hash IDs · Dolt sync · `bd prime` | ✅ | `brew install beads` then `bd init --quiet` and `bd setup claude` |
+| [projectmem](services/memory-and-state/projectmem.md) [![⭐](https://img.shields.io/github/stars/riponcm/projectmem?style=social)](https://github.com/riponcm/projectmem) | We don't make AI smarter. We make it experienced. | Typed event log · `pjm precheck` · one MCP for every project | ✅ | `pip install -U projectmem` then `pjm doctor --fix` and wire `python -m projectmem.mcp_server` |
+| [Memoir](services/memory-and-state/memoir.md) [![⭐](https://img.shields.io/github/stars/zhangfengcdt/memoir?style=social)](https://github.com/zhangfengcdt/memoir) | Git for AI Memory | Semantic paths · branch/merge · `memoir-mcp` · Alpha | ✅ | `pip install memoir-ai` or `/plugin marketplace add zhangfengcdt/memoir` |
+| [Memorix](services/memory-and-state/memorix.md) [![⭐](https://img.shields.io/github/stars/AVIDS2/memorix?style=social)](https://github.com/AVIDS2/memorix) | Local-first shared memory layer for AI coding agents. | Git-root daemon · Workset · Git Memory · `memorix serve` | ✅ | `npm install -g memorix` then `memorix setup --agent claude --global` |
+| [Compartment](services/memory-and-state/compartment.md) [![⭐](https://img.shields.io/github/stars/MaxFreedomPollard/Compartment?style=social)](https://github.com/MaxFreedomPollard/Compartment) | Encrypted, fully offline memory for AI agents. | Encrypted vault · one-claim memories · `compartment serve` | ✅ | `pip install compartment && compartment init && compartment integrate claude` |
 
 ---
 
@@ -436,6 +443,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Daily Agent Toolkit](services/meeting-and-conversation/daily-agent.md) [![⭐](https://img.shields.io/github/stars/daily-co/daily-python?style=social)](https://github.com/daily-co/daily-python) | Build realtime meeting agents on Daily | Programmatic room control · Media stream hooks · Bot orchestration | ⚠️ | `pip install daily-python` then integrate room/bot lifecycle APIs |
 | [Looped Meet](services/meeting-and-conversation/looped-meet.md) [![⭐](https://img.shields.io/github/stars/loopedautomation/meet?style=social)](https://github.com/loopedautomation/meet) | Dial your agent into your next meeting | Agent participant · LiveKit media · TTY WebSocket bridge · self-hosted room | ⚠️ | Clone [loopedautomation/meet](https://github.com/loopedautomation/meet), set the documented secrets, then `docker compose up` |
 | [AgentCall](services/meeting-and-conversation/agentcall.md) [![⭐](https://img.shields.io/github/stars/pattern-ai-labs/agentcall?style=social)](https://github.com/pattern-ai-labs/agentcall) | Your AI agent, in every meeting. | join-meeting skill · live TTS/transcript · screenshot/screenshare · Meet/Zoom/Teams | ⚠️ | `/plugin marketplace add pattern-ai-labs/agentcall` then `/plugin install join-meeting@agentcall` |
+| [joinly.ai](services/meeting-and-conversation/joinly.md) [![⭐](https://img.shields.io/github/stars/joinly-ai/joinly?style=social)](https://github.com/joinly-ai/joinly) | Make your meetings accessible to AI Agents! | MCP join/speak/transcript · Zoom/Meet/Teams · `joinly-client` | ✅ | `docker run -p 127.0.0.1:8000:8000 ghcr.io/joinly-ai/joinly:latest` then `uvx joinly-client --env-file .env <MeetingUrl>` |
 
 ---
 
