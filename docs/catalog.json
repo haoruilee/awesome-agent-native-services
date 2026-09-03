@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-08-29",
-  "generated_at": "2026-08-29",
+  "catalog_version": "2026-09-03",
+  "generated_at": "2026-09-03",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "717b3953c24756672538776775910bff9c25a971bd10f3cf06eebbd9479bc741",
+      "value": "0b712151afe6ec98343ec5e01c07e3e622ef8f009b7a111b034abf4beee2694b",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -68,6 +68,8 @@
         "services/tool-access-and-integration/google-mcp-toolbox.md",
         "services/tool-access-and-integration/mcp-gateway-registry.md",
         "services/tool-access-and-integration/mcpgateway.md",
+        "services/tool-access-and-integration/mcphub.md",
+        "services/tool-access-and-integration/mcpjungle.md",
         "services/tool-access-and-integration/nango.md",
         "services/tool-access-and-integration/obot.md",
         "services/tool-access-and-integration/openchatcut.md",
@@ -139,8 +141,10 @@
         "services/agent-harnesses-and-control-planes/ruflo.md",
         "services/memory-and-state/README.md",
         "services/memory-and-state/agentmemory.md",
+        "services/memory-and-state/beads.md",
         "services/memory-and-state/claude-mem.md",
         "services/memory-and-state/cognee.md",
+        "services/memory-and-state/compartment.md",
         "services/memory-and-state/engram.md",
         "services/memory-and-state/ensue.md",
         "services/memory-and-state/hindsight.md",
@@ -150,12 +154,15 @@
         "services/memory-and-state/mem9.md",
         "services/memory-and-state/memmachine.md",
         "services/memory-and-state/memmy-agent.md",
+        "services/memory-and-state/memoir.md",
         "services/memory-and-state/memoria.md",
+        "services/memory-and-state/memorix.md",
         "services/memory-and-state/memos.md",
         "services/memory-and-state/mempalace.md",
         "services/memory-and-state/memsearch.md",
         "services/memory-and-state/memu.md",
         "services/memory-and-state/openviking.md",
+        "services/memory-and-state/projectmem.md",
         "services/memory-and-state/recall.md",
         "services/memory-and-state/tencentdb-agent-memory.md",
         "services/memory-and-state/zep.md",
@@ -207,6 +214,7 @@
         "services/meeting-and-conversation/README.md",
         "services/meeting-and-conversation/agentcall.md",
         "services/meeting-and-conversation/daily-agent.md",
+        "services/meeting-and-conversation/joinly.md",
         "services/meeting-and-conversation/looped-meet.md",
         "services/meeting-and-conversation/meeting-baas.md",
         "services/meeting-and-conversation/meetstream.md",
@@ -244,7 +252,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 208
+    "services": 216
   },
   "categories": [
     {
@@ -266,7 +274,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 19
+      "service_count": 21
     },
     {
       "id": "oversight-and-approval",
@@ -301,7 +309,7 @@
       "name": "Memory & State",
       "description": "Services that give AI agents persistent, queryable memory across sessions — treating memory as infrastructure rather than application logic, and managing the full lifecycle of what agents remember, forget, and retrieve.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md",
-      "service_count": 21
+      "service_count": 26
     },
     {
       "id": "search-and-web-intelligence",
@@ -336,7 +344,7 @@
       "name": "Meeting & Conversation",
       "description": "Services that give AI agents a programmatic presence in voice and video conversations — letting agents join meetings, process real-time audio, and participate in synchronous communication without a human operating a client.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/README.md",
-      "service_count": 7
+      "service_count": 8
     },
     {
       "id": "voice-and-phone",
@@ -1950,6 +1958,72 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "tool-access-and-integration/mcphub",
+      "slug": "mcphub",
+      "name": "MCPHub",
+      "tagline": "One gateway for all your MCP servers.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "tool-access-and-integration",
+      "website": "https://www.mcphub.app",
+      "repository": "https://github.com/samanhappy/mcphub",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcphub.md",
+      "source_path": "services/tool-access-and-integration/mcphub.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + MCP gateway",
+        "instruction": "docker run -p 3000:3000 \\\n  -v ./mcp_settings.json:/app/mcp_settings.json \\\n  -v ./data:/app/data \\\n  samanhappy/mcphub",
+        "url": "http://localhost:3000/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Last GitHub push 2026-09-03 (repo metadata); Docker samanhappy/mcphub; demo https://demo.mcphub.app/",
+      "verified_at": "2026-09-03",
+      "verification_sources": [
+        "https://api.github.com/repos/samanhappy/mcphub",
+        "https://demo.mcphub.app/"
+      ]
+    },
+    {
+      "id": "tool-access-and-integration/mcpjungle",
+      "slug": "mcpjungle",
+      "name": "MCPJungle",
+      "tagline": "Run all your MCP servers behind one endpoint",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "tool-access-and-integration",
+      "website": "https://docs.mcpjungle.com",
+      "repository": "https://github.com/mcpjungle/MCPJungle",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcpjungle.md",
+      "source_path": "services/tool-access-and-integration/mcpjungle.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + MCP gateway",
+        "instruction": "curl -O https://raw.githubusercontent.com/mcpjungle/MCPJungle/refs/heads/main/docker-compose.yaml\ndocker compose up -d\nbrew install mcpjungle/mcpjungle/mcpjungle\nmcpjungle register --name context7 --url https://mcp.context7.com/mcp",
+        "url": "https://raw.githubusercontent.com/mcpjungle/MCPJungle/refs/heads/main/docker-compose.yaml"
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Last GitHub push 2026-08-02 (repo metadata) — quieter than neighboring gateways; docs site and Docker Compose path still live as of 2026-09-03",
+      "verified_at": "2026-09-03",
+      "verification_sources": [
+        "https://api.github.com/repos/mcpjungle/MCPJungle"
+      ]
     },
     {
       "id": "tool-access-and-integration/nango",
@@ -4014,6 +4088,40 @@
       ]
     },
     {
+      "id": "memory-and-state/beads",
+      "slug": "beads",
+      "name": "Beads",
+      "tagline": "Dependency-aware, Dolt-backed issue tracker built for AI coding agents that survive context loss",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "memory-and-state",
+      "website": "https://beads.gascity.com",
+      "repository": "https://github.com/gastownhall/beads",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/beads.md",
+      "source_path": "services/memory-and-state/beads.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + optional MCP / agent setup recipes",
+        "instruction": "brew install beads\n# or: curl -fsSL https://raw.githubusercontent.com/gastownhall/beads/main/scripts/install.sh | bash\n# or: npm install -g @beads/bd\n\ncd your-project\nbd init --quiet\nbd setup claude    # also: codex, cursor, factory, mux, gemini, copilot, …\nbd ready --json",
+        "url": "https://raw.githubusercontent.com/gastownhall/beads/main/scripts/install.sh"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "cli",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "optional",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Last GitHub push 2026-09-03 (repo metadata); Homebrew beads, npm @beads/bd, PyPI beads-mcp",
+      "verified_at": "2026-09-03",
+      "verification_sources": [
+        "https://api.github.com/repos/gastownhall/beads"
+      ]
+    },
+    {
       "id": "memory-and-state/claude-mem",
       "slug": "claude-mem",
       "name": "Claude-Mem",
@@ -4076,6 +4184,39 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "memory-and-state/compartment",
+      "slug": "compartment",
+      "name": "Compartment",
+      "tagline": "Encrypted, fully offline memory for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "memory-and-state",
+      "website": "https://maxfreedompollard.github.io/Compartment/",
+      "repository": "https://github.com/MaxFreedomPollard/Compartment",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/compartment.md",
+      "source_path": "services/memory-and-state/compartment.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + MCP (compartment serve)",
+        "instruction": "pip install compartment && compartment init\ncompartment integrate claude      # also: hermes, openclaw, or --all\n# MCP clients without a recipe:\n# { \"mcpServers\": { \"compartment\": { \"command\": \"compartment\", \"args\": [\"serve\"] } } }",
+        "url": null
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "cli",
+        "stdio"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Last GitHub push 2026-09-02 (repo metadata); PyPI compartment",
+      "verified_at": "2026-09-03",
+      "verification_sources": [
+        "https://api.github.com/repos/MaxFreedomPollard/Compartment"
+      ]
     },
     {
       "id": "memory-and-state/engram",
@@ -4366,6 +4507,39 @@
       ]
     },
     {
+      "id": "memory-and-state/memoir",
+      "slug": "memoir",
+      "name": "Memoir",
+      "tagline": "Git for AI Memory",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "memory-and-state",
+      "website": "https://www.memoir-ai.dev",
+      "repository": "https://github.com/zhangfengcdt/memoir",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/memoir.md",
+      "source_path": "services/memory-and-state/memoir.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "SDK / CLI + plugins / MCP",
+        "instruction": "pip install memoir-ai\n# Claude Code:\n#   /plugin marketplace add zhangfengcdt/memoir\n#   /plugin install memoir@memoir",
+        "url": null
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "cli",
+        "sdk"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Last GitHub push 2026-09-03 (repo metadata); PyPI memoir-ai; Claude Code / Codex plugins",
+      "verified_at": "2026-09-03",
+      "verification_sources": [
+        "https://api.github.com/repos/zhangfengcdt/memoir"
+      ]
+    },
+    {
       "id": "memory-and-state/memoria",
       "slug": "memoria",
       "name": "Memoria",
@@ -4395,6 +4569,41 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "memory-and-state/memorix",
+      "slug": "memorix",
+      "name": "Memorix",
+      "tagline": "Local-first shared memory layer for AI coding agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "memory-and-state",
+      "website": "https://github.com/AVIDS2/memorix",
+      "repository": "https://github.com/AVIDS2/memorix",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/memorix.md",
+      "source_path": "services/memory-and-state/memorix.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + MCP / memorix setup",
+        "instruction": "npm install -g memorix\nmemorix setup --agent claude --global\n# also: codex, copilot, cursor, pi, gemini-cli, opencode, windsurf,\n# kiro, antigravity, trae, openclaw, hermes, omp, dsh, workbuddy, …",
+        "url": null
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "cli",
+        "sdk",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "optional",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Last GitHub push 2026-09-02 (repo metadata); npm memorix; listed in the official MCP Registry",
+      "verified_at": "2026-09-03",
+      "verification_sources": [
+        "https://api.github.com/repos/AVIDS2/memorix"
+      ]
     },
     {
       "id": "memory-and-state/memos",
@@ -4560,6 +4769,38 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "memory-and-state/projectmem",
+      "slug": "projectmem",
+      "name": "projectmem",
+      "tagline": "We don't make AI smarter. We make it experienced.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "memory-and-state",
+      "website": "https://www.projectmem.dev",
+      "repository": "https://github.com/riponcm/projectmem",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/projectmem.md",
+      "source_path": "services/memory-and-state/projectmem.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "SDK / CLI + MCP",
+        "instruction": "pip install -U projectmem\npjm doctor\npjm doctor --fix\npjm init    # per repo — writes .projectmem/ and git hooks",
+        "url": null
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "stdio"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Last GitHub push 2026-09-01 (repo metadata); PyPI projectmem v0.3.1 — one MCP server for every project",
+      "verified_at": "2026-09-03",
+      "verification_sources": [
+        "https://api.github.com/repos/riponcm/projectmem"
+      ]
     },
     {
       "id": "memory-and-state/recall",
@@ -6013,6 +6254,37 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "meeting-and-conversation/joinly",
+      "slug": "joinly",
+      "name": "joinly.ai",
+      "tagline": "Make your meetings accessible to AI Agents!",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "meeting-and-conversation",
+      "website": "https://joinly.ai",
+      "repository": "https://github.com/joinly-ai/joinly",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/joinly.md",
+      "source_path": "services/meeting-and-conversation/joinly.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + MCP server",
+        "instruction": "docker pull ghcr.io/joinly-ai/joinly:latest\n# Quickstart client-in-container (no external MCP):\ndocker run --env-file .env ghcr.io/joinly-ai/joinly:latest --client <MeetingURL>\n\n# Server mode — bind localhost only:\ndocker run -p 127.0.0.1:8000:8000 ghcr.io/joinly-ai/joinly:latest\nuvx joinly-client --env-file .env <MeetingUrl>",
+        "url": null
+      },
+      "protocols": [
+        "mcp"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Last GitHub push 2026-09-01 (repo metadata); image ghcr.io/joinly-ai/joinly; PyPI joinly-client; optional cloud https://cloud.joinly.ai",
+      "verified_at": "2026-09-03",
+      "verification_sources": [
+        "https://api.github.com/repos/joinly-ai/joinly",
+        "https://cloud.joinly.ai"
+      ]
     },
     {
       "id": "meeting-and-conversation/looped-meet",
