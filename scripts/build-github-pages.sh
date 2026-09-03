@@ -21,6 +21,21 @@ EDITORIAL_IMAGES=(
   "$IMG_DIR/editorial-memory.webp"
   "$IMG_DIR/editorial-resonance.webp"
   "$IMG_DIR/editorial-routing.webp"
+  "$IMG_DIR/editorial-routing-2.webp"
+  "$IMG_DIR/editorial-communication.webp"
+  "$IMG_DIR/editorial-browser.webp"
+  "$IMG_DIR/editorial-tools.webp"
+  "$IMG_DIR/editorial-oversight.webp"
+  "$IMG_DIR/editorial-commerce.webp"
+  "$IMG_DIR/editorial-harness.webp"
+  "$IMG_DIR/editorial-search.webp"
+  "$IMG_DIR/editorial-sandbox.webp"
+  "$IMG_DIR/editorial-observability.webp"
+  "$IMG_DIR/editorial-durable.webp"
+  "$IMG_DIR/editorial-meeting.webp"
+  "$IMG_DIR/editorial-voice.webp"
+  "$IMG_DIR/editorial-social.webp"
+  "$IMG_DIR/social-preview-wide.webp"
 )
 
 mkdir -p "$IMG_DIR"
@@ -83,26 +98,78 @@ category_description() {
 
 category_hero_image() {
   case "$1" in
-    communication|browser-and-web-execution|tool-access-and-integration)
-      echo "/assets/images/editorial-network.webp"
+    communication) echo "/assets/images/editorial-communication.webp" ;;
+    browser-and-web-execution) echo "/assets/images/editorial-browser.webp" ;;
+    tool-access-and-integration) echo "/assets/images/editorial-tools.webp" ;;
+    oversight-and-approval) echo "/assets/images/editorial-oversight.webp" ;;
+    commerce-and-payments) echo "/assets/images/editorial-commerce.webp" ;;
+    agent-runtime-and-infrastructure) echo "/assets/images/editorial-runtime.webp" ;;
+    agent-harnesses-and-control-planes) echo "/assets/images/editorial-harness.webp" ;;
+    memory-and-state) echo "/assets/images/editorial-memory.webp" ;;
+    search-and-web-intelligence) echo "/assets/images/editorial-search.webp" ;;
+    code-execution) echo "/assets/images/editorial-sandbox.webp" ;;
+    observability-and-tracing) echo "/assets/images/editorial-observability.webp" ;;
+    durable-execution-and-scheduling) echo "/assets/images/editorial-durable.webp" ;;
+    meeting-and-conversation) echo "/assets/images/editorial-meeting.webp" ;;
+    voice-and-phone) echo "/assets/images/editorial-voice.webp" ;;
+    llm-gateway-and-routing) echo "/assets/images/editorial-routing.webp" ;;
+    agent-social-network) echo "/assets/images/editorial-social.webp" ;;
+    *) echo "/assets/images/editorial-hero.webp" ;;
+  esac
+}
+
+category_hero_alt() {
+  case "$1" in
+    communication)
+      echo "Two white alcoves face each other on a dark plinth, joined by a thin gold line."
       ;;
-    oversight-and-approval|commerce-and-payments|agent-harnesses-and-control-planes)
-      echo "/assets/images/editorial-authority.webp"
+    browser-and-web-execution)
+      echo "A square opening in a plaster wall crossed by a brass rod, with dark stone steps and a red cube."
       ;;
-    agent-runtime-and-infrastructure|code-execution|durable-execution-and-scheduling)
-      echo "/assets/images/editorial-runtime.webp"
+    tool-access-and-integration)
+      echo "Slender brass instruments standing in a grooved stone block, with two tools lying before a dark slab."
       ;;
-    memory-and-state|search-and-web-intelligence|observability-and-tracing)
-      echo "/assets/images/editorial-memory.webp"
+    oversight-and-approval)
+      echo "A black arched doorway in a plaster wall barred by a horizontal brass rod beside a burgundy column."
       ;;
-    meeting-and-conversation|voice-and-phone|agent-social-network)
-      echo "/assets/images/editorial-resonance.webp"
+    commerce-and-payments)
+      echo "A gold coin standing in a slotted cream block, with a charcoal pillar and a red plane behind it."
+      ;;
+    agent-runtime-and-infrastructure)
+      echo "Tiered beige stone platforms and matte-black pillars linked by thin gold rods."
+      ;;
+    agent-harnesses-and-control-planes)
+      echo "A charcoal block strapped in a brushed-brass frame with handle-like rods."
+      ;;
+    memory-and-state)
+      echo "A dark glass disc on a gold rod set against a layered white form with a spherical void."
+      ;;
+    search-and-web-intelligence)
+      echo "Textured plates and a smoked-glass disc threaded on a brass rod that ends in a black block."
+      ;;
+    code-execution)
+      echo "A gold sphere isolated in a glass case on a dark stone base and cream pedestals."
+      ;;
+    observability-and-tracing)
+      echo "A cream stone block cut open to dark geological layers with a thin gold vein."
+      ;;
+    durable-execution-and-scheduling)
+      echo "Cream L-shaped blocks and one dark stone block threaded on a single brass rod."
+      ;;
+    meeting-and-conversation)
+      echo "A cream pedestal holding a gold ring, with three black spheres in a sunlit corner."
+      ;;
+    voice-and-phone)
+      echo "A beige horn-shaped vessel with a gold sphere at its center, resting on a dark plinth."
       ;;
     llm-gateway-and-routing)
-      echo "/assets/images/editorial-routing.webp"
+      echo "Parallel gold pipes flowing through dark translucent panels above a winding marble and stone base."
+      ;;
+    agent-social-network)
+      echo "A black cylinder inside a gold ring, with black spheres gathered around it on a plaster floor."
       ;;
     *)
-      echo "/assets/images/editorial-hero.webp"
+      echo "Editorial study for an agent-native collection: plaster volumes, charcoal forms, and gold connectors."
       ;;
   esac
 }
@@ -240,7 +307,7 @@ cat >"$INDEX" <<YAML
 ---
 title: "The Agent-Native Index"
 description: "A curated 2026 collection of agent-native infrastructure: MCP tools, harnesses, identity, memory, sandboxes, browsers, payments, and runtimes."
-image: /assets/images/social-preview.png
+image: /assets/images/social-preview-wide.webp
 page_kind: home
 service_count: ${TOTAL_SERVICES}
 collection_count: ${TOTAL_COLLECTIONS}
@@ -295,13 +362,19 @@ cat >>"$INDEX" <<HTML
   </div>
 </section>
 
-<section id="material-studies" class="editorial-gallery" aria-label="Six material studies for agent-native infrastructure">
-  <figure class="editorial-gallery__item editorial-gallery__item--wide"><img src="{{ '/assets/images/editorial-network.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
-  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-authority.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
-  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-runtime.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
-  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-memory.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
-  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-resonance.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
-  <figure class="editorial-gallery__item editorial-gallery__item--panorama"><img src="{{ '/assets/images/editorial-routing.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
+<section id="material-studies" class="editorial-gallery" aria-label="Material studies for agent-native infrastructure">
+  <figure class="editorial-gallery__item editorial-gallery__item--wide"><img src="{{ '/assets/images/editorial-network.webp' | relative_url }}" alt="Gold wires passing through a sequence of stone arches and converging into a circular hub." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-communication.webp' | relative_url }}" alt="Two white alcoves face each other on a dark plinth, joined by a thin gold line." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-authority.webp' | relative_url }}" alt="A gold beam balanced on stone disks in front of nested golden arches." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-oversight.webp' | relative_url }}" alt="A black arched doorway in a plaster wall barred by a horizontal brass rod beside a burgundy column." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-browser.webp' | relative_url }}" alt="A square opening in a plaster wall crossed by a brass rod, with dark stone steps and a red cube." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-runtime.webp' | relative_url }}" alt="Tiered beige stone platforms and matte-black pillars linked by thin gold rods." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-harness.webp' | relative_url }}" alt="A charcoal block strapped in a brushed-brass frame with handle-like rods." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-memory.webp' | relative_url }}" alt="A dark glass disc on a gold rod set against a layered white form with a spherical void." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-search.webp' | relative_url }}" alt="Textured plates and a smoked-glass disc threaded on a brass rod that ends in a black block." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-tools.webp' | relative_url }}" alt="Slender brass instruments standing in a grooved stone block, with two tools lying before a dark slab." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-routing-2.webp' | relative_url }}" alt="Five brass rods with spherical nodes converging into a vertical slot on a plaster wall." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item editorial-gallery__item--panorama"><img src="{{ '/assets/images/editorial-routing.webp' | relative_url }}" alt="Parallel gold pipes flowing through dark translucent panels above a winding marble and stone base." width="1536" height="1024" loading="lazy" decoding="async"></figure>
 </section>
 
 <section id="collections" aria-labelledby="collections-title">
@@ -345,8 +418,11 @@ cat >>"$INDEX" <<HTML
   <div class="agent-entry-panel__links">
     <a href="{{ '/skill.md' | relative_url }}">skill.md ↗</a>
     <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/CONTRIBUTING.md">Criteria ↗</a>
+    <a href="#faq">FAQ</a>
   </div>
 </section>
+
+{% include home-faq.html %}
 
 <section class="source-gateway" id="complete-index">
   <span class="source-gateway__image" aria-hidden="true"></span>
@@ -401,6 +477,7 @@ for index in "${!CATEGORY_SLUGS[@]}"; do
   label="$(category_label "$slug")"
   description="$(category_description "$slug")"
   hero_image="$(category_hero_image "$slug")"
+  hero_alt="$(category_hero_alt "$slug")"
   number="$(printf '%02d' "$(category_order "$slug")")"
   count="$(service_count_for "$slug")"
   out="$CAT_ROOT/$slug.md"
@@ -413,6 +490,8 @@ title: "$(yaml_escape "$label") | Agent-Native Services"
 collection_label: "$(yaml_escape "$label")"
 description: "$(yaml_escape "$description")"
 hero_image: "${hero_image}"
+hero_image_alt: "$(yaml_escape "$hero_alt")"
+image: "${hero_image}"
 permalink: /categories/${slug}/
 page_kind: collection
 collection_number: "${number}"

@@ -1,7 +1,7 @@
 ---
 title: "The Agent-Native Index"
 description: "A curated 2026 collection of agent-native infrastructure: MCP tools, harnesses, identity, memory, sandboxes, browsers, payments, and runtimes."
-image: /assets/images/social-preview.png
+image: /assets/images/social-preview-wide.webp
 page_kind: home
 service_count: 216
 collection_count: 16
@@ -506,13 +506,19 @@ new_arrivals_count: 61
   </div>
 </section>
 
-<section id="material-studies" class="editorial-gallery" aria-label="Six material studies for agent-native infrastructure">
-  <figure class="editorial-gallery__item editorial-gallery__item--wide"><img src="{{ '/assets/images/editorial-network.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
-  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-authority.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
-  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-runtime.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
-  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-memory.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
-  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-resonance.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
-  <figure class="editorial-gallery__item editorial-gallery__item--panorama"><img src="{{ '/assets/images/editorial-routing.webp' | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async"></figure>
+<section id="material-studies" class="editorial-gallery" aria-label="Material studies for agent-native infrastructure">
+  <figure class="editorial-gallery__item editorial-gallery__item--wide"><img src="{{ '/assets/images/editorial-network.webp' | relative_url }}" alt="Gold wires passing through a sequence of stone arches and converging into a circular hub." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-communication.webp' | relative_url }}" alt="Two white alcoves face each other on a dark plinth, joined by a thin gold line." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-authority.webp' | relative_url }}" alt="A gold beam balanced on stone disks in front of nested golden arches." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-oversight.webp' | relative_url }}" alt="A black arched doorway in a plaster wall barred by a horizontal brass rod beside a burgundy column." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-browser.webp' | relative_url }}" alt="A square opening in a plaster wall crossed by a brass rod, with dark stone steps and a red cube." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-runtime.webp' | relative_url }}" alt="Tiered beige stone platforms and matte-black pillars linked by thin gold rods." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-harness.webp' | relative_url }}" alt="A charcoal block strapped in a brushed-brass frame with handle-like rods." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-memory.webp' | relative_url }}" alt="A dark glass disc on a gold rod set against a layered white form with a spherical void." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-search.webp' | relative_url }}" alt="Textured plates and a smoked-glass disc threaded on a brass rod that ends in a black block." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-tools.webp' | relative_url }}" alt="Slender brass instruments standing in a grooved stone block, with two tools lying before a dark slab." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item"><img src="{{ '/assets/images/editorial-routing-2.webp' | relative_url }}" alt="Five brass rods with spherical nodes converging into a vertical slot on a plaster wall." width="1536" height="1024" loading="lazy" decoding="async"></figure>
+  <figure class="editorial-gallery__item editorial-gallery__item--panorama"><img src="{{ '/assets/images/editorial-routing.webp' | relative_url }}" alt="Parallel gold pipes flowing through dark translucent panels above a winding marble and stone base." width="1536" height="1024" loading="lazy" decoding="async"></figure>
 </section>
 
 <section id="collections" aria-labelledby="collections-title">
@@ -662,8 +668,11 @@ new_arrivals_count: 61
   <div class="agent-entry-panel__links">
     <a href="{{ '/skill.md' | relative_url }}">skill.md ↗</a>
     <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/CONTRIBUTING.md">Criteria ↗</a>
+    <a href="#faq">FAQ</a>
   </div>
 </section>
+
+{% include home-faq.html %}
 
 <section class="source-gateway" id="complete-index">
   <span class="source-gateway__image" aria-hidden="true"></span>

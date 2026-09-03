@@ -2,7 +2,9 @@
 title: "Agent Harnesses & Operator Surfaces | Agent-Native Services"
 collection_label: "Agent Harnesses & Operator Surfaces"
 description: "Harnesses, control planes, and purpose-built operator surfaces for capable agents."
-hero_image: "/assets/images/editorial-authority.webp"
+hero_image: "/assets/images/editorial-harness.webp"
+hero_image_alt: "A charcoal block strapped in a brushed-brass frame with handle-like rods."
+image: "/assets/images/editorial-harness.webp"
 permalink: /categories/agent-harnesses-and-control-planes/
 page_kind: collection
 collection_number: "07"

@@ -2,7 +2,9 @@
 title: "Oversight & Approval | Agent-Native Services"
 collection_label: "Oversight & Approval"
 description: "Approval, policy, escalation, and review boundaries for consequential agent actions."
-hero_image: "/assets/images/editorial-authority.webp"
+hero_image: "/assets/images/editorial-oversight.webp"
+hero_image_alt: "A black arched doorway in a plaster wall barred by a horizontal brass rod beside a burgundy column."
+image: "/assets/images/editorial-oversight.webp"
 permalink: /categories/oversight-and-approval/
 page_kind: collection
 collection_number: "04"

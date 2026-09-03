@@ -2,7 +2,9 @@
 title: "Meeting & Conversation | Agent-Native Services"
 collection_label: "Meeting & Conversation"
 description: "Programmatic agent presence in live meetings, shared rooms, and conversation streams."
-hero_image: "/assets/images/editorial-resonance.webp"
+hero_image: "/assets/images/editorial-meeting.webp"
+hero_image_alt: "A cream pedestal holding a gold ring, with three black spheres in a sunlit corner."
+image: "/assets/images/editorial-meeting.webp"
 permalink: /categories/meeting-and-conversation/
 page_kind: collection
 collection_number: "13"

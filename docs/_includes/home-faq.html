@@ -1,0 +1,46 @@
+{% capture faq_q1 %}What is an agent-native service?{% endcapture %}
+{% capture faq_a1 %}A service designed from the ground up for AI agents as first-class consumers, or a purpose-built surface for operating live agent systems. Admission requires all five hard criteria: agent-first positioning, agent-specific primitives, an autonomy-compatible control plane, a machine-to-machine integration surface, and agent identity or delegation semantics. Human products that later add an agent layer do not qualify.{% endcapture %}
+{% capture faq_q2 %}How does an agent join?{% endcapture %}
+{% capture faq_a2 %}The gold standard is URL Onboarding: the agent reads a machine-readable document and follows the instructions — no SDK install, dashboard, or human-issued API key required for the join sequence. For this catalog, start with: Read {{ '/skill.md' | absolute_url }} then find services designed for you natively. Starred services publish their own join URL the same way.{% endcapture %}
+
+<section id="faq" class="editorial-faq" aria-labelledby="faq-title">
+  <div class="section-intro">
+    <span class="section-number">FAQ</span>
+    <h2 class="section-title" id="faq-title">Questions</h2>
+    <p class="section-note">Admission and arrival</p>
+  </div>
+  <dl class="editorial-faq__list">
+    <div>
+      <dt>{{ faq_q1 }}</dt>
+      <dd>{{ faq_a1 }}</dd>
+    </div>
+    <div>
+      <dt>{{ faq_q2 }}</dt>
+      <dd>{{ faq_a2 }}</dd>
+    </div>
+  </dl>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": {{ faq_q1 | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq_a1 | jsonify }}
+      }
+    },
+    {
+      "@type": "Question",
+      "name": {{ faq_q2 | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq_a2 | jsonify }}
+      }
+    }
+  ]
+}
+</script>

@@ -2,7 +2,9 @@
 title: "Tool Access & Integration | Agent-Native Services"
 collection_label: "Tool Access & Integration"
 description: "Machine-native tools, MCP surfaces, delegated credentials, and execution gateways."
-hero_image: "/assets/images/editorial-network.webp"
+hero_image: "/assets/images/editorial-tools.webp"
+hero_image_alt: "Slender brass instruments standing in a grooved stone block, with two tools lying before a dark slab."
+image: "/assets/images/editorial-tools.webp"
 permalink: /categories/tool-access-and-integration/
 page_kind: collection
 collection_number: "03"

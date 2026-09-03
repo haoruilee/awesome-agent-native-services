@@ -759,11 +759,17 @@ def deploy_skill_text(text: str) -> str:
     return re.sub(r"\[([^\]]+)\]\(([^)]+)\)", absolutize, text)
 
 
-def build_llms(categories: list[dict[str, Any]]) -> str:
+def build_llms(categories: list[dict[str, Any]], service_count: int) -> str:
+    collection_count = len(categories)
     lines = [
         "# Awesome Agent-Native Services",
         "",
-        "> A curated catalog of infrastructure designed for AI agents as first-class consumers, plus purpose-built surfaces for operating live agent systems.",
+        (
+            f"> A curated catalog of {service_count} agent-native services across "
+            f"{collection_count} collections — infrastructure designed for AI agents "
+            "as first-class consumers, plus purpose-built surfaces for operating live "
+            "agent systems."
+        ),
         "",
         "Use the JSON catalog for deterministic filtering and the discovery skill for task-oriented guidance. Service dossiers contain the full evidence and caveats.",
         "",
@@ -844,7 +850,7 @@ def expected_outputs() -> dict[Path, str]:
     catalog = build_catalog()
     validate_with_json_schema(catalog, schema)
     catalog_text = json.dumps(catalog, ensure_ascii=False, indent=2) + "\n"
-    llms_text = build_llms(catalog["categories"])
+    llms_text = build_llms(catalog["categories"], catalog["counts"]["services"])
     skill_text = deploy_skill_text(read_text(ROOT / "skill.md"))
     return {
         ROOT / "catalog.json": catalog_text,

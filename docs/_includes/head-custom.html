@@ -30,6 +30,23 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Awesome Agent-Native Services catalog",
+  "description": "Versioned JSON records of agent-native services with stable IDs, typed onboarding, protocols, status, and provenance.",
+  "url": {{ '/catalog.json' | absolute_url | jsonify }},
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "encodingFormat": "application/json",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Person",
+    "name": "haoruilee",
+    "url": "https://github.com/haoruilee"
+  }
+}
+</script>
 {% elsif page.page_kind == "collection" %}
 <script type="application/ld+json">
 {
@@ -40,6 +57,32 @@
   "url": {{ page.url | absolute_url | jsonify }},
   "numberOfItems": {{ page.service_count | default: 0 }},
   "isPartOf": { "@type": "WebSite", "name": "The Agent-Native Index", "url": {{ '/' | absolute_url | jsonify }} }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Index",
+      "item": {{ '/' | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Collections",
+      "item": {{ '/categories/' | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.collection_label | default: page.title | jsonify }},
+      "item": {{ page.url | absolute_url | jsonify }}
+    }
+  ]
 }
 </script>
 {% endif %}

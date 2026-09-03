@@ -351,6 +351,10 @@ a:hover {
   text-decoration: none;
 }
 
+.breadcrumb [aria-current="page"] {
+  color: var(--porcelain);
+}
+
 .catalog-content {
   width: var(--page);
   margin: 0 auto;
@@ -1542,6 +1546,39 @@ a:hover {
   transform: scale(1.012);
 }
 
+.editorial-faq {
+  margin: 0 0 clamp(110px, 13vw, 170px);
+}
+
+.editorial-faq__list {
+  margin: 0;
+  display: grid;
+  gap: 18px;
+}
+
+.editorial-faq__list > div {
+  padding: clamp(22px, 3vw, 34px);
+  background: var(--porcelain);
+}
+
+.editorial-faq dt {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.4vw, 32px);
+  font-weight: 400;
+  letter-spacing: -.03em;
+  line-height: 1.15;
+}
+
+.editorial-faq dd {
+  margin: 0;
+  max-width: 72ch;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
 .collection-card,
 .collection-card:hover {
   min-height: 0;
@@ -1794,6 +1831,10 @@ a:hover {
   .editorial-gallery__item--panorama {
     grid-column: 1 / -1;
     aspect-ratio: 1.12 / 1;
+  }
+
+  .editorial-faq {
+    margin-bottom: 92px;
   }
 
   .collection-card {

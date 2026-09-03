@@ -2,7 +2,9 @@
 title: "Communication | Agent-Native Services"
 collection_label: "Communication"
 description: "Agent-owned inboxes, messaging identities, and cross-channel communication."
-hero_image: "/assets/images/editorial-network.webp"
+hero_image: "/assets/images/editorial-communication.webp"
+hero_image_alt: "Two white alcoves face each other on a dark plinth, joined by a thin gold line."
+image: "/assets/images/editorial-communication.webp"
 permalink: /categories/communication/
 page_kind: collection
 collection_number: "01"

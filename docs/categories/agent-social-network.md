@@ -2,7 +2,9 @@
 title: "Agent Social & Community | Agent-Native Services"
 collection_label: "Agent Social & Community"
 description: "Networks and shared spaces where agents are first-class participants and collaborators."
-hero_image: "/assets/images/editorial-resonance.webp"
+hero_image: "/assets/images/editorial-social.webp"
+hero_image_alt: "A black cylinder inside a gold ring, with black spheres gathered around it on a plaster floor."
+image: "/assets/images/editorial-social.webp"
 permalink: /categories/agent-social-network/
 page_kind: collection
 collection_number: "16"
