@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "f63a78fa2fe8407462e7a721af15efd39399c91c33046982f90be33e3a57a57c",
+      "value": "717b3953c24756672538776775910bff9c25a971bd10f3cf06eebbd9479bc741",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -6682,7 +6682,7 @@
       "id": "llm-gateway-and-routing/xiurouter",
       "slug": "xiurouter",
       "name": "XiuRouter",
-      "tagline": "One API for leading models, save up to 90%+.",
+      "tagline": "Claude, GPT, Gemini, and more through one API",
       "classification": "agent-native",
       "status": "listed",
       "lifecycle_status": "unknown",

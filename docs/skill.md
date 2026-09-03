@@ -379,7 +379,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Helicone](https://www.helicone.ai) | AI Gateway + observability — `ai-gateway.helicone.ai` | OpenAI SDK `baseURL` per [Helicone quickstart](https://docs.helicone.ai/) |
 | [Routerly](https://github.com/Inebrio/Routerly) | Self-hosted gateway with LLM-native routing policy | Run the official Docker image with `routerly.json`, then point the client base URL to it |
 | [SageRoute](https://github.com/codejunkie99/sageroute) | Trajectory-aware model router | Clone → `bun install` → `bun run serve`, then set the client base URL |
-| [XiuRouter](https://router.xiu.ai/en) | One API for leading models, save up to 90%+ | Create a scoped key, then follow [Agent integrations](https://router.xiu.ai/en/integrations) for the client's native protocol |
+| [XiuRouter](https://router.xiu.ai/en) | Claude, GPT, Gemini, and more through one API | Create a scoped key, then follow [Agent integrations](https://router.xiu.ai/en/integrations) for the client's native protocol |
 
 ---
 

@@ -1,6 +1,6 @@
 # XiuRouter
 
-> **"One API for leading models, save up to 90%+."**
+> **"Claude, GPT, Gemini, and more through one API"**
 
 | | |
 |---|---|
