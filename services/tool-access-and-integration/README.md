@@ -35,6 +35,8 @@ Agent-native tool access services solve all three problems with primitives that 
 | [SandBase CLI](sandbase-cli.md) [![⭐](https://img.shields.io/github/stars/sandbaseai/cli?style=social)](https://github.com/sandbaseai/cli) | Give your AI agent superpowers. One command. 2,000+ AI models. | local stdio MCP · `discover → inspect → run` · CLI connect/doctor/catalog · Agent Skill | ✅ |
 | [ContextForge](contextforge.md) [![⭐](https://img.shields.io/github/stars/IBM/mcp-context-forge?style=social)](https://github.com/IBM/mcp-context-forge) | Registry and proxy that federates MCP, A2A, and REST/gRPC | `mcpgateway` CLI, Docker, MCP/A2A/REST/gRPC, UAID routing | ✅ |
 | [MCP Gateway & Registry](mcp-gateway-registry.md) [![⭐](https://img.shields.io/github/stars/agentic-community/mcp-gateway-registry?style=social)](https://github.com/agentic-community/mcp-gateway-registry) | Unified Agent & MCP Server Registry – Gateway for AI Development Tools | nginx gateway, FastAPI registry, MCP, REST, Helm/Terraform | ✅ |
+| [MCPHub](mcphub.md) [![⭐](https://img.shields.io/github/stars/samanhappy/mcphub?style=social)](https://github.com/samanhappy/mcphub) | One gateway for all your MCP servers. | Docker hub, `/mcp` routes, `$smart`, bearer/OAuth, CLI | ✅ |
+| [MCPJungle](mcpjungle.md) [![⭐](https://img.shields.io/github/stars/mcpjungle/MCPJungle?style=social)](https://github.com/mcpjungle/MCPJungle) | Run all your MCP servers behind one endpoint | Compose `/mcp`, tool groups, enterprise tokens, MPL-2.0 | ✅ |
 
 
 

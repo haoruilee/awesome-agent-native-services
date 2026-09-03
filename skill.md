@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-08-29"
+version: "2026-09-03"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -73,7 +73,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 208 Services
+## Full Catalog — 16 Categories, 216 Services
 
 ### 1. Communication (15 services)
 *Give agents a first-class communication identity on the internet.*
@@ -131,7 +131,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 3. Tool Access & Integration (19 services)
+### 3. Tool Access & Integration (21 services)
 *Runtime tool discovery, auth, and execution without human pre-configuration.*
 
 | Service | Tagline | Onboarding |
@@ -155,6 +155,8 @@ These services can be joined with a single instruction, right now, with no human
 | [SandBase CLI](https://github.com/sandbaseai/cli) | Give your AI agent superpowers. One command. 2,000+ AI models. | GitHub `v0.1.17` tarball `connect`, then `npx skills add sandbaseai/cli --skill sandbase` |
 | [ContextForge](https://ibm.github.io/mcp-context-forge/) | Registry and proxy that federates MCP, A2A, and REST/gRPC | `uvx --from mcp-contextforge-gateway mcpgateway --host 0.0.0.0 --port 4444` |
 | [MCP Gateway & Registry](https://agentic-community.github.io/mcp-gateway-registry/) | Unified Agent & MCP Server Registry | `git clone https://github.com/agentic-community/mcp-gateway-registry && ./build_and_run.sh --prebuilt` |
+| [MCPHub](https://www.mcphub.app) | One gateway for all your MCP servers. | `docker run -p 3000:3000 -v ./data:/app/data samanhappy/mcphub` then connect to `http://localhost:3000/mcp` |
+| [MCPJungle](https://docs.mcpjungle.com) | Run all your MCP servers behind one endpoint | `docker compose up -d` then `mcpjungle register --name context7 --url https://mcp.context7.com/mcp` |
 
 ---
 
@@ -246,7 +248,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 8. Memory & State (21 services)
+### 8. Memory & State (26 services)
 *Persistent, queryable memory across sessions — memory as infrastructure, not application logic.*
 
 | Service | Tagline | Onboarding |
@@ -272,6 +274,11 @@ These services can be joined with a single instruction, right now, with no human
 | [MemSearch](https://zilliztech.github.io/memsearch/) | Cross-platform semantic memory for AI coding agents | `uv tool install "memsearch[onnx]"` or Claude Code `/plugin marketplace add zilliztech/memsearch` |
 | [Claude-Mem](https://cmem.ai/) | Persistent memory compression system for Claude Code | `npx claude-mem install` or `/plugin marketplace add thedotmack/claude-mem` |
 | [Engram](https://gentleman-programming-engram.mintlify.app/introduction) | Persistent memory for AI coding agents | `brew install gentleman-programming/tap/engram` then `engram setup <agent>` |
+| [Beads](https://beads.gascity.com) | Dependency-aware, Dolt-backed issue tracker built for AI coding agents that survive context loss | `brew install beads` then `bd init --quiet` and `bd setup claude` |
+| [projectmem](https://www.projectmem.dev) | We don't make AI smarter. We make it experienced. | `pip install -U projectmem` then `pjm doctor --fix` and wire `python -m projectmem.mcp_server` |
+| [Memoir](https://www.memoir-ai.dev) | Git for AI Memory | `pip install memoir-ai` or `/plugin marketplace add zhangfengcdt/memoir` |
+| [Memorix](https://github.com/AVIDS2/memorix) | Local-first shared memory layer for AI coding agents. | `npm install -g memorix` then `memorix setup --agent claude --global` |
+| [Compartment](https://maxfreedompollard.github.io/Compartment/) | Encrypted, fully offline memory for AI agents. | `pip install compartment && compartment init && compartment integrate claude` |
 
 ---
 
@@ -348,7 +355,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 13. Meeting & Conversation (7 services)
+### 13. Meeting & Conversation (8 services)
 *Programmatic agent presence in voice and video meetings.*
 
 | Service | Tagline | Onboarding |
@@ -360,6 +367,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Daily Agent Toolkit](https://github.com/daily-co/daily-python) | Build realtime meeting agents on Daily | `pip install daily-python` then integrate the room/bot lifecycle APIs |
 | [Looped Meet](https://meet.looped.sh) | Dial your agent into your next meeting | Clone [loopedautomation/meet](https://github.com/loopedautomation/meet), configure secrets, then `docker compose up` |
 | [AgentCall](https://agentcall.dev) | Your AI agent, in every meeting. | `/plugin marketplace add pattern-ai-labs/agentcall` then `/plugin install join-meeting@agentcall` |
+| [joinly.ai](https://joinly.ai) | Make your meetings accessible to AI Agents! | `docker run -p 127.0.0.1:8000:8000 ghcr.io/joinly-ai/joinly:latest` then `uvx joinly-client --env-file .env <MeetingUrl>` |
 
 ---
 

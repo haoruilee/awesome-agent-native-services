@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with any agent that can read markdown files and call web searches.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-08-29"
+  catalog-version: "2026-09-03"
 allowed-tools: WebSearch Read
 ---
 

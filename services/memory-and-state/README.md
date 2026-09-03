@@ -45,6 +45,11 @@ Agent-native memory services solve this by providing:
 | [MemSearch](memsearch.md) [![⭐](https://img.shields.io/github/stars/zilliztech/memsearch?style=social)](https://github.com/zilliztech/memsearch) | Cross-platform semantic memory for AI coding agents | CLI, Python API, Claude/Codex/DSH/OpenClaw/OpenCode plugins | ⚠️ |
 | [Claude-Mem](claude-mem.md) [![⭐](https://img.shields.io/github/stars/thedotmack/claude-mem?style=social)](https://github.com/thedotmack/claude-mem) | Persistent memory compression system for Claude Code | Installer, lifecycle hooks, local worker, MCP search | ✅ |
 | [Engram](engram.md) [![⭐](https://img.shields.io/github/stars/Gentleman-Programming/engram?style=social)](https://github.com/Gentleman-Programming/engram) | Persistent memory for AI coding agents | CLI, stdio MCP, HTTP API, TUI, `engram setup` | ✅ |
+| [Beads](beads.md) [![⭐](https://img.shields.io/github/stars/gastownhall/beads?style=social)](https://github.com/gastownhall/beads) | Dependency-aware, Dolt-backed issue tracker built for AI coding agents that survive context loss | `bd` CLI, `beads-mcp`, `bd setup` recipes, Dolt sync | ✅ |
+| [projectmem](projectmem.md) [![⭐](https://img.shields.io/github/stars/riponcm/projectmem?style=social)](https://github.com/riponcm/projectmem) | We don't make AI smarter. We make it experienced. | Typed event log, `pjm` CLI, stdio MCP, precheck gate | ✅ |
+| [Memoir](memoir.md) [![⭐](https://img.shields.io/github/stars/zhangfengcdt/memoir?style=social)](https://github.com/zhangfengcdt/memoir) | Git for AI Memory | CLI, `memoir-mcp`, Claude Code/Codex plugins (Alpha) | ✅ |
+| [Memorix](memorix.md) [![⭐](https://img.shields.io/github/stars/AVIDS2/memorix?style=social)](https://github.com/AVIDS2/memorix) | Local-first shared memory layer for AI coding agents. | Git-root daemon, `memorix serve`, orchestration, skills | ✅ |
+| [Compartment](compartment.md) [![⭐](https://img.shields.io/github/stars/MaxFreedomPollard/Compartment?style=social)](https://github.com/MaxFreedomPollard/Compartment) | Encrypted, fully offline memory for AI agents. | Encrypted vault, `compartment serve` MCP, integrate CLI | ✅ |
 
 
 

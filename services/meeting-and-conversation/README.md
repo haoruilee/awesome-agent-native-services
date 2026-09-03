@@ -25,6 +25,7 @@ Agent-native meeting services provide a unified API for bot lifecycle management
 | [Daily Agent Toolkit](daily-agent.md) [![⭐](https://img.shields.io/github/stars/daily-co/daily-python?style=social)](https://github.com/daily-co/daily-python) | Build realtime meeting agents on Daily | Programmatic room control, media stream hooks, bot orchestration | ⚠️ |
 | [Looped Meet](looped-meet.md) [![⭐](https://img.shields.io/github/stars/loopedautomation/meet?style=social)](https://github.com/loopedautomation/meet) | Self-hostable video meetings with first-class, full-duplex AI agent participants | TTY WebSocket/webhook brain bridge, LiveKit/WebRTC, HTTP routes, cal.com webhook | ❌ |
 | [AgentCall](agentcall.md) [![⭐](https://img.shields.io/github/stars/pattern-ai-labs/agentcall?style=social)](https://github.com/pattern-ai-labs/agentcall) | Your AI agent, in every meeting. | join-meeting Skill, REST/WSS, Meet/Zoom/Teams voice bot | ⚠️ |
+| [joinly.ai](joinly.md) [![⭐](https://img.shields.io/github/stars/joinly-ai/joinly?style=social)](https://github.com/joinly-ai/joinly) | Make your meetings accessible to AI Agents! | Docker MCP, `joinly-client`, Zoom/Meet/Teams tools | ✅ |
 
 
 ---
