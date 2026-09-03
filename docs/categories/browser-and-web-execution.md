@@ -2,7 +2,9 @@
 title: "Browser & Web Execution | Agent-Native Services"
 collection_label: "Browser & Web Execution"
 description: "Browsers, web runtimes, and authenticated sessions built for autonomous navigation."
-hero_image: "/assets/images/editorial-network.webp"
+hero_image: "/assets/images/editorial-browser.webp"
+hero_image_alt: "A square opening in a plaster wall crossed by a brass rod, with dark stone steps and a red cube."
+image: "/assets/images/editorial-browser.webp"
 permalink: /categories/browser-and-web-execution/
 page_kind: collection
 collection_number: "02"

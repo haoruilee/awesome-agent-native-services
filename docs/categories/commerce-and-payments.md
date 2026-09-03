@@ -2,7 +2,9 @@
 title: "Commerce & Payments | Agent-Native Services"
 collection_label: "Commerce & Payments"
 description: "Wallets, payment authorization, identity, and transactions for autonomous buyers and sellers."
-hero_image: "/assets/images/editorial-authority.webp"
+hero_image: "/assets/images/editorial-commerce.webp"
+hero_image_alt: "A gold coin standing in a slotted cream block, with a charcoal pillar and a red plane behind it."
+image: "/assets/images/editorial-commerce.webp"
 permalink: /categories/commerce-and-payments/
 page_kind: collection
 collection_number: "05"

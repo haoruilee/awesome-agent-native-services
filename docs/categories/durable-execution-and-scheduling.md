@@ -2,7 +2,9 @@
 title: "Durable Execution & Scheduling | Agent-Native Services"
 collection_label: "Durable Execution & Scheduling"
 description: "Fault-tolerant workflows, queues, checkpoints, triggers, and long-running agent jobs."
-hero_image: "/assets/images/editorial-runtime.webp"
+hero_image: "/assets/images/editorial-durable.webp"
+hero_image_alt: "Cream L-shaped blocks and one dark stone block threaded on a single brass rod."
+image: "/assets/images/editorial-durable.webp"
 permalink: /categories/durable-execution-and-scheduling/
 page_kind: collection
 collection_number: "12"

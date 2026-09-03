@@ -2,7 +2,9 @@
 title: "Code Execution | Agent-Native Services"
 collection_label: "Code Execution"
 description: "Secure, isolated environments for agent-generated code and reproducible artifacts."
-hero_image: "/assets/images/editorial-runtime.webp"
+hero_image: "/assets/images/editorial-sandbox.webp"
+hero_image_alt: "A gold sphere isolated in a glass case on a dark stone base and cream pedestals."
+image: "/assets/images/editorial-sandbox.webp"
 permalink: /categories/code-execution/
 page_kind: collection
 collection_number: "10"

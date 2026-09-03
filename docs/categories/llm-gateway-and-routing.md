@@ -3,6 +3,8 @@ title: "LLM Gateway & Routing | Agent-Native Services"
 collection_label: "LLM Gateway & Routing"
 description: "Budget-aware model access, routing, caching, policy, and trajectory-sensitive escalation."
 hero_image: "/assets/images/editorial-routing.webp"
+hero_image_alt: "Parallel gold pipes flowing through dark translucent panels above a winding marble and stone base."
+image: "/assets/images/editorial-routing.webp"
 permalink: /categories/llm-gateway-and-routing/
 page_kind: collection
 collection_number: "15"

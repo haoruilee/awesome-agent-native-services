@@ -1,5 +1,25 @@
 # https://lihaorui.com/awesome-agent-native-services/
+# LLM catalog: https://lihaorui.com/awesome-agent-native-services/llms.txt
 User-agent: *
 Allow: /
 
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://lihaorui.com/awesome-agent-native-services/sitemap.xml
+Sitemap: https://lihaorui.com/awesome-agent-native-services/machine-sitemap.xml

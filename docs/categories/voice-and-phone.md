@@ -2,7 +2,9 @@
 title: "Voice & Phone | Agent-Native Services"
 collection_label: "Voice & Phone"
 description: "Realtime speech, telephone identity, calls, and audio runtimes for agents."
-hero_image: "/assets/images/editorial-resonance.webp"
+hero_image: "/assets/images/editorial-voice.webp"
+hero_image_alt: "A beige horn-shaped vessel with a gold sphere at its center, resting on a dark plinth."
+image: "/assets/images/editorial-voice.webp"
 permalink: /categories/voice-and-phone/
 page_kind: collection
 collection_number: "14"

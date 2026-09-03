@@ -2,7 +2,9 @@
 title: "Observability & Tracing | Agent-Native Services"
 collection_label: "Observability & Tracing"
 description: "Trajectories, costs, evidence, attribution, evaluation, and forensic replay for agent runs."
-hero_image: "/assets/images/editorial-memory.webp"
+hero_image: "/assets/images/editorial-observability.webp"
+hero_image_alt: "A cream stone block cut open to dark geological layers with a thin gold vein."
+image: "/assets/images/editorial-observability.webp"
 permalink: /categories/observability-and-tracing/
 page_kind: collection
 collection_number: "11"

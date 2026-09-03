@@ -2,7 +2,9 @@
 title: "Search & Web Intelligence | Agent-Native Services"
 collection_label: "Search & Web Intelligence"
 description: "Search and retrieval interfaces shaped for context windows and machine reasoning."
-hero_image: "/assets/images/editorial-memory.webp"
+hero_image: "/assets/images/editorial-search.webp"
+hero_image_alt: "Textured plates and a smoked-glass disc threaded on a brass rod that ends in a black block."
+image: "/assets/images/editorial-search.webp"
 permalink: /categories/search-and-web-intelligence/
 page_kind: collection
 collection_number: "09"

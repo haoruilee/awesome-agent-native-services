@@ -33,14 +33,17 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 
-# jekyll-seo-tag default image when pages do not override
+# jekyll-seo-tag default image when pages do not override.
+# social-preview-wide.webp is the 1536x1024 editorial share still;
+# social-preview.png remains the 1200x630 PNG crop used as the site logo.
 defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/social-preview.png
+      image: /assets/images/social-preview-wide.webp
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - vendor

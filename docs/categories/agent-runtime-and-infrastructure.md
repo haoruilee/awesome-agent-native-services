@@ -3,6 +3,8 @@ title: "Agent Runtime & Infrastructure | Agent-Native Services"
 collection_label: "Agent Runtime & Infrastructure"
 description: "Deployment substrates, isolation, identity, secrets, gateways, and production agent operations."
 hero_image: "/assets/images/editorial-runtime.webp"
+hero_image_alt: "Tiered beige stone platforms and matte-black pillars linked by thin gold rods."
+image: "/assets/images/editorial-runtime.webp"
 permalink: /categories/agent-runtime-and-infrastructure/
 page_kind: collection
 collection_number: "06"

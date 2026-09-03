@@ -3,6 +3,8 @@ title: "Memory & State | Agent-Native Services"
 collection_label: "Memory & State"
 description: "Persistent context, structured knowledge, and cross-session state owned by agents."
 hero_image: "/assets/images/editorial-memory.webp"
+hero_image_alt: "A dark glass disc on a gold rod set against a layered white form with a spherical void."
+image: "/assets/images/editorial-memory.webp"
 permalink: /categories/memory-and-state/
 page_kind: collection
 collection_number: "08"
