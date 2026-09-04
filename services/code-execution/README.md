@@ -33,6 +33,9 @@ Agent-native code execution services solve this with:
 | [Agent Sandbox (Kubernetes SIG)](kubernetes-agent-sandbox.md) [![⭐](https://img.shields.io/github/stars/kubernetes-sigs/agent-sandbox?style=social)](https://github.com/kubernetes-sigs/agent-sandbox) | Secure isolated execution layer for autonomous agents on Kubernetes | Sandbox CRD, WarmPool/Claim, Python/Go SDKs, RuntimeClass | ⚠️ |
 | [Clawk](clawk.md) [![⭐](https://img.shields.io/github/stars/clawkwork/clawk?style=social)](https://github.com/clawkwork/clawk) | Give a coding agent its own disposable Linux machine, not yours | Local hypervisor VM, DNS-aware egress allow-list, JSON CLI | ⚠️ |
 | [Dormice](dormice.md) [![⭐](https://img.shields.io/github/stars/BitMiracle-AI/Dormice?style=social)](https://github.com/BitMiracle-AI/Dormice) | The SQLite of agent sandboxes — self-hosted, idle costs nothing | acquireSandbox, HTTP RPC, E2B SDK compat, dor CLI | ⚠️ |
+| [CubeSandbox](cubesandbox.md) [![⭐](https://img.shields.io/github/stars/TencentCloud/CubeSandbox?style=social)](https://github.com/TencentCloud/CubeSandbox) | Instant, Concurrent, Secure & Lightweight Sandbox Service for AI Agents | E2B-compat REST, cubemastercli, CubeCoW, credential vault | ⚠️ |
+| [forkd](forkd.md) [![⭐](https://img.shields.io/github/stars/deeplethe/forkd?style=social)](https://github.com/deeplethe/forkd) | A microVM sandbox runtime for AI agent fan-out. | Firecracker CoW fork, live BRANCH, REST/SDK, forkd-mcp | ✅ |
+| [SmolVM](smolvm.md) [![⭐](https://img.shields.io/github/stars/CelestoAI/SmolVM?style=social)](https://github.com/CelestoAI/SmolVM) | SmolVM: secure microVM sandboxes for AI agents | Python SDK, smolvm CLI, browser sandbox, snapshots | ⚠️ |
 
 
 ---

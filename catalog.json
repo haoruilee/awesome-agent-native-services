@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "7b4f96b3588b432ba998105d9b508741bc4c8d97a2ec2ca35e8e452876f27b2d",
+      "value": "be4ab7ee9f1b69e5a0337fe1d9f75076508d6bdf48b8ec4b5c6f4d6cf26a1be1",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -70,6 +70,7 @@
         "services/tool-access-and-integration/mcpgateway.md",
         "services/tool-access-and-integration/mcphub.md",
         "services/tool-access-and-integration/mcpjungle.md",
+        "services/tool-access-and-integration/metamcp.md",
         "services/tool-access-and-integration/nango.md",
         "services/tool-access-and-integration/obot.md",
         "services/tool-access-and-integration/openchatcut.md",
@@ -147,9 +148,11 @@
         "services/memory-and-state/compartment.md",
         "services/memory-and-state/engram.md",
         "services/memory-and-state/ensue.md",
+        "services/memory-and-state/graphiti.md",
         "services/memory-and-state/hindsight.md",
         "services/memory-and-state/llm-wiki.md",
         "services/memory-and-state/lycheemem.md",
+        "services/memory-and-state/mcp-memory-service.md",
         "services/memory-and-state/mem0.md",
         "services/memory-and-state/mem9.md",
         "services/memory-and-state/memmachine.md",
@@ -182,13 +185,16 @@
         "services/code-execution/axern.md",
         "services/code-execution/clawk.md",
         "services/code-execution/coderunner.md",
+        "services/code-execution/cubesandbox.md",
         "services/code-execution/daytona.md",
         "services/code-execution/dormice.md",
         "services/code-execution/e2b.md",
+        "services/code-execution/forkd.md",
         "services/code-execution/kubernetes-agent-sandbox.md",
         "services/code-execution/opensandbox.md",
         "services/code-execution/riza.md",
         "services/code-execution/runloop.md",
+        "services/code-execution/smolvm.md",
         "services/code-execution/vercel-sandbox.md",
         "services/observability-and-tracing/README.md",
         "services/observability-and-tracing/agent-inspect.md",
@@ -253,7 +259,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 217
+    "services": 223
   },
   "categories": [
     {
@@ -275,7 +281,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 21
+      "service_count": 22
     },
     {
       "id": "oversight-and-approval",
@@ -310,7 +316,7 @@
       "name": "Memory & State",
       "description": "Services that give AI agents persistent, queryable memory across sessions — treating memory as infrastructure rather than application logic, and managing the full lifecycle of what agents remember, forget, and retrieve.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md",
-      "service_count": 26
+      "service_count": 28
     },
     {
       "id": "search-and-web-intelligence",
@@ -324,7 +330,7 @@
       "name": "Code Execution",
       "description": "Services that give AI agents a secure, isolated runtime for executing generated code — without human-side sandbox setup, without risking the host environment, and with output formatted for direct LLM consumption.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/README.md",
-      "service_count": 13
+      "service_count": 16
     },
     {
       "id": "observability-and-tracing",
@@ -2024,6 +2030,40 @@
       "verified_at": "2026-09-03",
       "verification_sources": [
         "https://api.github.com/repos/mcpjungle/MCPJungle"
+      ]
+    },
+    {
+      "id": "tool-access-and-integration/metamcp",
+      "slug": "metamcp",
+      "name": "MetaMCP",
+      "tagline": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "tool-access-and-integration",
+      "website": "https://docs.metamcp.com",
+      "repository": "https://github.com/metatool-ai/metamcp",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/metamcp.md",
+      "source_path": "services/tool-access-and-integration/metamcp.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + MCP gateway",
+        "instruction": "git clone https://github.com/metatool-ai/metamcp.git\ncd metamcp\ncp example.env .env\ndocker compose up -d",
+        "url": "https://github.com/metatool-ai/metamcp.git"
+      },
+      "protocols": [
+        "mcp",
+        "openapi",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Last GitHub push 2026-06-22 (repo metadata) — quieter than MCPHub/ContextForge; default branch ai-dev. README notes maintenance delay while still merging PRs. Still admitted: MIT + clear MCP aggregator/gateway OSS not already listed",
+      "verified_at": "2026-09-04",
+      "verification_sources": [
+        "https://api.github.com/repos/metatool-ai/metamcp"
       ]
     },
     {
@@ -4290,6 +4330,38 @@
       "verification_sources": []
     },
     {
+      "id": "memory-and-state/graphiti",
+      "slug": "graphiti",
+      "name": "Graphiti",
+      "tagline": "Build Real-Time Knowledge Graphs for AI Agents",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "memory-and-state",
+      "website": "https://help.getzep.com/graphiti",
+      "repository": "https://github.com/getzep/graphiti",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/graphiti.md",
+      "source_path": "services/memory-and-state/graphiti.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "SDK + MCP",
+        "instruction": "pip install graphiti-core",
+        "url": "https://help.getzep.com/graphiti/getting-started/mcp-server"
+      },
+      "protocols": [
+        "mcp",
+        "sdk",
+        "stdio"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Last GitHub push 2026-09-03 (repo metadata); PyPI graphiti-core; MCP server in-repo",
+      "verified_at": "2026-09-04",
+      "verification_sources": [
+        "https://api.github.com/repos/getzep/graphiti"
+      ]
+    },
+    {
       "id": "memory-and-state/hindsight",
       "slug": "hindsight",
       "name": "Hindsight",
@@ -4376,6 +4448,40 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "memory-and-state/mcp-memory-service",
+      "slug": "mcp-memory-service",
+      "name": "mcp-memory-service",
+      "tagline": "Memory for AI Agents — REST, MCP, OAuth, CLI",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "memory-and-state",
+      "website": "https://mcpmemory.services",
+      "repository": "https://github.com/doobidoo/mcp-memory-service",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/mcp-memory-service.md",
+      "source_path": "services/memory-and-state/mcp-memory-service.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + MCP / REST",
+        "instruction": "pip install mcp-memory-service",
+        "url": "http://localhost:8000"
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "cli",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Last GitHub push 2026-09-02 (repo metadata); PyPI mcp-memory-service; homepage showed v11.10.0 on 2026-09-04",
+      "verified_at": "2026-09-04",
+      "verification_sources": [
+        "https://api.github.com/repos/doobidoo/mcp-memory-service"
+      ]
     },
     {
       "id": "memory-and-state/mem0",
@@ -5343,6 +5449,38 @@
       "verification_sources": []
     },
     {
+      "id": "code-execution/cubesandbox",
+      "slug": "cubesandbox",
+      "name": "CubeSandbox",
+      "tagline": "Instant, Concurrent, Secure & Lightweight Sandbox Service for AI Agents",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "code-execution",
+      "website": "https://cubesandbox.com",
+      "repository": "https://github.com/TencentCloud/CubeSandbox",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/cubesandbox.md",
+      "source_path": "services/code-execution/cubesandbox.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": "CLI + E2B-compatible SDK",
+        "instruction": "curl -sL https://github.com/tencentcloud/CubeSandbox/raw/master/deploy/one-click/online-install.sh | CUBE_PVM_ENABLE=1 bash",
+        "url": "https://github.com/tencentcloud/CubeSandbox/raw/master/deploy/one-click/online-install.sh"
+      },
+      "protocols": [
+        "rest",
+        "cli",
+        "sdk"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Last GitHub push 2026-09-03 (repo metadata); one-click installer + E2B-compatible API on :3000",
+      "verified_at": "2026-09-04",
+      "verification_sources": [
+        "https://api.github.com/repos/TencentCloud/CubeSandbox"
+      ]
+    },
+    {
       "id": "code-execution/daytona",
       "slug": "daytona",
       "name": "Daytona",
@@ -5440,6 +5578,39 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "code-execution/forkd",
+      "slug": "forkd",
+      "name": "forkd",
+      "tagline": "A microVM sandbox runtime for AI agent fan-out.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "code-execution",
+      "website": "https://github.com/deeplethe/forkd",
+      "repository": "https://github.com/deeplethe/forkd",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/forkd.md",
+      "source_path": "services/code-execution/forkd.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + REST / SDK / MCP",
+        "instruction": "curl -sSL https://github.com/deeplethe/forkd/releases/download/v0.5.3/forkd-v0.5.3-x86_64-linux.tar.gz \\\n  | sudo tar -xz -C /usr/local/bin/\nsudo -E forkd quickstart",
+        "url": "https://github.com/deeplethe/forkd/releases/download/v0.5.3/forkd-v0.5.3-x86_64-linux.tar.gz"
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "cli",
+        "sdk"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Last GitHub push 2026-09-02 (repo metadata); default branch dev; release tarball forkd-v0.5.3",
+      "verified_at": "2026-09-04",
+      "verification_sources": [
+        "https://api.github.com/repos/deeplethe/forkd"
+      ]
     },
     {
       "id": "code-execution/kubernetes-agent-sandbox",
@@ -5565,6 +5736,39 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "code-execution/smolvm",
+      "slug": "smolvm",
+      "name": "SmolVM",
+      "tagline": "SmolVM: secure microVM sandboxes for AI agents",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "code-execution",
+      "website": "https://docs.celesto.ai/smolvm",
+      "repository": "https://github.com/CelestoAI/SmolVM",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/smolvm.md",
+      "source_path": "services/code-execution/smolvm.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": "CLI + Python SDK",
+        "instruction": "curl -sSL https://celesto.ai/install.sh | bash",
+        "url": "https://celesto.ai/install.sh"
+      },
+      "protocols": [
+        "cli",
+        "sdk",
+        "http"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Last GitHub push 2026-09-03 (repo metadata); PyPI smolvm; docs index at docs.celesto.ai/llms.txt",
+      "verified_at": "2026-09-04",
+      "verification_sources": [
+        "https://api.github.com/repos/CelestoAI/SmolVM",
+        "https://docs.celesto.ai/llms.txt"
+      ]
     },
     {
       "id": "code-execution/vercel-sandbox",

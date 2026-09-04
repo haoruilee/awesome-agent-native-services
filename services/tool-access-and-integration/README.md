@@ -37,6 +37,7 @@ Agent-native tool access services solve all three problems with primitives that 
 | [MCP Gateway & Registry](mcp-gateway-registry.md) [![⭐](https://img.shields.io/github/stars/agentic-community/mcp-gateway-registry?style=social)](https://github.com/agentic-community/mcp-gateway-registry) | Unified Agent & MCP Server Registry – Gateway for AI Development Tools | nginx gateway, FastAPI registry, MCP, REST, Helm/Terraform | ✅ |
 | [MCPHub](mcphub.md) [![⭐](https://img.shields.io/github/stars/samanhappy/mcphub?style=social)](https://github.com/samanhappy/mcphub) | One gateway for all your MCP servers. | Docker hub, `/mcp` routes, `$smart`, bearer/OAuth, CLI | ✅ |
 | [MCPJungle](mcpjungle.md) [![⭐](https://img.shields.io/github/stars/mcpjungle/MCPJungle?style=social)](https://github.com/mcpjungle/MCPJungle) | Run all your MCP servers behind one endpoint | Compose `/mcp`, tool groups, enterprise tokens, MPL-2.0 | ✅ |
+| [MetaMCP](metamcp.md) [![⭐](https://img.shields.io/github/stars/metatool-ai/metamcp?style=social)](https://github.com/metatool-ai/metamcp) | MCP Aggregator, Orchestrator, Middleware, Gateway in one docker | Docker Compose, namespaces, middleware, `sk_mt_` keys | ✅ |
 
 
 
