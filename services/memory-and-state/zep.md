@@ -66,6 +66,8 @@ Zep provides an MCP server enabling agents to read and write from the temporal k
 
 Zep is an agent memory service built on **Graphiti** — a temporal knowledge graph that automatically synthesizes conversational data and business data into a persistent, evolving knowledge structure. Unlike vector-only memory stores, Zep tracks how facts, preferences, and relationships change over time, maintaining historical records while marking outdated information invalid.
 
+The open-source Graphiti framework is listed separately as [Graphiti](graphiti.md) (`getzep/graphiti`). This Zep entry is the managed product/platform (`getzep/zep`). Do not treat them as one service.
+
 Agents query Zep with a single API call; Zep assembles the most relevant memories, facts, entities, and temporal context and returns a structured context object ready for injection into the agent's prompt.
 
 ---

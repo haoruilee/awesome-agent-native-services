@@ -1,6 +1,6 @@
 # Awesome Agent-Native Services
 
-> A curated catalog of 217 agent-native services across 16 collections — infrastructure designed for AI agents as first-class consumers, plus purpose-built surfaces for operating live agent systems.
+> A curated catalog of 223 agent-native services across 16 collections — infrastructure designed for AI agents as first-class consumers, plus purpose-built surfaces for operating live agent systems.
 
 Use the JSON catalog for deterministic filtering and the discovery skill for task-oriented guidance. Service dossiers contain the full evidence and caveats.
 

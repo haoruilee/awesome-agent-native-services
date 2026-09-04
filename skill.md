@@ -74,7 +74,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 217 Services
+## Full Catalog — 16 Categories, 223 Services
 
 ### 1. Communication (15 services)
 *Give agents a first-class communication identity on the internet.*
@@ -132,7 +132,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 3. Tool Access & Integration (21 services)
+### 3. Tool Access & Integration (22 services)
 *Runtime tool discovery, auth, and execution without human pre-configuration.*
 
 | Service | Tagline | Onboarding |
@@ -158,6 +158,7 @@ These services can be joined with a single instruction, right now, with no human
 | [MCP Gateway & Registry](https://agentic-community.github.io/mcp-gateway-registry/) | Unified Agent & MCP Server Registry | `git clone https://github.com/agentic-community/mcp-gateway-registry && ./build_and_run.sh --prebuilt` |
 | [MCPHub](https://www.mcphub.app) | One gateway for all your MCP servers. | `docker run -p 3000:3000 -v ./data:/app/data samanhappy/mcphub` then connect to `http://localhost:3000/mcp` |
 | [MCPJungle](https://docs.mcpjungle.com) | Run all your MCP servers behind one endpoint | `docker compose up -d` then `mcpjungle register --name context7 --url https://mcp.context7.com/mcp` |
+| [MetaMCP](https://docs.metamcp.com) | MCP Aggregator, Orchestrator, Middleware, Gateway in one docker | `git clone https://github.com/metatool-ai/metamcp.git && docker compose up -d` |
 
 ---
 
@@ -249,7 +250,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 8. Memory & State (26 services)
+### 8. Memory & State (28 services)
 *Persistent, queryable memory across sessions — memory as infrastructure, not application logic.*
 
 | Service | Tagline | Onboarding |
@@ -259,6 +260,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Recall](https://www.recall.works) | Open-source memory for AI agents. MCP-native. Self-hosted. | `uvx ai-recallworks stdio` |
 | [Mem0](https://mem0.ai) | The memory layer for your AI agents | `pip install mem0ai` → `m.add(messages, user_id=...)` |
 | [Zep](https://getzep.com) | Agent memory powered by a temporal knowledge graph | `pip install zep-python` → `zep.add_session_message(...)` |
+| [Graphiti](https://help.getzep.com/graphiti) | Build Real-Time Knowledge Graphs for AI Agents | `pip install graphiti-core` or `uv run graphiti_mcp_server.py` |
 | [Ensue](https://ensue.dev) ⭐ | The shared memory network for AI agents | `Read https://raw.githubusercontent.com/mutable-state-inc/ensue-skill/main/skills/ensue-memory/SKILL.md and follow the instructions` |
 | [OpenViking](https://github.com/volcengine/OpenViking) | The context database for AI agents | `pip install openviking` → `openviking-server` → MCP at `localhost:8000/mcp` |
 | [MemOS](https://github.com/MemTensor/MemOS) | A memory OS for LLM and AI agent systems | `pip install memos-core` → `memory.add(...)` |
@@ -280,6 +282,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Memoir](https://www.memoir-ai.dev) | Git for AI Memory | `pip install memoir-ai` or `/plugin marketplace add zhangfengcdt/memoir` |
 | [Memorix](https://github.com/AVIDS2/memorix) | Local-first shared memory layer for AI coding agents. | `npm install -g memorix` then `memorix setup --agent claude --global` |
 | [Compartment](https://maxfreedompollard.github.io/Compartment/) | Encrypted, fully offline memory for AI agents. | `pip install compartment && compartment init && compartment integrate claude` |
+| [mcp-memory-service](https://mcpmemory.services) | Memory for AI Agents — REST, MCP, OAuth, CLI | `pip install mcp-memory-service` then `memory server` or `memory server --http` |
 
 ---
 
@@ -300,7 +303,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 10. Code Execution (13 services)
+### 10. Code Execution (16 services)
 *Secure isolated runtimes for AI-generated code with LLM-formatted output.*
 
 | Service | Tagline | Onboarding |
@@ -318,6 +321,9 @@ These services can be joined with a single instruction, right now, with no human
 | [Agent Sandbox (Kubernetes SIG)](https://agent-sandbox.sigs.k8s.io) | Secure isolated execution layer for autonomous agents on Kubernetes | `pip install k8s-agent-sandbox` then `SandboxClient().create_sandbox(...)` |
 | [Clawk](https://github.com/clawkwork/clawk) | Give a coding agent its own disposable Linux machine, not yours | `brew install clawkwork/tap/clawk` then `cd <repo> && clawk` (pre-1.0) |
 | [Dormice](https://github.com/BitMiracle-AI/Dormice) | The SQLite of agent sandboxes — self-hosted, idle costs nothing | install.sh then `npx skills add BitMiracle-AI/Dormice` (early-dev) |
+| [CubeSandbox](https://cubesandbox.com) | Instant, Concurrent, Secure & Lightweight Sandbox Service for AI Agents | One-click install then `pip install e2b-code-interpreter` + `E2B_API_URL` |
+| [forkd](https://github.com/deeplethe/forkd) | A microVM sandbox runtime for AI agent fan-out. | Release tarball then `sudo -E forkd quickstart` |
+| [SmolVM](https://docs.celesto.ai/smolvm) | SmolVM: secure microVM sandboxes for AI agents | `curl -sSL https://celesto.ai/install.sh | bash` then `from smolvm import SmolVM` |
 
 ---
 

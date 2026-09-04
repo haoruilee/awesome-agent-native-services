@@ -29,6 +29,7 @@ Agent-native memory services solve this by providing:
 | [Recall](recall.md) [![⭐](https://img.shields.io/github/stars/RecallWorks/Recall?style=social)](https://github.com/RecallWorks/Recall) | Open-source memory for AI agents. MCP-native. Self-hosted. | MCP stdio, Docker, searchable persistent memory | ✅ |
 | [Mem0](mem0.md) | The memory layer for your AI agents | Python SDK, REST API | ✅ |
 | [Zep](zep.md) | Agent memory powered by a temporal knowledge graph | Python SDK, TypeScript SDK, Go SDK, REST API | ✅ |
+| [Graphiti](graphiti.md) [![⭐](https://img.shields.io/github/stars/getzep/graphiti?style=social)](https://github.com/getzep/graphiti) | Build Real-Time Knowledge Graphs for AI Agents | Python SDK, MCP server, episodes, hybrid search | ✅ |
 | [Ensue](ensue.md) | The shared memory network for AI agents | REST API, MCP stdio, Python Coordinator SDK, Agent Skill | ✅ |
 | [OpenViking](openviking.md) | The context database for AI agents | Python SDK, Rust CLI, HTTP MCP server, Agent Plugins | ✅ |
 | [MemOS](memos.md) | A memory OS for LLM and AI agent systems | Python SDK, REST API, MCP server, OpenClaw Plugin | ✅ |
@@ -50,6 +51,7 @@ Agent-native memory services solve this by providing:
 | [Memoir](memoir.md) [![⭐](https://img.shields.io/github/stars/zhangfengcdt/memoir?style=social)](https://github.com/zhangfengcdt/memoir) | Git for AI Memory | CLI, `memoir-mcp`, Claude Code/Codex plugins (Alpha) | ✅ |
 | [Memorix](memorix.md) [![⭐](https://img.shields.io/github/stars/AVIDS2/memorix?style=social)](https://github.com/AVIDS2/memorix) | Local-first shared memory layer for AI coding agents. | Git-root daemon, `memorix serve`, orchestration, skills | ✅ |
 | [Compartment](compartment.md) [![⭐](https://img.shields.io/github/stars/MaxFreedomPollard/Compartment?style=social)](https://github.com/MaxFreedomPollard/Compartment) | Encrypted, fully offline memory for AI agents. | Encrypted vault, `compartment serve` MCP, integrate CLI | ✅ |
+| [mcp-memory-service](mcp-memory-service.md) [![⭐](https://img.shields.io/github/stars/doobidoo/mcp-memory-service?style=social)](https://github.com/doobidoo/mcp-memory-service) | Memory for AI Agents — REST, MCP, OAuth, CLI | REST, stdio/HTTP MCP, OAuth DCR, `X-Agent-ID` | ✅ |
 
 
 

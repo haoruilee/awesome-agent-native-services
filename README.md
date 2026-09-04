@@ -83,20 +83,20 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**217 services across 16 categories.**
+**223 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 15 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 25 | Remote browser and web data extraction for agents |
-| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 21 | Runtime tool discovery, auth, and execution |
+| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 12 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 29 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 10 | Durable agent-loop control and live operator visibility |
-| 8 | [Memory & State](#8-memory--state-services) | 26 | Persistent agent memory across sessions |
+| 8 | [Memory & State](#8-memory--state-services) | 28 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
-| 10 | [Code Execution](#10-code-execution-services) | 13 | Secure sandboxes for AI-generated code |
+| 10 | [Code Execution](#10-code-execution-services) | 16 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 13 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 8 | Agent presence in voice and video meetings |
@@ -201,6 +201,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [MCP Gateway & Registry](services/tool-access-and-integration/mcp-gateway-registry.md) [![⭐](https://img.shields.io/github/stars/agentic-community/mcp-gateway-registry?style=social)](https://github.com/agentic-community/mcp-gateway-registry) | Unified Agent & MCP Server Registry – Gateway for AI Development Tools | IdP gateway · virtual MCP · A2A registry · 3LO egress · audit | ✅ | `git clone https://github.com/agentic-community/mcp-gateway-registry && ./build_and_run.sh --prebuilt` |
 | [MCPHub](services/tool-access-and-integration/mcphub.md) [![⭐](https://img.shields.io/github/stars/samanhappy/mcphub?style=social)](https://github.com/samanhappy/mcphub) | One gateway for all your MCP servers. | Unified `/mcp` · groups · `$smart` routing · bearer/OAuth · Docker | ✅ | `docker run -p 3000:3000 -v ./data:/app/data samanhappy/mcphub` — then connect to `http://localhost:3000/mcp` |
 | [MCPJungle](services/tool-access-and-integration/mcpjungle.md) [![⭐](https://img.shields.io/github/stars/mcpjungle/MCPJungle?style=social)](https://github.com/mcpjungle/MCPJungle) | Run all your MCP servers behind one endpoint | One `/mcp` · tool groups · enterprise client tokens · MPL-2.0 | ✅ | `docker compose up -d` then `mcpjungle register --name context7 --url https://mcp.context7.com/mcp` |
+| [MetaMCP](services/tool-access-and-integration/metamcp.md) [![⭐](https://img.shields.io/github/stars/metatool-ai/metamcp?style=social)](https://github.com/metatool-ai/metamcp) | MCP Aggregator, Orchestrator, Middleware, Gateway in one docker | Namespaces · middleware · Streamable HTTP/SSE · `sk_mt_` keys · MIT | ✅ | `git clone https://github.com/metatool-ai/metamcp.git && docker compose up -d` — last push 2026-06-22 |
 
 ---
 
@@ -319,6 +320,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Recall](services/memory-and-state/recall.md) [![⭐](https://img.shields.io/github/stars/RecallWorks/Recall?style=social)](https://github.com/RecallWorks/Recall) | Open-source memory for AI agents. MCP-native. Self-hosted. | Persistent searchable memory · Docker · MCP stdio | ✅ | `uvx ai-recallworks stdio` |
 | [Mem0](services/memory-and-state/mem0.md) [![⭐](https://img.shields.io/github/stars/mem0ai/mem0?style=social)](https://github.com/mem0ai/mem0) | The memory layer for your AI agents | Memory extraction · Conflict resolution (ADD/UPDATE/DELETE/NOOP) · Semantic retrieval · 90% token savings | ✅ | `pip install mem0ai` then `m.add(messages, user_id=...)` |
 | [Zep](services/memory-and-state/zep.md) [![⭐](https://img.shields.io/github/stars/getzep/zep?style=social)](https://github.com/getzep/zep) | Agent memory powered by a temporal knowledge graph | Temporal knowledge graph · Automatic fact invalidation · Business data fusion · Sub-200ms retrieval | ✅ | `pip install zep-python` then `zep.add_session_message(...)` |
+| [Graphiti](services/memory-and-state/graphiti.md) [![⭐](https://img.shields.io/github/stars/getzep/graphiti?style=social)](https://github.com/getzep/graphiti) | Build Real-Time Knowledge Graphs for AI Agents | Temporal context graph · episodes · hybrid search · MCP · OSS ≠ Zep | ✅ | `pip install graphiti-core` or `uv run graphiti_mcp_server.py` |
 | [Ensue](services/memory-and-state/ensue.md) [![⭐](https://img.shields.io/github/stars/mutable-state-inc/autoresearch-at-home?style=social)](https://github.com/mutable-state-inc/autoresearch-at-home) | The shared memory network for AI agents | Claim · Publish result · Hypothesis exchange · Insight network · Collective best · Hypergraph | ✅ | Read the official [Ensue Skill](https://raw.githubusercontent.com/mutable-state-inc/ensue-skill/main/skills/ensue-memory/SKILL.md) and follow its instructions |
 | [OpenViking](services/memory-and-state/openviking.md) [![⭐](https://img.shields.io/github/stars/volcengine/OpenViking?style=social)](https://github.com/volcengine/OpenViking) | The context database for AI agents | `viking://` filesystem · `viking://agent/` namespace · L0/L1/L2 tiered loading · Self-evolution loop | ✅ | `pip install openviking` → `openviking-server` → add MCP at `localhost:8000/mcp` |
 | [MemOS](services/memory-and-state/memos.md) [![⭐](https://img.shields.io/github/stars/MemTensor/MemOS?style=social)](https://github.com/MemTensor/MemOS) | A memory OS for LLM and AI agent systems | MemCube · Parametric/activation/plaintext memory · MemScheduler · +43.7% vs OpenAI Memory | ✅ | `pip install memos-core` then `memory.add(...)` / `memory.get(...)` |
@@ -340,6 +342,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Memoir](services/memory-and-state/memoir.md) [![⭐](https://img.shields.io/github/stars/zhangfengcdt/memoir?style=social)](https://github.com/zhangfengcdt/memoir) | Git for AI Memory | Semantic paths · branch/merge · `memoir-mcp` · Alpha | ✅ | `pip install memoir-ai` or `/plugin marketplace add zhangfengcdt/memoir` |
 | [Memorix](services/memory-and-state/memorix.md) [![⭐](https://img.shields.io/github/stars/AVIDS2/memorix?style=social)](https://github.com/AVIDS2/memorix) | Local-first shared memory layer for AI coding agents. | Git-root daemon · Workset · Git Memory · `memorix serve` | ✅ | `npm install -g memorix` then `memorix setup --agent claude --global` |
 | [Compartment](services/memory-and-state/compartment.md) [![⭐](https://img.shields.io/github/stars/MaxFreedomPollard/Compartment?style=social)](https://github.com/MaxFreedomPollard/Compartment) | Encrypted, fully offline memory for AI agents. | Encrypted vault · one-claim memories · `compartment serve` | ✅ | `pip install compartment && compartment init && compartment integrate claude` |
+| [mcp-memory-service](services/memory-and-state/mcp-memory-service.md) [![⭐](https://img.shields.io/github/stars/doobidoo/mcp-memory-service?style=social)](https://github.com/doobidoo/mcp-memory-service) | Memory for AI Agents — REST, MCP, OAuth, CLI | `X-Agent-ID` · causal graph · OAuth DCR · 76 REST endpoints | ✅ | `pip install mcp-memory-service` then `memory server` or `memory server --http` |
 
 ---
 
@@ -384,6 +387,9 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Agent Sandbox (Kubernetes SIG)](services/code-execution/kubernetes-agent-sandbox.md) [![⭐](https://img.shields.io/github/stars/kubernetes-sigs/agent-sandbox?style=social)](https://github.com/kubernetes-sigs/agent-sandbox) | Secure isolated execution layer for autonomous agents on Kubernetes | Sandbox CRD · WarmPool/Claim · RuntimeClass · Python/Go SDKs | ⚠️ | `pip install k8s-agent-sandbox` then `SandboxClient().create_sandbox(...)` — not hosted agentsandbox.co |
 | [Clawk](services/code-execution/clawk.md) [![⭐](https://img.shields.io/github/stars/clawkwork/clawk?style=social)](https://github.com/clawkwork/clawk) | Give a coding agent its own disposable Linux machine, not yours | Local hypervisor VM · DNS-aware egress allow-list · `status --json` · snapshot/destroy | ⚠️ | `brew install clawkwork/tap/clawk` then `cd <repo> && clawk` (pre-1.0; macOS Apple silicon) |
 | [Dormice](services/code-execution/dormice.md) [![⭐](https://img.shields.io/github/stars/BitMiracle-AI/Dormice?style=social)](https://github.com/BitMiracle-AI/Dormice) | The SQLite of agent sandboxes — self-hosted, idle costs nothing | Idempotent `acquireSandbox` · freeze/stop/archive · HTTP RPC · E2B SDK compat | ⚠️ | `curl -fsSL https://raw.githubusercontent.com/BitMiracle-AI/Dormice/main/deploy/install.sh \| bash` then `npx skills add BitMiracle-AI/Dormice` (early-dev) |
+| [CubeSandbox](services/code-execution/cubesandbox.md) [![⭐](https://img.shields.io/github/stars/TencentCloud/CubeSandbox?style=social)](https://github.com/TencentCloud/CubeSandbox) | Instant, Concurrent, Secure & Lightweight Sandbox Service for AI Agents | E2B-compat API · RustVMM+KVM · CubeCoW · credential vault | ⚠️ | `curl -sL https://github.com/tencentcloud/CubeSandbox/raw/master/deploy/one-click/online-install.sh \| CUBE_PVM_ENABLE=1 bash` then `pip install e2b-code-interpreter` |
+| [forkd](services/code-execution/forkd.md) [![⭐](https://img.shields.io/github/stars/deeplethe/forkd?style=social)](https://github.com/deeplethe/forkd) | A microVM sandbox runtime for AI agent fan-out. | Firecracker CoW fork · live BRANCH · `forkd-mcp` | ✅ | `curl -sSL https://github.com/deeplethe/forkd/releases/download/v0.5.3/forkd-v0.5.3-x86_64-linux.tar.gz \| sudo tar -xz -C /usr/local/bin/` then `sudo -E forkd quickstart` |
+| [SmolVM](services/code-execution/smolvm.md) [![⭐](https://img.shields.io/github/stars/CelestoAI/SmolVM?style=social)](https://github.com/CelestoAI/SmolVM) | SmolVM: secure microVM sandboxes for AI agents | Firecracker/QEMU/libkrun · browser sandbox · snapshots | ⚠️ | `curl -sSL https://celesto.ai/install.sh \| bash` then `from smolvm import SmolVM` |
 
 ---
 
