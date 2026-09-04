@@ -1,0 +1,28 @@
+<div
+  class="catalog-search"
+  data-index-url="{{ '/assets/search-index.json' | relative_url }}"
+  data-baseurl="{{ site.baseurl }}"
+>
+  <div class="catalog-search__field">
+    <label class="visually-hidden" for="catalog-search-input">Search the catalog</label>
+    <input
+      id="catalog-search-input"
+      class="catalog-search__input"
+      type="search"
+      role="combobox"
+      aria-autocomplete="list"
+      aria-controls="catalog-search-listbox"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      autocomplete="off"
+      spellcheck="false"
+      enterkeyhint="go"
+      placeholder="Search services"
+    >
+    <kbd class="catalog-search__hint" aria-hidden="true">/</kbd>
+  </div>
+  <div class="catalog-search__panel" id="catalog-search-panel" hidden>
+    <p class="catalog-search__status" id="catalog-search-status" role="status" aria-live="polite"></p>
+    <ul class="catalog-search__list" id="catalog-search-listbox" role="listbox" aria-label="Matching services"></ul>
+  </div>
+</div>

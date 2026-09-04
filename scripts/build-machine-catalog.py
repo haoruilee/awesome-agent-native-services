@@ -840,6 +840,49 @@ def validate_llms(text: str) -> None:
         raise CatalogError("llms.txt failed the reference parser contract")
 
 
+def url_onboarding_flag(onboarding: dict[str, Any]) -> bool:
+    if onboarding.get("type") == "url":
+        return True
+    pattern = onboarding.get("pattern") or ""
+    return "url onboarding" in pattern.lower()
+
+
+def build_search_index(catalog: dict[str, Any]) -> dict[str, Any]:
+    """Emit the compact client search payload used by the GitHub Pages masthead."""
+    services: list[dict[str, Any]] = []
+    for service in catalog["services"]:
+        category = service["category"]
+        label = CATEGORY_NAMES.get(category, category.replace("-", " "))
+        name = service["name"]
+        slug = service["slug"]
+        tagline = service.get("tagline") or ""
+        service_id = service["id"]
+        haystack = " ".join(
+            part for part in (name, slug, service_id, tagline, category, label) if part
+        ).lower()
+        services.append(
+            {
+                "id": service_id,
+                "slug": slug,
+                "name": name,
+                "tagline": tagline,
+                "category": category,
+                "website": service.get("website"),
+                "repository": service.get("repository"),
+                "dossier": service.get("dossier"),
+                "mcp_status": service["mcp_status"],
+                "url_onboarding": url_onboarding_flag(service.get("onboarding") or {}),
+                "haystack": haystack,
+            }
+        )
+    return {
+        "catalog_version": catalog["catalog_version"],
+        "count": len(services),
+        "categories": {slug: CATEGORY_NAMES[slug] for slug in CATEGORY_ORDER},
+        "services": services,
+    }
+
+
 def expected_outputs() -> dict[Path, str]:
     schema_path = ROOT / "catalog.schema.json"
     schema_text = read_text(schema_path)
@@ -850,6 +893,9 @@ def expected_outputs() -> dict[Path, str]:
     catalog = build_catalog()
     validate_with_json_schema(catalog, schema)
     catalog_text = json.dumps(catalog, ensure_ascii=False, indent=2) + "\n"
+    search_index_text = json.dumps(
+        build_search_index(catalog), ensure_ascii=False, separators=(",", ":")
+    ) + "\n"
     llms_text = build_llms(catalog["categories"], catalog["counts"]["services"])
     skill_text = deploy_skill_text(read_text(ROOT / "skill.md"))
     return {
@@ -859,6 +905,7 @@ def expected_outputs() -> dict[Path, str]:
         ROOT / "docs" / "catalog.schema.json": schema_text,
         ROOT / "docs" / "llms.txt": llms_text,
         ROOT / "docs" / "skill.md": skill_text,
+        ROOT / "docs" / "assets" / "search-index.json": search_index_text,
     }
 
 

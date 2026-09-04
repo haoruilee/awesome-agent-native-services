@@ -14,7 +14,10 @@ This folder is the **Jekyll source** for the catalog’s public site. The main p
 From the repo root:
 
 ```bash
+python3 scripts/build-machine-catalog.py
 bash scripts/build-github-pages.sh
 ```
+
+`python3 scripts/build-machine-catalog.py` also writes `assets/search-index.json` for the masthead’s local catalog search. Do not edit that file by hand.
 
 Then build with Jekyll using the same stack as GitHub (`bundle install` in `docs/`, then `bundle exec jekyll build`), or rely on CI.

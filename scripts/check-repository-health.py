@@ -153,6 +153,7 @@ def check_site_directory(site_dir: Path) -> list[str]:
         "catalog.schema.json": "catalog schema",
         "robots.txt": "crawler policy",
         "sitemap.xml": "site map",
+        "assets/search-index.json": "client search index",
     }
     for relative, label in required.items():
         path = site_dir / relative
@@ -168,6 +169,34 @@ def check_site_directory(site_dir: Path) -> list[str]:
                     raise ValueError("expected a non-empty JSON object")
             except (json.JSONDecodeError, UnicodeDecodeError, ValueError) as error:
                 failures.append(f"{path}: invalid JSON: {error}")
+
+    search_index_path = site_dir / "assets" / "search-index.json"
+    if search_index_path.is_file():
+        try:
+            index = json.loads(search_index_path.read_text(encoding="utf-8"))
+            services = index.get("services") if isinstance(index, dict) else None
+            if not isinstance(services, list) or not services:
+                raise ValueError("expected a non-empty services list")
+            if index.get("count") != len(services):
+                raise ValueError("count does not match services")
+            required = {
+                "id",
+                "slug",
+                "name",
+                "tagline",
+                "category",
+                "website",
+                "repository",
+                "dossier",
+                "mcp_status",
+                "url_onboarding",
+                "haystack",
+            }
+            first = services[0]
+            if not isinstance(first, dict) or not required.issubset(first):
+                raise ValueError("search records are missing required fields")
+        except (json.JSONDecodeError, UnicodeDecodeError, ValueError) as error:
+            failures.append(f"{search_index_path}: invalid search index: {error}")
 
     source_categories = {
         path.name for path in (ROOT / "services").iterdir() if path.is_dir()
