@@ -19,6 +19,7 @@
     {% elsif page.page_kind == "collection" and page.hero_image %}
       <link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" type="image/webp">
     {% endif %}
+    <link rel="preload" as="fetch" href="{{ '/assets/search-index.json' | relative_url }}" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/catalog.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
@@ -31,6 +32,7 @@
           <span class="wordmark-mark" aria-hidden="true">A/NS</span>
           <span class="wordmark-name">The Agent-Native Index</span>
         </a>
+        {% include catalog-search.html %}
         <nav class="primary-nav" aria-label="Primary navigation">
           <a href="{{ '/' | relative_url }}#collections">Collections</a>
           <a href="{{ '/' | relative_url }}#new-arrivals">New</a>
@@ -108,5 +110,6 @@
         <p class="footer-meta">Curated in public · CC0-1.0 · {{ site.time | date: '%Y' }}</p>
       </div>
     </footer>
+    <script src="{{ '/assets/js/catalog-search.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
   </body>
 </html>
