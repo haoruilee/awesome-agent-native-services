@@ -8,7 +8,7 @@ license: CC0-1.0
 compatibility: Works with agents that can inspect official websites, repositories, and protocol documentation.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-09-03"
+  catalog-version: "2026-09-04"
 allowed-tools: WebSearch Read
 ---
 

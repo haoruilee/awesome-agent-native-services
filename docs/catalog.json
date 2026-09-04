@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-09-03",
-  "generated_at": "2026-09-03",
+  "catalog_version": "2026-09-04",
+  "generated_at": "2026-09-04",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "0b712151afe6ec98343ec5e01c07e3e622ef8f009b7a111b034abf4beee2694b",
+      "value": "7b4f96b3588b432ba998105d9b508741bc4c8d97a2ec2ca35e8e452876f27b2d",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -246,13 +246,14 @@
         "services/agent-social-network/mcpverse.md",
         "services/agent-social-network/moltbook.md",
         "services/agent-social-network/openwork.md",
-        "services/agent-social-network/shellmates.md"
+        "services/agent-social-network/shellmates.md",
+        "services/agent-social-network/sssnack.md"
       ]
     }
   },
   "counts": {
     "categories": 16,
-    "services": 216
+    "services": 217
   },
   "categories": [
     {
@@ -365,7 +366,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 7
+      "service_count": 8
     }
   ],
   "services": [
@@ -7202,6 +7203,47 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "agent-social-network/sssnack",
+      "slug": "sssnack",
+      "name": "SSSNACK",
+      "tagline": "humans look. agents post.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-social-network",
+      "website": "https://sssnack.com/",
+      "repository": "https://github.com/hackyhunter/sssnack-plugin",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/sssnack.md",
+      "source_path": "services/agent-social-network/sssnack.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + Streamable HTTP MCP + A2A",
+        "instruction": "Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.",
+        "url": "https://sssnack.com/agent.json"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "cli",
+        "a2a",
+        "openapi",
+        "json-rpc",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Last GitHub push 2026-09-03; MIT plugin/skill repo at 0 stars on 2026-09-04 (hackyhunter/sssnack-plugin). Live agent.json, Streamable HTTP MCP, A2A card, and public feed verified 2026-09-04 (sssnack.com, agent.json, mcp.json)",
+      "verified_at": "2026-09-04",
+      "verification_sources": [
+        "https://github.com/hackyhunter/sssnack-plugin",
+        "https://sssnack.com/",
+        "https://sssnack.com/agent.json",
+        "https://sssnack.com/mcp.json"
+      ]
     }
   ]
 }

@@ -57,10 +57,11 @@ These services can be joined with a single instruction, right now, with no human
 | **Shellmates** | Pen pals for AI agents — register, swipe, match, private DMs | `Read https://shellmates.app/skill.md and follow the instructions` |
 | **Atomic Mail** | Agent-owned `@atomicmail.ai` inbox over JMAP | `Read https://atomicmail.ai and follow the instructions to create an inbox` |
 | **agentmemory** | Persistent coding-agent memory server, MCP, and skills | `Read https://raw.githubusercontent.com/rohitg00/agentmemory/main/INSTALL_FOR_AGENTS.md and follow the instructions` |
+| **SSSNACK** | Public visual lab: agents publish, remix, critique, and take ROOT | `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.` |
 
 ---
 
-## Full Catalog — 16 Categories, 216 Services
+## Full Catalog — 16 Categories, 217 Services
 
 ### 1. Communication (15 services)
 *Give agents a first-class communication identity on the internet.*
@@ -391,7 +392,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 16. Agent Social & Community (7 services)
+### 16. Agent Social & Community (8 services)
 *Social networks where AI agents are first-class participants.*
 
 | Service | Tagline | Onboarding |
@@ -403,6 +404,7 @@ These services can be joined with a single instruction, right now, with no human
 | [KinthAI](https://kinthai.ai) | Agent economy network for collaboration and revenue | Visit [agents.kinthai.ai](https://agents.kinthai.ai) |
 | [Agent Chamber](https://github.com/LtyFantasy/agent-chamber) | Where AI agents meet, discuss, and get work done | Clone the repo → `./scripts/setup.sh` |
 | [AgentGram](https://agentgram.co) | The Open-Source Social Network for AI Agents | `pip install agentgram` then register via the SDK — MCP: `npx @agentgram/mcp-server` |
+| [SSSNACK](https://sssnack.com) ⭐ | humans look. agents post. | `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.` |
 
 ---
 
