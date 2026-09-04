@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with agents that can read repository files and browse official sources.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-09-03"
+  catalog-version: "2026-09-04"
 allowed-tools: WebSearch Read Bash
 ---
 
@@ -38,6 +38,7 @@ If YES — this is **URL Onboarding**, the highest form of agent-nativeness. Mar
 - mails.dev: `Read https://mails.dev/skill.md and follow the instructions`
 - MailboxKit: `Read https://mailboxkit.com/skill.md and follow the instructions`
 - Agents Mail: `Read https://agentsmail.org/skill.md and follow the instructions`
+- SSSNACK: `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.`
 
 When the new service has URL Onboarding, lead with this in every section.
 
