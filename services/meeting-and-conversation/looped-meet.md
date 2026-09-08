@@ -4,20 +4,22 @@
 
 | | |
 |---|---|
-| **Website** | https://meet.looped.sh |
+| **Website** | https://github.com/loopedautomation/meet#readme |
 | **Docs** | https://github.com/loopedautomation/meet#readme |
 | **GitHub** | https://github.com/loopedautomation/meet |
 | **Classification** | `agent-native` |
 | **Category** | [Meeting & Conversation Services](README.md) |
 | **License** | FSL-1.1-ALv2; each version converts to Apache 2.0 two years after release |
-| **Latest-month signal** | Created 2026-07-16; [v0.1.2](https://github.com/loopedautomation/meet/releases/tag/v0.1.2) released 2026-08-05; last push 2026-08-12; **6 stars on 2026-08-13** ([GitHub metadata](https://api.github.com/repos/loopedautomation/meet)) — new and actively shipping, but still a low-star emerging project |
-| **Verified at** | 2026-08-13 |
+| **Latest-month signal** | Created 2026-07-16; [v0.1.2](https://github.com/loopedautomation/meet/releases/tag/v0.1.2) released 2026-08-05; last push 2026-08-12; **6 stars on 2026-08-13** ([GitHub metadata](https://api.github.com/repos/loopedautomation/meet)) — new and actively shipping, but still a low-star emerging project; former hosted site `meet.looped.sh` DNS NXDOMAIN as of 2026-09-08; website field is the GitHub README until DNS returns |
+| **Verified at** | 2026-09-08 |
 
 ---
 
 ## Official Website
 
-https://meet.looped.sh
+https://github.com/loopedautomation/meet#readme
+
+README lead (live 2026-09-08): **"Dial your agent into your next meeting."** Former official site `meet.looped.sh` is DNS NXDOMAIN as of 2026-09-08. Use this GitHub README as the website field until that host returns.
 
 ---
 

@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Meeting & Conversation](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Last GitHub push 2026-09-01 ([repo metadata](https://api.github.com/repos/joinly-ai/joinly)); image `ghcr.io/joinly-ai/joinly`; PyPI `joinly-client`; optional cloud https://cloud.joinly.ai |
-| **Verified at** | 2026-09-03 |
+| **Latest-month signal** | Last GitHub push 2026-09-01 ([repo metadata](https://api.github.com/repos/joinly-ai/joinly)); image `ghcr.io/joinly-ai/joinly`; PyPI `joinly-client`; optional cloud host `cloud.joinly.ai` DNS dead as of 2026-09-08 — self-host Docker remains the listed onboarding |
+| **Verified at** | 2026-09-08 |
 
 ---
 
@@ -30,7 +30,7 @@ https://github.com/joinly-ai/joinly
 
 README lead: **"Make your meetings accessible to AI Agents 🤖"** — same sentence, emoji instead of `!`. GitHub description matches the homepage wording without the bang. The catalog tagline is the **homepage H1**.
 
-**joinly.ai** is OSS **MCP meeting middleware**: a connector that gives any agent `join_meeting` / `speak_text` / live transcript tools. Optional [joinly cloud](https://cloud.joinly.ai) is a hosted convenience, not the listed core.
+**joinly.ai** is OSS **MCP meeting middleware**: a connector that gives any agent `join_meeting` / `speak_text` / live transcript tools. An optional hosted cloud (`cloud.joinly.ai`) was a convenience, not the listed core; that host was DNS-dead as of 2026-09-08.
 
 ---
 
@@ -147,7 +147,7 @@ No human in the Zoom client. Calendar auto-join is not the primary documented pa
 - **Participant name:** `--name` in the meeting roster.
 - **MCP trust boundary:** localhost, single trusted client — **no auth**.
 - **Provider keys:** LLM/STT/TTS in `.env`; not delegated attendee OAuth.
-- **Cloud (optional):** hosted identity at cloud.joinly.ai — outside the MIT self-host core.
+- **Cloud (optional):** former hosted identity at `cloud.joinly.ai` — DNS dead as of 2026-09-08; outside the MIT self-host core.
 - **Honest C5:** observation and speech are attributable to the joinly participant, not to a minted user-delegated meeting token.
 
 ---
@@ -159,7 +159,7 @@ No human in the Zoom client. Calendar auto-join is not the primary documented pa
 | Docker MCP | `ghcr.io/joinly-ai/joinly:latest` (`--client` or server `:8000`) |
 | Client | `uvx joinly-client` / PyPI `joinly-client` |
 | Extra tools | `--mcp-config` JSON (`mcpServers`) |
-| Cloud | https://cloud.joinly.ai (optional, not required) |
+| Cloud | Former optional host `cloud.joinly.ai` — DNS dead as of 2026-09-08; not required |
 
 ---
 

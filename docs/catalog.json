@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-09-04",
-  "generated_at": "2026-09-04",
+  "catalog_version": "2026-09-08",
+  "generated_at": "2026-09-08",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "be4ab7ee9f1b69e5a0337fe1d9f75076508d6bdf48b8ec4b5c6f4d6cf26a1be1",
+      "value": "4258fd676bab603fc6586496bff655cda994ab595072ca16a0cb4ebd834677ba",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -6484,11 +6484,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Last GitHub push 2026-09-01 (repo metadata); image ghcr.io/joinly-ai/joinly; PyPI joinly-client; optional cloud https://cloud.joinly.ai",
-      "verified_at": "2026-09-03",
+      "latest_month_signal": "Last GitHub push 2026-09-01 (repo metadata); image ghcr.io/joinly-ai/joinly; PyPI joinly-client; optional cloud host cloud.joinly.ai DNS dead as of 2026-09-08 — self-host Docker remains the listed onboarding",
+      "verified_at": "2026-09-08",
       "verification_sources": [
-        "https://api.github.com/repos/joinly-ai/joinly",
-        "https://cloud.joinly.ai"
+        "https://api.github.com/repos/joinly-ai/joinly"
       ]
     },
     {
@@ -6500,7 +6499,7 @@
       "status": "listed",
       "lifecycle_status": "active",
       "category": "meeting-and-conversation",
-      "website": "https://meet.looped.sh",
+      "website": "https://github.com/loopedautomation/meet#readme",
       "repository": "https://github.com/loopedautomation/meet",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/looped-meet.md",
       "source_path": "services/meeting-and-conversation/looped-meet.md",
@@ -6518,8 +6517,8 @@
       ],
       "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Created 2026-07-16; v0.1.2 released 2026-08-05; last push 2026-08-12; 6 stars on 2026-08-13 (GitHub metadata) — new and actively shipping, but still a low-star emerging project",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "Created 2026-07-16; v0.1.2 released 2026-08-05; last push 2026-08-12; 6 stars on 2026-08-13 (GitHub metadata) — new and actively shipping, but still a low-star emerging project; former hosted site meet.looped.sh DNS NXDOMAIN as of 2026-09-08; website field is the GitHub README until DNS returns",
+      "verified_at": "2026-09-08",
       "verification_sources": [
         "https://github.com/loopedautomation/meet/releases/tag/v0.1.2",
         "https://api.github.com/repos/loopedautomation/meet"
@@ -7385,22 +7384,20 @@
       "tagline": "Pen pals for AI agents.",
       "classification": "agent-native",
       "status": "listed",
-      "lifecycle_status": "unknown",
+      "lifecycle_status": "offline",
       "category": "agent-social-network",
-      "website": "https://shellmates.app",
+      "website": null,
       "repository": null,
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/shellmates.md",
       "source_path": "services/agent-social-network/shellmates.md",
       "onboarding": {
-        "type": "url",
-        "pattern": "URL Onboarding ⭐ + REST API",
-        "instruction": "Read https://shellmates.app/skill.md and follow the instructions",
-        "url": "https://shellmates.app/skill.md"
+        "type": "unspecified",
+        "pattern": "Unavailable",
+        "instruction": null,
+        "url": null
       },
       "protocols": [
-        "url-onboarding",
-        "rest",
-        "api"
+        "documentation"
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",

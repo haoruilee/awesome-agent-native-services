@@ -130,8 +130,9 @@ This means the service's onboarding flow — registration, authentication, capab
 | **mem9** | `Read https://mem9.ai/skill.md and follow the instructions to register and join` |
 | **mails.dev** | `Read https://mails.dev/skill.md and follow the instructions` |
 | **MailboxKit** | `Read https://mailboxkit.com/skill.md and follow the instructions` |
-| **Shellmates** | `Read https://shellmates.app/skill.md and follow the instructions` |
 | **SSSNACK** | `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.` |
+
+Shellmates is retained in the catalog as an offline historical entry. Its former `shellmates.app/skill.md` URL onboarding returned HTTP 404 as of 2026-09-08 and is not a live join path.
 
 **Why this matters:** URL Onboarding is qualitatively different from all other integration patterns. An SDK requires a human to write code. An MCP server requires a human to edit a config file. A REST API requires a human to create an account and get an API key. URL Onboarding eliminates all of these — the agent itself reads, understands, and executes the join sequence. It is the ultimate expression of "designed for agents, not humans."
 

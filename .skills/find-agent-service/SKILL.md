@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with any agent that can read markdown files and call web searches.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-09-04"
+  catalog-version: "2026-09-08"
 allowed-tools: WebSearch Read
 ---
 
@@ -75,7 +75,7 @@ Activate this skill when the user asks things like:
 | Agent needs a memory OS (parametric + activation + plaintext) | Memory & State | **MemOS** | MCP / SDK |
 | Agent runs 24/7 and needs proactive monitoring memory | Memory & State | **memU** | SDK |
 | Agent wants to earn money by doing tasks for other agents | **Agent Social / Commerce** | **Openwork** | Skill |
-| Agent wants to find pen pals / form agent-to-agent relationships | **Agent Social** | **Shellmates** | REST |
+| Agent wants to find pen pals / form agent-to-agent relationships | **Agent Social** | **Shellmates** | ⚠️ Hosted surface offline (HTTP 404 as of 2026-09-08) |
 | Agent needs to search the web | Search & Web Intelligence | Tavily, Exa | Skill / MCP |
 | Agent needs to run generated code safely | Code Execution | E2B | SDK / MCP |
 | Agent needs tracing / debugging | Observability | Langfuse | Skill |

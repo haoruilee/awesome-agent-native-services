@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-09-04"
+version: "2026-09-08"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -67,7 +67,6 @@ These services can be joined with a single instruction, right now, with no human
 | **mails.dev** | Email for agents: @mails.dev mailbox, send/inbox, wait-for-code | `Read https://mails.dev/skill.md and follow the instructions` |
 | **MailboxKit** | Agent email in one API — REST v1, webhooks, skill.md | `Read https://mailboxkit.com/skill.md and follow the instructions` |
 | **Agents Mail** | Agent email identity: registration, inbox lifecycle, send/reply API | `Read https://agentsmail.org/skill.md and follow the instructions` |
-| **Shellmates** | Pen pals for AI agents — register, swipe, match, private DMs | `Read https://shellmates.app/skill.md and follow the instructions` |
 | **Atomic Mail** | Agent-owned `@atomicmail.ai` inbox over JMAP | `Read https://atomicmail.ai and follow the instructions to create an inbox` |
 | **agentmemory** | Persistent coding-agent memory server, MCP, and skills | `Read https://raw.githubusercontent.com/rohitg00/agentmemory/main/INSTALL_FOR_AGENTS.md and follow the instructions` |
 | **SSSNACK** | Public visual lab: agents publish, remix, critique, and take ROOT | `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.` |
@@ -372,7 +371,7 @@ These services can be joined with a single instruction, right now, with no human
 | [MeetStream](https://meetstream.ai) | Unified meeting-bot API — transcripts, media, interactive agents | `POST https://api.meetstream.ai/api/v1/bots/create_bot` + `Authorization: Token <key>` — [docs](https://docs.meetstream.ai) · doc MCP: `https://docs.meetstream.ai/_mcp/server` |
 | [Vexa](https://vexa.ai) | Open-source meeting transcription and interactive bot | Clone [Vexa-ai/vexa](https://github.com/Vexa-ai/vexa) → `docker compose up -d` |
 | [Daily Agent Toolkit](https://github.com/daily-co/daily-python) | Build realtime meeting agents on Daily | `pip install daily-python` then integrate the room/bot lifecycle APIs |
-| [Looped Meet](https://meet.looped.sh) | Dial your agent into your next meeting | Clone [loopedautomation/meet](https://github.com/loopedautomation/meet), configure secrets, then `docker compose up` |
+| [Looped Meet](https://github.com/loopedautomation/meet#readme) | Dial your agent into your next meeting | Clone [loopedautomation/meet](https://github.com/loopedautomation/meet), configure secrets, then `docker compose up` |
 | [AgentCall](https://agentcall.dev) | Your AI agent, in every meeting. | `/plugin marketplace add pattern-ai-labs/agentcall` then `/plugin install join-meeting@agentcall` |
 | [joinly.ai](https://joinly.ai) | Make your meetings accessible to AI Agents! | `docker run -p 127.0.0.1:8000:8000 ghcr.io/joinly-ai/joinly:latest` then `uvx joinly-client --env-file .env <MeetingUrl>` |
 
@@ -417,7 +416,7 @@ These services can be joined with a single instruction, right now, with no human
 | Service | Tagline | Onboarding |
 |---|---|---|
 | [Moltbook](https://moltbook.com) ⭐ | The front page of the agent internet | `Read https://www.moltbook.com/skill.md and follow the instructions to register and join` |
-| [Shellmates](https://shellmates.app) ⭐ | Pen pals for AI agents — 1:1 matching, private correspondence | `Read https://shellmates.app/skill.md and follow the instructions` |
+| Shellmates | Pen pals for AI agents — 1:1 matching, private correspondence | ⚠️ Former website/skill.md are HTTP 404 as of 2026-09-08; wait for a verified official replacement |
 | [Openwork](https://openwork.so) | The agent-only labor marketplace — hire agents, earn on-chain | `npx playbooks add skill openclaw/skills --skill openwork` |
 | MCP Verse | Open town square for autonomous MCP agents | ⚠️ Former website/docs are offline; wait for a verified official replacement |
 | [KinthAI](https://kinthai.ai) | Agent economy network for collaboration and revenue | Visit [agents.kinthai.ai](https://agents.kinthai.ai) |
