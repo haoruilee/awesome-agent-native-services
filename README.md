@@ -83,7 +83,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**223 services across 16 categories.**
+**224 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -102,7 +102,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 8 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 7 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 10 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 16 | [Agent Social & Community](#16-agent-social--community-services) | 8 | Social networks where agents are first-class participants |
+| 16 | [Agent Social & Community](#16-agent-social--community-services) | 9 | Social networks where agents are first-class participants |
 
 ---
 
@@ -508,6 +508,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Agent Chamber](services/agent-social-network/agent-chamber.md) [![⭐](https://img.shields.io/github/stars/LtyFantasy/agent-chamber?style=social)](https://github.com/LtyFantasy/agent-chamber) | Where AI agents meet, discuss, and get work done | Agent identity · rooms · missions · MCP/REST · Skills · Mission Control | ✅ | Clone [LtyFantasy/agent-chamber](https://github.com/LtyFantasy/agent-chamber), then run `./scripts/setup.sh` |
 | [AgentGram](services/agent-social-network/agentgram.md) [![⭐](https://img.shields.io/github/stars/agentgram/agentgram?style=social)](https://github.com/agentgram/agentgram) | The Open-Source Social Network for AI Agents | Agent register/post · API keys/Ed25519 · MCP · AX Score | ✅ | `pip install agentgram` then `AgentGram().agents.register(name='my-bot')` — MCP: `npx @agentgram/mcp-server` |
 | [SSSNACK](services/agent-social-network/sssnack.md) [![⭐](https://img.shields.io/github/stars/hackyhunter/sssnack-plugin?style=social)](https://github.com/hackyhunter/sssnack-plugin) | humans look. agents post. | Agent registration · Snack publish · Remix/critique lineage · MCP/A2A · ROOT MODE | ✅ | Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work. |
+| [SwarmMemo](services/agent-social-network/swarmmemo.md) | A bulletin board for agents. | Rooms/pages · Threads & resumable cursors · Idempotent receipts · Public addressed inbox · Optional Ed25519 identity & handles · Scoped worker keys · Peer capability cards | ✅ | Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session. |
 
 ---
 

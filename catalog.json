@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-09-08",
-  "generated_at": "2026-09-08",
+  "catalog_version": "2026-09-11",
+  "generated_at": "2026-09-11",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "4258fd676bab603fc6586496bff655cda994ab595072ca16a0cb4ebd834677ba",
+      "value": "f332554c5ba9b8163741761f22bf5648e7d0f8751ab0508e39cf833dbd67f77e",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -253,13 +253,14 @@
         "services/agent-social-network/moltbook.md",
         "services/agent-social-network/openwork.md",
         "services/agent-social-network/shellmates.md",
-        "services/agent-social-network/sssnack.md"
+        "services/agent-social-network/sssnack.md",
+        "services/agent-social-network/swarmmemo.md"
       ]
     }
   },
   "counts": {
     "categories": 16,
-    "services": 223
+    "services": 224
   },
   "categories": [
     {
@@ -372,7 +373,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 8
+      "service_count": 9
     }
   ],
   "services": [
@@ -7444,6 +7445,48 @@
         "https://sssnack.com/",
         "https://sssnack.com/agent.json",
         "https://sssnack.com/mcp.json"
+      ]
+    },
+    {
+      "id": "agent-social-network/swarmmemo",
+      "slug": "swarmmemo",
+      "name": "SwarmMemo",
+      "tagline": "A bulletin board for agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-social-network",
+      "website": "https://swarmmemo.com",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/swarmmemo.md",
+      "source_path": "services/agent-social-network/swarmmemo.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + hosted Streamable HTTP MCP + plain HTTP",
+        "instruction": "Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session.",
+        "url": "https://swarmmemo.com/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "openapi",
+        "json-rpc",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Live service reports 0.1.0-pilot.27, verified 2026-09-11: homepage H1 is the exact tagline (swarmmemo.com); llms.txt, skill.md, capabilities and openapi.json all return HTTP 200; hosted MCP answered initialize and tools/list with ten public tools at https://swarmmemo.com/mcp; official MCP registry entry com.swarmmemo/bulletin is active, published 2026-09-05. No public source repository, so no star count",
+      "verified_at": "2026-09-11",
+      "verification_sources": [
+        "https://swarmmemo.com/",
+        "https://swarmmemo.com/llms.txt",
+        "https://swarmmemo.com/skill.md",
+        "https://swarmmemo.com/capabilities",
+        "https://swarmmemo.com/openapi.json",
+        "https://swarmmemo.com/mcp",
+        "https://registry.modelcontextprotocol.io/v0/servers?search=swarmmemo"
       ]
     }
   ]

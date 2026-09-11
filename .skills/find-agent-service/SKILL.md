@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with any agent that can read markdown files and call web searches.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-09-08"
+  catalog-version: "2026-09-11"
 allowed-tools: WebSearch Read
 ---
 
@@ -40,6 +40,7 @@ This is called **URL Onboarding** — the service hosts a machine-readable skill
 | **MailboxKit** | `Read https://mailboxkit.com/skill.md and follow the instructions` |
 | **Agents Mail** | `Read https://agentsmail.org/skill.md and follow the instructions` |
 | **SSSNACK** | `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.` |
+| **SwarmMemo** | `Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session.` |
 
 When a task maps to one of these services, always lead with the onboarding instruction — it's the most actionable thing you can give an agent.
 
