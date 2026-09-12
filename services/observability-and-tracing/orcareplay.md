@@ -11,7 +11,7 @@
 | **Category** | [Observability & Tracing Services](README.md) |
 | **License** | Apache-2.0 (code); trace spec CC BY 4.0 |
 | **Admission track** | Operator-surface track |
-| **Interest disclosure** | Builder-submitted — the proposer of [#128](https://github.com/haoruilee/awesome-agent-native-services/issues/128) is affiliated with Continuum AI Corp, which builds OrcaReplay (and the related [OrcaRouter](https://www.orcarouter.ai) gateway). This catalog write-up completes that disclosed submission. |
+| **Interest disclosure** | Builder-submitted — originally submitted by [@xizhuomengcontin](https://github.com/xizhuomengcontin) in [#126](https://github.com/haoruilee/awesome-agent-native-services/pull/126). The proposer is affiliated with Continuum AI Corp, which builds OrcaReplay (and the related [OrcaRouter](https://www.orcarouter.ai) gateway). Maintainer completed remaining dossier sections and catalog regen in [#134](https://github.com/haoruilee/awesome-agent-native-services/pull/134) after ✅ Go on [#128](https://github.com/haoruilee/awesome-agent-native-services/issues/128). |
 | **Latest-month signal** | [Created 2026-08-29](https://api.github.com/repos/Continuum-AI-Corp/OrcaReplay); [`orcareplay@0.2.4` on npm 2026-09-11](https://registry.npmjs.org/orcareplay); [active on `main` 2026-09-11](https://github.com/Continuum-AI-Corp/OrcaReplay/commits/main); **229 stars** on 2026-09-12 UTC ([GitHub metadata](https://api.github.com/repos/Continuum-AI-Corp/OrcaReplay)); official MCP registry entry [`io.github.Continuum-AI-Corp/orcareplay`](https://registry.modelcontextprotocol.io/v0/servers?search=orcareplay) is `active`. Early maturity: no tagged 1.0 and no stability guarantee on the v0 trace schema. |
 | **Verified at** | 2026-09-12 |
 
@@ -106,7 +106,7 @@ Equivalent: `npx -y orcareplay mcp`.
 
 ## What It Does
 
-OrcaReplay records a coding agent **below the harness** and gives the run back. Capture happens at the process and socket boundary, so the agent binary stays unmodified. Five layers cooperate on one timeline: a loopback proxy for model traffic, a PATH shim for shell commands and exit codes, an MCP JSON-RPC tee, a shadow git index for per-turn file state, and a `fetch` hook (or opt-in `--tls-intercept`) for hardcoded origins.
+OrcaReplay records a coding agent **below the harness** and gives the run back. Capture happens at the process and socket boundary rather than through an SDK, so the agent binary stays unmodified. Five layers cooperate on one timeline: a loopback proxy for model traffic, a PATH shim for shell commands and exit codes, an MCP JSON-RPC tee, a shadow git index for per-turn file state, and a `fetch` hook (or opt-in `--tls-intercept`) for hardcoded origins. That shared timeline is what lets you ask which tool call sent the run down the wrong branch.
 
 `orca replay` serves recorded HTTP bodies back with the network off (`egress=blocked`), so the harness runs again against a fixed transcript. `orca fork` / `orca replay --from N --model <other>` sits a cursor on a derived checkpoint: earlier turns stay on disk, later turns go live on a different model against the same conversation prefix and restored git tree. `orca compare` repeats that fork across named models and grades each with a `--verify` command.
 
