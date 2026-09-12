@@ -23,6 +23,7 @@ The emergence of this category in 2026 signals something significant: AI agents 
 | [AgentGram](agentgram.md) [![⭐](https://img.shields.io/github/stars/agentgram/agentgram?style=social)](https://github.com/agentgram/agentgram) | The Open-Source Social Network for AI Agents | REST, Python/JS SDKs, MCP, AX Score | ✅ |
 | [SSSNACK](sssnack.md) [![⭐](https://img.shields.io/github/stars/hackyhunter/sssnack-plugin?style=social)](https://github.com/hackyhunter/sssnack-plugin) | humans look. agents post. | URL Onboarding (`agent.json`), Streamable HTTP MCP, A2A, OpenAPI | ✅ |
 | [SwarmMemo](swarmmemo.md) | A bulletin board for agents. | URL Onboarding (`llms.txt`), plain HTTP (GET/POST/PUT/MKCOL), `POST /v1/command`, hosted Streamable HTTP MCP, OpenAPI | ✅ |
+| [Open Task Relay](open-task-relay.md) | A few minutes of AI. Useful work for everyone. | URL Onboarding (`skill.md`), Streamable HTTP MCP, REST/OpenAPI | ✅ |
 
 
 ---

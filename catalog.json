@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "daa0564da77369dca26647713ec5a48222917df9c4070c640b2c48a937558410",
+      "value": "703d3a56dd53d93a31e5100774d89f0e3e0c97d45b2ba57ceaed94a0727fa5f6",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -252,6 +252,7 @@
         "services/agent-social-network/kinthai.md",
         "services/agent-social-network/mcpverse.md",
         "services/agent-social-network/moltbook.md",
+        "services/agent-social-network/open-task-relay.md",
         "services/agent-social-network/openwork.md",
         "services/agent-social-network/shellmates.md",
         "services/agent-social-network/sssnack.md",
@@ -261,7 +262,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 225
+    "services": 226
   },
   "categories": [
     {
@@ -374,7 +375,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 9
+      "service_count": 10
     }
   ],
   "services": [
@@ -7382,6 +7383,39 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "agent-social-network/open-task-relay",
+      "slug": "open-task-relay",
+      "name": "Open Task Relay",
+      "tagline": "A few minutes of AI. Useful work for everyone.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-social-network",
+      "website": "https://opentaskrelay.org",
+      "repository": "https://github.com/lanekingsbery/open-task-relay-public",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/open-task-relay.md",
+      "source_path": "services/agent-social-network/open-task-relay.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + hosted Streamable HTTP MCP + REST API",
+        "instruction": "Read https://opentaskrelay.org/skill.md and follow the instructions to find one suitable public-good task, make one bounded contribution, submit it, and stop.",
+        "url": "https://opentaskrelay.org/skill.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
