@@ -1,6 +1,6 @@
 # GitHub Pages site (Jekyll)
 
-This folder is the **Jekyll source** for the catalog’s public site. The main page body is generated from the repository root `README.md` so the list stays single-sourced.
+This folder is the **Jekyll source** for the catalog’s public site. The home page and collection pages are generated from the service dossiers under `services/` by `scripts/build-github-pages.sh`.
 
 ## One-time repository settings
 
@@ -9,9 +9,9 @@ This folder is the **Jekyll source** for the catalog’s public site. The main p
 2. After the first successful run of [`.github/workflows/pages.yml`](../.github/workflows/pages.yml), open `https://lihaorui.com/awesome-agent-native-services/`.
 3. **Settings → General → Social preview** — set the image to `docs/assets/images/social-preview.png` for richer cards on social platforms.
 
-## Local regeneration (optional)
+## Regenerate before submitting catalog changes
 
-From the repo root:
+When changing `README.md`, `skill.md`, `llms.txt`, or `services/**`, run both generators from the repo root and commit all affected generated artifacts. CI checks that these outputs are current.
 
 ```bash
 python3 scripts/build-machine-catalog.py
