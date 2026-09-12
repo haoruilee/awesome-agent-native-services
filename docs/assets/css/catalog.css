@@ -2002,6 +2002,11 @@ a:hover {
 }
 
 @media (max-width: 680px) {
+  .arrival-rail {
+    margin-right: -14px;
+    padding-right: 14px;
+  }
+
   .hero-art img {
     object-position: 61% center;
   }
