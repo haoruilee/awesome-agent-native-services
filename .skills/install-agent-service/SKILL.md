@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with Claude Code plugin skills and agents that can read SKILL.md.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-09-11"
+  catalog-version: "2026-09-12"
 allowed-tools: WebSearch Read Bash
 ---
 

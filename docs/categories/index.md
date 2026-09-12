@@ -1,6 +1,6 @@
 ---
 title: "Agent-Native Collections"
-description: "Browse 224 agent-native services across 16 curated infrastructure collections."
+description: "Browse 225 agent-native services across 16 curated infrastructure collections."
 permalink: /categories/
 page_kind: document
 ---
@@ -91,7 +91,7 @@ page_kind: document
     <span class="collection-card__copy">
     <span class="collection-card__number">11</span>
     <span class="collection-card__title">Observability &amp; Tracing</span>
-    <span class="collection-card__count">13</span>
+    <span class="collection-card__count">14</span>
     </span>
   </a>
   <a class="collection-card atlas-visual--12" href="{{ '/categories/durable-execution-and-scheduling/' | relative_url }}">

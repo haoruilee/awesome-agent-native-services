@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-09-11"
+version: "2026-09-12"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -74,7 +74,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 224 Services
+## Full Catalog — 16 Categories, 225 Services
 
 ### 1. Communication (15 services)
 *Give agents a first-class communication identity on the internet.*
@@ -327,7 +327,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 11. Observability & Tracing (13 services)
+### 11. Observability & Tracing (14 services)
 *Full trajectory tracing, evaluation datasets, and cost attribution for agent runs.*
 
 | Service | Tagline | Onboarding |
@@ -345,6 +345,7 @@ These services can be joined with a single instruction, right now, with no human
 | [OpenLIT](https://github.com/openlit/openlit) | OpenTelemetry-native observability for LLMs and agents | `pip install openlit` then configure OpenTelemetry export |
 | [AgentSight](https://eunomia.dev/agentsight/) | Lightweight system-level observability for AI Agents | `cargo install agentsight` then `agentsight top` or `sudo agentsight record -- claude` |
 | [Kitaru](https://www.zenml.io/product/kitaru) | Traces you can run, not just read — replay-based evals for AI agents | `uv add "kitaru[cli,worker,mcp]"` then `npx skills add zenml-io/kitaru-skills` — [docs](https://docs.zenml.io/kitaru) |
+| [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | Your agent broke something at 2am. Replay it at 9am — exactly, offline | `npm i -g orcareplay` → `orca doctor` → `orca record claude` / `orca replay` / `orca fork` |
 
 ---
 

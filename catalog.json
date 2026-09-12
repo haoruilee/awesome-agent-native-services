@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-09-11",
-  "generated_at": "2026-09-11",
+  "catalog_version": "2026-09-12",
+  "generated_at": "2026-09-12",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "f332554c5ba9b8163741761f22bf5648e7d0f8751ab0508e39cf833dbd67f77e",
+      "value": "daa0564da77369dca26647713ec5a48222917df9c4070c640b2c48a937558410",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -210,6 +210,7 @@
         "services/observability-and-tracing/langwatch.md",
         "services/observability-and-tracing/numbat.md",
         "services/observability-and-tracing/openlit.md",
+        "services/observability-and-tracing/orcareplay.md",
         "services/durable-execution-and-scheduling/README.md",
         "services/durable-execution-and-scheduling/inferable.md",
         "services/durable-execution-and-scheduling/inngest.md",
@@ -260,7 +261,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 224
+    "services": 225
   },
   "categories": [
     {
@@ -338,7 +339,7 @@
       "name": "Observability & Tracing",
       "description": "Services that give teams structured visibility into agent execution — capturing the full trajectory of an agent's reasoning, tool calls, memory accesses, and outputs in a semantic format that humans can inspect and improve upon.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/README.md",
-      "service_count": 13
+      "service_count": 14
     },
     {
       "id": "durable-execution-and-scheduling",
@@ -6207,6 +6208,44 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "observability-and-tracing/orcareplay",
+      "slug": "orcareplay",
+      "name": "OrcaReplay",
+      "tagline": "Your agent broke something at 2am. Replay it at 9am — exactly, offline, as many times as you like.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "observability-and-tracing",
+      "website": "https://github.com/Continuum-AI-Corp/OrcaReplay",
+      "repository": "https://github.com/Continuum-AI-Corp/OrcaReplay",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/orcareplay.md",
+      "source_path": "services/observability-and-tracing/orcareplay.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": "CLI wrapper (process + socket interception; operator-surface track)",
+        "instruction": "npm i -g orcareplay\norca doctor\norca record claude\norca replay last\norca fork last",
+        "url": "https://github.com/Continuum-AI-Corp/OrcaReplay#install"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "cli",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Created 2026-08-29; orcareplay@0.2.4 on npm 2026-09-11; active on main 2026-09-11; 229 stars on 2026-09-12 UTC (GitHub metadata); official MCP registry entry io.github.Continuum-AI-Corp/orcareplay is active. Early maturity: no tagged 1.0 and no stability guarantee on the v0 trace schema.",
+      "verified_at": "2026-09-12",
+      "verification_sources": [
+        "https://api.github.com/repos/Continuum-AI-Corp/OrcaReplay",
+        "https://registry.npmjs.org/orcareplay",
+        "https://github.com/Continuum-AI-Corp/OrcaReplay/commits/main",
+        "https://registry.modelcontextprotocol.io/v0/servers?search=orcareplay"
+      ]
     },
     {
       "id": "durable-execution-and-scheduling/inferable",

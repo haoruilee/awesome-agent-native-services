@@ -83,7 +83,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**224 services across 16 categories.**
+**225 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -97,7 +97,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 8 | [Memory & State](#8-memory--state-services) | 28 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 16 | Secure sandboxes for AI-generated code |
-| 11 | [Observability & Tracing](#11-observability--tracing-services) | 13 | Agent trajectory tracing and evaluation |
+| 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 8 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 7 | Agent-controlled voice calls and phone infrastructure |
@@ -414,6 +414,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [OpenLIT](services/observability-and-tracing/openlit.md) [![⭐](https://img.shields.io/github/stars/openlit/openlit?style=social)](https://github.com/openlit/openlit) | OpenTelemetry-native observability for LLMs and AI agents | Agent traces · Tool-call spans · Cost/token analytics | ✅ | `pip install openlit` then configure OpenTelemetry export |
 | [AgentSight](services/observability-and-tracing/agentsight.md) [![⭐](https://img.shields.io/github/stars/eunomia-bpf/agentsight?style=social)](https://github.com/eunomia-bpf/agentsight) | Lightweight system-level observability for AI Agents | eBPF `record` · session DBs · `top`/`vis` · OTLP GenAI | ⚠️ | `cargo install agentsight` then `agentsight top` or `sudo agentsight record -- claude` |
 | [Kitaru](services/observability-and-tracing/kitaru.md) [![⭐](https://img.shields.io/github/stars/zenml-io/kitaru?style=social)](https://github.com/zenml-io/kitaru) | Traces you can run, not just read — replay-based evals for AI agents | Sessions · replay · cohorts · experiments · MCP + Skills | ✅ | `uv add "kitaru[cli,worker,mcp]"` then `npx skills add zenml-io/kitaru-skills` — [docs](https://docs.zenml.io/kitaru) |
+| [OrcaReplay](services/observability-and-tracing/orcareplay.md) [![⭐](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay?style=social)](https://github.com/Continuum-AI-Corp/OrcaReplay) | Your agent broke something at 2am. Replay it at 9am — exactly, offline. | Below-harness capture · offline replay · checkpoint fork · stdio MCP + Skill | ✅ | `npm i -g orcareplay` → `orca doctor` → `orca record claude` / `orca replay` / `orca fork` |
 
 ---
 

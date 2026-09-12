@@ -36,6 +36,7 @@ Agent-native observability services capture **agent trajectory** — the semanti
 | [OpenLIT](openlit.md) [![⭐](https://img.shields.io/github/stars/openlit/openlit?style=social)](https://github.com/openlit/openlit) | OpenTelemetry-native observability for LLMs and AI agents | Agent traces, tool-call spans, cost/token analytics | ✅ |
 | [AgentSight](agentsight.md) [![⭐](https://img.shields.io/github/stars/eunomia-bpf/agentsight?style=social)](https://github.com/eunomia-bpf/agentsight) | Lightweight system-level observability for AI Agents | CLI wrapper, eBPF record, session DBs, OTLP GenAI | ⚠️ |
 | [Kitaru](kitaru.md) [![⭐](https://img.shields.io/github/stars/zenml-io/kitaru?style=social)](https://github.com/zenml-io/kitaru) | Traces you can run, not just read — replay-based evals for AI agents | Python/TS SDKs, CLI, MCP, Agent Skills | ✅ |
+| [OrcaReplay](orcareplay.md) [![⭐](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay?style=social)](https://github.com/Continuum-AI-Corp/OrcaReplay) | Your agent broke something at 2am. Replay it at 9am — exactly, offline | local CLI (process + socket interception), stdio MCP, Agent Skill | ✅ |
 
 
 
