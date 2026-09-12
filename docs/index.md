@@ -1,6 +1,6 @@
 ---
-title: "The Agent-Native Index"
-description: "A curated 2026 collection of agent-native infrastructure: MCP tools, harnesses, identity, memory, sandboxes, browsers, payments, and runtimes."
+title: "Awesome Agent-Native Services"
+description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
 image: /assets/images/social-preview-wide.webp
 page_kind: home
 service_count: 226
@@ -754,6 +754,6 @@ new_arrivals_count: 70
   <div>
   <span class="section-number">03</span>
   <h2 class="section-title">Full source.</h2>
-  <a class="source-gateway__link" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/README.md">Open 226 dossiers ↗</a>
+  <a class="source-gateway__link" href="https://github.com/haoruilee/awesome-agent-native-services">Awesome Agent-Native Services on GitHub ↗</a>
   </div>
 </section>

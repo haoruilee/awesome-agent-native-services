@@ -1,10 +1,10 @@
 # GitHub Pages / Jekyll — https://pages.github.com/
 # Built from README via scripts/build-github-pages.sh (CI + optional local runs)
 
-title: "The Agent-Native Index | Infrastructure for Autonomous Agents"
+title: "Awesome Agent-Native Services"
 # Used only in <title> (short for SEO). On-page <h1> still uses page title from index.md.
-seo_html_title: "The Agent-Native Index 2026 | MCP, Harnesses & AI Infrastructure"
-description: "A curated 2026 collection of agent-native infrastructure: MCP tools, harnesses, identity, memory, sandboxes, browsers, payments, and runtimes."
+seo_html_title: "Awesome Agent-Native Services | The Agent-Native Index"
+description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
 url: "https://lihaorui.com"
 baseurl: "/awesome-agent-native-services"
 lang: en-US
@@ -13,7 +13,7 @@ author: haoruilee
 # Open Graph / Twitter — used by jekyll-seo-tag
 logo: "/assets/images/social-preview.png"
 social:
-  name: The Agent-Native Index
+  name: Awesome Agent-Native Services
   links:
     - "https://github.com/haoruilee/awesome-agent-native-services"
 

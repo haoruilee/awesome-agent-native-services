@@ -1514,7 +1514,7 @@ a:hover {
 .home-hero h1 {
   max-width: 680px;
   color: var(--ink);
-  font-size: clamp(70px, 9.5vw, 138px);
+  font-size: clamp(58px, 6.8vw, 98px);
 }
 
 .home-hero h1 em {
@@ -1526,14 +1526,14 @@ a:hover {
 }
 
 .home-hero .hero-deck {
-  max-width: 430px;
-  margin-top: 30px;
+  max-width: 480px;
+  margin-top: 24px;
   color: var(--ink-soft);
   font-family: var(--sans);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: .1em;
-  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
 }
 
 .home-hero .action-link {
@@ -2016,12 +2016,12 @@ a:hover {
 
   .home-hero h1 {
     max-width: 90%;
-    font-size: clamp(58px, 19vw, 84px);
+    font-size: clamp(38px, 10.5vw, 64px);
   }
 
   .home-hero .hero-deck {
-    max-width: 280px;
-    font-size: 10px;
+    max-width: 320px;
+    font-size: 14px;
   }
 
   .home-hero .action-link {

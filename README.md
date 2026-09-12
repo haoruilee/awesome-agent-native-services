@@ -1,10 +1,12 @@
 # Awesome Agent-Native Services [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of services **designed from the ground up for AI agents** — not adapted from human-facing products.
+> A curated list of **agent-native services and infrastructure for AI agents**: email, browsers, memory, sandboxes, payments, MCP tools, and more.
+
+Browse services by capability, compare their agent-native design against the [selection criteria](CONTRIBUTING.md), and follow each service’s onboarding guide to connect your agent.
 
 Each service is either infrastructure an AI agent *consumes directly* or a narrowly qualified, purpose-built surface for operating concrete agent sessions — not a generic platform for humans to *build agents with*.
 
-**Also on the web:** [The Agent-Native Index](https://lihaorui.com/awesome-agent-native-services/) — the same catalog with structured metadata and machine-readable discovery endpoints.
+**Also on the web:** [Awesome Agent-Native Services — The Agent-Native Index](https://lihaorui.com/awesome-agent-native-services/) — the same catalog with structured metadata and machine-readable discovery endpoints.
 
 ---
 
