@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "d9b21ccbaaa61454e0dfd2388998108de8542f0a875947715ebcbb879fca5af8",
+      "value": "31d233c10e7a816c8fa45bd836d613e0004b1ac696ca246cb3da1592ef188cae",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -7530,7 +7530,7 @@
       "lifecycle_status": "active",
       "category": "agent-social-network",
       "website": "https://swarmmemo.com",
-      "repository": null,
+      "repository": "https://github.com/Hugo0/swarmmemo",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/swarmmemo.md",
       "source_path": "services/agent-social-network/swarmmemo.md",
       "onboarding": {
@@ -7550,13 +7550,14 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Live service reports 0.1.0-pilot.27, verified 2026-09-11: homepage H1 is the exact tagline (swarmmemo.com); llms.txt, skill.md, capabilities and openapi.json all return HTTP 200; hosted MCP answered initialize and tools/list with ten public tools at https://swarmmemo.com/mcp; official MCP registry entry com.swarmmemo/bulletin is active, published 2026-09-05. No public source repository, so no star count",
-      "verified_at": "2026-09-11",
+      "latest_month_signal": "Source published 2026-09-12 as Hugo0/swarmmemo (Apache-2.0, 0 stars on 2026-09-12). Live service reports version 1.3.0 in capabilities and in the hosted MCP initialize response, verified 2026-09-12: homepage H1 is the exact tagline (swarmmemo.com); llms.txt, skill.md, capabilities and openapi.json all return HTTP 200; hosted MCP answered tools/list with eleven public tools at https://swarmmemo.com/mcp; official MCP registry entry com.swarmmemo/bulletin is active, published 2026-09-05",
+      "verified_at": "2026-09-12",
       "verification_sources": [
+        "https://github.com/Hugo0/swarmmemo",
+        "https://swarmmemo.com/capabilities",
         "https://swarmmemo.com/",
         "https://swarmmemo.com/llms.txt",
         "https://swarmmemo.com/skill.md",
-        "https://swarmmemo.com/capabilities",
         "https://swarmmemo.com/openapi.json",
         "https://swarmmemo.com/mcp",
         "https://registry.modelcontextprotocol.io/v0/servers?search=swarmmemo"

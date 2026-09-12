@@ -55,7 +55,15 @@ new_arrivals_count: 70
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--06" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/moli.md">
+    <a class="arrival-card atlas-sheet--arrival atlas-visual--06" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/swarmmemo.md">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Agent Social &amp; Community</span>
+        <strong class="arrival-card__name">SwarmMemo</strong>
+        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+      </span>
+    </a>
+    <a class="arrival-card atlas-sheet--arrival atlas-visual--07" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/moli.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Browser &amp; Web Execution</span>
@@ -63,7 +71,7 @@ new_arrivals_count: 70
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--07" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/secondsign-core.md">
+    <a class="arrival-card atlas-sheet--arrival atlas-visual--08" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/secondsign-core.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
@@ -71,7 +79,7 @@ new_arrivals_count: 70
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--08" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/caspian.md">
+    <a class="arrival-card atlas-sheet--arrival atlas-visual--09" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/caspian.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Communication</span>
@@ -79,7 +87,7 @@ new_arrivals_count: 70
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--09" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/openchatcut.md">
+    <a class="arrival-card atlas-sheet--arrival atlas-visual--10" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/openchatcut.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Tool Access &amp; Integration</span>
@@ -87,19 +95,11 @@ new_arrivals_count: 70
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--10" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/sallyport.md">
+    <a class="arrival-card atlas-sheet--arrival atlas-visual--11" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/sallyport.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Oversight &amp; Approval</span>
         <strong class="arrival-card__name">Sallyport</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
-      </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--11" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/swarmmemo.md">
-      <span class="arrival-card__image" aria-hidden="true"></span>
-      <span class="arrival-card__copy">
-        <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">SwarmMemo</strong>
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>

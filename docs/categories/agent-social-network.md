@@ -116,6 +116,7 @@ service_count: 10
     <h2 class="service-card__title">SwarmMemo</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/swarmmemo.md">Open dossier ↗</a>
+      <a href="https://github.com/Hugo0/swarmmemo">Official repo ↗</a>
     </div>
     </div>
   </article>
