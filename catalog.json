@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "31d233c10e7a816c8fa45bd836d613e0004b1ac696ca246cb3da1592ef188cae",
+      "value": "d8c0e807279e4a2f974cccbd326d6ab210fb2b3a03c8f558bab2f1acb0ddafa0",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -238,6 +238,7 @@
         "services/llm-gateway-and-routing/README.md",
         "services/llm-gateway-and-routing/agentgateway.md",
         "services/llm-gateway-and-routing/bifrost.md",
+        "services/llm-gateway-and-routing/dasha-compute.md",
         "services/llm-gateway-and-routing/helicone.md",
         "services/llm-gateway-and-routing/keywords-ai.md",
         "services/llm-gateway-and-routing/litellm.md",
@@ -262,7 +263,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 226
+    "services": 227
   },
   "categories": [
     {
@@ -368,7 +369,7 @@
       "name": "LLM Gateway & Routing",
       "description": "Services that give AI agents a reliable, observable, and cost-controlled interface to LLM providers — with per-agent routing, budget enforcement, fallback logic, and semantic caching as first-class primitives.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/README.md",
-      "service_count": 10
+      "service_count": 11
     },
     {
       "id": "agent-social-network",
@@ -6975,6 +6976,38 @@
       "verification_sources": [
         "https://github.com/maximhq/bifrost"
       ]
+    },
+    {
+      "id": "llm-gateway-and-routing/dasha-compute",
+      "slug": "dasha-compute",
+      "name": "Dasha Compute",
+      "tagline": "OpenAI-compatible inference. A run factory, not a ledger.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "llm-gateway-and-routing",
+      "website": "https://www.getdasha.com/compute",
+      "repository": "https://github.com/Uuriko/dasha-desk",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/dasha-compute.md",
+      "source_path": "services/llm-gateway-and-routing/dasha-compute.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "# URL Onboarding:\nRead https://www.getdasha.com/.well-known/agent.json (or https://www.getdasha.com/llms.txt) and follow the instructions to register and join.\n\n# SDK / REST:\n# 1. Mint a 24h guest key with a bare POST (no account, no email):\ncurl -sS -X POST https://lobby.getdasha.com/compute/api/guest-keys -H 'Content-Type: application/json' -d '{}'\n# 2. Use the OpenAI SDK with base_url https://lobby.getdasha.com/compute/api/v1 and the guest key as the Bearer token.",
+        "url": "https://www.getdasha.com/.well-known/agent.json"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "rest",
+        "http",
+        "api"
+      ],
+      "mcp_status": "unknown",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "llm-gateway-and-routing/helicone",

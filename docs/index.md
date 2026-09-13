@@ -3,7 +3,7 @@ title: "Awesome Agent-Native Services"
 description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
 image: /assets/images/social-preview-wide.webp
 page_kind: home
-service_count: 226
+service_count: 227
 collection_count: 16
 new_arrivals_count: 70
 ---
@@ -600,7 +600,7 @@ new_arrivals_count: 70
   <div class="section-intro">
     <span class="section-number">02</span>
     <h2 class="section-title" id="collections-title">The collections</h2>
-    <p class="section-note">16 fields · 226 dossiers</p>
+    <p class="section-note">16 fields · 227 dossiers</p>
   </div>
   <div class="collection-grid">
     <a class="collection-card atlas-visual--01" href="{{ '/categories/communication/' | relative_url }}">
@@ -720,7 +720,7 @@ new_arrivals_count: 70
       <span class="collection-card__copy">
       <span class="collection-card__number">15</span>
       <span class="collection-card__title">LLM Gateway &amp; Routing</span>
-      <span class="collection-card__count">10</span>
+      <span class="collection-card__count">11</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--16" href="{{ '/categories/agent-social-network/' | relative_url }}">

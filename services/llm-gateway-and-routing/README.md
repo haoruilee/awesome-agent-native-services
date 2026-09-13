@@ -26,6 +26,7 @@ Calling an LLM directly is fine for prototyping. Running agents in production �
 | [Routerly](routerly.md) [![⭐](https://img.shields.io/github/stars/Inebrio/Routerly?style=social)](https://github.com/Inebrio/Routerly) | Self-hosted LLM gateway with LLM-native routing policy — no DB required | OpenAI/Anthropic-compatible HTTP, JSON config, Docker single binary | ⚠️ |
 | [SageRoute](sageroute.md) [![⭐](https://img.shields.io/github/stars/codejunkie99/sageroute?style=social)](https://github.com/codejunkie99/sageroute) | Trajectory-aware model router that escalates from execution evidence | OpenAI Responses, Anthropic Messages, session history API, Bun proxy | ❌ |
 | [XiuRouter](xiurouter.md) | Claude, GPT, Gemini, and more through one API | OpenAI Responses/Chat, Anthropic Messages, Gemini GenerateContent, scoped keys | ⚠️ |
+| [Dasha Compute](dasha-compute.md) | OpenAI-compatible inference marketplace on idle community hardware | Guest-key minting by API · OpenAI-compatible REST · Static MCP catalog | ⚠️ |
 
 
 ---
