@@ -93,7 +93,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 25 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
-| 5 | [Commerce & Payments](#5-commerce--payment-services) | 12 | Agent-native wallets, identity, and transactions |
+| 5 | [Commerce & Payments](#5-commerce--payment-services) | 13 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 29 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 10 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 28 | Persistent agent memory across sessions |
@@ -243,6 +243,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [UCP](services/commerce-and-payments/ucp.md) [![⭐](https://img.shields.io/github/stars/Universal-Commerce-Protocol/ucp?style=social)](https://github.com/Universal-Commerce-Protocol/ucp) | The common language for platforms, agents, and businesses | Capability profiles · checkout sessions · OAuth linking · AP2 payments | ⚠️ | Read [ucp.dev](https://ucp.dev) then `cargo install ucp-schema` — samples/SDKs under [Universal-Commerce-Protocol](https://github.com/orgs/Universal-Commerce-Protocol/repositories) |
 | [AP2](services/commerce-and-payments/ap2.md) [![⭐](https://img.shields.io/github/stars/google-agentic-commerce/AP2?style=social)](https://github.com/google-agentic-commerce/AP2) | An open protocol for the emerging Agent Economy | Checkout/payment mandates · VDC chain · A2A/UCP extension | ⚠️ | `uv pip install git+https://github.com/google-agentic-commerce/AP2.git@main` — last code push 2026-06-17 |
 | [MPP](services/commerce-and-payments/mpp.md) [![⭐](https://img.shields.io/github/stars/wevm/mppx?style=social)](https://github.com/wevm/mppx) | MPP lets agents pay for services on the web, extensible to any payment method | HTTP 402 Challenge/Credential/Receipt · Tempo sessions · MCP transport · `mppx` | ⚠️ | `npm i mppx` then `Mppx.create({ methods: [tempo({ account })] })` — [quickstart](https://mpp.dev/quickstart/client.md) |
+| [AffixIO](services/commerce-and-payments/affixio.md) [![⭐](https://img.shields.io/github/stars/AffixIO/SDK?style=social)](https://github.com/AffixIO/SDK) | Agentic Pay Kit with x402BeforePay host-side attestation and KYA | x402BeforePay · agenticPay · mcpToolGate · KYA createAgentTrust | ⚠️ | `npm install affixio` - https://www.affix-io.com/agent-trust/ |
 
 ---
 
