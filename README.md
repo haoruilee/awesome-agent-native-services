@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**226 services across 16 categories.**
+**228 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -96,7 +96,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 12 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 29 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 10 | Durable agent-loop control and live operator visibility |
-| 8 | [Memory & State](#8-memory--state-services) | 28 | Persistent agent memory across sessions |
+| 8 | [Memory & State](#8-memory--state-services) | 29 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 16 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
@@ -320,6 +320,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Memmy](services/memory-and-state/memmy-agent.md) [![⭐](https://img.shields.io/github/stars/MemTensor/memmy-agent?style=social)](https://github.com/MemTensor/memmy-agent) | Personal local memory hub shared by AI agents | Shared memory · JSON CLI/REST · lifecycle hooks · bundled Skills | ⚠️ | Clone [MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent), start the local service, then run `memmy-memory init` and `memmy-memory health` |
 | [Memoria](services/memory-and-state/memoria.md) [![⭐](https://img.shields.io/github/stars/matrixorigin/Memoria?style=social)](https://github.com/matrixorigin/Memoria) | Persistent memory layer for AI agents with Git-level version control | Snapshots · branches · REST · MCP | ✅ | `memoria serve` or `memoria mcp` |
 | [Recall](services/memory-and-state/recall.md) [![⭐](https://img.shields.io/github/stars/RecallWorks/Recall?style=social)](https://github.com/RecallWorks/Recall) | Open-source memory for AI agents. MCP-native. Self-hosted. | Persistent searchable memory · Docker · MCP stdio | ✅ | `uvx ai-recallworks stdio` |
+| [GoodMem](services/memory-and-state/goodmem.md) | Memory that survives context windows. | Persistent memory spaces · Semantic retrieval · Workload identities · Scoped keys | ✅ | Connect to the instance's `/mcp` endpoint with an API key — [HTTP MCP setup](https://docs.goodmem.ai/docs/reference/mcp/); read-only retrieval and diagnostics |
 | [Mem0](services/memory-and-state/mem0.md) [![⭐](https://img.shields.io/github/stars/mem0ai/mem0?style=social)](https://github.com/mem0ai/mem0) | The memory layer for your AI agents | Memory extraction · Conflict resolution (ADD/UPDATE/DELETE/NOOP) · Semantic retrieval · 90% token savings | ✅ | `pip install mem0ai` then `m.add(messages, user_id=...)` |
 | [Zep](services/memory-and-state/zep.md) [![⭐](https://img.shields.io/github/stars/getzep/zep?style=social)](https://github.com/getzep/zep) | Agent memory powered by a temporal knowledge graph | Temporal knowledge graph · Automatic fact invalidation · Business data fusion · Sub-200ms retrieval | ✅ | `pip install zep-python` then `zep.add_session_message(...)` |
 | [Graphiti](services/memory-and-state/graphiti.md) [![⭐](https://img.shields.io/github/stars/getzep/graphiti?style=social)](https://github.com/getzep/graphiti) | Build Real-Time Knowledge Graphs for AI Agents | Temporal context graph · episodes · hybrid search · MCP · OSS ≠ Zep | ✅ | `pip install graphiti-core` or `uv run graphiti_mcp_server.py` |

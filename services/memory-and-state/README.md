@@ -27,6 +27,7 @@ Agent-native memory services solve this by providing:
 | [Memmy](memmy-agent.md) [![⭐](https://img.shields.io/github/stars/MemTensor/memmy-agent?style=social)](https://github.com/MemTensor/memmy-agent) | Personal AI agent and local memory hub shared across AI agents | JSON CLI, REST, Agent Skills/hooks, OpenAI-compatible Agent API | ⚠️ client only |
 | [Memoria](memoria.md) [![⭐](https://img.shields.io/github/stars/matrixorigin/Memoria?style=social)](https://github.com/matrixorigin/Memoria) | Persistent memory layer for AI agents with Git-level version control | REST API, MCP server, semantic search, snapshots/branches | ✅ |
 | [Recall](recall.md) [![⭐](https://img.shields.io/github/stars/RecallWorks/Recall?style=social)](https://github.com/RecallWorks/Recall) | Open-source memory for AI agents. MCP-native. Self-hosted. | MCP stdio, Docker, searchable persistent memory | ✅ |
+| [GoodMem](goodmem.md) | Memory that survives context windows. | Native HTTP MCP (read-only), stdio adapter, REST, gRPC, SDKs | ✅ |
 | [Mem0](mem0.md) | The memory layer for your AI agents | Python SDK, REST API | ✅ |
 | [Zep](zep.md) | Agent memory powered by a temporal knowledge graph | Python SDK, TypeScript SDK, Go SDK, REST API | ✅ |
 | [Graphiti](graphiti.md) [![⭐](https://img.shields.io/github/stars/getzep/graphiti?style=social)](https://github.com/getzep/graphiti) | Build Real-Time Knowledge Graphs for AI Agents | Python SDK, MCP server, episodes, hybrid search | ✅ |

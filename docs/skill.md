@@ -237,7 +237,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 8. Memory & State (28 services)
+### 8. Memory & State (29 services)
 *Persistent, queryable memory across sessions — memory as infrastructure, not application logic.*
 
 | Service | Tagline | Onboarding |
@@ -245,6 +245,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Memmy](https://memmy.bot) | Personal local memory hub shared by AI agents | Clone [MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent), start the service, then `memmy-memory init` |
 | [Memoria](https://github.com/matrixorigin/Memoria) | Persistent memory layer for AI agents with Git-level version control | `memoria serve` or `memoria mcp` |
 | [Recall](https://www.recall.works) | Open-source memory for AI agents. MCP-native. Self-hosted. | `uvx ai-recallworks stdio` |
+| [GoodMem](https://goodmem.ai/) | Memory that survives context windows. | Connect to the instance's `/mcp` endpoint with an API key — [HTTP MCP setup](https://docs.goodmem.ai/docs/reference/mcp/); use REST/SDK or the separate stdio adapter for writes |
 | [Mem0](https://mem0.ai) | The memory layer for your AI agents | `pip install mem0ai` → `m.add(messages, user_id=...)` |
 | [Zep](https://getzep.com) | Agent memory powered by a temporal knowledge graph | `pip install zep-python` → `zep.add_session_message(...)` |
 | [Graphiti](https://help.getzep.com/graphiti) | Build Real-Time Knowledge Graphs for AI Agents | `pip install graphiti-core` or `uv run graphiti_mcp_server.py` |

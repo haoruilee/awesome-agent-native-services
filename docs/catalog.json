@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "d8c0e807279e4a2f974cccbd326d6ab210fb2b3a03c8f558bab2f1acb0ddafa0",
+      "value": "6cd8d4751b4e78afd3e5a35c87f85ff7e2d8fd45509b5c8dd0acb32d58e09695",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -148,6 +148,7 @@
         "services/memory-and-state/compartment.md",
         "services/memory-and-state/engram.md",
         "services/memory-and-state/ensue.md",
+        "services/memory-and-state/goodmem.md",
         "services/memory-and-state/graphiti.md",
         "services/memory-and-state/hindsight.md",
         "services/memory-and-state/llm-wiki.md",
@@ -263,7 +264,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 227
+    "services": 228
   },
   "categories": [
     {
@@ -320,7 +321,7 @@
       "name": "Memory & State",
       "description": "Services that give AI agents persistent, queryable memory across sessions — treating memory as infrastructure rather than application logic, and managing the full lifecycle of what agents remember, forget, and retrieve.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md",
-      "service_count": 28
+      "service_count": 29
     },
     {
       "id": "search-and-web-intelligence",
@@ -4318,6 +4319,41 @@
       },
       "protocols": [
         "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "sdk",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "memory-and-state/goodmem",
+      "slug": "goodmem",
+      "name": "GoodMem",
+      "tagline": "Memory that survives context windows.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "memory-and-state",
+      "website": "https://goodmem.ai/",
+      "repository": "https://github.com/PAIR-Systems-Inc/goodmem-claude-code-plugin",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/goodmem.md",
+      "source_path": "services/memory-and-state/goodmem.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP (Streamable HTTP)",
+        "instruction": "After workload provisioning, connect an HTTP MCP client to your GoodMem instance's /mcp endpoint with an x-api-key header; follow the [native MCP setup](https://docs.goodmem.ai/docs/reference/mcp/).",
+        "url": "https://docs.goodmem.ai/docs/reference/mcp/"
+      },
+      "protocols": [
         "agent-skill",
         "mcp",
         "rest",
