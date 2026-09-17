@@ -40,11 +40,12 @@ Apache-2.0. Install surface for this listing: npm package `affixio`.
 npm install affixio
 ```
 
-Then follow https://www.affix-io.com/agent-trust/ and hub onboarding at https://hub.affix-io.com/onboarding/
+Then follow the agent-trust docs and hub onboarding:
+
+- Docs: https://www.affix-io.com/agent-trust/
+- Hub: https://hub.affix-io.com/onboarding/
 
 Typical host flow: enrol / create agent trust, attach host policy (capability sheet / spend or tool grants), call `x402BeforePay` or `mcpToolGate` before a privileged action, keep the signed yes/no + proof id for audit.
-
-Not claiming URL Onboarding gold-standard (`Read <url> and join`) for this entry.
 
 ---
 
@@ -62,7 +63,9 @@ See: https://agentskills.io/specification to contribute one.
 
 ## MCP
 
-**Status:** ⚠️ Not an MCP server product; MCP-adjacent helpers exist
+**Status:** ⚠️ Not yet published
+
+AffixIO is not an MCP server product; MCP-adjacent helpers exist.
 
 AffixIO is **not** listed here as an installable MCP server. Clarification (both can be true):
 
