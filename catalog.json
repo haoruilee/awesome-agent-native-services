@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "6cd8d4751b4e78afd3e5a35c87f85ff7e2d8fd45509b5c8dd0acb32d58e09695",
+      "value": "8d1f71820c53305f7cde9c702376ea2be617e6227b67cb0a95d17b19b1579224",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -87,6 +87,7 @@
         "services/oversight-and-approval/sallyport.md",
         "services/oversight-and-approval/sondera-coding-agent-hooks.md",
         "services/commerce-and-payments/README.md",
+        "services/commerce-and-payments/affixio.md",
         "services/commerce-and-payments/agentspay.md",
         "services/commerce-and-payments/ap2.md",
         "services/commerce-and-payments/circle-agent-stack.md",
@@ -264,7 +265,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 228
+    "services": 229
   },
   "categories": [
     {
@@ -300,7 +301,7 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 12
+      "service_count": 13
     },
     {
       "id": "agent-runtime-and-infrastructure",
@@ -2511,6 +2512,36 @@
         "http"
       ],
       "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "commerce-and-payments/affixio",
+      "slug": "affixio",
+      "name": "AffixIO",
+      "tagline": "Know which agent acted. Prove it stayed inside the lines.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "commerce-and-payments",
+      "website": "https://www.affix-io.com/",
+      "repository": "https://github.com/AffixIO/SDK",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/affixio.md",
+      "source_path": "services/commerce-and-payments/affixio.md",
+      "onboarding": {
+        "type": "sdk",
+        "pattern": null,
+        "instruction": "npm install affixio",
+        "url": "https://www.affix-io.com/agent-trust/"
+      },
+      "protocols": [
+        "sdk",
+        "http",
+        "api"
+      ],
+      "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
       "latest_month_signal": null,
       "verified_at": null,

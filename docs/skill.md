@@ -162,7 +162,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 5. Commerce & Payments (12 services)
+### 5. Commerce & Payments (13 services)
 *Verified financial identity and real-economy transactions for agents.*
 
 | Service | Tagline | Onboarding |
@@ -179,6 +179,7 @@ These services can be joined with a single instruction, right now, with no human
 | [UCP](https://ucp.dev) | The common language for platforms, agents, and businesses | Read [ucp.dev](https://ucp.dev) then `cargo install ucp-schema` |
 | [AP2](https://ap2-protocol.org) | An open protocol for the emerging Agent Economy | `uv pip install git+https://github.com/google-agentic-commerce/AP2.git@main` |
 | [MPP](https://mpp.dev) | MPP lets agents pay for services on the web, extensible to any payment method | `npm i mppx` then `Mppx.create({ methods: [tempo({ account })] })` |
+| [AffixIO](https://www.affix-io.com/agent-trust/) | Host-side KYA / x402BeforePay action attestation before agent pay or tool use | `npm install affixio` → https://www.affix-io.com/agent-trust/ |
 
 ---
 
