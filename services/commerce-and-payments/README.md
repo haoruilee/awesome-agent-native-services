@@ -30,7 +30,7 @@ No legacy payment processor was designed with these requirements. The services i
 | [UCP](ucp.md) [![⭐](https://img.shields.io/github/stars/Universal-Commerce-Protocol/ucp?style=social)](https://github.com/Universal-Commerce-Protocol/ucp) | The common language for platforms, agents, and businesses | REST/JSON-RPC, MCP, A2A, `ucp-schema`, checkout capabilities | ⚠️ |
 | [AP2](ap2.md) [![⭐](https://img.shields.io/github/stars/google-agentic-commerce/AP2?style=social)](https://github.com/google-agentic-commerce/AP2) | An open protocol for the emerging Agent Economy | VDC mandates, Python/Go/Android samples, A2A/UCP extension | ⚠️ |
 | [MPP](mpp.md) [![⭐](https://img.shields.io/github/stars/wevm/mppx?style=social)](https://github.com/wevm/mppx) | MPP lets agents pay for services on the web, extensible to any payment method | HTTP 402 Challenge/Credential/Receipt, mppx SDK/CLI, MCP transport | ⚠️ |
-| [AffixIO](affixio.md) [![⭐](https://img.shields.io/github/stars/AffixIO/SDK?style=social)](https://github.com/AffixIO/SDK) | Agentic Pay Kit with x402BeforePay host-side attestation and KYA | npm SDK, x402BeforePay, agenticPay, mcpToolGate, KYA createAgentTrust | ⚠️ |
+| [AffixIO](affixio.md) [![⭐](https://img.shields.io/github/stars/AffixIO/SDK?style=social)](https://github.com/AffixIO/SDK) | Host-side KYA / x402BeforePay action attestation before agent pay or tool use | npm SDK, x402BeforePay, agenticPay, mcpToolGate, KYA createAgentTrust | ⚠️ |
 
 
 ---
