@@ -39,6 +39,9 @@ Operator surfaces are an explicit narrow exception to the catalog's usual machin
 | [LoopX](loopx.md) [![⭐](https://img.shields.io/github/stars/huangruiteng/loopx?style=social)](https://github.com/huangruiteng/loopx) | The open, provider-neutral, stateful control plane for long-horizon agents | Objectives · gates · evidence · quota · claims/leases | CLI · workflow skills · host adapters |
 | [DeepSeek Harness (dsh)](deepseek-harness.md) [![⭐](https://img.shields.io/github/stars/deepseek-ai/deepseek-harness?style=social)](https://github.com/deepseek-ai/deepseek-harness) | Everything is a Plugin. | Cordis plugins · session log · Trajectory · PTC/Code Mode | CLI · Web UI · ACP · JSON-RPC SDK |
 | [YYLO](yylo.md) [![⭐](https://img.shields.io/github/stars/yylo-dev/yylo?style=social)](https://github.com/yylo-dev/yylo) | Run the work. Keep the memory. | Typed tasks · frozen-target worktrees · watch receipts · merge land | CLI/JSON · Agent Skills · no MCP |
+| [Pizza Bot](pizza-bot.md) [![⭐](https://img.shields.io/github/stars/pizza-bot-app/pizza-bot?style=social)](https://github.com/pizza-bot-app/pizza-bot) | Pizza Bot is an inbox for long-running AI work. | Unread/Action queues · checkpointed runs · skill subagents · folder grants | HTTP/SSE api-server · CLI · MCP host · Skills |
+| [txcript](txcript.md) [![⭐](https://img.shields.io/github/stars/skillsynchq/txcript?style=social)](https://github.com/skillsynchq/txcript) | Continue your conversation in another coding agent. | Harness codecs · canonical transcript · continue/export · session search | CLI · stdio MCP · Rust crate · npm WASM |
+| [peerd](peerd.md) [![⭐](https://img.shields.io/github/stars/NotASithLord/peerd?style=social)](https://github.com/NotASithLord/peerd) | peerd: the AI agent harness native to the browser | In-browser loop · keyless actors · WASM compute · vaulted BYOK | Browser extension · preview WebRTC A2A |
 
 ## Criteria Reminder
 

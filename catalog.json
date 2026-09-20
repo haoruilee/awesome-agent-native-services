@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-09-12",
-  "generated_at": "2026-09-12",
+  "catalog_version": "2026-09-20",
+  "generated_at": "2026-09-20",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "a97ceb316cb64831bf42f53cb721c4bf609f957321c5e66132427b16218e2bec",
+      "value": "e267b6a1b2847b4563a0b293af72273798d6f31e3c1c7aa91b6ec5a37aba27e5",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -116,6 +116,7 @@
         "services/agent-runtime-and-infrastructure/cloudflare-computer.md",
         "services/agent-runtime-and-infrastructure/codex-plugin-cc.md",
         "services/agent-runtime-and-infrastructure/cohesivity.md",
+        "services/agent-runtime-and-infrastructure/cua.md",
         "services/agent-runtime-and-infrastructure/cx.md",
         "services/agent-runtime-and-infrastructure/cyberdesk.md",
         "services/agent-runtime-and-infrastructure/db9.md",
@@ -140,8 +141,11 @@
         "services/agent-harnesses-and-control-planes/longhorizon-harness.md",
         "services/agent-harnesses-and-control-planes/loopx.md",
         "services/agent-harnesses-and-control-planes/oh-my-codex.md",
+        "services/agent-harnesses-and-control-planes/peerd.md",
+        "services/agent-harnesses-and-control-planes/pizza-bot.md",
         "services/agent-harnesses-and-control-planes/qm.md",
         "services/agent-harnesses-and-control-planes/ruflo.md",
+        "services/agent-harnesses-and-control-planes/txcript.md",
         "services/agent-harnesses-and-control-planes/yylo.md",
         "services/memory-and-state/README.md",
         "services/memory-and-state/agentmemory.md",
@@ -268,7 +272,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 232
+    "services": 236
   },
   "categories": [
     {
@@ -311,14 +315,14 @@
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 30
+      "service_count": 31
     },
     {
       "id": "agent-harnesses-and-control-planes",
       "name": "Agent Harnesses & Operator Surfaces",
       "description": "Systems purpose-built around running agents: either harnesses that add durable work state, orchestration, verification, and policy, or operator surfaces that expose live agent state and bounded session controls.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/README.md",
-      "service_count": 11
+      "service_count": 14
     },
     {
       "id": "memory-and-state",
@@ -3388,6 +3392,40 @@
       "verification_sources": []
     },
     {
+      "id": "agent-runtime-and-infrastructure/cua",
+      "slug": "cua",
+      "name": "Cua",
+      "tagline": "Scale computer fleets for every agent",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://cua.ai",
+      "repository": "https://github.com/trycua/cua",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cua.md",
+      "source_path": "services/agent-runtime-and-infrastructure/cua.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + MCP (stdio) + Sandbox / Fleet SDK",
+        "instruction": "# macOS / Linux\n/bin/bash -c \"$(curl -fsSL https://cua.ai/driver/install.sh)\"\n\n# Windows (PowerShell)\nirm https://cua.ai/driver/install.ps1 | iex\n\ncua-driver --version\ncua-driver call list_apps\ncua-driver mcp-config --client <client>",
+        "url": "https://cua.ai/driver/install.sh"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "cli",
+        "sdk",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Show HN CUA-S1 2026-09-19 (item 49767564); mature OSS (~24.6k★)",
+      "verified_at": "2026-09-20",
+      "verification_sources": [
+        "https://news.ycombinator.com/item?id=49767564"
+      ]
+    },
+    {
       "id": "agent-runtime-and-infrastructure/cx",
       "slug": "cx",
       "name": "cx",
@@ -4098,6 +4136,71 @@
       ]
     },
     {
+      "id": "agent-harnesses-and-control-planes/peerd",
+      "slug": "peerd",
+      "name": "peerd",
+      "tagline": "peerd: the AI agent harness native to the browser",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-harnesses-and-control-planes",
+      "website": "https://peerd.ai",
+      "repository": "https://github.com/NotASithLord/peerd",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/peerd.md",
+      "source_path": "services/agent-harnesses-and-control-planes/peerd.md",
+      "onboarding": {
+        "type": "documentation",
+        "pattern": "Browser extension (load unpacked) — local harness, no peerd account",
+        "instruction": "git clone https://github.com/NotASithLord/peerd.git",
+        "url": "https://github.com/NotASithLord/peerd.git"
+      },
+      "protocols": [
+        "a2a",
+        "http",
+        "documentation"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Softer HN heat this week; architecture fit + Apache-2.0 OSS (earlier Show HN 2026-06-23, item 48646165)",
+      "verified_at": "2026-09-20",
+      "verification_sources": [
+        "https://news.ycombinator.com/item?id=48646165"
+      ]
+    },
+    {
+      "id": "agent-harnesses-and-control-planes/pizza-bot",
+      "slug": "pizza-bot",
+      "name": "Pizza Bot",
+      "tagline": "Pizza Bot is an inbox for long-running AI work.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-harnesses-and-control-planes",
+      "website": "https://github.com/pizza-bot-app/pizza-bot",
+      "repository": "https://github.com/pizza-bot-app/pizza-bot",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/pizza-bot.md",
+      "source_path": "services/agent-harnesses-and-control-planes/pizza-bot.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": "CLI + HTTP/SSE api-server (desktop, browser, or terminal)",
+        "instruction": "git clone https://github.com/pizza-bot-app/pizza-bot.git\ncd pizza-bot\nnpm install\nnpm run build\nnpm run dev",
+        "url": "https://github.com/pizza-bot-app/pizza-bot.git"
+      },
+      "protocols": [
+        "cli",
+        "sdk",
+        "http",
+        "api"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Show HN 2026-09-15 (item 49713894); Amazon-developed OSS inbox for background agent runs",
+      "verified_at": "2026-09-20",
+      "verification_sources": [
+        "https://news.ycombinator.com/item?id=49713894"
+      ]
+    },
+    {
       "id": "agent-harnesses-and-control-planes/qm",
       "slug": "qm",
       "name": "QM",
@@ -4161,6 +4264,39 @@
       "verified_at": "2026-08-29",
       "verification_sources": [
         "https://api.github.com/repos/ruvnet/ruflo"
+      ]
+    },
+    {
+      "id": "agent-harnesses-and-control-planes/txcript",
+      "slug": "txcript",
+      "name": "txcript",
+      "tagline": "Continue your conversation in another coding agent.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-harnesses-and-control-planes",
+      "website": "https://github.com/skillsynchq/txcript",
+      "repository": "https://github.com/skillsynchq/txcript",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/txcript.md",
+      "source_path": "services/agent-harnesses-and-control-planes/txcript.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + stdio MCP (read-only session tools)",
+        "instruction": "cargo install --git https://github.com/skillsynchq/txcript txcript-cli --locked",
+        "url": "https://github.com/skillsynchq/txcript"
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Launch HN 2026-09-17 (item 49743049); OSS core of Skillsync",
+      "verified_at": "2026-09-20",
+      "verification_sources": [
+        "https://news.ycombinator.com/item?id=49743049"
       ]
     },
     {
