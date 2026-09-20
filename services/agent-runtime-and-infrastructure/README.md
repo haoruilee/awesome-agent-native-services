@@ -50,6 +50,7 @@ The services in this category were purpose-built to fill this gap.
 | [Agent Executor (AX)](google-ax.md) [![⭐](https://img.shields.io/github/stars/google/ax?style=social)](https://github.com/google/ax) | An open source distributed agent runtime | `ax` CLI, gRPC serve, conversation resume, event log | ⚠️ |
 | [Agent Substrate](agent-substrate.md) [![⭐](https://img.shields.io/github/stars/agent-substrate/substrate?style=social)](https://github.com/agent-substrate/substrate) | High-density Kubernetes runtime for large-scale agent deployments | `kubectl-ate`, ate-api-server gRPC, actors/WorkerPools, atenet | ⚠️ |
 | [SandBase Harness](sandbase-harness.md) [![⭐](https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social)](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | HTTP/API · stdio MCP · TypeScript runtime/CLI · Docker/Kubernetes/workers | ✅ |
+| [Cohesivity](cohesivity.md) [![⭐](https://img.shields.io/github/stars/cohesivity-org/cohesivity-plugin?style=social)](https://github.com/cohesivity-org/cohesivity-plugin) | backend infra your agents can actually use. | Ephemeral tenant · HTTP API · local/hosted mutating MCP · docs `/mcp` · Skill | ✅ |
 
 
 

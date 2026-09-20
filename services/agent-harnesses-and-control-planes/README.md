@@ -38,6 +38,7 @@ Operator surfaces are an explicit narrow exception to the catalog's usual machin
 | [Claude HUD](claude-hud.md) [![⭐](https://img.shields.io/github/stars/jarrodwatts/claude-hud?style=social)](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening | Context/usage · tools · subagents · todos | Claude Code plugin · statusline stdin/stdout |
 | [LoopX](loopx.md) [![⭐](https://img.shields.io/github/stars/huangruiteng/loopx?style=social)](https://github.com/huangruiteng/loopx) | The open, provider-neutral, stateful control plane for long-horizon agents | Objectives · gates · evidence · quota · claims/leases | CLI · workflow skills · host adapters |
 | [DeepSeek Harness (dsh)](deepseek-harness.md) [![⭐](https://img.shields.io/github/stars/deepseek-ai/deepseek-harness?style=social)](https://github.com/deepseek-ai/deepseek-harness) | Everything is a Plugin. | Cordis plugins · session log · Trajectory · PTC/Code Mode | CLI · Web UI · ACP · JSON-RPC SDK |
+| [YYLO](yylo.md) [![⭐](https://img.shields.io/github/stars/yylo-dev/yylo?style=social)](https://github.com/yylo-dev/yylo) | Run the work. Keep the memory. | Typed tasks · frozen-target worktrees · watch receipts · merge land | CLI/JSON · Agent Skills · no MCP |
 
 ## Criteria Reminder
 
