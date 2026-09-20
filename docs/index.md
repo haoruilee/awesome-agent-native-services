@@ -3,7 +3,7 @@ title: "Awesome Agent-Native Services"
 description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
 image: /assets/images/social-preview-wide.webp
 page_kind: home
-service_count: 229
+service_count: 232
 collection_count: 16
 new_arrivals_count: 70
 ---
@@ -600,7 +600,7 @@ new_arrivals_count: 70
   <div class="section-intro">
     <span class="section-number">02</span>
     <h2 class="section-title" id="collections-title">The collections</h2>
-    <p class="section-note">16 fields · 229 dossiers</p>
+    <p class="section-note">16 fields · 232 dossiers</p>
   </div>
   <div class="collection-grid">
     <a class="collection-card atlas-visual--01" href="{{ '/categories/communication/' | relative_url }}">
@@ -648,7 +648,7 @@ new_arrivals_count: 70
       <span class="collection-card__copy">
       <span class="collection-card__number">06</span>
       <span class="collection-card__title">Agent Runtime &amp; Infrastructure</span>
-      <span class="collection-card__count">29</span>
+      <span class="collection-card__count">30</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--07" href="{{ '/categories/agent-harnesses-and-control-planes/' | relative_url }}">
@@ -656,7 +656,7 @@ new_arrivals_count: 70
       <span class="collection-card__copy">
       <span class="collection-card__number">07</span>
       <span class="collection-card__title">Agent Harnesses &amp; Operator Surfaces</span>
-      <span class="collection-card__count">10</span>
+      <span class="collection-card__count">11</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--08" href="{{ '/categories/memory-and-state/' | relative_url }}">
@@ -728,7 +728,7 @@ new_arrivals_count: 70
       <span class="collection-card__copy">
       <span class="collection-card__number">16</span>
       <span class="collection-card__title">Agent Social &amp; Community</span>
-      <span class="collection-card__count">10</span>
+      <span class="collection-card__count">11</span>
       </span>
     </a>
   </div>

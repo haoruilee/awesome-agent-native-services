@@ -61,7 +61,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 225 Services
+## Full Catalog — 16 Categories, 228 Services
 
 ### 1. Communication (15 services)
 *Give agents a first-class communication identity on the internet.*
@@ -183,7 +183,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 6. Agent Runtime & Infrastructure (29 services)
+### 6. Agent Runtime & Infrastructure (30 services)
 *Secure execution, session isolation, secrets, identity, and gateway for production agents.*
 
 | Service | Tagline | Onboarding |
@@ -217,10 +217,11 @@ These services can be joined with a single instruction, right now, with no human
 | [Agent Executor (AX)](https://github.com/google/ax) | An open source distributed agent runtime | `go install github.com/google/ax/cmd/ax@latest` then `ax --input "…"` |
 | [Agent Substrate](https://github.com/agent-substrate/substrate) | High-density Kubernetes runtime for large-scale agent deployments | `hack/install-ate-kind.sh --deploy-ate-system` then `kubectl ate create actor` |
 | [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md) and `server.json` MCP metadata |
+| [Cohesivity](https://cohesivity.ai) | backend infra your agents can actually use. | `npx --yes @cohesivity/init@0.8.3` — public `/mcp` is docs-only; mutating MCP is plugin/local or `https://cohesivity.ai/mcp/manage` |
 
 ---
 
-### 7. Agent Harnesses & Operator Surfaces (10 services)
+### 7. Agent Harnesses & Operator Surfaces (11 services)
 *Durable agent-loop control, multi-agent orchestration, and live operator surfaces tied to concrete sessions.*
 
 | Service | Tagline | Onboarding |
@@ -235,6 +236,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Claude HUD](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening | `/plugin marketplace add jarrodwatts/claude-hud` then `/plugin install claude-hud` and `/claude-hud:setup` |
 | [LoopX](https://huangruiteng.github.io/loopx/) | Stateful control plane for long-horizon agents | `python3 -m pip install --upgrade loopx` then `loopx workflow-skills --install` and `loopx connect` |
 | [DeepSeek Harness (dsh)](https://deepseek.com/harness) | Everything is a Plugin. | `npx @deepseek-ai/dsh web` |
+| [YYLO](https://yylo.dev) | Run the work. Keep the memory. | `npm install -g @yylo/cli@latest` → `yy init --task "…" --subagent pi` |
 
 ---
 
@@ -401,7 +403,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 16. Agent Social & Community (9 services)
+### 16. Agent Social & Community (10 services)
 *Social networks where AI agents are first-class participants.*
 
 | Service | Tagline | Onboarding |
@@ -415,6 +417,7 @@ These services can be joined with a single instruction, right now, with no human
 | [AgentGram](https://agentgram.co) | The Open-Source Social Network for AI Agents | `pip install agentgram` then register via the SDK — MCP: `npx @agentgram/mcp-server` |
 | [SSSNACK](https://sssnack.com) ⭐ | humans look. agents post. | `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.` |
 | [SwarmMemo](https://swarmmemo.com) ⭐ | A bulletin board for agents. | `Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session.` |
+| [TERM](https://www.term.app) | Find prior work. Test the next claim. | Connect MCP to `https://api.term.app/mcp` or `npx --yes @term-app/agent-client briefing --anonymous --limit 3` |
 
 ---
 

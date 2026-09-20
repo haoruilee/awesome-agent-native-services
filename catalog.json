@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "8d1f71820c53305f7cde9c702376ea2be617e6227b67cb0a95d17b19b1579224",
+      "value": "a97ceb316cb64831bf42f53cb721c4bf609f957321c5e66132427b16218e2bec",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -115,6 +115,7 @@
         "services/agent-runtime-and-infrastructure/cloudflare-agents-sdk.md",
         "services/agent-runtime-and-infrastructure/cloudflare-computer.md",
         "services/agent-runtime-and-infrastructure/codex-plugin-cc.md",
+        "services/agent-runtime-and-infrastructure/cohesivity.md",
         "services/agent-runtime-and-infrastructure/cx.md",
         "services/agent-runtime-and-infrastructure/cyberdesk.md",
         "services/agent-runtime-and-infrastructure/db9.md",
@@ -141,6 +142,7 @@
         "services/agent-harnesses-and-control-planes/oh-my-codex.md",
         "services/agent-harnesses-and-control-planes/qm.md",
         "services/agent-harnesses-and-control-planes/ruflo.md",
+        "services/agent-harnesses-and-control-planes/yylo.md",
         "services/memory-and-state/README.md",
         "services/memory-and-state/agentmemory.md",
         "services/memory-and-state/beads.md",
@@ -259,13 +261,14 @@
         "services/agent-social-network/openwork.md",
         "services/agent-social-network/shellmates.md",
         "services/agent-social-network/sssnack.md",
-        "services/agent-social-network/swarmmemo.md"
+        "services/agent-social-network/swarmmemo.md",
+        "services/agent-social-network/term.md"
       ]
     }
   },
   "counts": {
     "categories": 16,
-    "services": 229
+    "services": 232
   },
   "categories": [
     {
@@ -308,14 +311,14 @@
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 29
+      "service_count": 30
     },
     {
       "id": "agent-harnesses-and-control-planes",
       "name": "Agent Harnesses & Operator Surfaces",
       "description": "Systems purpose-built around running agents: either harnesses that add durable work state, orchestration, verification, and policy, or operator surfaces that expose live agent state and bounded session controls.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/README.md",
-      "service_count": 10
+      "service_count": 11
     },
     {
       "id": "memory-and-state",
@@ -378,7 +381,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 10
+      "service_count": 11
     }
   ],
   "services": [
@@ -3353,6 +3356,38 @@
       "verification_sources": []
     },
     {
+      "id": "agent-runtime-and-infrastructure/cohesivity",
+      "slug": "cohesivity",
+      "name": "Cohesivity",
+      "tagline": "backend infra your agents can actually use.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://cohesivity.ai",
+      "repository": "https://github.com/cohesivity-org/cohesivity-plugin",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cohesivity.md",
+      "source_path": "services/agent-runtime-and-infrastructure/cohesivity.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": "CLI",
+        "instruction": "npx --yes @cohesivity/init@0.8.3",
+        "url": "https://cohesivity.ai/quickstart.sh"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
       "id": "agent-runtime-and-infrastructure/cx",
       "slug": "cx",
       "name": "cx",
@@ -4127,6 +4162,36 @@
       "verification_sources": [
         "https://api.github.com/repos/ruvnet/ruflo"
       ]
+    },
+    {
+      "id": "agent-harnesses-and-control-planes/yylo",
+      "slug": "yylo",
+      "name": "YYLO",
+      "tagline": "Run the work. Keep the memory.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-harnesses-and-control-planes",
+      "website": "https://yylo.dev",
+      "repository": "https://github.com/yylo-dev/yylo",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/yylo.md",
+      "source_path": "services/agent-harnesses-and-control-planes/yylo.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": "CLI",
+        "instruction": "npm install --global '@yylo/cli@latest'\nyy --version\nyy init --task \"Ship one verified change\" --subagent pi\nyy info --json\nyy doctor workspace",
+        "url": null
+      },
+      "protocols": [
+        "agent-skill",
+        "cli",
+        "http"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "memory-and-state/agentmemory",
@@ -7662,6 +7727,38 @@
         "https://swarmmemo.com/mcp",
         "https://registry.modelcontextprotocol.io/v0/servers?search=swarmmemo"
       ]
+    },
+    {
+      "id": "agent-social-network/term",
+      "slug": "term",
+      "name": "TERM",
+      "tagline": "Find prior work. Test the next claim.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-social-network",
+      "website": "https://www.term.app",
+      "repository": "https://github.com/break-the-build/term-client",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/term.md",
+      "source_path": "services/agent-social-network/term.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP (Streamable HTTP) + npm client / REST",
+        "instruction": "npx --yes @term-app/agent-client briefing --anonymous --limit 3",
+        "url": "https://api.term.app/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
     }
   ]
 }

@@ -8,7 +8,7 @@ image: "/assets/images/editorial-harness.webp"
 permalink: /categories/agent-harnesses-and-control-planes/
 page_kind: collection
 collection_number: "07"
-service_count: 10
+service_count: 11
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/README.md">Collection notes ↗</a></p>
@@ -121,6 +121,17 @@ service_count: 10
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/ruflo.md">Open dossier ↗</a>
       <a href="https://github.com/ruvnet/ruflo">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--service atlas-visual--11">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <h2 class="service-card__title">YYLO</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/yylo.md">Open dossier ↗</a>
+      <a href="https://github.com/yylo-dev/yylo">Official repo ↗</a>
     </div>
     </div>
   </article>

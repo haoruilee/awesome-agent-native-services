@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**228 services across 16 categories.**
+**232 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -94,8 +94,8 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 13 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 29 | Execution, session isolation, secrets, and gateway |
-| 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 10 | Durable agent-loop control and live operator visibility |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 30 | Execution, session isolation, secrets, and gateway |
+| 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 11 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 29 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 16 | Secure sandboxes for AI-generated code |
@@ -103,8 +103,8 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 8 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 7 | Agent-controlled voice calls and phone infrastructure |
-| 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 10 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 16 | [Agent Social & Community](#16-agent-social--community-services) | 10 | Social networks where agents are first-class participants |
+| 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 11 | Per-agent budget, routing, caching, and observability for LLM calls |
+| 16 | [Agent Social & Community](#16-agent-social--community-services) | 11 | Social networks where agents are first-class participants |
 
 ---
 
@@ -284,6 +284,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Agent Executor (AX)](services/agent-runtime-and-infrastructure/google-ax.md) [![⭐](https://img.shields.io/github/stars/google/ax?style=social)](https://github.com/google/ax) | An open source distributed agent runtime | Conversation resume · event log · isolated harnesses · `ax` CLI | ⚠️ | `go install github.com/google/ax/cmd/ax@latest` then `ax --input "…"` |
 | [Agent Substrate](services/agent-runtime-and-infrastructure/agent-substrate.md) [![⭐](https://img.shields.io/github/stars/agent-substrate/substrate?style=social)](https://github.com/agent-substrate/substrate) | High-density Kubernetes runtime for large-scale agent deployments | Actors · WorkerPools · suspend/resume · atenet routing | ⚠️ | `hack/install-ate-kind.sh --deploy-ate-system` then `kubectl ate create actor` — early-dev, not a supported Google product |
 | [SandBase Harness](services/agent-runtime-and-infrastructure/sandbase-harness.md) [![⭐](https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social)](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | HTTP/API · stdio MCP · TypeScript runtime/CLI · Docker/Kubernetes/workers | ✅ | Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md) and `server.json` MCP metadata |
+| [Cohesivity](services/agent-runtime-and-infrastructure/cohesivity.md) [![⭐](https://img.shields.io/github/stars/cohesivity-org/cohesivity-plugin?style=social)](https://github.com/cohesivity-org/cohesivity-plugin) | backend infra your agents can actually use. | Ephemeral tenant · HTTP API · local/hosted mutating MCP · docs `/mcp` · Skill | ✅ | `npx --yes @cohesivity/init@0.8.3` — public `/mcp` is docs-only; mutating MCP is plugin/local or `/mcp/manage` |
 
 ---
 
@@ -305,6 +306,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Claude HUD](services/agent-harnesses-and-control-planes/claude-hud.md) [![⭐](https://img.shields.io/github/stars/jarrodwatts/claude-hud?style=social)](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening | Context/usage bars · tools · subagents · todos · statusline | ⚠️ | `/plugin marketplace add jarrodwatts/claude-hud` then `/plugin install claude-hud` and `/claude-hud:setup` |
 | [LoopX](services/agent-harnesses-and-control-planes/loopx.md) [![⭐](https://img.shields.io/github/stars/huangruiteng/loopx?style=social)](https://github.com/huangruiteng/loopx) | The open, provider-neutral, stateful control plane for long-horizon agents | Objectives · gates · todos/evidence · quota · claims/leases | ⚠️ | `python3 -m pip install --upgrade loopx` then `loopx workflow-skills --install` and `loopx connect` |
 | [DeepSeek Harness (dsh)](services/agent-harnesses-and-control-planes/deepseek-harness.md) [![⭐](https://img.shields.io/github/stars/deepseek-ai/deepseek-harness?style=social)](https://github.com/deepseek-ai/deepseek-harness) | Everything is a Plugin. | Cordis plugins · session log · Trajectory · PTC/Code Mode | ⚠️ | `npx @deepseek-ai/dsh web` |
+| [YYLO](services/agent-harnesses-and-control-planes/yylo.md) [![⭐](https://img.shields.io/github/stars/yylo-dev/yylo?style=social)](https://github.com/yylo-dev/yylo) | Run the work. Keep the memory. | Typed tasks · frozen-target worktrees · watch receipts · merge land | ⚠️ | `npm install -g @yylo/cli@latest` then `yy init --task "…" --subagent pi` |
 
 ---
 
@@ -516,6 +518,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [SSSNACK](services/agent-social-network/sssnack.md) [![⭐](https://img.shields.io/github/stars/hackyhunter/sssnack-plugin?style=social)](https://github.com/hackyhunter/sssnack-plugin) | humans look. agents post. | Agent registration · Snack publish · Remix/critique lineage · MCP/A2A · ROOT MODE | ✅ | Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work. |
 | [SwarmMemo](services/agent-social-network/swarmmemo.md) [![⭐](https://img.shields.io/github/stars/Hugo0/swarmmemo?style=social)](https://github.com/Hugo0/swarmmemo) | A bulletin board for agents. | Rooms/pages · Threads & resumable cursors · Return read (`/api/updates`) · Idempotent receipts · Public addressed inbox · Optional Ed25519 identity & handles · Scoped worker keys · Agent profiles | ✅ | Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session. |
 | [Open Task Relay](services/agent-social-network/open-task-relay.md) | A few minutes of AI. Useful work for everyone. | Agent credentials · Bounded task claims · Append-only contributions · Evidence & limitations · Independent-agent verification | ✅ | Read https://opentaskrelay.org/skill.md and follow the instructions to find one suitable public-good task, make one bounded contribution, submit it, and stop. |
+| [TERM](services/agent-social-network/term.md) [![⭐](https://img.shields.io/github/stars/break-the-build/term-client?style=social)](https://github.com/break-the-build/term-client) | Find prior work. Test the next claim. | Self-held Ed25519 identity · Hosted MCP · Checker-scored challenges · Signed REST | ✅ | Connect MCP to `https://api.term.app/mcp` or `npx --yes @term-app/agent-client briefing --anonymous --limit 3` |
 
 ---
 
