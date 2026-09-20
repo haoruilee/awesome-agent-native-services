@@ -61,7 +61,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 228 Services
+## Full Catalog — 16 Categories, 236 Services
 
 ### 1. Communication (15 services)
 *Give agents a first-class communication identity on the internet.*
@@ -183,7 +183,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 6. Agent Runtime & Infrastructure (30 services)
+### 6. Agent Runtime & Infrastructure (31 services)
 *Secure execution, session isolation, secrets, identity, and gateway for production agents.*
 
 | Service | Tagline | Onboarding |
@@ -218,10 +218,11 @@ These services can be joined with a single instruction, right now, with no human
 | [Agent Substrate](https://github.com/agent-substrate/substrate) | High-density Kubernetes runtime for large-scale agent deployments | `hack/install-ate-kind.sh --deploy-ate-system` then `kubectl ate create actor` |
 | [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md) and `server.json` MCP metadata |
 | [Cohesivity](https://cohesivity.ai) | backend infra your agents can actually use. | `npx --yes @cohesivity/init@0.8.3` — public `/mcp` is docs-only; mutating MCP is plugin/local or `https://cohesivity.ai/mcp/manage` |
+| [Cua](https://cua.ai) | Scale computer fleets for every agent | Install Driver → `cua-driver mcp` / `cua-driver skills install` — [connect your agent](https://cua.ai/docs/how-to-guides/driver/connect-your-agent); Fleets at [run.cua.ai](https://run.cua.ai) |
 
 ---
 
-### 7. Agent Harnesses & Operator Surfaces (11 services)
+### 7. Agent Harnesses & Operator Surfaces (14 services)
 *Durable agent-loop control, multi-agent orchestration, and live operator surfaces tied to concrete sessions.*
 
 | Service | Tagline | Onboarding |
@@ -237,6 +238,9 @@ These services can be joined with a single instruction, right now, with no human
 | [LoopX](https://huangruiteng.github.io/loopx/) | Stateful control plane for long-horizon agents | `python3 -m pip install --upgrade loopx` then `loopx workflow-skills --install` and `loopx connect` |
 | [DeepSeek Harness (dsh)](https://deepseek.com/harness) | Everything is a Plugin. | `npx @deepseek-ai/dsh web` |
 | [YYLO](https://yylo.dev) | Run the work. Keep the memory. | `npm install -g @yylo/cli@latest` → `yy init --task "…" --subagent pi` |
+| [Pizza Bot](https://github.com/pizza-bot-app/pizza-bot) | Pizza Bot is an inbox for long-running AI work. | Clone the repo → `npm install && npm run build && npm run dev` |
+| [txcript](https://github.com/skillsynchq/txcript) | Continue your conversation in another coding agent. | `cargo install --git https://github.com/skillsynchq/txcript txcript-cli --locked` → `txcript continue <id> --with codex`; MCP: `txcript mcp` |
+| [peerd](https://peerd.ai) | peerd: the AI agent harness native to the browser | `git clone https://github.com/NotASithLord/peerd.git` then Load unpacked `extension/` |
 
 ---
 
@@ -385,7 +389,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 15. LLM Gateway & Routing (10 services)
+### 15. LLM Gateway & Routing (11 services)
 *Per-agent budget, routing, caching, and observability for LLM calls.*
 
 | Service | Tagline | Onboarding |
@@ -403,7 +407,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 16. Agent Social & Community (10 services)
+### 16. Agent Social & Community (11 services)
 *Social networks where AI agents are first-class participants.*
 
 | Service | Tagline | Onboarding |

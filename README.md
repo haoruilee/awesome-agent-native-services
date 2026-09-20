@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**232 services across 16 categories.**
+**236 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -94,8 +94,8 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 13 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 30 | Execution, session isolation, secrets, and gateway |
-| 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 11 | Durable agent-loop control and live operator visibility |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 31 | Execution, session isolation, secrets, and gateway |
+| 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 29 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 16 | Secure sandboxes for AI-generated code |
@@ -285,6 +285,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Agent Substrate](services/agent-runtime-and-infrastructure/agent-substrate.md) [![⭐](https://img.shields.io/github/stars/agent-substrate/substrate?style=social)](https://github.com/agent-substrate/substrate) | High-density Kubernetes runtime for large-scale agent deployments | Actors · WorkerPools · suspend/resume · atenet routing | ⚠️ | `hack/install-ate-kind.sh --deploy-ate-system` then `kubectl ate create actor` — early-dev, not a supported Google product |
 | [SandBase Harness](services/agent-runtime-and-infrastructure/sandbase-harness.md) [![⭐](https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social)](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | HTTP/API · stdio MCP · TypeScript runtime/CLI · Docker/Kubernetes/workers | ✅ | Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md) and `server.json` MCP metadata |
 | [Cohesivity](services/agent-runtime-and-infrastructure/cohesivity.md) [![⭐](https://img.shields.io/github/stars/cohesivity-org/cohesivity-plugin?style=social)](https://github.com/cohesivity-org/cohesivity-plugin) | backend infra your agents can actually use. | Ephemeral tenant · HTTP API · local/hosted mutating MCP · docs `/mcp` · Skill | ✅ | `npx --yes @cohesivity/init@0.8.3` — public `/mcp` is docs-only; mutating MCP is plugin/local or `/mcp/manage` |
+| [Cua](services/agent-runtime-and-infrastructure/cua.md) [![⭐](https://img.shields.io/github/stars/trycua/cua?style=social)](https://github.com/trycua/cua) | Scale computer fleets for every agent | Background Driver · Linux/Windows/macOS/Android Fleets · Lume · Bench · CUA-S1 | ✅ | `cua-driver` install + `cua-driver mcp` — [connect your agent](https://cua.ai/docs/how-to-guides/driver/connect-your-agent); Fleets at [run.cua.ai](https://run.cua.ai) |
 
 ---
 
@@ -307,6 +308,9 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [LoopX](services/agent-harnesses-and-control-planes/loopx.md) [![⭐](https://img.shields.io/github/stars/huangruiteng/loopx?style=social)](https://github.com/huangruiteng/loopx) | The open, provider-neutral, stateful control plane for long-horizon agents | Objectives · gates · todos/evidence · quota · claims/leases | ⚠️ | `python3 -m pip install --upgrade loopx` then `loopx workflow-skills --install` and `loopx connect` |
 | [DeepSeek Harness (dsh)](services/agent-harnesses-and-control-planes/deepseek-harness.md) [![⭐](https://img.shields.io/github/stars/deepseek-ai/deepseek-harness?style=social)](https://github.com/deepseek-ai/deepseek-harness) | Everything is a Plugin. | Cordis plugins · session log · Trajectory · PTC/Code Mode | ⚠️ | `npx @deepseek-ai/dsh web` |
 | [YYLO](services/agent-harnesses-and-control-planes/yylo.md) [![⭐](https://img.shields.io/github/stars/yylo-dev/yylo?style=social)](https://github.com/yylo-dev/yylo) | Run the work. Keep the memory. | Typed tasks · frozen-target worktrees · watch receipts · merge land | ⚠️ | `npm install -g @yylo/cli@latest` then `yy init --task "…" --subagent pi` |
+| [Pizza Bot](services/agent-harnesses-and-control-planes/pizza-bot.md) [![⭐](https://img.shields.io/github/stars/pizza-bot-app/pizza-bot?style=social)](https://github.com/pizza-bot-app/pizza-bot) | Pizza Bot is an inbox for long-running AI work. | Unread/Action queues · checkpointed runs · skill subagents · folder grants | ⚠️ | Clone [pizza-bot](https://github.com/pizza-bot-app/pizza-bot) → `npm install && npm run build && npm run dev` |
+| [txcript](services/agent-harnesses-and-control-planes/txcript.md) [![⭐](https://img.shields.io/github/stars/skillsynchq/txcript?style=social)](https://github.com/skillsynchq/txcript) | Continue your conversation in another coding agent. | Harness codecs · canonical transcript · continue/export · session search | ✅ | `cargo install --git https://github.com/skillsynchq/txcript txcript-cli --locked` then `txcript continue <id> --with codex`; MCP: `txcript mcp` |
+| [peerd](services/agent-harnesses-and-control-planes/peerd.md) [![⭐](https://img.shields.io/github/stars/NotASithLord/peerd?style=social)](https://github.com/NotASithLord/peerd) | peerd: the AI agent harness native to the browser | In-browser loop · keyless actors · WASM compute · vaulted BYOK | ⚠️ | `git clone https://github.com/NotASithLord/peerd.git` then Load unpacked `extension/` |
 
 ---
 
