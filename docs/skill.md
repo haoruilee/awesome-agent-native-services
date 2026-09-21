@@ -235,7 +235,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Codex HUD (fwyc0573)](https://github.com/fwyc0573/codex-hud) | Real-time statusline and multi-session HUD for Codex CLI | Clone the repo → `./bin/codex-hud-install` → launch `codex` |
 | [Codex HUD (anhannin)](https://github.com/anhannin/codex-hud) | Patched Codex status line for usage and session state | Review the patch/install script, then run `Codex-HUD/install.sh` and start a new session |
 | [Claude HUD](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening | `/plugin marketplace add jarrodwatts/claude-hud` then `/plugin install claude-hud` and `/claude-hud:setup` |
-| [LoopX](https://huangruiteng.github.io/loopx/) | Stateful control plane for long-horizon agents | `python3 -m pip install --upgrade loopx` then `loopx workflow-skills --install` and `loopx connect` |
+| [LoopX](https://loopx-project.github.io/loopx/) | Stateful control plane for long-horizon agents | `python3 -m pip install --upgrade loopx` then `loopx workflow-skills --install` and `loopx connect` |
 | [DeepSeek Harness (dsh)](https://deepseek.com/harness) | Everything is a Plugin. | `npx @deepseek-ai/dsh web` |
 | [YYLO](https://yylo.dev) | Run the work. Keep the memory. | `npm install -g @yylo/cli@latest` → `yy init --task "…" --subagent pi` |
 | [Pizza Bot](https://github.com/pizza-bot-app/pizza-bot) | Pizza Bot is an inbox for long-running AI work. | Clone the repo → `npm install && npm run build && npm run dev` |

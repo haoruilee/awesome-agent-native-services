@@ -87,7 +87,7 @@ service_count: 14
     <h2 class="service-card__title">LoopX</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/loopx.md">Open dossier ↗</a>
-      <a href="https://github.com/huangruiteng/loopx">Official repo ↗</a>
+      <a href="https://github.com/loopx-project/loopx">Official repo ↗</a>
     </div>
     </div>
   </article>
