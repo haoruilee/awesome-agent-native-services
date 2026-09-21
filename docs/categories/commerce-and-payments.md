@@ -21,7 +21,6 @@ service_count: 13
     <h2 class="service-card__title">AffixIO</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/affixio.md">Open dossier ↗</a>
-      <a href="https://github.com/AffixIO/SDK">Official repo ↗</a>
     </div>
     </div>
   </article>

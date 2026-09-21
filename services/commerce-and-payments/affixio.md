@@ -7,7 +7,7 @@
 | **Website** | https://www.affix-io.com/ |
 | **Docs** | https://www.affix-io.com/agent-trust/ |
 | **npm** | https://www.npmjs.com/package/affixio |
-| **GitHub** | https://github.com/AffixIO/SDK |
+| **GitHub** | N/A (no public GitHub repo; proprietary SDK via npm) |
 | **Classification** | `agent-native` |
 | **Category** | [Commerce & Payment Services](README.md) |
 | **Related issue** | https://github.com/haoruilee/awesome-agent-native-services/issues/147 |
@@ -26,9 +26,7 @@ Honest wider-product note: the marketing homepage also frames AffixIO as verific
 
 ## Official Repo
 
-https://github.com/AffixIO/SDK
-
-Apache-2.0. Install surface for this listing: npm package `affixio`.
+No public GitHub repository. The SDK is proprietary and distributed via npm `affixio` — https://www.npmjs.com/package/affixio. npm still lists a GitHub `repository` field, but that repo is gone or private (HTTP 404).
 
 ---
 
@@ -151,7 +149,7 @@ No person KYC step and no per-click human checkout are required for the gate its
 | Interface | Detail |
 |---|---|
 | npm SDK | `affixio` - https://www.npmjs.com/package/affixio |
-| TypeScript / GitHub | https://github.com/AffixIO/SDK (Apache-2.0) |
+| TypeScript SDK | npm `affixio` (proprietary; no public GitHub source) |
 | HTTP API | `api.affix-io.com` (see agent-trust docs) |
 | Local dashboard | `npx affixio dashboard` |
 | Docs | https://www.affix-io.com/agent-trust/ |

@@ -4,10 +4,10 @@
 
 | | |
 |---|---|
-| **Website** | https://huangruiteng.github.io/loopx/ |
-| **Docs** | https://huangruiteng.github.io/loopx/docs/ |
-| **GitHub** | https://github.com/huangruiteng/loopx |
-| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/huangruiteng/loopx?style=social)](https://github.com/huangruiteng/loopx) |
+| **Website** | https://loopx-project.github.io/loopx/ |
+| **Docs** | https://loopx-project.github.io/loopx/docs/ |
+| **GitHub** | https://github.com/loopx-project/loopx |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/loopx-project/loopx?style=social)](https://github.com/loopx-project/loopx) |
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | Apache-2.0 |
@@ -18,13 +18,13 @@
 
 ## Official Website
 
-https://huangruiteng.github.io/loopx/
+https://loopx-project.github.io/loopx/
 
 ---
 
 ## Official Repo
 
-https://github.com/huangruiteng/loopx
+https://github.com/loopx-project/loopx
 
 ---
 
@@ -90,7 +90,7 @@ LoopX is a provider-neutral control plane for work that outlives one chat turn. 
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | README: **"The open, provider-neutral, stateful control plane for long-horizon agents."** — [huangruiteng/loopx](https://github.com/huangruiteng/loopx) |
+| **Agent-first positioning** | README: **"The open, provider-neutral, stateful control plane for long-horizon agents."** — [loopx-project/loopx](https://github.com/loopx-project/loopx) |
 | **Agent-specific primitive** | Durable loop state (objective, gates, todos, evidence, quota) plus claim/lease/handoff operators — an agent-native Kanban, not a chat log |
 | **Autonomy-compatible control plane** | Bounded agent slices run without a click; quota decides the next tick. Human gates fire only when the state kernel says judgment is required |
 | **M2M integration surface** | `loopx` CLI, workflow skills, host adapters, local `.loopx/` state |

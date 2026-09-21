@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "e267b6a1b2847b4563a0b293af72273798d6f31e3c1c7aa91b6ec5a37aba27e5",
+      "value": "e04898218434d64dcf16a3c9bfa21fdd6007e2f0cff23ab4569383b96cb8950b",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -2534,7 +2534,7 @@
       "lifecycle_status": "unknown",
       "category": "commerce-and-payments",
       "website": "https://www.affix-io.com/",
-      "repository": "https://github.com/AffixIO/SDK",
+      "repository": null,
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/affixio.md",
       "source_path": "services/commerce-and-payments/affixio.md",
       "onboarding": {
@@ -4080,8 +4080,8 @@
       "status": "listed",
       "lifecycle_status": "active",
       "category": "agent-harnesses-and-control-planes",
-      "website": "https://huangruiteng.github.io/loopx/",
-      "repository": "https://github.com/huangruiteng/loopx",
+      "website": "https://loopx-project.github.io/loopx/",
+      "repository": "https://github.com/loopx-project/loopx",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/loopx.md",
       "source_path": "services/agent-harnesses-and-control-planes/loopx.md",
       "onboarding": {
@@ -4100,7 +4100,7 @@
       "latest_month_signal": "Last GitHub push 2026-08-19 (verified the same day)",
       "verified_at": "2026-08-19",
       "verification_sources": [
-        "https://github.com/huangruiteng/loopx"
+        "https://github.com/loopx-project/loopx"
       ]
     },
     {
