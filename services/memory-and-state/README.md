@@ -53,6 +53,7 @@ Agent-native memory services solve this by providing:
 | [Memorix](memorix.md) [![⭐](https://img.shields.io/github/stars/AVIDS2/memorix?style=social)](https://github.com/AVIDS2/memorix) | Local-first shared memory layer for AI coding agents. | Git-root daemon, `memorix serve`, orchestration, skills | ✅ |
 | [Compartment](compartment.md) [![⭐](https://img.shields.io/github/stars/MaxFreedomPollard/Compartment?style=social)](https://github.com/MaxFreedomPollard/Compartment) | Encrypted, fully offline memory for AI agents. | Encrypted vault, `compartment serve` MCP, integrate CLI | ✅ |
 | [mcp-memory-service](mcp-memory-service.md) [![⭐](https://img.shields.io/github/stars/doobidoo/mcp-memory-service?style=social)](https://github.com/doobidoo/mcp-memory-service) | Memory for AI Agents — REST, MCP, OAuth, CLI | REST, stdio/HTTP MCP, OAuth DCR, `X-Agent-ID` | ✅ |
+| [Mnemoverse](mnemoverse.md) [![⭐](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server?style=social)](https://github.com/mnemoverse/mcp-memory-server) | Persistent memory for AI agents | Streamable HTTP MCP (OAuth), stdio MCP (npx), REST API, Python SDK, Claude Code/Cursor/Gemini CLI plugins, VS Code extension | ✅ |
 
 
 

@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "e04898218434d64dcf16a3c9bfa21fdd6007e2f0cff23ab4569383b96cb8950b",
+      "value": "bdd3236ddb43ffc4ec114408eb4dba743580dae5d1bd5bbfc9591df373ce5369",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -172,6 +172,7 @@
         "services/memory-and-state/mempalace.md",
         "services/memory-and-state/memsearch.md",
         "services/memory-and-state/memu.md",
+        "services/memory-and-state/mnemoverse.md",
         "services/memory-and-state/openviking.md",
         "services/memory-and-state/projectmem.md",
         "services/memory-and-state/recall.md",
@@ -272,7 +273,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 236
+    "services": 237
   },
   "categories": [
     {
@@ -329,7 +330,7 @@
       "name": "Memory & State",
       "description": "Services that give AI agents persistent, queryable memory across sessions — treating memory as infrastructure rather than application logic, and managing the full lifecycle of what agents remember, forget, and retrieve.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md",
-      "service_count": 29
+      "service_count": 30
     },
     {
       "id": "search-and-web-intelligence",
@@ -5114,6 +5115,45 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "memory-and-state/mnemoverse",
+      "slug": "mnemoverse",
+      "name": "Mnemoverse",
+      "tagline": "Persistent memory for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "memory-and-state",
+      "website": "https://mnemoverse.com/",
+      "repository": "https://github.com/mnemoverse/mcp-memory-server",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/mnemoverse.md",
+      "source_path": "services/memory-and-state/mnemoverse.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP (Streamable HTTP)",
+        "instruction": "Add https://mcp.mnemoverse.com/mcp as a remote MCP server and complete the browser sign-in, or run npx -y @mnemoverse/mcp-memory-server@latest with MNEMOVERSE_API_KEY set to a key from https://console.mnemoverse.com .",
+        "url": "https://mcp.mnemoverse.com/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "sdk",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "npm @mnemoverse/mcp-memory-server 0.10.2 published 2026-09-20 (npm); PyPI mnemoverse 0.3.0 (PyPI); an unauthenticated POST to https://mcp.mnemoverse.com/mcp answered 401 with OAuth resource metadata on 2026-09-20",
+      "verified_at": "2026-09-20",
+      "verification_sources": [
+        "https://www.npmjs.com/package/@mnemoverse/mcp-memory-server",
+        "https://pypi.org/project/mnemoverse/",
+        "https://mcp.mnemoverse.com/mcp"
+      ]
     },
     {
       "id": "memory-and-state/openviking",
