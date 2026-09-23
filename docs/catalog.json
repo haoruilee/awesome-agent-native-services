@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "bdd3236ddb43ffc4ec114408eb4dba743580dae5d1bd5bbfc9591df373ce5369",
+      "value": "bae700dfba60398a5962f37455cd5d36fa721e1a4557fa7fc55f914b8b2c8be1",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -31,6 +31,7 @@
         "services/communication/novu.md",
         "services/communication/openmail.md",
         "services/communication/outreachagent.md",
+        "services/communication/sendraven.md",
         "services/browser-and-web-execution/README.md",
         "services/browser-and-web-execution/agent-browser.md",
         "services/browser-and-web-execution/agentql.md",
@@ -273,7 +274,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 237
+    "services": 238
   },
   "categories": [
     {
@@ -281,7 +282,7 @@
       "name": "Communication",
       "description": "Services that give AI agents a first-class communication identity on the internet — not a proxy to a human's mailbox or messaging account, but an identity the agent owns and operates autonomously.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/README.md",
-      "service_count": 15
+      "service_count": 16
     },
     {
       "id": "browser-and-web-execution",
@@ -872,6 +873,40 @@
       ],
       "mcp_status": "unknown",
       "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "communication/sendraven",
+      "slug": "sendraven",
+      "name": "SendRaven",
+      "tagline": "Email infrastructure for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "communication",
+      "website": "https://sendraven.ai",
+      "repository": "https://github.com/CommonNinja/sendraven-mcp-server",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/sendraven.md",
+      "source_path": "services/communication/sendraven.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP server (remote Streamable HTTP with OAuth, or stdio with an API key); REST for everything else",
+        "instruction": "npx -y @sendraven/mcp   # with SENDRAVEN_API_KEY=sk_live_... in the environment",
+        "url": "https://mcp.sendraven.ai/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "webhook",
+        "openapi",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []

@@ -74,9 +74,9 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 236 Services
+## Full Catalog — 16 Categories, 238 Services
 
-### 1. Communication (15 services)
+### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
 
 | Service | Tagline | Onboarding |
@@ -96,6 +96,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Caspian](https://api.trycaspianai.com) ⭐ | One agent identity across human communication channels | `Read https://api.trycaspianai.com/SKILL.md and follow it end to end` |
 | [Atomic Mail](https://atomicmail.ai) ⭐ | Not AI for your email. Email for your AI. | `Read https://atomicmail.ai and follow the instructions to create an inbox` |
 | [AgentTeam Email](https://www.agentteam.email) | Open-source email infrastructure for AI agents | `npx --yes @agentteamhq/email@latest` then `at-email agent connect` |
+| [SendRaven](https://sendraven.ai) | Email infrastructure for AI agents | Connect `https://mcp.sendraven.ai/mcp` (OAuth) or `npx -y @sendraven/mcp` with `SENDRAVEN_API_KEY`; a person verifies the domain first |
 
 ---
 
@@ -257,7 +258,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 8. Memory & State (29 services)
+### 8. Memory & State (30 services)
 *Persistent, queryable memory across sessions — memory as infrastructure, not application logic.*
 
 | Service | Tagline | Onboarding |
@@ -291,6 +292,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Memorix](https://github.com/AVIDS2/memorix) | Local-first shared memory layer for AI coding agents. | `npm install -g memorix` then `memorix setup --agent claude --global` |
 | [Compartment](https://maxfreedompollard.github.io/Compartment/) | Encrypted, fully offline memory for AI agents. | `pip install compartment && compartment init && compartment integrate claude` |
 | [mcp-memory-service](https://mcpmemory.services) | Memory for AI Agents — REST, MCP, OAuth, CLI | `pip install mcp-memory-service` then `memory server` or `memory server --http` |
+| [Mnemoverse](https://mnemoverse.com) | Persistent memory for AI agents | Add `https://mcp.mnemoverse.com/mcp` as a remote MCP server and sign in, or `npx -y @mnemoverse/mcp-memory-server@latest` with a free API key from [console.mnemoverse.com](https://console.mnemoverse.com) |
 
 ---
 

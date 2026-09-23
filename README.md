@@ -85,11 +85,11 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**237 services across 16 categories.**
+**238 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
-| 1 | [Communication](#1-communication-services) | 15 | Give agents a communication identity on the internet |
+| 1 | [Communication](#1-communication-services) | 16 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 25 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
@@ -133,6 +133,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Caspian](services/communication/caspian.md) [![⭐](https://img.shields.io/github/stars/TryCaspian/caspian-sdk?style=social)](https://github.com/TryCaspian/caspian-sdk) | One agent communication identity across human channels | Email/Slack/Discord/Telegram/SMS · normalized events · SDKs · webhooks | ⚠️ | Read https://api.trycaspianai.com/SKILL.md and follow it end to end |
 | [Atomic Mail](services/communication/atomic-mail.md) [![⭐](https://img.shields.io/github/stars/Atomic-Mail/atomic-mail-agentic?style=social)](https://github.com/Atomic-Mail/atomic-mail-agentic) | Not AI for your email. Email for your AI. | PoW inbox · JMAP · local/hosted MCP · AgentSkill | ✅ | Read https://atomicmail.ai and follow the instructions to create an inbox |
 | [AgentTeam Email](services/communication/agentteam-email.md) [![⭐](https://img.shields.io/github/stars/agentteamhq/agentteam-email?style=social)](https://github.com/agentteamhq/agentteam-email) | Open-source email infrastructure for AI agents | Per-agent mailbox · at-email CLI · draft review · Cloudflare routing | ⚠️ | `npx --yes @agentteamhq/email@latest` then `at-email agent connect` |
+| [SendRaven](services/communication/sendraven.md) | Email infrastructure for AI agents | Awaiting-reply threads · Inbound webhook · Per-key caps/allowlist/approval hold · Remote MCP | ✅ | Connect `https://mcp.sendraven.ai/mcp` (OAuth) or `npx -y @sendraven/mcp` with `SENDRAVEN_API_KEY` — [docs](https://sendraven.ai/docs/mcp) |
 
 ---
 
