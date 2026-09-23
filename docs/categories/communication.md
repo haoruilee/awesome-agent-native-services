@@ -8,7 +8,7 @@ image: "/assets/images/editorial-communication.webp"
 permalink: /categories/communication/
 page_kind: collection
 collection_number: "01"
-service_count: 15
+service_count: 16
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/README.md">Collection notes ↗</a></p>
@@ -173,6 +173,17 @@ service_count: 15
     <h2 class="service-card__title">OutreachAgent</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/outreachagent.md">Open dossier ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--service atlas-visual--16">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <h2 class="service-card__title">SendRaven</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/sendraven.md">Open dossier ↗</a>
+      <a href="https://github.com/CommonNinja/sendraven-mcp-server">Official repo ↗</a>
     </div>
     </div>
   </article>
