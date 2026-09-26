@@ -186,24 +186,57 @@ Not changed.
 
 ## Per-entry verification that this date does not refresh
 
-`verified_at` was updated only where this pass re-checked that entry and
-rewrote its latest-month signal: SmolVM, Toolport, Looped Meet, and Agent
-Search MCP, all set to 2026-09-26. `skill.md` `version` (the catalog
-snapshot date) was moved to 2026-09-26 so those dates are not newer than
+The first 2026-09-26 pass updated `verified_at` only for SmolVM, Toolport,
+Looped Meet, and Agent Search MCP. A same-day follow-up then re-checked the
+18 dossiers that were still dated 2026-08-13. Each of those 18 was
+re-verified against its live repository and canonical URL, and `verified_at`
+is now **2026-09-26** with a rewritten latest-month signal. `skill.md`
+`version` stays 2026-09-26, so none of these dates is newer than
 `catalog_version`.
 
-These 18 dossiers still have `verified_at` **2026-08-13**. Their signals were
-not re-checked, so the date was not bumped. The scheduled freshness job uses
-a 45-day maximum. Those records turn 46 days old on **2026-09-28** and will
-fail `--freshness-max-days 45` until someone re-verifies them:
+Follow-up evidence, all checked 2026-09-26:
 
-`codex-hud-fwyc0573`, `longhorizon-harness`, `oh-my-codex`, `qm`,
-`openai-symphony`, `agent-chamber`, `moli`, `axern`, `secondsign-core`,
-`caspian`, `pi-dispatch`, `sageroute`, `memmy-agent`, `numbat`, `sallyport`,
-`contextx`, `openchatcut`, `qwen-audio-agent`.
+- All 18 GitHub repositories resolved and none is archived.
+- Codex HUD (`fwyc0573/codex-hud`): still no root `LICENSE` file; `package.json`
+  still says MIT. Latest release is v1.2 (2026-09-01), 79 stars, last push
+  2026-09-06.
+- oh-my-codex: a root `LICENSE` file is now present and is MIT. The previous
+  "no root LICENSE file" caveat was removed. v0.21.6, 33,371 stars.
+  `oh-my-codex.dev` returned HTTP 200.
+- LongHorizon-Harness, QM, Agent Chamber, Axern, SecondSign Core, pi-dispatch,
+  SageRoute, Memmy, numbat, and Qwen Audio Agent: license SPDX matches the
+  dossier (MIT or Apache-2.0). Releases and star counts moved; signals were
+  updated. Axern's public star count is 66, down from the 232 recorded on
+  2026-08-13. Sallyport is 192, down from 246, and its last push is still
+  2026-07-19. SageRoute's last push is still 2026-07-29 and it still has no
+  release. Their sites or repository pages responded.
+- Moli: `LICENSE-APACHE` and `LICENSE-MIT` are both present. Latest release
+  v1.1.10, 2,403 stars. `browser.lexmount.com` is up; its title is "Lexmount
+  Browser" while the repository H1 is still Moli.
+- OpenChatCut: root `LICENSE` is AGPL-3.0. v0.2.14, 2,000 stars.
+  `openchatcut.com` returned HTTP 200.
+- Caspian: root `LICENSE` is still AGPL-3.0 and the README license section
+  still says Apache-2.0. `api.trycaspianai.com/SKILL.md` returned the channel
+  SDK guide. The homepage title is now "The Constructor"; the meta
+  description still names Caspian.
+- contextX: still no `LICENSE` file and still no GitHub release. 175 stars,
+  last push 2026-09-09. `https://mcp.twitter.monster/mcp` responded HTTP 406
+  until the client accepted both `application/json` and `text/event-stream`,
+  which is a live MCP listener rather than a dead host.
+- OpenAI Symphony: repository checks passed (Apache-2.0, v0.0.3 on 2026-09-15,
+  27,409 stars). The marketing page
+  `https://openai.com/index/open-source-codex-orchestration-symphony/`
+  returned HTTP 403 to this client, the same protected response as the
+  earlier canonical-link probe. The dossier date was bumped from the
+  repository evidence, and the 403 is recorded on the website section. The
+  page body was not re-read.
 
-One record is dated 2026-08-18 and 15 are dated 2026-08-19. Those stay inside
-a 45-day window a few days longer. 159 dossiers have no `verified_at`.
+No dossier in this cohort was left at 2026-08-13. Daytona and Looped Meet
+were not removed. One other record is dated 2026-08-18 and 15 are dated
+2026-08-19. Those stay inside a 45-day window a few days longer than
+2026-09-28. 159 dossiers have no `verified_at`. The freshness checker has no
+as-of date flag; a 2026-09-28 result was simulated by running the same age
+rule with the clock fixed on that date.
 
 ## Applied catalog updates
 

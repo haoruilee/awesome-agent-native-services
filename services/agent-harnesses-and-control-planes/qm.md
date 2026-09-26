@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | MIT, except where noted upstream |
-| **Latest-month signal** | Created 2026-07-29; v0.1.4 released 2026-07-31; 13,244 stars and active 2026-08-12 (snapshot 2026-08-13) |
-| **Verified at** | 2026-08-13 |
+| **Latest-month signal** | [v0.1.12](https://github.com/yc-software/qm/releases/tag/v0.1.12) released 2026-09-19; 15,253 stars; root `LICENSE` is MIT; [qm.ycombinator.com](https://qm.ycombinator.com) returned HTTP 200 on 2026-09-26 ([repo metadata](https://api.github.com/repos/yc-software/qm)) |
+| **Verified at** | 2026-09-26 |
 
 ---
 

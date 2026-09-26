@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Voice & Phone Services](README.md) |
 | **License** | Apache 2.0 |
-| **Latest-month signal** | Created 2026-07-27; [v1.8.3](https://github.com/QwenAudio/qwen-audio-agent/releases/tag/v1.8.3) published 2026-08-11 UTC; last push 2026-08-12; **2,101 stars on 2026-08-13** ([GitHub metadata](https://api.github.com/repos/QwenAudio/qwen-audio-agent)) |
-| **Verified at** | 2026-08-13 |
+| **Latest-month signal** | [v2.0.0](https://github.com/QwenAudio/qwen-audio-agent/releases/tag/v2.0.0) released 2026-09-23; 2,764 stars; license Apache-2.0; last push 2026-09-23; docs site [qwenaudio.github.io/qwen-audio-agent](https://qwenaudio.github.io/qwen-audio-agent/) returned HTTP 200 ([repo metadata](https://api.github.com/repos/QwenAudio/qwen-audio-agent)) |
+| **Verified at** | 2026-09-26 |
 
 ---
 

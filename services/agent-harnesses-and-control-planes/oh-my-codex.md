@@ -10,9 +10,9 @@
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-codex?style=social)](https://github.com/Yeachan-Heo/oh-my-codex) |
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
-| **License** | MIT declared in README/package metadata; no root `LICENSE` file as of snapshot |
-| **Latest-month signal** | v0.20.5 released 2026-08-10; 32,631 stars and active 2026-08-13 (snapshot 2026-08-13) |
-| **Verified at** | 2026-08-13 |
+| **License** | MIT (root `LICENSE` file, confirmed 2026-09-26) |
+| **Latest-month signal** | [v0.21.6](https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.21.6) released 2026-09-21; 33,371 stars; root `LICENSE` is MIT; [oh-my-codex.dev](https://oh-my-codex.dev) returned HTTP 200 on 2026-09-26 ([repo metadata](https://api.github.com/repos/Yeachan-Heo/oh-my-codex)) |
+| **Verified at** | 2026-09-26 |
 
 ---
 
@@ -117,7 +117,7 @@ Scoped project setup establishes durable AGENTS.md guidance
 - **Team identity:** Workers carry durable IDs and explicit task assignments; leader authority uses time-bounded leases.
 - **Attribution:** JSONL events record authority, dispatch, delivery, worker assignment, stalls, recovery, and run state.
 - **Fail-closed boundary:** Current Codex native hooks do not always provide non-user-mintable proof of the root leader or a host-issued consensus receipt. OMX documents this and denies affected authority transitions.
-- **License caveat:** Upstream README and package metadata say MIT, but GitHub cannot identify a license because the snapshot has no root license file.
+- **License:** Root `LICENSE` is MIT as of 2026-09-26. GitHub identifies that file as MIT. The earlier "no root license file" caveat no longer applies.
 
 ---
 

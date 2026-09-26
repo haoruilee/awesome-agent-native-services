@@ -7,11 +7,11 @@
 | **Website** | https://secondsignruntime.com |
 | **Docs** | https://github.com/Bestpart-Irene/secondsign-core#documentation |
 | **GitHub** | https://github.com/Bestpart-Irene/secondsign-core |
-| **Stars** | [32 stars (snapshot: 2026-08-13)](https://github.com/Bestpart-Irene/secondsign-core) |
+| **Stars** | [32 stars (snapshot: 2026-09-26)](https://github.com/Bestpart-Irene/secondsign-core) |
 | **Classification** | `agent-native` |
 | **Category** | [Commerce & Payment Services](README.md) |
-| **Latest-month signal** | Repository created 2026-07-24; [`v0.2.0`](https://github.com/Bestpart-Irene/secondsign-core/releases/tag/v0.2.0) released 2026-08-01; [latest verified commit](https://github.com/Bestpart-Irene/secondsign-core/commit/fe36b03b2a3f4f5f60762d2b0d4a4ff760979856) 2026-08-13 UTC |
-| **Verified at** | 2026-08-13 |
+| **Latest-month signal** | Latest release is still [v0.2.0](https://github.com/Bestpart-Irene/secondsign-core/releases/tag/v0.2.0) (2026-08-01); 32 stars; license Apache-2.0; last push 2026-09-04; [secondsignruntime.com](https://secondsignruntime.com) returned HTTP 200 on 2026-09-26 ([repo metadata](https://api.github.com/repos/Bestpart-Irene/secondsign-core)) |
+| **Verified at** | 2026-09-26 |
 | **Status** | **Pre-1.0 preview.** Interfaces may change; no independent security audit; some gateway control-plane state is not restart-durable. Apache-2.0. |
 
 ---

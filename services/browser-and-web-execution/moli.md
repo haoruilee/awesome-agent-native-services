@@ -7,11 +7,11 @@
 | **Website** | https://browser.lexmount.com |
 | **Docs** | https://github.com/lexmount/moli#readme |
 | **GitHub** | https://github.com/lexmount/moli |
-| **Stars** | [181 stars (snapshot: 2026-08-13)](https://github.com/lexmount/moli) |
+| **Stars** | [2,403 stars (snapshot: 2026-09-26)](https://github.com/lexmount/moli) |
 | **Classification** | `agent-native` |
 | **Category** | [Browser & Web Execution](README.md) |
-| **Latest-month signal** | Repository created 2026-08-10; [`v0.1.1`](https://github.com/lexmount/moli/releases/tag/v0.1.1) released 2026-08-11; [latest verified commit](https://github.com/lexmount/moli/commit/a7c1eb0b42ce65303a2b554fdf0189016b9bd4b6) 2026-08-12 UTC |
-| **Verified at** | 2026-08-13 |
+| **Latest-month signal** | [v1.1.10](https://github.com/lexmount/moli/releases/tag/v1.1.10) released 2026-09-24; 2,403 stars; both `LICENSE-APACHE` and `LICENSE-MIT` are present (GitHub SPDX Apache-2.0); [browser.lexmount.com](https://browser.lexmount.com) returned HTTP 200 on 2026-09-26 with title "Lexmount Browser" ([repo metadata](https://api.github.com/repos/lexmount/moli)) |
+| **Verified at** | 2026-09-26 |
 | **Status** | Open-source engine; Apache-2.0 or MIT at the user's option; managed Lexmount Browser control plane is separate |
 
 ---
@@ -19,6 +19,8 @@
 ## Official Website
 
 https://browser.lexmount.com
+
+On 2026-09-26 the page title was **"Lexmount Browser - Cloud Browser Infrastructure for AI Agents"**. The repository README H1 is still **Moli**. The status row already separates the open-source engine from the managed Lexmount control plane.
 
 ---
 

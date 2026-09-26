@@ -10,9 +10,9 @@
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/fwyc0573/codex-hud?style=social)](https://github.com/fwyc0573/codex-hud) |
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
-| **License** | MIT declared in README/package metadata; no root `LICENSE` file as of snapshot |
-| **Latest-month signal** | v1.0 tagged 2026-07-28; 75 stars and active 2026-08-08 (snapshot 2026-08-13) |
-| **Verified at** | 2026-08-13 |
+| **License** | MIT in `package.json`; no root `LICENSE` file as of 2026-09-26 |
+| **Latest-month signal** | [v1.2](https://github.com/fwyc0573/codex-hud/releases/tag/v1.2) released 2026-09-01; 79 stars; last push 2026-09-06; `package.json` license is MIT and there is still no root `LICENSE` file ([repo metadata](https://api.github.com/repos/fwyc0573/codex-hud)) |
+| **Verified at** | 2026-09-26 |
 
 ---
 

@@ -7,11 +7,11 @@
 | **Website** | https://openchatcut.com |
 | **Docs** | https://github.com/0xsline/OpenChatCut#using-openchatcut-with-codex--claude-code |
 | **GitHub** | https://github.com/0xsline/OpenChatCut |
-| **Stars** | [1,075 stars (snapshot: 2026-08-13)](https://github.com/0xsline/OpenChatCut) |
+| **Stars** | [2,000 stars (snapshot: 2026-09-26)](https://github.com/0xsline/OpenChatCut) |
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration Services](README.md) |
-| **Latest-month signal** | Repository created 2026-07-15; initial public release 2026-07-20; [`v0.2.1`](https://github.com/0xsline/OpenChatCut/releases/tag/v0.2.1) released 2026-08-11; [latest verified commit](https://github.com/0xsline/OpenChatCut/commit/a3c6d66d26e914e51b624638ae8861d0fd595720) 2026-08-12 UTC |
-| **Verified at** | 2026-08-13 |
+| **Latest-month signal** | [v0.2.14](https://github.com/0xsline/OpenChatCut/releases/tag/v0.2.14) released 2026-09-04; 2,000 stars; root `LICENSE` is AGPL-3.0; [openchatcut.com](https://openchatcut.com) returned HTTP 200 on 2026-09-26 ([repo metadata](https://api.github.com/repos/0xsline/OpenChatCut)) |
+| **Verified at** | 2026-09-26 |
 | **Status** | Early, actively evolving local-first project; AGPL-3.0-or-later |
 
 ---
