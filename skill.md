@@ -74,7 +74,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 238 Services
+## Full Catalog — 16 Categories, 236 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -313,7 +313,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 10. Code Execution (16 services)
+### 10. Code Execution (15 services)
 *Secure isolated runtimes for AI-generated code with LLM-formatted output.*
 
 | Service | Tagline | Onboarding |
@@ -322,7 +322,6 @@ These services can be joined with a single instruction, right now, with no human
 | [OpenSandbox](https://open-sandbox.ai) | Secure, fast, extensible sandbox runtime for AI agents | Follow OpenSandbox docs and run the MCP server |
 | [CodeRunner](https://github.com/instavm/coderunner) | A local sandbox for your AI agents | Install from GitHub and run isolated agent workloads |
 | [E2B](https://e2b.dev) | Cloud for AI agents — secure sandboxes for AI-generated code | `pip install e2b-code-interpreter` → `with Sandbox() as sandbox:` |
-| [Daytona](https://daytona.io) | Secure elastic infrastructure for AI-generated code | `daytona login` → `daytona mcp init cursor` — or `pip install daytona` |
 | [Runloop](https://runloop.ai) | Your AI agent accelerator — Devboxes and benchmarks | `npm install -g @runloop/rl-cli` → `rli mcp install` — [CLI docs](https://docs.runloop.ai/docs/tools/rl-cli) |
 | [Vercel Sandbox](https://vercel.com/docs/sandbox) | Firecracker microVMs for AI-generated code | `npm install @vercel/sandbox` — [vercel.com/docs/sandbox](https://vercel.com/docs/sandbox) |
 | [AIO Sandbox](https://github.com/agent-infra/sandbox) | Browser + shell + VS Code + Jupyter + MCP in one Docker sandbox | `docker run -p 8080:8080 ghcr.io/agent-infra/sandbox:latest` — MCP `http://localhost:8080/mcp` |
@@ -373,7 +372,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 13. Meeting & Conversation (8 services)
+### 13. Meeting & Conversation (7 services)
 *Programmatic agent presence in voice and video meetings.*
 
 | Service | Tagline | Onboarding |
@@ -383,7 +382,6 @@ These services can be joined with a single instruction, right now, with no human
 | [MeetStream](https://meetstream.ai) | Unified meeting-bot API — transcripts, media, interactive agents | `POST https://api.meetstream.ai/api/v1/bots/create_bot` + `Authorization: Token <key>` — [docs](https://docs.meetstream.ai) · doc MCP: `https://docs.meetstream.ai/_mcp/server` |
 | [Vexa](https://vexa.ai) | Open-source meeting transcription and interactive bot | Clone [Vexa-ai/vexa](https://github.com/Vexa-ai/vexa) → `docker compose up -d` |
 | [Daily Agent Toolkit](https://github.com/daily-co/daily-python) | Build realtime meeting agents on Daily | `pip install daily-python` then integrate the room/bot lifecycle APIs |
-| [Looped Meet](https://github.com/loopedautomation/meet#readme) | Dial your agent into your next meeting | Clone [loopedautomation/meet](https://github.com/loopedautomation/meet), configure secrets, then `docker compose up` |
 | [AgentCall](https://agentcall.dev) | Your AI agent, in every meeting. | `/plugin marketplace add pattern-ai-labs/agentcall` then `/plugin install join-meeting@agentcall` |
 | [joinly.ai](https://joinly.ai) | Make your meetings accessible to AI Agents! | `docker run -p 127.0.0.1:8000:8000 ghcr.io/joinly-ai/joinly:latest` then `uvx joinly-client --env-file .env <MeetingUrl>` |
 

@@ -74,7 +74,7 @@ Polos is an **opinionated runtime for AI agents** that bundles four concerns int
 3. **Multiple triggers** — HTTP, webhook, cron, and event triggers are first-class; agents are deployed once and react to many sources.
 4. **HITL via Slack / UI** — pause-and-approve gates without ad-hoc plumbing.
 
-The pitch is that it sits in the gap between code-execution sandboxes (E2B, Daytona) and durable workflow engines (Trigger.dev, Inngest): you get both, agent-shaped, in one runtime — at small-team operational cost.
+The pitch is that it sits in the gap between code-execution sandboxes (E2B) and durable workflow engines (Trigger.dev, Inngest): you get both, agent-shaped, in one runtime — at small-team operational cost.
 
 ---
 
@@ -141,7 +141,7 @@ Slack-based approval gates with optional web-UI fallback. Suspended runs are dur
 
 | Alternative | Why It Fails |
 |---|---|
-| **E2B / Daytona alone** | Sandbox only; no durable workflow, no HITL gate, no triggers |
+| **E2B alone** | Sandbox only; no durable workflow, no HITL gate, no triggers |
 | **Trigger.dev / Inngest alone** | Durable workflow only; no built-in sandbox + tool surface |
 | **DIY: Lambda + Step Functions + Slack bot** | High operational overhead; no prompt cache integration; agent-specific primitives are bolted on rather than first-class |
 

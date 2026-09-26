@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**238 services across 16 categories.**
+**236 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -98,10 +98,10 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 30 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
-| 10 | [Code Execution](#10-code-execution-services) | 16 | Secure sandboxes for AI-generated code |
+| 10 | [Code Execution](#10-code-execution-services) | 15 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
-| 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 8 | Agent presence in voice and video meetings |
+| 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 7 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 11 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 16 | [Agent Social & Community](#16-agent-social--community-services) | 11 | Social networks where agents are first-class participants |
@@ -390,7 +390,6 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [OpenSandbox](services/code-execution/opensandbox.md) [![⭐](https://img.shields.io/github/stars/opensandbox-group/OpenSandbox?style=social)](https://github.com/opensandbox-group/OpenSandbox) | Secure, fast, extensible sandbox runtime for AI agents | Sandbox runtime · Kubernetes · MCP server | ✅ | Follow OpenSandbox docs and run MCP server |
 | [CodeRunner](services/code-execution/coderunner.md) [![⭐](https://img.shields.io/github/stars/instavm/coderunner?style=social)](https://github.com/instavm/coderunner) | A local sandbox for your AI agents | Apple Containers · local sandbox · MCP | ✅ | Install from GitHub and run isolated agent workloads |
 | [E2B](services/code-execution/e2b.md) [![⭐](https://img.shields.io/github/stars/e2b-dev/e2b?style=social)](https://github.com/e2b-dev/e2b) | Cloud for AI agents — secure sandboxes for AI-generated code | Ephemeral Linux VM · ~150ms cold start · Stateful execution context · Streaming output | ✅ | `pip install e2b-code-interpreter` then `with Sandbox() as sandbox:` |
-| [Daytona](services/code-execution/daytona.md) [![⭐](https://img.shields.io/github/stars/daytonaio/daytona?style=social)](https://github.com/daytonaio/daytona) | Secure elastic infrastructure for AI-generated code | Sub-90ms sandboxes · Git/LSP/exec · Preview URLs · CLI MCP | ✅ | `brew install daytonaio/cli/daytona` → `daytona login` → `daytona mcp init cursor` — or `pip install daytona` |
 | [Runloop](services/code-execution/runloop.md) [![⭐](https://img.shields.io/github/stars/runloopai/api-client-python?style=social)](https://github.com/runloopai/api-client-python) | Your AI agent accelerator | Devbox micro-VM · Snapshot/branch disk state · Benchmark jobs · Suspend/resume | ✅ | `export RUNLOOP_API_KEY=...` → `npm install -g @runloop/rl-cli` → `rli mcp install` — [CLI docs](https://docs.runloop.ai/docs/tools/rl-cli) |
 | [Vercel Sandbox](services/code-execution/vercel-sandbox.md) [![⭐](https://img.shields.io/github/stars/vercel/sandbox?style=social)](https://github.com/vercel/sandbox) | Firecracker microVMs for AI-generated code | Node/Python runtimes · Snapshots · REST + `@vercel/sandbox` SDK | ❌ | `npm install @vercel/sandbox` — [vercel.com/docs/sandbox](https://vercel.com/docs/sandbox) |
 | [AIO Sandbox](services/code-execution/agent-infra-sandbox.md) [![⭐](https://img.shields.io/github/stars/agent-infra/sandbox?style=social)](https://github.com/agent-infra/sandbox) | All-in-one Docker sandbox for AI agents | Browser + shell + files + VS Code + Jupyter + MCP · Shared filesystem | ✅ | `docker run -p 8080:8080 ghcr.io/agent-infra/sandbox:latest` — MCP `http://localhost:8080/mcp` |
@@ -460,7 +459,6 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [MeetStream](services/meeting-and-conversation/meetstream.md) | Unified meeting-bot API for Zoom, Meet, Teams | Real-time diarized webhooks · WebSocket A/V · In-meeting chat/TTS · Calendar auto-dispatch | ⚠️ | `POST https://api.meetstream.ai/api/v1/bots/create_bot` with `Authorization: Token <key>` — [Create Bot](https://docs.meetstream.ai/api-reference/ap-is/bot-endpoints/create-bot.mdx) |
 | [Vexa](services/meeting-and-conversation/vexa.md) [![⭐](https://img.shields.io/github/stars/Vexa-ai/vexa?style=social)](https://github.com/Vexa-ai/vexa) | Open-source meeting transcription + interactive bot for Meet/Teams/Zoom | Bot lifecycle · WebSocket diarized transcript · In-meeting TTS/screen-share · MCP server (17 tools) · self-host | ✅ | `git clone https://github.com/Vexa-ai/vexa && docker compose up -d` — or hosted at [vexa.ai](https://vexa.ai) |
 | [Daily Agent Toolkit](services/meeting-and-conversation/daily-agent.md) [![⭐](https://img.shields.io/github/stars/daily-co/daily-python?style=social)](https://github.com/daily-co/daily-python) | Build realtime meeting agents on Daily | Programmatic room control · Media stream hooks · Bot orchestration | ⚠️ | `pip install daily-python` then integrate room/bot lifecycle APIs |
-| [Looped Meet](services/meeting-and-conversation/looped-meet.md) [![⭐](https://img.shields.io/github/stars/loopedautomation/meet?style=social)](https://github.com/loopedautomation/meet) | Dial your agent into your next meeting | Agent participant · LiveKit media · TTY WebSocket bridge · self-hosted room | ⚠️ | Clone [loopedautomation/meet](https://github.com/loopedautomation/meet), set the documented secrets, then `docker compose up` |
 | [AgentCall](services/meeting-and-conversation/agentcall.md) [![⭐](https://img.shields.io/github/stars/pattern-ai-labs/agentcall?style=social)](https://github.com/pattern-ai-labs/agentcall) | Your AI agent, in every meeting. | join-meeting skill · live TTS/transcript · screenshot/screenshare · Meet/Zoom/Teams | ⚠️ | `/plugin marketplace add pattern-ai-labs/agentcall` then `/plugin install join-meeting@agentcall` |
 | [joinly.ai](services/meeting-and-conversation/joinly.md) [![⭐](https://img.shields.io/github/stars/joinly-ai/joinly?style=social)](https://github.com/joinly-ai/joinly) | Make your meetings accessible to AI Agents! | MCP join/speak/transcript · Zoom/Meet/Teams · `joinly-client` | ✅ | `docker run -p 127.0.0.1:8000:8000 ghcr.io/joinly-ai/joinly:latest` then `uvx joinly-client --env-file .env <MeetingUrl>` |
 

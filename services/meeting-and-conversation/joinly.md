@@ -99,7 +99,6 @@ joinly.ai puts an **AI participant** into Zoom, Google Meet, or Microsoft Teams 
 |---|---|
 | [Vexa](vexa.md) | Self-host **transcription + interactive bot API** (17 MCP tools, REST). joinly is middleware: any agent talks MCP to a meeting connector |
 | [AgentCall](agentcall.md) | Hosted **join-meeting Skill** (`ak_ac_` keys), not an OSS MCP server you run |
-| [Looped Meet](looped-meet.md) | Self-hosted **room product** with a TTY brain bridge — you host the meeting, not join Zoom/Meet/Teams |
 
 ---
 
@@ -175,7 +174,6 @@ A human supplies the meeting URL and `.env` keys. Optional VNC (`--vnc-server`) 
 |---|---|
 | **Vexa** | Bot platform + REST/MCP for transcription/TTS. joinly is OSS **middleware** so *your* agent (plus extra MCP servers) sits in the meeting |
 | **AgentCall** | Hosted skill + API keys; not a self-hosted MCP connector |
-| **Looped Meet** | You host the room; joinly **joins** Zoom/Meet/Teams |
 | **Recall.ai / Meeting BaaS** | SaaS bot APIs already in this catalog — not OSS MCP middleware |
 | **A raw WebRTC SDK** | No meeting join, VAD/barge-in, or MCP tool surface |
 

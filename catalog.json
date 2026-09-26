@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "1be9979c35fb411611109e940974b532b17dbac2d730909575b4826ad7bb0c80",
+      "value": "8f3f5277bf0f8cd9fcc9913a437d70ba55999c01e8b0dfeb7d9f952d91854343",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -196,7 +196,6 @@
         "services/code-execution/clawk.md",
         "services/code-execution/coderunner.md",
         "services/code-execution/cubesandbox.md",
-        "services/code-execution/daytona.md",
         "services/code-execution/dormice.md",
         "services/code-execution/e2b.md",
         "services/code-execution/forkd.md",
@@ -232,7 +231,6 @@
         "services/meeting-and-conversation/agentcall.md",
         "services/meeting-and-conversation/daily-agent.md",
         "services/meeting-and-conversation/joinly.md",
-        "services/meeting-and-conversation/looped-meet.md",
         "services/meeting-and-conversation/meeting-baas.md",
         "services/meeting-and-conversation/meetstream.md",
         "services/meeting-and-conversation/recall-ai.md",
@@ -274,7 +272,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 238
+    "services": 236
   },
   "categories": [
     {
@@ -345,7 +343,7 @@
       "name": "Code Execution",
       "description": "Services that give AI agents a secure, isolated runtime for executing generated code — without human-side sandbox setup, without risking the host environment, and with output formatted for direct LLM consumption.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/README.md",
-      "service_count": 16
+      "service_count": 15
     },
     {
       "id": "observability-and-tracing",
@@ -366,7 +364,7 @@
       "name": "Meeting & Conversation",
       "description": "Services that give AI agents a programmatic presence in voice and video conversations — letting agents join meetings, process real-time audio, and participate in synchronous communication without a human operating a client.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/README.md",
-      "service_count": 8
+      "service_count": 7
     },
     {
       "id": "voice-and-phone",
@@ -5841,39 +5839,6 @@
       ]
     },
     {
-      "id": "code-execution/daytona",
-      "slug": "daytona",
-      "name": "Daytona",
-      "tagline": "Run AI Code. Secure and Elastic Infrastructure for Running Your AI-Generated Code.",
-      "classification": "agent-native",
-      "status": "listed",
-      "lifecycle_status": "unknown",
-      "category": "code-execution",
-      "website": "https://daytona.io",
-      "repository": "https://github.com/daytonaio/daytona",
-      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/daytona.md",
-      "source_path": "services/code-execution/daytona.md",
-      "onboarding": {
-        "type": "mcp",
-        "pattern": "SDK + REST + MCP (via Daytona CLI)",
-        "instruction": "pip install daytona\n# or: npm install @daytonaio/sdk",
-        "url": "https://www.daytona.io/docs/en/sandboxes/"
-      },
-      "protocols": [
-        "mcp",
-        "rest",
-        "cli",
-        "sdk",
-        "http",
-        "api"
-      ],
-      "mcp_status": "available",
-      "agent_skill_status": "unavailable",
-      "latest_month_signal": null,
-      "verified_at": null,
-      "verification_sources": []
-    },
-    {
       "id": "code-execution/dormice",
       "slug": "dormice",
       "name": "Dormice",
@@ -6885,39 +6850,6 @@
       "verified_at": "2026-09-08",
       "verification_sources": [
         "https://api.github.com/repos/joinly-ai/joinly"
-      ]
-    },
-    {
-      "id": "meeting-and-conversation/looped-meet",
-      "slug": "looped-meet",
-      "name": "Looped Meet",
-      "tagline": "Dial your agent into your next meeting.",
-      "classification": "agent-native",
-      "status": "listed",
-      "lifecycle_status": "active",
-      "category": "meeting-and-conversation",
-      "website": "https://github.com/loopedautomation/meet#readme",
-      "repository": "https://github.com/loopedautomation/meet",
-      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/looped-meet.md",
-      "source_path": "services/meeting-and-conversation/looped-meet.md",
-      "onboarding": {
-        "type": "cli",
-        "pattern": "Daemon / WebSocket bridge",
-        "instruction": "git clone https://github.com/loopedautomation/meet.git\ncd meet\ncp .env.example .env\n# Set LIVEKIT_API_SECRET, BRIDGE_TOKEN, SCOUT_TTY_TOKEN,\n# OPENAI_API_KEY, and the demo agent's model key.\ndocker compose up",
-        "url": "https://github.com/loopedautomation/meet.git"
-      },
-      "protocols": [
-        "websocket",
-        "webhook",
-        "cli",
-        "http"
-      ],
-      "mcp_status": "unknown",
-      "agent_skill_status": "unavailable",
-      "latest_month_signal": "Repository is archived; last push 2026-08-17; license file is still FSL-1.1-ALv2 (GitHub metadata); former hosted site meet.looped.sh is still DNS NXDOMAIN on 2026-09-26; website field remains the GitHub README",
-      "verified_at": "2026-09-26",
-      "verification_sources": [
-        "https://api.github.com/repos/loopedautomation/meet"
       ]
     },
     {
