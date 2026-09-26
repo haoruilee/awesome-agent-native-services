@@ -10,7 +10,7 @@
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social)](https://github.com/daytonaio/daytona) |
 | **Classification** | `agent-native` |
 | **Category** | [Code Execution Services](README.md) |
-| **License** | AGPL-3.0 |
+| **License** | AGPL-3.0 on tag `v0.190.0`; the default branch has no `LICENSE` file. README says the public repo is unmaintained and core development moved to a private codebase in June 2026 |
 
 ---
 
@@ -22,9 +22,9 @@ https://daytona.io
 
 ## Official Repo
 
-https://github.com/daytonaio/daytona — Core platform (open source)
+https://github.com/daytonaio/daytona
 
-SDKs documented in README: Python (`pip install daytona`), TypeScript (`@daytonaio/sdk`), Ruby, Go
+The default-branch README, read 2026-09-26, says **"This repository is no longer maintained"** and that as of June 2026 core development moved to a private codebase. It points the public grant at the [v0.190.0 LICENSE](https://github.com/daytonaio/daytona/blob/v0.190.0/LICENSE) (AGPL-3.0). That file is not on the default branch. The README still documents Python (`pip install daytona`), TypeScript (`@daytonaio/sdk`), Ruby, and Go SDKs.
 
 ---
 

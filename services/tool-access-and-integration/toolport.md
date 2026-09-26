@@ -5,14 +5,14 @@
 | | |
 |---|---|
 | **Website** | https://toolport.app |
-| **Docs** | https://github.com/tsouth89/toolport#readme |
-| **GitHub** | https://github.com/tsouth89/toolport |
-| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/tsouth89/toolport?style=social)](https://github.com/tsouth89/toolport) |
+| **Docs** | https://github.com/btsouth/toolport#readme |
+| **GitHub** | https://github.com/btsouth/toolport |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/btsouth/toolport?style=social)](https://github.com/btsouth/toolport) |
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Last GitHub push 2026-08-19 (verified the same day) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | Repository transferred from `tsouth89/toolport` to `btsouth/toolport` (old URL redirects); last push 2026-09-26; license MIT ([repo metadata](https://api.github.com/repos/btsouth/toolport)) |
+| **Verified at** | 2026-09-26 |
 
 ---
 
@@ -24,7 +24,9 @@ https://toolport.app
 
 ## Official Repo
 
-https://github.com/tsouth89/toolport
+https://github.com/btsouth/toolport
+
+Transferred from `tsouth89/toolport`; the old URL redirects here (confirmed 2026-09-26). Live GitHub description: **“Local-first MCP gateway. One port for every tool and every AI client: lazy discovery (~90% token savings), tool integrity + quarantine, secrets in the OS keychain.”** License MIT. Last push 2026-09-26.
 
 ---
 
@@ -32,7 +34,7 @@ https://github.com/tsouth89/toolport
 
 **Interaction pattern:** `local MCP gateway` (stdio) after a one-time desktop install
 
-1. Download the installer from https://github.com/tsouth89/toolport/releases/latest
+1. Download the installer from https://github.com/btsouth/toolport/releases/latest
 2. Add MCP servers in the app (catalog, MCP Registry, or pasted client snippets)
 3. Connect each AI client so it launches `toolport-gateway` over stdio
 
@@ -63,7 +65,7 @@ Search community skills: `npx clawhub@latest search toolport`. See: https://agen
 
 | Detail | Value |
 |---|---|
-| **MCP Repo** | https://github.com/tsouth89/toolport |
+| **MCP Repo** | https://github.com/btsouth/toolport |
 | **Transport** | stdio (`toolport-gateway`); downstream servers may be stdio or remote HTTP/SSE |
 | **Compatible Clients** | Official README lists auto-detect/connect for 34 clients including Claude Desktop, Claude Code, Cursor, VS Code, Codex, Gemini CLI, Windsurf, OpenCode, and others |
 
@@ -81,7 +83,7 @@ Toolport is a local-first MCP gateway. A human (or installer) authenticates each
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | README: **"One local gateway for all your MCP servers, shared by every AI client"** and **"Every tool. One port."** — [repo](https://github.com/tsouth89/toolport) |
+| **Agent-first positioning** | README: **"One local gateway for all your MCP servers, shared by every AI client"** and **"Every tool. One port."** — [repo](https://github.com/btsouth/toolport) |
 | **Agent-specific primitive** | Lazy-discovery meta-tools (`toolport_search_tools` / `toolport_call_tool`) plus per-client server profiles so a coding agent cannot see a billing server |
 | **Autonomy-compatible control plane** | After connect, the agent searches and calls tools without a human picking each server. Approval mode is optional and only pauses configured destructive calls |
 | **M2M integration surface** | `toolport-gateway` stdio MCP is what every client launches |

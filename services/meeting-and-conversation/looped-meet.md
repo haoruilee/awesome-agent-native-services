@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Meeting & Conversation Services](README.md) |
 | **License** | FSL-1.1-ALv2; each version converts to Apache 2.0 two years after release |
-| **Latest-month signal** | Created 2026-07-16; [v0.1.2](https://github.com/loopedautomation/meet/releases/tag/v0.1.2) released 2026-08-05; last push 2026-08-12; **6 stars on 2026-08-13** ([GitHub metadata](https://api.github.com/repos/loopedautomation/meet)) — new and actively shipping, but still a low-star emerging project; former hosted site `meet.looped.sh` DNS NXDOMAIN as of 2026-09-08; website field is the GitHub README until DNS returns |
-| **Verified at** | 2026-09-08 |
+| **Latest-month signal** | Repository is archived; last push 2026-08-17; license file is still FSL-1.1-ALv2 ([GitHub metadata](https://api.github.com/repos/loopedautomation/meet)); former hosted site `meet.looped.sh` is still DNS NXDOMAIN on 2026-09-26; website field remains the GitHub README |
+| **Verified at** | 2026-09-26 |
 
 ---
 
@@ -19,7 +19,7 @@
 
 https://github.com/loopedautomation/meet#readme
 
-README lead (live 2026-09-08): **"Dial your agent into your next meeting."** Former official site `meet.looped.sh` is DNS NXDOMAIN as of 2026-09-08. Use this GitHub README as the website field until that host returns.
+README lead (live 2026-09-08): **"Dial your agent into your next meeting."** Former official site `meet.looped.sh` is still DNS NXDOMAIN on 2026-09-26. GitHub reports the repository archived, with last push 2026-08-17. Use this GitHub README as the website field. The self-hosted tree is still public.
 
 ---
 
@@ -66,7 +66,7 @@ See: https://agentskills.io/specification to contribute one.
 
 Looped Meet is a self-hostable video-meeting environment where AI agents are native participants rather than silent transcript bots. An invited agent receives its own tile and live listening/thinking/speaking state, can hear and speak in full duplex, can be interrupted, sees shared-screen frames, streams tool activity, and can edit the room's shared document and whiteboard.
 
-The meeting surface is separated from the agent brain. A LiveKit-based bridge carries audio, room context, and controls to an unchanged Looped Agent Framework agent over its TTY trigger, preserving that agent's tools, memory, permissions, and audit trail. The repository is new and only lightly starred; its signal is release velocity and unusually complete agent-participant mechanics, not established adoption. Its FSL license restricts competing commercial products until each version converts to Apache 2.0 two years later.
+The meeting surface is separated from the agent brain. A LiveKit-based bridge carries audio, room context, and controls to an unchanged Looped Agent Framework agent over its TTY trigger, preserving that agent's tools, memory, permissions, and audit trail. The repository is lightly starred. As of 2026-09-26 it is archived (last push 2026-08-17) and the hosted site does not resolve; the self-hosted tree is still public. Its catalog signal is the agent-participant mechanics, not established adoption. Its FSL license restricts competing commercial products until each version converts to Apache 2.0 two years later.
 
 ---
 

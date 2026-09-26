@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **Website** | https://agentuity.com |
-| **Docs** | https://agentuity.dev |
+| **Docs** | https://agentcompany.com/agentuity |
 | **GitHub** | https://github.com/agentuity/sdk |
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/agentuity/sdk?style=social)](https://github.com/agentuity/sdk) |
 | **Classification** | `agent-native` |
@@ -34,12 +34,12 @@ https://github.com/agentuity/cli — CLI
 **SDK / REST — create and deploy agents with built-in storage, sandboxes, and observability.**
 
 ```bash
-# Follow quickstart at https://agentuity.dev — install CLI and SDK, then deploy.
+# Follow quickstart at https://agentcompany.com/agentuity — install CLI and SDK, then deploy.
 # Example pattern (see official docs for current commands):
 npm install @agentuity/sdk
 ```
 
-Agentuity wraps existing agent frameworks (e.g. Vercel AI SDK, Mastra) with production routing, evals, streaming, and cross-agent calls without forcing a new agent authoring model — see [Creating agents](https://agentuity.dev/agents/creating-agents).
+Agentuity wraps existing agent frameworks (e.g. Vercel AI SDK, Mastra) with production routing, evals, streaming, and cross-agent calls without forcing a new agent authoring model. `https://agentuity.dev` and the old docs path `https://agentuity.dev/agents/creating-agents` both redirect to [https://agentcompany.com/agentuity](https://agentcompany.com/agentuity) (confirmed 2026-09-26). That page title is **"Agentuity — The Agent Company"**. This pass did not find a replacement for the old creating-agents document.
 
 ---
 
@@ -121,7 +121,7 @@ Multi-agent calls use platform primitives instead of ad-hoc service discovery
 | TypeScript SDK | `@agentuity/sdk` — see GitHub |
 | Python SDK | `agentuity` — see GitHub |
 | CLI | `agentuity` CLI — see GitHub |
-| HTTP / Webhooks | Product I/O and API routes — see https://agentuity.dev |
+| HTTP / Webhooks | Product I/O and API routes — see https://agentcompany.com/agentuity |
 
 ---
 

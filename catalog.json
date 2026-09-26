@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-09-20",
-  "generated_at": "2026-09-20",
+  "catalog_version": "2026-09-26",
+  "generated_at": "2026-09-26",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "bae700dfba60398a5962f37455cd5d36fa721e1a4557fa7fc55f914b8b2c8be1",
+      "value": "79cf75090ee51c205aeac36c69c6ec016d5f49097560d6be3ca9d9583bdc8c88",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -1231,15 +1231,15 @@
       "status": "listed",
       "lifecycle_status": "unknown",
       "category": "browser-and-web-execution",
-      "website": "https://workers.cloudflare.com/product/browser-rendering/",
+      "website": "https://www.cloudflare.com/products/browser-rendering/",
       "repository": "https://github.com/cloudflare/workers-sdk",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/cloudflare-browser-rendering.md",
       "source_path": "services/browser-and-web-execution/cloudflare-browser-rendering.md",
       "onboarding": {
         "type": "documentation",
         "pattern": null,
-        "instruction": "1. Enable Browser Rendering on a Cloudflare account and create a Worker with a **browser binding** per [docs](https://developers.cloudflare.com/browser-rendering/).",
-        "url": "https://developers.cloudflare.com/browser-rendering/"
+        "instruction": "1. Enable Browser Rendering on a Cloudflare account and create a Worker with a **browser binding** per [docs](https://developers.cloudflare.com/browser-run/).",
+        "url": "https://developers.cloudflare.com/browser-run/"
       },
       "protocols": [
         "mcp",
@@ -2381,14 +2381,14 @@
       "lifecycle_status": "active",
       "category": "tool-access-and-integration",
       "website": "https://toolport.app",
-      "repository": "https://github.com/tsouth89/toolport",
+      "repository": "https://github.com/btsouth/toolport",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolport.md",
       "source_path": "services/tool-access-and-integration/toolport.md",
       "onboarding": {
         "type": "mcp",
         "pattern": "local MCP gateway (stdio) after a one-time desktop install",
-        "instruction": "1. Download the installer from https://github.com/tsouth89/toolport/releases/latest",
-        "url": "https://github.com/tsouth89/toolport/releases/latest"
+        "instruction": "1. Download the installer from https://github.com/btsouth/toolport/releases/latest",
+        "url": "https://github.com/btsouth/toolport/releases/latest"
       },
       "protocols": [
         "mcp",
@@ -2397,10 +2397,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Last GitHub push 2026-08-19 (verified the same day)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "Repository transferred from tsouth89/toolport to btsouth/toolport (old URL redirects); last push 2026-09-26; license MIT (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/tsouth89/toolport"
+        "https://api.github.com/repos/btsouth/toolport"
       ]
     },
     {
@@ -3107,8 +3107,8 @@
       "onboarding": {
         "type": "sdk",
         "pattern": null,
-        "instruction": "# Follow quickstart at https://agentuity.dev — install CLI and SDK, then deploy.\n# Example pattern (see official docs for current commands):\nnpm install @agentuity/sdk",
-        "url": "https://agentuity.dev"
+        "instruction": "# Follow quickstart at https://agentcompany.com/agentuity — install CLI and SDK, then deploy.\n# Example pattern (see official docs for current commands):\nnpm install @agentuity/sdk",
+        "url": "https://agentcompany.com/agentuity"
       },
       "protocols": [
         "webhook",
@@ -5357,7 +5357,7 @@
       "status": "listed",
       "lifecycle_status": "active",
       "category": "search-and-web-intelligence",
-      "website": "https://take-a-deep-breath0.com/en/agent-search-mcp",
+      "website": "https://lennney.com/en/agent-search-mcp",
       "repository": "https://github.com/lennney/agent-search-mcp",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/agent-search-mcp.md",
       "source_path": "services/search-and-web-intelligence/agent-search-mcp.md",
@@ -5376,9 +5376,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-08-17 (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "Product page moved to lennney.com/en/agent-search-mcp; take-a-deep-breath0.com redirects there. Last GitHub push 2026-09-21; license Apache-2.0 (repo)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
+        "https://lennney.com/en/agent-search-mcp",
         "https://github.com/lennney/agent-search-mcp"
       ]
     },
@@ -6094,7 +6095,7 @@
       "lifecycle_status": "active",
       "category": "code-execution",
       "website": "https://docs.celesto.ai/smolvm",
-      "repository": "https://github.com/CelestoAI/SmolVM",
+      "repository": "https://github.com/CelestoAI/celesto",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/smolvm.md",
       "source_path": "services/code-execution/smolvm.md",
       "onboarding": {
@@ -6110,11 +6111,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Last GitHub push 2026-09-03 (repo metadata); PyPI smolvm; docs index at docs.celesto.ai/llms.txt",
-      "verified_at": "2026-09-04",
+      "latest_month_signal": "Repository renamed from CelestoAI/SmolVM to CelestoAI/celesto (old URL redirects); last push 2026-09-25; license still Apache-2.0 (repo metadata); homepage still docs.celesto.ai/smolvm",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://api.github.com/repos/CelestoAI/SmolVM",
-        "https://docs.celesto.ai/llms.txt"
+        "https://api.github.com/repos/CelestoAI/celesto",
+        "https://docs.celesto.ai/smolvm"
       ]
     },
     {
@@ -6126,7 +6127,7 @@
       "status": "listed",
       "lifecycle_status": "unknown",
       "category": "code-execution",
-      "website": "https://vercel.com/docs/vercel-sandbox",
+      "website": "https://vercel.com/docs/sandbox",
       "repository": "https://github.com/vercel/sandbox",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/vercel-sandbox.md",
       "source_path": "services/code-execution/vercel-sandbox.md",
@@ -6134,7 +6135,7 @@
         "type": "sdk",
         "pattern": null,
         "instruction": "npm install @vercel/sandbox",
-        "url": "https://vercel.com/docs/vercel-sandbox/sdk-reference"
+        "url": "https://vercel.com/docs/sandbox/sdk-reference"
       },
       "protocols": [
         "rest",
@@ -6478,8 +6479,8 @@
       "onboarding": {
         "type": "documentation",
         "pattern": null,
-        "instruction": "Install the LangWatch SDK and follow the [official quickstart](https://docs.langwatch.ai)",
-        "url": "https://docs.langwatch.ai"
+        "instruction": "Install the LangWatch SDK and follow the [official quickstart](https://langwatch.ai/docs/introduction)",
+        "url": "https://langwatch.ai/docs/introduction"
       },
       "protocols": [
         "mcp",
@@ -6902,10 +6903,9 @@
       ],
       "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Created 2026-07-16; v0.1.2 released 2026-08-05; last push 2026-08-12; 6 stars on 2026-08-13 (GitHub metadata) — new and actively shipping, but still a low-star emerging project; former hosted site meet.looped.sh DNS NXDOMAIN as of 2026-09-08; website field is the GitHub README until DNS returns",
-      "verified_at": "2026-09-08",
+      "latest_month_signal": "Repository is archived; last push 2026-08-17; license file is still FSL-1.1-ALv2 (GitHub metadata); former hosted site meet.looped.sh is still DNS NXDOMAIN on 2026-09-26; website field remains the GitHub README",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/loopedautomation/meet/releases/tag/v0.1.2",
         "https://api.github.com/repos/loopedautomation/meet"
       ]
     },
@@ -7048,7 +7048,7 @@
       "status": "listed",
       "lifecycle_status": "unknown",
       "category": "voice-and-phone",
-      "website": "https://livekit.io/agents",
+      "website": "https://livekit.com/agents",
       "repository": "https://github.com/livekit/agents",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/livekit-agents.md",
       "source_path": "services/voice-and-phone/livekit-agents.md",
@@ -7329,15 +7329,15 @@
       "status": "listed",
       "lifecycle_status": "unknown",
       "category": "llm-gateway-and-routing",
-      "website": "https://www.getdasha.com/compute",
+      "website": "https://lobby.getdasha.com/compute",
       "repository": "https://github.com/Uuriko/dasha-desk",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/dasha-compute.md",
       "source_path": "services/llm-gateway-and-routing/dasha-compute.md",
       "onboarding": {
         "type": "url",
         "pattern": "URL Onboarding",
-        "instruction": "# URL Onboarding:\nRead https://www.getdasha.com/.well-known/agent.json (or https://www.getdasha.com/llms.txt) and follow the instructions to register and join.\n\n# SDK / REST:\n# 1. Mint a 24h guest key with a bare POST (no account, no email):\ncurl -sS -X POST https://lobby.getdasha.com/compute/api/guest-keys -H 'Content-Type: application/json' -d '{}'\n# 2. Use the OpenAI SDK with base_url https://lobby.getdasha.com/compute/api/v1 and the guest key as the Bearer token.",
-        "url": "https://www.getdasha.com/.well-known/agent.json"
+        "instruction": "# URL Onboarding:\nRead https://www.getdasha.com/compute/skill.md (or https://www.getdasha.com/.well-known/agent.json) and follow the instructions to register and join. Do not use https://www.getdasha.com/llms.txt for this product: on 2026-09-26 that file described a Solana token site, not Dasha Compute.\n\n# SDK / REST:\n# 1. Mint a 24h guest key with a bare POST (no account, no email):\ncurl -sS -X POST https://lobby.getdasha.com/compute/api/guest-keys -H 'Content-Type: application/json' -d '{}'\n# 2. Use the OpenAI SDK with base_url https://lobby.getdasha.com/compute/api/v1 and the guest key as the Bearer token.",
+        "url": "https://www.getdasha.com/compute/skill.md"
       },
       "protocols": [
         "url-onboarding",

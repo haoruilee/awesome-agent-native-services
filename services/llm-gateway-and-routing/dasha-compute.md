@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Website** | https://www.getdasha.com/compute |
+| **Website** | https://lobby.getdasha.com/compute |
 | **Docs** | https://www.getdasha.com/compute/skill.md |
 | **GitHub** | https://github.com/Uuriko/dasha-desk |
 | **Classification** | `agent-native` |
@@ -14,7 +14,9 @@
 
 ## Official Website
 
-https://www.getdasha.com/compute
+https://lobby.getdasha.com/compute
+
+`https://www.getdasha.com/compute` redirects here (confirmed 2026-09-26). Page title: **"Dasha Compute — use the Macs"**.
 
 ---
 
@@ -30,7 +32,7 @@ Open agent tooling: https://github.com/Uuriko/dasha-desk
 
 ```
 # URL Onboarding:
-Read https://www.getdasha.com/.well-known/agent.json (or https://www.getdasha.com/llms.txt) and follow the instructions to register and join.
+Read https://www.getdasha.com/compute/skill.md (or https://www.getdasha.com/.well-known/agent.json) and follow the instructions to register and join. Do not use https://www.getdasha.com/llms.txt for this product: on 2026-09-26 that file described a Solana token site, not Dasha Compute.
 
 # SDK / REST:
 # 1. Mint a 24h guest key with a bare POST (no account, no email):
@@ -42,7 +44,7 @@ curl -sS -X POST https://lobby.getdasha.com/compute/api/guest-keys -H 'Content-T
 
 ## Agent Skills
 
-**Status:** ✅ Available — the service publishes its own skill document at `https://www.getdasha.com/compute/skill.md`, plus `llms.txt` and an agent manifest.
+**Status:** ✅ Available — the service publishes its own skill document at `https://www.getdasha.com/compute/skill.md` (also served at `https://lobby.getdasha.com/compute/skill.md`) and an agent manifest at `https://www.getdasha.com/.well-known/agent.json`. The apex `https://www.getdasha.com/llms.txt` did not describe Compute on 2026-09-26.
 
 | Skill | What It Teaches the Agent |
 |---|---|
@@ -58,7 +60,7 @@ curl -sS -X POST https://lobby.getdasha.com/compute/api/guest-keys -H 'Content-T
 
 ## What It Does
 
-Dasha Compute is an **OpenAI-compatible inference marketplace** where AI agents are the primary consumer: agents mint their own 24-hour guest API keys with a single unauthenticated POST, list available models, and run chat completions against a standard `base_url`. Inference is routed to idle community hardware, and the DASHA token (Solana SPL) anchors the ecosystem. The service exposes machine-readable agent surfaces throughout: `/.well-known/agent.json`, `llms.txt`, an MCP catalog (`mcp.json`), and a `skill.md`.
+Dasha Compute is an **OpenAI-compatible inference marketplace** where AI agents are the primary consumer: agents mint their own 24-hour guest API keys with a single unauthenticated POST, list available models, and run chat completions against a standard `base_url`. Inference is routed to idle community hardware, and the DASHA token (Solana SPL) anchors the ecosystem. The service exposes machine-readable agent surfaces for Compute: `/.well-known/agent.json`, an MCP catalog (`/compute/mcp.json`), and `/compute/skill.md`. The apex `/llms.txt` was a different page on 2026-09-26.
 
 ---
 
@@ -66,10 +68,10 @@ Dasha Compute is an **OpenAI-compatible inference marketplace** where AI agents 
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | The MCP catalog self-describes as machine-consumable (`https://www.getdasha.com/compute/mcp.json`: "Static MCP catalog. Call the existing HTTP tools or the OpenAI-compatible base_url."); `/.well-known/agent.json` and `llms.txt` are published for agent discovery |
+| **Agent-first positioning** | The MCP catalog self-describes as machine-consumable (`https://www.getdasha.com/compute/mcp.json`: "Static MCP catalog. Call the existing HTTP tools or the OpenAI-compatible base_url."); `/.well-known/agent.json` and `/compute/skill.md` are published for agent discovery |
 | **Agent-specific primitive** | **Guest-key minting by API** — `POST /compute/api/guest-keys` returns a scoped 24h key with no signup, email, or human approval |
 | **Autonomy-compatible control plane** | Key minting, model listing, and chat completions are all plain API calls; public reads (`healthz`, `network`, `models`) need no auth at all |
-| **M2M integration surface** | OpenAI-compatible REST (`/compute/api/v1`), static MCP catalog, `agent.json`, `llms.txt`, `skill.md` |
+| **M2M integration surface** | OpenAI-compatible REST (`/compute/api/v1`), static MCP catalog, `agent.json`, `skill.md` |
 | **Identity / delegation** | Guest keys are time-boxed (24h TTL), rate-limited per IP, and scoped (`chat`, `models`); no persistent human identity required |
 
 ---
@@ -81,14 +83,14 @@ Dasha Compute is an **OpenAI-compatible inference marketplace** where AI agents 
 | **Guest-key minting** | `POST /compute/api/guest-keys` — 24h key, no signup |
 | **OpenAI-compatible chat** | Standard `/chat/completions` at `https://lobby.getdasha.com/compute/api/v1` |
 | **Public catalog reads** | `healthz`, `network`, `models` without auth |
-| **Agent manifests** | `/.well-known/agent.json`, `llms.txt`, `compute/mcp.json`, `compute/skill.md` |
+| **Agent manifests** | `/.well-known/agent.json`, `compute/mcp.json`, `compute/skill.md` |
 
 ---
 
 ## Autonomy Model
 
 ```
-Agent fetches /.well-known/agent.json or llms.txt
+Agent fetches /.well-known/agent.json or /compute/skill.md
     ↓
 Agent POSTs /compute/api/guest-keys and receives a 24h guest key
     ↓
@@ -113,7 +115,7 @@ Key expires after 24h; agent mints a fresh one — no human step anywhere
 |---|---|
 | REST | `https://lobby.getdasha.com/compute/api/v1` — OpenAI-compatible (chat, models) |
 | Guest keys | `POST https://lobby.getdasha.com/compute/api/guest-keys` |
-| Agent discovery | `/.well-known/agent.json`, `/llms.txt`, `/compute/mcp.json`, `/compute/skill.md` |
+| Agent discovery | `/.well-known/agent.json`, `/compute/mcp.json`, `/compute/skill.md` |
 | MCP | Static catalog only — not a streamable MCP session |
 
 ---

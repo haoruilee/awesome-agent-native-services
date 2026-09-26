@@ -174,7 +174,7 @@ service_count: 16
     <h2 class="service-card__title">SmolVM</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/smolvm.md">Open dossier ↗</a>
-      <a href="https://github.com/CelestoAI/SmolVM">Official repo ↗</a>
+      <a href="https://github.com/CelestoAI/celesto">Official repo ↗</a>
     </div>
     </div>
   </article>

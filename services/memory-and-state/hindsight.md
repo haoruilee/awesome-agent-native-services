@@ -10,7 +10,7 @@
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/vectorize-io/hindsight?style=social)](https://github.com/vectorize-io/hindsight) |
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
-| **License** | Apache-2.0 |
+| **License** | MIT |
 
 ---
 
