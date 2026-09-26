@@ -96,7 +96,7 @@ Isolation is a **hypervisor** (Apple Virtualization.framework / Firecracker), no
 
 **Pre-1.0:** README IMPORTANT callout and Status section both say the project is pre-1.0, moving fast, and will break between releases.
 
-**Distinct from** hosted [Agent Sandbox](agent-sandbox.md) (`agentsandbox.co`), [Kubernetes SIG Agent Sandbox](kubernetes-agent-sandbox.md), E2B / Daytona / Runloop / Vercel Sandbox (cloud microVMs), and [CodeRunner](coderunner.md) (Apple Containers). Clawk is local-first hypervisor VMs with a DNS-aware egress allow-list.
+**Distinct from** hosted [Agent Sandbox](agent-sandbox.md) (`agentsandbox.co`), [Kubernetes SIG Agent Sandbox](kubernetes-agent-sandbox.md), E2B / Runloop / Vercel Sandbox (cloud microVMs), and [CodeRunner](coderunner.md) (Apple Containers). Clawk is local-first hypervisor VMs with a DNS-aware egress allow-list.
 
 ---
 
@@ -173,7 +173,7 @@ The everyday entry is a human typing `clawk`. After attach, the default is full 
 |---|---|
 | **Hosted Agent Sandbox (agentsandbox.co)** | Different product: hosted sessions + `skill.md`. Not a local hypervisor |
 | **Kubernetes SIG Agent Sandbox** | In-cluster CRDs. Not a laptop VM workflow |
-| **E2B / Daytona / Runloop / Vercel Sandbox** | Billed cloud microVMs. Clawk is local-first; code stays on the desk |
+| **E2B / Runloop / Vercel Sandbox** | Billed cloud microVMs. Clawk is local-first; code stays on the desk |
 | **CodeRunner** | Apple Containers on the host kernel. Clawk is a separate Linux VM + DNS-aware egress filter |
 | **Lima / generic VMs** | A Linux VM without per-project agent attach, default-deny egress, or ticket worktrees |
 | **OS-level agent sandboxes** | Process policy on the real machine. One mistake exposes the keychain |

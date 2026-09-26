@@ -127,7 +127,6 @@ cp -R .skills/install-agent-service ~/.claude/skills/
 | Steel | `pip install steel-sdk` |
 | Notte | `pip install notte-sdk` |
 | E2B | `pip install e2b-code-interpreter` |
-| Daytona | Install the Daytona CLI/SDK from upstream docs |
 | Riza | Install the Riza SDK or MCP server from upstream docs |
 | HumanLayer | `pip install humanlayer` |
 | Payman AI | `npm install @paymanai/payman-node` |

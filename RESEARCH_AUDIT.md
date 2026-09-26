@@ -4,12 +4,35 @@ This note records the latest catalog-wide research and freshness pass. New
 services remain issue-first; this file records the scope, evidence window, and
 maintenance work that was actually completed.
 
+## Delisted — 2026-09-26
+
+The repository has no separate removed-services log. This section is that
+record. A maintainer decision after the research pass deleted both dossiers.
+They were not moved to Excluded and not kept as offline historical entries.
+
+- **Daytona** (`services/code-execution/daytona.md`,
+  https://github.com/daytonaio/daytona): the public README says the repository
+  is no longer maintained; core development moved to a private codebase in
+  June 2026; the default branch has no `LICENSE` file; AGPL-3.0 text remains
+  only on tag `v0.190.0`.
+- **Looped Meet** (`services/meeting-and-conversation/looped-meet.md`,
+  https://github.com/loopedautomation/meet): repository archived, last push
+  2026-08-17, homepage still `https://meet.looped.sh`, which is DNS NXDOMAIN.
+  Re-checked before deletion: the README does not name a successor product.
+  `https://looped.sh` is a different product (accounting, invoicing, and time
+  tracking) and is not Looped Meet. `https://looped.sh/meet` is HTTP 404.
+
+Catalog after this delisting: **236** services across **16** collections.
+Code Execution is **15** (was 16). Meeting & Conversation is **7** (was 8).
+
 ## Scope
 
 - Window: catalog changes and live checks from the previous watermark
   (2026-08-13) through 2026-09-26 (UTC). Asia/Shanghai is the same calendar
   date.
-- Reconciled inventory: **238** service dossiers across **16** collections.
+- Reconciled inventory for the research pass, before the delisting above:
+  **238** service dossiers across **16** collections. The live catalog after
+  that delisting is **236**.
   The 2026-08-13 pass recorded 172 dossiers. The difference is 66 dossiers
   added after that watermark. Kitaru was moved into Observability on
   2026-08-29; that move is not a new admission.
@@ -80,7 +103,8 @@ dossier claims were not re-litigated.
     MIT. Last push 2026-09-26.
 - One archived repository: `loopedautomation/meet` (Looped Meet). Last push
   2026-08-17. `meet.looped.sh` is still DNS NXDOMAIN. The tree is still
-  public and the license file is still FSL-1.1-ALv2. Not removed.
+  public and the license file is still FSL-1.1-ALv2. Not removed in this
+  research pass. Delisted later the same day; see Delisted — 2026-09-26.
 - URL-onboarding documents that returned instructional content: Moltbook,
   Ensue, autoresearch@home, db9 (`db9.ai/skill.md` redirects to a CloudFront
   `skill.md`), mem9, mails.dev, MailboxKit, SSSNACK `agent.json`, and
@@ -152,9 +176,11 @@ Noted, not rewritten into a different license than the project states:
 
 ## Status changes and review candidates
 
-No service was removed and no classification was changed.
+No service was removed and no classification was changed in this research
+pass. Daytona and Looped Meet were delisted afterward; see Delisted —
+2026-09-26.
 
-Maintainer review, not an automatic removal:
+Maintainer review, not an automatic removal in this research pass:
 
 - **Daytona** — public repo explicitly unmaintained; core development moved
   private; default branch has no license file.
@@ -232,15 +258,18 @@ Follow-up evidence, all checked 2026-09-26:
   page body was not re-read.
 
 No dossier in this cohort was left at 2026-08-13. Daytona and Looped Meet
-were not removed. One other record is dated 2026-08-18 and 15 are dated
-2026-08-19. Those stay inside a 45-day window a few days longer than
+were not removed in the re-verification pass. They were delisted later the
+same day; see Delisted — 2026-09-26. One other record is dated 2026-08-18
+and 15 are dated 2026-08-19. Those stay inside a 45-day window a few days
+longer than
 2026-09-28. 159 dossiers have no `verified_at`. The freshness checker has no
 as-of date flag; a 2026-09-28 result was simulated by running the same age
 rule with the clock fixed on that date.
 
 ## Applied catalog updates
 
-Factual corrections only. No admissions and no removals.
+Factual corrections only. No admissions and no removals in the research
+pass. The delisting above is a later maintainer decision.
 
 - License rows: Hindsight, OpenViking, Obot, Serena, Daytona.
 - Canonical repo URLs: SmolVM, Toolport.
