@@ -7,8 +7,8 @@
 | **Website** | https://axern.cofy-x.space |
 | **Docs** | https://axern.cofy-x.space/getting-started/ |
 | **GitHub** | https://github.com/cofy-x/axern |
-| **Latest-month signal** | [Created 2026-07-28](https://api.github.com/repos/cofy-x/axern); [v0.4.1 released 2026-08-04](https://github.com/cofy-x/axern/releases/tag/v0.4.1); [active on `main` 2026-08-12](https://github.com/cofy-x/axern/commit/b3b632b28d5f73b089cd632e988a3543502d9d3b); **232 stars** on 2026-08-13 UTC ([GitHub metadata snapshot](https://api.github.com/repos/cofy-x/axern)) |
-| **Verified at** | 2026-08-13 |
+| **Latest-month signal** | [v0.11.4](https://github.com/cofy-x/axern/releases/tag/v0.11.4) released 2026-09-24; 66 stars on 2026-09-26 (the 2026-08-13 snapshot recorded 232); license Apache-2.0; [axern.cofy-x.space](https://axern.cofy-x.space) returned HTTP 200 ([repo metadata](https://api.github.com/repos/cofy-x/axern)) |
+| **Verified at** | 2026-09-26 |
 | **Classification** | `agent-native` |
 | **Category** | [Code Execution Services](README.md) |
 | **License** | Apache-2.0 |
@@ -71,7 +71,7 @@ See https://agentskills.io/specification to contribute one.
 
 | Detail | Value |
 |---|---|
-| **MCP server** | No official MCP endpoint or package documented as of 2026-08-13 |
+| **MCP server** | No official MCP endpoint or package documented in the README as of 2026-09-26 |
 | **Primary integration** | `axern` CLI; Go, Python, and TypeScript SDKs |
 | **Agent harness** | `axrun` for immutable tasks, rollouts, verification, trajectories, usage, and typed artifacts |
 

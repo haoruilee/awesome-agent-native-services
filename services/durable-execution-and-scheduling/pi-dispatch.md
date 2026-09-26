@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Durable Execution & Scheduling Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Created 2026-07-15; [v0.11.0](https://github.com/edgehero/pi-dispatch/releases/tag/v0.11.0) released 2026-08-12; last push 2026-08-12; **85 stars on 2026-08-13** ([GitHub metadata](https://api.github.com/repos/edgehero/pi-dispatch)) |
-| **Verified at** | 2026-08-13 |
+| **Latest-month signal** | Product release [v1.10.3](https://github.com/edgehero/pi-dispatch/releases/tag/v1.10.3) published 2026-09-07; 178 stars; license MIT; last push 2026-09-25 ([repo metadata](https://api.github.com/repos/edgehero/pi-dispatch)) |
+| **Verified at** | 2026-09-26 |
 
 ---
 

@@ -11,14 +11,16 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | v0.0.2 released 2026-07-24; 26,543 stars and active on 2026-08-12 (snapshot 2026-08-13) |
-| **Verified at** | 2026-08-13 |
+| **Latest-month signal** | [v0.0.3](https://github.com/openai/symphony/releases/tag/v0.0.3) released 2026-09-15; 27,409 stars; license Apache-2.0; last push 2026-09-15. The marketing page returned HTTP 403 to this client on 2026-09-26 ([repo metadata](https://api.github.com/repos/openai/symphony)) |
+| **Verified at** | 2026-09-26 |
 
 ---
 
 ## Official Website
 
 https://openai.com/index/open-source-codex-orchestration-symphony/
+
+That URL returned HTTP 403 to the catalog client on 2026-09-26. The same URL is still the repository homepage. This re-check used the GitHub repository, not the marketing page body.
 
 ---
 

@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "79cf75090ee51c205aeac36c69c6ec016d5f49097560d6be3ca9d9583bdc8c88",
+      "value": "1be9979c35fb411611109e940974b532b17dbac2d730909575b4826ad7bb0c80",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -615,11 +615,12 @@
       ],
       "mcp_status": "planned",
       "agent_skill_status": "available",
-      "latest_month_signal": "Repository created 2026-07-20; v0.1.2 released 2026-07-21; latest verified commit 2026-08-11 UTC",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "Latest release is still v0.1.2; 973 stars; last push 2026-08-25; root LICENSE is still AGPL-3.0 while the README license section still says Apache-2.0; SKILL.md returned HTTP 200 on 2026-09-26 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
         "https://github.com/TryCaspian/caspian-sdk/releases/tag/v0.1.2",
-        "https://github.com/TryCaspian/caspian-sdk/commit/56fdc8834af0d67385598ae16e7262cd75ead8a2"
+        "https://api.trycaspianai.com/SKILL.md",
+        "https://api.github.com/repos/TryCaspian/caspian-sdk"
       ]
     },
     {
@@ -1438,11 +1439,12 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Repository created 2026-08-10; v0.1.1 released 2026-08-11; latest verified commit 2026-08-12 UTC",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v1.1.10 released 2026-09-24; 2,403 stars; both LICENSE-APACHE and LICENSE-MIT are present (GitHub SPDX Apache-2.0); browser.lexmount.com returned HTTP 200 on 2026-09-26 with title \"Lexmount Browser\" (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/lexmount/moli/releases/tag/v0.1.1",
-        "https://github.com/lexmount/moli/commit/a7c1eb0b42ce65303a2b554fdf0189016b9bd4b6"
+        "https://github.com/lexmount/moli/releases/tag/v1.1.10",
+        "https://browser.lexmount.com",
+        "https://api.github.com/repos/lexmount/moli"
       ]
     },
     {
@@ -2204,11 +2206,12 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Repository created 2026-07-15; initial public release 2026-07-20; v0.2.1 released 2026-08-11; latest verified commit 2026-08-12 UTC",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v0.2.14 released 2026-09-04; 2,000 stars; root LICENSE is AGPL-3.0; openchatcut.com returned HTTP 200 on 2026-09-26 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/0xsline/OpenChatCut/releases/tag/v0.2.1",
-        "https://github.com/0xsline/OpenChatCut/commit/a3c6d66d26e914e51b624638ae8861d0fd595720"
+        "https://github.com/0xsline/OpenChatCut/releases/tag/v0.2.14",
+        "https://openchatcut.com",
+        "https://api.github.com/repos/0xsline/OpenChatCut"
       ]
     },
     {
@@ -2524,11 +2527,12 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Repository created 2026-07-14; v0.8.16 released 2026-07-17; latest verified commit 2026-07-19 UTC",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "Latest release is still v0.8.16 (2026-07-17); last push still 2026-07-19; 192 stars on 2026-09-26 (the 2026-08-13 snapshot was 246); license Apache-2.0; sallyport.dev returned HTTP 200 and still uses the catalog tagline (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
         "https://github.com/OlegSotnikov/sallyport/releases/tag/v0.8.16",
-        "https://github.com/OlegSotnikov/sallyport/commit/22a457f956fc83219968a2b37ac4a232cbdce594"
+        "https://sallyport.dev",
+        "https://api.github.com/repos/OlegSotnikov/sallyport"
       ]
     },
     {
@@ -2895,11 +2899,12 @@
       ],
       "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Repository created 2026-07-24; v0.2.0 released 2026-08-01; latest verified commit 2026-08-13 UTC",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "Latest release is still v0.2.0 (2026-08-01); 32 stars; license Apache-2.0; last push 2026-09-04; secondsignruntime.com returned HTTP 200 on 2026-09-26 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
         "https://github.com/Bestpart-Irene/secondsign-core/releases/tag/v0.2.0",
-        "https://github.com/Bestpart-Irene/secondsign-core/commit/fe36b03b2a3f4f5f60762d2b0d4a4ff760979856"
+        "https://secondsignruntime.com",
+        "https://api.github.com/repos/Bestpart-Irene/secondsign-core"
       ]
     },
     {
@@ -3759,10 +3764,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": "v0.0.2 released 2026-07-24; 26,543 stars and active on 2026-08-12 (snapshot 2026-08-13)",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v0.0.3 released 2026-09-15; 27,409 stars; license Apache-2.0; last push 2026-09-15. The marketing page returned HTTP 403 to this client on 2026-09-26 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/openai/symphony"
+        "https://github.com/openai/symphony/releases/tag/v0.0.3",
+        "https://api.github.com/repos/openai/symphony"
       ]
     },
     {
@@ -4036,10 +4042,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "v1.0 tagged 2026-07-28; 75 stars and active 2026-08-08 (snapshot 2026-08-13)",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v1.2 released 2026-09-01; 79 stars; last push 2026-09-06; package.json license is MIT and there is still no root LICENSE file (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/fwyc0573/codex-hud"
+        "https://github.com/fwyc0573/codex-hud/releases/tag/v1.2",
+        "https://api.github.com/repos/fwyc0573/codex-hud"
       ]
     },
     {
@@ -4101,10 +4108,12 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Created 2026-08-04; v0.1.4 released 2026-08-11; 642 stars and active 2026-08-12 (snapshot 2026-08-13)",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v0.1.7 released 2026-08-20; 1,628 stars; license MIT; last push 2026-08-20; lh-harness.pages.dev returned HTTP 200 on 2026-09-26 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/AMAP-ML/LongHorizon-Harness"
+        "https://github.com/AMAP-ML/LongHorizon-Harness/releases/tag/v0.1.7",
+        "https://lh-harness.pages.dev",
+        "https://api.github.com/repos/AMAP-ML/LongHorizon-Harness"
       ]
     },
     {
@@ -4165,10 +4174,12 @@
       ],
       "mcp_status": "optional",
       "agent_skill_status": "available",
-      "latest_month_signal": "v0.20.5 released 2026-08-10; 32,631 stars and active 2026-08-13 (snapshot 2026-08-13)",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v0.21.6 released 2026-09-21; 33,371 stars; root LICENSE is MIT; oh-my-codex.dev returned HTTP 200 on 2026-09-26 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/Yeachan-Heo/oh-my-codex"
+        "https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.21.6",
+        "https://oh-my-codex.dev",
+        "https://api.github.com/repos/Yeachan-Heo/oh-my-codex"
       ]
     },
     {
@@ -4264,10 +4275,12 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Created 2026-07-29; v0.1.4 released 2026-07-31; 13,244 stars and active 2026-08-12 (snapshot 2026-08-13)",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v0.1.12 released 2026-09-19; 15,253 stars; root LICENSE is MIT; qm.ycombinator.com returned HTTP 200 on 2026-09-26 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/yc-software/qm"
+        "https://github.com/yc-software/qm/releases/tag/v0.1.12",
+        "https://qm.ycombinator.com",
+        "https://api.github.com/repos/yc-software/qm"
       ]
     },
     {
@@ -4913,12 +4926,12 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Created 2026-07-16; v1.0.6 released 2026-08-12; active on main 2026-08-12; 656 stars on 2026-08-13 UTC (GitHub metadata snapshot)",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v1.1.8 released 2026-09-23; 1,982 stars; license MIT; memmy.bot returned HTTP 200 on 2026-09-26 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://api.github.com/repos/MemTensor/memmy-agent",
-        "https://github.com/MemTensor/memmy-agent/releases/tag/v1.0.6",
-        "https://github.com/MemTensor/memmy-agent/commit/c6cdbf9a126cc297253783c5594ac5ee8acb7c1a"
+        "https://github.com/MemTensor/memmy-agent/releases/tag/v1.1.8",
+        "https://memmy.bot/",
+        "https://api.github.com/repos/MemTensor/memmy-agent"
       ]
     },
     {
@@ -5409,12 +5422,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Created 2026-08-01; no GitHub release published as of 2026-08-13 (Releases); active on main 2026-08-06; 119 stars on 2026-08-13 UTC (GitHub metadata snapshot)",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "Still no GitHub release and still no LICENSE file; 175 stars; last push 2026-09-09. README still documents the public MCP at mcp.twitter.monster/mcp, which on 2026-09-26 answered HTTP 406 until the client accepted both application/json and text/event-stream (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://api.github.com/repos/KayanoLiam/ContextX",
-        "https://github.com/KayanoLiam/ContextX/releases",
-        "https://github.com/KayanoLiam/ContextX/commit/de64366737e4e808fc4e60b11e0321fad2b65fe2"
+        "https://mcp.twitter.monster/mcp",
+        "https://api.github.com/repos/KayanoLiam/ContextX"
       ]
     },
     {
@@ -5727,12 +5739,12 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Created 2026-07-28; v0.4.1 released 2026-08-04; active on main 2026-08-12; 232 stars on 2026-08-13 UTC (GitHub metadata snapshot)",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v0.11.4 released 2026-09-24; 66 stars on 2026-09-26 (the 2026-08-13 snapshot recorded 232); license Apache-2.0; axern.cofy-x.space returned HTTP 200 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://api.github.com/repos/cofy-x/axern",
-        "https://github.com/cofy-x/axern/releases/tag/v0.4.1",
-        "https://github.com/cofy-x/axern/commit/b3b632b28d5f73b089cd632e988a3543502d9d3b"
+        "https://github.com/cofy-x/axern/releases/tag/v0.11.4",
+        "https://axern.cofy-x.space",
+        "https://api.github.com/repos/cofy-x/axern"
       ]
     },
     {
@@ -6519,12 +6531,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Created 2026-07-24; v0.1.2 released 2026-08-01; active on main 2026-08-10; 917 stars on 2026-08-13 UTC (GitHub metadata snapshot)",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v0.2.0 released 2026-08-17; 1,073 stars; license Apache-2.0; repository pushed_at 2026-09-15 and default-branch commit 2026-08-17 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://api.github.com/repos/perplexityai/numbat",
-        "https://github.com/perplexityai/numbat/releases/tag/v0.1.2",
-        "https://github.com/perplexityai/numbat/commit/63b5a3139ca8c09d3ef3f9a75f4e40ebde4177ae"
+        "https://github.com/perplexityai/numbat/releases/tag/v0.2.0",
+        "https://api.github.com/repos/perplexityai/numbat"
       ]
     },
     {
@@ -6713,10 +6724,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": "Created 2026-07-15; v0.11.0 released 2026-08-12; last push 2026-08-12; 85 stars on 2026-08-13 (GitHub metadata)",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "Product release v1.10.3 published 2026-09-07; 178 stars; license MIT; last push 2026-09-25 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/edgehero/pi-dispatch/releases/tag/v0.11.0",
+        "https://github.com/edgehero/pi-dispatch/releases/tag/v1.10.3",
         "https://api.github.com/repos/edgehero/pi-dispatch"
       ]
     },
@@ -7152,10 +7163,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Created 2026-07-27; v1.8.3 published 2026-08-11 UTC; last push 2026-08-12; 2,101 stars on 2026-08-13 (GitHub metadata)",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v2.0.0 released 2026-09-23; 2,764 stars; license Apache-2.0; last push 2026-09-23; docs site qwenaudio.github.io/qwen-audio-agent returned HTTP 200 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/QwenAudio/qwen-audio-agent/releases/tag/v1.8.3",
+        "https://github.com/QwenAudio/qwen-audio-agent/releases/tag/v2.0.0",
+        "https://qwenaudio.github.io/qwen-audio-agent/",
         "https://api.github.com/repos/QwenAudio/qwen-audio-agent"
       ]
     },
@@ -7565,8 +7577,8 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Created 2026-07-27; no GitHub release or tag yet; last push 2026-07-29; 97 stars on 2026-08-13 (GitHub metadata) — early-stage interest, not release maturity",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "Still no GitHub release; last push remains 2026-07-29; 105 stars; license MIT (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
         "https://api.github.com/repos/codejunkie99/sageroute"
       ]
@@ -7631,11 +7643,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Created 2026-07-28; first formal release v1.43.0 on 2026-08-06 and v1.43.1 on 2026-08-07; last push 2026-08-07; 11 stars on 2026-08-13 (GitHub metadata) — new, fast-shipping, and still low-star",
-      "verified_at": "2026-08-13",
+      "latest_month_signal": "v1.83.0 released 2026-09-24; 16 stars; license MIT; last push 2026-09-24 (repo metadata)",
+      "verified_at": "2026-09-26",
       "verification_sources": [
-        "https://github.com/LtyFantasy/agent-chamber/releases/tag/v1.43.0",
-        "https://github.com/LtyFantasy/agent-chamber/releases/tag/v1.43.1",
+        "https://github.com/LtyFantasy/agent-chamber/releases/tag/v1.83.0",
         "https://api.github.com/repos/LtyFantasy/agent-chamber"
       ]
     },

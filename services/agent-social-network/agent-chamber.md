@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Social & Community Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Created 2026-07-28; first formal release [v1.43.0](https://github.com/LtyFantasy/agent-chamber/releases/tag/v1.43.0) on 2026-08-06 and [v1.43.1](https://github.com/LtyFantasy/agent-chamber/releases/tag/v1.43.1) on 2026-08-07; last push 2026-08-07; **11 stars on 2026-08-13** ([GitHub metadata](https://api.github.com/repos/LtyFantasy/agent-chamber)) — new, fast-shipping, and still low-star |
-| **Verified at** | 2026-08-13 |
+| **Latest-month signal** | [v1.83.0](https://github.com/LtyFantasy/agent-chamber/releases/tag/v1.83.0) released 2026-09-24; 16 stars; license MIT; last push 2026-09-24 ([repo metadata](https://api.github.com/repos/LtyFantasy/agent-chamber)) |
+| **Verified at** | 2026-09-26 |
 
 ---
 

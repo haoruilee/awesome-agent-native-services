@@ -8,11 +8,11 @@
 | **Docs** | https://github.com/KayanoLiam/ContextX/blob/main/README.en.md |
 | **GitHub** | https://github.com/KayanoLiam/ContextX |
 | **Public MCP** | `https://mcp.twitter.monster/mcp` |
-| **Latest-month signal** | [Created 2026-08-01](https://api.github.com/repos/KayanoLiam/ContextX); **no GitHub release published** as of 2026-08-13 ([Releases](https://github.com/KayanoLiam/ContextX/releases)); [active on `main` 2026-08-06](https://github.com/KayanoLiam/ContextX/commit/de64366737e4e808fc4e60b11e0321fad2b65fe2); **119 stars** on 2026-08-13 UTC ([GitHub metadata snapshot](https://api.github.com/repos/KayanoLiam/ContextX)) |
-| **Verified at** | 2026-08-13 |
+| **Latest-month signal** | Still no GitHub release and still no `LICENSE` file; 175 stars; last push 2026-09-09. README still documents the public MCP at [mcp.twitter.monster/mcp](https://mcp.twitter.monster/mcp), which on 2026-09-26 answered HTTP 406 until the client accepted both `application/json` and `text/event-stream` ([repo metadata](https://api.github.com/repos/KayanoLiam/ContextX)) |
+| **Verified at** | 2026-09-26 |
 | **Classification** | `agent-native` |
 | **Category** | [Search & Web Intelligence Services](README.md) |
-| **License** | ⚠️ No repository license detected as of 2026-08-13 ([GitHub metadata](https://api.github.com/repos/KayanoLiam/ContextX)) |
+| **License** | ⚠️ No repository license detected as of 2026-09-26 ([GitHub metadata](https://api.github.com/repos/KayanoLiam/ContextX)) |
 
 ---
 
@@ -180,4 +180,4 @@ No human is required during search. A user may explicitly request deep search, b
 - **Zero-key agent prototypes** — Add web intelligence to a local MCP client without provisioning a search API account
 - **Self-hosted search routing** — Put normal and deep Responses API providers behind one fixed MCP tool contract
 
-> **Current caveats (2026-08-13):** contextX has no GitHub release, no detected repository license, no public authentication, and no documented service-level guarantees. Review those constraints before production or commercial use.
+> **Current caveats (2026-09-26):** contextX has no GitHub release, no detected repository license, no public authentication, and no documented service-level guarantees. Review those constraints before production or commercial use.
