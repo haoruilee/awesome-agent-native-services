@@ -9,7 +9,7 @@
 | **GitHub** | https://github.com/obot-platform/obot |
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration](README.md) |
-| **License** | Apache 2.0 |
+| **License** | MIT |
 | **Stars** | 763+ (and growing fast through 2026) |
 
 ---

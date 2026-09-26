@@ -6,13 +6,13 @@
 |---|---|
 | **Website** | https://docs.celesto.ai/smolvm |
 | **Docs** | https://docs.celesto.ai/smolvm |
-| **GitHub** | https://github.com/CelestoAI/SmolVM |
-| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/CelestoAI/SmolVM?style=social)](https://github.com/CelestoAI/SmolVM) |
+| **GitHub** | https://github.com/CelestoAI/celesto |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/CelestoAI/celesto?style=social)](https://github.com/CelestoAI/celesto) |
 | **Classification** | `agent-native` |
 | **Category** | [Code Execution Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Last GitHub push 2026-09-03 ([repo metadata](https://api.github.com/repos/CelestoAI/SmolVM)); PyPI `smolvm`; docs index at [docs.celesto.ai/llms.txt](https://docs.celesto.ai/llms.txt) |
-| **Verified at** | 2026-09-04 |
+| **Latest-month signal** | Repository renamed from `CelestoAI/SmolVM` to `CelestoAI/celesto` (old URL redirects); last push 2026-09-25; license still Apache-2.0 ([repo metadata](https://api.github.com/repos/CelestoAI/celesto)); homepage still [docs.celesto.ai/smolvm](https://docs.celesto.ai/smolvm) |
+| **Verified at** | 2026-09-26 |
 
 ---
 
@@ -26,11 +26,9 @@ Docs H1 (live 2026-09-04): **“SmolVM: secure microVM sandboxes for AI agents�
 
 ## Official Repo
 
-https://github.com/CelestoAI/SmolVM
+https://github.com/CelestoAI/celesto
 
-README subtitle (live 2026-09-04): **“Secure, isolated computers that AI agents can use to browse, run code, and get real work done.”**
-
-GitHub description: **“Open-source AI sandbox infrastructure with unified API for VMMs -- Firecracker, QEMU and libkrun.”**
+GitHub renamed this repository from `CelestoAI/SmolVM`; the old URL redirects here (confirmed 2026-09-26). The homepage is still https://docs.celesto.ai/smolvm. Live GitHub description: **“Secure and persistent computer for AI agents -- build your own Grokbot, and Muse.”** The license file is still Apache-2.0. Last push 2026-09-25.
 
 ---
 

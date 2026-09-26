@@ -108,7 +108,7 @@ These services can be joined with a single instruction, right now, with no human
 | [AgentQL](https://agentql.com) | AgentQL queries → structured JSON from the web | API key → [docs.agentql.com](https://docs.agentql.com) |
 | [Crawl4AI](https://crawl4ai.com) | OSS LLM-friendly crawler + MCP | [docs.crawl4ai.com](https://docs.crawl4ai.com) |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Official Playwright MCP server | `npx @playwright/mcp@latest` |
-| [Cloudflare Browser Rendering](https://developers.cloudflare.com/browser-rendering/) | Headless Chrome on Cloudflare for AI agents | Workers bindings + Browser Run + [Use with AI](https://developers.cloudflare.com/browser-rendering/how-to/ai/) (Playwright MCP) |
+| [Cloudflare Browser Rendering](https://developers.cloudflare.com/browser-run/) | Headless Chrome on Cloudflare for AI agents | Workers bindings + Browser Run + [Playwright MCP](https://developers.cloudflare.com/browser-run/playwright/playwright-mcp/) |
 | [Olostep](https://www.olostep.com) | Web data API for AI agents | API key → [docs.olostep.com](https://docs.olostep.com) — `npx -y olostep-mcp` or `https://mcp.olostep.com/mcp` |
 | [Lightpanda](https://lightpanda.io) | Headless browser for AI agents (CDP + MCP + markdown fetch) | [Install](https://github.com/lightpanda-io/browser#install) → `lightpanda serve` or `lightpanda mcp` — [MCP docs](https://lightpanda.io/docs/open-source/guides/mcp-server) |
 | [Apify](https://apify.com) | Real-time web data for AI — Actor API & marketplace | API token → [Apify API v2](https://docs.apify.com/api/v2) — `apify-client` |
@@ -210,7 +210,7 @@ These services can be joined with a single instruction, right now, with no human
 | [db9](https://db9.ai) ⭐ | Postgres but for agents | `Read https://db9.ai/skill.md and follow the instructions` |
 | [AgentAnycast](https://github.com/AgentAnycast/agentanycast) | Connect AI agents across any network — no public IP | `pip install agentanycast` → `agentanycast demo` — MCP: `agentanycastd --mcp-listen stdio` or `uvx agentanycast-mcp` |
 | [Scrapybara](https://scrapybara.com) | Remote desktops for computer-use agents (CUA) | `pip install scrapybara` → `Scrapybara().start_ubuntu()` — [Act SDK](https://docs.scrapybara.com/act-sdk) |
-| [Agentuity](https://agentuity.com) | Full-stack platform for AI agents | [agentuity.dev](https://agentuity.dev) — SDK + CLI |
+| [Agentuity](https://agentuity.com) | Full-stack platform for AI agents | [agentcompany.com/agentuity](https://agentcompany.com/agentuity) — SDK + CLI (`agentuity.dev` redirects here) |
 | [Modal](https://modal.com) | Serverless AI infra — GPUs, sandboxes, batch | `pip install modal` → `modal setup` — [modal.com/docs](https://modal.com/docs) |
 | [Cyberdesk](https://github.com/cyberdesk-hq/cyberdesk) | Open-source virtual desktops for AI agents | `pip install cyberdesk` — [docs.cyberdesk.io](https://docs.cyberdesk.io) |
 | [Polos](https://github.com/polos-dev/polos) | Agent runtime with sandbox, durable workflow, and HITL | `pip install polos` or `npm install polos` |
@@ -311,7 +311,7 @@ These services can be joined with a single instruction, right now, with no human
 | [E2B](https://e2b.dev) | Cloud for AI agents — secure sandboxes for AI-generated code | `pip install e2b-code-interpreter` → `with Sandbox() as sandbox:` |
 | [Daytona](https://daytona.io) | Secure elastic infrastructure for AI-generated code | `daytona login` → `daytona mcp init cursor` — or `pip install daytona` |
 | [Runloop](https://runloop.ai) | Your AI agent accelerator — Devboxes and benchmarks | `npm install -g @runloop/rl-cli` → `rli mcp install` — [CLI docs](https://docs.runloop.ai/docs/tools/rl-cli) |
-| [Vercel Sandbox](https://vercel.com/docs/vercel-sandbox) | Firecracker microVMs for AI-generated code | `npm install @vercel/sandbox` — [vercel.com/docs/vercel-sandbox](https://vercel.com/docs/vercel-sandbox) |
+| [Vercel Sandbox](https://vercel.com/docs/sandbox) | Firecracker microVMs for AI-generated code | `npm install @vercel/sandbox` — [vercel.com/docs/sandbox](https://vercel.com/docs/sandbox) |
 | [AIO Sandbox](https://github.com/agent-infra/sandbox) | Browser + shell + VS Code + Jupyter + MCP in one Docker sandbox | `docker run -p 8080:8080 ghcr.io/agent-infra/sandbox:latest` — MCP `http://localhost:8080/mcp` |
 | [Riza](https://riza.io) | AI writes code. Riza runs it. | `uv add rizaio` → `riza.command.exec(...)` — [docs.riza.io](https://docs.riza.io) |
 | [Agent Sandbox](https://agentsandbox.co) ⭐ | Trusted runtime for untrusted agent code | `Read https://agentsandbox.co/skill.md and follow the instructions` or `pip install agentsandbox-sdk` |
@@ -332,7 +332,7 @@ These services can be joined with a single instruction, right now, with no human
 | [numbat](https://github.com/perplexityai/numbat) | Endpoint visibility into AI agent activity | Install from the repo, then configure its agent hooks and OTLP/HTTP output |
 | [Agent Trace](https://github.com/Siddhant-K-code/agent-trace) | Observability for AI agents | Install `agent-strace` from PyPI/GitHub and wrap agent runs |
 | [agent-inspect](https://github.com/rajudandigam/agent-inspect) | Local execution trees for TypeScript AI agents | Add to a TypeScript agent project |
-| [LangWatch](https://langwatch.ai) | Open-source LLM Ops for tracing, evals, and guardrails | Install the SDK and follow the [official quickstart](https://docs.langwatch.ai) |
+| [LangWatch](https://langwatch.ai) | Open-source LLM Ops for tracing, evals, and guardrails | Install the SDK and follow the [official quickstart](https://langwatch.ai/docs/introduction) |
 | [Langfuse](https://langfuse.com) | Open-source LLM observability, tracing, and evaluation | `npx skills add https://github.com/langfuse/skills --skill langfuse-observability` |
 | [AgentEvals](https://aevals.ai) | Score agent behavior from OpenTelemetry traces (no re-runs) | `pip install agentevals-cli` → `agentevals run <trace> --eval-set <set> -m tool_trajectory_avg_score` |
 | [AgentOps](https://www.agentops.ai) | Agent session waterfalls and trace API | `pip install agentops` → `agentops.init(<API_KEY>)` |
@@ -383,7 +383,7 @@ These services can be joined with a single instruction, right now, with no human
 |---|---|---|
 | [Vapi](https://vapi.ai) | Build advanced voice AI agents | `pip install vapi-server-sdk` → `POST /assistant` |
 | [Retell AI](https://www.retellai.com) | #1 AI voice agent platform for automating calls | `pip install retell-sdk` — [docs.retellai.com](https://docs.retellai.com) |
-| [LiveKit Agents](https://livekit.io/agents) | Realtime voice/video AI agents | [docs.livekit.io/agents](https://docs.livekit.io/agents/) — Python/TS SDK |
+| [LiveKit Agents](https://livekit.com/agents) | Realtime voice/video AI agents | [docs.livekit.io/agents](https://docs.livekit.io/agents/) — Python/TS SDK |
 | [Stimm](https://github.com/stimm-ai/stimm) | Open-source ultra-low-latency voice agent platform | Clone the repo and follow its provider setup |
 | [Pipecat](https://github.com/pipecat-ai/pipecat) | Open-source framework for real-time voice AI agents | `pip install pipecat-ai` then compose the STT/LLM/TTS pipeline |
 | [Qwen Audio Agent](https://github.com/QwenAudio/qwen-audio-agent) | Realtime voice runtime that keeps agents present | `npm install -g qwen-audio-agent` → `qwenaudio config` → `qwenaudio` |

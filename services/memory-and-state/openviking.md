@@ -10,7 +10,7 @@
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=social)](https://github.com/volcengine/OpenViking) |
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
-| **License** | Apache 2.0 |
+| **License** | AGPL-3.0 for the main project; `crates/ov_cli` and examples are Apache-2.0 (the Hermes plugin is MIT) |
 | **Publisher** | Volcengine (ByteDance) |
 
 ---

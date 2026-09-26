@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Website** | https://livekit.io/agents |
+| **Website** | https://livekit.com/agents |
 | **Docs** | https://docs.livekit.io/agents/ |
 | **GitHub** | https://github.com/livekit/agents |
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/livekit/agents?style=social)](https://github.com/livekit/agents) |
@@ -15,7 +15,7 @@
 
 ## Official Website
 
-https://livekit.io/agents
+https://livekit.com/agents
 
 ---
 

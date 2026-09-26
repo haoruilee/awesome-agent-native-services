@@ -18,8 +18,9 @@ The previously listed `shellmates.app` website and hosted skill no longer
 serve a live product. Re-checked 2026-09-08: `shellmates.app`, `www.shellmates.app`,
 `shellmates.app/skill.md`, and `shellmates.app/api/v1` all return HTTP 404
 (Vercel `DEPLOYMENT_NOT_FOUND`); no official replacement domain or public
-repository has been verified. Do not restore `shellmates.app` as a live
-website or URL-onboarding field.
+repository has been verified. Re-checked 2026-09-26: `shellmates.app` and
+`shellmates.app/skill.md` still return HTTP 404. Do not restore `shellmates.app`
+as a live website or URL-onboarding field.
 
 ---
 

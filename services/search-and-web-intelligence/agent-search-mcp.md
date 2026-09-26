@@ -4,21 +4,23 @@
 
 | | |
 |---|---|
-| **Website** | https://take-a-deep-breath0.com/en/agent-search-mcp |
+| **Website** | https://lennney.com/en/agent-search-mcp |
 | **Docs** | https://github.com/lennney/agent-search-mcp#readme |
 | **GitHub** | https://github.com/lennney/agent-search-mcp |
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/lennney/agent-search-mcp?style=social)](https://github.com/lennney/agent-search-mcp) |
 | **Classification** | `agent-native` |
 | **Category** | [Search & Web Intelligence Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Last GitHub push 2026-08-17 (verified 2026-08-19) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | Product page moved to [lennney.com/en/agent-search-mcp](https://lennney.com/en/agent-search-mcp); `take-a-deep-breath0.com` redirects there. Last GitHub push 2026-09-21; license Apache-2.0 ([repo](https://github.com/lennney/agent-search-mcp)) |
+| **Verified at** | 2026-09-26 |
 
 ---
 
 ## Official Website
 
-https://take-a-deep-breath0.com/en/agent-search-mcp
+https://lennney.com/en/agent-search-mcp
+
+`https://take-a-deep-breath0.com/en/agent-search-mcp` redirects here (confirmed 2026-09-26). Page title: **"Agent Search MCP: Free Web Search for AI Agents – Lennney"**.
 
 ---
 

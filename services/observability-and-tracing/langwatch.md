@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **Website** | https://langwatch.ai |
-| **Docs** | https://docs.langwatch.ai |
+| **Docs** | https://langwatch.ai/docs/introduction |
 | **GitHub** | https://github.com/langwatch/langwatch |
 | **Classification** | `agent-native` |
 | **Category** | [Observability & Tracing Services](README.md) |
@@ -22,7 +22,7 @@ https://github.com/langwatch/langwatch
 
 **Quickest verified path:**
 
-Install the LangWatch SDK and follow the [official quickstart](https://docs.langwatch.ai)
+Install the LangWatch SDK and follow the [official quickstart](https://langwatch.ai/docs/introduction)
 
 ---
 

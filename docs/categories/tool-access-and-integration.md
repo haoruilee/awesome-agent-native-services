@@ -251,7 +251,7 @@ service_count: 22
     <h2 class="service-card__title">Toolport</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolport.md">Open dossier ↗</a>
-      <a href="https://github.com/tsouth89/toolport">Official repo ↗</a>
+      <a href="https://github.com/btsouth/toolport">Official repo ↗</a>
     </div>
     </div>
   </article>

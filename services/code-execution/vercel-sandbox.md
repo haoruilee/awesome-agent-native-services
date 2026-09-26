@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| **Website** | https://vercel.com/docs/vercel-sandbox |
-| **Docs** | https://vercel.com/docs/vercel-sandbox |
+| **Website** | https://vercel.com/docs/sandbox |
+| **Docs** | https://vercel.com/docs/sandbox |
 | **GitHub** | https://github.com/vercel/sandbox |
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/vercel/sandbox?style=social)](https://github.com/vercel/sandbox) |
 | **Classification** | `agent-native` |
@@ -15,7 +15,7 @@
 
 ## Official Website
 
-https://vercel.com/docs/vercel-sandbox
+https://vercel.com/docs/sandbox
 
 ---
 
@@ -34,7 +34,7 @@ npm install @vercel/sandbox
 ```
 
 ```typescript
-// See https://vercel.com/docs/vercel-sandbox/sdk-reference
+// See https://vercel.com/docs/sandbox/sdk-reference
 // import { Sandbox } from '@vercel/sandbox'
 ```
 
@@ -74,7 +74,7 @@ Vercel Sandbox provides **Firecracker microVMs** with fast cold start, full **No
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | Vercel Sandbox docs describe workloads for **AI agents** and **AI-generated / untrusted code** ([Vercel Sandbox](https://vercel.com/docs/vercel-sandbox)) |
+| **Agent-first positioning** | Vercel Sandbox docs describe workloads for **AI agents** and **AI-generated / untrusted code** ([Vercel Sandbox](https://vercel.com/docs/sandbox)) |
 | **Agent-specific primitive** | **Ephemeral secure VMs** spawned programmatically per agent turn with **snapshot/resume** — a lifecycle model for autonomous code execution, not a human SSH box |
 | **Autonomy-compatible control plane** | API/SDK create/destroy/run without per-command human approval |
 | **M2M integration surface** | `@vercel/sandbox` SDK, REST API, CLI for debugging |
@@ -114,7 +114,7 @@ Vercel Sandbox provides **Firecracker microVMs** with fast cold start, full **No
 
 | Interface | Detail |
 |---|---|
-| TypeScript | `@vercel/sandbox` — [SDK reference](https://vercel.com/docs/vercel-sandbox/sdk-reference) |
+| TypeScript | `@vercel/sandbox` — [SDK reference](https://vercel.com/docs/sandbox/sdk-reference) |
 | REST API | [Sandboxes REST](https://vercel.com/docs/rest-api/sandboxes/create-a-sandbox) |
 | CLI | `sandbox` CLI for manual and agentic debugging workflows |
 

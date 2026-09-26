@@ -10,7 +10,7 @@
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/oraios/serena?style=social)](https://github.com/oraios/serena) |
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
-| **License** | MIT |
+| **License** | GPL-3.0-or-later for the Serena application; SolidLSP is MIT. Combined distributions such as `serena-agent` are GPL-3.0-or-later |
 
 ---
 

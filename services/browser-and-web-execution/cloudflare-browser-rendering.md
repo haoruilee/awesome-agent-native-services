@@ -4,9 +4,9 @@
 
 | | |
 |---|---|
-| **Website** | https://workers.cloudflare.com/product/browser-rendering/ |
-| **Docs** | https://developers.cloudflare.com/browser-rendering/ |
-| **AI guide** | https://developers.cloudflare.com/browser-rendering/how-to/ai/ |
+| **Website** | https://www.cloudflare.com/products/browser-rendering/ |
+| **Docs** | https://developers.cloudflare.com/browser-run/ |
+| **AI guide** | https://developers.cloudflare.com/browser-run/playwright/playwright-mcp/ |
 | **GitHub** | https://github.com/cloudflare/workers-sdk |
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/cloudflare/workers-sdk?style=social)](https://github.com/cloudflare/workers-sdk) |
 | **Classification** | `agent-native` |
@@ -16,7 +16,7 @@
 
 ## Official Website
 
-https://workers.cloudflare.com/product/browser-rendering/
+https://www.cloudflare.com/products/browser-rendering/
 
 ---
 
@@ -30,9 +30,9 @@ https://github.com/cloudflare/workers-sdk — Cloudflare Workers platform SDKs (
 
 **Workers Bindings, Browser Run, or REST — run headless Chrome on Cloudflare's network.**
 
-1. Enable Browser Rendering on a Cloudflare account and create a Worker with a **browser binding** per [docs](https://developers.cloudflare.com/browser-rendering/).
+1. Enable Browser Rendering on a Cloudflare account and create a Worker with a **browser binding** per [docs](https://developers.cloudflare.com/browser-run/).
 2. Control the browser with **Puppeteer** or **Playwright** compatible APIs from the Worker.
-3. For LLM control, add the **Playwright MCP** path documented under [Use browser rendering with AI](https://developers.cloudflare.com/browser-rendering/how-to/ai/).
+3. For LLM control, use the **Playwright MCP** path in the current [Browser Run docs](https://developers.cloudflare.com/browser-run/playwright/playwright-mcp/). The former `/browser-rendering/how-to/ai/` URL now redirects to a different page (`/browser-run/quick-actions/json-endpoint/`).
 
 ---
 
@@ -56,7 +56,7 @@ See: https://agentskills.io/specification to contribute one.
 
 | Detail | Value |
 |---|---|
-| **Docs** | https://developers.cloudflare.com/browser-rendering/how-to/ai/ |
+| **Docs** | https://developers.cloudflare.com/browser-run/playwright/playwright-mcp/ |
 | **Pattern** | Playwright MCP + Browser Rendering (managed headless Chrome) |
 | **Compatible Clients** | MCP-capable agents and IDEs |
 
@@ -72,7 +72,7 @@ Cloudflare **Browser Rendering** provides **pooled headless Chrome** on Cloudfla
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | Product page and docs frame **AI agents** as a primary use case; dedicated guide *"Use browser rendering with AI"* ([how-to/ai](https://developers.cloudflare.com/browser-rendering/how-to/ai/)) |
+| **Agent-first positioning** | The product page title is still "Cloudflare Browser Rendering"; docs now live under [Browser Run](https://developers.cloudflare.com/browser-run/), including [Playwright MCP](https://developers.cloudflare.com/browser-run/playwright/playwright-mcp/) |
 | **Agent-specific primitive** | **Remote headless browser fleet** with **Playwright MCP** path — agents drive real browser sessions without a human-operated desktop |
 | **Autonomy-compatible control plane** | API/Worker-driven sessions; policies enforced via Cloudflare account and Worker code |
 | **M2M integration surface** | Workers bindings (Puppeteer/Playwright), REST API for common operations, MCP per AI guide |
@@ -117,7 +117,7 @@ Cloudflare **Browser Rendering** provides **pooled headless Chrome** on Cloudfla
 | Workers + bindings | Puppeteer/Playwright from Worker code |
 | Agents SDK Browser Run | Durable `browser_execute` tool and quick actions such as markdown/extract/links/scrape |
 | REST API | [Browser Rendering API](https://developers.cloudflare.com/api/resources/browser_rendering/) |
-| MCP | Playwright MCP per [AI guide](https://developers.cloudflare.com/browser-rendering/how-to/ai/) |
+| MCP | Playwright MCP per [AI guide](https://developers.cloudflare.com/browser-run/playwright/playwright-mcp/) |
 
 ---
 

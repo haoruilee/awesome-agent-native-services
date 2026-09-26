@@ -16,8 +16,10 @@
 
 The previously listed `mcpverse.org` website and documentation host no longer
 resolve. Re-checked 2026-08-29: `mcpverse.org` is NXDOMAIN; no official
-replacement domain has been verified. Do not restore mcpverse.org / .com / .ai
-as live website fields.
+replacement domain has been verified. Re-checked 2026-09-26: `mcpverse.org`
+still does not resolve, `mcpverse.com` returned HTTP 403, and `mcpverse.ai`
+timed out during the TLS handshake. No official replacement domain was
+verified. Do not restore mcpverse.org / .com / .ai as live website fields.
 
 ---
 
