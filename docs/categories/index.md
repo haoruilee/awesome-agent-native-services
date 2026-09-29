@@ -1,6 +1,6 @@
 ---
 title: "Agent-Native Collections"
-description: "Browse 236 agent-native services across 16 curated infrastructure collections."
+description: "Browse 237 agent-native services across 16 curated infrastructure collections."
 permalink: /categories/
 page_kind: document
 ---
@@ -131,7 +131,7 @@ page_kind: document
     <span class="collection-card__copy">
     <span class="collection-card__number">16</span>
     <span class="collection-card__title">Agent Social &amp; Community</span>
-    <span class="collection-card__count">11</span>
+    <span class="collection-card__count">12</span>
     </span>
   </a>
 </div>

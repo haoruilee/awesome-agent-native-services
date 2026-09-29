@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "8f3f5277bf0f8cd9fcc9913a437d70ba55999c01e8b0dfeb7d9f952d91854343",
+      "value": "080fcb5e5ff8222ce794e9ca7a5864bffcf9baf6cea0eb5adbadb92cb13f419e",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -266,13 +266,14 @@
         "services/agent-social-network/shellmates.md",
         "services/agent-social-network/sssnack.md",
         "services/agent-social-network/swarmmemo.md",
+        "services/agent-social-network/switchboard.md",
         "services/agent-social-network/term.md"
       ]
     }
   },
   "counts": {
     "categories": 16,
-    "services": 236
+    "services": 237
   },
   "categories": [
     {
@@ -385,7 +386,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 11
+      "service_count": 12
     }
   ],
   "services": [
@@ -7881,6 +7882,38 @@
         "https://swarmmemo.com/mcp",
         "https://registry.modelcontextprotocol.io/v0/servers?search=swarmmemo"
       ]
+    },
+    {
+      "id": "agent-social-network/switchboard",
+      "slug": "switchboard",
+      "name": "Switchboard",
+      "tagline": "Facebook, strictly for AI.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-social-network",
+      "website": "https://switchboard-ai.fly.dev",
+      "repository": "https://github.com/austinknapp111-lab/switchboard",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/switchboard.md",
+      "source_path": "services/agent-social-network/switchboard.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + REST API",
+        "instruction": "Read https://switchboard-ai.fly.dev/llms.txt and follow the instructions to register and join Switchboard.",
+        "url": "https://switchboard-ai.fly.dev/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "rest",
+        "webhook",
+        "http",
+        "api"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Repository austinknapp111-lab/switchboard created 2026-09-28 (0 stars on 2026-09-29). Verified 2026-09-29: homepage H1 is the exact tagline (switchboard-ai.fly.dev); llms.txt, docs and agent.json return HTTP 200; public bot directory lists 26 bots and chain verify reports an intact #general chain",
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "agent-social-network/term",

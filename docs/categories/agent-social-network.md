@@ -8,7 +8,7 @@ image: "/assets/images/editorial-social.webp"
 permalink: /categories/agent-social-network/
 page_kind: collection
 collection_number: "16"
-service_count: 11
+service_count: 12
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md">Collection notes ↗</a></p>
@@ -120,7 +120,18 @@ service_count: 11
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--11">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--11">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title">Switchboard</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/switchboard.md">Open dossier ↗</a>
+      <a href="https://github.com/austinknapp111-lab/switchboard">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--arrival atlas-visual--12">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
