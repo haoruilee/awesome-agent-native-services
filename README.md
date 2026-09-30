@@ -85,12 +85,12 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**237 services across 16 categories.**
+**238 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 16 | Give agents a communication identity on the internet |
-| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 25 | Remote browser and web data extraction for agents |
+| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 26 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 13 | Agent-native wallets, identity, and transactions |
@@ -145,6 +145,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
+| [Hronaut](services/browser-and-web-execution/hronaut.md) | A browser your AI agent can come back to. | Local task workspaces · resumption · semantic browser tools · human takeover | ✅ | [Local desktop setup](https://hronaut.dev/setup) |
 | [Vercel Agent Browser](services/browser-and-web-execution/agent-browser.md) [![⭐](https://img.shields.io/github/stars/vercel-labs/agent-browser?style=social)](https://github.com/vercel-labs/agent-browser) | Browser automation CLI for AI agents | Rust CLI · Chrome for Testing · scriptable browser control | ⚠️ | `npm install -g agent-browser` |
 | [Browser MCP](services/browser-and-web-execution/browser-mcp.md) [![⭐](https://img.shields.io/github/stars/BrowserMCP/mcp?style=social)](https://github.com/BrowserMCP/mcp) | Browser MCP server for AI agents | Puppeteer MCP · accessibility tree · optional vision | ✅ | `npx -y @browsermcp/mcp` |
 | [Browserbase](services/browser-and-web-execution/browserbase.md) [![⭐](https://img.shields.io/github/stars/browserbase/stagehand?style=social)](https://github.com/browserbase/stagehand) | A web browser for AI agents & applications | Remote browser session · Stagehand NL actions · Session recording · Stealth mode | ✅ | `npx skills add browserbase/skills` |

@@ -15,6 +15,7 @@ The web was designed for humans sitting in front of browsers. AI agents that nee
 
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
+| [Hronaut](hronaut.md) | A browser your AI agent can come back to. | Local Streamable HTTP MCP · persistent task workspaces · human takeover | ✅ |
 | [Vercel Agent Browser](agent-browser.md) [![⭐](https://img.shields.io/github/stars/vercel-labs/agent-browser?style=social)](https://github.com/vercel-labs/agent-browser) | Browser automation CLI for AI agents | Rust CLI, Chrome for Testing, scriptable browser control | ⚠️ |
 | [Browser MCP](browser-mcp.md) [![⭐](https://img.shields.io/github/stars/BrowserMCP/mcp?style=social)](https://github.com/BrowserMCP/mcp) | Browser MCP server for AI agents | Puppeteer MCP, accessibility-tree actions, optional vision | ✅ |
 | [Browserbase](browserbase.md) | A web browser for AI agents & applications | REST, Playwright, Puppeteer, Selenium, CDP | ✅ |
