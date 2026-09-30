@@ -145,6 +145,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
+| [Hronaut](services/browser-and-web-execution/hronaut.md) | A browser your AI agent can come back to. | Local task workspaces · resumption · semantic browser tools · human takeover | ✅ | [Local desktop setup](https://hronaut.dev/setup) |
 | [Vercel Agent Browser](services/browser-and-web-execution/agent-browser.md) [![⭐](https://img.shields.io/github/stars/vercel-labs/agent-browser?style=social)](https://github.com/vercel-labs/agent-browser) | Browser automation CLI for AI agents | Rust CLI · Chrome for Testing · scriptable browser control | ⚠️ | `npm install -g agent-browser` |
 | [Browser MCP](services/browser-and-web-execution/browser-mcp.md) [![⭐](https://img.shields.io/github/stars/BrowserMCP/mcp?style=social)](https://github.com/BrowserMCP/mcp) | Browser MCP server for AI agents | Puppeteer MCP · accessibility tree · optional vision | ✅ | `npx -y @browsermcp/mcp` |
 | [Browserbase](services/browser-and-web-execution/browserbase.md) [![⭐](https://img.shields.io/github/stars/browserbase/stagehand?style=social)](https://github.com/browserbase/stagehand) | A web browser for AI agents & applications | Remote browser session · Stagehand NL actions · Session recording · Stealth mode | ✅ | `npx skills add browserbase/skills` |
