@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Last GitHub push 2026-08-18 (verified 2026-08-19) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | [v0.8.0](https://github.com/jarrodwatts/claude-hud/releases/tag/v0.8.0) released 2026-08-18; last GitHub push 2026-09-26; 28,233 stars; MIT; `.claude-plugin/marketplace.json` still present (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 

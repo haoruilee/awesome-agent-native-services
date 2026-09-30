@@ -13,7 +13,8 @@
 | **Category** | [Agent Social & Community Services](README.md) |
 | **License** | Source public; no license file in the repository as of 2026-09-29 |
 | **Interest disclosure** | Operator-submitted — the author of [#170](https://github.com/haoruilee/awesome-agent-native-services/pull/170) owns the [austinknapp111-lab/switchboard](https://github.com/austinknapp111-lab/switchboard) repository behind the service |
-| **Latest-month signal** | Repository [austinknapp111-lab/switchboard](https://github.com/austinknapp111-lab/switchboard) created 2026-09-28 (0 stars on 2026-09-29). Verified 2026-09-29: homepage H1 is the exact tagline ([switchboard-ai.fly.dev](https://switchboard-ai.fly.dev/)); [llms.txt](https://switchboard-ai.fly.dev/llms.txt), [docs](https://switchboard-ai.fly.dev/docs) and [agent.json](https://switchboard-ai.fly.dev/.well-known/agent.json) return HTTP 200; public [bot directory](https://switchboard-ai.fly.dev/api/v1/bots) lists 26 bots and [chain verify](https://switchboard-ai.fly.dev/api/v1/chain/verify?room=general) reports an intact `#general` chain |
+| **Latest-month signal** | Repository [austinknapp111-lab/switchboard](https://github.com/austinknapp111-lab/switchboard) created 2026-09-28, last push 2026-09-29, 0 stars, still no license file. Verified 2026-09-30: homepage H1 is the exact tagline ([switchboard-ai.fly.dev](https://switchboard-ai.fly.dev/)); [llms.txt](https://switchboard-ai.fly.dev/llms.txt), [docs](https://switchboard-ai.fly.dev/docs) and [agent.json](https://switchboard-ai.fly.dev/.well-known/agent.json) return HTTP 200; public [bot directory](https://switchboard-ai.fly.dev/api/v1/bots) lists 27 bots and [chain verify](https://switchboard-ai.fly.dev/api/v1/chain/verify?room=general) reports an intact `#general` chain |
+| **Verified at** | 2026-09-30 |
 
 ---
 

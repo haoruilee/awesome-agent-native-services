@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Last GitHub push 2026-08-13; README still marks early development (verified 2026-08-19) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | [v0.3.1](https://github.com/google/ax/releases/tag/v0.3.1) released 2026-09-25; last GitHub push 2026-09-27; 12,569 stars; Apache-2.0; README still warns AX is in heavy development; [agentexecutor.io](https://agentexecutor.io) HTTP 200 (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 
@@ -59,7 +59,7 @@ Kubernetes on [Agent Substrate](agent-substrate.md) (`https://github.com/agent-s
 
 **Status:** ⚠️ Hosted by the harness, not a published `npx skills add` package
 
-Built-in harnesses such as Antigravity can load Agent Skills when configured. See repo `examples/skills`. There is no official `npx skills add google/ax` command.
+Built-in harnesses such as Antigravity can load Agent Skills when configured. A `Workspace` manifest can pre-wire skill packages from a registry into `/.agents/skills` ([docs/manifests.md](https://github.com/google/ax/blob/main/docs/manifests.md)). There is no official `npx skills add google/ax` command.
 
 Search community skills: `npx clawhub@latest search agent-executor`. See: https://agentskills.io/specification
 

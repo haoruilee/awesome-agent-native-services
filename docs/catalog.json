@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-09-26",
-  "generated_at": "2026-09-26",
+  "catalog_version": "2026-09-30",
+  "generated_at": "2026-09-30",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "080fcb5e5ff8222ce794e9ca7a5864bffcf9baf6cea0eb5adbadb92cb13f419e",
+      "value": "2bae964c2e3cdf7dc669e228fcf510716c03c5f82a7178d33688e361ed56557f",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -511,10 +511,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-08-01; docs and CLI/skill paths still published (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "Last GitHub push still 2026-08-01; npm @agentteamhq/email 0.0.1-beta.1; MIT; skills/at-email-cli present. Docs now served at agentteamemail.mintlify.app (linked from the homepage); the old agentteamemail.mintlify.app host no longer resolves (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/agentteamhq/agentteam-email"
+        "https://agentteamemail.mintlify.app/"
       ]
     },
     {
@@ -547,10 +547,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-08-11; homepage and client repo still document PoW signup, JMAP, MCP, and AgentSkill (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "v0.3.31 released 2026-09-27; npm @atomicmail/mcp and @atomicmail/agent-skill-github 0.3.31; MIT; atomicmail.ai still documents PoW signup, JMAP, MCP, and AgentSkill; hosted MCP endpoint answers 401 without credentials (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/Atomic-Mail/atomic-mail-agentic"
+        "https://github.com/Atomic-Mail/atomic-mail-agentic/releases/tag/v0.3.31",
+        "https://atomicmail.ai/"
       ]
     },
     {
@@ -1369,15 +1370,17 @@
       },
       "protocols": [
         "agent-skill",
+        "mcp",
         "cli",
         "http"
       ],
-      "mcp_status": "unavailable",
+      "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "kernel-images last push 2026-08-18; kernel/cli last push 2026-08-18 (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "kernel/kernel-images last push 2026-09-29; kernel/cli v0.41.0 released 2026-09-24 (npm @onkernel/cli 0.41.0); both Apache-2.0; hosted MCP server documented at kernel.sh/docs/reference/mcp-server (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/kernel/kernel-images"
+        "https://github.com/kernel/cli/releases/tag/v0.41.0",
+        "https://www.kernel.sh/docs/reference/mcp-server"
       ]
     },
     {
@@ -2492,10 +2495,12 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Last GitHub push 2026-08-18; CLI install and docs live (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "v0.16.0 released 2026-09-21; last GitHub push 2026-09-29; Apache-2.0; preloop.ai, docs, and the CLI installer HTTP 200 (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/preloop/preloop"
+        "https://github.com/preloop/preloop/releases/tag/v0.16.0",
+        "https://preloop.ai",
+        "https://docs.preloop.ai"
       ]
     },
     {
@@ -3364,10 +3369,10 @@
       ],
       "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Last GitHub push 2026-08-18; npm package @cloudflare/computer documented as preview (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "npm @cloudflare/computer 0.3.1 released 2026-09-18; README still marks the package PREVIEW ONLY; last GitHub push 2026-09-29; 9,325 stars; MIT; examples/mcp still present (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/cloudflare/computer"
+        "https://github.com/cloudflare/computer/tree/main/examples/mcp"
       ]
     },
     {
@@ -3610,10 +3615,11 @@
       ],
       "mcp_status": "unknown",
       "agent_skill_status": "unknown",
-      "latest_month_signal": "Last GitHub push 2026-08-13; README still marks early development (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "v0.3.1 released 2026-09-25; last GitHub push 2026-09-27; 12,569 stars; Apache-2.0; README still warns AX is in heavy development; agentexecutor.io HTTP 200 (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/google/ax"
+        "https://github.com/google/ax/releases/tag/v0.3.1",
+        "https://agentexecutor.io"
       ]
     },
     {
@@ -3953,10 +3959,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "v0.1.21 published 2026-06-03; last GitHub push 2026-08-03; docs updated 2026-08-17; 899 stars (snapshot 2026-08-18)",
-      "verified_at": "2026-08-18",
+      "latest_month_signal": "v0.1.21 (2026-06-03) is still the latest release and npm agent-qa is 0.1.21; last GitHub push 2026-08-03; 892 stars; LICENSE.md still FSL-1.1-ALv2; three skills/agent-qa-* SKILL.md files present; vostride.com and docs HTTP 200 (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/vostride/agent-qa"
+        "https://vostride.com/",
+        "https://vostride.com/docs/agent-qa"
       ]
     },
     {
@@ -3983,10 +3990,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unknown",
-      "latest_month_signal": "Last GitHub push 2026-08-18 (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "v0.8.0 released 2026-08-18; last GitHub push 2026-09-26; 28,233 stars; MIT; .claude-plugin/marketplace.json still present (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/jarrodwatts/claude-hud"
+        "https://github.com/jarrodwatts/claude-hud/releases/tag/v0.8.0"
       ]
     },
     {
@@ -4141,10 +4148,12 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-08-19 (verified the same day)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "v1.2.3 released 2026-09-29 (PyPI loopx 1.2.3); last GitHub push 2026-09-30; 6,108 stars; Apache-2.0; site and docs HTTP 200 (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/loopx-project/loopx"
+        "https://github.com/loopx-project/loopx/releases/tag/v1.2.3",
+        "https://loopx-project.github.io/loopx/",
+        "https://loopx-project.github.io/loopx/docs/"
       ]
     },
     {
@@ -4407,10 +4416,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-08-17 (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "v0.9.29 released 2026-08-16 (npm @agentmemory/agentmemory and @agentmemory/mcp 0.9.29); last GitHub push 2026-09-28; 29,029 stars; Apache-2.0 (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/rohitg00/agentmemory"
+        "https://github.com/rohitg00/agentmemory/releases/tag/v0.9.29"
       ]
     },
     {
@@ -5323,10 +5332,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Default branch feat/server_team; last push 2026-08-15 (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "Default branch still feat/server_team; v2.0.1 released 2026-08-25; last push 2026-09-29; 27,526 stars; LICENSE text still MIT (GitHub SPDX NOASSERTION) (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        "https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.1"
       ]
     },
     {
@@ -6787,10 +6796,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-08-10; site and skill install paths live (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "Last GitHub push 2026-09-15; latest release v1.1.15 (2026-07-01); MIT; SKILL.md, .claude-plugin/, and gemini-extension.json still present; agentcall.dev HTTP 200 (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/pattern-ai-labs/agentcall"
+        "https://agentcall.dev"
       ]
     },
     {
@@ -7036,10 +7045,12 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-08-13 (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "v0.7.0 (2026-06-30) is still the latest release (npm and PyPI getpatter 0.7.0); last GitHub push 2026-08-25; 1,062 stars; MIT; PatterAI/skills present; getpatter.com and docs HTTP 200 (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/PatterAI/Patter"
+        "https://github.com/PatterAI/skills",
+        "https://getpatter.com",
+        "https://docs.getpatter.com"
       ]
     },
     {
@@ -7611,10 +7622,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unknown",
-      "latest_month_signal": "Last GitHub push 2026-08-19; homepage also markets team MCP/AX Score governance (verified 2026-08-19)",
-      "verified_at": "2026-08-19",
+      "latest_month_signal": "v0.3.88 released 2026-09-02; last GitHub push 2026-09-28 (default branch develop); MIT; npm @agentgram/mcp-server 0.3.0 and @agentgram/sdk 0.2.0, PyPI agentgram 0.2.0. The homepage now leads with \"MCP Governance & Audit for Teams & Companies\" while still showing the agent network (661 agents, 5,500 posts) and the register/post/follow quickstart; the README tagline is unchanged (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
       "verification_sources": [
-        "https://github.com/agentgram/agentgram"
+        "https://github.com/agentgram/agentgram/releases/tag/v0.3.88",
+        "https://agentgram.co"
       ]
     },
     {
@@ -7890,7 +7902,7 @@
       "tagline": "Facebook, strictly for AI.",
       "classification": "agent-native",
       "status": "listed",
-      "lifecycle_status": "unknown",
+      "lifecycle_status": "active",
       "category": "agent-social-network",
       "website": "https://switchboard-ai.fly.dev",
       "repository": "https://github.com/austinknapp111-lab/switchboard",
@@ -7911,9 +7923,17 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Repository austinknapp111-lab/switchboard created 2026-09-28 (0 stars on 2026-09-29). Verified 2026-09-29: homepage H1 is the exact tagline (switchboard-ai.fly.dev); llms.txt, docs and agent.json return HTTP 200; public bot directory lists 26 bots and chain verify reports an intact #general chain",
-      "verified_at": null,
-      "verification_sources": []
+      "latest_month_signal": "Repository austinknapp111-lab/switchboard created 2026-09-28, last push 2026-09-29, 0 stars, still no license file. Verified 2026-09-30: homepage H1 is the exact tagline (switchboard-ai.fly.dev); llms.txt, docs and agent.json return HTTP 200; public bot directory lists 27 bots and chain verify reports an intact #general chain",
+      "verified_at": "2026-09-30",
+      "verification_sources": [
+        "https://github.com/austinknapp111-lab/switchboard",
+        "https://switchboard-ai.fly.dev/",
+        "https://switchboard-ai.fly.dev/llms.txt",
+        "https://switchboard-ai.fly.dev/docs",
+        "https://switchboard-ai.fly.dev/.well-known/agent.json",
+        "https://switchboard-ai.fly.dev/api/v1/bots",
+        "https://switchboard-ai.fly.dev/api/v1/chain/verify?room=general"
+      ]
     },
     {
       "id": "agent-social-network/term",

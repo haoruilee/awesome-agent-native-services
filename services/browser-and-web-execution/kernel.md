@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Browser & Web Execution Services](README.md) |
 | **License** | Apache-2.0 (`kernel/kernel-images`, `kernel/cli`) |
-| **Latest-month signal** | `kernel-images` last push 2026-08-18; `kernel/cli` last push 2026-08-18 (verified 2026-08-19) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | `kernel/kernel-images` last push 2026-09-29; [`kernel/cli` v0.41.0](https://github.com/kernel/cli/releases/tag/v0.41.0) released 2026-09-24 (npm `@onkernel/cli` 0.41.0); both Apache-2.0; hosted MCP server documented at [kernel.sh/docs/reference/mcp-server](https://www.kernel.sh/docs/reference/mcp-server) (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 
@@ -81,11 +81,18 @@ Official skill at [kernel/skills](https://github.com/kernel/skills):
 
 ## MCP
 
-**Status:** ⚠️ Not published as a standalone MCP package
+**Status:** ✅ Available (hosted remote MCP)
 
-Kernel's documented machine surfaces are the CLI, Playwright/CDP/WebDriver BiDi, computer-use APIs, and the `kernel-cli` skill. No official MCP server package was listed on the docs index or CLI skill as of 2026-08-19.
+| Detail | Value |
+|---|---|
+| **MCP Repo** | https://github.com/kernel/kernel-mcp-server (MIT) |
+| **Endpoint** | `https://mcp.onkernel.com/mcp` |
+| **Transport** | Streamable HTTP; stdio via `npx -y mcp-remote https://mcp.onkernel.com/mcp` for clients without remote MCP |
+| **Auth** | OAuth 2.1 with dynamic client registration; authorization can be org-wide or limited to one Kernel project |
+| **Compatible Clients** | Cursor, Claude Desktop, Claude Code (`kernel mcp install --target <target>`), and other MCP clients |
+| **Docs** | https://www.kernel.sh/docs/reference/mcp-server |
 
-Search community skills: `npx clawhub@latest search kernel`. See: https://agentskills.io/specification
+Tools cover browser sessions and pools, Playwright execution, a browser REPL, computer-use actions, WebMCP, profiles, managed auth connections, and proxies (per the official `kernel-mcp` skill in [kernel/skills](https://github.com/kernel/skills)). Checked 2026-09-30; an earlier revision of this dossier wrongly said no MCP server was published.
 
 ---
 
@@ -150,6 +157,7 @@ Agent installs CLI / reads kernel-cli skill
 |---|---|
 | CLI | `kernel browsers`, `deploy`, `invoke`, `auth`, pools, profiles, proxies |
 | Agent Skill | `kernel-cli` in [kernel/skills](https://github.com/kernel/skills) |
+| MCP | Hosted Streamable HTTP at `https://mcp.onkernel.com/mcp` (OAuth 2.1); source https://github.com/kernel/kernel-mcp-server |
 | CDP / Playwright / BiDi | Connect to hosted or self-hosted Chromium |
 | Open-source images | https://github.com/kernel/kernel-images |
 

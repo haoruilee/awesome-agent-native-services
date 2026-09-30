@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | MIT (LICENSE file; GitHub SPDX shows `NOASSERTION`) |
-| **Latest-month signal** | Default branch `feat/server_team`; last push 2026-08-15 (verified 2026-08-19) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | Default branch still `feat/server_team`; [v2.0.1](https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.1) released 2026-08-25; last push 2026-09-29; 27,526 stars; LICENSE text still MIT (GitHub SPDX `NOASSERTION`) (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 

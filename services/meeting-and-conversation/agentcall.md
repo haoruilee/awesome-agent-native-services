@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Meeting & Conversation Services](README.md) |
 | **License** | MIT (skill package) |
-| **Latest-month signal** | Last GitHub push 2026-08-10; site and skill install paths live (verified 2026-08-19) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | Last GitHub push 2026-09-15; latest release v1.1.15 (2026-07-01); MIT; `SKILL.md`, `.claude-plugin/`, and `gemini-extension.json` still present; [agentcall.dev](https://agentcall.dev) HTTP 200 (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 

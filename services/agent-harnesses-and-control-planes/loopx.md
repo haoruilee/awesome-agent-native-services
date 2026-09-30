@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Last GitHub push 2026-08-19 (verified the same day) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | [v1.2.3](https://github.com/loopx-project/loopx/releases/tag/v1.2.3) released 2026-09-29 (PyPI `loopx` 1.2.3); last GitHub push 2026-09-30; 6,108 stars; Apache-2.0; [site](https://loopx-project.github.io/loopx/) and [docs](https://loopx-project.github.io/loopx/docs/) HTTP 200 (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 

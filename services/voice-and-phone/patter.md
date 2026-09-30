@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Voice & Phone Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Last GitHub push 2026-08-13 (verified 2026-08-19) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | v0.7.0 (2026-06-30) is still the latest release (npm and PyPI `getpatter` 0.7.0); last GitHub push 2026-08-25; 1,062 stars; MIT; [`PatterAI/skills`](https://github.com/PatterAI/skills) present; [getpatter.com](https://getpatter.com) and [docs](https://docs.getpatter.com) HTTP 200 (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 

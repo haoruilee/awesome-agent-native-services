@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Oversight & Approval Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Last GitHub push 2026-08-18; CLI install and docs live (verified 2026-08-19) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | [v0.16.0](https://github.com/preloop/preloop/releases/tag/v0.16.0) released 2026-09-21; last GitHub push 2026-09-29; Apache-2.0; [preloop.ai](https://preloop.ai), [docs](https://docs.preloop.ai), and the CLI installer HTTP 200 (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 

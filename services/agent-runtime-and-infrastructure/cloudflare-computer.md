@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Last GitHub push 2026-08-18; npm package `@cloudflare/computer` documented as preview (verified 2026-08-19) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | npm `@cloudflare/computer` 0.3.1 released 2026-09-18; README still marks the package **PREVIEW ONLY**; last GitHub push 2026-09-29; 9,325 stars; MIT; [`examples/mcp`](https://github.com/cloudflare/computer/tree/main/examples/mcp) still present (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 

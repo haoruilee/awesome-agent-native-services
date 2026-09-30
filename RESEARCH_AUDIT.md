@@ -266,6 +266,57 @@ longer than
 as-of date flag; a 2026-09-28 result was simulated by running the same age
 rule with the clock fixed on that date.
 
+## Re-verified — 2026-09-30
+
+Follow-up to the 2026-09-26 pass for the cohort it left on older dates. A scan
+of every dossier found **14** records with `verified_at` 2026-08-18 (1) or
+2026-08-19 (13); the "15 dated 2026-08-19" count above included Daytona and
+Looped Meet, which were since delisted or re-dated. No other record would pass
+the 45-day window by 2026-10-07 (the next oldest date is 2026-08-25, which
+turns 46 days old on 2026-10-10).
+
+All 14 were re-checked on 2026-09-30 against GitHub repository metadata
+(existence, archive bit, license SPDX or `LICENSE` body, latest release, stars,
+`pushed_at`), npm/PyPI package versions for documented install commands, the
+skill/plugin/MCP files the dossier cites, and every URL in the dossier. All 14
+genuinely re-verified; `verified_at` is now **2026-09-30** with a rewritten
+latest-month signal: `agent-qa`, `claude-hud`, `loopx`, `cloudflare-computer`,
+`google-ax`, `agentgram`, `kernel`, `agentteam-email`, `atomic-mail`,
+`agentcall`, `agentmemory`, `tencentdb-agent-memory`, `preloop`, `patter`.
+`skill.md` `version` and `.skills/*/SKILL.md` `catalog-version` moved to
+2026-09-30 so no `verified_at` is newer than `catalog_version`.
+
+Drift fixed:
+
+- Kernel: an official hosted MCP server exists
+  (`https://mcp.onkernel.com/mcp`, source `kernel/kernel-mcp-server`, MIT,
+  OAuth 2.1). MCP status changed from "not published" to available in the
+  dossier, the category README, and the root README.
+- AgentTeam Email: docs host `agentteamemail.mintlify.com` no longer resolves
+  (NXDOMAIN); the homepage links `agentteamemail.mintlify.app`, where the
+  quickstart and CLI/skill pages return HTTP 200. Dossier links updated. The
+  repository README still links the dead host.
+- AgentGram: npm `agentgram` does not exist; the JS SDK is `@agentgram/sdk`
+  (0.2.0, repo `agentgram/agentgram-js`). Install lines corrected.
+- Agent Executor (AX): `examples/skills` no longer exists in `google/ax`; the
+  dossier now points at `Workspace` skill registries in `docs/manifests.md`.
+
+Switchboard (added 2026-09-29 in #171) carried a latest-month signal without
+`verified_at`, which fails the scheduled freshness check. It was re-checked on
+2026-09-30 (site, `llms.txt`, docs, `agent.json`, bot directory, `#general`
+chain verify; repository still has no license file) and now has
+`verified_at` 2026-09-30.
+
+Review candidates (not changed, not delisted):
+
+- AgentGram's homepage now leads with "MCP Governance & Audit for Teams &
+  Companies". The agent network (661 agents, 5,500 posts), register/post/follow
+  quickstart, and README tagline "The Open-Source Social Network for AI Agents"
+  are still present.
+- Quiet repositories: AgentTeam Email (last push 2026-08-01, npm still
+  `0.0.1-beta.1`) and Agent QA (last push 2026-08-03, no release since v0.1.21
+  on 2026-06-03). Both sites respond.
+
 ## Applied catalog updates
 
 Factual corrections only. No admissions and no removals in the research

@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Last GitHub push 2026-08-17 (verified 2026-08-19) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | [v0.9.29](https://github.com/rohitg00/agentmemory/releases/tag/v0.9.29) released 2026-08-16 (npm `@agentmemory/agentmemory` and `@agentmemory/mcp` 0.9.29); last GitHub push 2026-09-28; 29,029 stars; Apache-2.0 (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 

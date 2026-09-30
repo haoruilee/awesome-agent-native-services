@@ -5,14 +5,14 @@
 | | |
 |---|---|
 | **Website** | https://www.agentteam.email |
-| **Docs** | https://agentteamemail.mintlify.com/get-started/quickstart |
+| **Docs** | https://agentteamemail.mintlify.app/get-started/quickstart |
 | **GitHub** | https://github.com/agentteamhq/agentteam-email |
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/agentteamhq/agentteam-email?style=social)](https://github.com/agentteamhq/agentteam-email) |
 | **Classification** | `agent-native` |
 | **Category** | [Communication Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Last GitHub push 2026-08-01; docs and CLI/skill paths still published (verified 2026-08-19) |
-| **Verified at** | 2026-08-19 |
+| **Latest-month signal** | Last GitHub push still 2026-08-01; npm `@agentteamhq/email` 0.0.1-beta.1; MIT; `skills/at-email-cli` present. Docs now served at [agentteamemail.mintlify.app](https://agentteamemail.mintlify.app/) (linked from the homepage); the old `agentteamemail.mintlify.app` host no longer resolves (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 
@@ -20,7 +20,7 @@
 
 https://www.agentteam.email
 
-Product documentation: https://agentteamemail.mintlify.com/get-started/quickstart
+Product documentation: https://agentteamemail.mintlify.app/get-started/quickstart
 
 ---
 
@@ -42,9 +42,9 @@ at-email agent trial
 at-email agent enroll TOKEN
 ```
 
-The bundled skill lives in [skills/at-email-cli](https://github.com/agentteamhq/agentteam-email/tree/main/skills/at-email-cli). Official CLI and skill docs: https://agentteamemail.mintlify.com/usage/cli-and-agent-skill
+The bundled skill lives in [skills/at-email-cli](https://github.com/agentteamhq/agentteam-email/tree/main/skills/at-email-cli). Official CLI and skill docs: https://agentteamemail.mintlify.app/usage/cli-and-agent-skill
 
-Self-host with Docker Compose or Helm after the [quickstart](https://agentteamemail.mintlify.com/get-started/quickstart). Hosted setup uses Cloudflare OAuth to attach a sending domain.
+Self-host with Docker Compose or Helm after the [quickstart](https://agentteamemail.mintlify.app/get-started/quickstart). Hosted setup uses Cloudflare OAuth to attach a sending domain.
 
 ---
 
@@ -130,7 +130,7 @@ Operator connects a Cloudflare domain (hosted) or self-hosts Compose/Helm
 | CLI | `at-email` / `npx --yes @agentteamhq/email@latest` |
 | Agent Skill | `skills/at-email-cli` |
 | Hosted app | https://www.agentteam.email |
-| Docs | https://agentteamemail.mintlify.com |
+| Docs | https://agentteamemail.mintlify.app |
 | Self-host | Docker Compose or Helm |
 
 ---
