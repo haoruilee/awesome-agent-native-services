@@ -146,10 +146,10 @@ service_count: 26
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--13">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--13">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
-    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
     <h2 class="service-card__title">Hronaut</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/hronaut.md">Open dossier ↗</a>

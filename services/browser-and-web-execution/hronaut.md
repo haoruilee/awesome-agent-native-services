@@ -10,6 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Browser & Web Execution](README.md) |
 | **Terms** | Proprietary source-available; paid after a 10-day trial |
+| **Latest-month signal** | [v2.8.6](https://github.com/hronaut/hronaut/releases/tag/v2.8.6) released 2026-09-30; last GitHub push 2026-09-30; repository created 2026-08-23; proprietary subscription/trial `LICENSE` (GitHub SPDX `NOASSERTION`); [hronaut.dev](https://hronaut.dev/), [setup](https://hronaut.dev/setup) and [client-topology](https://hronaut.dev/client-topology) HTTP 200; `skills/hronaut/SKILL.md` present (verified 2026-09-30) |
+| **Verified at** | 2026-09-30 |
 
 ---
 
@@ -78,7 +80,7 @@ The trial starts with the first agent tool call and lasts 10 consecutive days, w
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | Homepage eyebrow: “A desktop browser for AI coding agents”; https://hronaut.dev/ |
+| **Agent-first positioning** | Homepage eyebrow: “Desktop browser for AI coding agents”; https://hronaut.dev/ |
 | **Agent-specific primitive** | Task workspace creation, private resumption capability and connection-scoped access; [released README](https://github.com/hronaut/hronaut/blob/v2.8.6/README.md) |
 | **Autonomy-compatible control plane** | After initial setup, a local agent can complete the documented account-free read loop; consequential/manual steps remain gated; [first-run workflow](https://github.com/hronaut/hronaut/blob/v2.8.6/README.md#start-in-three-steps) |
 | **M2M integration surface** | Structured browser tools over native Streamable HTTP MCP; [connection guide](https://github.com/hronaut/hronaut/blob/v2.8.6/README.md#connect-an-mcp-client) |

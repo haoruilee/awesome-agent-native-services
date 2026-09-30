@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "0fe94824b5987e78f89b5114387358c99f6e6ff6985ee484c6fc0cd8446d6478",
+      "value": "61316d5333417b41cad9c599eacc6d44e01121f516cf97e643c4795b08105fbd",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -1325,7 +1325,7 @@
       "tagline": "A browser your AI agent can come back to.",
       "classification": "agent-native",
       "status": "listed",
-      "lifecycle_status": "unknown",
+      "lifecycle_status": "active",
       "category": "browser-and-web-execution",
       "website": "https://hronaut.dev/",
       "repository": "https://github.com/hronaut/hronaut",
@@ -1344,9 +1344,14 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": null,
-      "verified_at": null,
-      "verification_sources": []
+      "latest_month_signal": "v2.8.6 released 2026-09-30; last GitHub push 2026-09-30; repository created 2026-08-23; proprietary subscription/trial LICENSE (GitHub SPDX NOASSERTION); hronaut.dev, setup and client-topology HTTP 200; skills/hronaut/SKILL.md present (verified 2026-09-30)",
+      "verified_at": "2026-09-30",
+      "verification_sources": [
+        "https://github.com/hronaut/hronaut/releases/tag/v2.8.6",
+        "https://hronaut.dev/",
+        "https://hronaut.dev/setup",
+        "https://hronaut.dev/client-topology"
+      ]
     },
     {
       "id": "browser-and-web-execution/hyperbrowser",

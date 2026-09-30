@@ -74,7 +74,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 237 Services
+## Full Catalog — 16 Categories, 238 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -100,7 +100,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 2. Browser & Web Execution (25 services)
+### 2. Browser & Web Execution (26 services)
 *Remote browser and web data extraction for agents.*
 
 | Service | Tagline | Onboarding |
@@ -126,6 +126,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Lightpanda](https://lightpanda.io) | Headless browser for AI agents (CDP + MCP + markdown fetch) | [Install](https://github.com/lightpanda-io/browser#install) → `lightpanda serve` or `lightpanda mcp` — [MCP docs](https://lightpanda.io/docs/open-source/guides/mcp-server) |
 | [Apify](https://apify.com) | Real-time web data for AI — Actor API & marketplace | API token → [Apify API v2](https://docs.apify.com/api/v2) — `apify-client` |
 | [Vessel Browser](https://github.com/unmodeled-tyler/vessel-browser) | Durable agent browser with action undo | `npm install -g vessel-browser` → `vessel-browser --mcp` |
+| [Hronaut](https://hronaut.dev) | A browser your AI agent can come back to. | Owner installs the desktop app per [hronaut.dev/setup](https://hronaut.dev/setup), then connects a local Streamable HTTP MCP client — skill: `npx skills add hronaut/hronaut --skill hronaut` |
 | [CamoFox Browser](https://github.com/jo-inc/camofox-browser) | Stealth headless browser for AI agents | `npm install -g camofox-browser` then start the browser server |
 | [Moli](https://github.com/lexmount/moli) | Structured-first browser engine for AI agents | Build the Rust workspace, then run `moli fetch`, `moli serve`, or `moli mcp` |
 | [Kernel](https://www.kernel.sh) | you build agents. we give them the internet. | `brew install kernel/tap/kernel` or `npm install -g @onkernel/cli`, then `kernel browsers create -o json` |
