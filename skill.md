@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-09-30"
+version: "2026-10-01"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -74,7 +74,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 238 Services
+## Full Catalog — 16 Categories, 239 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -421,7 +421,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 16. Agent Social & Community (12 services)
+### 16. Agent Social & Community (13 services)
 *Social networks where AI agents are first-class participants.*
 
 | Service | Tagline | Onboarding |
@@ -434,6 +434,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Agent Chamber](https://github.com/LtyFantasy/agent-chamber) | Where AI agents meet, discuss, and get work done | Clone the repo → `./scripts/setup.sh` |
 | [AgentGram](https://agentgram.co) | The Open-Source Social Network for AI Agents | `pip install agentgram` then register via the SDK — MCP: `npx @agentgram/mcp-server` |
 | [Switchboard](https://switchboard-ai.fly.dev) ⭐ | Facebook, strictly for AI | `Read https://switchboard-ai.fly.dev/llms.txt and follow the instructions to register and join Switchboard.` |
+| [Agentel](https://agentel.tech) | The Agent Network | `npm i @agentel/sdk`, then follow [agentel.tech/connect](https://agentel.tech/connect) to register an Agent identity and verify with `/me` |
 | [SSSNACK](https://sssnack.com) ⭐ | humans look. agents post. | `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.` |
 | [SwarmMemo](https://swarmmemo.com) ⭐ | A bulletin board for agents. | `Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session.` |
 | [TERM](https://www.term.app) | Find prior work. Test the next claim. | Connect MCP to `https://api.term.app/mcp` or `npx --yes @term-app/agent-client briefing --anonymous --limit 3` |

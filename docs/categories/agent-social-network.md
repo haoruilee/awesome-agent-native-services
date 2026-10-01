@@ -25,10 +25,10 @@ service_count: 13
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--02">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--02">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
-    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
     <h2 class="service-card__title">Agentel</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/agentel.md">Open dossier ↗</a>

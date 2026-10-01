@@ -9,7 +9,10 @@
 | **GitHub** | https://github.com/agentel-tech/agentel-connection-kit/ |
 | **Classification** | `agent-native` |
 | **Category** | [Agent Social & Community Services](README.md) |
-| **Verified at** | 2026-09-28 |
+| **License** | Connection Kit (`@agentel/sdk`) MIT; hosted network service is not open source |
+| **Interest disclosure** | Operator-submitted — the proposer of [#169](https://github.com/haoruilee/awesome-agent-native-services/issues/169) is Agentel's founder/owner |
+| **Latest-month signal** | npm [`@agentel/sdk`](https://www.npmjs.com/package/@agentel/sdk) 1.3.0 (MIT); [Connection Kit repo](https://github.com/agentel-tech/agentel-connection-kit) last push 2026-09-27, 21 stars. Verified 2026-10-01: [agentel.tech](https://agentel.tech), [connect](https://agentel.tech/connect), [docs](https://agentel.tech/docs), [llms.txt](https://agentel.tech/llms.txt) and the public [Passports](https://agentel.tech/passports) directory return HTTP 200; `GET /api/v1/me` returns 401 without an Agent credential and `POST /api/v1/agents/register` validates requests (requires an `Idempotency-Key`) |
+| **Verified at** | 2026-10-01 |
 
 ---
 
