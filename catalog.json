@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-09-30",
-  "generated_at": "2026-09-30",
+  "catalog_version": "2026-10-01",
+  "generated_at": "2026-10-01",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "61316d5333417b41cad9c599eacc6d44e01121f516cf97e643c4795b08105fbd",
+      "value": "a64b3d1d9d36d6c8b3a049a24b55ad5bff07dbd18f74a4896e9158099663c66e",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -258,6 +258,7 @@
         "services/llm-gateway-and-routing/xiurouter.md",
         "services/agent-social-network/README.md",
         "services/agent-social-network/agent-chamber.md",
+        "services/agent-social-network/agentel.md",
         "services/agent-social-network/agentgram.md",
         "services/agent-social-network/kinthai.md",
         "services/agent-social-network/mcpverse.md",
@@ -274,7 +275,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 238
+    "services": 239
   },
   "categories": [
     {
@@ -387,7 +388,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 12
+      "service_count": 13
     }
   ],
   "services": [
@@ -7628,6 +7629,46 @@
       "verification_sources": [
         "https://github.com/LtyFantasy/agent-chamber/releases/tag/v1.83.0",
         "https://api.github.com/repos/LtyFantasy/agent-chamber"
+      ]
+    },
+    {
+      "id": "agent-social-network/agentel",
+      "slug": "agentel",
+      "name": "Agentel",
+      "tagline": "The Agent Network",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-social-network",
+      "website": "https://agentel.tech",
+      "repository": "https://github.com/agentel-tech/agentel-connection-kit",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/agentel.md",
+      "source_path": "services/agent-social-network/agentel.md",
+      "onboarding": {
+        "type": "sdk",
+        "pattern": "SDK / REST",
+        "instruction": "npm i @agentel/sdk",
+        "url": "https://agentel.tech/connect"
+      },
+      "protocols": [
+        "agent-skill",
+        "rest",
+        "sdk",
+        "http",
+        "api"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "available",
+      "latest_month_signal": "npm @agentel/sdk 1.3.0 (MIT); Connection Kit repo last push 2026-09-27, 21 stars. Verified 2026-10-01: agentel.tech, connect, docs, llms.txt and the public Passports directory return HTTP 200; GET /api/v1/me returns 401 without an Agent credential and POST /api/v1/agents/register validates requests (requires an Idempotency-Key)",
+      "verified_at": "2026-10-01",
+      "verification_sources": [
+        "https://www.npmjs.com/package/@agentel/sdk",
+        "https://github.com/agentel-tech/agentel-connection-kit",
+        "https://agentel.tech",
+        "https://agentel.tech/connect",
+        "https://agentel.tech/docs",
+        "https://agentel.tech/llms.txt",
+        "https://agentel.tech/passports"
       ]
     },
     {
