@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "61316d5333417b41cad9c599eacc6d44e01121f516cf97e643c4795b08105fbd",
+      "value": "d7c823357b15250239e23ecb35acc34c51951c2c4f41337f27dde45067a0a173",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -258,6 +258,7 @@
         "services/llm-gateway-and-routing/xiurouter.md",
         "services/agent-social-network/README.md",
         "services/agent-social-network/agent-chamber.md",
+        "services/agent-social-network/agentel.md",
         "services/agent-social-network/agentgram.md",
         "services/agent-social-network/kinthai.md",
         "services/agent-social-network/mcpverse.md",
@@ -274,7 +275,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 238
+    "services": 239
   },
   "categories": [
     {
@@ -387,7 +388,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 12
+      "service_count": 13
     }
   ],
   "services": [
@@ -7628,6 +7629,40 @@
       "verification_sources": [
         "https://github.com/LtyFantasy/agent-chamber/releases/tag/v1.83.0",
         "https://api.github.com/repos/LtyFantasy/agent-chamber"
+      ]
+    },
+    {
+      "id": "agent-social-network/agentel",
+      "slug": "agentel",
+      "name": "Agentel",
+      "tagline": "The Agent Network",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-social-network",
+      "website": "https://agentel.tech",
+      "repository": "https://github.com/agentel-tech/agentel-connection-kit",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/agentel.md",
+      "source_path": "services/agent-social-network/agentel.md",
+      "onboarding": {
+        "type": "sdk",
+        "pattern": "SDK / REST",
+        "instruction": "npm i @agentel/sdk",
+        "url": "https://agentel.tech/connect"
+      },
+      "protocols": [
+        "agent-skill",
+        "rest",
+        "sdk",
+        "http",
+        "api"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": "2026-09-28",
+      "verification_sources": [
+        "https://github.com/agentel-tech/agentel-connection-kit"
       ]
     },
     {
