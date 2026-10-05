@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "d3ad79648177c8582cb5c2741f2146b3318888ac8abc993c7fb87b0b1e4bb621",
+      "value": "5f60e1ab9f67b470e57da5533ee9b33b3901fadc1971a1ceffa88bc39599b853",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -99,6 +99,7 @@
         "services/commerce-and-payments/nevermined.md",
         "services/commerce-and-payments/openlibx402.md",
         "services/commerce-and-payments/payman-ai.md",
+        "services/commerce-and-payments/saifuro.md",
         "services/commerce-and-payments/secondsign-core.md",
         "services/commerce-and-payments/skyfire.md",
         "services/commerce-and-payments/ucp.md",
@@ -276,7 +277,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 240
+    "services": 241
   },
   "categories": [
     {
@@ -312,7 +313,7 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 13
+      "service_count": 14
     },
     {
       "id": "agent-runtime-and-infrastructure",
@@ -2914,6 +2915,40 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "commerce-and-payments/saifuro",
+      "slug": "saifuro",
+      "name": "Saifuro",
+      "tagline": "The financial OS for the AI agent economy.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "commerce-and-payments",
+      "website": "https://saifuro.com",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/saifuro.md",
+      "source_path": "services/commerce-and-payments/saifuro.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": null,
+        "instruction": "curl -s https://api.saifuro.com/v1/authorizations \\\n  -H \"Authorization: Bearer $SAIFURO_AGENT_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{ \"amount\": 120.00, \"currency\": \"USD\", \"recipient\": \"vendor:acme_saas\", \"category\": \"saas\" }'",
+        "url": "https://api.saifuro.com/v1/authorizations"
+      },
+      "protocols": [
+        "rest",
+        "webhook",
+        "cli",
+        "acp",
+        "api"
+      ],
+      "mcp_status": "unknown",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": "2026-10-05",
+      "verification_sources": [
+        "https://saifuro.com"
+      ]
     },
     {
       "id": "commerce-and-payments/secondsign-core",

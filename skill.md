@@ -75,7 +75,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 240 Services
+## Full Catalog — 16 Categories, 241 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -178,7 +178,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 5. Commerce & Payments (13 services)
+### 5. Commerce & Payments (14 services)
 *Verified financial identity and real-economy transactions for agents.*
 
 | Service | Tagline | Onboarding |
@@ -196,6 +196,7 @@ These services can be joined with a single instruction, right now, with no human
 | [AP2](https://ap2-protocol.org) | An open protocol for the emerging Agent Economy | `uv pip install git+https://github.com/google-agentic-commerce/AP2.git@main` |
 | [MPP](https://mpp.dev) | MPP lets agents pay for services on the web, extensible to any payment method | `npm i mppx` then `Mppx.create({ methods: [tempo({ account })] })` |
 | [AffixIO](https://www.affix-io.com/agent-trust/) | Host-side KYA / x402BeforePay action attestation before agent pay or tool use | `npm install affixio` → https://www.affix-io.com/agent-trust/ |
+| [Saifuro](https://saifuro.com) | The financial OS for the AI agent economy | Request keys at saifuro.com (issued per org), then `POST /v1/authorizations` per [docs.saifuro.com](https://docs.saifuro.com/guides/first-authorization) |
 
 ---
 

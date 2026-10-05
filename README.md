@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**240 services across 16 categories.**
+**241 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -93,7 +93,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 26 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
-| 5 | [Commerce & Payments](#5-commerce--payment-services) | 13 | Agent-native wallets, identity, and transactions |
+| 5 | [Commerce & Payments](#5-commerce--payment-services) | 14 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 31 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 31 | Persistent agent memory across sessions |
@@ -246,6 +246,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [AP2](services/commerce-and-payments/ap2.md) [![⭐](https://img.shields.io/github/stars/google-agentic-commerce/AP2?style=social)](https://github.com/google-agentic-commerce/AP2) | An open protocol for the emerging Agent Economy | Checkout/payment mandates · VDC chain · A2A/UCP extension | ⚠️ | `uv pip install git+https://github.com/google-agentic-commerce/AP2.git@main` — last code push 2026-06-17 |
 | [MPP](services/commerce-and-payments/mpp.md) [![⭐](https://img.shields.io/github/stars/wevm/mppx?style=social)](https://github.com/wevm/mppx) | MPP lets agents pay for services on the web, extensible to any payment method | HTTP 402 Challenge/Credential/Receipt · Tempo sessions · MCP transport · `mppx` | ⚠️ | `npm i mppx` then `Mppx.create({ methods: [tempo({ account })] })` — [quickstart](https://mpp.dev/quickstart/client.md) |
 | [AffixIO](services/commerce-and-payments/affixio.md) | Host-side KYA / x402BeforePay action attestation before agent pay or tool use | x402BeforePay · agenticPay · mcpToolGate · KYA createAgentTrust | ⚠️ | `npm install affixio` - https://www.affix-io.com/agent-trust/ |
+| [Saifuro](services/commerce-and-payments/saifuro.md) | The financial OS for the AI agent economy | Per-agent mandate · ES256 signed verdict · eight decision codes · observe mode · append-only decision log | ⚠️ | Request keys at [saifuro.com](https://saifuro.com) (issued per org at onboarding), then `POST /v1/authorizations` per the [first authorization guide](https://docs.saifuro.com/guides/first-authorization) |
 
 ---
 
