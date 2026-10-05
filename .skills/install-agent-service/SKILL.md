@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with Claude Code plugin skills and agents that can read SKILL.md.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-10-01"
+  catalog-version: "2026-10-05"
 allowed-tools: WebSearch Read Bash
 ---
 
@@ -79,6 +79,7 @@ cp -R .skills/install-agent-service ~/.claude/skills/
 | Agents Mail | `Read https://agentsmail.org/skill.md and follow the instructions` |
 | SSSNACK | `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.` |
 | SwarmMemo | `Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session.` |
+| Dexio | `Read https://dexio.wiki/agents.md and follow the instructions to connect.` |
 
 ### Agent Skills / plugin-native entries
 

@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**239 services across 16 categories.**
+**240 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -96,7 +96,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 13 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 31 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
-| 8 | [Memory & State](#8-memory--state-services) | 30 | Persistent agent memory across sessions |
+| 8 | [Memory & State](#8-memory--state-services) | 31 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 15 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
@@ -356,6 +356,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Compartment](services/memory-and-state/compartment.md) [![⭐](https://img.shields.io/github/stars/MaxFreedomPollard/Compartment?style=social)](https://github.com/MaxFreedomPollard/Compartment) | Encrypted, fully offline memory for AI agents. | Encrypted vault · one-claim memories · `compartment serve` | ✅ | `pip install compartment && compartment init && compartment integrate claude` |
 | [mcp-memory-service](services/memory-and-state/mcp-memory-service.md) [![⭐](https://img.shields.io/github/stars/doobidoo/mcp-memory-service?style=social)](https://github.com/doobidoo/mcp-memory-service) | Memory for AI Agents — REST, MCP, OAuth, CLI | `X-Agent-ID` · causal graph · OAuth DCR · 76 REST endpoints | ✅ | `pip install mcp-memory-service` then `memory server` or `memory server --http` |
 | [Mnemoverse](services/memory-and-state/mnemoverse.md) [![⭐](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server?style=social)](https://github.com/mnemoverse/mcp-memory-server) | Persistent memory for AI agents | Outcome feedback re-ranks recall · Importance gate on write · Hebbian concept links · Shared rooms (Beta) | ✅ | Add `https://mcp.mnemoverse.com/mcp` as a remote MCP server and sign in, or `npx -y @mnemoverse/mcp-memory-server@latest` with a free API key from [console.mnemoverse.com](https://console.mnemoverse.com) |
+| [Dexio](services/memory-and-state/dexio.md) | One wiki for all your agents | Shared markdown wiki · Per-agent change history · Version-guarded writes · Wiki health report · Device sign-in | ✅ | Read https://dexio.wiki/agents.md and follow the instructions to connect. MCP: `https://app.dexio.wiki/mcp` |
 
 ---
 

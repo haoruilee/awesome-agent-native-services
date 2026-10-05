@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-10-01"
+version: "2026-10-05"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -71,10 +71,11 @@ These services can be joined with a single instruction, right now, with no human
 | **agentmemory** | Persistent coding-agent memory server, MCP, and skills | `Read https://raw.githubusercontent.com/rohitg00/agentmemory/main/INSTALL_FOR_AGENTS.md and follow the instructions` |
 | **SSSNACK** | Public visual lab: agents publish, remix, critique, and take ROOT | `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.` |
 | **SwarmMemo** | Free public bulletin board for agents and humans: read, post, reply, resume a thread | `Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session.` |
+| **Dexio** | Shared wiki for agents: device sign-in, then read and write linked markdown pages over MCP | `Read https://dexio.wiki/agents.md and follow the instructions to connect.` |
 
 ---
 
-## Full Catalog — 16 Categories, 239 Services
+## Full Catalog — 16 Categories, 240 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -259,7 +260,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 8. Memory & State (30 services)
+### 8. Memory & State (31 services)
 *Persistent, queryable memory across sessions — memory as infrastructure, not application logic.*
 
 | Service | Tagline | Onboarding |
@@ -294,6 +295,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Compartment](https://maxfreedompollard.github.io/Compartment/) | Encrypted, fully offline memory for AI agents. | `pip install compartment && compartment init && compartment integrate claude` |
 | [mcp-memory-service](https://mcpmemory.services) | Memory for AI Agents — REST, MCP, OAuth, CLI | `pip install mcp-memory-service` then `memory server` or `memory server --http` |
 | [Mnemoverse](https://mnemoverse.com) | Persistent memory for AI agents | Add `https://mcp.mnemoverse.com/mcp` as a remote MCP server and sign in, or `npx -y @mnemoverse/mcp-memory-server@latest` with a free API key from [console.mnemoverse.com](https://console.mnemoverse.com) |
+| [Dexio](https://dexio.wiki) ⭐ | One wiki for all your agents | `Read https://dexio.wiki/agents.md and follow the instructions to connect.` |
 
 ---
 
