@@ -32,6 +32,7 @@ No legacy payment processor was designed with these requirements. The services i
 | [MPP](mpp.md) [![⭐](https://img.shields.io/github/stars/wevm/mppx?style=social)](https://github.com/wevm/mppx) | MPP lets agents pay for services on the web, extensible to any payment method | HTTP 402 Challenge/Credential/Receipt, mppx SDK/CLI, MCP transport | ⚠️ |
 | [AffixIO](affixio.md) | Host-side KYA / x402BeforePay action attestation before agent pay or tool use | npm SDK, x402BeforePay, agenticPay, mcpToolGate, KYA createAgentTrust | ⚠️ |
 | [Saifuro](saifuro.md) | The financial OS for the AI agent economy | REST API, ES256 signed verdicts + public JWKS, webhooks, NDJSON export, private TS SDK | ⚠️ |
+| [AwLPay](awlpay.md) | The 5-minute stablecoin wallet for AI agents | AgentWallet SDK (npm/PyPI), spend caps, Base + Solana USDC, BTC rail live-fired | ⚠️ |
 
 
 ---

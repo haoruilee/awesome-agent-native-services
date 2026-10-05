@@ -3,7 +3,7 @@ title: "Awesome Agent-Native Services"
 description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
 image: /assets/images/social-preview-wide.webp
 page_kind: home
-service_count: 241
+service_count: 243
 collection_count: 16
 new_arrivals_count: 78
 ---
@@ -664,7 +664,7 @@ new_arrivals_count: 78
   <div class="section-intro">
     <span class="section-number">02</span>
     <h2 class="section-title" id="collections-title">The collections</h2>
-    <p class="section-note">16 fields · 241 dossiers</p>
+    <p class="section-note">16 fields · 243 dossiers</p>
   </div>
   <div class="collection-grid">
     <a class="collection-card atlas-visual--01" href="{{ '/categories/communication/' | relative_url }}">
@@ -704,7 +704,7 @@ new_arrivals_count: 78
       <span class="collection-card__copy">
       <span class="collection-card__number">05</span>
       <span class="collection-card__title">Commerce &amp; Payments</span>
-      <span class="collection-card__count">14</span>
+      <span class="collection-card__count">15</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--06" href="{{ '/categories/agent-runtime-and-infrastructure/' | relative_url }}">
@@ -712,7 +712,7 @@ new_arrivals_count: 78
       <span class="collection-card__copy">
       <span class="collection-card__number">06</span>
       <span class="collection-card__title">Agent Runtime &amp; Infrastructure</span>
-      <span class="collection-card__count">31</span>
+      <span class="collection-card__count">32</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--07" href="{{ '/categories/agent-harnesses-and-control-planes/' | relative_url }}">

@@ -93,8 +93,8 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 26 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
-| 5 | [Commerce & Payments](#5-commerce--payment-services) | 14 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 31 | Execution, session isolation, secrets, and gateway |
+| 5 | [Commerce & Payments](#5-commerce--payment-services) | 15 | Agent-native wallets, identity, and transactions |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 32 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 31 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
@@ -247,6 +247,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [MPP](services/commerce-and-payments/mpp.md) [![⭐](https://img.shields.io/github/stars/wevm/mppx?style=social)](https://github.com/wevm/mppx) | MPP lets agents pay for services on the web, extensible to any payment method | HTTP 402 Challenge/Credential/Receipt · Tempo sessions · MCP transport · `mppx` | ⚠️ | `npm i mppx` then `Mppx.create({ methods: [tempo({ account })] })` — [quickstart](https://mpp.dev/quickstart/client.md) |
 | [AffixIO](services/commerce-and-payments/affixio.md) | Host-side KYA / x402BeforePay action attestation before agent pay or tool use | x402BeforePay · agenticPay · mcpToolGate · KYA createAgentTrust | ⚠️ | `npm install affixio` - https://www.affix-io.com/agent-trust/ |
 | [Saifuro](services/commerce-and-payments/saifuro.md) | The financial OS for the AI agent economy | Per-agent mandate · ES256 signed verdict · eight decision codes · observe mode · append-only decision log | ⚠️ | Request keys at [saifuro.com](https://saifuro.com) (issued per org at onboarding), then `POST /v1/authorizations` per the [first authorization guide](https://docs.saifuro.com/guides/first-authorization) |
+| [AwLPay](services/commerce-and-payments/awlpay.md) | The 5-minute stablecoin wallet for AI agents | AgentWallet SDK · spend caps · Base + Solana USDC · BTC rail live-fired | ⚠️ | `npm install awlpay` or `pip install awlpay`, then the 5-minute QUICKSTART.md in the package |
 
 ---
 
@@ -289,6 +290,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [SandBase Harness](services/agent-runtime-and-infrastructure/sandbase-harness.md) [![⭐](https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social)](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | HTTP/API · stdio MCP · TypeScript runtime/CLI · Docker/Kubernetes/workers | ✅ | Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md) and `server.json` MCP metadata |
 | [Cohesivity](services/agent-runtime-and-infrastructure/cohesivity.md) [![⭐](https://img.shields.io/github/stars/cohesivity-org/cohesivity-plugin?style=social)](https://github.com/cohesivity-org/cohesivity-plugin) | backend infra your agents can actually use. | Ephemeral tenant · HTTP API · local/hosted mutating MCP · docs `/mcp` · Skill | ✅ | `npx --yes @cohesivity/init@0.8.3` — public `/mcp` is docs-only; mutating MCP is plugin/local or `/mcp/manage` |
 | [Cua](services/agent-runtime-and-infrastructure/cua.md) [![⭐](https://img.shields.io/github/stars/trycua/cua?style=social)](https://github.com/trycua/cua) | Scale computer fleets for every agent | Background Driver · Linux/Windows/macOS/Android Fleets · Lume · Bench · CUA-S1 | ✅ | `cua-driver` install + `cua-driver mcp` — [connect your agent](https://cua.ai/docs/how-to-guides/driver/connect-your-agent); Fleets at [run.cua.ai](https://run.cua.ai) |
+| [Agent Rider](services/agent-runtime-and-infrastructure/agent-rider.md) | Signed rider credentials (ES256 JWT, clearance L0–L4, local JWKS verify) and agent-to-agent DMs | Rider credential · clearance L0–L4 · JWKS local verify · x402 paid API | ✅ | Read https://agentrider.fly.dev/.well-known/agent.json and follow the instructions |
 
 ---
 

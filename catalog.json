@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "5f60e1ab9f67b470e57da5533ee9b33b3901fadc1971a1ceffa88bc39599b853",
+      "value": "bebe30e8ed8ca787a90172de7ca44a41dea3479c34038153feb439c8f7dd9896",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -92,6 +92,7 @@
         "services/commerce-and-payments/affixio.md",
         "services/commerce-and-payments/agentspay.md",
         "services/commerce-and-payments/ap2.md",
+        "services/commerce-and-payments/awlpay.md",
         "services/commerce-and-payments/circle-agent-stack.md",
         "services/commerce-and-payments/coinbase-x402.md",
         "services/commerce-and-payments/cymetica-ai.md",
@@ -106,6 +107,7 @@
         "services/agent-runtime-and-infrastructure/README.md",
         "services/agent-runtime-and-infrastructure/acpx.md",
         "services/agent-runtime-and-infrastructure/aembit.md",
+        "services/agent-runtime-and-infrastructure/agent-rider.md",
         "services/agent-runtime-and-infrastructure/agent-substrate.md",
         "services/agent-runtime-and-infrastructure/agentanycast.md",
         "services/agent-runtime-and-infrastructure/agentuity.md",
@@ -277,7 +279,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 241
+    "services": 243
   },
   "categories": [
     {
@@ -313,14 +315,14 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 14
+      "service_count": 15
     },
     {
       "id": "agent-runtime-and-infrastructure",
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 31
+      "service_count": 32
     },
     {
       "id": "agent-harnesses-and-control-planes",
@@ -2700,6 +2702,37 @@
       ]
     },
     {
+      "id": "commerce-and-payments/awlpay",
+      "slug": "awlpay",
+      "name": "AwLPay",
+      "tagline": "The 5-minute stablecoin wallet for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "commerce-and-payments",
+      "website": "https://www.npmjs.com/package/awlpay",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/awlpay.md",
+      "source_path": "services/commerce-and-payments/awlpay.md",
+      "onboarding": {
+        "type": "sdk",
+        "pattern": null,
+        "instruction": "npm install awlpay\n# or\npip install awlpay",
+        "url": null
+      },
+      "protocols": [
+        "sdk",
+        "http"
+      ],
+      "mcp_status": "unknown",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": "2026-10-05",
+      "verification_sources": [
+        "https://www.npmjs.com/package/awlpay"
+      ]
+    },
+    {
       "id": "commerce-and-payments/circle-agent-stack",
       "slug": "circle-agent-stack",
       "name": "Circle Agent Stack",
@@ -3109,6 +3142,40 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/agent-rider",
+      "slug": "agent-rider",
+      "name": "Agent Rider",
+      "tagline": "Signed rider credentials (ES256 JWT, clearance L0–L4, local JWKS verify) and agent-to-agent DMs by agent_id.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://agentrider.fly.dev",
+      "repository": "https://github.com/ceedot-rock/Agent-Rider",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agent-rider.md",
+      "source_path": "services/agent-runtime-and-infrastructure/agent-rider.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://agentrider.fly.dev/.well-known/agent.json and follow the instructions.",
+        "url": "https://agentrider.fly.dev/.well-known/agent.json"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": "2026-10-05",
+      "verification_sources": [
+        "https://github.com/ceedot-rock/Agent-Rider"
+      ]
     },
     {
       "id": "agent-runtime-and-infrastructure/agent-substrate",
