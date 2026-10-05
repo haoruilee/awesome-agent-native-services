@@ -31,6 +31,7 @@ No legacy payment processor was designed with these requirements. The services i
 | [AP2](ap2.md) [![⭐](https://img.shields.io/github/stars/google-agentic-commerce/AP2?style=social)](https://github.com/google-agentic-commerce/AP2) | An open protocol for the emerging Agent Economy | VDC mandates, Python/Go/Android samples, A2A/UCP extension | ⚠️ |
 | [MPP](mpp.md) [![⭐](https://img.shields.io/github/stars/wevm/mppx?style=social)](https://github.com/wevm/mppx) | MPP lets agents pay for services on the web, extensible to any payment method | HTTP 402 Challenge/Credential/Receipt, mppx SDK/CLI, MCP transport | ⚠️ |
 | [AffixIO](affixio.md) | Host-side KYA / x402BeforePay action attestation before agent pay or tool use | npm SDK, x402BeforePay, agenticPay, mcpToolGate, KYA createAgentTrust | ⚠️ |
+| [Saifuro](saifuro.md) | The financial OS for the AI agent economy | REST API, ES256 signed verdicts + public JWKS, webhooks, NDJSON export, private TS SDK | ⚠️ |
 
 
 ---
