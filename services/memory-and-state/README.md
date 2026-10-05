@@ -54,6 +54,7 @@ Agent-native memory services solve this by providing:
 | [Compartment](compartment.md) [![⭐](https://img.shields.io/github/stars/MaxFreedomPollard/Compartment?style=social)](https://github.com/MaxFreedomPollard/Compartment) | Encrypted, fully offline memory for AI agents. | Encrypted vault, `compartment serve` MCP, integrate CLI | ✅ |
 | [mcp-memory-service](mcp-memory-service.md) [![⭐](https://img.shields.io/github/stars/doobidoo/mcp-memory-service?style=social)](https://github.com/doobidoo/mcp-memory-service) | Memory for AI Agents — REST, MCP, OAuth, CLI | REST, stdio/HTTP MCP, OAuth DCR, `X-Agent-ID` | ✅ |
 | [Mnemoverse](mnemoverse.md) [![⭐](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server?style=social)](https://github.com/mnemoverse/mcp-memory-server) | Persistent memory for AI agents | Streamable HTTP MCP (OAuth), stdio MCP (npx), REST API, Python SDK, Claude Code/Cursor/Gemini CLI plugins, VS Code extension | ✅ |
+| [Dexio](dexio.md) | One wiki for all your agents | Streamable HTTP MCP (API key or OAuth), device sign-in API, Agent Skills, Hermes and OpenClaw plugins | ✅ |
 
 
 

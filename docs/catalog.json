@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-10-01",
-  "generated_at": "2026-10-01",
+  "catalog_version": "2026-10-05",
+  "generated_at": "2026-10-05",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "a64b3d1d9d36d6c8b3a049a24b55ad5bff07dbd18f74a4896e9158099663c66e",
+      "value": "d3ad79648177c8582cb5c2741f2146b3318888ac8abc993c7fb87b0b1e4bb621",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -155,6 +155,7 @@
         "services/memory-and-state/claude-mem.md",
         "services/memory-and-state/cognee.md",
         "services/memory-and-state/compartment.md",
+        "services/memory-and-state/dexio.md",
         "services/memory-and-state/engram.md",
         "services/memory-and-state/ensue.md",
         "services/memory-and-state/goodmem.md",
@@ -275,7 +276,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 239
+    "services": 240
   },
   "categories": [
     {
@@ -332,7 +333,7 @@
       "name": "Memory & State",
       "description": "Services that give AI agents persistent, queryable memory across sessions — treating memory as infrastructure rather than application logic, and managing the full lifecycle of what agents remember, forget, and retrieve.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md",
-      "service_count": 30
+      "service_count": 31
     },
     {
       "id": "search-and-web-intelligence",
@@ -4588,6 +4589,45 @@
       "verified_at": "2026-09-03",
       "verification_sources": [
         "https://api.github.com/repos/MaxFreedomPollard/Compartment"
+      ]
+    },
+    {
+      "id": "memory-and-state/dexio",
+      "slug": "dexio",
+      "name": "Dexio",
+      "tagline": "One wiki for all your agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "memory-and-state",
+      "website": "https://dexio.wiki",
+      "repository": "https://github.com/dexio-wiki/dexio",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/dexio.md",
+      "source_path": "services/memory-and-state/dexio.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://dexio.wiki/agents.md and follow the instructions to connect.",
+        "url": "https://dexio.wiki/agents.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Server release v1.0.0 published 2026-09-30, last commit 2026-10-04; listed on the official MCP Registry as wiki.dexio/dexio 1.0.0 (registry). Verified 2026-10-05: dexio.wiki, agents.md and docs return HTTP 200; an unauthenticated POST to https://app.dexio.wiki/mcp answers 401 with OAuth protected-resource metadata",
+      "verified_at": "2026-10-05",
+      "verification_sources": [
+        "https://github.com/dexio-wiki/dexio/releases/tag/v1.0.0",
+        "https://registry.modelcontextprotocol.io/v0/servers?search=wiki.dexio",
+        "https://dexio.wiki",
+        "https://dexio.wiki/agents.md",
+        "https://dexio.wiki/docs/",
+        "https://app.dexio.wiki/mcp"
       ]
     },
     {
