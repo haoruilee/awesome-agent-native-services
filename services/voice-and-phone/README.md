@@ -24,6 +24,7 @@ No consumer VOIP or call center platform was designed with these requirements as
 | [Pipecat](pipecat.md) [![⭐](https://img.shields.io/github/stars/pipecat-ai/pipecat?style=social)](https://github.com/pipecat-ai/pipecat) | Open-source framework for real-time voice AI agents | Realtime voice pipeline, in-call tool invocation, WebRTC/SIP adapters | ⚠️ |
 | [Qwen Audio Agent](qwen-audio-agent.md) [![⭐](https://img.shields.io/github/stars/QwenAudio/qwen-audio-agent?style=social)](https://github.com/QwenAudio/qwen-audio-agent) | Realtime voice runtime that keeps agents talking while backend work continues | ACP backend bridge, local Gateway, CLI, TUI/WebUI/desktop, realtime audio | ❌ |
 | [Patter](patter.md) [![⭐](https://img.shields.io/github/stars/PatterAI/Patter?style=social)](https://github.com/PatterAI/Patter) | The open-source SDK that gives your AI agent a phone number | Python/TS SDK, Skills, Twilio/Telnyx/Plivo, OpenTelemetry | ⚠️ |
+| [CosVoice](cosvoice.md) [![⭐](https://img.shields.io/github/stars/CosVoice/cosvoice-mcp?style=social)](https://github.com/CosVoice/cosvoice-mcp) | Your AI Agent gets its own phone number. | Hosted line + email · remote MCP · skill URL · OpenAPI | ✅ |
 
 
 ---

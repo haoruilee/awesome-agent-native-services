@@ -8,7 +8,7 @@ image: "/assets/images/editorial-commerce.webp"
 permalink: /categories/commerce-and-payments/
 page_kind: collection
 collection_number: "05"
-service_count: 14
+service_count: 15
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md">Collection notes ↗</a></p>
@@ -159,6 +159,17 @@ service_count: 14
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/ucp.md">Open dossier ↗</a>
       <a href="https://github.com/Universal-Commerce-Protocol/ucp">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--15">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title">Veyra</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/veyra.md">Open dossier ↗</a>
+      <a href="https://github.com/zapxlabs/veyra-mcp">Official repo ↗</a>
     </div>
     </div>
   </article>

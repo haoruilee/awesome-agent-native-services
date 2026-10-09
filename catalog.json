@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-10-05",
-  "generated_at": "2026-10-05",
+  "catalog_version": "2026-10-09",
+  "generated_at": "2026-10-09",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "5f60e1ab9f67b470e57da5533ee9b33b3901fadc1971a1ceffa88bc39599b853",
+      "value": "6e80aed2e2d6ed00c3924b8989ca167900b9b1556eaf2388ce9a09056c721702",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -103,9 +103,11 @@
         "services/commerce-and-payments/secondsign-core.md",
         "services/commerce-and-payments/skyfire.md",
         "services/commerce-and-payments/ucp.md",
+        "services/commerce-and-payments/veyra.md",
         "services/agent-runtime-and-infrastructure/README.md",
         "services/agent-runtime-and-infrastructure/acpx.md",
         "services/agent-runtime-and-infrastructure/aembit.md",
+        "services/agent-runtime-and-infrastructure/agent-rider.md",
         "services/agent-runtime-and-infrastructure/agent-substrate.md",
         "services/agent-runtime-and-infrastructure/agentanycast.md",
         "services/agent-runtime-and-infrastructure/agentuity.md",
@@ -239,6 +241,7 @@
         "services/meeting-and-conversation/recall-ai.md",
         "services/meeting-and-conversation/vexa.md",
         "services/voice-and-phone/README.md",
+        "services/voice-and-phone/cosvoice.md",
         "services/voice-and-phone/livekit-agents.md",
         "services/voice-and-phone/patter.md",
         "services/voice-and-phone/pipecat.md",
@@ -277,7 +280,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 241
+    "services": 244
   },
   "categories": [
     {
@@ -313,14 +316,14 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 14
+      "service_count": 15
     },
     {
       "id": "agent-runtime-and-infrastructure",
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 31
+      "service_count": 32
     },
     {
       "id": "agent-harnesses-and-control-planes",
@@ -376,7 +379,7 @@
       "name": "Voice & Phone",
       "description": "Services that give AI agents a first-class voice and telephony identity — letting agents make and receive phone calls, conduct voice conversations, and interact via speech with no human operating a phone on their behalf.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/README.md",
-      "service_count": 7
+      "service_count": 8
     },
     {
       "id": "llm-gateway-and-routing",
@@ -3050,6 +3053,41 @@
       ]
     },
     {
+      "id": "commerce-and-payments/veyra",
+      "slug": "veyra",
+      "name": "Veyra",
+      "tagline": "Let your AI agents make payments — with guardrails you control.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "commerce-and-payments",
+      "website": "https://veyra.money",
+      "repository": "https://github.com/zapxlabs/veyra-mcp",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/veyra.md",
+      "source_path": "services/commerce-and-payments/veyra.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP",
+        "instruction": "claude mcp add --transport http veyra https://veyra.money/api/mcp \\\n  --header \"Authorization: Bearer veyra_...\"",
+        "url": "https://veyra.money/api/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "sdk",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Homepage HTTP 200. POST https://veyra.money/api/mcp initialize returned server name veyra. Pricing page and llms.txt agree on Free £0, Pro £19/month, Team £79/month. https://veyra.money",
+      "verified_at": "2026-10-09",
+      "verification_sources": [
+        "https://veyra.money/api/mcp",
+        "https://veyra.money"
+      ]
+    },
+    {
       "id": "agent-runtime-and-infrastructure/acpx",
       "slug": "acpx",
       "name": "acpx",
@@ -3109,6 +3147,41 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/agent-rider",
+      "slug": "agent-rider",
+      "name": "Agent Rider",
+      "tagline": "Stop making your agents re-prove themselves every time.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://agentrider.fly.dev",
+      "repository": "https://github.com/ceedot-rock/Agent-Rider",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agent-rider.md",
+      "source_path": "services/agent-runtime-and-infrastructure/agent-rider.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.",
+        "url": "https://agentrider.fly.dev/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "sdk",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Live host, /.well-known/agent.json, and /.well-known/jwks.json returned HTTP 200. POST /api/mcp initialize named the server AgentRider. tools/list returned 66 tools. https://agentrider.fly.dev",
+      "verified_at": "2026-10-09",
+      "verification_sources": [
+        "https://agentrider.fly.dev"
+      ]
     },
     {
       "id": "agent-runtime-and-infrastructure/agent-substrate",
@@ -7103,6 +7176,46 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "voice-and-phone/cosvoice",
+      "slug": "cosvoice",
+      "name": "CosVoice",
+      "tagline": "Your AI Agent gets its own phone number.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "voice-and-phone",
+      "website": "https://cosvoice.com",
+      "repository": "https://github.com/CosVoice/cosvoice-mcp",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/cosvoice.md",
+      "source_path": "services/voice-and-phone/cosvoice.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.",
+        "url": "https://cosvoice.com/skill"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "webhook",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "https://cosvoice.com and https://cosvoice.com/skill returned HTTP 200. https://cosvoice.com/mcp returned GET 405, POST 401, OPTIONS 204. Packaging repo https://github.com/CosVoice/cosvoice-mcp is MIT",
+      "verified_at": "2026-10-09",
+      "verification_sources": [
+        "https://cosvoice.com",
+        "https://cosvoice.com/skill",
+        "https://cosvoice.com/mcp",
+        "https://github.com/CosVoice/cosvoice-mcp"
+      ]
     },
     {
       "id": "voice-and-phone/livekit-agents",

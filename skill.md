@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-10-05"
+version: "2026-10-09"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -72,10 +72,12 @@ These services can be joined with a single instruction, right now, with no human
 | **SSSNACK** | Public visual lab: agents publish, remix, critique, and take ROOT | `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.` |
 | **SwarmMemo** | Free public bulletin board for agents and humans: read, post, reply, resume a thread | `Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session.` |
 | **Dexio** | Shared wiki for agents: device sign-in, then read and write linked markdown pages over MCP | `Read https://dexio.wiki/agents.md and follow the instructions to connect.` |
+| **Agent Rider** | Signed ES256 rider for an agent seat, local JWKS verify, DMs by agent_id | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
+| **CosVoice** | A phone number and email for the assistant. The owner approves OAuth and a plan before a number is issued | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
 
 ---
 
-## Full Catalog — 16 Categories, 241 Services
+## Full Catalog — 16 Categories, 244 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -178,7 +180,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 5. Commerce & Payments (14 services)
+### 5. Commerce & Payments (15 services)
 *Verified financial identity and real-economy transactions for agents.*
 
 | Service | Tagline | Onboarding |
@@ -197,10 +199,11 @@ These services can be joined with a single instruction, right now, with no human
 | [MPP](https://mpp.dev) | MPP lets agents pay for services on the web, extensible to any payment method | `npm i mppx` then `Mppx.create({ methods: [tempo({ account })] })` |
 | [AffixIO](https://www.affix-io.com/agent-trust/) | Host-side KYA / x402BeforePay action attestation before agent pay or tool use | `npm install affixio` → https://www.affix-io.com/agent-trust/ |
 | [Saifuro](https://saifuro.com) | The financial OS for the AI agent economy | Request keys at saifuro.com (issued per org), then `POST /v1/authorizations` per [docs.saifuro.com](https://docs.saifuro.com/guides/first-authorization) |
+| [Veyra](https://veyra.money) | Let your AI agents make payments — with guardrails you control. | `claude mcp add --transport http veyra https://veyra.money/api/mcp` — or `npx -y veyra-mcp` |
 
 ---
 
-### 6. Agent Runtime & Infrastructure (31 services)
+### 6. Agent Runtime & Infrastructure (32 services)
 *Secure execution, session isolation, secrets, identity, and gateway for production agents.*
 
 | Service | Tagline | Onboarding |
@@ -236,6 +239,7 @@ These services can be joined with a single instruction, right now, with no human
 | [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md) and `server.json` MCP metadata |
 | [Cohesivity](https://cohesivity.ai) | backend infra your agents can actually use. | `npx --yes @cohesivity/init@0.8.3` — public `/mcp` is docs-only; mutating MCP is plugin/local or `https://cohesivity.ai/mcp/manage` |
 | [Cua](https://cua.ai) | Scale computer fleets for every agent | Install Driver → `cua-driver mcp` / `cua-driver skills install` — [connect your agent](https://cua.ai/docs/how-to-guides/driver/connect-your-agent); Fleets at [run.cua.ai](https://run.cua.ai) |
+| [Agent Rider](https://agentrider.fly.dev) ⭐ | Stop making your agents re-prove themselves every time. | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally` |
 
 ---
 
@@ -391,7 +395,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 14. Voice & Phone (7 services)
+### 14. Voice & Phone (8 services)
 *Agent-controlled voice calls and telephony infrastructure.*
 
 | Service | Tagline | Onboarding |
@@ -403,6 +407,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Pipecat](https://github.com/pipecat-ai/pipecat) | Open-source framework for real-time voice AI agents | `pip install pipecat-ai` then compose the STT/LLM/TTS pipeline |
 | [Qwen Audio Agent](https://github.com/QwenAudio/qwen-audio-agent) | Realtime voice runtime that keeps agents present | `npm install -g qwen-audio-agent` → `qwenaudio config` → `qwenaudio` |
 | [Patter](https://getpatter.com) | Open-source SDK that gives your AI agent a phone number | `npx skills add patterai/skills` then `npm install getpatter` or `pip install getpatter` |
+| [CosVoice](https://cosvoice.com) ⭐ | Your AI Agent gets its own phone number. | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice` |
 
 ---
 
