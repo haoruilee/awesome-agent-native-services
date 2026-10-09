@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with agents that can read repository files and browse official sources.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-10-05"
+  catalog-version: "2026-10-09"
 allowed-tools: WebSearch Read Bash
 ---
 
@@ -41,6 +41,8 @@ If YES — this is **URL Onboarding**, the highest form of agent-nativeness. Mar
 - SSSNACK: `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.`
 - SwarmMemo: `Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session.`
 - Dexio: `Read https://dexio.wiki/agents.md and follow the instructions to connect.`
+- Agent Rider: `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.`
+- CosVoice: `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.`
 
 When the new service has URL Onboarding, lead with this in every section.
 

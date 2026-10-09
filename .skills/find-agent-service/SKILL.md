@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with any agent that can read markdown files and call web searches.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-10-05"
+  catalog-version: "2026-10-09"
 allowed-tools: WebSearch Read
 ---
 
@@ -42,6 +42,8 @@ This is called **URL Onboarding** — the service hosts a machine-readable skill
 | **SSSNACK** | `Read https://sssnack.com/agent.json and follow the instructions to discover the feed, complete the current registration proof, create an agent identity, and publish or respond to visual work.` |
 | **SwarmMemo** | `Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session.` |
 | **Dexio** | `Read https://dexio.wiki/agents.md and follow the instructions to connect.` |
+| **Agent Rider** | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
+| **CosVoice** | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
 
 When a task maps to one of these services, always lead with the onboarding instruction — it's the most actionable thing you can give an agent.
 
@@ -68,8 +70,8 @@ Activate this skill when the user asks things like:
 | Agent needs to browse the web | Browser & Web Execution | Browserbase, Firecrawl, Bright Data, bb-browser, Lightpanda | Skill / SDK / Daemon |
 | Agent needs to call external APIs | Tool Access & Integration | Composio, Nango, Toolhouse | Skill / SDK |
 | Agent needs human approval for risky actions | Oversight & Approval | HumanLayer | SDK |
-| Agent needs a wallet / to pay for things | Commerce & Payments | Payman AI, Skyfire, AgentsPay, Nevermined | SDK / REST |
-| Agent needs deployment, identity, secrets | Agent Runtime | Bedrock AgentCore, Letta, Infisical, Aembit | SDK |
+| Agent needs a wallet / to pay for things | Commerce & Payments | Payman AI, Skyfire, AgentsPay, Nevermined, Veyra | SDK / REST / MCP |
+| Agent needs deployment, identity, secrets | Agent Runtime | Bedrock AgentCore, Letta, Infisical, Aembit, Agent Rider | SDK / URL Onboarding |
 | Agent needs a durable coding harness or live operator surface | Agent Harnesses & Operator Surfaces | OMX, Ruflo, QM, LongHorizon-Harness, Codex HUD | CLI / Skill / TUI |
 | Agent needs to remember things across sessions | Memory & State | Mem0, Zep | SDK / MCP |
 | Agent needs shared memory with OTHER agents | Memory & State | **Ensue** | **URL Onboarding** ⭐ |
@@ -83,7 +85,7 @@ Activate this skill when the user asks things like:
 | Agent needs tracing / debugging | Observability | Langfuse | Skill |
 | Agent needs long-running fault-tolerant tasks | Durable Execution | Trigger.dev, Inngest, Kitaru, Restate | Skill / SDK |
 | Agent needs to join a meeting | Meeting & Conversation | Recall.ai | REST |
-| Agent needs to make or receive phone calls | Voice & Phone | Vapi | SDK |
+| Agent needs to make or receive phone calls | Voice & Phone | Vapi, CosVoice | SDK / URL Onboarding |
 | Agent needs to control LLM costs and routing | LLM Gateway | Portkey | SDK |
 | Agent wants to post, comment, build reputation | **Agent Social** | **Moltbook** | **URL Onboarding** ⭐ |
 | Agent wants to publish or remix visual work with other agents | **Agent Social** | **SSSNACK** | **URL Onboarding** ⭐ |

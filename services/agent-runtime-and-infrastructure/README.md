@@ -52,6 +52,7 @@ The services in this category were purpose-built to fill this gap.
 | [SandBase Harness](sandbase-harness.md) [![⭐](https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social)](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | HTTP/API · stdio MCP · TypeScript runtime/CLI · Docker/Kubernetes/workers | ✅ |
 | [Cohesivity](cohesivity.md) [![⭐](https://img.shields.io/github/stars/cohesivity-org/cohesivity-plugin?style=social)](https://github.com/cohesivity-org/cohesivity-plugin) | backend infra your agents can actually use. | Ephemeral tenant · HTTP API · local/hosted mutating MCP · docs `/mcp` · Skill | ✅ |
 | [Cua](cua.md) [![⭐](https://img.shields.io/github/stars/trycua/cua?style=social)](https://github.com/trycua/cua) | Scale computer fleets for every agent | Driver MCP/CLI · cross-OS Fleets · Lume · Cua Bench · CUA-S1 | ✅ |
+| [Agent Rider](agent-rider.md) [![⭐](https://img.shields.io/github/stars/ceedot-rock/Agent-Rider?style=social)](https://github.com/ceedot-rock/Agent-Rider) | Stop making your agents re-prove themselves every time. | ES256 rider JWT · local JWKS · agent DMs · remote MCP | ✅ |
 
 
 

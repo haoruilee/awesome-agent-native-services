@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**241 services across 16 categories.**
+**244 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -93,8 +93,8 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 26 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
-| 5 | [Commerce & Payments](#5-commerce--payment-services) | 14 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 31 | Execution, session isolation, secrets, and gateway |
+| 5 | [Commerce & Payments](#5-commerce--payment-services) | 15 | Agent-native wallets, identity, and transactions |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 32 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 31 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
@@ -102,7 +102,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
-| 14 | [Voice & Phone](#14-voice--phone-services) | 7 | Agent-controlled voice calls and phone infrastructure |
+| 14 | [Voice & Phone](#14-voice--phone-services) | 8 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 11 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 16 | [Agent Social & Community](#16-agent-social--community-services) | 13 | Social networks where agents are first-class participants |
 
@@ -247,6 +247,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [MPP](services/commerce-and-payments/mpp.md) [![⭐](https://img.shields.io/github/stars/wevm/mppx?style=social)](https://github.com/wevm/mppx) | MPP lets agents pay for services on the web, extensible to any payment method | HTTP 402 Challenge/Credential/Receipt · Tempo sessions · MCP transport · `mppx` | ⚠️ | `npm i mppx` then `Mppx.create({ methods: [tempo({ account })] })` — [quickstart](https://mpp.dev/quickstart/client.md) |
 | [AffixIO](services/commerce-and-payments/affixio.md) | Host-side KYA / x402BeforePay action attestation before agent pay or tool use | x402BeforePay · agenticPay · mcpToolGate · KYA createAgentTrust | ⚠️ | `npm install affixio` - https://www.affix-io.com/agent-trust/ |
 | [Saifuro](services/commerce-and-payments/saifuro.md) | The financial OS for the AI agent economy | Per-agent mandate · ES256 signed verdict · eight decision codes · observe mode · append-only decision log | ⚠️ | Request keys at [saifuro.com](https://saifuro.com) (issued per org at onboarding), then `POST /v1/authorizations` per the [first authorization guide](https://docs.saifuro.com/guides/first-authorization) |
+| [Veyra](services/commerce-and-payments/veyra.md) [![⭐](https://img.shields.io/github/stars/zapxlabs/veyra-mcp?style=social)](https://github.com/zapxlabs/veyra-mcp) | Let your AI agents make payments — with guardrails you control. | Per-agent MCP endpoint · auto/ask/block · Base USDC · simulated rail | ✅ | `claude mcp add --transport http veyra https://veyra.money/api/mcp` — or `npx -y veyra-mcp` |
 
 ---
 
@@ -289,6 +290,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [SandBase Harness](services/agent-runtime-and-infrastructure/sandbase-harness.md) [![⭐](https://img.shields.io/github/stars/sandbaseai/sandbase-harness?style=social)](https://github.com/sandbaseai/sandbase-harness) | A local-first runtime for AI agents. | HTTP/API · stdio MCP · TypeScript runtime/CLI · Docker/Kubernetes/workers | ✅ | Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md) and `server.json` MCP metadata |
 | [Cohesivity](services/agent-runtime-and-infrastructure/cohesivity.md) [![⭐](https://img.shields.io/github/stars/cohesivity-org/cohesivity-plugin?style=social)](https://github.com/cohesivity-org/cohesivity-plugin) | backend infra your agents can actually use. | Ephemeral tenant · HTTP API · local/hosted mutating MCP · docs `/mcp` · Skill | ✅ | `npx --yes @cohesivity/init@0.8.3` — public `/mcp` is docs-only; mutating MCP is plugin/local or `/mcp/manage` |
 | [Cua](services/agent-runtime-and-infrastructure/cua.md) [![⭐](https://img.shields.io/github/stars/trycua/cua?style=social)](https://github.com/trycua/cua) | Scale computer fleets for every agent | Background Driver · Linux/Windows/macOS/Android Fleets · Lume · Bench · CUA-S1 | ✅ | `cua-driver` install + `cua-driver mcp` — [connect your agent](https://cua.ai/docs/how-to-guides/driver/connect-your-agent); Fleets at [run.cua.ai](https://run.cua.ai) |
+| [Agent Rider](services/agent-runtime-and-infrastructure/agent-rider.md) [![⭐](https://img.shields.io/github/stars/ceedot-rock/Agent-Rider?style=social)](https://github.com/ceedot-rock/Agent-Rider) | Stop making your agents re-prove themselves every time. | ES256 rider JWT · local JWKS · agent DMs · remote MCP | ✅ | Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally |
 
 ---
 
@@ -482,6 +484,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Pipecat](services/voice-and-phone/pipecat.md) [![⭐](https://img.shields.io/github/stars/pipecat-ai/pipecat?style=social)](https://github.com/pipecat-ai/pipecat) | Open-source framework for real-time voice AI agents | Realtime voice pipeline · In-call tool invocation · WebRTC/SIP adapters | ⚠️ | `pip install pipecat-ai` then compose STT/LLM/TTS + transport pipeline |
 | [Qwen Audio Agent](services/voice-and-phone/qwen-audio-agent.md) [![⭐](https://img.shields.io/github/stars/QwenAudio/qwen-audio-agent?style=social)](https://github.com/QwenAudio/qwen-audio-agent) | Realtime voice runtime that keeps agents talking, working, and present | Gateway · ACP backend · CLI/TUI/WebUI · realtime voice sessions | ⚠️ | `npm install -g qwen-audio-agent`, run `qwenaudio config`, then start `qwenaudio` |
 | [Patter](services/voice-and-phone/patter.md) [![⭐](https://img.shields.io/github/stars/PatterAI/Patter?style=social)](https://github.com/PatterAI/Patter) | The open-source SDK that gives your AI agent a phone number | Agent loop + PSTN · swap STT/TTS/realtime/carrier · Skills | ⚠️ | `npx skills add patterai/skills` then `npm install getpatter` or `pip install getpatter` |
+| [CosVoice](services/voice-and-phone/cosvoice.md) [![⭐](https://img.shields.io/github/stars/CosVoice/cosvoice-mcp?style=social)](https://github.com/CosVoice/cosvoice-mcp) | Your AI Agent gets its own phone number. | Hosted line + email · remote MCP · skill URL · OpenAPI | ✅ | Read https://cosvoice.com/skill and follow the instructions to connect CosVoice |
 
 ---
 
