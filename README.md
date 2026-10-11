@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**246 services across 16 categories.**
+**247 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -94,7 +94,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 17 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 32 | Execution, session isolation, secrets, and gateway |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 33 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 31 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
@@ -293,6 +293,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Cohesivity](services/agent-runtime-and-infrastructure/cohesivity.md) [![⭐](https://img.shields.io/github/stars/cohesivity-org/cohesivity-plugin?style=social)](https://github.com/cohesivity-org/cohesivity-plugin) | backend infra your agents can actually use. | Ephemeral tenant · HTTP API · local/hosted mutating MCP · docs `/mcp` · Skill | ✅ | `npx --yes @cohesivity/init@0.8.3` — public `/mcp` is docs-only; mutating MCP is plugin/local or `/mcp/manage` |
 | [Cua](services/agent-runtime-and-infrastructure/cua.md) [![⭐](https://img.shields.io/github/stars/trycua/cua?style=social)](https://github.com/trycua/cua) | Scale computer fleets for every agent | Background Driver · Linux/Windows/macOS/Android Fleets · Lume · Bench · CUA-S1 | ✅ | `cua-driver` install + `cua-driver mcp` — [connect your agent](https://cua.ai/docs/how-to-guides/driver/connect-your-agent); Fleets at [run.cua.ai](https://run.cua.ai) |
 | [Agent Rider](services/agent-runtime-and-infrastructure/agent-rider.md) [![⭐](https://img.shields.io/github/stars/ceedot-rock/Agent-Rider?style=social)](https://github.com/ceedot-rock/Agent-Rider) | Stop making your agents re-prove themselves every time. | ES256 rider JWT · local JWKS · agent DMs · remote MCP | ✅ | Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally |
+| [Auten](services/agent-runtime-and-infrastructure/auten.md) [![⭐](https://img.shields.io/github/stars/auten-ai/auten-mcp?style=social)](https://github.com/auten-ai/auten-mcp) | Give your AI agent hands. It clicks, types and sees your screen. | Real Mac/Windows/Linux desktop + Android phone (beta) · AX element ids · learned skills replay without the model · local secrets | ✅ | `claude mcp add auten -- npx -y @autenai/mcp` after `curl -fsSL https://auten.ai/install \| bash` — [setup for agents](https://github.com/auten-ai/auten-mcp/blob/main/llms-install.md) |
 
 ---
 

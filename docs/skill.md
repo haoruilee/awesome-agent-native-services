@@ -64,7 +64,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 246 Services
+## Full Catalog — 16 Categories, 247 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -192,7 +192,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 6. Agent Runtime & Infrastructure (32 services)
+### 6. Agent Runtime & Infrastructure (33 services)
 *Secure execution, session isolation, secrets, identity, and gateway for production agents.*
 
 | Service | Tagline | Onboarding |
@@ -229,6 +229,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Cohesivity](https://cohesivity.ai) | backend infra your agents can actually use. | `npx --yes @cohesivity/init@0.8.3` — public `/mcp` is docs-only; mutating MCP is plugin/local or `https://cohesivity.ai/mcp/manage` |
 | [Cua](https://cua.ai) | Scale computer fleets for every agent | Install Driver → `cua-driver mcp` / `cua-driver skills install` — [connect your agent](https://cua.ai/docs/how-to-guides/driver/connect-your-agent); Fleets at [run.cua.ai](https://run.cua.ai) |
 | [Agent Rider](https://agentrider.fly.dev) ⭐ | Stop making your agents re-prove themselves every time. | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally` |
+| [Auten](https://auten.ai) | Give your AI agent hands. It clicks, types and sees your screen. | `curl -fsSL https://auten.ai/install \| bash` → `npx -y @autenai/mcp` — [setup for agents](https://github.com/auten-ai/auten-mcp/blob/main/llms-install.md) |
 
 ---
 

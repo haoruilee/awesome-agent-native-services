@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "6905a2c436fd5890ad2e0273052234380f2a41d3c8457f5a4a1dc11c9ede3e68",
+      "value": "254c6c7061172b038938dbfe40b3b80c66a179937f5784e81a51e6389d6e707a",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -116,6 +116,7 @@
         "services/agent-runtime-and-infrastructure/amazon-bedrock-agentcore.md",
         "services/agent-runtime-and-infrastructure/aport-agent-guardrails.md",
         "services/agent-runtime-and-infrastructure/atxp.md",
+        "services/agent-runtime-and-infrastructure/auten.md",
         "services/agent-runtime-and-infrastructure/chrome-devtools-mcp.md",
         "services/agent-runtime-and-infrastructure/claude-managed-agents.md",
         "services/agent-runtime-and-infrastructure/claude-peers.md",
@@ -282,7 +283,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 246
+    "services": 247
   },
   "categories": [
     {
@@ -325,7 +326,7 @@
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 32
+      "service_count": 33
     },
     {
       "id": "agent-harnesses-and-control-planes",
@@ -3433,6 +3434,39 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/auten",
+      "slug": "auten",
+      "name": "Auten",
+      "tagline": "Give your AI agent hands. It clicks, types and sees your screen.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://auten.ai",
+      "repository": "https://github.com/auten-ai/auten-mcp",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/auten.md",
+      "source_path": "services/agent-runtime-and-infrastructure/auten.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP (stdio) + local runner (installer)",
+        "instruction": "curl -fsSL https://auten.ai/install | bash",
+        "url": "https://auten.ai/install"
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "npm @autenai/mcp 0.1.4 published 2026-10-10; listed in the official MCP registry as ai.auten/mcp; young project (no stars yet)",
+      "verified_at": "2026-10-11",
+      "verification_sources": [
+        "https://github.com/auten-ai/auten-mcp"
+      ]
     },
     {
       "id": "agent-runtime-and-infrastructure/chrome-devtools-mcp",
