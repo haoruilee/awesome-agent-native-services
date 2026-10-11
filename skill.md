@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-10-09"
+version: "2026-10-11"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -180,7 +180,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 5. Commerce & Payments (15 services)
+### 5. Commerce & Payments (16 services)
 *Verified financial identity and real-economy transactions for agents.*
 
 | Service | Tagline | Onboarding |
@@ -200,6 +200,7 @@ These services can be joined with a single instruction, right now, with no human
 | [AffixIO](https://www.affix-io.com/agent-trust/) | Host-side KYA / x402BeforePay action attestation before agent pay or tool use | `npm install affixio` → https://www.affix-io.com/agent-trust/ |
 | [Saifuro](https://saifuro.com) | The financial OS for the AI agent economy | Request keys at saifuro.com (issued per org), then `POST /v1/authorizations` per [docs.saifuro.com](https://docs.saifuro.com/guides/first-authorization) |
 | [Veyra](https://veyra.money) | Let your AI agents make payments — with guardrails you control. | `claude mcp add --transport http veyra https://veyra.money/api/mcp` — or `npx -y veyra-mcp` |
+| [Lumen Tab](https://github.com/Dansgit2b/lumen-tab) | Prepaid USDC tabs for pay-per-call AI agent APIs on Arc (early-stage, unaudited) | `npm install github:Dansgit2b/lumen-tab` → `TabPayer.fetch(url)` answers 402s with vouchers |
 
 ---
 

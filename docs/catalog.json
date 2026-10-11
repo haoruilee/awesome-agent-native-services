@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-10-09",
-  "generated_at": "2026-10-09",
+  "catalog_version": "2026-10-11",
+  "generated_at": "2026-10-11",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "eae957d1dab88ed39dae371ee1271be97a9991b47db0e891964f7e0dac349961",
+      "value": "3457c3db8c54fe4243da495ac434aa2c74f179bdeffb645b78c1e56328aaf38c",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -95,6 +95,7 @@
         "services/commerce-and-payments/circle-agent-stack.md",
         "services/commerce-and-payments/coinbase-x402.md",
         "services/commerce-and-payments/cymetica-ai.md",
+        "services/commerce-and-payments/lumen-tab.md",
         "services/commerce-and-payments/mpp.md",
         "services/commerce-and-payments/nevermined.md",
         "services/commerce-and-payments/openlibx402.md",
@@ -281,7 +282,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 245
+    "services": 246
   },
   "categories": [
     {
@@ -317,7 +318,7 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 16
+      "service_count": 17
     },
     {
       "id": "agent-runtime-and-infrastructure",
@@ -2792,6 +2793,37 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "commerce-and-payments/lumen-tab",
+      "slug": "lumen-tab",
+      "name": "Lumen Tab",
+      "tagline": "Prepaid USDC tabs for pay-per-call AI agent APIs on Arc.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "commerce-and-payments",
+      "website": "https://dansgit2b.github.io/lumen-tab/",
+      "repository": "https://github.com/Dansgit2b/lumen-tab",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/lumen-tab.md",
+      "source_path": "services/commerce-and-payments/lumen-tab.md",
+      "onboarding": {
+        "type": "sdk",
+        "pattern": null,
+        "instruction": "npm install github:Dansgit2b/lumen-tab",
+        "url": "https://api.example/paid"
+      },
+      "protocols": [
+        "sdk",
+        "http"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Repository created 2026-10-09, last push 2026-10-09, SDK version 0.1.0; dashboard returned HTTP 200 on 2026-10-11; contract 0xb4a0364c58B2DF53e25FfF0463B5434160Ed2B50 deployed on Arc mainnet with demo transactions listed in DEPLOYMENTS.md",
+      "verified_at": "2026-10-11",
+      "verification_sources": [
+        "https://github.com/Dansgit2b/lumen-tab/blob/main/DEPLOYMENTS.md"
+      ]
     },
     {
       "id": "commerce-and-payments/mpp",
