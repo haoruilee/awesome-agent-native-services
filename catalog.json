@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "6e80aed2e2d6ed00c3924b8989ca167900b9b1556eaf2388ce9a09056c721702",
+      "value": "eae957d1dab88ed39dae371ee1271be97a9991b47db0e891964f7e0dac349961",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -102,6 +102,7 @@
         "services/commerce-and-payments/saifuro.md",
         "services/commerce-and-payments/secondsign-core.md",
         "services/commerce-and-payments/skyfire.md",
+        "services/commerce-and-payments/tollex.md",
         "services/commerce-and-payments/ucp.md",
         "services/commerce-and-payments/veyra.md",
         "services/agent-runtime-and-infrastructure/README.md",
@@ -280,7 +281,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 244
+    "services": 245
   },
   "categories": [
     {
@@ -316,7 +317,7 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 15
+      "service_count": 16
     },
     {
       "id": "agent-runtime-and-infrastructure",
@@ -3012,6 +3013,40 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "commerce-and-payments/tollex",
+      "slug": "tollex",
+      "name": "Tollex",
+      "tagline": "The economic control plane for autonomous software.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "commerce-and-payments",
+      "website": "https://tollex.org",
+      "repository": "https://github.com/ShiftAboveCtrl/tollex",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/tollex.md",
+      "source_path": "services/commerce-and-payments/tollex.md",
+      "onboarding": {
+        "type": "documentation",
+        "pattern": null,
+        "instruction": "Read https://raw.githubusercontent.com/ShiftAboveCtrl/tollex/main/AGENTS.md and follow it.",
+        "url": "https://raw.githubusercontent.com/ShiftAboveCtrl/tollex/main/AGENTS.md"
+      },
+      "protocols": [
+        "agent-skill",
+        "a2a",
+        "openapi",
+        "json-rpc",
+        "http",
+        "api",
+        "documentation"
+      ],
+      "mcp_status": "unknown",
+      "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
