@@ -181,7 +181,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 5. Commerce & Payments (18 services)
+### 5. Commerce & Payments (19 services)
 *Verified financial identity and real-economy transactions for agents.*
 
 | Service | Tagline | Onboarding |
@@ -203,6 +203,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Veyra](https://veyra.money) | Let your AI agents make payments — with guardrails you control. | `claude mcp add --transport http veyra https://veyra.money/api/mcp` — or `npx -y veyra-mcp` |
 | [Tollex](https://tollex.org) | The economic control plane for autonomous software | `Read https://tollex.org/llms.txt and https://tollex.org/docs/getting-started/` |
 | [Lumen Tab](https://github.com/Dansgit2b/lumen-tab) | Prepaid USDC tabs for pay-per-call AI agent APIs on Arc (early-stage, unaudited) | `npm install github:Dansgit2b/lumen-tab` → `TabPayer.fetch(url)` answers 402s with vouchers |
+| [402xAgent](https://402xagent.com) | The check an agent calls before paying any x402 endpoint | Call `https://api.402xagent.com/v1/products/endpoint-spot-check?url=<endpoint>` or MCP `https://api.402xagent.com/mcp` (tool `endpoint_spot_check`) |
 | [INAM Protocol](https://inamprotocol.org) | Check an AI agent or x402 seller before you pay it (early-stage) | `curl 'https://api.inamprotocol.org/v1/check?target=<target>'` or MCP `https://api.inamprotocol.org/mcp` (no auth) |
 
 ---
@@ -270,7 +271,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 8. Memory & State (31 services)
+### 8. Memory & State (30 services)
 *Persistent, queryable memory across sessions — memory as infrastructure, not application logic.*
 
 | Service | Tagline | Onboarding |
