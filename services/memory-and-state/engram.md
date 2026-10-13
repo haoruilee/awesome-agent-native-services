@@ -12,7 +12,7 @@
 | **Category** | [Memory & State Services](README.md) |
 | **License** | MIT |
 | **Latest-month signal** | Last GitHub push 2026-08-27 ([repo metadata](https://api.github.com/repos/Gentleman-Programming/engram)); Homebrew tap + `engram setup <agent>` matrix |
-| **Verified at** | 2026-08-27 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

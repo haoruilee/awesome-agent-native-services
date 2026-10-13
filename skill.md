@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-10-11"
+version: "2026-10-13"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -77,7 +77,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 248 Services
+## Full Catalog — 16 Categories, 247 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -201,7 +201,7 @@ These services can be joined with a single instruction, right now, with no human
 | [AffixIO](https://www.affix-io.com/agent-trust/) | Host-side KYA / x402BeforePay action attestation before agent pay or tool use | `npm install affixio` → https://www.affix-io.com/agent-trust/ |
 | [Saifuro](https://saifuro.com) | The financial OS for the AI agent economy | Request keys at saifuro.com (issued per org), then `POST /v1/authorizations` per [docs.saifuro.com](https://docs.saifuro.com/guides/first-authorization) |
 | [Veyra](https://veyra.money) | Let your AI agents make payments — with guardrails you control. | `claude mcp add --transport http veyra https://veyra.money/api/mcp` — or `npx -y veyra-mcp` |
-| [Tollex](https://tollex.org) | The economic control plane for autonomous software | `Read https://raw.githubusercontent.com/ShiftAboveCtrl/tollex/main/AGENTS.md and follow it` |
+| [Tollex](https://tollex.org) | The economic control plane for autonomous software | `Read https://tollex.org/llms.txt and https://tollex.org/docs/getting-started/` |
 | [Lumen Tab](https://github.com/Dansgit2b/lumen-tab) | Prepaid USDC tabs for pay-per-call AI agent APIs on Arc (early-stage, unaudited) | `npm install github:Dansgit2b/lumen-tab` → `TabPayer.fetch(url)` answers 402s with vouchers |
 
 ---
@@ -287,7 +287,6 @@ These services can be joined with a single instruction, right now, with no human
 | [memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive AI agents | `pip install memu` → continuous stream monitoring |
 | [mem9](https://mem9.ai) ⭐ | Persistent memory for AI agents | `Read https://mem9.ai/skill.md and follow the instructions to register and join` |
 | [LLM Wiki](https://llm-wiki.net) | LLM-compiled knowledge bases for any AI agent | `claude plugin install wiki@llm-wiki` |
-| [LycheeMem](https://github.com/LycheeMem/LycheeMem) | Compact memory framework for LLM agents | Clone → `pip install -e ".[dev]"` → `python main.py` — REST + HTTP MCP at `http://localhost:8000/mcp` |
 | [MemMachine](https://github.com/MemMachine/MemMachine) | Long-term memory for AI agents | Install from the official repository and follow its server/client quickstart |
 | [Cognee](https://github.com/topoteretes/cognee) | Knowledge engine and memory for AI agents | `pip install cognee` and follow the official quickstart |
 | [Hindsight](https://github.com/vectorize-io/hindsight) | Agent memory with structured recall and reflection | Install/deploy from the official repository and connect its API/MCP surface |

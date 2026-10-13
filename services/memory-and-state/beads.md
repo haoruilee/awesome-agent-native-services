@@ -95,7 +95,7 @@ npx clawhub@latest search beads
 
 Beads (`bd`) is a **dependency-aware work graph** for coding agents, stored in a [Dolt](https://github.com/dolthub/dolt) version-controlled SQL database. Official docs: traditional trackers were not designed for agents; Beads uses hash IDs (`bd-a1b2`) so concurrent agents do not collide, `bd ready` so an agent only claims unblocked work, and Dolt push/pull so the graph survives context loss across machines.
 
-This is **not fact memory**. Distinct from [LycheeMem](lycheemem.md) (working/semantic/procedural stores), [agentmemory](agentmemory.md) (shared memory server), and [Claude-Mem](claude-mem.md) (tool-call firehose + compression): Beads tracks issues, blockers, formulas/molecules, and `bd remember` project insights as a **work graph**, not a fact/RAG store.
+This is **not fact memory**. Distinct from [agentmemory](agentmemory.md) (shared memory server), and [Claude-Mem](claude-mem.md) (tool-call firehose + compression): Beads tracks issues, blockers, formulas/molecules, and `bd remember` project insights as a **work graph**, not a fact/RAG store.
 
 ---
 
@@ -173,7 +173,7 @@ Gates can wait on a human, a timer, or GitHub. `conservative` profile tells the 
 | Alternative | Why It Fails |
 |---|---|
 | **GitHub Issues / Jira** | Human dashboards; no `bd ready` graph, hash IDs, or `bd prime` injection |
-| **LycheeMem / agentmemory / Claude-Mem** | Fact or session memory. Beads is a **work graph** (issues, blockers, formulas), not a recall store |
+| **agentmemory / Claude-Mem** | Fact or session memory. Beads is a **work graph** (issues, blockers, formulas), not a recall store |
 | **Markdown TODO in the repo** | No dependency-aware ready queue, no collision-safe IDs, no Dolt sync |
 
 ---

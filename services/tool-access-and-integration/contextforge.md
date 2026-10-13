@@ -12,7 +12,7 @@
 | **Category** | [Tool Access & Integration Services](README.md) |
 | **License** | Apache-2.0 |
 | **Latest-month signal** | Last GitHub push 2026-08-25 ([repo metadata](https://api.github.com/repos/IBM/mcp-context-forge)); PyPI `mcp-contextforge-gateway`; image `ghcr.io/ibm/mcp-context-forge` |
-| **Verified at** | 2026-08-25 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

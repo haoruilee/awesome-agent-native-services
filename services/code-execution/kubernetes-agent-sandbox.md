@@ -12,7 +12,7 @@
 | **Category** | [Code Execution Services](README.md) |
 | **License** | Apache-2.0 |
 | **Latest-month signal** | Last GitHub push 2026-08-25 ([repo metadata](https://api.github.com/repos/kubernetes-sigs/agent-sandbox)); Python package `k8s-agent-sandbox`; SIG Apps CRD |
-| **Verified at** | 2026-08-25 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

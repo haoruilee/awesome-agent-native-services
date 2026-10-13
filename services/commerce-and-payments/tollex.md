@@ -6,7 +6,6 @@
 |---|---|
 | **Website** | https://tollex.org |
 | **Docs** | https://tollex.org/docs/ |
-| **GitHub** | https://github.com/ShiftAboveCtrl/tollex |
 | **Classification** | `agent-native` |
 | **Category** | [Commerce & Payment Services](README.md) |
 | **Chains** | Base (USDC), Robinhood Chain (USDG) |
@@ -22,7 +21,7 @@ https://tollex.org
 
 ## Official Repo
 
-https://github.com/ShiftAboveCtrl/tollex (agent instructions, examples for TypeScript, Python, A2A, LangGraph, CrewAI and Google ADK, and the Agent Skill)
+The public GitHub repository (previously `ShiftAboveCtrl/tollex`) returned 404 on 2026-10-13. Use the official developer docs instead: https://tollex.org/developers/ and https://tollex.org/docs/getting-started/ (agent-readable summary at https://tollex.org/llms.txt).
 
 ---
 
@@ -31,7 +30,7 @@ https://github.com/ShiftAboveCtrl/tollex (agent instructions, examples for TypeS
 **Quickest verified path:**
 
 ```
-Read https://raw.githubusercontent.com/ShiftAboveCtrl/tollex/main/AGENTS.md and follow it.
+Read https://tollex.org/llms.txt, then follow https://tollex.org/docs/getting-started/
 ```
 
 Free planning, no wallet needed:
@@ -40,11 +39,7 @@ Free planning, no wallet needed:
 curl -s https://api.tollex.org/v1/resolve -H 'content-type: application/json' -d '{"need":"latest block on Robinhood Chain"}'
 ```
 
-First paid call (about 0.008 USD in USDC on Base, refused locally above the ceiling):
-
-```bash
-TOLLEX_PRIVATE_KEY=0x... uv run https://raw.githubusercontent.com/ShiftAboveCtrl/tollex/main/examples/agent-check/agent_check.py --pay --max 10000
-```
+First paid call (about 0.008 USD in USDC on Base): answer the HTTP 402 x402 challenge per https://tollex.org/docs/api/ (OpenAPI with `x-payment-info` at https://api.tollex.org/openapi.json). The former GitHub `agent_check.py` example is unavailable while the repository returns 404.
 
 ---
 
@@ -52,15 +47,11 @@ TOLLEX_PRIVATE_KEY=0x... uv run https://raw.githubusercontent.com/ShiftAboveCtrl
 
 Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
 
-**Status:** ✅ Official skill published
-
-```bash
-npx skills add ShiftAboveCtrl/tollex
-```
+**Status:** ⚠️ Official skill unavailable — its GitHub repository (`ShiftAboveCtrl/tollex`) returned 404 on 2026-10-13
 
 | Skill | What it teaches |
 |---|---|
-| [`tollex`](https://github.com/ShiftAboveCtrl/tollex/blob/main/skills/tollex/SKILL.md) | Plan for free, pay one x402 call only within a ceiling the user set, verify the signed receipt, never re-sign a pending payment |
+| `tollex` (skill repo currently unavailable; see [developer docs](https://tollex.org/developers/)) | Plan for free, pay one x402 call only within a ceiling the user set, verify the signed receipt, never re-sign a pending payment |
 
 ---
 
@@ -82,7 +73,7 @@ Tollex sells paid capabilities to software agents: Robinhood Chain reads (blocks
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | "Instructions for an AI agent or coding agent integrating Tollex" ([AGENTS.md](https://github.com/ShiftAboveCtrl/tollex/blob/main/AGENTS.md)); the buyer is software, there is no human checkout |
+| **Agent-first positioning** | "Instructions for an AI agent or coding agent integrating Tollex" ([tollex.org/llms.txt](https://tollex.org/llms.txt), [developer docs](https://tollex.org/developers/)); the buyer is software, there is no human checkout |
 | **Agent-specific primitive** | `POST /v1/resolve`: a need plus typed constraints (max cost, networks, receipt required) returns an explained plan without spending; signed execution receipt per paid call; operation status for recovery |
 | **Autonomy-compatible control plane** | The agent pays without per-action confirmation once the operator opts in with a per-call ceiling; Tollex refuses any payment that does not match the live terms exactly |
 | **M2M integration surface** | HTTP + x402 v2, OpenAPI 3.1 (`/openapi.json`), A2A JSON-RPC with the a2a-x402 extension, `/.well-known/tollex.json`, `llms.txt` |

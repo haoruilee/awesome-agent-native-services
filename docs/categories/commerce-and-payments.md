@@ -169,7 +169,6 @@ service_count: 17
     <h2 class="service-card__title">Tollex</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/tollex.md">Open dossier ↗</a>
-      <a href="https://github.com/ShiftAboveCtrl/tollex">Official repo ↗</a>
     </div>
     </div>
   </article>

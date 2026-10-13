@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-10-11",
-  "generated_at": "2026-10-11",
+  "catalog_version": "2026-10-13",
+  "generated_at": "2026-10-13",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "a5c84bcf85282a41c8e8f4cbd66517808894248593c1373d0cbcccfd6aa4ca1d",
+      "value": "fd1551863c7d603f32d60cb48e9a4f9d4abcc9694eb91351def13b991619b49a",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -169,7 +169,6 @@
         "services/memory-and-state/graphiti.md",
         "services/memory-and-state/hindsight.md",
         "services/memory-and-state/llm-wiki.md",
-        "services/memory-and-state/lycheemem.md",
         "services/memory-and-state/mcp-memory-service.md",
         "services/memory-and-state/mem0.md",
         "services/memory-and-state/mem9.md",
@@ -284,7 +283,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 248
+    "services": 247
   },
   "categories": [
     {
@@ -341,7 +340,7 @@
       "name": "Memory & State",
       "description": "Services that give AI agents persistent, queryable memory across sessions — treating memory as infrastructure rather than application logic, and managing the full lifecycle of what agents remember, forget, and retrieve.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md",
-      "service_count": 31
+      "service_count": 30
     },
     {
       "id": "search-and-web-intelligence",
@@ -1716,7 +1715,7 @@
       "mcp_status": "available",
       "agent_skill_status": "available",
       "latest_month_signal": "Last GitHub push 2026-07-24 (repo metadata). Quieter than neighboring browser rows — verify master before depending on a weekly release cadence",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/vibheksoni/stealth-browser-mcp"
       ]
@@ -1936,7 +1935,7 @@
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
       "latest_month_signal": "Last GitHub push 2026-08-25 (repo metadata); PyPI mcp-contextforge-gateway; image ghcr.io/ibm/mcp-context-forge",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/IBM/mcp-context-forge"
       ]
@@ -2064,7 +2063,7 @@
       "mcp_status": "available",
       "agent_skill_status": "available",
       "latest_month_signal": "Last GitHub push 2026-08-25 (repo metadata)",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/agentic-community/mcp-gateway-registry"
       ]
@@ -2326,7 +2325,7 @@
       "mcp_status": "available",
       "agent_skill_status": "available",
       "latest_month_signal": "Last GitHub push 2026-08-23; immutable v0.1.17 published 2026-08-19",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://github.com/sandbaseai/cli/releases/tag/v0.1.17"
       ]
@@ -2736,7 +2735,7 @@
       "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
       "latest_month_signal": "Last *code* push 2026-06-17 (repo metadata); docs/site still served. Quieter than neighboring commerce repos — disclose before treating samples as weekly-fresh",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/google-agentic-commerce/AP2"
       ]
@@ -2848,7 +2847,7 @@
         "type": "sdk",
         "pattern": null,
         "instruction": "npm install github:Dansgit2b/lumen-tab",
-        "url": "https://api.example/paid"
+        "url": "https://github.com/Dansgit2b/lumen-tab/blob/main/examples/agent.mjs"
       },
       "protocols": [
         "sdk",
@@ -2891,7 +2890,7 @@
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
       "latest_month_signal": "Last wevm/mppx push 2026-08-27 (repo metadata); thinner star count than neighboring commerce OSS — still the documented TypeScript SDK",
-      "verified_at": "2026-08-27",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/wevm/mppx"
       ]
@@ -3096,23 +3095,23 @@
       "lifecycle_status": "unknown",
       "category": "commerce-and-payments",
       "website": "https://tollex.org",
-      "repository": "https://github.com/ShiftAboveCtrl/tollex",
+      "repository": null,
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/tollex.md",
       "source_path": "services/commerce-and-payments/tollex.md",
       "onboarding": {
-        "type": "documentation",
-        "pattern": null,
-        "instruction": "Read https://raw.githubusercontent.com/ShiftAboveCtrl/tollex/main/AGENTS.md and follow it.",
-        "url": "https://raw.githubusercontent.com/ShiftAboveCtrl/tollex/main/AGENTS.md"
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://tollex.org/llms.txt, then follow https://tollex.org/docs/getting-started/",
+        "url": "https://tollex.org/llms.txt"
       },
       "protocols": [
+        "url-onboarding",
         "agent-skill",
         "a2a",
         "openapi",
         "json-rpc",
         "http",
-        "api",
-        "documentation"
+        "api"
       ],
       "mcp_status": "unknown",
       "agent_skill_status": "available",
@@ -3151,7 +3150,7 @@
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
       "latest_month_signal": "Last GitHub push 2026-08-25 (repo metadata); spec + docs repo",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/Universal-Commerce-Protocol/ucp"
       ]
@@ -3315,7 +3314,7 @@
       "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
       "latest_month_signal": "Last GitHub push 2026-08-25 (repo metadata); early development, APIs expected to change",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/agent-substrate/substrate"
       ]
@@ -4367,7 +4366,7 @@
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
       "latest_month_signal": "Last GitHub push 2026-08-21 (repo metadata); developer-preview release with public Web UI entry (npx @deepseek-ai/dsh web)",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/deepseek-ai/deepseek-harness"
       ]
@@ -4768,7 +4767,7 @@
       "mcp_status": "available",
       "agent_skill_status": "available",
       "latest_month_signal": "Last GitHub push 2026-08-26 (repo metadata); npm/plugin installers for Claude Code, Cursor, Windsurf, OpenCode, Codex CLI, Antigravity CLI, OpenClaw",
-      "verified_at": "2026-08-27",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/thedotmack/claude-mem"
       ]
@@ -4904,7 +4903,7 @@
       "mcp_status": "available",
       "agent_skill_status": "available",
       "latest_month_signal": "Last GitHub push 2026-08-27 (repo metadata); Homebrew tap + engram setup <agent> matrix",
-      "verified_at": "2026-08-27",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/Gentleman-Programming/engram"
       ]
@@ -5064,38 +5063,6 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": null,
-      "verified_at": null,
-      "verification_sources": []
-    },
-    {
-      "id": "memory-and-state/lycheemem",
-      "slug": "lycheemem",
-      "name": "LycheeMem",
-      "tagline": "LycheeMem is a compact memory framework for LLM agents.",
-      "classification": "agent-native",
-      "status": "listed",
-      "lifecycle_status": "unknown",
-      "category": "memory-and-state",
-      "website": "https://lycheemem.github.io/",
-      "repository": "https://github.com/LycheeMem/LycheeMem",
-      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/lycheemem.md",
-      "source_path": "services/memory-and-state/lycheemem.md",
-      "onboarding": {
-        "type": "mcp",
-        "pattern": "SDK / REST + MCP (HTTP) + optional OpenClaw plugin",
-        "instruction": "git clone https://github.com/LycheeMem/LycheeMem.git && cd LycheeMem\npip install -e \".[dev]\"\ncp .env.example .env   # set LLM_MODEL, LLM_API_KEY, embedder vars\npython main.py         # API at http://localhost:8000 — docs at /docs",
-        "url": "https://github.com/LycheeMem/LycheeMem.git"
-      },
-      "protocols": [
-        "mcp",
-        "rest",
-        "openapi",
-        "http",
-        "api"
-      ],
-      "mcp_status": "available",
-      "agent_skill_status": "unknown",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
@@ -5426,7 +5393,7 @@
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
       "latest_month_signal": "Last GitHub push 2026-08-25 (repo metadata); default branch develop; PyPI package mempalace",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/MemPalace/mempalace"
       ]
@@ -5459,7 +5426,7 @@
       "mcp_status": "available",
       "agent_skill_status": "available",
       "latest_month_signal": "Last GitHub push 2026-08-23 (repo metadata); DeepSeek Harness plugin documented",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/zilliztech/memsearch"
       ]
@@ -6103,7 +6070,7 @@
       "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
       "latest_month_signal": "Last GitHub push 2026-08-13 (repo metadata); Homebrew tap clawkwork/tap/clawk",
-      "verified_at": "2026-08-27",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/clawkwork/clawk"
       ]
@@ -6199,7 +6166,7 @@
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
       "latest_month_signal": "Last GitHub push 2026-08-14 (repo metadata); npx skills add BitMiracle-AI/Dormice",
-      "verified_at": "2026-08-27",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/BitMiracle-AI/Dormice"
       ]
@@ -6296,7 +6263,7 @@
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
       "latest_month_signal": "Last GitHub push 2026-08-25 (repo metadata); Python package k8s-agent-sandbox; SIG Apps CRD",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/kubernetes-sigs/agent-sandbox"
       ]
@@ -6609,7 +6576,7 @@
       "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
       "latest_month_signal": "Last GitHub push 2026-08-25 (repo metadata); docs updated 2026-08-24",
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/eunomia-bpf/agentsight"
       ]
@@ -7633,7 +7600,7 @@
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
       "latest_month_signal": null,
-      "verified_at": "2026-08-25",
+      "verified_at": "2026-10-13",
       "verification_sources": [
         "https://github.com/maximhq/bifrost"
       ]

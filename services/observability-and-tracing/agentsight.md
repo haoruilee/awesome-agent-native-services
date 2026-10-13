@@ -12,7 +12,7 @@
 | **Category** | [Observability & Tracing Services](README.md) |
 | **License** | MIT |
 | **Latest-month signal** | Last GitHub push 2026-08-25 ([repo metadata](https://api.github.com/repos/eunomia-bpf/agentsight)); docs updated 2026-08-24 |
-| **Verified at** | 2026-08-25 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

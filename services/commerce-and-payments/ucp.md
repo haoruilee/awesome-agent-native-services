@@ -12,7 +12,7 @@
 | **Category** | [Commerce & Payment Services](README.md) |
 | **License** | Apache-2.0 |
 | **Latest-month signal** | Last GitHub push 2026-08-25 ([repo metadata](https://api.github.com/repos/Universal-Commerce-Protocol/ucp)); spec + docs repo |
-| **Verified at** | 2026-08-25 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

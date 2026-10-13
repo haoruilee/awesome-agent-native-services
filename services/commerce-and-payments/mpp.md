@@ -12,7 +12,7 @@
 | **Category** | [Commerce & Payment Services](README.md) |
 | **License** | MIT (`wevm/mppx`); protocol/site repos are separate (see Official Repo) |
 | **Latest-month signal** | Last `wevm/mppx` push 2026-08-27 ([repo metadata](https://api.github.com/repos/wevm/mppx)); thinner star count than neighboring commerce OSS — still the documented TypeScript SDK |
-| **Verified at** | 2026-08-27 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

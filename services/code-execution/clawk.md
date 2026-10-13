@@ -13,7 +13,7 @@
 | **License** | Apache-2.0 |
 | **Maturity** | ⚠️ Pre-1.0 — official README: expect breaking changes ([Status](https://github.com/clawkwork/clawk/blob/main/README.md#status)) |
 | **Latest-month signal** | Last GitHub push 2026-08-13 ([repo metadata](https://api.github.com/repos/clawkwork/clawk)); Homebrew tap `clawkwork/tap/clawk` |
-| **Verified at** | 2026-08-27 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

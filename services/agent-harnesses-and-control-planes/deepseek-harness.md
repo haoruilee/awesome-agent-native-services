@@ -12,7 +12,7 @@
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | MIT |
 | **Latest-month signal** | Last GitHub push 2026-08-21 ([repo metadata](https://api.github.com/repos/deepseek-ai/deepseek-harness)); developer-preview release with public Web UI entry (`npx @deepseek-ai/dsh web`) |
-| **Verified at** | 2026-08-25 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

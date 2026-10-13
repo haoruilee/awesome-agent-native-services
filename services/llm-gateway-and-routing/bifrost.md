@@ -11,7 +11,7 @@
 | **Classification** | `agent-native` |
 | **Category** | [LLM Gateway & Routing Services](README.md) |
 | **License** | Apache-2.0 |
-| **Verified at** | 2026-08-25 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

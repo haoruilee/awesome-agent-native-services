@@ -12,7 +12,7 @@
 | **Category** | [Memory & State Services](README.md) |
 | **License** | Apache-2.0 (relicensed from AGPL-3.0 in [v13.0.0, 2026-05-08](https://github.com/thedotmack/claude-mem/blob/main/CHANGELOG.md)) |
 | **Latest-month signal** | Last GitHub push 2026-08-26 ([repo metadata](https://api.github.com/repos/thedotmack/claude-mem)); npm/plugin installers for Claude Code, Cursor, Windsurf, OpenCode, Codex CLI, Antigravity CLI, OpenClaw |
-| **Verified at** | 2026-08-27 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

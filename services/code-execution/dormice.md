@@ -13,7 +13,7 @@
 | **License** | Apache-2.0 |
 | **Maturity** | ⚠️ Early development — official README: **"Nothing here is ready for production yet."** Same honesty bar as [Axern](axern.md) |
 | **Latest-month signal** | Last GitHub push 2026-08-14 ([repo metadata](https://api.github.com/repos/BitMiracle-AI/Dormice)); `npx skills add BitMiracle-AI/Dormice` |
-| **Verified at** | 2026-08-27 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

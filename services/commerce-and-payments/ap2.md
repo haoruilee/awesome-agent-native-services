@@ -12,7 +12,7 @@
 | **Category** | [Commerce & Payment Services](README.md) |
 | **License** | Apache-2.0 |
 | **Latest-month signal** | Last *code* push 2026-06-17 ([repo metadata](https://api.github.com/repos/google-agentic-commerce/AP2)); docs/site still served. Quieter than neighboring commerce repos — disclose before treating samples as weekly-fresh |
-| **Verified at** | 2026-08-25 |
+| **Verified at** | 2026-10-13 |
 
 ---
 

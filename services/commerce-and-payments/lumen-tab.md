@@ -42,10 +42,10 @@ npm install github:Dansgit2b/lumen-tab
 ```js
 import { TabPayer } from "lumen-tab";
 const payer = new TabPayer({ account, tabId, provider });
-const res = await payer.fetch("https://api.example/paid"); // 402 → voucher → retry
+const res = await payer.fetch(PAID_API_URL); // any Lumen Tab–paywalled endpoint: 402 → voucher → retry
 ```
 
-Providers add the `lumenTabPaywall` Express middleware and run `Settler` to batch-redeem. The repository's `examples/agent.mjs` opens a tab (`openTab`) and pays a reference URL → Markdown API at 0.002 USDC per call.
+Providers add the `lumenTabPaywall` Express middleware and run `Settler` to batch-redeem. The repository's [`examples/agent.mjs`](https://github.com/Dansgit2b/lumen-tab/blob/main/examples/agent.mjs) opens a tab (`openTab`) and pays a reference URL → Markdown API at 0.002 USDC per call.
 
 ---
 

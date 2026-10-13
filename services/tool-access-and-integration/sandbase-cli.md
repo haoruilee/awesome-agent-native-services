@@ -12,7 +12,7 @@
 | **Category** | [Tool Access & Integration Services](README.md) |
 | **License** | Apache-2.0 |
 | **Latest-month signal** | Last GitHub push 2026-08-23; immutable [`v0.1.17`](https://github.com/sandbaseai/cli/releases/tag/v0.1.17) published 2026-08-19 |
-| **Verified at** | 2026-08-25 |
+| **Verified at** | 2026-10-13 |
 
 This entry catalogs **SandBase CLI** — the local MCP bridge and published Agent Skill — not the broader SandBase store, harness, or skills org. Issue [#103](https://github.com/haoruilee/awesome-agent-native-services/issues/103) was submitted by an authorized promoter.
 

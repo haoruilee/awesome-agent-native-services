@@ -12,7 +12,7 @@
 | **Category** | [Browser & Web Execution Services](README.md) |
 | **License** | MIT |
 | **Latest-month signal** | Last GitHub push 2026-07-24 ([repo metadata](https://api.github.com/repos/vibheksoni/stealth-browser-mcp)). Quieter than neighboring browser rows — verify `master` before depending on a weekly release cadence |
-| **Verified at** | 2026-08-25 |
+| **Verified at** | 2026-10-13 |
 
 ---
 
