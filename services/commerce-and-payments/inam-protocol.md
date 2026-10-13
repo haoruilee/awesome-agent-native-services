@@ -14,8 +14,8 @@
 | **Contact** | hello@inamprotocol.org |
 | **Publisher** | INAM Protocol. The proposal author disclosed in [issue #195](https://github.com/haoruilee/awesome-agent-native-services/issues/195) that they maintain INAM Protocol |
 | **Verified at** | 2026-10-13 |
-| **Latest-month signal** | `GET https://api.inamprotocol.org/v1/health` returned `status: ok`, registry `0.12.0`, spec `0.41`, MCP `0.6.0`. `GET https://api.inamprotocol.org/v1/transparency/sth` returned tree size 12. MCP `initialize` on `POST https://api.inamprotocol.org/mcp` returned server name `inam-mcp`, version `0.6.0`. npm `inamprotocol` 0.21.0, PyPI `inamprotocol` 0.13.0 |
-| **Status** | **Early-stage.** Launched August 2026, spec is a draft (v0.41), little outside usage so far (12 finalized receipts in the public log on 2026-10-13). Stake is in the data model but cannot be posted yet. |
+| **Latest-month signal** | `GET https://api.inamprotocol.org/v1/health` returned `status: ok`, registry `0.12.0`, spec `0.42`, MCP `0.6.0`. `GET https://api.inamprotocol.org/v1/transparency/sth` returned tree size 12. MCP `initialize` on `POST https://api.inamprotocol.org/mcp` returned server name `inam-mcp`, version `0.6.0`. npm `inamprotocol` 0.21.0, PyPI `inamprotocol` 0.13.0 |
+| **Status** | **Early-stage.** Launched August 2026, spec is a draft (v0.42), little outside usage so far (12 finalized receipts in the public log on 2026-10-13). Stake is in the data model but cannot be posted yet. |
 
 ---
 

@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "3f2cb9de8d5d4401260f08b2b62a8a231a2e660ebf930606be1b8579d81f8a99",
+      "value": "c53d81a82d9814024f5b72d25537dd9471c193a42cc863cd37a3f0c129eb55bd",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -2900,7 +2900,7 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "GET https://api.inamprotocol.org/v1/health returned status: ok, registry 0.12.0, spec 0.41, MCP 0.6.0. GET https://api.inamprotocol.org/v1/transparency/sth returned tree size 12. MCP initialize on POST https://api.inamprotocol.org/mcp returned server name inam-mcp, version 0.6.0. npm inamprotocol 0.21.0, PyPI inamprotocol 0.13.0",
+      "latest_month_signal": "GET https://api.inamprotocol.org/v1/health returned status: ok, registry 0.12.0, spec 0.42, MCP 0.6.0. GET https://api.inamprotocol.org/v1/transparency/sth returned tree size 12. MCP initialize on POST https://api.inamprotocol.org/mcp returned server name inam-mcp, version 0.6.0. npm inamprotocol 0.21.0, PyPI inamprotocol 0.13.0",
       "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.inamprotocol.org/v1/health",
