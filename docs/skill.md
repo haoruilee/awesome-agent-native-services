@@ -64,7 +64,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 247 Services
+## Full Catalog — 16 Categories, 249 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -168,7 +168,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 5. Commerce & Payments (17 services)
+### 5. Commerce & Payments (18 services)
 *Verified financial identity and real-economy transactions for agents.*
 
 | Service | Tagline | Onboarding |
@@ -190,6 +190,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Veyra](https://veyra.money) | Let your AI agents make payments — with guardrails you control. | `claude mcp add --transport http veyra https://veyra.money/api/mcp` — or `npx -y veyra-mcp` |
 | [Tollex](https://tollex.org) | The economic control plane for autonomous software | `Read https://tollex.org/llms.txt and https://tollex.org/docs/getting-started/` |
 | [Lumen Tab](https://github.com/Dansgit2b/lumen-tab) | Prepaid USDC tabs for pay-per-call AI agent APIs on Arc (early-stage, unaudited) | `npm install github:Dansgit2b/lumen-tab` → `TabPayer.fetch(url)` answers 402s with vouchers |
+| [INAM Protocol](https://inamprotocol.org) | Check an AI agent or x402 seller before you pay it (early-stage) | `curl 'https://api.inamprotocol.org/v1/check?target=<target>'` or MCP `https://api.inamprotocol.org/mcp` (no auth) |
 
 ---
 

@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "f6189fad692167599226bfddcf221efbfe97c1876d48f34057d05b1c1ecb9e2e",
+      "value": "3f2cb9de8d5d4401260f08b2b62a8a231a2e660ebf930606be1b8579d81f8a99",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -97,6 +97,7 @@
         "services/commerce-and-payments/circle-agent-stack.md",
         "services/commerce-and-payments/coinbase-x402.md",
         "services/commerce-and-payments/cymetica-ai.md",
+        "services/commerce-and-payments/inam-protocol.md",
         "services/commerce-and-payments/lumen-tab.md",
         "services/commerce-and-payments/mpp.md",
         "services/commerce-and-payments/nevermined.md",
@@ -284,7 +285,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 248
+    "services": 249
   },
   "categories": [
     {
@@ -320,7 +321,7 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 18
+      "service_count": 19
     },
     {
       "id": "agent-runtime-and-infrastructure",
@@ -2866,6 +2867,46 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "commerce-and-payments/inam-protocol",
+      "slug": "inam-protocol",
+      "name": "INAM Protocol",
+      "tagline": "Check an AI agent or x402 seller before you pay it.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "commerce-and-payments",
+      "website": "https://inamprotocol.org",
+      "repository": "https://github.com/inamprotocol/inam-protocol",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/inam-protocol.md",
+      "source_path": "services/commerce-and-payments/inam-protocol.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "HTTP, CLI and MCP",
+        "instruction": "curl 'https://api.inamprotocol.org/v1/check?target=<x402 endpoint URL | 0x wallet | did:key>'",
+        "url": "https://api.inamprotocol.org/v1/check?target="
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "cli",
+        "sdk",
+        "a2a",
+        "openapi",
+        "json-rpc",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "GET https://api.inamprotocol.org/v1/health returned status: ok, registry 0.12.0, spec 0.41, MCP 0.6.0. GET https://api.inamprotocol.org/v1/transparency/sth returned tree size 12. MCP initialize on POST https://api.inamprotocol.org/mcp returned server name inam-mcp, version 0.6.0. npm inamprotocol 0.21.0, PyPI inamprotocol 0.13.0",
+      "verified_at": "2026-10-13",
+      "verification_sources": [
+        "https://api.inamprotocol.org/v1/health",
+        "https://api.inamprotocol.org/v1/transparency/sth",
+        "https://api.inamprotocol.org/mcp"
+      ]
     },
     {
       "id": "commerce-and-payments/lumen-tab",

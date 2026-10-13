@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**247 services across 16 categories.**
+**249 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -93,7 +93,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 27 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
-| 5 | [Commerce & Payments](#5-commerce--payment-services) | 17 | Agent-native wallets, identity, and transactions |
+| 5 | [Commerce & Payments](#5-commerce--payment-services) | 19 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 33 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 31 | Persistent agent memory across sessions |
@@ -252,6 +252,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Veyra](services/commerce-and-payments/veyra.md) [![⭐](https://img.shields.io/github/stars/zapxlabs/veyra-mcp?style=social)](https://github.com/zapxlabs/veyra-mcp) | Let your AI agents make payments — with guardrails you control. | Per-agent MCP endpoint · auto/ask/block · Base USDC · simulated rail | ✅ | `claude mcp add --transport http veyra https://veyra.money/api/mcp` — or `npx -y veyra-mcp` |
 | [Lumen Tab](services/commerce-and-payments/lumen-tab.md) [![⭐](https://img.shields.io/github/stars/Dansgit2b/lumen-tab?style=social)](https://github.com/Dansgit2b/lumen-tab) | Prepaid USDC tabs for pay-per-call AI agent APIs on Arc | Prepaid tab (payment channel) · EIP-712 vouchers · HTTP 402 · ERC-8004 provider id · early-stage, unaudited | ⚠️ | `npm install github:Dansgit2b/lumen-tab` then `new TabPayer({ account, tabId, provider }).fetch(url)` |
 | [402xAgent](services/commerce-and-payments/402xagent.md) [![⭐](https://img.shields.io/github/stars/withgrokbot/x402-spotcheck?style=social)](https://github.com/withgrokbot/x402-spotcheck) | The check an agent calls before paying any x402 endpoint | Unpaid 402 probe · pay/skip/recheck verdict · public receipts · never pays the target | ✅ | Call `https://api.402xagent.com/v1/products/endpoint-spot-check?url=<endpoint>` or MCP `https://api.402xagent.com/mcp` (tool `endpoint_spot_check`) |
+| [INAM Protocol](services/commerce-and-payments/inam-protocol.md) [![⭐](https://img.shields.io/github/stars/inamprotocol/inam-protocol?style=social)](https://github.com/inamprotocol/inam-protocol) | Check an AI agent or x402 seller before you pay it | Two-party signed receipts (did:key) · Merkle transparency log · evidence-level reputation · x402 payTo binding check · early-stage | ✅ | `curl 'https://api.inamprotocol.org/v1/check?target=<target>'` or `npx inamprotocol check <target>` — MCP `https://api.inamprotocol.org/mcp` (no auth) |
 
 ---
 
