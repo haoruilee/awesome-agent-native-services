@@ -35,6 +35,7 @@ No legacy payment processor was designed with these requirements. The services i
 | [Saifuro](saifuro.md) | The financial OS for the AI agent economy | REST API, ES256 signed verdicts + public JWKS, webhooks, NDJSON export, private TS SDK | ⚠️ |
 | [Veyra](veyra.md) [![⭐](https://img.shields.io/github/stars/zapxlabs/veyra-mcp?style=social)](https://github.com/zapxlabs/veyra-mcp) | Let your AI agents make payments — with guardrails you control. | Per-agent MCP endpoint · auto/ask/block bands · Base USDC · simulated rail | ✅ |
 | [Lumen Tab](lumen-tab.md) [![⭐](https://img.shields.io/github/stars/Dansgit2b/lumen-tab?style=social)](https://github.com/Dansgit2b/lumen-tab) | Prepaid USDC tabs for pay-per-call AI agent APIs on Arc | Arc contract, viem JS SDK, HTTP 402 vouchers, Express paywall (early-stage, unaudited) | ⚠️ |
+| [402xAgent](402xagent.md) [![⭐](https://img.shields.io/github/stars/withgrokbot/x402-spotcheck?style=social)](https://github.com/withgrokbot/x402-spotcheck) | The check an agent calls before paying any x402 endpoint | Unpaid 402 probe · pay/skip/recheck verdict · public receipts · HTTP + MCP + fetch wrapper | ✅ |
 
 
 ---
