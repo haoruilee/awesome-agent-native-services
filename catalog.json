@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "dd57eb566a8c0023858818da7bba3f44aa33606a6eb4a909930e86db280ab985",
+      "value": "6e22904f96e1c294ee74d1c05c6f3aa68f0c5ea2f82e0021d59c2e51ee74d6c9",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -210,6 +210,7 @@
         "services/code-execution/e2b.md",
         "services/code-execution/forkd.md",
         "services/code-execution/kubernetes-agent-sandbox.md",
+        "services/code-execution/latchkey.md",
         "services/code-execution/opensandbox.md",
         "services/code-execution/riza.md",
         "services/code-execution/runloop.md",
@@ -285,7 +286,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 249
+    "services": 250
   },
   "categories": [
     {
@@ -356,7 +357,7 @@
       "name": "Code Execution",
       "description": "Services that give AI agents a secure, isolated runtime for executing generated code — without human-side sandbox setup, without risking the host environment, and with output formatted for direct LLM consumption.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/README.md",
-      "service_count": 15
+      "service_count": 16
     },
     {
       "id": "observability-and-tracing",
@@ -6345,6 +6346,39 @@
       "verification_sources": [
         "https://api.github.com/repos/kubernetes-sigs/agent-sandbox"
       ]
+    },
+    {
+      "id": "code-execution/latchkey",
+      "slug": "latchkey",
+      "name": "Latchkey",
+      "tagline": "CI your coding agents can run, read and fix.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "code-execution",
+      "website": "https://latchkey.dev",
+      "repository": "https://github.com/latchkey-dev/cache-action",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/latchkey.md",
+      "source_path": "services/code-execution/latchkey.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": null,
+        "instruction": "# Agent instructions (when to use it, how to call it, MCP / REST / CLI):\nRead https://latchkey.dev/agent.txt and follow the instructions.\n\n# MCP (Streamable HTTP):\nclaude mcp add --transport http latchkey https://latchkey.dev/mcp --header \"Authorization: Bearer $LATCHKEY_TOKEN\"\n\n# CLI:\nnpm install -g @latchkeydev/cli  # then: latchkey run 'npm test'",
+        "url": "https://latchkey.dev/agent.txt"
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "cli",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "code-execution/opensandbox",

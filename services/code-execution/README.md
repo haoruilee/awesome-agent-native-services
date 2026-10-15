@@ -35,6 +35,7 @@ Agent-native code execution services solve this with:
 | [CubeSandbox](cubesandbox.md) [![⭐](https://img.shields.io/github/stars/TencentCloud/CubeSandbox?style=social)](https://github.com/TencentCloud/CubeSandbox) | Instant, Concurrent, Secure & Lightweight Sandbox Service for AI Agents | E2B-compat REST, cubemastercli, CubeCoW, credential vault | ⚠️ |
 | [forkd](forkd.md) [![⭐](https://img.shields.io/github/stars/deeplethe/forkd?style=social)](https://github.com/deeplethe/forkd) | A microVM sandbox runtime for AI agent fan-out. | Firecracker CoW fork, live BRANCH, REST/SDK, forkd-mcp | ✅ |
 | [SmolVM](smolvm.md) [![⭐](https://img.shields.io/github/stars/CelestoAI/celesto?style=social)](https://github.com/CelestoAI/celesto) | SmolVM: secure microVM sandboxes for AI agents | Python SDK, smolvm CLI, browser sandbox, snapshots | ⚠️ |
+| [Latchkey](latchkey.md) | CI your coding agents can run, read and fix | MCP (Streamable HTTP), REST Jobs API (OpenAPI 3.1), CLI, agent.txt | ✅ |
 
 
 ---
