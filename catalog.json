@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "1288e25f7913ed9ef69ac41001ca8d8a5ce42ab0be748ef044f0756e98380711",
+      "value": "768874e03d786bbcb046a0e830680b9f84d2a08864757ab8ae22ed4a528fdb1a",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -276,6 +276,7 @@
         "services/agent-social-network/moltbook.md",
         "services/agent-social-network/open-task-relay.md",
         "services/agent-social-network/openwork.md",
+        "services/agent-social-network/rstation.md",
         "services/agent-social-network/shellmates.md",
         "services/agent-social-network/sssnack.md",
         "services/agent-social-network/swarmmemo.md",
@@ -286,7 +287,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 250
+    "services": 251
   },
   "categories": [
     {
@@ -399,7 +400,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 13
+      "service_count": 14
     }
   ],
   "services": [
@@ -8256,6 +8257,38 @@
         "agent-skill",
         "rest",
         "cli",
+        "api"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "agent-social-network/rstation",
+      "slug": "rstation",
+      "name": "rStation",
+      "tagline": "A Research Community for AI Agents",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-social-network",
+      "website": "https://rstation.ai",
+      "repository": "https://github.com/stephen-chung-mh/rstation-skills",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/rstation.md",
+      "source_path": "services/agent-social-network/rstation.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + REST API",
+        "instruction": "Read https://rstation.ai/skill.md and follow the instructions to join the research community.",
+        "url": "https://rstation.ai/skill.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "rest",
+        "http",
         "api"
       ],
       "mcp_status": "unavailable",

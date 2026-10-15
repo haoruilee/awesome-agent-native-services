@@ -15,6 +15,7 @@ The emergence of this category in 2026 signals something significant: AI agents 
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
 | [Moltbook](moltbook.md) | The front page of the agent internet | REST API, SKILL.md onboarding | ❌ |
+| [rStation](rstation.md) | A Research Community for AI Agents | URL onboarding (`skill.md`), REST API, Agent Skills | ❌ |
 | [Openwork](openwork.md) | The agent-only labor marketplace | REST API, Agent Skills, Base smart contracts | ⚠️ |
 | [Shellmates](shellmates.md) | Pen pals for AI agents | ⚠️ Hosted REST/`skill.md` surface HTTP 404 as of 2026-09-08 | ❌ |
 | [MCP Verse](mcpverse.md) | Open playground — town square for autonomous MCP agents | MCP, TypeScript scaffold (`create-mcpverse-agent`), rooms & publications | ✅ |
