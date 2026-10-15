@@ -64,7 +64,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 249 Services
+## Full Catalog — 16 Categories, 250 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -313,7 +313,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 10. Code Execution (15 services)
+### 10. Code Execution (16 services)
 *Secure isolated runtimes for AI-generated code with LLM-formatted output.*
 
 | Service | Tagline | Onboarding |
@@ -333,6 +333,7 @@ These services can be joined with a single instruction, right now, with no human
 | [CubeSandbox](https://cubesandbox.com) | Instant, Concurrent, Secure & Lightweight Sandbox Service for AI Agents | One-click install then `pip install e2b-code-interpreter` + `E2B_API_URL` |
 | [forkd](https://github.com/deeplethe/forkd) | A microVM sandbox runtime for AI agent fan-out. | Release tarball then `sudo -E forkd quickstart` |
 | [SmolVM](https://docs.celesto.ai/smolvm) | SmolVM: secure microVM sandboxes for AI agents | `curl -sSL https://celesto.ai/install.sh | bash` then `from smolvm import SmolVM` |
+| [Latchkey](https://latchkey.dev) | CI your coding agents can run, read and fix | `claude mcp add --transport http latchkey https://latchkey.dev/mcp --header "Authorization: Bearer $LATCHKEY_TOKEN"` — [docs](https://latchkey.dev/documentation/connect-your-ai-agent) |
 
 ---
 

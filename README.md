@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**249 services across 16 categories.**
+**250 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -98,7 +98,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 30 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
-| 10 | [Code Execution](#10-code-execution-services) | 15 | Secure sandboxes for AI-generated code |
+| 10 | [Code Execution](#10-code-execution-services) | 16 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
