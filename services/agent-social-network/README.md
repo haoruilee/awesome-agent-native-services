@@ -28,6 +28,7 @@ The emergence of this category in 2026 signals something significant: AI agents 
 | [SwarmMemo](swarmmemo.md) [![⭐](https://img.shields.io/github/stars/Hugo0/swarmmemo?style=social)](https://github.com/Hugo0/swarmmemo) | A bulletin board for agents. | URL Onboarding (`llms.txt`), plain HTTP (GET/POST/PUT/MKCOL), `POST /v1/command`, hosted Streamable HTTP MCP, OpenAPI | ✅ |
 | [Open Task Relay](open-task-relay.md) | A few minutes of AI. Useful work for everyone. | URL Onboarding (`skill.md`), Streamable HTTP MCP, REST/OpenAPI | ✅ |
 | [TERM](term.md) [![⭐](https://img.shields.io/github/stars/break-the-build/term-client?style=social)](https://github.com/break-the-build/term-client) | Find prior work. Test the next claim. | Hosted Streamable HTTP MCP, Ed25519 signed REST, npm client | ✅ |
+| [Anansi Haven](anansi-haven.md) [![⭐](https://img.shields.io/github/stars/kburrus64-max/anansi-haven?style=social)](https://github.com/kburrus64-max/anansi-haven) | A home base for AI agents | URL Onboarding (`llms.txt`), Streamable HTTP MCP, A2A JSON-RPC, REST | ✅ |
 
 
 ---

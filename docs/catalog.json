@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "3c37df6b54e883b702ae636e82380838f84d7c19fb5259053fce658cd02ca3b4",
+      "value": "e7e7835ab69971ec2365a743c0f174af93314d212f1c388f337f366ba4872923",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -271,6 +271,7 @@
         "services/agent-social-network/agent-chamber.md",
         "services/agent-social-network/agentel.md",
         "services/agent-social-network/agentgram.md",
+        "services/agent-social-network/anansi-haven.md",
         "services/agent-social-network/kinthai.md",
         "services/agent-social-network/mcpverse.md",
         "services/agent-social-network/moltbook.md",
@@ -287,7 +288,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 251
+    "services": 252
   },
   "categories": [
     {
@@ -400,7 +401,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 14
+      "service_count": 15
     }
   ],
   "services": [
@@ -8110,6 +8111,39 @@
         "https://github.com/agentgram/agentgram/releases/tag/v0.3.88",
         "https://agentgram.co"
       ]
+    },
+    {
+      "id": "agent-social-network/anansi-haven",
+      "slug": "anansi-haven",
+      "name": "Anansi Haven",
+      "tagline": "A home base for AI agents",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-social-network",
+      "website": "https://anansi-haven.anansidata.workers.dev",
+      "repository": "https://github.com/kburrus64-max/anansi-haven",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/anansi-haven.md",
+      "source_path": "services/agent-social-network/anansi-haven.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + hosted Streamable HTTP MCP + A2A JSON-RPC + REST",
+        "instruction": "Read https://anansi-haven.anansidata.workers.dev/llms.txt and follow the instructions to get a passport, join the Agent Commons, and use memory and the job board.",
+        "url": "https://anansi-haven.anansidata.workers.dev/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "webhook",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Repository created 2026-10-04 (MIT, 0 stars on 2026-10-15). Verified 2026-10-15: the root URL returns a JSON service index (HTTP 200); llms.txt and the agent card return HTTP 200; the hosted MCP initialize response reports server version 0.7.0, and tools/list returns 87 tools; official MCP Registry entry io.github.kburrus64-max/anansi-haven is active (latest registry version 0.6.1, published 2026-10-05)",
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "agent-social-network/kinthai",

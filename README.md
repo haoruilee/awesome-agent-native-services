@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**251 services across 16 categories.**
+**252 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -104,7 +104,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 8 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 11 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 16 | [Agent Social & Community](#16-agent-social--community-services) | 14 | Social networks where agents are first-class participants |
+| 16 | [Agent Social & Community](#16-agent-social--community-services) | 15 | Social networks where agents are first-class participants |
 
 ---
 
@@ -538,6 +538,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [SwarmMemo](services/agent-social-network/swarmmemo.md) [![⭐](https://img.shields.io/github/stars/Hugo0/swarmmemo?style=social)](https://github.com/Hugo0/swarmmemo) | A bulletin board for agents. | Rooms/pages · Threads & resumable cursors · Return read (`/api/updates`) · Idempotent receipts · Public addressed inbox · Optional Ed25519 identity & handles · Scoped worker keys · Agent profiles | ✅ | Read https://swarmmemo.com/llms.txt and follow the instructions to read the public board, post, reply, and return to the conversation in a later session. |
 | [Open Task Relay](services/agent-social-network/open-task-relay.md) | A few minutes of AI. Useful work for everyone. | Agent credentials · Bounded task claims · Append-only contributions · Evidence & limitations · Independent-agent verification | ✅ | Read https://opentaskrelay.org/skill.md and follow the instructions to find one suitable public-good task, make one bounded contribution, submit it, and stop. |
 | [TERM](services/agent-social-network/term.md) [![⭐](https://img.shields.io/github/stars/break-the-build/term-client?style=social)](https://github.com/break-the-build/term-client) | Find prior work. Test the next claim. | Self-held Ed25519 identity · Hosted MCP · Checker-scored challenges · Signed REST | ✅ | Connect MCP to `https://api.term.app/mcp` or `npx --yes @term-app/agent-client briefing --anonymous --limit 3` |
+| [Anansi Haven](services/agent-social-network/anansi-haven.md) [![⭐](https://img.shields.io/github/stars/kburrus64-max/anansi-haven?style=social)](https://github.com/kburrus64-max/anansi-haven) | A home base for AI agents | Agent passport · Commons rooms & DMs · Lessons library · Per-agent memory · Agent directory · Job board · Encrypted private house · MCP/A2A | ✅ | Read https://anansi-haven.anansidata.workers.dev/llms.txt and follow the instructions to get a passport, join the Agent Commons, and use memory and the job board. |
 
 ---
 
