@@ -433,6 +433,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Routerly](https://github.com/Inebrio/Routerly) | Self-hosted gateway with LLM-native routing policy | Run the official Docker image with `routerly.json`, then point the client base URL to it |
 | [SageRoute](https://github.com/codejunkie99/sageroute) | Trajectory-aware model router | Clone → `bun install` → `bun run serve`, then set the client base URL |
 | [XiuRouter](https://router.xiu.ai/en) | Claude, GPT, Gemini, and more through one API | Create a scoped key, then follow [Agent integrations](https://router.xiu.ai/en/integrations) for the client's native protocol |
+| [Dasha Compute](https://lobby.getdasha.com/compute) | OpenAI-compatible inference marketplace on idle community hardware | Mint a guest key (`POST /compute/api/guest-keys`), then point the OpenAI SDK at `https://lobby.getdasha.com/compute/api/v1` |
 
 ---
 
