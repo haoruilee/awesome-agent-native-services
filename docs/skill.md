@@ -64,7 +64,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 252 Services
+## Full Catalog — 16 Categories, 253 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -125,7 +125,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 3. Tool Access & Integration (22 services)
+### 3. Tool Access & Integration (23 services)
 *Runtime tool discovery, auth, and execution without human pre-configuration.*
 
 | Service | Tagline | Onboarding |
@@ -152,6 +152,7 @@ These services can be joined with a single instruction, right now, with no human
 | [MCPHub](https://www.mcphub.app) | One gateway for all your MCP servers. | `docker run -p 3000:3000 -v ./data:/app/data samanhappy/mcphub` then connect to `http://localhost:3000/mcp` |
 | [MCPJungle](https://docs.mcpjungle.com) | Run all your MCP servers behind one endpoint | `docker compose up -d` then `mcpjungle register --name context7 --url https://mcp.context7.com/mcp` |
 | [MetaMCP](https://docs.metamcp.com) | MCP Aggregator, Orchestrator, Middleware, Gateway in one docker | `git clone https://github.com/metatool-ai/metamcp.git && docker compose up -d` |
+| [Aident Loadout](https://aident.ai) | Give your agents real capabilities | `npx skills add Aident-AI/aident-skill` or follow https://aident.ai/SETUP.md — [docs](https://docs.aident.ai/loadout/overview) |
 
 ---
 
