@@ -38,6 +38,7 @@ Agent-native tool access services solve all three problems with primitives that 
 | [MCPHub](mcphub.md) [![⭐](https://img.shields.io/github/stars/samanhappy/mcphub?style=social)](https://github.com/samanhappy/mcphub) | One gateway for all your MCP servers. | Docker hub, `/mcp` routes, `$smart`, bearer/OAuth, CLI | ✅ |
 | [MCPJungle](mcpjungle.md) [![⭐](https://img.shields.io/github/stars/mcpjungle/MCPJungle?style=social)](https://github.com/mcpjungle/MCPJungle) | Run all your MCP servers behind one endpoint | Compose `/mcp`, tool groups, enterprise tokens, MPL-2.0 | ✅ |
 | [MetaMCP](metamcp.md) [![⭐](https://img.shields.io/github/stars/metatool-ai/metamcp?style=social)](https://github.com/metatool-ai/metamcp) | MCP Aggregator, Orchestrator, Middleware, Gateway in one docker | Docker Compose, namespaces, middleware, `sk_mt_` keys | ✅ |
+| [Aident Loadout](aident-loadout.md) [![⭐](https://img.shields.io/github/stars/Aident-AI/aident-skill?style=social)](https://github.com/Aident-AI/aident-skill) | Give your agents real capabilities | Remote MCP (Streamable HTTP, OAuth) · Agent Skill · Vault · Audit · 400+ Skills | ✅ |
 
 
 

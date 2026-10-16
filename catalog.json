@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "e7e7835ab69971ec2365a743c0f174af93314d212f1c388f337f366ba4872923",
+      "value": "b34f70ac401c2c81703227e7a97d3eb9b1910c94ba0a094af55a4d591574a633",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -61,6 +61,7 @@
         "services/browser-and-web-execution/steel.md",
         "services/browser-and-web-execution/vessel-browser.md",
         "services/tool-access-and-integration/README.md",
+        "services/tool-access-and-integration/aident-loadout.md",
         "services/tool-access-and-integration/apify-mcp-server.md",
         "services/tool-access-and-integration/arcade.md",
         "services/tool-access-and-integration/clawhub.md",
@@ -288,7 +289,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 252
+    "services": 253
   },
   "categories": [
     {
@@ -310,7 +311,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 22
+      "service_count": 23
     },
     {
       "id": "oversight-and-approval",
@@ -1783,6 +1784,38 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "tool-access-and-integration/aident-loadout",
+      "slug": "aident-loadout",
+      "name": "Aident Loadout",
+      "tagline": "Give your agents real capabilities",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "tool-access-and-integration",
+      "website": "https://aident.ai",
+      "repository": "https://github.com/Aident-AI/aident-skill",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/aident-loadout.md",
+      "source_path": "services/tool-access-and-integration/aident-loadout.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Follow https://aident.ai/SETUP.md",
+        "url": "https://aident.ai/SETUP.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "cli",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
