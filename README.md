@@ -85,13 +85,13 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**252 services across 16 categories.**
+**253 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 16 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 27 | Remote browser and web data extraction for agents |
-| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
+| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 23 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 19 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 33 | Execution, session isolation, secrets, and gateway |
@@ -193,6 +193,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [MCP Gateway](services/tool-access-and-integration/mcpgateway.md) | Enterprise MCP — tools, Agent Skills, sandboxes, one URL | Federated MCP · Semantic tool search · RBAC · Warm sandboxes | ✅ | `pip install mcpgateway-sdk` — [mcpgateway.com](https://mcpgateway.com) |
 | [ClawHub](services/tool-access-and-integration/clawhub.md) [![⭐](https://img.shields.io/github/stars/openclaw/clawhub?style=social)](https://github.com/openclaw/clawhub) | OpenClaw skill marketplace — vector search, versioning, CLI | Skill versions & tags · Embedding search · `SKILL.md` registry · OpenClaw packages | ⚠️ | `npx clawhub@latest search <topic>` — [claw-hub.net](https://claw-hub.net/) |
 | [Arcade](services/tool-access-and-integration/arcade.md) [![⭐](https://img.shields.io/github/stars/ArcadeAI/arcade-mcp?style=social)](https://github.com/ArcadeAI/arcade-mcp) | MCP tools with managed OAuth | Authorized tool calling · Secrets off-LLM · Pre-built integrations | ✅ | `uv tool install arcade-mcp` → `arcade new my_server` — [docs.arcade.dev](https://docs.arcade.dev) |
+| [Aident Loadout](services/tool-access-and-integration/aident-loadout.md) [![⭐](https://img.shields.io/github/stars/Aident-AI/aident-skill?style=social)](https://github.com/Aident-AI/aident-skill) | Give your agents real capabilities | Runtime discover/inspect/preflight/execute · Vault · Audit · 400+ Skills | ✅ | `Follow https://aident.ai/SETUP.md` or `npx skills add Aident-AI/aident-skill` |
 | [Framelink MCP for Figma](services/tool-access-and-integration/framelink-figma-mcp.md) [![⭐](https://img.shields.io/github/stars/GLips/Figma-Context-MCP?style=social)](https://github.com/GLips/Figma-Context-MCP) | Give your coding agent access to your Figma data | LLM-compacted layout/style context · Figma API · stdio MCP | ✅ | `npx -y figma-developer-mcp --figma-api-key=… --stdio` — [quickstart](https://www.framelink.ai/docs/quickstart) |
 | [GitHub MCP Server](services/tool-access-and-integration/github-mcp-server.md) [![⭐](https://img.shields.io/github/stars/github/github-mcp-server?style=social)](https://github.com/github/github-mcp-server) | Connect AI agents to GitHub — repos, issues, PRs, Actions | Remote HTTP MCP · OAuth or PAT · Toolsets · Enterprise paths | ✅ | `https://api.githubcopilot.com/mcp/` in MCP host — [repo README](https://github.com/github/github-mcp-server) |
 | [MCP Toolbox for Databases](services/tool-access-and-integration/google-mcp-toolbox.md) [![⭐](https://img.shields.io/github/stars/googleapis/mcp-toolbox?style=social)](https://github.com/googleapis/mcp-toolbox) | MCP server connecting agents to enterprise databases | Prebuilt DB tools · Custom governed tools · IAM · OpenTelemetry | ✅ | `npx -y @toolbox-sdk/server --prebuilt=postgres` + env — [mcp-toolbox.dev](https://mcp-toolbox.dev/) |
