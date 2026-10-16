@@ -77,7 +77,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 252 Services
+## Full Catalog — 16 Categories, 253 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -138,7 +138,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 3. Tool Access & Integration (22 services)
+### 3. Tool Access & Integration (23 services)
 *Runtime tool discovery, auth, and execution without human pre-configuration.*
 
 | Service | Tagline | Onboarding |
@@ -151,6 +151,7 @@ These services can be joined with a single instruction, right now, with no human
 | [MCP Gateway](https://mcpgateway.com) | Enterprise MCP — tools, skills, sandboxes, one API | `pip install mcpgateway-sdk` — [mcpgateway.com](https://mcpgateway.com) |
 | [ClawHub](https://claw-hub.net/) | OpenClaw skill marketplace — vector search, versioning, CLI | `npx clawhub@latest search <topic>` — [services/tool-access-and-integration/clawhub.md](services/tool-access-and-integration/clawhub.md) |
 | [Arcade](https://www.arcade.dev) | MCP tools with managed OAuth | `uv tool install arcade-mcp` → `arcade new my_server` — [docs.arcade.dev](https://docs.arcade.dev) |
+| [Aident Loadout](https://aident.ai) | Give your agents real capabilities | `Follow https://aident.ai/SETUP.md` or `npx skills add Aident-AI/aident-skill` |
 | [Framelink MCP for Figma](https://www.framelink.ai) | Give your coding agent access to your Figma data | `npx -y figma-developer-mcp --figma-api-key=… --stdio` — [quickstart](https://www.framelink.ai/docs/quickstart) |
 | [GitHub MCP Server](https://github.com/github/github-mcp-server) | AI agents read repos, issues, PRs, Actions via MCP | Remote: `https://api.githubcopilot.com/mcp/` — [README](https://github.com/github/github-mcp-server) |
 | [MCP Toolbox for Databases](https://mcp-toolbox.dev/) | MCP server for enterprise databases (Google) | `npx -y @toolbox-sdk/server --prebuilt=postgres` + env — [docs](https://mcp-toolbox.dev/) |
@@ -432,6 +433,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Routerly](https://github.com/Inebrio/Routerly) | Self-hosted gateway with LLM-native routing policy | Run the official Docker image with `routerly.json`, then point the client base URL to it |
 | [SageRoute](https://github.com/codejunkie99/sageroute) | Trajectory-aware model router | Clone → `bun install` → `bun run serve`, then set the client base URL |
 | [XiuRouter](https://router.xiu.ai/en) | Claude, GPT, Gemini, and more through one API | Create a scoped key, then follow [Agent integrations](https://router.xiu.ai/en/integrations) for the client's native protocol |
+| [Dasha Compute](https://lobby.getdasha.com/compute) | OpenAI-compatible inference marketplace on idle community hardware | Mint a guest key (`POST /compute/api/guest-keys`), then point the OpenAI SDK at `https://lobby.getdasha.com/compute/api/v1` |
 
 ---
 
