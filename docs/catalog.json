@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "11f0f1974b909dd3ebf1d40144095b6e0ff6a18d3b28eeaa3bf070381f34b6a9",
+      "value": "4b0ca98a02b3f7622cf38ee49d98f61f866af59786ce8280688827a9277cd587",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -217,6 +217,7 @@
         "services/code-execution/riza.md",
         "services/code-execution/runloop.md",
         "services/code-execution/smolvm.md",
+        "services/code-execution/the-vibe-hosting.md",
         "services/code-execution/vercel-sandbox.md",
         "services/observability-and-tracing/README.md",
         "services/observability-and-tracing/agent-inspect.md",
@@ -290,7 +291,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 254
+    "services": 255
   },
   "categories": [
     {
@@ -361,7 +362,7 @@
       "name": "Code Execution",
       "description": "Services that give AI agents a secure, isolated runtime for executing generated code — without human-side sandbox setup, without risking the host environment, and with output formatted for direct LLM consumption.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/README.md",
-      "service_count": 16
+      "service_count": 17
     },
     {
       "id": "observability-and-tracing",
@@ -6574,6 +6575,38 @@
         "https://api.github.com/repos/CelestoAI/celesto",
         "https://docs.celesto.ai/smolvm"
       ]
+    },
+    {
+      "id": "code-execution/the-vibe-hosting",
+      "slug": "the-vibe-hosting",
+      "name": "The Vibe Hosting",
+      "tagline": "One prompt → root Linux → your project is live.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "code-execution",
+      "website": "https://thevibehosting.com",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/the-vibe-hosting.md",
+      "source_path": "services/code-execution/the-vibe-hosting.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.",
+        "url": "https://thevibehosting.com/SKILL.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "rest",
+        "http",
+        "api"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "code-execution/vercel-sandbox",

@@ -8,7 +8,7 @@ image: "/assets/images/editorial-sandbox.webp"
 permalink: /categories/code-execution/
 page_kind: collection
 collection_number: "10"
-service_count: 16
+service_count: 17
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/README.md">Collection notes ↗</a></p>
@@ -179,6 +179,16 @@ service_count: 16
     </div>
   </article>
   <article class="service-card atlas-sheet--arrival atlas-visual--16">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <h2 class="service-card__title">The Vibe Hosting</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/the-vibe-hosting.md">Open dossier ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--service atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>

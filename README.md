@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**254 services across 16 categories.**
+**255 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -98,7 +98,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 30 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
-| 10 | [Code Execution](#10-code-execution-services) | 16 | Secure sandboxes for AI-generated code |
+| 10 | [Code Execution](#10-code-execution-services) | 17 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
@@ -414,6 +414,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [forkd](services/code-execution/forkd.md) [![⭐](https://img.shields.io/github/stars/deeplethe/forkd?style=social)](https://github.com/deeplethe/forkd) | A microVM sandbox runtime for AI agent fan-out. | Firecracker CoW fork · live BRANCH · `forkd-mcp` | ✅ | `curl -sSL https://github.com/deeplethe/forkd/releases/download/v0.5.3/forkd-v0.5.3-x86_64-linux.tar.gz \| sudo tar -xz -C /usr/local/bin/` then `sudo -E forkd quickstart` |
 | [SmolVM](services/code-execution/smolvm.md) [![⭐](https://img.shields.io/github/stars/CelestoAI/celesto?style=social)](https://github.com/CelestoAI/celesto) | SmolVM: secure microVM sandboxes for AI agents | Firecracker/QEMU/libkrun · browser sandbox · snapshots | ⚠️ | `curl -sSL https://celesto.ai/install.sh \| bash` then `from smolvm import SmolVM` |
 | [Latchkey](services/code-execution/latchkey.md) | CI your coding agents can run, read and fix | Fresh ephemeral runner per command · Failure bundles · Self-healing runners · Workflow dispatch | ✅ | `claude mcp add --transport http latchkey https://latchkey.dev/mcp --header "Authorization: Bearer $LATCHKEY_TOKEN"` — [docs](https://latchkey.dev/documentation/connect-your-ai-agent) |
+| [The Vibe Hosting](services/code-execution/the-vibe-hosting.md) | One prompt → root Linux → your project is live. | Account-on-first-call · Root Ubuntu server on HTTPS subdomain or own domain via CNAME (gVisor) · Wake-on-connect · Prepaid credit cap · URL onboarding | ⚠️ | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
 
 ---
 
