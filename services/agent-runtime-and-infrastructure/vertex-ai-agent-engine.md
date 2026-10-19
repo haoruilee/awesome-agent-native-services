@@ -10,7 +10,7 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
 | **Provider** | Google Cloud |
-| **Verified at** | 2026-08-29 |
+| **Verified at** | 2026-10-19 |
 
 ---
 

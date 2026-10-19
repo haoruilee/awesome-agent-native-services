@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Last GitHub push 2026-09-03 ([repo metadata](https://api.github.com/repos/gastownhall/beads)); Homebrew `beads`, npm `@beads/bd`, PyPI `beads-mcp` |
-| **Verified at** | 2026-09-03 |
+| **Latest-month signal** | Last GitHub push 2026-10-19 ([repo metadata](https://api.github.com/repos/gastownhall/beads)); Homebrew `beads`, npm `@beads/bd` 1.3.1, PyPI `beads-mcp` 1.3.1 |
+| **Verified at** | 2026-10-19 |
 
 ---
 

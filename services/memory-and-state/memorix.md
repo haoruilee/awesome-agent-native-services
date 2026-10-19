@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Last GitHub push 2026-09-02 ([repo metadata](https://api.github.com/repos/AVIDS2/memorix)); npm `memorix`; listed in the official MCP Registry |
-| **Verified at** | 2026-09-03 |
+| **Latest-month signal** | Last GitHub push 2026-10-17 ([repo metadata](https://api.github.com/repos/AVIDS2/memorix)); npm `memorix` 1.9.12; listed in the official MCP Registry |
+| **Verified at** | 2026-10-19 |
 
 ---
 

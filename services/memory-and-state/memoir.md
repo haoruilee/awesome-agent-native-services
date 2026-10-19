@@ -12,8 +12,8 @@
 | **Category** | [Memory & State Services](README.md) |
 | **License** | Apache-2.0 |
 | **Status** | **Alpha** — official README badge `Status-Alpha`; contributing section: “Memoir is alpha” |
-| **Latest-month signal** | Last GitHub push 2026-09-03 ([repo metadata](https://api.github.com/repos/zhangfengcdt/memoir)); PyPI `memoir-ai`; Claude Code / Codex plugins |
-| **Verified at** | 2026-09-03 |
+| **Latest-month signal** | Last GitHub push 2026-10-16 ([repo metadata](https://api.github.com/repos/zhangfengcdt/memoir)); PyPI `memoir-ai` 0.2.9 (2026-10-14); Claude Code / Codex plugins |
+| **Verified at** | 2026-10-19 |
 
 ---
 

@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "f1046716f8b64c2e3244820586bfd843564e9aa4f7f0613a1977c3268dbac8ab",
+      "value": "55dc6395ab58b2a759e49874b5143a63e84995e5d4555ecb9cf61e8d82d5983c",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -2165,8 +2165,8 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Last GitHub push 2026-09-03 (repo metadata); Docker samanhappy/mcphub; demo https://demo.mcphub.app/",
-      "verified_at": "2026-09-03",
+      "latest_month_signal": "Last GitHub push 2026-10-19 (repo metadata); Docker samanhappy/mcphub; demo https://demo.mcphub.app/ (HTTP 200 on 2026-10-19)",
+      "verified_at": "2026-10-19",
       "verification_sources": [
         "https://api.github.com/repos/samanhappy/mcphub",
         "https://demo.mcphub.app/"
@@ -2199,8 +2199,8 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Last GitHub push 2026-08-02 (repo metadata) — quieter than neighboring gateways; docs site and Docker Compose path still live as of 2026-09-03",
-      "verified_at": "2026-09-03",
+      "latest_month_signal": "Last GitHub push 2026-08-02 (repo metadata) — quieter than neighboring gateways; repo public and not archived, docs site and Docker Compose path still live as of 2026-10-19",
+      "verified_at": "2026-10-19",
       "verification_sources": [
         "https://api.github.com/repos/mcpjungle/MCPJungle"
       ]
@@ -4357,7 +4357,7 @@
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
       "latest_month_signal": null,
-      "verified_at": "2026-08-29",
+      "verified_at": "2026-10-19",
       "verification_sources": [
         "https://github.com/googleapis/python-aiplatform"
       ]
@@ -4748,8 +4748,8 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-08-28 (repo metadata); README H1 still “An agent meta-harness for Claude Code and Codex.”",
-      "verified_at": "2026-08-29",
+      "latest_month_signal": "Last GitHub push 2026-10-19 (repo metadata); README tagline still “An agent meta-harness for Claude Code and Codex.”",
+      "verified_at": "2026-10-19",
       "verification_sources": [
         "https://api.github.com/repos/ruvnet/ruflo"
       ]
@@ -4881,8 +4881,8 @@
       ],
       "mcp_status": "optional",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-09-03 (repo metadata); Homebrew beads, npm @beads/bd, PyPI beads-mcp",
-      "verified_at": "2026-09-03",
+      "latest_month_signal": "Last GitHub push 2026-10-19 (repo metadata); Homebrew beads, npm @beads/bd 1.3.1, PyPI beads-mcp 1.3.1",
+      "verified_at": "2026-10-19",
       "verification_sources": [
         "https://api.github.com/repos/gastownhall/beads"
       ]
@@ -4978,8 +4978,8 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-09-02 (repo metadata); PyPI compartment",
-      "verified_at": "2026-09-03",
+      "latest_month_signal": "Last GitHub push 2026-10-17 (repo metadata); PyPI compartment 4.11.0 (2026-09-30)",
+      "verified_at": "2026-10-19",
       "verification_sources": [
         "https://api.github.com/repos/MaxFreedomPollard/Compartment"
       ]
@@ -5407,8 +5407,8 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-09-03 (repo metadata); PyPI memoir-ai; Claude Code / Codex plugins",
-      "verified_at": "2026-09-03",
+      "latest_month_signal": "Last GitHub push 2026-10-16 (repo metadata); PyPI memoir-ai 0.2.9 (2026-10-14); Claude Code / Codex plugins",
+      "verified_at": "2026-10-19",
       "verification_sources": [
         "https://api.github.com/repos/zhangfengcdt/memoir"
       ]
@@ -5473,8 +5473,8 @@
       ],
       "mcp_status": "optional",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-09-02 (repo metadata); npm memorix; listed in the official MCP Registry",
-      "verified_at": "2026-09-03",
+      "latest_month_signal": "Last GitHub push 2026-10-17 (repo metadata); npm memorix 1.9.12; listed in the official MCP Registry",
+      "verified_at": "2026-10-19",
       "verification_sources": [
         "https://api.github.com/repos/AVIDS2/memorix"
       ]
@@ -5709,8 +5709,8 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Last GitHub push 2026-09-01 (repo metadata); PyPI projectmem v0.3.1 — one MCP server for every project",
-      "verified_at": "2026-09-03",
+      "latest_month_signal": "Last GitHub push 2026-10-03 (repo metadata); PyPI projectmem v0.3.4 (2026-10-02) — one MCP server for every project",
+      "verified_at": "2026-10-19",
       "verification_sources": [
         "https://api.github.com/repos/riponcm/projectmem"
       ]
@@ -6887,7 +6887,7 @@
       "mcp_status": "available",
       "agent_skill_status": "available",
       "latest_month_signal": null,
-      "verified_at": "2026-08-29",
+      "verified_at": "2026-10-19",
       "verification_sources": [
         "https://github.com/zenml-io/kitaru"
       ]
@@ -7910,7 +7910,7 @@
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
       "latest_month_signal": null,
-      "verified_at": "2026-08-29",
+      "verified_at": "2026-10-19",
       "verification_sources": [
         "https://www.respan.ai/"
       ]
@@ -8216,7 +8216,7 @@
       "tagline": "A home base for AI agents",
       "classification": "agent-native",
       "status": "listed",
-      "lifecycle_status": "unknown",
+      "lifecycle_status": "active",
       "category": "agent-social-network",
       "website": "https://anansi-haven.anansidata.workers.dev",
       "repository": "https://github.com/kburrus64-max/anansi-haven",
@@ -8238,9 +8238,14 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Repository created 2026-10-04 (MIT, 0 stars on 2026-10-15). Verified 2026-10-15: the root URL returns a JSON service index (HTTP 200); llms.txt and the agent card return HTTP 200; the hosted MCP initialize response reports server version 0.7.0, and tools/list returns 87 tools; official MCP Registry entry io.github.kburrus64-max/anansi-haven is active (latest registry version 0.6.1, published 2026-10-05)",
-      "verified_at": null,
-      "verification_sources": []
+      "latest_month_signal": "Repository created 2026-10-04 (MIT, 0 stars); last GitHub push 2026-10-18 (repo metadata). Verified 2026-10-19: the root URL returns a JSON service index (HTTP 200); llms.txt and the agent card return HTTP 200; the hosted MCP initialize response reports server version 0.7.0, and tools/list returns 87 tools; official MCP Registry entry io.github.kburrus64-max/anansi-haven is active (latest registry version 0.6.1, published 2026-10-05)",
+      "verified_at": "2026-10-19",
+      "verification_sources": [
+        "https://api.github.com/repos/kburrus64-max/anansi-haven",
+        "https://anansi-haven.anansidata.workers.dev/llms.txt",
+        "https://anansi-haven.anansidata.workers.dev/.well-known/agent-card.json",
+        "https://registry.modelcontextprotocol.io/v0/servers?search=anansi-haven"
+      ]
     },
     {
       "id": "agent-social-network/kinthai",

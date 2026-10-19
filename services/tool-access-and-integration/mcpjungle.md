@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration Services](README.md) |
 | **License** | **MPL-2.0** (OSI-approved; not MIT/Apache) |
-| **Latest-month signal** | Last GitHub push **2026-08-02** ([repo metadata](https://api.github.com/repos/mcpjungle/MCPJungle)) — quieter than neighboring gateways; docs site and Docker Compose path still live as of 2026-09-03 |
-| **Verified at** | 2026-09-03 |
+| **Latest-month signal** | Last GitHub push **2026-08-02** ([repo metadata](https://api.github.com/repos/mcpjungle/MCPJungle)) — quieter than neighboring gateways; repo public and not archived, docs site and Docker Compose path still live as of 2026-10-19 |
+| **Verified at** | 2026-10-19 |
 
 ---
 

@@ -11,7 +11,7 @@
 | **Classification** | `agent-native` |
 | **Category** | [Observability & Tracing Services](README.md) |
 | **License** | Apache 2.0 (open-source) |
-| **Verified at** | 2026-08-29 |
+| **Verified at** | 2026-10-19 |
 
 ---
 

@@ -407,47 +407,15 @@ new_arrivals_count: 86
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--02" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/agentcall.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--02" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/ruflo.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
-        <span class="arrival-card__category">Meeting &amp; Conversation</span>
-        <strong class="arrival-card__name">AgentCall</strong>
+        <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
+        <strong class="arrival-card__name">Ruflo</strong>
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--03" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/sssnack.md">
-      <span class="arrival-card__image" aria-hidden="true"></span>
-      <span class="arrival-card__copy">
-        <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">SSSNACK</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
-      </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--04" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/cubesandbox.md">
-      <span class="arrival-card__image" aria-hidden="true"></span>
-      <span class="arrival-card__copy">
-        <span class="arrival-card__category">Code Execution</span>
-        <strong class="arrival-card__name">CubeSandbox</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
-      </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--05" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/memoir.md">
-      <span class="arrival-card__image" aria-hidden="true"></span>
-      <span class="arrival-card__copy">
-        <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Memoir</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
-      </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--06" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/graphiti.md">
-      <span class="arrival-card__image" aria-hidden="true"></span>
-      <span class="arrival-card__copy">
-        <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Graphiti</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
-      </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--07" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/beads.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--03" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/beads.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
@@ -455,7 +423,7 @@ new_arrivals_count: 86
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--08" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcphub.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--04" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcphub.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Tool Access &amp; Integration</span>
@@ -463,7 +431,7 @@ new_arrivals_count: 86
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--09" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/memorix.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--05" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/memorix.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
@@ -471,23 +439,7 @@ new_arrivals_count: 86
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--10" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/forkd.md">
-      <span class="arrival-card__image" aria-hidden="true"></span>
-      <span class="arrival-card__copy">
-        <span class="arrival-card__category">Code Execution</span>
-        <strong class="arrival-card__name">forkd</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
-      </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--11" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/mcp-memory-service.md">
-      <span class="arrival-card__image" aria-hidden="true"></span>
-      <span class="arrival-card__copy">
-        <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">mcp-memory-service</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
-      </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--12" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/compartment.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--06" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/compartment.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
@@ -495,15 +447,15 @@ new_arrivals_count: 86
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--13" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/joinly.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--07" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/memoir.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
-        <span class="arrival-card__category">Meeting &amp; Conversation</span>
-        <strong class="arrival-card__name">joinly.ai</strong>
+        <span class="arrival-card__category">Memory &amp; State</span>
+        <strong class="arrival-card__name">Memoir</strong>
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--14" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/projectmem.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--08" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/projectmem.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
@@ -511,11 +463,59 @@ new_arrivals_count: 86
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--15" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/ruflo.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--09" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/agentcall.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
-        <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">Ruflo</strong>
+        <span class="arrival-card__category">Meeting &amp; Conversation</span>
+        <strong class="arrival-card__name">AgentCall</strong>
+        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+      </span>
+    </a>
+    <a class="arrival-card atlas-sheet--service atlas-visual--10" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/sssnack.md">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Agent Social &amp; Community</span>
+        <strong class="arrival-card__name">SSSNACK</strong>
+        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+      </span>
+    </a>
+    <a class="arrival-card atlas-sheet--service atlas-visual--11" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/cubesandbox.md">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Code Execution</span>
+        <strong class="arrival-card__name">CubeSandbox</strong>
+        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+      </span>
+    </a>
+    <a class="arrival-card atlas-sheet--service atlas-visual--12" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/graphiti.md">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Memory &amp; State</span>
+        <strong class="arrival-card__name">Graphiti</strong>
+        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+      </span>
+    </a>
+    <a class="arrival-card atlas-sheet--service atlas-visual--13" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/forkd.md">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Code Execution</span>
+        <strong class="arrival-card__name">forkd</strong>
+        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+      </span>
+    </a>
+    <a class="arrival-card atlas-sheet--service atlas-visual--14" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/mcp-memory-service.md">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Memory &amp; State</span>
+        <strong class="arrival-card__name">mcp-memory-service</strong>
+        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+      </span>
+    </a>
+    <a class="arrival-card atlas-sheet--service atlas-visual--15" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/joinly.md">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Meeting &amp; Conversation</span>
+        <strong class="arrival-card__name">joinly.ai</strong>
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>

@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Last GitHub push 2026-08-28 ([repo metadata](https://api.github.com/repos/ruvnet/ruflo)); README H1 still “An agent meta-harness for Claude Code and Codex.” |
-| **Verified at** | 2026-08-29 |
+| **Latest-month signal** | Last GitHub push 2026-10-19 ([repo metadata](https://api.github.com/repos/ruvnet/ruflo)); README tagline still “An agent meta-harness for Claude Code and Codex.” |
+| **Verified at** | 2026-10-19 |
 
 ---
 
