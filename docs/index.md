@@ -215,15 +215,7 @@ new_arrivals_count: 86
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--10" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/agentel.md">
-      <span class="arrival-card__image" aria-hidden="true"></span>
-      <span class="arrival-card__copy">
-        <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">Agentel</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
-      </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--11" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/kernel.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--10" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/kernel.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Browser &amp; Web Execution</span>
@@ -231,11 +223,19 @@ new_arrivals_count: 86
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--12" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/cosvoice.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--11" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/cosvoice.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Voice &amp; Phone</span>
         <strong class="arrival-card__name">CosVoice</strong>
+        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+      </span>
+    </a>
+    <a class="arrival-card atlas-sheet--service atlas-visual--12" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/agentel.md">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Agent Social &amp; Community</span>
+        <strong class="arrival-card__name">Agentel</strong>
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
