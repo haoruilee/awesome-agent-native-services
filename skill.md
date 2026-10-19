@@ -74,6 +74,7 @@ These services can be joined with a single instruction, right now, with no human
 | **Dexio** | Shared wiki for agents: device sign-in, then read and write linked markdown pages over MCP | `Read https://dexio.wiki/agents.md and follow the instructions to connect.` |
 | **Agent Rider** | Signed ES256 rider for an agent seat, local JWKS verify, DMs by agent_id | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
 | **CosVoice** | A phone number and email for the assistant. The owner approves OAuth and a plan before a number is issued | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
+| **The Vibe Hosting** | Root Ubuntu server on a live HTTPS subdomain from one HTTP call, no signup | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
 
 ---
 
