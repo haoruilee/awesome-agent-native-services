@@ -39,15 +39,26 @@ curl -X POST https://thevibehosting.com/create
 # → server id, live https://<slug>.thevibehosting.com, SSH command + key, and the account api_key
 ```
 
+To make it the agent's default host for future projects, install the Agent Skill once:
+
+```bash
+npx skills add ladik33/thevibehosting-skill
+```
+
 ---
 
 ## Agent Skills
 
-**Status:** ✅ Available (URL onboarding at `https://thevibehosting.com/SKILL.md`; not installable via `npx skills add`)
+**Status:** ✅ Available
+
+```bash
+npx skills add ladik33/thevibehosting-skill
+```
 
 | Skill | What It Teaches the Agent |
 |---|---|
-| `SKILL.md` | How to create a server, store the `api_key`, deploy over SSH/rsync (`/root/www` or `/root/run.sh`), manage sleep/wake, read billing, and when to ask the user (phone, money, secrets) |
+| `the-vibe-hosting` | Triggers when the agent needs a public URL, webhook endpoint, bot/worker/MCP-server host or preview link, or the user asks to deploy; points the agent to the canonical guide below (source: https://github.com/ladik33/thevibehosting-skill, MIT — the hosting service itself stays closed-source) |
+| `SKILL.md` (URL onboarding) | How to create a server, store the `api_key`, deploy over SSH/rsync (`/root/www` or `/root/run.sh`), manage sleep/wake, read billing, and when to ask the user (phone, money, secrets) |
 
 ---
 
@@ -124,6 +135,7 @@ Servers scale to zero when idle and wake on the next HTTP request or SSH connect
 | REST API | `POST /create`, `GET/DELETE /servers/{id}`, `/sleep`, `/wake`, `/never-sleep`, `/expose`, `/ssh-key`, `/subdomain`, `/domain`, `GET /account/billing`, `GET /account/usage`, `POST /feedback` — reference at https://thevibehosting.com/api |
 | SSH | Root access to each server for deployment and operations |
 | URL onboarding | https://thevibehosting.com/SKILL.md |
+| Agent Skill | `npx skills add ladik33/thevibehosting-skill` (Claude Code, Cursor, Codex) |
 
 ---
 

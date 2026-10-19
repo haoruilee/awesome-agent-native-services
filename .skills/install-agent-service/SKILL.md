@@ -82,6 +82,7 @@ cp -R .skills/install-agent-service ~/.claude/skills/
 | Dexio | `Read https://dexio.wiki/agents.md and follow the instructions to connect.` |
 | Agent Rider | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
 | CosVoice | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
+| The Vibe Hosting | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
 
 ### Agent Skills / plugin-native entries
 
@@ -96,6 +97,7 @@ cp -R .skills/install-agent-service ~/.claude/skills/
 | Tavily | `npx skills add tavily-ai/skills` |
 | Langfuse | `npx skills add https://github.com/langfuse/skills --skill langfuse-observability` |
 | Openwork | `npx playbooks add skill openclaw/skills --skill openwork` |
+| The Vibe Hosting | `npx skills add ladik33/thevibehosting-skill` |
 
 ### MCP-first entries with one-command local or remote setup
 
