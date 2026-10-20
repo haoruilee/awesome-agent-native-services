@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Last GitHub push 2026-09-01 ([repo metadata](https://api.github.com/repos/riponcm/projectmem)); PyPI `projectmem` v0.3.1 — one MCP server for every project |
-| **Verified at** | 2026-09-03 |
+| **Latest-month signal** | Last GitHub push 2026-10-03 ([repo metadata](https://api.github.com/repos/riponcm/projectmem)); PyPI `projectmem` v0.3.4 (2026-10-02) — one MCP server for every project |
+| **Verified at** | 2026-10-19 |
 
 ---
 

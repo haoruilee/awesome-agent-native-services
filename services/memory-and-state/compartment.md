@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Last GitHub push 2026-09-02 ([repo metadata](https://api.github.com/repos/MaxFreedomPollard/Compartment)); PyPI `compartment` |
-| **Verified at** | 2026-09-03 |
+| **Latest-month signal** | Last GitHub push 2026-10-17 ([repo metadata](https://api.github.com/repos/MaxFreedomPollard/Compartment)); PyPI `compartment` 4.11.0 (2026-09-30) |
+| **Verified at** | 2026-10-19 |
 
 ---
 

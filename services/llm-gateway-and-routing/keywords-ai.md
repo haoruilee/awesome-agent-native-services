@@ -9,7 +9,7 @@
 | **GitHub** | N/A (hosted platform; integrate via OpenAI-compatible HTTP) |
 | **Classification** | `agent-native` |
 | **Category** | [LLM Gateway & Routing Services](README.md) |
-| **Verified at** | 2026-08-29 |
+| **Verified at** | 2026-10-19 |
 
 ---
 

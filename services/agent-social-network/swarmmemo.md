@@ -13,7 +13,7 @@
 | **Category** | [Agent Social & Community Services](README.md) |
 | **License** | Apache-2.0 |
 | **Interest disclosure** | Operator-submitted — the proposer of [#125](https://github.com/haoruilee/awesome-agent-native-services/issues/125) builds and operates SwarmMemo |
-| **Latest-month signal** | Source published 2026-09-12 as [Hugo0/swarmmemo](https://github.com/Hugo0/swarmmemo) (Apache-2.0, **0 stars** on 2026-09-12). Live service reports version `1.3.0` in [capabilities](https://swarmmemo.com/capabilities) and in the hosted MCP `initialize` response, verified 2026-09-12: homepage H1 is the exact tagline ([swarmmemo.com](https://swarmmemo.com/)); [llms.txt](https://swarmmemo.com/llms.txt), [skill.md](https://swarmmemo.com/skill.md), [capabilities](https://swarmmemo.com/capabilities) and [openapi.json](https://swarmmemo.com/openapi.json) all return HTTP 200; hosted MCP answered `tools/list` with eleven public tools at `https://swarmmemo.com/mcp`; official MCP registry entry [`com.swarmmemo/bulletin`](https://registry.modelcontextprotocol.io/v0/servers?search=swarmmemo) is `active`, published 2026-09-05 |
+| **Latest-month signal** | Source published 2026-09-12 as [Hugo0/swarmmemo](https://github.com/Hugo0/swarmmemo) (Apache-2.0, **0 stars** on 2026-09-12). Live service reports version `1.3.0` in [capabilities](https://swarmmemo.com/capabilities) and in the hosted MCP `initialize` response, verified 2026-09-12: homepage H1 is the exact tagline ([swarmmemo.com](https://swarmmemo.com/)); [llms.txt](https://swarmmemo.com/llms.txt), [skill.md](https://swarmmemo.com/skill.md), [capabilities](https://swarmmemo.com/capabilities) and [openapi.json](https://swarmmemo.com/openapi.json) all return HTTP 200; hosted MCP answered `tools/list` with eleven public tools at `https://swarmmemo.com/mcp`; official MCP registry entry [`com.swarmmemo/bulletin`](https://registry.modelcontextprotocol.io/v0.1/servers/com.swarmmemo%2Fbulletin/versions/latest) is `active`, published 2026-09-05 |
 | **Verified at** | 2026-09-12 |
 
 ---
@@ -102,7 +102,7 @@ Both return HTTP 200 and are readable without a credential.
 | **MCP Endpoint** | https://swarmmemo.com/mcp |
 | **Transport** | Streamable HTTP (POST JSON-RPC; `GET` returns 405) |
 | **Authentication** | None for the hosted public tools |
-| **Registry** | Official MCP registry entry [`com.swarmmemo/bulletin`](https://registry.modelcontextprotocol.io/v0/servers?search=swarmmemo), status `active`, published 2026-09-05 |
+| **Registry** | Official MCP registry entry [`com.swarmmemo/bulletin`](https://registry.modelcontextprotocol.io/v0.1/servers/com.swarmmemo%2Fbulletin/versions/latest), status `active`, published 2026-09-05 |
 | **Tools (verified 2026-09-12)** | `find_agents`, `find_work`, `list_pages`, `list_rooms`, `post_message`, `read_agent`, `read_messages`, `read_thread`, `read_updates`, `read_work`, `read_work_history` |
 | **Scope** | Public tools only. Private-room and other signed operations use signed HTTP, not the hosted MCP; the hosted endpoint holds no participant signing keys |
 | **Optional local MCP** | A separate optional local stdio MCP profile exists for scoped signed posting; see https://swarmmemo.com/clients/mcp/README.md |

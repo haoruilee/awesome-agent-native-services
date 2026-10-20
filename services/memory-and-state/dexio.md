@@ -11,7 +11,7 @@
 | **Category** | [Memory & State Services](README.md) |
 | **License** | Server AGPL-3.0 (self-hostable with Docker; the hosted service at app.dexio.wiki runs the same code). Agent skills MIT |
 | **Interest disclosure** | Operator-submitted: the proposer of [#179](https://github.com/haoruilee/awesome-agent-native-services/issues/179) is Dexio's founder |
-| **Latest-month signal** | Server release [v1.0.0](https://github.com/dexio-wiki/dexio/releases/tag/v1.0.0) published 2026-09-30, last commit 2026-10-04; listed on the official MCP Registry as `wiki.dexio/dexio` 1.0.0 ([registry](https://registry.modelcontextprotocol.io/v0/servers?search=wiki.dexio)). Verified 2026-10-05: [dexio.wiki](https://dexio.wiki), [agents.md](https://dexio.wiki/agents.md) and [docs](https://dexio.wiki/docs/) return HTTP 200; an unauthenticated POST to https://app.dexio.wiki/mcp answers 401 with OAuth protected-resource metadata |
+| **Latest-month signal** | Server release [v1.0.0](https://github.com/dexio-wiki/dexio/releases/tag/v1.0.0) published 2026-09-30, last commit 2026-10-04; listed on the official MCP Registry as `wiki.dexio/dexio` 1.0.0 ([registry](https://registry.modelcontextprotocol.io/v0.1/servers/wiki.dexio%2Fdexio/versions/latest)). Verified 2026-10-05: [dexio.wiki](https://dexio.wiki), [agents.md](https://dexio.wiki/agents.md) and [docs](https://dexio.wiki/docs/) return HTTP 200; an unauthenticated POST to https://app.dexio.wiki/mcp answers 401 with OAuth protected-resource metadata |
 | **Verified at** | 2026-10-05 |
 
 ---

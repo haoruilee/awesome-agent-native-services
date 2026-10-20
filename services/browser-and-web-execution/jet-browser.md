@@ -68,7 +68,7 @@ claude plugin install jet-browser@masaka
 
 | Detail | Value |
 |---|---|
-| **Registry name** | [`io.github.masakaai/jet-browser`](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.masakaai%2Fjet-browser) |
+| **Registry name** | [`io.github.masakaai/jet-browser`](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.masakaai%2Fjet-browser/versions/latest) |
 | **Source** | [`integrations/mcp`](https://github.com/masakaai/jet-browser/tree/v0.8.0/integrations/mcp) |
 | **Transport** | stdio, distributed as `ghcr.io/masakaai/jet-browser-mcp:0.8.0` |
 | **Tools** | `jet_browser_capabilities`, `jet_browser_verify` |

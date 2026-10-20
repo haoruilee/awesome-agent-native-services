@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Last GitHub push 2026-09-03 ([repo metadata](https://api.github.com/repos/samanhappy/mcphub)); Docker `samanhappy/mcphub`; demo https://demo.mcphub.app/ |
-| **Verified at** | 2026-09-03 |
+| **Latest-month signal** | Last GitHub push 2026-10-19 ([repo metadata](https://api.github.com/repos/samanhappy/mcphub)); Docker `samanhappy/mcphub`; demo https://demo.mcphub.app/ (HTTP 200 on 2026-10-19) |
+| **Verified at** | 2026-10-19 |
 
 ---
 

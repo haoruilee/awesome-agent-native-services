@@ -22,7 +22,7 @@ https://github.com/sandbaseai/sandbase-harness
 
 ## How to Use (Agent Onboarding)
 
-Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md). Supported entry points include the local TypeScript runtime/CLI, Docker, Kubernetes, and self-hosted workers. For the MCP bridge, use the metadata in [`server.json`](https://github.com/sandbaseai/sandbase-harness/blob/main/server.json) and the official [MCP Registry entry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.sandbaseai%2Fsandbase-harness).
+Follow the [installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md). Supported entry points include the local TypeScript runtime/CLI, Docker, Kubernetes, and self-hosted workers. For the MCP bridge, use the metadata in [`server.json`](https://github.com/sandbaseai/sandbase-harness/blob/main/server.json) and the official [MCP Registry entry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.sandbaseai%2Fsandbase-harness/versions/latest).
 
 ## Agent Skills
 

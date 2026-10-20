@@ -26,7 +26,9 @@ AUDIT_DATE_RE = re.compile(
     r"^# Research & Freshness Audit\s+[—-]\s+(\d{4}-\d{2}-\d{2})\s*$",
     re.MULTILINE,
 )
-PROTECTED_STATUSES = {400, 401, 403, 405, 406, 418, 425, 429, 451}
+# 402: x402 paywalled endpoints answer Payment Required by design.
+# 419: Hacker News rate-limit/anti-bot response for automated fetches.
+PROTECTED_STATUSES = {400, 401, 402, 403, 405, 406, 418, 419, 425, 429, 451}
 
 
 @dataclass(frozen=True)
