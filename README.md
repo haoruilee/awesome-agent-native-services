@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**256 services across 16 categories.**
+**257 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|

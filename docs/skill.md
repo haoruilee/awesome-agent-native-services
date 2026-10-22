@@ -65,7 +65,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 256 Services
+## Full Catalog — 16 Categories, 257 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -127,7 +127,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 3. Tool Access & Integration (23 services)
+### 3. Tool Access & Integration (24 services)
 *Runtime tool discovery, auth, and execution without human pre-configuration.*
 
 | Service | Tagline | Onboarding |
@@ -146,6 +146,7 @@ These services can be joined with a single instruction, right now, with no human
 | [ToolHive](https://stacklok.com/download/) | Secure runtime and gateway for MCP servers | Follow the [Stacklok docs](https://docs.stacklok.com) to install and run MCP servers |
 | [Obot](https://github.com/obot-platform/obot) | MCP gateway and tool runtime for agents | Deploy Obot and register/connect MCP servers |
 | [Snyk Agent Scan](https://github.com/snyk/agent-scan) | Scan agent tools and MCP configurations for risk | Install the CLI from the repo and scan the target agent configuration |
+| [Grey Ridge x402 Tools](https://github.com/rezearcher/greyridge-x402-tools) | Vet an MCP server before your agent trusts it | `npx -y -p github:rezearcher/greyridge-x402-tools#v0.3.0 mcpscan <mcp-url>` |
 | [OpenChatCut](https://github.com/0xsline/OpenChatCut) | Local-first agent-native video editor | `npx skills add 0xsline/OpenChatCut`, then ask the agent to set it up |
 | [Toolport](https://toolport.app) | Every tool. One port. | Install from GitHub Releases, add servers, connect each AI client to `toolport-gateway` |
 | [SandBase CLI](https://github.com/sandbaseai/cli) | Give your AI agent superpowers. One command. 2,000+ AI models. | GitHub `v0.1.17` tarball `connect`, then `npx skills add sandbaseai/cli --skill sandbase` |

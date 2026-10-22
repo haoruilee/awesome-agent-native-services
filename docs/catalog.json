@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "4807bafe1326e75e5bf664eadf26767c27c02dabea9d3547ff9b2b619fbc875b",
+      "value": "92d15b2e237457878c9a28b5576da0e2b6f6231ee8916d447974e18ef2f6ec87",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -71,6 +71,7 @@
         "services/tool-access-and-integration/framelink-figma-mcp.md",
         "services/tool-access-and-integration/github-mcp-server.md",
         "services/tool-access-and-integration/google-mcp-toolbox.md",
+        "services/tool-access-and-integration/greyridge-x402-tools.md",
         "services/tool-access-and-integration/mcp-gateway-registry.md",
         "services/tool-access-and-integration/mcpgateway.md",
         "services/tool-access-and-integration/mcphub.md",
@@ -292,7 +293,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 256
+    "services": 257
   },
   "categories": [
     {
@@ -314,7 +315,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 23
+      "service_count": 24
     },
     {
       "id": "oversight-and-approval",
@@ -2107,6 +2108,38 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "tool-access-and-integration/greyridge-x402-tools",
+      "slug": "greyridge-x402-tools",
+      "name": "Grey Ridge x402 Tools",
+      "tagline": "Vet an MCP server before your agent trusts it.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "tool-access-and-integration",
+      "website": "https://x402-data-api.sigrunner.workers.dev/",
+      "repository": "https://github.com/rezearcher/greyridge-x402-tools",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/greyridge-x402-tools.md",
+      "source_path": "services/tool-access-and-integration/greyridge-x402-tools.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": null,
+        "instruction": "# Keyless CLI, no install — scan any MCP server's advertised tools before trusting them.\n# (the package ships multiple bins, so -p selects mcpscan)\nnpx -y -p github:rezearcher/greyridge-x402-tools#v0.3.0 mcpscan https://mcp.deepwiki.com/mcp\n\n# Coding-time Skill / Claude Code plugin:\n/plugin marketplace add rezearcher/greyridge-x402-tools",
+        "url": "https://mcp.deepwiki.com/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
