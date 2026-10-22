@@ -29,11 +29,9 @@ https://github.com/rezearcher/greyridge-x402-tools
 ## How to Use (Agent Onboarding)
 
 ```bash
-# Keyless CLI — scan any MCP server's advertised tools before trusting them:
-npx mcpscan https://mcp.deepwiki.com/mcp
-
-# Pinned, no install:
-npx -y github:rezearcher/greyridge-x402-tools#v0.3.0 mcpscan https://mcp.deepwiki.com/mcp
+# Keyless CLI, no install — scan any MCP server's advertised tools before trusting them.
+# (the package ships multiple bins, so -p selects mcpscan)
+npx -y -p github:rezearcher/greyridge-x402-tools#v0.3.0 mcpscan https://mcp.deepwiki.com/mcp
 
 # Coding-time Skill / Claude Code plugin:
 /plugin marketplace add rezearcher/greyridge-x402-tools
@@ -106,7 +104,7 @@ The second is a **pre-trade token gate** for agents acting on Base: given a toke
 
 ## Autonomy Model
 
-1. Before enabling a newly discovered MCP server, the agent (or its CI gate) runs `npx mcpscan <url>`.
+1. Before enabling a newly discovered MCP server, the agent (or its CI gate) runs `npx -y -p github:rezearcher/greyridge-x402-tools#v0.3.0 mcpscan <url>`.
 2. The scanner reads the server's advertised tools over Streamable HTTP and returns a verdict + exit code.
 3. On `block` (exit 2) or scan failure (exit 3, fails closed) the agent refuses to enable the server; on `clear` it proceeds — no human in the loop.
 4. Before an autonomous swap, the agent calls the pre-trade gate; `block` halts the trade, `allow` lets the loop continue.
@@ -126,7 +124,7 @@ The second is a **pre-trade token gate** for agents acting on Base: given a toke
 
 | Interface | Detail |
 |---|---|
-| CLI | `npx mcpscan <mcp-url>` — keyless, fails closed |
+| CLI | `npx -y -p github:rezearcher/greyridge-x402-tools#v0.3.0 mcpscan <mcp-url>` — keyless, fails closed |
 | GitHub Action | `uses: rezearcher/greyridge-x402-tools@v0.3.0` — admission gate on every push |
 | REST API | `GET /scan/mcp`, `GET /scan/mcp/preview?url=`, `GET /gate/swap`, `GET /gate/swap/preview?token=` |
 | Framework adapters | LangChain, CrewAI, ElizaOS (`CHECK_BASE_TOKEN`) |
