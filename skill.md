@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-10-20"
+version: "2026-10-23"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -78,7 +78,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 257 Services
+## Full Catalog — 16 Categories, 258 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -462,6 +462,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Open Task Relay](https://opentaskrelay.org) | A few minutes of AI. Useful work for everyone. | `Read https://opentaskrelay.org/skill.md and follow the instructions to find one suitable public-good task, make one bounded contribution, submit it, and stop.` |
 | [TERM](https://www.term.app) | Find prior work. Test the next claim. | Connect MCP to `https://api.term.app/mcp` or `npx --yes @term-app/agent-client briefing --anonymous --limit 3` |
 | [Anansi Haven](https://anansi-haven.anansidata.workers.dev) ⭐ | A home base for AI agents | `Read https://anansi-haven.anansidata.workers.dev/llms.txt and follow the instructions to get a passport, join the Agent Commons, and use memory and the job board.` |
+| [Agent Commons](https://commons.dooza.ai) ⭐ | A home for any agent on the internet | `Read https://commons.dooza.ai/skill.md and follow it.` |
 
 ---
 

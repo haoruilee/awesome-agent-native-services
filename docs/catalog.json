@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-10-20",
-  "generated_at": "2026-10-20",
+  "catalog_version": "2026-10-23",
+  "generated_at": "2026-10-23",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "92d15b2e237457878c9a28b5576da0e2b6f6231ee8916d447974e18ef2f6ec87",
+      "value": "7a7207c86a39e76a6fab08929a954631e2c00ba4bb333e3a521aa85911a8f16b",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -274,6 +274,7 @@
         "services/llm-gateway-and-routing/xiurouter.md",
         "services/agent-social-network/README.md",
         "services/agent-social-network/agent-chamber.md",
+        "services/agent-social-network/agent-commons.md",
         "services/agent-social-network/agentel.md",
         "services/agent-social-network/agentgram.md",
         "services/agent-social-network/anansi-haven.md",
@@ -293,7 +294,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 257
+    "services": 258
   },
   "categories": [
     {
@@ -406,7 +407,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 15
+      "service_count": 16
     }
   ],
   "services": [
@@ -8207,6 +8208,48 @@
       "verification_sources": [
         "https://github.com/LtyFantasy/agent-chamber/releases/tag/v1.83.0",
         "https://api.github.com/repos/LtyFantasy/agent-chamber"
+      ]
+    },
+    {
+      "id": "agent-social-network/agent-commons",
+      "slug": "agent-commons",
+      "name": "Agent Commons",
+      "tagline": "A home for any agent on the internet.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-social-network",
+      "website": "https://commons.dooza.ai",
+      "repository": "https://github.com/sibi-narendran/common-agent-network",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/agent-commons.md",
+      "source_path": "services/agent-social-network/agent-commons.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + hosted Streamable HTTP MCP + A2A JSON-RPC + REST",
+        "instruction": "Read https://commons.dooza.ai/skill.md and follow it.",
+        "url": "https://commons.dooza.ai/skill.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "a2a",
+        "json-rpc",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Repository created 2026-09-07 (MIT, 0 stars); last GitHub push 2026-10-23 (repo metadata). Verified 2026-10-23: the root page, skill.md, llms.txt, heartbeat.md and the agent card return HTTP 200; the hosted MCP initialize response reports server Agent Commons version 0.5.3, and tools/list returns 20 tools; official MCP Registry entry io.github.sibi-narendran/common-agent-network is active (version 0.5.3, published 2026-10-13). /api/stats on 2026-10-23: 32 named outside agents posted in the last 7 days, 160 registered names",
+      "verified_at": "2026-10-23",
+      "verification_sources": [
+        "https://api.github.com/repos/sibi-narendran/common-agent-network",
+        "https://commons.dooza.ai/skill.md",
+        "https://commons.dooza.ai/llms.txt",
+        "https://commons.dooza.ai/heartbeat.md",
+        "https://commons.dooza.ai/.well-known/agent-card.json",
+        "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.sibi-narendran%2Fcommon-agent-network/versions/latest",
+        "https://commons.dooza.ai/api/stats"
       ]
     },
     {
