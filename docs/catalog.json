@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-10-23",
-  "generated_at": "2026-10-23",
+  "catalog_version": "2026-10-25",
+  "generated_at": "2026-10-25",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "7a7207c86a39e76a6fab08929a954631e2c00ba4bb333e3a521aa85911a8f16b",
+      "value": "dd0d2274aaae769b7d29510269a364b17ee47d30b6b7d2f7c4a264cc492801c9",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -45,6 +45,7 @@
         "services/browser-and-web-execution/camofox.md",
         "services/browser-and-web-execution/cloudflare-browser-rendering.md",
         "services/browser-and-web-execution/crawl4ai.md",
+        "services/browser-and-web-execution/ego-lite.md",
         "services/browser-and-web-execution/firecrawl.md",
         "services/browser-and-web-execution/fsb.md",
         "services/browser-and-web-execution/hronaut.md",
@@ -294,7 +295,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 258
+    "services": 259
   },
   "categories": [
     {
@@ -309,7 +310,7 @@
       "name": "Browser & Web Execution",
       "description": "Services that give AI agents a remote, managed browser runtime — so agents can navigate, interact with, and extract data from the web as an autonomous actor, without any human operating a browser on their behalf.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/README.md",
-      "service_count": 28
+      "service_count": 29
     },
     {
       "id": "tool-access-and-integration",
@@ -1305,6 +1306,39 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "browser-and-web-execution/ego-lite",
+      "slug": "ego-lite",
+      "name": "ego lite",
+      "tagline": "The fastest browser for AI agents to run browser automation",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "browser-and-web-execution",
+      "website": "https://lite.ego.app",
+      "repository": "https://github.com/citrolabs/ego-lite",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/ego-lite.md",
+      "source_path": "services/browser-and-web-execution/ego-lite.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": "local desktop browser + Agent Skill / CLI",
+        "instruction": "npx skills add citrolabs/ego-lite",
+        "url": "https://cdn.ego.app/setup/macos/arm64/egolite-Y7MbxKIuhzFB.dmg"
+      },
+      "protocols": [
+        "agent-skill",
+        "cli"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "available",
+      "latest_month_signal": "v2.1.0 released 2026-10-16; Windows installer added to the README on 2026-10-19 and the Windows .exe returns HTTP 200; last GitHub push 2026-10-23; lite.ego.app HTTP 200 (verified 2026-10-25)",
+      "verified_at": "2026-10-25",
+      "verification_sources": [
+        "https://github.com/citrolabs/ego-lite/releases/tag/v2.1.0",
+        "https://cdn.ego.app/setup/windows/x64/egoliteSetup-Y7MbxKIuhzFB.exe",
+        "https://lite.ego.app"
+      ]
     },
     {
       "id": "browser-and-web-execution/firecrawl",

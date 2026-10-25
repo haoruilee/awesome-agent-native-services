@@ -85,12 +85,12 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**258 services across 16 categories.**
+**259 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 16 | Give agents a communication identity on the internet |
-| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 28 | Remote browser and web data extraction for agents |
+| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 29 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 24 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 19 | Agent-native wallets, identity, and transactions |
@@ -173,6 +173,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Kernel](services/browser-and-web-execution/kernel.md) [![⭐](https://img.shields.io/github/stars/kernel/kernel-images?style=social)](https://github.com/kernel/kernel-images) | you build agents. we give them the internet. | Sandboxed Chromium · managed auth · live view/replay · CLI + kernel-cli skill · hosted MCP | ✅ | `brew install kernel/tap/kernel` or `npm install -g @onkernel/cli`, then `kernel browsers create -o json` |
 | [Stealth Browser MCP](services/browser-and-web-execution/stealth-browser-mcp.md) [![⭐](https://img.shields.io/github/stars/vibheksoni/stealth-browser-mcp?style=social)](https://github.com/vibheksoni/stealth-browser-mcp) | Stealth browser automation for MCP-compatible AI agents | nodriver + CDP · 97 MCP tools · dynamic network hooks · element cloning | ✅ | Clone [vibheksoni/stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp), `pip install -r requirements.txt`, then `claude mcp add-json stealth-browser-mcp` |
 | [FSB (Full Self Browsing)](services/browser-and-web-execution/fsb.md) [![⭐](https://img.shields.io/github/stars/fullselfbrowsing/FSB?style=social)](https://github.com/fullselfbrowsing/FSB) | DOM-first AI browser automation for Chrome and MCP clients. | Agent-owned tabs (`TAB_NOT_OWNED`) · Vault fill (secrets stay in the extension) · Outcome-unknown reporting · `run_task` delegated runs · Trigger watchers · Session replay | ✅ | `npx -y fsb-mcp-server@latest install --claude-code` + [Chrome extension](https://chromewebstore.google.com/detail/badgafnfchcihdfnjneklogedcdkmjfk) |
+| [ego lite](services/browser-and-web-execution/ego-lite.md) [![⭐](https://img.shields.io/github/stars/citrolabs/ego-lite?style=social)](https://github.com/citrolabs/ego-lite) | The fastest browser for AI agents to run browser automation | Per-agent Spaces · Shared signed-in browser state · Engine-level Snapshots · Code-based actions · macOS + Windows | ✅ | `npx skills add citrolabs/ego-lite` + [desktop app](https://lite.ego.app) |
 
 ---
 
