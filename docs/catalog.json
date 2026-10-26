@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "907a94e6b06d5227f4b73529ac64ae109bca26b5fd83895c1b948e32a080da22",
+      "value": "28a8b5f724019eb2424e519886c3d7eac1c0301781a358eda23560e5eb37daba",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -2494,9 +2494,9 @@
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/scalekit.md",
       "source_path": "services/tool-access-and-integration/scalekit.md",
       "onboarding": {
-        "type": "cli",
+        "type": "agent-skill",
         "pattern": null,
-        "instruction": "npx -y @scalekit-inc/cli setup -y",
+        "instruction": "npx skills add scalekit-inc/authstack --skill integrate-agentkit",
         "url": "https://docs.scalekit.com/agentkit/quickstart/"
       },
       "protocols": [
@@ -2504,7 +2504,6 @@
         "mcp",
         "rest",
         "webhook",
-        "cli",
         "sdk",
         "openapi",
         "http",

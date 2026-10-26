@@ -13,7 +13,7 @@
 | **Integrations** | 500+ connectors, 20,000+ tools |
 | **Enterprise** | SOC 2 Type II · HIPAA BAA · bring-your-own KMS key · VPC or self-hosted deployment |
 
-This entry covers AgentKit, Scalekit's agent integration product. Scalekit's separate login, SSO and SCIM product for B2B apps is out of scope.
+This entry covers AgentKit, Scalekit's agent integration product.
 
 ---
 
@@ -27,7 +27,7 @@ https://www.scalekit.com
 
 https://github.com/scalekit-inc/scalekit-sdk-python
 
-Also: [Node.js SDK](https://github.com/scalekit-inc/scalekit-sdk-node) · [Agent Skills and plugins](https://github.com/scalekit-inc/authstack)
+Also: [Node.js SDK](https://github.com/scalekit-inc/scalekit-sdk-node) · [AgentKit skills](https://github.com/scalekit-inc/authstack/tree/main/kits/agentkit/skills)
 
 ---
 
@@ -35,9 +35,9 @@ Also: [Node.js SDK](https://github.com/scalekit-inc/scalekit-sdk-node) · [Agent
 
 **Quickest verified path:**
 
-`npx -y @scalekit-inc/cli setup -y`
+`npx skills add scalekit-inc/authstack --skill integrate-agentkit`
 
-The CLI detects Claude Code, Cursor, Codex, or GitHub Copilot and installs Scalekit's plugin and skills; other Agent Skills-compatible agents get the skills in `~/.agents/skills`. To call tools from your own agent code instead, install an SDK (`pip install scalekit-sdk-python` or `npm install @scalekit-sdk/node`) and follow the [quickstart](https://docs.scalekit.com/agentkit/quickstart/).
+Installs the AgentKit integration skill (create a connected account, authorize it, call a tool as the user) for Claude Code, Cursor, Codex, and other Agent Skills-compatible agents. To call tools from your own agent code instead, install an SDK (`pip install scalekit-sdk-python` or `npm install @scalekit-sdk/node`) and follow the [quickstart](https://docs.scalekit.com/agentkit/quickstart/).
 
 ---
 
@@ -45,10 +45,10 @@ The CLI detects Claude Code, Cursor, Codex, or GitHub Copilot and installs Scale
 
 Agent Skills are portable `SKILL.md` instruction sets following the [AgentSkills open standard](https://agentskills.io/) that teach AI coding assistants (Claude Code, Cursor, Codex, Windsurf, etc.) how to use this service correctly.
 
-**Status:** ✅ Official skills published at [`scalekit-inc/authstack`](https://github.com/scalekit-inc/authstack)
+**Status:** ✅ Official AgentKit skills published at [`scalekit-inc/authstack`](https://github.com/scalekit-inc/authstack/tree/main/kits/agentkit/skills)
 
 ```bash
-npx skills add scalekit-inc/authstack
+npx skills add scalekit-inc/authstack --skill setup-agentkit integrate-agentkit discover-connectors expose-agentkit-mcp integrate-agentkit-host check-agentkit-prod
 ```
 
 | Skill | What It Teaches the Agent |
@@ -92,7 +92,7 @@ AgentKit, Scalekit's agent integration product, lets an AI agent act in third-pa
 | **Agent-first positioning** | Homepage: *"Connect your agents to any tool. Authenticated, scoped, and logged."* Docs: *"AgentKit lets your AI agent act in third-party apps on behalf of each of your users."* ([overview](https://docs.scalekit.com/agentkit/overview/)) |
 | **Agent-specific primitive** | Virtual MCP servers scoped per agent role; per-run session tokens bound to one user; read-only tokens that strip write tools from the agent's tool list ([MCP overview](https://docs.scalekit.com/agentkit/mcp/overview/), [read-only tokens](https://docs.scalekit.com/agentkit/mcp/read-only-tokens/)) |
 | **Autonomy-compatible control plane** | After one-time consent, tools run with no per-call confirmation; Scalekit refreshes tokens, and an `EXPIRED` account tells the agent to send a new authorization link ([concepts](https://docs.scalekit.com/agentkit/concepts/)) |
-| **M2M integration surface** | Python and Node.js SDKs, REST API with OAuth 2.0 client credentials, Virtual MCP over Streamable HTTP, account-event webhooks, CLI, Agent Skills |
+| **M2M integration surface** | Python and Node.js SDKs, REST API with OAuth 2.0 client credentials, Virtual MCP over Streamable HTTP, account-event webhooks, Agent Skills |
 | **Identity / delegation** | The calling app authenticates with its own client credentials; each user is a separate `identifier` with their own connected accounts; every tool call is logged with tool, connection, connected account and identifier ([security](https://docs.scalekit.com/agentkit/security/)) |
 
 ---
@@ -143,7 +143,7 @@ AgentKit, Scalekit's agent integration product, lets an AI agent act in third-pa
 | REST API | OAuth 2.0 client credentials; [OpenAPI spec](https://docs.scalekit.com/api/agentkit.scalar.json) |
 | MCP | Virtual MCP servers and per-connection MCP servers over Streamable HTTP |
 | Webhooks | Connected-account events; triggers (beta) |
-| CLI / Agent Skills | `npx @scalekit-inc/cli setup`, `npx skills add scalekit-inc/authstack` |
+| Agent Skills | `npx skills add scalekit-inc/authstack --skill setup-agentkit integrate-agentkit discover-connectors expose-agentkit-mcp integrate-agentkit-host check-agentkit-prod` |
 | Framework guides | LangChain, LangGraph, Google ADK, OpenAI Agents SDK, Anthropic, Vercel AI SDK, Mastra, CrewAI |
 
 ---
