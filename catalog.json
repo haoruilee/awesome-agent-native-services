@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "8116eee19ac26d9643d8a385eda43faae047522a0384a9e9ab70dd77a0071059",
+      "value": "907a94e6b06d5227f4b73529ac64ae109bca26b5fd83895c1b948e32a080da22",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -82,6 +82,7 @@
         "services/tool-access-and-integration/obot.md",
         "services/tool-access-and-integration/openchatcut.md",
         "services/tool-access-and-integration/sandbase-cli.md",
+        "services/tool-access-and-integration/scalekit.md",
         "services/tool-access-and-integration/smithery.md",
         "services/tool-access-and-integration/snyk-agent-scan.md",
         "services/tool-access-and-integration/toolhive.md",
@@ -296,7 +297,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 260
+    "services": 261
   },
   "categories": [
     {
@@ -318,7 +319,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 24
+      "service_count": 25
     },
     {
       "id": "oversight-and-approval",
@@ -2478,6 +2479,42 @@
       "verification_sources": [
         "https://github.com/sandbaseai/cli/releases/tag/v0.1.17"
       ]
+    },
+    {
+      "id": "tool-access-and-integration/scalekit",
+      "slug": "scalekit",
+      "name": "Scalekit",
+      "tagline": "Connect your agents to any tool. Authenticated, scoped, and logged.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "tool-access-and-integration",
+      "website": "https://www.scalekit.com",
+      "repository": "https://github.com/scalekit-inc/scalekit-sdk-python",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/scalekit.md",
+      "source_path": "services/tool-access-and-integration/scalekit.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": null,
+        "instruction": "npx -y @scalekit-inc/cli setup -y",
+        "url": "https://docs.scalekit.com/agentkit/quickstart/"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "webhook",
+        "cli",
+        "sdk",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "tool-access-and-integration/smithery",

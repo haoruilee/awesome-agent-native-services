@@ -40,6 +40,7 @@ Agent-native tool access services solve all three problems with primitives that 
 | [MCPJungle](mcpjungle.md) [![⭐](https://img.shields.io/github/stars/mcpjungle/MCPJungle?style=social)](https://github.com/mcpjungle/MCPJungle) | Run all your MCP servers behind one endpoint | Compose `/mcp`, tool groups, enterprise tokens, MPL-2.0 | ✅ |
 | [MetaMCP](metamcp.md) [![⭐](https://img.shields.io/github/stars/metatool-ai/metamcp?style=social)](https://github.com/metatool-ai/metamcp) | MCP Aggregator, Orchestrator, Middleware, Gateway in one docker | Docker Compose, namespaces, middleware, `sk_mt_` keys | ✅ |
 | [Aident Loadout](aident-loadout.md) [![⭐](https://img.shields.io/github/stars/Aident-AI/aident-skill?style=social)](https://github.com/Aident-AI/aident-skill) | Give your agents real capabilities | Remote MCP (Streamable HTTP, OAuth) · Agent Skill · Vault · Audit · 400+ Skills | ✅ |
+| [Scalekit](scalekit.md) [![⭐](https://img.shields.io/github/stars/scalekit-inc/scalekit-sdk-python?style=social)](https://github.com/scalekit-inc/scalekit-sdk-python) | Connect your agents to any tool. Authenticated, scoped, and logged. | Python & Node.js SDKs · REST API · Virtual MCP servers (Streamable HTTP) · Agent Skills · per-user token vault (BYOK) · tool-call audit logs · 500+ connectors | ✅ |
 
 
 
