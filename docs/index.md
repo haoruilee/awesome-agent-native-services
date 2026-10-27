@@ -3,9 +3,9 @@ title: "Awesome Agent-Native Services"
 description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
 image: /assets/images/social-preview-wide.webp
 page_kind: home
-service_count: 268
+service_count: 269
 collection_count: 16
-new_arrivals_count: 95
+new_arrivals_count: 96
 ---
 
 <section id="new-arrivals" aria-labelledby="new-arrivals-title">
@@ -727,7 +727,15 @@ new_arrivals_count: 95
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--10" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/veyra.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--10" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/send21.md">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Commerce &amp; Payments</span>
+        <strong class="arrival-card__name">send21</strong>
+        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+      </span>
+    </a>
+    <a class="arrival-card atlas-sheet--service atlas-visual--11" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/veyra.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
@@ -735,7 +743,7 @@ new_arrivals_count: 95
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--11" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/inam-protocol.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--12" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/inam-protocol.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
@@ -743,7 +751,7 @@ new_arrivals_count: 95
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--12" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/402xagent.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--13" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/402xagent.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
@@ -751,7 +759,7 @@ new_arrivals_count: 95
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--13" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/tencentdb-agent-memory.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--14" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/tencentdb-agent-memory.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
@@ -759,7 +767,7 @@ new_arrivals_count: 95
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--14" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/orcareplay.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--15" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/orcareplay.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Observability &amp; Tracing</span>
@@ -767,7 +775,7 @@ new_arrivals_count: 95
         <span class="arrival-card__arrow" aria-hidden="true">↗</span>
       </span>
     </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--15" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/direct-hire.md">
+    <a class="arrival-card atlas-sheet--service atlas-visual--16" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/direct-hire.md">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
@@ -800,7 +808,7 @@ new_arrivals_count: 95
   <div class="section-intro">
     <span class="section-number">02</span>
     <h2 class="section-title" id="collections-title">The collections</h2>
-    <p class="section-note">16 fields · 268 dossiers</p>
+    <p class="section-note">16 fields · 269 dossiers</p>
   </div>
   <div class="collection-grid">
     <a class="collection-card atlas-visual--01" href="{{ '/categories/communication/' | relative_url }}">
@@ -840,7 +848,7 @@ new_arrivals_count: 95
       <span class="collection-card__copy">
       <span class="collection-card__number">05</span>
       <span class="collection-card__title">Commerce &amp; Payments</span>
-      <span class="collection-card__count">22</span>
+      <span class="collection-card__count">23</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--06" href="{{ '/categories/agent-runtime-and-infrastructure/' | relative_url }}">

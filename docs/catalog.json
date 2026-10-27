@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "a079d70927e7365c4aa9c30744c13dc11aa758f8ee9ba09049e2637c96059bab",
+      "value": "25e19136216c9d0943796913d5900a61e800337c82956cf631810baddd68fa58",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -112,6 +112,7 @@
         "services/commerce-and-payments/priors.md",
         "services/commerce-and-payments/saifuro.md",
         "services/commerce-and-payments/secondsign-core.md",
+        "services/commerce-and-payments/send21.md",
         "services/commerce-and-payments/shinjuku-shield.md",
         "services/commerce-and-payments/skyfire.md",
         "services/commerce-and-payments/tollex.md",
@@ -304,7 +305,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 268
+    "services": 269
   },
   "categories": [
     {
@@ -340,7 +341,7 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 22
+      "service_count": 23
     },
     {
       "id": "agent-runtime-and-infrastructure",
@@ -3387,6 +3388,44 @@
         "https://github.com/Bestpart-Irene/secondsign-core/releases/tag/v0.2.0",
         "https://secondsignruntime.com",
         "https://api.github.com/repos/Bestpart-Irene/secondsign-core"
+      ]
+    },
+    {
+      "id": "commerce-and-payments/send21",
+      "slug": "send21",
+      "name": "send21",
+      "tagline": "Payments for AI agents, without giving them your keys",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "commerce-and-payments",
+      "website": "https://send21.io",
+      "repository": "https://github.com/send21io/send21-examples",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/send21.md",
+      "source_path": "services/commerce-and-payments/send21.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP",
+        "instruction": "claude mcp add --transport http send21 https://send21.io/mcp \\\n  --header \"Authorization: Bearer s21_...\"",
+        "url": "https://send21.io/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "webhook",
+        "sdk",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Homepage HTTP 200. Unauthenticated tools/list on POST https://send21.io/mcp returned 14 tools. https://send21.io/llms-full.txt",
+      "verified_at": "2026-10-27",
+      "verification_sources": [
+        "https://send21.io/mcp",
+        "https://send21.io/llms-full.txt"
       ]
     },
     {
