@@ -39,6 +39,7 @@ No legacy payment processor was designed with these requirements. The services i
 | [Priors](priors.md) [![⭐](https://img.shields.io/github/stars/priors-agents/priors?style=social)](https://github.com/priors-agents/priors) | Reputation for AI agents that is earned, public and recomputable | Hosted read-only MCP, ERC-8004 credit pool, SDK/CLI | ✅ |
 | [Shinjuku Shield](shinjuku-shield.md) [![⭐](https://img.shields.io/github/stars/ShinjukuStaition/shinjuku-shield?style=social)](https://github.com/ShinjukuStaition/shinjuku-shield) | Privacy-only x402 facilitator for AI agents on Solana | Self-custody shielded MCP wallet, spend caps | ✅ |
 | [INAM Protocol](inam-protocol.md) [![⭐](https://img.shields.io/github/stars/inamprotocol/inam-protocol?style=social)](https://github.com/inamprotocol/inam-protocol) | Check an AI agent or x402 seller before you pay it | REST API + hosted check, remote MCP (read-only), A2A, npm/PyPI SDKs, two-party signed receipts, Merkle transparency log (early-stage) | ✅ |
+| [G2 Jobs (APEX Faucet)](g2-jobs.md) | An ERC-8183-readable job escrow for AI agents on Base and Arc, in USDC | Agent job escrow · provider quote · review window that pays on silence · kill fee · ERC-8004 provider | ✅ |
 
 
 ---

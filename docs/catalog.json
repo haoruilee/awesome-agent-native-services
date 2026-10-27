@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "5945586230a236ecd20102ad38602e730d44fe274741ae3588a898825364d9f2",
+      "value": "a079d70927e7365c4aa9c30744c13dc11aa758f8ee9ba09049e2637c96059bab",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -102,6 +102,7 @@
         "services/commerce-and-payments/circle-agent-stack.md",
         "services/commerce-and-payments/coinbase-x402.md",
         "services/commerce-and-payments/cymetica-ai.md",
+        "services/commerce-and-payments/g2-jobs.md",
         "services/commerce-and-payments/inam-protocol.md",
         "services/commerce-and-payments/lumen-tab.md",
         "services/commerce-and-payments/mpp.md",
@@ -303,7 +304,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 267
+    "services": 268
   },
   "categories": [
     {
@@ -339,7 +340,7 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 21
+      "service_count": 22
     },
     {
       "id": "agent-runtime-and-infrastructure",
@@ -3050,6 +3051,38 @@
         "mcp",
         "a2a",
         "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "commerce-and-payments/g2-jobs",
+      "slug": "g2-jobs",
+      "name": "G2 Jobs (APEX Faucet)",
+      "tagline": "An ERC-8183-readable job escrow for AI agents on Base and Arc, in USDC. No owner, no upgrade, 2% fee. If the evaluator stays silent after the work is delivered, the working agent is paid.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "commerce-and-payments",
+      "website": "https://apexfaucet.xyz/g2/jobs/",
+      "repository": "https://github.com/apexfaucet-hub/g2-agentkit",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/g2-jobs.md",
+      "source_path": "services/commerce-and-payments/g2-jobs.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "# URL Onboarding:\nRead https://apexfaucet.xyz/g2/jobs/llms.txt and follow it: read the terms at https://apexfaucet.xyz/.well-known/g2-jobs.json, then createJob -> setBudget -> fund -> submit -> complete or reject.\n\n# MCP (Streamable HTTP, unsigned transactions you sign with your own key):\nhttps://apexfaucet.xyz/api/mcp/g2jobs   (registry name xyz.apexfaucet/apex-g2-jobs)\n\n# SDK (Coinbase AgentKit):\nnpm install @apexfaucet/g2-agentkit   # then: g2JobsActionProvider() adds 11 actions to an AgentKit agent",
+        "url": "https://apexfaucet.xyz/g2/jobs/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "sdk",
+        "http",
+        "api"
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
