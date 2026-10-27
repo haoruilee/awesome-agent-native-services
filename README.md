@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**261 services across 16 categories.**
+**266 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -93,10 +93,10 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 29 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 25 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
-| 5 | [Commerce & Payments](#5-commerce--payment-services) | 19 | Agent-native wallets, identity, and transactions |
+| 5 | [Commerce & Payments](#5-commerce--payment-services) | 21 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 35 | Execution, session isolation, secrets, and gateway |
-| 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
-| 8 | [Memory & State](#8-memory--state-services) | 30 | Persistent agent memory across sessions |
+| 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 15 | Durable agent-loop control and live operator visibility |
+| 8 | [Memory & State](#8-memory--state-services) | 31 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 17 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
@@ -104,7 +104,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 8 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 11 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 16 | [Agent Social & Community](#16-agent-social--community-services) | 16 | Social networks where agents are first-class participants |
+| 16 | [Agent Social & Community](#16-agent-social--community-services) | 17 | Social networks where agents are first-class participants |
 
 ---
 
@@ -258,6 +258,8 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Lumen Tab](services/commerce-and-payments/lumen-tab.md) [![⭐](https://img.shields.io/github/stars/Dansgit2b/lumen-tab?style=social)](https://github.com/Dansgit2b/lumen-tab) | Prepaid USDC tabs for pay-per-call AI agent APIs on Arc | Prepaid tab (payment channel) · EIP-712 vouchers · HTTP 402 · ERC-8004 provider id · early-stage, unaudited | ⚠️ | `npm install github:Dansgit2b/lumen-tab` then `new TabPayer({ account, tabId, provider }).fetch(url)` |
 | [402xAgent](services/commerce-and-payments/402xagent.md) [![⭐](https://img.shields.io/github/stars/withgrokbot/x402-spotcheck?style=social)](https://github.com/withgrokbot/x402-spotcheck) | The check an agent calls before paying any x402 endpoint | Unpaid 402 probe · pay/skip/recheck verdict · public receipts · never pays the target | ✅ | Call `https://api.402xagent.com/v1/products/endpoint-spot-check?url=<endpoint>` or MCP `https://api.402xagent.com/mcp` (tool `endpoint_spot_check`) |
 | [INAM Protocol](services/commerce-and-payments/inam-protocol.md) [![⭐](https://img.shields.io/github/stars/inamprotocol/inam-protocol?style=social)](https://github.com/inamprotocol/inam-protocol) | Check an AI agent or x402 seller before you pay it | Two-party signed receipts (did:key) · Merkle transparency log · evidence-level reputation · x402 payTo binding check · early-stage | ✅ | `curl 'https://api.inamprotocol.org/v1/check?target=<target>'` or `npx inamprotocol check <target>` — MCP `https://api.inamprotocol.org/mcp` (no auth) |
+| [Priors](services/commerce-and-payments/priors.md) [![⭐](https://img.shields.io/github/stars/priors-agents/priors?style=social)](https://github.com/priors-agents/priors) | Reputation for AI agents that is earned, public and recomputable | ERC-8004 credit pool · Score v2 · hosted read-only MCP · SDK/CLI | ✅ | `claude mcp add --transport http priors https://mcp.priors.trade/mcp` |
+| [Shinjuku Shield](services/commerce-and-payments/shinjuku-shield.md) [![⭐](https://img.shields.io/github/stars/ShinjukuStaition/shinjuku-shield?style=social)](https://github.com/ShinjukuStaition/shinjuku-shield) | Privacy-only x402 facilitator for AI agents on Solana | Self-custody shielded USDC · local MCP wallet · spend caps · private settle | ✅ | `npm install -g shinjuku@0.3.86` then `shinjuku setup` — [shinjukustaition.com](https://shinjukustaition.com) |
 
 ---
 
@@ -329,6 +331,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Pizza Bot](services/agent-harnesses-and-control-planes/pizza-bot.md) [![⭐](https://img.shields.io/github/stars/pizza-bot-app/pizza-bot?style=social)](https://github.com/pizza-bot-app/pizza-bot) | Pizza Bot is an inbox for long-running AI work. | Unread/Action queues · checkpointed runs · skill subagents · folder grants | ⚠️ | Clone [pizza-bot](https://github.com/pizza-bot-app/pizza-bot) → `npm install && npm run build && npm run dev` |
 | [txcript](services/agent-harnesses-and-control-planes/txcript.md) [![⭐](https://img.shields.io/github/stars/skillsynchq/txcript?style=social)](https://github.com/skillsynchq/txcript) | Continue your conversation in another coding agent. | Harness codecs · canonical transcript · continue/export · session search | ✅ | `cargo install --git https://github.com/skillsynchq/txcript txcript-cli --locked` then `txcript continue <id> --with codex`; MCP: `txcript mcp` |
 | [peerd](services/agent-harnesses-and-control-planes/peerd.md) [![⭐](https://img.shields.io/github/stars/NotASithLord/peerd?style=social)](https://github.com/NotASithLord/peerd) | peerd: the AI agent harness native to the browser | In-browser loop · keyless actors · WASM compute · vaulted BYOK | ⚠️ | `git clone https://github.com/NotASithLord/peerd.git` then Load unpacked `extension/` |
+| [Reef](services/agent-harnesses-and-control-planes/reef.md) [![⭐](https://img.shields.io/github/stars/Human-Agent-Society/reef?style=social)](https://github.com/Human-Agent-Society/reef) | Infrastructure for continually self-improving agents | Serve/observe/grow/commit · weight or harness learning · versioned artifacts | ⚠️ | `uv pip install reef-infra` then `uv run reef serve …` — [quickstart](https://reefinfra.ai/docs/getting-started/quickstart/) |
 
 ---
 
@@ -372,6 +375,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [mcp-memory-service](services/memory-and-state/mcp-memory-service.md) [![⭐](https://img.shields.io/github/stars/doobidoo/mcp-memory-service?style=social)](https://github.com/doobidoo/mcp-memory-service) | Memory for AI Agents — REST, MCP, OAuth, CLI | `X-Agent-ID` · causal graph · OAuth DCR · 76 REST endpoints | ✅ | `pip install mcp-memory-service` then `memory server` or `memory server --http` |
 | [Mnemoverse](services/memory-and-state/mnemoverse.md) [![⭐](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server?style=social)](https://github.com/mnemoverse/mcp-memory-server) | Persistent memory for AI agents | Outcome feedback re-ranks recall · Importance gate on write · Hebbian concept links · Shared rooms (Beta) | ✅ | Add `https://mcp.mnemoverse.com/mcp` as a remote MCP server and sign in, or `npx -y @mnemoverse/mcp-memory-server@latest` with a free API key from [console.mnemoverse.com](https://console.mnemoverse.com) |
 | [Dexio](services/memory-and-state/dexio.md) | One wiki for all your agents | Shared markdown wiki · Per-agent change history · Version-guarded writes · Wiki health report · Device sign-in | ✅ | Read https://dexio.wiki/agents.md and follow the instructions to connect. MCP: `https://app.dexio.wiki/mcp` |
+| [ContextStream](services/memory-and-state/contextstream.md) [![⭐](https://img.shields.io/github/stars/contextstream/mcp-server?style=social)](https://github.com/contextstream/mcp-server) | Persistent memory. Millisecond code search. | Hosted/local MCP · project code search · saved decisions/lessons · Slipstream agents | ✅ | `curl -fsSL https://contextstream.io/scripts/mcp.sh | bash` — hosted MCP `https://mcp.contextstream.io/mcp` |
 
 ---
 
@@ -548,6 +552,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [TERM](services/agent-social-network/term.md) [![⭐](https://img.shields.io/github/stars/break-the-build/term-client?style=social)](https://github.com/break-the-build/term-client) | Find prior work. Test the next claim. | Self-held Ed25519 identity · Hosted MCP · Checker-scored challenges · Signed REST | ✅ | Connect MCP to `https://api.term.app/mcp` or `npx --yes @term-app/agent-client briefing --anonymous --limit 3` |
 | [Anansi Haven](services/agent-social-network/anansi-haven.md) [![⭐](https://img.shields.io/github/stars/kburrus64-max/anansi-haven?style=social)](https://github.com/kburrus64-max/anansi-haven) | A home base for AI agents | Agent passport · Commons rooms & DMs · Lessons library · Per-agent memory · Agent directory · Job board · Encrypted private house · MCP/A2A | ✅ | Read https://anansi-haven.anansidata.workers.dev/llms.txt and follow the instructions to get a passport, join the Agent Commons, and use memory and the job board. |
 | [Agent Commons](services/agent-social-network/agent-commons.md) [![⭐](https://img.shields.io/github/stars/sibi-narendran/common-agent-network?style=social)](https://github.com/sibi-narendran/common-agent-network) | A home for any agent on the internet | Per-wake `home` call · Append-only public board & DMs · Retry-safe writes · Job board · Agent directory & record · MCP/A2A | ✅ | Read https://commons.dooza.ai/skill.md and follow it. |
+| [Direct Hire](services/agent-social-network/direct-hire.md) | Agent-first professional network for autonomous AI agents | URL onboarding kit · self-register without email · A2A · OpenAPI · endpoint verify | ⚠️ | `Read https://directhireagents.com/.well-known/agent-runtime-kit.json and follow the bootstrap links.` |
 
 ---
 

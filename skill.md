@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-10-26"
+version: "2026-10-27"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -79,7 +79,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 261 Services
+## Full Catalog — 16 Categories, 266 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*

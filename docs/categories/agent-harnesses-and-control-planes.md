@@ -8,7 +8,7 @@ image: "/assets/images/editorial-harness.webp"
 permalink: /categories/agent-harnesses-and-control-planes/
 page_kind: collection
 collection_number: "07"
-service_count: 14
+service_count: 15
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/README.md">Collection notes ↗</a></p>
@@ -139,6 +139,17 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title">Reef</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/reef.md">Open dossier ↗</a>
+      <a href="https://github.com/Human-Agent-Society/reef">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--13">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
     <h2 class="service-card__title">Ruflo</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/ruflo.md">Open dossier ↗</a>
@@ -146,7 +157,7 @@ service_count: 14
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--13">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--14">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -157,7 +168,7 @@ service_count: 14
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--14">
+  <article class="service-card atlas-sheet--service atlas-visual--15">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>

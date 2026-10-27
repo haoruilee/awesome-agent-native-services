@@ -66,7 +66,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 261 Services
+## Full Catalog — 16 Categories, 266 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*

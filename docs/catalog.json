@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-10-26",
-  "generated_at": "2026-10-26",
+  "catalog_version": "2026-10-27",
+  "generated_at": "2026-10-27",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "b9ea7224d31a2611f57de0c7e5c1700e1238a6b793c558aeff3ada84e95ffcdb",
+      "value": "2f63977cabfc41c7dd7cabf8d17dec2ac973d4bdbd21e413f1e9cbc941ca5da9",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -108,8 +108,10 @@
         "services/commerce-and-payments/nevermined.md",
         "services/commerce-and-payments/openlibx402.md",
         "services/commerce-and-payments/payman-ai.md",
+        "services/commerce-and-payments/priors.md",
         "services/commerce-and-payments/saifuro.md",
         "services/commerce-and-payments/secondsign-core.md",
+        "services/commerce-and-payments/shinjuku-shield.md",
         "services/commerce-and-payments/skyfire.md",
         "services/commerce-and-payments/tollex.md",
         "services/commerce-and-payments/ucp.md",
@@ -162,6 +164,7 @@
         "services/agent-harnesses-and-control-planes/peerd.md",
         "services/agent-harnesses-and-control-planes/pizza-bot.md",
         "services/agent-harnesses-and-control-planes/qm.md",
+        "services/agent-harnesses-and-control-planes/reef.md",
         "services/agent-harnesses-and-control-planes/ruflo.md",
         "services/agent-harnesses-and-control-planes/txcript.md",
         "services/agent-harnesses-and-control-planes/yylo.md",
@@ -171,6 +174,7 @@
         "services/memory-and-state/claude-mem.md",
         "services/memory-and-state/cognee.md",
         "services/memory-and-state/compartment.md",
+        "services/memory-and-state/contextstream.md",
         "services/memory-and-state/dexio.md",
         "services/memory-and-state/engram.md",
         "services/memory-and-state/ensue.md",
@@ -281,6 +285,7 @@
         "services/agent-social-network/agentel.md",
         "services/agent-social-network/agentgram.md",
         "services/agent-social-network/anansi-haven.md",
+        "services/agent-social-network/direct-hire.md",
         "services/agent-social-network/kinthai.md",
         "services/agent-social-network/mcpverse.md",
         "services/agent-social-network/moltbook.md",
@@ -297,7 +302,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 261
+    "services": 266
   },
   "categories": [
     {
@@ -333,7 +338,7 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 19
+      "service_count": 21
     },
     {
       "id": "agent-runtime-and-infrastructure",
@@ -347,14 +352,14 @@
       "name": "Agent Harnesses & Operator Surfaces",
       "description": "Systems purpose-built around running agents: either harnesses that add durable work state, orchestration, verification, and policy, or operator surfaces that expose live agent state and bounded session controls.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/README.md",
-      "service_count": 14
+      "service_count": 15
     },
     {
       "id": "memory-and-state",
       "name": "Memory & State",
       "description": "Services that give AI agents persistent, queryable memory across sessions — treating memory as infrastructure rather than application logic, and managing the full lifecycle of what agents remember, forget, and retrieve.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md",
-      "service_count": 30
+      "service_count": 31
     },
     {
       "id": "search-and-web-intelligence",
@@ -410,7 +415,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 16
+      "service_count": 17
     }
   ],
   "services": [
@@ -3250,6 +3255,39 @@
       "verification_sources": []
     },
     {
+      "id": "commerce-and-payments/priors",
+      "slug": "priors",
+      "name": "Priors",
+      "tagline": "Reputation for AI agents that is earned, public and recomputable.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "commerce-and-payments",
+      "website": "https://priors.trade",
+      "repository": "https://github.com/priors-agents/priors",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/priors.md",
+      "source_path": "services/commerce-and-payments/priors.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "Hosted read-only MCP (no key) + optional SDK/CLI for on-chain actions",
+        "instruction": "claude mcp add --transport http priors https://mcp.priors.trade/mcp",
+        "url": "https://mcp.priors.trade/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Hosted MCP https://mcp.priors.trade/mcp initializes as priors-read v0.3.0; repo last push 2026-10-26; CreditPool v2 live on Robinhood Chain (4663)",
+      "verified_at": "2026-10-27",
+      "verification_sources": [
+        "https://mcp.priors.trade/mcp"
+      ]
+    },
+    {
       "id": "commerce-and-payments/saifuro",
       "slug": "saifuro",
       "name": "Saifuro",
@@ -3315,6 +3353,39 @@
         "https://github.com/Bestpart-Irene/secondsign-core/releases/tag/v0.2.0",
         "https://secondsignruntime.com",
         "https://api.github.com/repos/Bestpart-Irene/secondsign-core"
+      ]
+    },
+    {
+      "id": "commerce-and-payments/shinjuku-shield",
+      "slug": "shinjuku-shield",
+      "name": "Shinjuku Shield",
+      "tagline": "Privacy-only x402 facilitator for AI agents on Solana.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "commerce-and-payments",
+      "website": "https://shinjukustaition.com",
+      "repository": "https://github.com/ShinjukuStaition/shinjuku-shield",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/shinjuku-shield.md",
+      "source_path": "services/commerce-and-payments/shinjuku-shield.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "Local self-custody MCP wallet",
+        "instruction": "npm install -g shinjuku@0.3.86\nshinjuku setup",
+        "url": null
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "npm shinjuku-shield@0.3.86 pinned 2026-10-23; site https://shinjukustaition.com HTTP 200; GitHub push 2026-10-27",
+      "verified_at": "2026-10-27",
+      "verification_sources": [
+        "https://shinjukustaition.com"
       ]
     },
     {
@@ -4910,6 +4981,37 @@
       ]
     },
     {
+      "id": "agent-harnesses-and-control-planes/reef",
+      "slug": "reef",
+      "name": "Reef",
+      "tagline": "Infrastructure for continually self-improving agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-harnesses-and-control-planes",
+      "website": "https://reefinfra.ai",
+      "repository": "https://github.com/Human-Agent-Society/reef",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/reef.md",
+      "source_path": "services/agent-harnesses-and-control-planes/reef.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": "Local/self-hosted Python infra (CLI)",
+        "instruction": "uv venv && source .venv/bin/activate\nuv pip install reef-infra\npython3 -c \"import reef; print(reef.__version__)\"\n# minimal inference serve example from upstream README:\nuv run reef serve --inference.model-path Qwen/Qwen2.5-1.5B-Instruct",
+        "url": "https://reefinfra.ai/docs/getting-started/quickstart/"
+      },
+      "protocols": [
+        "cli",
+        "http"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "PyPI reef-infra 0.1.3; docs quickstart HTTP 200; GitHub ~7.7k stars, last push 2026-10-27",
+      "verified_at": "2026-10-27",
+      "verification_sources": [
+        "https://github.com/Human-Agent-Society/reef"
+      ]
+    },
+    {
       "id": "agent-harnesses-and-control-planes/ruflo",
       "slug": "ruflo",
       "name": "Ruflo",
@@ -5169,6 +5271,37 @@
       "verified_at": "2026-10-19",
       "verification_sources": [
         "https://api.github.com/repos/MaxFreedomPollard/Compartment"
+      ]
+    },
+    {
+      "id": "memory-and-state/contextstream",
+      "slug": "contextstream",
+      "name": "ContextStream",
+      "tagline": "Persistent memory. Millisecond code search.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "memory-and-state",
+      "website": "https://contextstream.io",
+      "repository": "https://github.com/contextstream/mcp-server",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/contextstream.md",
+      "source_path": "services/memory-and-state/contextstream.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP install script / hosted MCP",
+        "instruction": "curl -fsSL https://contextstream.io/scripts/mcp.sh | bash",
+        "url": "https://contextstream.io/scripts/mcp.sh"
+      },
+      "protocols": [
+        "mcp",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Hosted MCP and docs return HTTP 200; contextstream/mcp-server last push 2026-10-27; install scripts at contextstream.io/scripts/mcp.sh and mcp.ps1",
+      "verified_at": "2026-10-27",
+      "verification_sources": [
+        "https://github.com/contextstream/mcp-server"
       ]
     },
     {
@@ -8473,6 +8606,40 @@
         "https://anansi-haven.anansidata.workers.dev/llms.txt",
         "https://anansi-haven.anansidata.workers.dev/.well-known/agent-card.json",
         "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.kburrus64-max%2Fanansi-haven/versions/latest"
+      ]
+    },
+    {
+      "id": "agent-social-network/direct-hire",
+      "slug": "direct-hire",
+      "name": "Direct Hire",
+      "tagline": "Agent-first professional network for autonomous AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-social-network",
+      "website": "https://directhireagents.com",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/direct-hire.md",
+      "source_path": "services/agent-social-network/direct-hire.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://directhireagents.com/.well-known/agent-runtime-kit.json and follow its bootstrap links to discover, register, and participate in Direct Hire without a human browser flow.",
+        "url": "https://directhireagents.com/.well-known/agent-runtime-kit.json"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "a2a",
+        "openapi",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "/.well-known/agent.json, agent-runtime-kit.json, openapi.json, and llms.txt return HTTP 200; agents self-register without human account/email",
+      "verified_at": "2026-10-27",
+      "verification_sources": [
+        "https://directhireagents.com"
       ]
     },
     {
