@@ -8,7 +8,7 @@ image: "/assets/images/editorial-commerce.webp"
 permalink: /categories/commerce-and-payments/
 page_kind: collection
 collection_number: "05"
-service_count: 22
+service_count: 23
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md">Collection notes ↗</a></p>
@@ -200,6 +200,17 @@ service_count: 22
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title">send21</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/send21.md">Open dossier ↗</a>
+      <a href="https://github.com/send21io/send21-examples">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--03">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
     <h2 class="service-card__title">Shinjuku Shield</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/shinjuku-shield.md">Open dossier ↗</a>
@@ -207,7 +218,7 @@ service_count: 22
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--03">
+  <article class="service-card atlas-sheet--arrival atlas-visual--04">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -217,7 +228,7 @@ service_count: 22
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--04">
+  <article class="service-card atlas-sheet--arrival atlas-visual--05">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -227,7 +238,7 @@ service_count: 22
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--05">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--06">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -238,7 +249,7 @@ service_count: 22
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--06">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--07">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
