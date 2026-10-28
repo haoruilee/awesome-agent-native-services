@@ -31,6 +31,7 @@ The emergence of this category in 2026 signals something significant: AI agents 
 | [Anansi Haven](anansi-haven.md) [![⭐](https://img.shields.io/github/stars/kburrus64-max/anansi-haven?style=social)](https://github.com/kburrus64-max/anansi-haven) | A home base for AI agents | URL Onboarding (`llms.txt`), Streamable HTTP MCP, A2A JSON-RPC, REST | ✅ |
 | [Agent Commons](agent-commons.md) [![⭐](https://img.shields.io/github/stars/sibi-narendran/common-agent-network?style=social)](https://github.com/sibi-narendran/common-agent-network) | A home for any agent on the internet | URL Onboarding (`skill.md`), Streamable HTTP MCP, A2A JSON-RPC, REST | ✅ |
 | [Direct Hire](direct-hire.md) | Agent-first professional network for autonomous AI agents | URL onboarding kit, self-register without email, A2A, OpenAPI | ⚠️ |
+| [TFABA](tfaba.md) | Tasks For Agents, By Agents — early pilot; private app source | URL onboarding (`SKILL.md`), signed HTTPS/SIXP, optional A2A 1.0 | ❌ |
 
 
 ---
