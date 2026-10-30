@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-10-27",
-  "generated_at": "2026-10-27",
+  "catalog_version": "2026-10-30",
+  "generated_at": "2026-10-30",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "a5f6f4571ef5c6c6e1e1884b0f931ff3bbb36cc0cd46e8b6c87580b2850c450f",
+      "value": "935fb4cb37bca0c41597c775be356de482d67cc1ec6825b8b9ca74f927424321",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -201,10 +201,12 @@
         "services/memory-and-state/openviking.md",
         "services/memory-and-state/projectmem.md",
         "services/memory-and-state/recall.md",
+        "services/memory-and-state/supermemory.md",
         "services/memory-and-state/tencentdb-agent-memory.md",
         "services/memory-and-state/zep.md",
         "services/search-and-web-intelligence/README.md",
         "services/search-and-web-intelligence/agent-search-mcp.md",
+        "services/search-and-web-intelligence/context7.md",
         "services/search-and-web-intelligence/contextx.md",
         "services/search-and-web-intelligence/exa.md",
         "services/search-and-web-intelligence/jina-deepsearch.md",
@@ -306,7 +308,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 270
+    "services": 272
   },
   "categories": [
     {
@@ -363,14 +365,14 @@
       "name": "Memory & State",
       "description": "Services that give AI agents persistent, queryable memory across sessions — treating memory as infrastructure rather than application logic, and managing the full lifecycle of what agents remember, forget, and retrieve.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md",
-      "service_count": 31
+      "service_count": 32
     },
     {
       "id": "search-and-web-intelligence",
       "name": "Search & Web Intelligence",
       "description": "Services that give AI agents optimized, structured access to web information — returning AI-ready content tuned for LLM context windows, not raw HTML or human-readable SERPs.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/README.md",
-      "service_count": 9
+      "service_count": 10
     },
     {
       "id": "code-execution",
@@ -6174,6 +6176,40 @@
       "verification_sources": []
     },
     {
+      "id": "memory-and-state/supermemory",
+      "slug": "supermemory",
+      "name": "Supermemory",
+      "tagline": "The Memory API for the AI era.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "memory-and-state",
+      "website": "https://supermemory.ai",
+      "repository": "https://github.com/supermemoryai/supermemory",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/supermemory.md",
+      "source_path": "services/memory-and-state/supermemory.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "Remote MCP + REST API / SDK",
+        "instruction": "{ \"mcpServers\": { \"supermemory\": { \"url\": \"https://mcp.supermemory.ai/mcp\" } } }",
+        "url": "https://mcp.supermemory.ai/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "sdk",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unknown",
+      "latest_month_signal": "Last GitHub push 2026-10-29 (repo metadata); ~31k stars",
+      "verified_at": "2026-10-30",
+      "verification_sources": [
+        "https://api.github.com/repos/supermemoryai/supermemory"
+      ]
+    },
+    {
       "id": "memory-and-state/tencentdb-agent-memory",
       "slug": "tencentdb-agent-memory",
       "name": "TencentDB Agent Memory",
@@ -6267,6 +6303,38 @@
       "verification_sources": [
         "https://lennney.com/en/agent-search-mcp",
         "https://github.com/lennney/agent-search-mcp"
+      ]
+    },
+    {
+      "id": "search-and-web-intelligence/context7",
+      "slug": "context7",
+      "name": "Context7",
+      "tagline": "Up-to-date Docs for AI Agents",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "search-and-web-intelligence",
+      "website": "https://context7.com",
+      "repository": "https://github.com/upstash/context7",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/context7.md",
+      "source_path": "services/search-and-web-intelligence/context7.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "Remote MCP or CLI + Skill",
+        "instruction": "npx ctx7 setup            # OAuth, mints an API key, installs a skill or MCP config\n# targets: --cursor, --claude, --opencode",
+        "url": "https://mcp.context7.com/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Last GitHub push 2026-10-29 (repo metadata); ~64k stars",
+      "verified_at": "2026-10-30",
+      "verification_sources": [
+        "https://api.github.com/repos/upstash/context7"
       ]
     },
     {

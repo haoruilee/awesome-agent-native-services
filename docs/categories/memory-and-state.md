@@ -8,7 +8,7 @@ image: "/assets/images/editorial-memory.webp"
 permalink: /categories/memory-and-state/
 page_kind: collection
 collection_number: "08"
-service_count: 31
+service_count: 32
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md">Collection notes ↗</a></p>
@@ -337,6 +337,17 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title">Supermemory</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/supermemory.md">Open dossier ↗</a>
+      <a href="https://github.com/supermemoryai/supermemory">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--15">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
     <h2 class="service-card__title">TencentDB Agent Memory</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/tencentdb-agent-memory.md">Open dossier ↗</a>
@@ -344,7 +355,7 @@ service_count: 31
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--15">
+  <article class="service-card atlas-sheet--service atlas-visual--16">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
