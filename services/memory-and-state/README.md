@@ -56,6 +56,7 @@ Agent-native memory services solve this by providing:
 | [Mnemoverse](mnemoverse.md) [![⭐](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server?style=social)](https://github.com/mnemoverse/mcp-memory-server) | Persistent memory for AI agents | Streamable HTTP MCP (OAuth), stdio MCP (npx), REST API, Python SDK, Claude Code/Cursor/Gemini CLI plugins, VS Code extension | ✅ |
 | [Dexio](dexio.md) | One wiki for all your agents | Streamable HTTP MCP (API key or OAuth), device sign-in API, Agent Skills, Hermes and OpenClaw plugins | ✅ |
 | [ContextStream](contextstream.md) [![⭐](https://img.shields.io/github/stars/contextstream/mcp-server?style=social)](https://github.com/contextstream/mcp-server) | Persistent memory. Millisecond code search. | Hosted/local MCP, project code search, saved decisions | ✅ |
+| [Zambo](zambo.md) [![⭐](https://img.shields.io/github/stars/zambodotdev/zambo-mcp?style=social)](https://github.com/zambodotdev/zambo-mcp) | Give your AI hands, memory, and proof. | Remote MCP (Streamable HTTP), handover sessions, cross-AI memory, per-call receipts | ✅ |
 
 
 
