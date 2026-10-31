@@ -8,7 +8,7 @@ image: "/assets/images/editorial-memory.webp"
 permalink: /categories/memory-and-state/
 page_kind: collection
 collection_number: "08"
-service_count: 32
+service_count: 33
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md">Collection notes ↗</a></p>
@@ -356,6 +356,17 @@ service_count: 32
     </div>
   </article>
   <article class="service-card atlas-sheet--service atlas-visual--16">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <h2 class="service-card__title">Zambo</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/zambo.md">Open dossier ↗</a>
+      <a href="https://github.com/zambodotdev/zambo-mcp">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--arrival atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>

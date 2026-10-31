@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "935fb4cb37bca0c41597c775be356de482d67cc1ec6825b8b9ca74f927424321",
+      "value": "ddc8f1c79bb819b399af029abb5a3185b919270001198c538c8c343330689364",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -203,6 +203,7 @@
         "services/memory-and-state/recall.md",
         "services/memory-and-state/supermemory.md",
         "services/memory-and-state/tencentdb-agent-memory.md",
+        "services/memory-and-state/zambo.md",
         "services/memory-and-state/zep.md",
         "services/search-and-web-intelligence/README.md",
         "services/search-and-web-intelligence/agent-search-mcp.md",
@@ -308,7 +309,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 272
+    "services": 273
   },
   "categories": [
     {
@@ -365,7 +366,7 @@
       "name": "Memory & State",
       "description": "Services that give AI agents persistent, queryable memory across sessions — treating memory as infrastructure rather than application logic, and managing the full lifecycle of what agents remember, forget, and retrieve.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md",
-      "service_count": 32
+      "service_count": 33
     },
     {
       "id": "search-and-web-intelligence",
@@ -6238,6 +6239,36 @@
       "verification_sources": [
         "https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.1"
       ]
+    },
+    {
+      "id": "memory-and-state/zambo",
+      "slug": "zambo",
+      "name": "Zambo",
+      "tagline": "Give your AI hands, memory, and proof.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "memory-and-state",
+      "website": "https://zambo.dev",
+      "repository": "https://github.com/zambodotdev/zambo-mcp",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/zambo.md",
+      "source_path": "services/memory-and-state/zambo.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": null,
+        "instruction": "{\n  \"mcpServers\": {\n    \"zambo\": { \"url\": \"https://zambo.dev/mcp\" }\n  }\n}",
+        "url": "https://zambo.dev/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "memory-and-state/zep",
