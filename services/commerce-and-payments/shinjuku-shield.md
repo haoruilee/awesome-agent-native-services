@@ -5,9 +5,8 @@
 | | |
 |---|---|
 | **Website** | https://shinjukustaition.com |
-| **Docs** | https://github.com/ShinjukuStaition/shinjuku-shield · docs under that repo |
-| **GitHub** | https://github.com/ShinjukuStaition/shinjuku-shield |
-| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/ShinjukuStaition/shinjuku-shield?style=social)](https://github.com/ShinjukuStaition/shinjuku-shield) |
+| **Docs** | https://shinjukustaition.com/llms.txt · https://shinjukustaition.com |
+| **GitHub** | Public docs repo no longer reachable (checked 2026-11-02); old pointer repo: https://github.com/ShinjukuStaition/shinjuku-shielded |
 | **Classification** | `agent-native` |
 | **Category** | [Commerce & Payment Services](README.md) |
 | **License** | Proprietary wallet/binary distribution (`SEE LICENSE IN LICENSE.txt` on npm `shinjuku-shield` / `shinjuku-shielded`); docs/setup repo is public |
@@ -24,7 +23,7 @@ https://shinjukustaition.com
 
 ## Official Repo
 
-https://github.com/ShinjukuStaition/shinjuku-shield — setup guide, docs, changelog, and SHA-256 hashes for wallet releases. Wallet/source binaries ship via npm (`shinjuku-shield` / older name `shinjuku-shielded`); the public repo does not include server, circuit, or wallet source.
+The former public repo `ShinjukuStaition/shinjuku-shield` (setup guide, docs, changelog, and SHA-256 hashes for wallet releases) returned 404 on 2026-11-02; the old `shinjuku-shielded` repo still points to it. Setup and docs now live on https://shinjukustaition.com and its llms.txt. Wallet/source binaries ship via npm (`shinjuku-shield` / older name `shinjuku-shielded`); no server, circuit, or wallet source was ever public.
 
 ---
 
@@ -149,5 +148,6 @@ Humans run setup and optional caps. Paying, shielding, and discovery run in the 
 ## Verification Sources
 
 - https://shinjukustaition.com (HTTP 200)
-- https://github.com/ShinjukuStaition/shinjuku-shield
+- https://shinjukustaition.com/llms.txt (HTTP 200, 2026-11-02)
+- npm `shinjuku-shield` latest 0.3.131 (registry, 2026-11-02)
 - npm `shinjuku-shield@0.3.86`

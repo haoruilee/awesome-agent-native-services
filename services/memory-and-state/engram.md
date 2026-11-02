@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| **Website** | https://gentleman-programming-engram.mintlify.app/introduction |
-| **Docs** | https://gentleman-programming-engram.mintlify.app/introduction |
+| **Website** | https://engram.gentlemanprogramming.com/ |
+| **Docs** | https://engram.gentlemanprogramming.com/ |
 | **GitHub** | https://github.com/Gentleman-Programming/engram |
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/Gentleman-Programming/engram?style=social)](https://github.com/Gentleman-Programming/engram) |
 | **Classification** | `agent-native` |
@@ -18,7 +18,7 @@
 
 ## Official Website
 
-https://gentleman-programming-engram.mintlify.app/introduction
+https://engram.gentlemanprogramming.com/
 
 Mintlify docs H1: **"Persistent memory system for AI coding agents."** The GitHub README tagline is **"Persistent memory for AI coding agents"** with the supporting line **"One brain. Local or cloud. Agent-agnostic, single binary, zero dependencies."**
 
@@ -62,7 +62,7 @@ There is no URL-onboarding document.
 
 | Skill | What It Teaches the Agent |
 |---|---|
-| Memory Protocol (Claude Code plugin) | When to `mem_save` / `mem_search` and the session-close summary ([docs](https://gentleman-programming-engram.mintlify.app/agents/claude-code)) |
+| Memory Protocol (Claude Code plugin) | When to `mem_save` / `mem_search` and the session-close summary ([docs](https://github.com/Gentleman-Programming/engram#readme)) |
 | Pi package `gentle-engram` | Persistent project memory + compaction recovery via `engram setup pi` |
 
 ```bash
@@ -98,7 +98,7 @@ Next session, the agent calls `mem_search` / `mem_context` (and plugins can inje
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | README: **"Persistent memory for AI coding agents"** / **"One brain. Local or cloud. Agent-agnostic, single binary, zero dependencies."** — [repo](https://github.com/Gentleman-Programming/engram). Docs: **"Your AI coding agent forgets everything when the session ends. Engram gives it a brain."** — [introduction](https://gentleman-programming-engram.mintlify.app/introduction) |
+| **Agent-first positioning** | README: **"Persistent memory for AI coding agents"** / **"One brain. Local or cloud. Agent-agnostic, single binary, zero dependencies."** — [repo](https://github.com/Gentleman-Programming/engram). Docs: **"Your AI coding agent forgets everything when the session ends. Engram gives it a brain."** — [introduction](https://engram.gentlemanprogramming.com/) |
 | **Agent-specific primitive** | `mem_save` / `mem_search` / `mem_session_summary`; 3-layer disclosure; session start/end tools; conflict surfacing (`mem_judge`, `mem_compare`) |
 | **Autonomy-compatible control plane** | After `engram setup`, the agent launches `engram mcp` and saves/searches without a dashboard. Session context can be injected automatically (docs session lifecycle) |
 | **M2M integration surface** | `engram` CLI, stdio MCP, HTTP REST on 7437, TUI, `engram setup <agent>` |
@@ -154,7 +154,7 @@ Cloud enroll/sync is operator opt-in, not required for the local loop.
 | HTTP API | `engram serve` (default 7437) — not an MCP transport |
 | CLI | `engram save`, `search`, `timeline`, `context`, `sync`, `doctor`, … |
 | TUI | `engram tui` |
-| Docs | https://gentleman-programming-engram.mintlify.app/introduction |
+| Docs | https://engram.gentlemanprogramming.com/ |
 
 ---
 
