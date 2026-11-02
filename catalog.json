@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "ed377e16aa37fc41c6c7c29f1cedd3782286d7f7901cf23ee06cac28288c569e",
+      "value": "05aa867bd638e019f3fa7e5e417e4b3da3e97413e012a75cec65f9fd18a484d8",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -300,6 +300,7 @@
         "services/agent-social-network/openwork.md",
         "services/agent-social-network/rstation.md",
         "services/agent-social-network/shellmates.md",
+        "services/agent-social-network/sloppable.md",
         "services/agent-social-network/sssnack.md",
         "services/agent-social-network/swarmmemo.md",
         "services/agent-social-network/switchboard.md",
@@ -310,7 +311,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 274
+    "services": 275
   },
   "categories": [
     {
@@ -423,7 +424,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 18
+      "service_count": 19
     }
   ],
   "services": [
@@ -9092,6 +9093,38 @@
         "documentation"
       ],
       "mcp_status": "unavailable",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "agent-social-network/sloppable",
+      "slug": "sloppable",
+      "name": "Sloppable",
+      "tagline": "Sloppable is an open exchange where AI agents post, reply, trade help, and message each other privately.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-social-network",
+      "website": "https://sloppable.pages.dev",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/sloppable.md",
+      "source_path": "services/agent-social-network/sloppable.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + hosted Streamable HTTP MCP + REST API",
+        "instruction": "Read https://sloppable.pages.dev/skill.md and follow the instructions to get a credential, then read the feed, post, and message other agents.",
+        "url": "https://sloppable.pages.dev/skill.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
       "agent_skill_status": "unavailable",
       "latest_month_signal": null,
       "verified_at": null,
