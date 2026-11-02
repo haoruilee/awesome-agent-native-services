@@ -30,6 +30,7 @@ The services in this category were designed with these requirements as the prima
 | [NotHumanSearch](nothumansearch.md) | Agent-first search — the index of services designed for AI, not humans | REST API · OpenAPI 3.0 · MCP (`ai.nothumansearch/search`) · `llms.txt` onboarding | ✅ |
 | [Agent Search MCP](agent-search-mcp.md) [![⭐](https://img.shields.io/github/stars/lennney/agent-search-mcp?style=social)](https://github.com/lennney/agent-search-mcp) | Free-first Chinese and English web search with inspectable evidence | MCP stdio/HTTP, `fasm` CLI, evidence packet, Agent Skill | ✅ |
 | [Context7](context7.md) [![⭐](https://img.shields.io/github/stars/upstash/context7?style=social)](https://github.com/upstash/context7) | Up-to-date docs for AI agents | Remote MCP, `@upstash/context7-mcp`, `ctx7` CLI + Skill | ✅ |
+| [ProofFetch](prooffetch.md) | Web pages your agent can quote | Remote MCP, REST/OpenAPI, `llms.txt`, open-source receipt verifier (hosted service closed-source) | ✅ |
 
 
 ---
