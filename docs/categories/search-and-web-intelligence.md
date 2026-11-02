@@ -8,7 +8,7 @@ image: "/assets/images/editorial-search.webp"
 permalink: /categories/search-and-web-intelligence/
 page_kind: collection
 collection_number: "09"
-service_count: 10
+service_count: 11
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/README.md">Collection notes ↗</a></p>
@@ -113,6 +113,16 @@ service_count: 10
     </div>
   </article>
   <article class="service-card atlas-sheet--service atlas-visual--10">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <h2 class="service-card__title">ProofFetch</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/prooffetch.md">Open dossier ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--service atlas-visual--11">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
