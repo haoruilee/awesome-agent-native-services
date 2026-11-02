@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "05aa867bd638e019f3fa7e5e417e4b3da3e97413e012a75cec65f9fd18a484d8",
+      "value": "b51ef49013651cd0d9f1ca86f4a9e3a84934ceb64dda4fd30861e78d8af9454c",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -3444,7 +3444,7 @@
       "lifecycle_status": "active",
       "category": "commerce-and-payments",
       "website": "https://shinjukustaition.com",
-      "repository": "https://github.com/ShinjukuStaition/shinjuku-shield",
+      "repository": null,
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/shinjuku-shield.md",
       "source_path": "services/commerce-and-payments/shinjuku-shield.md",
       "onboarding": {
@@ -5464,7 +5464,7 @@
       "status": "listed",
       "lifecycle_status": "active",
       "category": "memory-and-state",
-      "website": "https://gentleman-programming-engram.mintlify.app/introduction",
+      "website": "https://engram.gentlemanprogramming.com/",
       "repository": "https://github.com/Gentleman-Programming/engram",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/engram.md",
       "source_path": "services/memory-and-state/engram.md",

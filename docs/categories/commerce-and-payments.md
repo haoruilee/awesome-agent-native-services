@@ -214,7 +214,7 @@ service_count: 23
     <h2 class="service-card__title">Shinjuku Shield</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/shinjuku-shield.md">Open dossier ↗</a>
-      <a href="https://github.com/ShinjukuStaition/shinjuku-shield">Official repo ↗</a>
+      <a href="https://github.com/ShinjukuStaition/shinjuku-shielded">Official repo ↗</a>
     </div>
     </div>
   </article>
