@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "ddc8f1c79bb819b399af029abb5a3185b919270001198c538c8c343330689364",
+      "value": "ed377e16aa37fc41c6c7c29f1cedd3782286d7f7901cf23ee06cac28288c569e",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -215,6 +215,7 @@
         "services/search-and-web-intelligence/linkup.md",
         "services/search-and-web-intelligence/nothumansearch.md",
         "services/search-and-web-intelligence/parallel.md",
+        "services/search-and-web-intelligence/prooffetch.md",
         "services/search-and-web-intelligence/tavily.md",
         "services/code-execution/README.md",
         "services/code-execution/agent-infra-sandbox.md",
@@ -309,7 +310,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 273
+    "services": 274
   },
   "categories": [
     {
@@ -373,7 +374,7 @@
       "name": "Search & Web Intelligence",
       "description": "Services that give AI agents optimized, structured access to web information — returning AI-ready content tuned for LLM context windows, not raw HTML or human-readable SERPs.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/README.md",
-      "service_count": 10
+      "service_count": 11
     },
     {
       "id": "code-execution",
@@ -6581,6 +6582,40 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unknown",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "search-and-web-intelligence/prooffetch",
+      "slug": "prooffetch",
+      "name": "ProofFetch",
+      "tagline": "Web pages your agent can quote.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "search-and-web-intelligence",
+      "website": "https://prooffetch.steellantern.com",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/prooffetch.md",
+      "source_path": "services/search-and-web-intelligence/prooffetch.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "remote MCP + REST, with an llms.txt agent guide.",
+        "instruction": "# Agent guide:\nRead https://prooffetch.steellantern.com/llms.txt and follow the instructions.\n\n# MCP (Claude Code):\nclaude mcp add --transport http proof-fetch https://prooffetch.steellantern.com/mcp\n\n# REST: get a free key (1,000 extractions, shown once), then fetch a page\nPOST https://prooffetch.steellantern.com/v1/keys/free\nPOST https://prooffetch.steellantern.com/v1/evidence   (Authorization: Bearer <key>; body: url, idempotencyKey)",
+        "url": "https://prooffetch.steellantern.com/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "a2a",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
