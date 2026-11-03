@@ -43,7 +43,7 @@ service_count: 11
     <h2 class="service-card__title">contextX</h2>
     <div class="service-card__actions">
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/contextx.md">Open dossier ↗</a>
-      <a href="https://github.com/KayanoLiam/ContextX">Official repo ↗</a>
+      <a href="https://github.com/akasakariko/ContextX">Official repo ↗</a>
     </div>
     </div>
   </article>

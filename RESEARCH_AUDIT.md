@@ -1,10 +1,78 @@
-# Research & Freshness Audit — 2026-09-26
+# Research & Freshness Audit — 2026-11-03
 
 This note records the latest catalog-wide research and freshness pass. New
 services remain issue-first; this file records the scope, evidence window, and
 maintenance work that was actually completed.
 
-## Delisted — 2026-09-26
+## Scope
+
+- Window: catalog changes and live checks from the previous watermark
+  (2026-09-26) through 2026-11-03 (Asia/Shanghai).
+- Inventory: **275** service dossiers (was 236 after the 2026-09-26
+  delisting). Admissions in the window include Switchboard, Hronaut, Agentel,
+  Dexio, Saifuro, Agent Rider, Veyra, CosVoice, Tollex, Lumen Tab, Auten, Jet
+  Browser, 402xAgent, INAM Protocol, Latchkey, rStation, Anansi Haven, Aident
+  Loadout, UTA Trust API, The Vibe Hosting, FSB, Grey Ridge x402 Tools, Agent
+  Commons, ego-lite, deed.page, Scalekit, ContextStream, Priors, Reef,
+  Shinjuku Shield, Direct Hire, Vectoree, G2 Jobs, send21, TFABA, Supermemory,
+  Context7, Zambo, ProofFetch, and Sloppable.
+- Probed **785** canonical URLs with
+  `python3 scripts/check-repository-health.py --external-canonical` on
+  2026-11-03. Result: **747 ok, 38 protected, 0 hard failures**.
+- Queried the GitHub API for the **274** catalog entries whose fields point at
+  an `owner/name` repo: existence, rename, archive bit, `pushed_at`, and
+  SPDX license. None are archived. All resolved (Smithery's
+  `arcadeai-labs/smithery-cli` errored once, then resolved on re-check).
+- This pass did **not** re-read every legacy claim, price, or MCP auth detail,
+  and did not copy this audit date onto service-level `verified_at` values.
+
+## Fixes in this pass and since the last audit
+
+- Engram: dead Mintlify docs replaced with
+  `engram.gentlemanprogramming.com` and the GitHub README (#279).
+- Shinjuku Shield: public repo `ShinjukuStaition/shinjuku-shielded` is
+  HTTP 404; the service is live (site and `llms.txt` 200, npm
+  `shinjuku-shield` 0.3.131 published 2026-11-02). Repo links and stars
+  badge removed, gap noted in the dossier (#279).
+- contextX: repo moved `KayanoLiam/ContextX` → `akasakariko/ContextX`.
+  Public MCP `mcp.twitter.monster/mcp` still answers `initialize` (200).
+- forkd: repo renamed `deeplethe/forkd` → `deeplethe/sandstorm`; the
+  project is now branded Sandstorm (latest release v0.6.0, pushed
+  2026-11-01). URLs updated; entry name left as forkd pending maintainer
+  review.
+
+## Protected responses (not counted as dead)
+
+Mostly 401/405 from MCP and API routes that reject unauthenticated GET/HEAD
+(e.g. Supermemory, Context7, DeepWiki, SendRaven, Mnemoverse, Priors, TERM,
+Skyvern, Recall.ai, GitHub Copilot MCP), 402 from 402xAgent's paid route,
+403 bot challenges from `openai.com`, `npmjs.com`, and
+`api.meetstream.ai`, 405 from Hacker News item URLs, and 429 from
+`respan.ai` and `console.notte.cc`.
+
+## Review candidates
+
+- **forkd → Sandstorm**: rename the dossier and README rows to match the
+  upstream brand?
+- **Shinjuku Shield**: no public source left; consider whether it still meets
+  the open-source-first bar.
+- **Shellmates** (`shellmates.app` still 404) and **MCPVerse**
+  (`mcpverse.org` still does not resolve): already marked offline since
+  before 2026-09-26.
+- **Stale repos** (last push before 2026-03): Toolhouse SDK (2025-03),
+  Cyberdesk (2025-07), Scrapybara Python SDK (2025-09), Hyperbrowser MCP
+  (2025-11), OpenLibx402 (2025-11), Inferable (2025-11), Ensue MCP stdio
+  (2025-12), MCP-Cloud/mcp-agent (2026-01), AgentsPay (2026-02), Bright Data
+  ai-sdk (2026-02), Polos (2026-02). Their hosted surfaces still answered, so
+  nothing was removed.
+
+## Previous pass — 2026-09-26
+
+This note records the latest catalog-wide research and freshness pass. New
+services remain issue-first; this file records the scope, evidence window, and
+maintenance work that was actually completed.
+
+### Delisted — 2026-09-26
 
 The repository has no separate removed-services log. This section is that
 record. A maintainer decision after the research pass deleted both dossiers.
@@ -25,7 +93,7 @@ They were not moved to Excluded and not kept as offline historical entries.
 Catalog after this delisting: **236** services across **16** collections.
 Code Execution is **15** (was 16). Meeting & Conversation is **7** (was 8).
 
-## Scope
+### Scope
 
 - Window: catalog changes and live checks from the previous watermark
   (2026-08-13) through 2026-09-26 (UTC). Asia/Shanghai is the same calendar
@@ -54,7 +122,7 @@ Code Execution is **15** (was 16). Meeting & Conversation is **7** (was 8).
   detail. It did **not** copy this audit date onto service-level
   `verified_at` values that were not individually re-checked.
 
-## Services added since 2026-08-13
+### Services added since 2026-08-13
 
 66 dossiers, in merge order. None were removed or reclassified in this pass.
 
@@ -85,7 +153,7 @@ probe (sites and repos returned success; their hosted MCP endpoints answered
 401/405, which this checker treats as protected rather than down). Their
 dossier claims were not re-litigated.
 
-## Link and repository check
+### Link and repository check
 
 - No canonical URL in the 615-URL set returned a hard failure (HTTP 404/410,
   DNS failure, or connection error) on 2026-09-26.
@@ -135,7 +203,7 @@ dossier claims were not re-litigated.
     a Solana token site. The onboarding instruction no longer tells agents
     to read that file.
 
-## License and open-source status
+### License and open-source status
 
 Checked dossier license rows against GitHub's detected SPDX id and, for
 mismatches, the raw `LICENSE` text.
@@ -174,7 +242,7 @@ Noted, not rewritten into a different license than the project states:
   2025-12-11). `ensue-skill` also has no GitHub-detected license. The MIT
   claim was **not** re-proven from a license file in this pass.
 
-## Status changes and review candidates
+### Status changes and review candidates
 
 No service was removed and no classification was changed in this research
 pass. Daytona and Looped Meet were delisted afterward; see Delisted —
@@ -210,7 +278,7 @@ GitHub URL in Official Repo is not `owner/name`: AgentMail, ATXP Email, Jina
 DeepSearch, Riza, Galileo, Meeting BaaS, Recall.ai, OpenRouter, Kinthai.
 Not changed.
 
-## Per-entry verification that this date does not refresh
+### Per-entry verification that this date does not refresh
 
 The first 2026-09-26 pass updated `verified_at` only for SmolVM, Toolport,
 Looped Meet, and Agent Search MCP. A same-day follow-up then re-checked the
@@ -266,7 +334,7 @@ longer than
 as-of date flag; a 2026-09-28 result was simulated by running the same age
 rule with the clock fixed on that date.
 
-## Re-verified — 2026-09-30
+### Re-verified — 2026-09-30
 
 Follow-up to the 2026-09-26 pass for the cohort it left on older dates. A scan
 of every dossier found **14** records with `verified_at` 2026-08-18 (1) or
@@ -317,7 +385,7 @@ Review candidates (not changed, not delisted):
   `0.0.1-beta.1`) and Agent QA (last push 2026-08-03, no release since v0.1.21
   on 2026-06-03). Both sites respond.
 
-## Applied catalog updates
+### Applied catalog updates
 
 Factual corrections only. No admissions and no removals in the research
 pass. The delisting above is a later maintainer decision.
@@ -331,7 +399,7 @@ pass. The delisting above is a later maintainer decision.
 - Catalog snapshot date in `skill.md` and `.skills/*/SKILL.md` is 2026-09-26.
 - Generated catalog and docs artifacts were regenerated from those inputs.
 
-## Evidence and acceptance
+### Evidence and acceptance
 
 - Primary evidence: GitHub repository metadata and `LICENSE` bodies, HTTP
   responses (status and final URL) from the repository link checker and
@@ -344,7 +412,7 @@ pass. The delisting above is a later maintainer decision.
   review watermark. It does not imply that every legacy claim was
   independently reverified on this date.
 
-## Freshness checklist for future passes
+### Freshness checklist for future passes
 
 1. Re-run the generator and contract validator after any catalog change.
 2. Re-check volatile onboarding commands, hosted MCP endpoints, releases, license

@@ -4,15 +4,15 @@
 
 | | |
 |---|---|
-| **Website** | https://github.com/KayanoLiam/ContextX |
-| **Docs** | https://github.com/KayanoLiam/ContextX/blob/main/README.en.md |
-| **GitHub** | https://github.com/KayanoLiam/ContextX |
+| **Website** | https://github.com/akasakariko/ContextX |
+| **Docs** | https://github.com/akasakariko/ContextX/blob/main/README.en.md |
+| **GitHub** | https://github.com/akasakariko/ContextX |
 | **Public MCP** | `https://mcp.twitter.monster/mcp` |
-| **Latest-month signal** | Still no GitHub release and still no `LICENSE` file; 175 stars; last push 2026-09-09. README still documents the public MCP at [mcp.twitter.monster/mcp](https://mcp.twitter.monster/mcp), which on 2026-09-26 answered HTTP 406 until the client accepted both `application/json` and `text/event-stream` ([repo metadata](https://api.github.com/repos/KayanoLiam/ContextX)) |
+| **Latest-month signal** | Repo moved from `KayanoLiam/ContextX` to `akasakariko/ContextX` (checked 2026-11-03). Still no GitHub release and still no `LICENSE` file; 175 stars; last push 2026-09-09. README still documents the public MCP at [mcp.twitter.monster/mcp](https://mcp.twitter.monster/mcp), which on 2026-09-26 answered HTTP 406 until the client accepted both `application/json` and `text/event-stream` ([repo metadata](https://api.github.com/repos/akasakariko/ContextX)) |
 | **Verified at** | 2026-09-26 |
 | **Classification** | `agent-native` |
 | **Category** | [Search & Web Intelligence Services](README.md) |
-| **License** | ⚠️ No repository license detected as of 2026-09-26 ([GitHub metadata](https://api.github.com/repos/KayanoLiam/ContextX)) |
+| **License** | ⚠️ No repository license detected as of 2026-09-26 ([GitHub metadata](https://api.github.com/repos/akasakariko/ContextX)) |
 
 ---
 
@@ -20,13 +20,13 @@
 
 No separate website is published. The official repository is the canonical project page, and its README publishes the remote endpoint:
 
-https://github.com/KayanoLiam/ContextX
+https://github.com/akasakariko/ContextX
 
 ---
 
 ## Official Repo
 
-https://github.com/KayanoLiam/ContextX
+https://github.com/akasakariko/ContextX
 
 ---
 
@@ -52,7 +52,7 @@ For Cursor or another Streamable HTTP MCP client, register the URL directly:
 }
 ```
 
-Then ask the agent to use `grok_search`, or explicitly request deep search so it selects `grok_deep_search`. See the official [client setup](https://github.com/KayanoLiam/ContextX/blob/main/README.en.md#adding-to-mcp-clients).
+Then ask the agent to use `grok_search`, or explicitly request deep search so it selects `grok_deep_search`. See the official [client setup](https://github.com/akasakariko/ContextX/blob/main/README.en.md#adding-to-mcp-clients).
 
 ---
 
@@ -97,10 +97,10 @@ The public endpoint fixes the upstream models and requires no caller credential.
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | The official README defines contextX as a *"remote MCP server"* and documents direct setup for Pi Agent, Claude Code, Cursor, and other MCP clients — [source](https://github.com/KayanoLiam/ContextX/blob/main/README.en.md) |
+| **Agent-first positioning** | The official README defines contextX as a *"remote MCP server"* and documents direct setup for Pi Agent, Claude Code, Cursor, and other MCP clients — [source](https://github.com/akasakariko/ContextX/blob/main/README.en.md) |
 | **Agent-specific primitive** | Two tool-level search actions let an agent choose between a fast search and a long-running multi-agent deep search; results return through the MCP tool-result contract rather than a human SERP |
-| **Autonomy-compatible control plane** | After one-time MCP registration, an agent can call either tool without an account, API key, model selection, or per-search human confirmation; the upstream README states that the public tools require no authentication and have no rate limits ([source](https://github.com/KayanoLiam/ContextX/blob/main/README.en.md#mcp-tools)) |
-| **M2M integration surface** | Remote Streamable HTTP MCP is the primary and only public interaction surface; a self-hosted Rust server exposes `/mcp` and `/health` ([source](https://github.com/KayanoLiam/ContextX/blob/main/README.en.md#self-hosting)) |
+| **Autonomy-compatible control plane** | After one-time MCP registration, an agent can call either tool without an account, API key, model selection, or per-search human confirmation; the upstream README states that the public tools require no authentication and have no rate limits ([source](https://github.com/akasakariko/ContextX/blob/main/README.en.md#mcp-tools)) |
+| **M2M integration surface** | Remote Streamable HTTP MCP is the primary and only public interaction surface; a self-hosted Rust server exposes `/mcp` and `/health` ([source](https://github.com/akasakariko/ContextX/blob/main/README.en.md#self-hosting)) |
 | **Identity / delegation** | **Not applicable to external-action delegation:** these tools perform read-only search and do not act as a user. The public endpoint intentionally has no auth, so it also provides no per-agent identity, delegated scopes, or caller-attributed audit trail; operators needing attribution must self-host behind their own gateway |
 
 ---
