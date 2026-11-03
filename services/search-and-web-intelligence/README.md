@@ -20,7 +20,7 @@ The services in this category were designed with these requirements as the prima
 
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
-| [contextX](contextx.md) [![⭐](https://img.shields.io/github/stars/KayanoLiam/ContextX?style=social)](https://github.com/KayanoLiam/ContextX) | Remote MCP server for fast and multi-agent deep search | Streamable HTTP MCP, `grok_search`, `grok_deep_search` | ✅ |
+| [contextX](contextx.md) [![⭐](https://img.shields.io/github/stars/akasakariko/ContextX?style=social)](https://github.com/akasakariko/ContextX) | Remote MCP server for fast and multi-agent deep search | Streamable HTTP MCP, `grok_search`, `grok_deep_search` | ✅ |
 | [Jina DeepSearch](jina-deepsearch.md) | Agentic search and deep research API for AI applications | HTTP API, LLM-ready retrieval, research synthesis | ⚠️ |
 | [Tavily](tavily.md) | Connect your agent to the web | REST API, Python SDK, LangChain/LlamaIndex/CrewAI integrations | ✅ |
 | [Exa](exa.md) | The search engine designed for AI | REST API, Python SDK, LangChain/CrewAI/LlamaIndex/Mastra integrations | ✅ |

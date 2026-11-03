@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "b51ef49013651cd0d9f1ca86f4a9e3a84934ceb64dda4fd30861e78d8af9454c",
+      "value": "d6f8c79ec248373ae7758977cc9bc6cfe67459497417282efa15e692ab6c3f14",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -6379,8 +6379,8 @@
       "status": "listed",
       "lifecycle_status": "active",
       "category": "search-and-web-intelligence",
-      "website": "https://github.com/KayanoLiam/ContextX",
-      "repository": "https://github.com/KayanoLiam/ContextX",
+      "website": "https://github.com/akasakariko/ContextX",
+      "repository": "https://github.com/akasakariko/ContextX",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/contextx.md",
       "source_path": "services/search-and-web-intelligence/contextx.md",
       "onboarding": {
@@ -6396,11 +6396,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Still no GitHub release and still no LICENSE file; 175 stars; last push 2026-09-09. README still documents the public MCP at mcp.twitter.monster/mcp, which on 2026-09-26 answered HTTP 406 until the client accepted both application/json and text/event-stream (repo metadata)",
+      "latest_month_signal": "Repo moved from KayanoLiam/ContextX to akasakariko/ContextX (checked 2026-11-03). Still no GitHub release and still no LICENSE file; 175 stars; last push 2026-09-09. README still documents the public MCP at mcp.twitter.monster/mcp, which on 2026-09-26 answered HTTP 406 until the client accepted both application/json and text/event-stream (repo metadata)",
       "verified_at": "2026-09-26",
       "verification_sources": [
         "https://mcp.twitter.monster/mcp",
-        "https://api.github.com/repos/KayanoLiam/ContextX"
+        "https://api.github.com/repos/akasakariko/ContextX"
       ]
     },
     {
@@ -6923,15 +6923,15 @@
       "status": "listed",
       "lifecycle_status": "active",
       "category": "code-execution",
-      "website": "https://github.com/deeplethe/forkd",
-      "repository": "https://github.com/deeplethe/forkd",
+      "website": "https://github.com/deeplethe/sandstorm",
+      "repository": "https://github.com/deeplethe/sandstorm",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/forkd.md",
       "source_path": "services/code-execution/forkd.md",
       "onboarding": {
         "type": "mcp",
         "pattern": "CLI + REST / SDK / MCP",
-        "instruction": "curl -sSL https://github.com/deeplethe/forkd/releases/download/v0.5.3/forkd-v0.5.3-x86_64-linux.tar.gz \\\n  | sudo tar -xz -C /usr/local/bin/\nsudo -E forkd quickstart",
-        "url": "https://github.com/deeplethe/forkd/releases/download/v0.5.3/forkd-v0.5.3-x86_64-linux.tar.gz"
+        "instruction": "curl -sSL https://github.com/deeplethe/sandstorm/releases/download/v0.5.3/forkd-v0.5.3-x86_64-linux.tar.gz \\\n  | sudo tar -xz -C /usr/local/bin/\nsudo -E forkd quickstart",
+        "url": "https://github.com/deeplethe/sandstorm/releases/download/v0.5.3/forkd-v0.5.3-x86_64-linux.tar.gz"
       },
       "protocols": [
         "mcp",
@@ -6941,10 +6941,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Last GitHub push 2026-09-14 (repo metadata); default branch dev; latest release tarball forkd-v0.5.3",
+      "latest_month_signal": "Repo renamed deeplethe/forkd → deeplethe/sandstorm (project now branded Sandstorm); last push 2026-11-01, latest release v0.6.0 (repo metadata); default branch dev. Install commands below are from the forkd-era v0.5.3 docs",
       "verified_at": "2026-10-20",
       "verification_sources": [
-        "https://api.github.com/repos/deeplethe/forkd"
+        "https://api.github.com/repos/deeplethe/sandstorm"
       ]
     },
     {

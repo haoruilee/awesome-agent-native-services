@@ -4,21 +4,21 @@
 
 | | |
 |---|---|
-| **Website** | https://github.com/deeplethe/forkd |
-| **Docs** | https://github.com/deeplethe/forkd/blob/dev/README.md |
-| **GitHub** | https://github.com/deeplethe/forkd |
-| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/deeplethe/forkd?style=social)](https://github.com/deeplethe/forkd) |
+| **Website** | https://github.com/deeplethe/sandstorm |
+| **Docs** | https://github.com/deeplethe/sandstorm/blob/dev/README.md |
+| **GitHub** | https://github.com/deeplethe/sandstorm |
+| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/deeplethe/sandstorm?style=social)](https://github.com/deeplethe/sandstorm) |
 | **Classification** | `agent-native` |
 | **Category** | [Code Execution Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Last GitHub push 2026-09-14 ([repo metadata](https://api.github.com/repos/deeplethe/forkd)); default branch `dev`; latest release tarball forkd-v0.5.3 |
+| **Latest-month signal** | Repo renamed `deeplethe/forkd` → `deeplethe/sandstorm` (project now branded Sandstorm); last push 2026-11-01, latest release v0.6.0 ([repo metadata](https://api.github.com/repos/deeplethe/sandstorm)); default branch `dev`. Install commands below are from the forkd-era v0.5.3 docs |
 | **Verified at** | 2026-10-20 |
 
 ---
 
 ## Official Website
 
-https://github.com/deeplethe/forkd
+https://github.com/deeplethe/sandstorm
 
 GitHub-only. Repo `homepage` is empty in GitHub metadata.
 
@@ -26,7 +26,7 @@ GitHub-only. Repo `homepage` is empty in GitHub metadata.
 
 ## Official Repo
 
-https://github.com/deeplethe/forkd
+https://github.com/deeplethe/sandstorm
 
 README H1 (live 2026-09-04): **“Fork 100 microVMs in 101 ms. BRANCH a live VM in 56 ms (v0.4 live mode).”**
 
@@ -43,7 +43,7 @@ GitHub description: **“Fork() for AI agent microVMs. Spawn 100 children in ~10
 x86_64 Linux with KVM (official README quick start):
 
 ```bash
-curl -sSL https://github.com/deeplethe/forkd/releases/download/v0.5.3/forkd-v0.5.3-x86_64-linux.tar.gz \
+curl -sSL https://github.com/deeplethe/sandstorm/releases/download/v0.5.3/forkd-v0.5.3-x86_64-linux.tar.gz \
   | sudo tar -xz -C /usr/local/bin/
 sudo -E forkd quickstart
 ```
@@ -52,7 +52,7 @@ Language clients:
 
 ```bash
 pip install forkd
-npm install @deeplethe/forkd
+npm install @deeplethe/sandstorm
 pip install forkd-mcp
 ```
 
@@ -85,11 +85,11 @@ See: https://agentskills.io/specification to contribute one.
 
 | Detail | Value |
 |---|---|
-| **MCP Repo** | https://github.com/deeplethe/forkd/tree/dev/sdk/mcp |
+| **MCP Repo** | https://github.com/deeplethe/sandstorm/tree/dev/sdk/mcp |
 | **Package** | `pip install forkd-mcp` |
 | **Transport** | stdio (Claude Desktop / Claude Code / Cursor / Cline) |
 | **Compatible Clients** | Claude Desktop, Claude Code, Cursor, Cline, any MCP client |
-| **Recipe** | [`recipes/mcp-agent/`](https://github.com/deeplethe/forkd/tree/dev/recipes/mcp-agent) |
+| **Recipe** | [`recipes/mcp-agent/`](https://github.com/deeplethe/sandstorm/tree/dev/recipes/mcp-agent) |
 
 ---
 
@@ -115,10 +115,10 @@ forkd is a **Firecracker copy-on-write sandbox runtime** for AI-agent fan-out. A
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | README lead: **“A microVM sandbox runtime for AI agent fan-out.”** — [repo](https://github.com/deeplethe/forkd). Properties section: “Built for agent fan-out.” GitHub description: **“Fork() for AI agent microVMs…”** |
+| **Agent-first positioning** | README lead: **“A microVM sandbox runtime for AI agent fan-out.”** — [repo](https://github.com/deeplethe/sandstorm). Properties section: “Built for agent fan-out.” GitHub description: **“Fork() for AI agent microVMs…”** |
 | **Agent-specific primitive** | `fork` N children from a warmed parent; **BRANCH** a live VM mid-thought; stacked snapshot chains; per-child KVM + netns |
 | **Autonomy-compatible control plane** | After `quickstart` / daemon up, agents call REST, Python/TS SDK, or MCP with no UI |
-| **M2M integration surface** | REST `POST /v1/sandboxes`, `forkd` CLI, `pip install forkd`, `@deeplethe/forkd`, `forkd-mcp` |
+| **M2M integration surface** | REST `POST /v1/sandboxes`, `forkd` CLI, `pip install forkd`, `@deeplethe/sandstorm`, `forkd-mcp` |
 | **Identity / delegation** | Per-child Firecracker process, netns, cgroup v2 limit; REST bearer token; append-only JSON audit log; Prometheus `/metrics` |
 
 ---
@@ -163,7 +163,7 @@ Operator runs forkd quickstart (KVM host) and bakes a warmed parent snapshot
 | CLI | `forkd quickstart`, `fork`, `snapshot`, `doctor` |
 | REST | `/v1/sandboxes`, live BRANCH `mode: "live"` |
 | Python SDK | `pip install forkd` |
-| TypeScript SDK | `npm install @deeplethe/forkd` |
+| TypeScript SDK | `npm install @deeplethe/sandstorm` |
 | MCP | `pip install forkd-mcp` |
 | License | Apache-2.0 |
 
