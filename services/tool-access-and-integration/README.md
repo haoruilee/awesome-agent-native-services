@@ -42,6 +42,7 @@ Agent-native tool access services solve all three problems with primitives that 
 | [Aident Loadout](aident-loadout.md) [![⭐](https://img.shields.io/github/stars/Aident-AI/aident-skill?style=social)](https://github.com/Aident-AI/aident-skill) | Give your agents real capabilities | Remote MCP (Streamable HTTP, OAuth) · Agent Skill · Vault · Audit · 400+ Skills | ✅ |
 | [Scalekit](scalekit.md) [![⭐](https://img.shields.io/github/stars/scalekit-inc/scalekit-sdk-python?style=social)](https://github.com/scalekit-inc/scalekit-sdk-python) | Connect your agents to any tool. Authenticated, scoped, and logged. | Python & Node.js SDKs · REST API · Virtual MCP servers (Streamable HTTP) · AgentKit skills · per-user token vault (BYOK) · tool-call audit logs · 500+ connectors | ✅ |
 | [CLI-Anything](cli-anything.md) [![⭐](https://img.shields.io/github/stars/HKUDS/CLI-Anything?style=social)](https://github.com/HKUDS/CLI-Anything) | Turns existing software into agent-operable CLIs | Harness generator skill · `--json` CLIs · `cli-hub` registry | ⚠️ |
+| [REA](rea.md) [![⭐](https://img.shields.io/github/stars/morluto/rea?style=social)](https://github.com/morluto/rea) | Reverse-engineering MCP for coding agents | MCP (stdio) · CLI · binaries/Electron/.NET/APK/web | ✅ |
 
 
 
