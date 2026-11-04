@@ -44,6 +44,8 @@ The web was designed for humans sitting in front of browsers. AI agents that nee
 | [Stealth Browser MCP](stealth-browser-mcp.md) [![⭐](https://img.shields.io/github/stars/vibheksoni/stealth-browser-mcp?style=social)](https://github.com/vibheksoni/stealth-browser-mcp) | Stealth browser automation for MCP-compatible AI agents | stdio/HTTP MCP, nodriver + CDP, dynamic hooks, in-repo skill | ✅ |
 | [FSB (Full Self Browsing)](fsb.md) [![⭐](https://img.shields.io/github/stars/fullselfbrowsing/FSB?style=social)](https://github.com/fullselfbrowsing/FSB) | DOM-first AI browser automation for Chrome and MCP clients. | MCP (stdio + local Streamable HTTP), browser-extension bridge, `fsb` Agent Skill | ✅ |
 | [ego lite](ego-lite.md) [![⭐](https://img.shields.io/github/stars/citrolabs/ego-lite?style=social)](https://github.com/citrolabs/ego-lite) | The fastest browser for AI agents to run browser automation | Local desktop browser (macOS + Windows), `ego-browser` Agent Skill + CLI, per-agent Spaces | ✅ |
+| [Obscura](obscura.md) [![⭐](https://img.shields.io/github/stars/h4ckf0r0day/obscura?style=social)](https://github.com/h4ckf0r0day/obscura) | Rust headless browser built for AI agents | Built-in MCP (stdio/HTTP) · CDP server · `fetch` CLI · Rust crate | ✅ |
+| [bdg (Browser Debugger CLI)](browser-debugger-cli.md) [![⭐](https://img.shields.io/github/stars/szymdzum/browser-debugger-cli?style=social)](https://github.com/szymdzum/browser-debugger-cli) | Chrome DevTools as shell commands for coding agents | Structured CLI (`--json`) · raw CDP · agent skill | ❌ |
 
 
 

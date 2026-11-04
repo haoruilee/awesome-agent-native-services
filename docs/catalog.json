@@ -1,8 +1,8 @@
 {
   "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-10-30",
-  "generated_at": "2026-10-30",
+  "catalog_version": "2026-11-04",
+  "generated_at": "2026-11-04",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "d6f8c79ec248373ae7758977cc9bc6cfe67459497417282efa15e692ab6c3f14",
+      "value": "c713b0bdc2b850287cceb7ccbe968be92aaf11149298aa199ddd2bfcf26aaa07",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -39,6 +39,7 @@
         "services/browser-and-web-execution/apify.md",
         "services/browser-and-web-execution/bb-browser.md",
         "services/browser-and-web-execution/bright-data-agent-browser.md",
+        "services/browser-and-web-execution/browser-debugger-cli.md",
         "services/browser-and-web-execution/browser-mcp.md",
         "services/browser-and-web-execution/browser-use-cloud.md",
         "services/browser-and-web-execution/browserbase.md",
@@ -55,6 +56,7 @@
         "services/browser-and-web-execution/lightpanda.md",
         "services/browser-and-web-execution/moli.md",
         "services/browser-and-web-execution/notte.md",
+        "services/browser-and-web-execution/obscura.md",
         "services/browser-and-web-execution/olostep.md",
         "services/browser-and-web-execution/opencli.md",
         "services/browser-and-web-execution/playwright-mcp.md",
@@ -67,6 +69,7 @@
         "services/tool-access-and-integration/apify-mcp-server.md",
         "services/tool-access-and-integration/arcade.md",
         "services/tool-access-and-integration/clawhub.md",
+        "services/tool-access-and-integration/cli-anything.md",
         "services/tool-access-and-integration/composio.md",
         "services/tool-access-and-integration/contextforge.md",
         "services/tool-access-and-integration/framelink-figma-mcp.md",
@@ -94,6 +97,7 @@
         "services/oversight-and-approval/preloop.md",
         "services/oversight-and-approval/sallyport.md",
         "services/oversight-and-approval/sondera-coding-agent-hooks.md",
+        "services/oversight-and-approval/withhuman.md",
         "services/commerce-and-payments/README.md",
         "services/commerce-and-payments/402xagent.md",
         "services/commerce-and-payments/affixio.md",
@@ -311,7 +315,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 275
+    "services": 279
   },
   "categories": [
     {
@@ -326,21 +330,21 @@
       "name": "Browser & Web Execution",
       "description": "Services that give AI agents a remote, managed browser runtime — so agents can navigate, interact with, and extract data from the web as an autonomous actor, without any human operating a browser on their behalf.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/README.md",
-      "service_count": 29
+      "service_count": 31
     },
     {
       "id": "tool-access-and-integration",
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 25
+      "service_count": 26
     },
     {
       "id": "oversight-and-approval",
       "name": "Oversight & Approval",
       "description": "Services that give AI agents a structured, programmatic way to request human approval before executing high-stakes actions — turning human oversight from an ad-hoc interruption into a first-class, auditable primitive.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/README.md",
-      "service_count": 5
+      "service_count": 6
     },
     {
       "id": "commerce-and-payments",
@@ -1141,6 +1145,36 @@
       "verification_sources": []
     },
     {
+      "id": "browser-and-web-execution/browser-debugger-cli",
+      "slug": "browser-debugger-cli",
+      "name": "bdg (Browser Debugger CLI)",
+      "tagline": "Give your AI agent a real browser. And the DevTools to go with it.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "browser-and-web-execution",
+      "website": "https://github.com/szymdzum/browser-debugger-cli",
+      "repository": "https://github.com/szymdzum/browser-debugger-cli",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/browser-debugger-cli.md",
+      "source_path": "services/browser-and-web-execution/browser-debugger-cli.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": "Structured CLI + Agent Skill",
+        "instruction": "npm install -g browser-debugger-cli\nbdg localhost:3000              # start a background browser session\nbdg --help --json               # machine-readable command map for the agent\nbdg cdp --search cookie         # discover raw CDP methods\nbdg install-skill               # install the bdg skill for Claude Code, Codex, Gemini CLI, ...",
+        "url": null
+      },
+      "protocols": [
+        "agent-skill",
+        "websocket",
+        "cli"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
       "id": "browser-and-web-execution/browser-mcp",
       "slug": "browser-mcp",
       "name": "Browser MCP",
@@ -1662,6 +1696,37 @@
       "verification_sources": []
     },
     {
+      "id": "browser-and-web-execution/obscura",
+      "slug": "obscura",
+      "name": "Obscura",
+      "tagline": "The open-source headless browser for AI agents and web scraping.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "browser-and-web-execution",
+      "website": "https://obscura.sh",
+      "repository": "https://github.com/h4ckf0r0day/obscura",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/obscura.md",
+      "source_path": "services/browser-and-web-execution/obscura.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP (stdio or HTTP) + Daemon (CDP) + CLI",
+        "instruction": "# Download a release binary or Docker image (see GitHub releases), then:\nobscura mcp                         # stdio MCP for Claude Desktop / Cursor / Claude Code\nobscura mcp --http --port 3000      # Streamable HTTP MCP at http://127.0.0.1:3000/mcp\nobscura serve                       # CDP server at ws://127.0.0.1:9222 for Puppeteer/Playwright\nobscura fetch https://example.com   # one-shot fetch",
+        "url": "http://127.0.0.1:3000/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
       "id": "browser-and-web-execution/olostep",
       "slug": "olostep",
       "name": "Olostep",
@@ -1998,6 +2063,37 @@
         "api"
       ],
       "mcp_status": "unknown",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "tool-access-and-integration/cli-anything",
+      "slug": "cli-anything",
+      "name": "CLI-Anything",
+      "tagline": "CLI-Anything: Making ALL Software Agent-Native",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "tool-access-and-integration",
+      "website": "https://clianything.cc",
+      "repository": "https://github.com/HKUDS/CLI-Anything",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/cli-anything.md",
+      "source_path": "services/tool-access-and-integration/cli-anything.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": "Agent Skill + Structured CLI (--json) + registry",
+        "instruction": "# Let the agent find and install CLIs from CLI-Hub\nnpx skills add HKUDS/CLI-Anything --skill cli-hub-meta-skill -g -y\n# then prompt: \"Find appropriate CLI software in CLI-Hub and complete the task: ...\"\n\n# Or manage CLIs yourself\npip install cli-anything-hub\ncli-hub search <keyword>\ncli-hub install <name>",
+        "url": null
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "cli",
+        "http"
+      ],
+      "mcp_status": "available",
       "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
@@ -2842,6 +2938,36 @@
         "http"
       ],
       "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "oversight-and-approval/withhuman",
+      "slug": "withhuman",
+      "name": "withHuman",
+      "tagline": "The approval layer for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "oversight-and-approval",
+      "website": "https://withhuman.ai",
+      "repository": "https://github.com/withHumanAI/withHuman",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/withhuman.md",
+      "source_path": "services/oversight-and-approval/withhuman.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": "Hooks (Claude Code, Codex) + SDKs (Python/TypeScript) + AAP HTTP protocol",
+        "instruction": "1. Run withHuman yourself (Docker or from source; one binary with built-in database and workflow engine) or use the hosted version.",
+        "url": null
+      },
+      "protocols": [
+        "cli",
+        "sdk",
+        "openapi"
+      ],
+      "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
       "latest_month_signal": null,
       "verified_at": null,
