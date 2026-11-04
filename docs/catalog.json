@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "75f576a0010d9421495d8012b5824354a5aacc005bda92afd8fca3c688358438",
+      "value": "79948be3a0f248ff488c3928b100f34ebd3292fa4fae14232aec116f6ebe8547",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -98,6 +98,7 @@
         "services/oversight-and-approval/preloop.md",
         "services/oversight-and-approval/sallyport.md",
         "services/oversight-and-approval/sondera-coding-agent-hooks.md",
+        "services/oversight-and-approval/tracekit.md",
         "services/oversight-and-approval/withhuman.md",
         "services/commerce-and-payments/README.md",
         "services/commerce-and-payments/402xagent.md",
@@ -316,7 +317,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 280
+    "services": 281
   },
   "categories": [
     {
@@ -345,7 +346,7 @@
       "name": "Oversight & Approval",
       "description": "Services that give AI agents a structured, programmatic way to request human approval before executing high-stakes actions — turning human oversight from an ad-hoc interruption into a first-class, auditable primitive.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/README.md",
-      "service_count": 6
+      "service_count": 7
     },
     {
       "id": "commerce-and-payments",
@@ -2967,6 +2968,37 @@
       },
       "protocols": [
         "mcp",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "oversight-and-approval/tracekit",
+      "slug": "tracekit",
+      "name": "Tracekit",
+      "tagline": "Let your agents act. Prove every action.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "oversight-and-approval",
+      "website": "https://tracekit.tech",
+      "repository": "https://github.com/Cygnux-Labs/Tracekit",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/tracekit.md",
+      "source_path": "services/oversight-and-approval/tracekit.md",
+      "onboarding": {
+        "type": "sdk",
+        "pattern": "SDK (Python or TypeScript) that asks a signer you run before each tool call",
+        "instruction": "pip install tracekit-ai   # then make \"import tracekit; tracekit.instrument()\" the agent's first line and run it\ntracekit last             # export the latest run and verify it offline\ntracekit approvals list   # calls held for a person; answer with: tracekit approvals approve ID",
+        "url": "https://github.com/Cygnux-Labs/Tracekit/wiki/Quickstart"
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "sdk",
         "http"
       ],
       "mcp_status": "available",

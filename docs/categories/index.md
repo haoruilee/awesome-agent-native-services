@@ -1,6 +1,6 @@
 ---
 title: "Agent-Native Collections"
-description: "Browse 280 agent-native services across 16 curated infrastructure collections."
+description: "Browse 281 agent-native services across 16 curated infrastructure collections."
 permalink: /categories/
 page_kind: document
 ---
@@ -35,7 +35,7 @@ page_kind: document
     <span class="collection-card__copy">
     <span class="collection-card__number">04</span>
     <span class="collection-card__title">Oversight &amp; Approval</span>
-    <span class="collection-card__count">6</span>
+    <span class="collection-card__count">7</span>
     </span>
   </a>
   <a class="collection-card atlas-visual--05" href="{{ '/categories/commerce-and-payments/' | relative_url }}">
