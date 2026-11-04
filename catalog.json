@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "c713b0bdc2b850287cceb7ccbe968be92aaf11149298aa199ddd2bfcf26aaa07",
+      "value": "75f576a0010d9421495d8012b5824354a5aacc005bda92afd8fca3c688358438",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -84,6 +84,7 @@
         "services/tool-access-and-integration/nango.md",
         "services/tool-access-and-integration/obot.md",
         "services/tool-access-and-integration/openchatcut.md",
+        "services/tool-access-and-integration/rea.md",
         "services/tool-access-and-integration/sandbase-cli.md",
         "services/tool-access-and-integration/scalekit.md",
         "services/tool-access-and-integration/smithery.md",
@@ -315,7 +316,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 279
+    "services": 280
   },
   "categories": [
     {
@@ -337,7 +338,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 26
+      "service_count": 27
     },
     {
       "id": "oversight-and-approval",
@@ -2555,6 +2556,37 @@
         "https://openchatcut.com",
         "https://api.github.com/repos/0xsline/OpenChatCut"
       ]
+    },
+    {
+      "id": "tool-access-and-integration/rea",
+      "slug": "rea",
+      "name": "REA (Reverse Engineer Anything)",
+      "tagline": "One MCP for reverse engineering across binaries, applications, and runtime behavior.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "tool-access-and-integration",
+      "website": "https://rea.tools",
+      "repository": "https://github.com/morluto/rea",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/rea.md",
+      "source_path": "services/tool-access-and-integration/rea.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP (stdio) + CLI + agent workflow instructions",
+        "instruction": "# Preview the config changes first, then apply\nnpx -y rea-agents setup --dry-run\nnpx rea-agents setup        # choose agents, review, approve (backs up existing config)\n# restart the agent, then verify\nrea doctor --json",
+        "url": "https://github.com/morluto/rea/blob/main/docs/installation.md"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "cli",
+        "stdio"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "tool-access-and-integration/sandbase-cli",
