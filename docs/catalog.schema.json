@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
+  "$id": "https://theagentnative.com/catalog.schema.json",
   "title": "Awesome Agent-Native Services Catalog",
   "description": "The deterministic machine-readable contract generated from the catalog's Markdown service dossiers.",
   "type": "object",
@@ -18,7 +18,7 @@
   ],
   "properties": {
     "$schema": {
-      "const": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json"
+      "const": "https://theagentnative.com/catalog.schema.json"
     },
     "schema_version": {
       "const": "1.0.0"

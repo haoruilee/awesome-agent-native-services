@@ -20,7 +20,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 SERVICES_ROOT = ROOT / "services"
-SITE_BASE = "https://lihaorui.com/awesome-agent-native-services"
+SITE_BASE = "https://theagentnative.com"
 REPOSITORY = "https://github.com/haoruilee/awesome-agent-native-services"
 RAW_BASE = "https://raw.githubusercontent.com/haoruilee/awesome-agent-native-services/main"
 SCHEMA_URL = f"{SITE_BASE}/catalog.schema.json"

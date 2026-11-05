@@ -1,5 +1,5 @@
-# https://lihaorui.com/awesome-agent-native-services/
-# LLM catalog: https://lihaorui.com/awesome-agent-native-services/llms.txt
+# https://theagentnative.com/
+# LLM catalog: https://theagentnative.com/llms.txt
 User-agent: *
 Allow: /
 
@@ -21,5 +21,5 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://lihaorui.com/awesome-agent-native-services/sitemap.xml
-Sitemap: https://lihaorui.com/awesome-agent-native-services/machine-sitemap.xml
+Sitemap: https://theagentnative.com/sitemap.xml
+Sitemap: https://theagentnative.com/machine-sitemap.xml

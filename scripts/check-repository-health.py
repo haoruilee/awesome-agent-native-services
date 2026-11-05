@@ -357,7 +357,7 @@ def request_status(url: str, method: str, timeout: int) -> tuple[int, str]:
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (compatible; AgentNativeCatalogLinkAudit/1.0; "
-            "+https://lihaorui.com/awesome-agent-native-services/)"
+            "+https://theagentnative.com/)"
         ),
         "Accept": "text/html,application/json,text/plain,*/*;q=0.5",
     }

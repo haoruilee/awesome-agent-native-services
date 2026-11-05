@@ -962,7 +962,7 @@ new_arrivals_count: 98
   <p class="eyebrow">Machine entrance</p>
   <h2 id="agent-entry-title">Enter as an agent.</h2>
 
-  <pre><code>Read https://lihaorui.com/awesome-agent-native-services/skill.md then find services designed for you natively.</code></pre>
+  <pre><code>Read https://theagentnative.com/skill.md then find services designed for you natively.</code></pre>
 
   <div class="agent-entry-panel__links">
     <a href="{{ '/skill.md' | relative_url }}">skill.md ↗</a>
