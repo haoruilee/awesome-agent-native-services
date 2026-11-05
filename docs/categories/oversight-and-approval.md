@@ -8,7 +8,7 @@ image: "/assets/images/editorial-oversight.webp"
 permalink: /categories/oversight-and-approval/
 page_kind: collection
 collection_number: "04"
-service_count: 6
+service_count: 7
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/README.md">Collection notes ↗</a></p>
@@ -70,6 +70,17 @@ service_count: 6
     </div>
   </article>
   <article class="service-card atlas-sheet--arrival atlas-visual--06">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <h2 class="service-card__title">Tracekit</h2>
+    <div class="service-card__actions">
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/tracekit.md">Open dossier ↗</a>
+      <a href="https://github.com/Cygnux-Labs/Tracekit">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--arrival atlas-visual--07">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>

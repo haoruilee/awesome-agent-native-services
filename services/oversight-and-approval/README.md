@@ -23,6 +23,7 @@ No general-purpose approval workflow (Jira tickets, email threads, ServiceNow) w
 | [Sallyport](sallyport.md) [![⭐](https://img.shields.io/github/stars/OlegSotnikov/sallyport?style=social)](https://github.com/OlegSotnikov/sallyport) | Let your agent touch prod. Keep the keys. | MCP gate, HTTP/SSH execution, session/per-call approval, signed audit journal | ✅ |
 | [Preloop](preloop.md) [![⭐](https://img.shields.io/github/stars/preloop/preloop?style=social)](https://github.com/preloop/preloop) | The Open Source Control Plane for AI Agents | MCP firewall, CEL approvals, model gateway, session audit, CLI discover | ✅ |
 | [withHuman](withhuman.md) [![⭐](https://img.shields.io/github/stars/withHumanAI/withHuman?style=social)](https://github.com/withHumanAI/withHuman) | Approval layer that intercepts agent tool calls | AAP protocol · hooks · Python/TS SDKs · review queue | ⚠️ |
+| [Tracekit](tracekit.md) [![⭐](https://img.shields.io/github/stars/Cygnux-Labs/Tracekit?style=social)](https://github.com/Cygnux-Labs/Tracekit) | Let your agents act. Prove every action. | Python and TypeScript SDKs, framework integrations, coding-agent hooks, MCP gateway, signer RPC, offline-verifiable `.tkb` bundles | ✅ |
 
 
 ---
