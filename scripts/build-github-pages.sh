@@ -321,7 +321,7 @@ new_arrivals_count: ${NEW_ARRIVALS}
   <div class="section-intro">
     <span class="section-number">01</span>
     <h2 class="section-title" id="new-arrivals-title">New arrivals</h2>
-    <p class="section-note">13 Jul—13 Aug 2026</p>
+    <p class="section-note">Last 30 days</p>
   </div>
   <div class="arrival-rail" role="region" aria-label="Last 30 days additions" tabindex="0">
 YAML
@@ -343,7 +343,8 @@ while IFS= read -r record; do
   title_html="$(html_escape "$title")"
   label_html="$(html_escape "$label")"
   {
-    printf '    <a class="arrival-card %s atlas-visual--%s" href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/%s/%s">\n' "$atlas_sheet" "$visual_number" "$slug" "$base"
+    service_slug="${base%.md}"
+    printf '    <a class="arrival-card %s atlas-visual--%s" href="{{ '\''/services/%s/'\'' | relative_url }}">\n' "$atlas_sheet" "$visual_number" "$service_slug"
     echo '      <span class="arrival-card__image" aria-hidden="true"></span>'
     echo '      <span class="arrival-card__copy">'
     printf '        <span class="arrival-card__category">%s</span>\n' "$label_html"
@@ -536,9 +537,16 @@ YAML
       echo '    <span class="service-card__image" aria-hidden="true"></span>'
       echo '    <div class="service-card__copy">'
       printf '    <div class="service-card__overline"><span>%s</span><span>%s</span></div>\n' "$badge" "$classification_html"
-      printf '    <h2 class="service-card__title">%s</h2>\n' "$service_title_html"
+      service_slug="${base%.md}"
+      tagline="$(extract_tagline "$file")"
+      tagline_html="$(html_escape "$tagline")"
+      printf '    <h2 class="service-card__title"><a href="{{ '\''/services/%s/'\'' | relative_url }}">%s</a></h2>\n' "$service_slug" "$service_title_html"
+      if [[ -n "$tagline" ]]; then
+        printf '    <p class="service-card__tagline">%s</p>\n' "$tagline_html"
+      fi
       echo '    <div class="service-card__actions">'
-      printf '      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/%s/%s">Open dossier ↗</a>\n' "$slug" "$base"
+      printf '      <a href="{{ '\''/services/%s/'\'' | relative_url }}">Introduction</a>\n' "$service_slug"
+      printf '      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/%s/%s">Dossier ↗</a>\n' "$slug" "$base"
       if [[ -n "$repo_url" ]]; then
         printf '      <a href="%s">Official repo ↗</a>\n' "$repo_url"
       fi
@@ -574,6 +582,9 @@ YAML
   echo '</nav>' >>"$out"
 done
 
+# Per-service introduction pages + repository sitemap.
+python3 "$ROOT/scripts/render-service-pages.py"
+
 # Branded 1200x630 Open Graph image, cropped from the editorial hero without embedded text.
 if command -v ffmpeg >/dev/null 2>&1 && [[ -f "$HERO_IMG" ]]; then
   ffmpeg -y -i "$HERO_IMG" \
@@ -586,3 +597,4 @@ fi
 
 echo "Wrote $INDEX (${TOTAL_SERVICES} services, ${TOTAL_COLLECTIONS} collections, ${NEW_ARRIVALS} new arrivals)"
 echo "Wrote collection pages under $CAT_ROOT"
+echo "Wrote service introduction pages under $DOCS/services"

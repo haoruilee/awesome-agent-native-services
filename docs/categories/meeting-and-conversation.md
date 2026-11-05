@@ -18,9 +18,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">AgentCall</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/agentcall/' | relative_url }}">AgentCall</a></h2>
+    <p class="service-card__tagline">Your AI agent, in every meeting.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/agentcall.md">Open dossier ↗</a>
+      <a href="{{ '/services/agentcall/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/agentcall.md">Dossier ↗</a>
       <a href="https://github.com/pattern-ai-labs/agentcall">Official repo ↗</a>
     </div>
     </div>
@@ -29,9 +31,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Daily Agent Toolkit</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/daily-agent/' | relative_url }}">Daily Agent Toolkit</a></h2>
+    <p class="service-card__tagline">Build realtime meeting agents on Daily.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/daily-agent.md">Open dossier ↗</a>
+      <a href="{{ '/services/daily-agent/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/daily-agent.md">Dossier ↗</a>
       <a href="https://github.com/daily-co/daily-python">Official repo ↗</a>
     </div>
     </div>
@@ -40,9 +44,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">joinly.ai</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/joinly/' | relative_url }}">joinly.ai</a></h2>
+    <p class="service-card__tagline">Make your meetings accessible to AI Agents!</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/joinly.md">Open dossier ↗</a>
+      <a href="{{ '/services/joinly/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/joinly.md">Dossier ↗</a>
       <a href="https://github.com/joinly-ai/joinly">Official repo ↗</a>
     </div>
     </div>
@@ -51,9 +57,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Meeting BaaS</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/meeting-baas/' | relative_url }}">Meeting BaaS</a></h2>
+    <p class="service-card__tagline">Meeting Bots As A Service — The developer API for programmatic access to meeting data across Zoom, Google Meet, and Microsoft Teams.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/meeting-baas.md">Open dossier ↗</a>
+      <a href="{{ '/services/meeting-baas/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/meeting-baas.md">Dossier ↗</a>
       <a href="https://github.com/Meeting-Baas">Official repo ↗</a>
     </div>
     </div>
@@ -62,9 +70,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">MeetStream</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/meetstream/' | relative_url }}">MeetStream</a></h2>
+    <p class="service-card__tagline">API &amp; Infrastructure to capture recordings, transcripts &amp; metadata from meetings.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/meetstream.md">Open dossier ↗</a>
+      <a href="{{ '/services/meetstream/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/meetstream.md">Dossier ↗</a>
     </div>
     </div>
   </article>
@@ -72,9 +82,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Recall.ai</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/recall-ai/' | relative_url }}">Recall.ai</a></h2>
+    <p class="service-card__tagline">The meeting bot API for every platform.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/recall-ai.md">Open dossier ↗</a>
+      <a href="{{ '/services/recall-ai/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/recall-ai.md">Dossier ↗</a>
       <a href="https://github.com/recallai">Official repo ↗</a>
     </div>
     </div>
@@ -83,9 +95,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Vexa</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/vexa/' | relative_url }}">Vexa</a></h2>
+    <p class="service-card__tagline">Open-source meeting transcription API for Google Meet, Microsoft Teams &amp; Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/vexa.md">Open dossier ↗</a>
+      <a href="{{ '/services/vexa/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/vexa.md">Dossier ↗</a>
       <a href="https://github.com/Vexa-ai/vexa">Official repo ↗</a>
     </div>
     </div>

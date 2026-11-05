@@ -18,9 +18,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">AgentEvals</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/agentevals/' | relative_url }}">AgentEvals</a></h2>
+    <p class="service-card__tagline">Ship Agents Reliably — Benchmark your agents before they hit production. AgentEvals scores performance and inference quality from OpenTelemetry traces — no re-runs, no guesswork.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/agentevals.md">Open dossier ↗</a>
+      <a href="{{ '/services/agentevals/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/agentevals.md">Dossier ↗</a>
       <a href="https://github.com/agentevals-dev/agentevals">Official repo ↗</a>
     </div>
     </div>
@@ -29,9 +31,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">agent-inspect</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/agent-inspect/' | relative_url }}">agent-inspect</a></h2>
+    <p class="service-card__tagline">Local execution trees for TypeScript AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/agent-inspect.md">Open dossier ↗</a>
+      <a href="{{ '/services/agent-inspect/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/agent-inspect.md">Dossier ↗</a>
       <a href="https://github.com/rajudandigam/agent-inspect">Official repo ↗</a>
     </div>
     </div>
@@ -40,9 +44,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">AgentOps</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/agentops/' | relative_url }}">AgentOps</a></h2>
+    <p class="service-card__tagline">AgentOps is the developer favorite platform for testing, debugging, and deploying AI agents and LLM apps.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/agentops.md">Open dossier ↗</a>
+      <a href="{{ '/services/agentops/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/agentops.md">Dossier ↗</a>
       <a href="https://github.com/AgentOps-AI/agentops">Official repo ↗</a>
     </div>
     </div>
@@ -51,9 +57,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">AgentSight</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/agentsight/' | relative_url }}">AgentSight</a></h2>
+    <p class="service-card__tagline">lightweight system-level observability for AI Agents</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/agentsight.md">Open dossier ↗</a>
+      <a href="{{ '/services/agentsight/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/agentsight.md">Dossier ↗</a>
       <a href="https://github.com/eunomia-bpf/agentsight">Official repo ↗</a>
     </div>
     </div>
@@ -62,9 +70,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Agent Trace</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/agent-trace/' | relative_url }}">Agent Trace</a></h2>
+    <p class="service-card__tagline">Observability for AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/agent-trace.md">Open dossier ↗</a>
+      <a href="{{ '/services/agent-trace/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/agent-trace.md">Dossier ↗</a>
       <a href="https://github.com/Siddhant-K-code/agent-trace">Official repo ↗</a>
     </div>
     </div>
@@ -73,9 +83,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Braintrust</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/braintrust/' | relative_url }}">Braintrust</a></h2>
+    <p class="service-card__tagline">Ship quality AI at scale&quot; — AI observability and evaluation.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/braintrust.md">Open dossier ↗</a>
+      <a href="{{ '/services/braintrust/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/braintrust.md">Dossier ↗</a>
       <a href="https://github.com/braintrustdata/autoevals">Official repo ↗</a>
     </div>
     </div>
@@ -84,9 +96,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Galileo</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/galileo/' | relative_url }}">Galileo</a></h2>
+    <p class="service-card__tagline">Galileo is the AI observability and eval engineering platform where offline evals become production guardrails.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/galileo.md">Open dossier ↗</a>
+      <a href="{{ '/services/galileo/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/galileo.md">Dossier ↗</a>
       <a href="https://github.com/rungalileo">Official repo ↗</a>
     </div>
     </div>
@@ -95,9 +109,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Kitaru</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/kitaru/' | relative_url }}">Kitaru</a></h2>
+    <p class="service-card__tagline">Traces you can run, not just read.&quot; — zenml-io/kitaru README</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/kitaru.md">Open dossier ↗</a>
+      <a href="{{ '/services/kitaru/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/kitaru.md">Dossier ↗</a>
       <a href="https://github.com/zenml-io/kitaru">Official repo ↗</a>
     </div>
     </div>
@@ -106,9 +122,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Laminar</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/laminar/' | relative_url }}">Laminar</a></h2>
+    <p class="service-card__tagline">Open-source observability platform for long-running agents. Trace in one line, debug from any step, detect patterns at scale.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/laminar.md">Open dossier ↗</a>
+      <a href="{{ '/services/laminar/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/laminar.md">Dossier ↗</a>
       <a href="https://github.com/lmnr-ai/lmnr">Official repo ↗</a>
     </div>
     </div>
@@ -117,9 +135,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Langfuse</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/langfuse/' | relative_url }}">Langfuse</a></h2>
+    <p class="service-card__tagline">Open-source LLM observability, tracing, and evaluation for AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/langfuse.md">Open dossier ↗</a>
+      <a href="{{ '/services/langfuse/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/langfuse.md">Dossier ↗</a>
       <a href="https://github.com/langfuse/langfuse">Official repo ↗</a>
     </div>
     </div>
@@ -128,9 +148,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">LangWatch</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/langwatch/' | relative_url }}">LangWatch</a></h2>
+    <p class="service-card__tagline">Open-source LLM Ops platform for tracing, evals, and guardrails.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/langwatch.md">Open dossier ↗</a>
+      <a href="{{ '/services/langwatch/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/langwatch.md">Dossier ↗</a>
       <a href="https://github.com/langwatch/langwatch">Official repo ↗</a>
     </div>
     </div>
@@ -139,9 +161,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">numbat</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/numbat/' | relative_url }}">numbat</a></h2>
+    <p class="service-card__tagline">Endpoint visibility into AI agent activity, with local detection, optional pre-action blocking, and forensic reconstruction.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/numbat.md">Open dossier ↗</a>
+      <a href="{{ '/services/numbat/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/numbat.md">Dossier ↗</a>
       <a href="https://github.com/perplexityai/numbat">Official repo ↗</a>
     </div>
     </div>
@@ -150,9 +174,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">OpenLIT</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/openlit/' | relative_url }}">OpenLIT</a></h2>
+    <p class="service-card__tagline">OpenTelemetry-native observability for LLMs and AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/openlit.md">Open dossier ↗</a>
+      <a href="{{ '/services/openlit/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/openlit.md">Dossier ↗</a>
       <a href="https://github.com/openlit/openlit">Official repo ↗</a>
     </div>
     </div>
@@ -161,9 +187,11 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">OrcaReplay</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/orcareplay/' | relative_url }}">OrcaReplay</a></h2>
+    <p class="service-card__tagline">Your agent broke something at 2am. Replay it at 9am — exactly, offline, as many times as you like.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/orcareplay.md">Open dossier ↗</a>
+      <a href="{{ '/services/orcareplay/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/observability-and-tracing/orcareplay.md">Dossier ↗</a>
       <a href="https://github.com/Continuum-AI-Corp/OrcaReplay">Official repo ↗</a>
     </div>
     </div>
