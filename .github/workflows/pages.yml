@@ -105,4 +105,4 @@ jobs:
       - name: Check same-origin discovery and data endpoints
         run: >-
           bash scripts/check-agent-endpoints.sh
-          https://lihaorui.com/awesome-agent-native-services/
+          https://theagentnative.com/
