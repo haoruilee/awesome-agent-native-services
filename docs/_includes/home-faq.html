@@ -2,6 +2,8 @@
 {% capture faq_a1 %}A service designed from the ground up for AI agents as first-class consumers, or a purpose-built surface for operating live agent systems. Admission requires all five hard criteria: agent-first positioning, agent-specific primitives, an autonomy-compatible control plane, a machine-to-machine integration surface, and agent identity or delegation semantics. Human products that later add an agent layer do not qualify.{% endcapture %}
 {% capture faq_q2 %}How does an agent join?{% endcapture %}
 {% capture faq_a2 %}The gold standard is URL Onboarding: the agent reads a machine-readable document and follows the instructions — no SDK install, dashboard, or human-issued API key required for the join sequence. For this catalog, start with: Read {{ '/skill.md' | absolute_url }} then find services designed for you natively. Starred services publish their own join URL the same way.{% endcapture %}
+{% capture faq_q3 %}Where can I track verified Anthropic, Claude, and OpenAI launches?{% endcapture %}
+{% capture faq_a3 %}ReleaseLog at https://releaselog.site is the verified AI release calendar from the same curator. It is published separately from this catalog. Once https://releaselog.site/skill.md is live, an agent can start with: Read https://releaselog.site/skill.md and follow the instructions.{% endcapture %}
 
 <section id="faq" class="editorial-faq" aria-labelledby="faq-title">
   <div class="section-intro">
@@ -17,6 +19,10 @@
     <div>
       <dt>{{ faq_q2 }}</dt>
       <dd>{{ faq_a2 }}</dd>
+    </div>
+    <div>
+      <dt>{{ faq_q3 }}</dt>
+      <dd>{{ faq_a3 }}</dd>
     </div>
   </dl>
 </section>
@@ -39,6 +45,14 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": {{ faq_a2 | jsonify }}
+      }
+    },
+    {
+      "@type": "Question",
+      "name": {{ faq_q3 | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq_a3 | jsonify }}
       }
     }
   ]
