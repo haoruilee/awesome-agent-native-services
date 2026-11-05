@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "1908ee5a06e1ab669a9ff48a0b1e6284ef0de0ad26abc3cdffc2bc8357c4d93d",
+      "value": "963671986411c9175ab7bd2eb515648da6b950aaf0a7a444aef2aad48cd5cb4f",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -222,6 +222,7 @@
         "services/search-and-web-intelligence/nothumansearch.md",
         "services/search-and-web-intelligence/parallel.md",
         "services/search-and-web-intelligence/prooffetch.md",
+        "services/search-and-web-intelligence/releaselog.md",
         "services/search-and-web-intelligence/tavily.md",
         "services/code-execution/README.md",
         "services/code-execution/agent-infra-sandbox.md",
@@ -317,7 +318,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 281
+    "services": 282
   },
   "categories": [
     {
@@ -381,7 +382,7 @@
       "name": "Search & Web Intelligence",
       "description": "Services that give AI agents optimized, structured access to web information — returning AI-ready content tuned for LLM context windows, not raw HTML or human-readable SERPs.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/README.md",
-      "service_count": 11
+      "service_count": 12
     },
     {
       "id": "code-execution",
@@ -6807,6 +6808,39 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "search-and-web-intelligence/releaselog",
+      "slug": "releaselog",
+      "name": "ReleaseLog",
+      "tagline": "Verified AI release intelligence for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "search-and-web-intelligence",
+      "website": "https://releaselog.site",
+      "repository": "https://github.com/haoruilee/releaselog",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/releaselog.md",
+      "source_path": "services/search-and-web-intelligence/releaselog.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + public JSON API + Atom feeds. Local stdio MCP is optional.",
+        "instruction": "Read https://releaselog.site/skill.md and follow the instructions.",
+        "url": "https://releaselog.site/skill.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "http",
+        "api"
+      ],
+      "mcp_status": "optional",
+      "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
