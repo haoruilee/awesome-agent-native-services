@@ -18,9 +18,11 @@ service_count: 6
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Inferable</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/inferable/' | relative_url }}">Inferable</a></h2>
+    <p class="service-card__tagline">Build reliable AI Workflows and Agents with humans in the loop, structured outputs and durable execution.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/inferable.md">Open dossier ↗</a>
+      <a href="{{ '/services/inferable/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/inferable.md">Dossier ↗</a>
       <a href="https://github.com/inferablehq/inferable">Official repo ↗</a>
     </div>
     </div>
@@ -29,9 +31,11 @@ service_count: 6
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Inngest</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/inngest/' | relative_url }}">Inngest</a></h2>
+    <p class="service-card__tagline">Durable execution for AI agents in production.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/inngest.md">Open dossier ↗</a>
+      <a href="{{ '/services/inngest/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/inngest.md">Dossier ↗</a>
       <a href="https://github.com/inngest/inngest">Official repo ↗</a>
     </div>
     </div>
@@ -40,9 +44,11 @@ service_count: 6
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">MCP-Cloud (mcp-agent)</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/mcp-cloud-mcp-agent/' | relative_url }}">MCP-Cloud (mcp-agent)</a></h2>
+    <p class="service-card__tagline">Deploy and host your mcp-agents and apps on the cloud.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/mcp-cloud-mcp-agent.md">Open dossier ↗</a>
+      <a href="{{ '/services/mcp-cloud-mcp-agent/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/mcp-cloud-mcp-agent.md">Dossier ↗</a>
       <a href="https://github.com/lastmile-ai/mcp-agent">Official repo ↗</a>
     </div>
     </div>
@@ -51,9 +57,11 @@ service_count: 6
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">pi-dispatch</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/pi-dispatch/' | relative_url }}">pi-dispatch</a></h2>
+    <p class="service-card__tagline">Run the pi coding agent as a service — triggered on demand, on a cron schedule, or by a GitHub or GitLab issue, comment or pull/merge request — in a container you control, with a durable queue, a spend cap, and a live admin panel.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/pi-dispatch.md">Open dossier ↗</a>
+      <a href="{{ '/services/pi-dispatch/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/pi-dispatch.md">Dossier ↗</a>
       <a href="https://github.com/edgehero/pi-dispatch">Official repo ↗</a>
     </div>
     </div>
@@ -62,9 +70,11 @@ service_count: 6
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Restate</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/restate/' | relative_url }}">Restate</a></h2>
+    <p class="service-card__tagline">Durable execution for AI agents — any framework, any cloud.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/restate.md">Open dossier ↗</a>
+      <a href="{{ '/services/restate/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/restate.md">Dossier ↗</a>
       <a href="https://github.com/restatedev/restate">Official repo ↗</a>
     </div>
     </div>
@@ -73,9 +83,11 @@ service_count: 6
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Trigger.dev</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/trigger-dev/' | relative_url }}">Trigger.dev</a></h2>
+    <p class="service-card__tagline">Build and deploy fully-managed AI agents and workflows.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/trigger-dev.md">Open dossier ↗</a>
+      <a href="{{ '/services/trigger-dev/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/trigger-dev.md">Dossier ↗</a>
       <a href="https://github.com/triggerdotdev/trigger.dev">Official repo ↗</a>
     </div>
     </div>

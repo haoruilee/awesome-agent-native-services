@@ -53,6 +53,7 @@
         category: category,
         categoryLabel: label,
         dossier: item.dossier || "",
+        page: item.page || "",
         mcp: item.mcp_status === "available" || item.mcp_status === "optional",
         urlOnboarding: !!item.url_onboarding,
         nameLc: name.toLowerCase(),
@@ -130,6 +131,14 @@
 
   function collectionUrl(category) {
     return baseurl + "/categories/" + encodeURIComponent(category) + "/";
+  }
+
+  function servicePageUrl(item) {
+    if (item.page) {
+      if (item.page.indexOf("http") === 0) return item.page;
+      return baseurl + item.page;
+    }
+    return collectionUrl(item.category);
   }
 
   function setExpanded(expanded) {
@@ -222,7 +231,7 @@
 
       var primary = document.createElement("a");
       primary.className = "catalog-search__primary";
-      primary.href = collectionUrl(item.category);
+      primary.href = servicePageUrl(item);
       primary.tabIndex = -1;
 
       var name = document.createElement("span");

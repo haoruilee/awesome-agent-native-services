@@ -2119,3 +2119,149 @@ a:hover {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* —— Service introduction pages —— */
+.service-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.service-hero__art {
+  margin: 0;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.service-hero__art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .34;
+}
+
+.service-hero .hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+}
+
+.service-hero .hero-actions {
+  margin-top: 22px;
+}
+
+.catalog-content h2.service-card__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.catalog-content h2.service-card__title a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.service-page__chips {
+  margin: 0 0 28px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px 18px;
+}
+
+.service-page__chips li {
+  padding: 14px 16px;
+  background: rgba(251, 248, 241, .72);
+  border: 1px solid var(--line);
+}
+
+.service-page__chip-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--brass);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.service-page__chip-value {
+  display: block;
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.service-page__links {
+  margin: 0 0 42px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+}
+
+.service-page__links a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.service-page__nav {
+  margin: 56px 0 12px;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.service-page__nav a {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-decoration: none;
+}
+
+.service-page__nav small {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.service-page__nav strong {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -.02em;
+}
+
+.page-kind-service .catalog-content > h2 {
+  margin-top: 42px;
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: -.03em;
+}
+
+.page-kind-service .catalog-content > ul {
+  line-height: 1.55;
+}
+
+@media (max-width: 720px) {
+  .service-page__nav {
+    flex-direction: column;
+  }
+
+  .service-hero .hero-inner {
+    max-width: none;
+  }
+}

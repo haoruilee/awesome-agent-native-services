@@ -1,6 +1,6 @@
 # GitHub Pages site (Jekyll)
 
-This folder is the **Jekyll source** for the catalog’s public site. The home page and collection pages are generated from the service dossiers under `services/` by `scripts/build-github-pages.sh`.
+This folder is the **Jekyll source** for the catalog’s public site. The home page, collection pages, and per-service introduction pages (`services/<slug>/`) are generated from the service dossiers under `services/` by `scripts/build-github-pages.sh` (which calls `scripts/render-service-pages.py`).
 
 ## One-time repository settings
 

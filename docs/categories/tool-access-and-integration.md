@@ -18,9 +18,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Aident Loadout</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/aident-loadout/' | relative_url }}">Aident Loadout</a></h2>
+    <p class="service-card__tagline">Give your agents real capabilities</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/aident-loadout.md">Open dossier ↗</a>
+      <a href="{{ '/services/aident-loadout/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/aident-loadout.md">Dossier ↗</a>
       <a href="https://github.com/Aident-AI/aident-skill">Official repo ↗</a>
     </div>
     </div>
@@ -29,9 +31,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Apify MCP Server</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/apify-mcp-server/' | relative_url }}">Apify MCP Server</a></h2>
+    <p class="service-card__tagline">MCP server enabling AI agents to run Apify Actors and extract web data.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/apify-mcp-server.md">Open dossier ↗</a>
+      <a href="{{ '/services/apify-mcp-server/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/apify-mcp-server.md">Dossier ↗</a>
       <a href="https://github.com/apify/apify-mcp-server">Official repo ↗</a>
     </div>
     </div>
@@ -40,9 +44,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Arcade</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/arcade/' | relative_url }}">Arcade</a></h2>
+    <p class="service-card__tagline">MCP tools with managed OAuth — credentials stay out of the LLM.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/arcade.md">Open dossier ↗</a>
+      <a href="{{ '/services/arcade/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/arcade.md">Dossier ↗</a>
       <a href="https://github.com/ArcadeAI/arcade-mcp">Official repo ↗</a>
     </div>
     </div>
@@ -51,9 +57,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">ClawHub</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/clawhub/' | relative_url }}">ClawHub</a></h2>
+    <p class="service-card__tagline">Claw Hub: OpenClaw Skill Marketplace</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/clawhub.md">Open dossier ↗</a>
+      <a href="{{ '/services/clawhub/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/clawhub.md">Dossier ↗</a>
       <a href="https://github.com/openclaw/clawhub">Official repo ↗</a>
     </div>
     </div>
@@ -62,9 +70,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">CLI-Anything</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/cli-anything/' | relative_url }}">CLI-Anything</a></h2>
+    <p class="service-card__tagline">CLI-Anything: Making ALL Software Agent-Native</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/cli-anything.md">Open dossier ↗</a>
+      <a href="{{ '/services/cli-anything/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/cli-anything.md">Dossier ↗</a>
       <a href="https://github.com/HKUDS/CLI-Anything">Official repo ↗</a>
     </div>
     </div>
@@ -73,9 +83,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Composio</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/composio/' | relative_url }}">Composio</a></h2>
+    <p class="service-card__tagline">The tool platform built for agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/composio.md">Open dossier ↗</a>
+      <a href="{{ '/services/composio/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/composio.md">Dossier ↗</a>
       <a href="https://github.com/ComposioHQ/composio">Official repo ↗</a>
     </div>
     </div>
@@ -84,9 +96,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">ContextForge</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/contextforge/' | relative_url }}">ContextForge</a></h2>
+    <p class="service-card__tagline">An open source registry and proxy that federates MCP, A2A, and REST/gRPC APIs with centralized governance, discovery, and observability. Optimizes Agent &amp; Tool calling, and supports plugins.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/contextforge.md">Open dossier ↗</a>
+      <a href="{{ '/services/contextforge/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/contextforge.md">Dossier ↗</a>
       <a href="https://github.com/IBM/mcp-context-forge">Official repo ↗</a>
     </div>
     </div>
@@ -95,9 +109,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Framelink MCP for Figma</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/framelink-figma-mcp/' | relative_url }}">Framelink MCP for Figma</a></h2>
+    <p class="service-card__tagline">Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/framelink-figma-mcp.md">Open dossier ↗</a>
+      <a href="{{ '/services/framelink-figma-mcp/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/framelink-figma-mcp.md">Dossier ↗</a>
       <a href="https://github.com/GLips/Figma-Context-MCP">Official repo ↗</a>
     </div>
     </div>
@@ -106,9 +122,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">GitHub MCP Server</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/github-mcp-server/' | relative_url }}">GitHub MCP Server</a></h2>
+    <p class="service-card__tagline">The GitHub MCP Server connects AI tools directly to GitHub&#39;s platform. This gives AI agents, assistants, and chatbots the ability to read repositories and code files, manage issues and PRs, analyze code, and automate workflows.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/github-mcp-server.md">Open dossier ↗</a>
+      <a href="{{ '/services/github-mcp-server/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/github-mcp-server.md">Dossier ↗</a>
       <a href="https://github.com/github/github-mcp-server">Official repo ↗</a>
     </div>
     </div>
@@ -117,9 +135,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Grey Ridge x402 Tools</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/greyridge-x402-tools/' | relative_url }}">Grey Ridge x402 Tools</a></h2>
+    <p class="service-card__tagline">Vet an MCP server before your agent trusts it.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/greyridge-x402-tools.md">Open dossier ↗</a>
+      <a href="{{ '/services/greyridge-x402-tools/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/greyridge-x402-tools.md">Dossier ↗</a>
       <a href="https://github.com/rezearcher/greyridge-x402-tools">Official repo ↗</a>
     </div>
     </div>
@@ -128,9 +148,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">MCP Gateway</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/mcpgateway/' | relative_url }}">MCP Gateway</a></h2>
+    <p class="service-card__tagline">The platform for production AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcpgateway.md">Open dossier ↗</a>
+      <a href="{{ '/services/mcpgateway/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcpgateway.md">Dossier ↗</a>
     </div>
     </div>
   </article>
@@ -138,9 +160,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">MCP Gateway &amp; Registry</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/mcp-gateway-registry/' | relative_url }}">MCP Gateway &amp; Registry</a></h2>
+    <p class="service-card__tagline">Unified Agent &amp; MCP Server Registry – Gateway for AI Development Tools</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcp-gateway-registry.md">Open dossier ↗</a>
+      <a href="{{ '/services/mcp-gateway-registry/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcp-gateway-registry.md">Dossier ↗</a>
       <a href="https://github.com/agentic-community/mcp-gateway-registry">Official repo ↗</a>
     </div>
     </div>
@@ -149,9 +173,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">MCPHub</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/mcphub/' | relative_url }}">MCPHub</a></h2>
+    <p class="service-card__tagline">One gateway for all your MCP servers.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcphub.md">Open dossier ↗</a>
+      <a href="{{ '/services/mcphub/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcphub.md">Dossier ↗</a>
       <a href="https://github.com/samanhappy/mcphub">Official repo ↗</a>
     </div>
     </div>
@@ -160,9 +186,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">MCPJungle</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/mcpjungle/' | relative_url }}">MCPJungle</a></h2>
+    <p class="service-card__tagline">Run all your MCP servers behind one endpoint</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcpjungle.md">Open dossier ↗</a>
+      <a href="{{ '/services/mcpjungle/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mcpjungle.md">Dossier ↗</a>
       <a href="https://github.com/mcpjungle/MCPJungle">Official repo ↗</a>
     </div>
     </div>
@@ -171,9 +199,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">MCP Toolbox for Databases</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/google-mcp-toolbox/' | relative_url }}">MCP Toolbox for Databases</a></h2>
+    <p class="service-card__tagline">MCP Toolbox for Databases is an open source Model Context Protocol (MCP) server that connects your AI agents, IDEs, and applications directly to your enterprise databases.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/google-mcp-toolbox.md">Open dossier ↗</a>
+      <a href="{{ '/services/google-mcp-toolbox/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/google-mcp-toolbox.md">Dossier ↗</a>
       <a href="https://github.com/googleapis/mcp-toolbox">Official repo ↗</a>
     </div>
     </div>
@@ -182,9 +212,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">MetaMCP</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/metamcp/' | relative_url }}">MetaMCP</a></h2>
+    <p class="service-card__tagline">MCP Aggregator, Orchestrator, Middleware, Gateway in one docker</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/metamcp.md">Open dossier ↗</a>
+      <a href="{{ '/services/metamcp/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/metamcp.md">Dossier ↗</a>
       <a href="https://github.com/metatool-ai/metamcp">Official repo ↗</a>
     </div>
     </div>
@@ -193,9 +225,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Nango</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/nango/' | relative_url }}">Nango</a></h2>
+    <p class="service-card__tagline">The OAuth and API credential layer for AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/nango.md">Open dossier ↗</a>
+      <a href="{{ '/services/nango/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/nango.md">Dossier ↗</a>
       <a href="https://github.com/NangoHQ/nango">Official repo ↗</a>
     </div>
     </div>
@@ -204,9 +238,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Obot</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/obot/' | relative_url }}">Obot</a></h2>
+    <p class="service-card__tagline">Complete MCP Platform — Hosting, Registry, Gateway, and Chat Client.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/obot.md">Open dossier ↗</a>
+      <a href="{{ '/services/obot/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/obot.md">Dossier ↗</a>
       <a href="https://github.com/obot-platform/obot">Official repo ↗</a>
     </div>
     </div>
@@ -215,9 +251,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">OpenChatCut</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/openchatcut/' | relative_url }}">OpenChatCut</a></h2>
+    <p class="service-card__tagline">Open-source, local-first conversational AI video editor with a professional multi-track timeline, Agent Skills, MCP integration, and Remotion rendering.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/openchatcut.md">Open dossier ↗</a>
+      <a href="{{ '/services/openchatcut/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/openchatcut.md">Dossier ↗</a>
       <a href="https://github.com/0xsline/OpenChatCut">Official repo ↗</a>
     </div>
     </div>
@@ -226,9 +264,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">REA (Reverse Engineer Anything)</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/rea/' | relative_url }}">REA (Reverse Engineer Anything)</a></h2>
+    <p class="service-card__tagline">One MCP for reverse engineering across binaries, applications, and runtime behavior.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/rea.md">Open dossier ↗</a>
+      <a href="{{ '/services/rea/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/rea.md">Dossier ↗</a>
       <a href="https://github.com/morluto/rea">Official repo ↗</a>
     </div>
     </div>
@@ -237,9 +277,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">SandBase CLI</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/sandbase-cli/' | relative_url }}">SandBase CLI</a></h2>
+    <p class="service-card__tagline">Give your AI agent superpowers. One command. 2,000+ AI models.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/sandbase-cli.md">Open dossier ↗</a>
+      <a href="{{ '/services/sandbase-cli/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/sandbase-cli.md">Dossier ↗</a>
       <a href="https://github.com/sandbaseai/cli">Official repo ↗</a>
     </div>
     </div>
@@ -248,9 +290,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Scalekit</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/scalekit/' | relative_url }}">Scalekit</a></h2>
+    <p class="service-card__tagline">Connect your agents to any tool. Authenticated, scoped, and logged.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/scalekit.md">Open dossier ↗</a>
+      <a href="{{ '/services/scalekit/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/scalekit.md">Dossier ↗</a>
       <a href="https://github.com/scalekit-inc/scalekit-sdk-python">Official repo ↗</a>
     </div>
     </div>
@@ -259,9 +303,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Smithery</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/smithery/' | relative_url }}">Smithery</a></h2>
+    <p class="service-card__tagline">Connect your agent to thousands of MCP tools and Agent Skills.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/smithery.md">Open dossier ↗</a>
+      <a href="{{ '/services/smithery/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/smithery.md">Dossier ↗</a>
       <a href="https://github.com/arcadeai-labs/smithery-cli">Official repo ↗</a>
     </div>
     </div>
@@ -270,9 +316,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Snyk Agent Scan</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/snyk-agent-scan/' | relative_url }}">Snyk Agent Scan</a></h2>
+    <p class="service-card__tagline">Security scanner for AI agents, MCP servers and agent skills.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/snyk-agent-scan.md">Open dossier ↗</a>
+      <a href="{{ '/services/snyk-agent-scan/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/snyk-agent-scan.md">Dossier ↗</a>
       <a href="https://github.com/snyk/agent-scan">Official repo ↗</a>
     </div>
     </div>
@@ -281,9 +329,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">ToolHive</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/toolhive/' | relative_url }}">ToolHive</a></h2>
+    <p class="service-card__tagline">Run any MCP server securely, instantly, anywhere.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolhive.md">Open dossier ↗</a>
+      <a href="{{ '/services/toolhive/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolhive.md">Dossier ↗</a>
       <a href="https://github.com/stacklok/toolhive-studio">Official repo ↗</a>
     </div>
     </div>
@@ -292,9 +342,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Toolhouse</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/toolhouse/' | relative_url }}">Toolhouse</a></h2>
+    <p class="service-card__tagline">Repetitive tasks, done for you, by AI workers.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolhouse.md">Open dossier ↗</a>
+      <a href="{{ '/services/toolhouse/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolhouse.md">Dossier ↗</a>
       <a href="https://github.com/toolhouseai/toolhouse-sdk-python">Official repo ↗</a>
     </div>
     </div>
@@ -303,9 +355,11 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Toolport</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/toolport/' | relative_url }}">Toolport</a></h2>
+    <p class="service-card__tagline">Every tool. One port.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolport.md">Open dossier ↗</a>
+      <a href="{{ '/services/toolport/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/toolport.md">Dossier ↗</a>
       <a href="https://github.com/btsouth/toolport">Official repo ↗</a>
     </div>
     </div>

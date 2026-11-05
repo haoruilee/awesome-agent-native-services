@@ -141,6 +141,20 @@ def check_local_links() -> list[str]:
 
     if failures:
         return failures
+    docs_services = ROOT / "docs" / "services"
+    missing_pages = [
+        service.stem
+        for service in services
+        if not (docs_services / service.stem / "index.md").is_file()
+    ]
+    if missing_pages:
+        sample = ", ".join(missing_pages[:12])
+        more = "" if len(missing_pages) <= 12 else f" (+{len(missing_pages) - 12} more)"
+        failures.append(
+            "docs/services is missing introduction pages: " + sample + more
+        )
+        return failures
+
     print(f"Local links and inventory passed: {checked} links, {len(services)} services")
     return []
 
@@ -181,7 +195,7 @@ def check_site_directory(site_dir: Path) -> list[str]:
                 raise ValueError("expected a non-empty services list")
             if index.get("count") != len(services):
                 raise ValueError("count does not match services")
-            required = {
+            search_fields = {
                 "id",
                 "slug",
                 "name",
@@ -190,12 +204,13 @@ def check_site_directory(site_dir: Path) -> list[str]:
                 "website",
                 "repository",
                 "dossier",
+                "page",
                 "mcp_status",
                 "url_onboarding",
                 "haystack",
             }
             first = services[0]
-            if not isinstance(first, dict) or not required.issubset(first):
+            if not isinstance(first, dict) or not search_fields.issubset(first):
                 raise ValueError("search records are missing required fields")
         except (json.JSONDecodeError, UnicodeDecodeError, ValueError) as error:
             failures.append(f"{search_index_path}: invalid search index: {error}")
@@ -220,10 +235,32 @@ def check_site_directory(site_dir: Path) -> list[str]:
             "built site is missing category routes: " + ", ".join(missing_categories)
         )
 
+    source_services = {
+        path.stem
+        for path in (ROOT / "services").glob("*/*.md")
+        if path.name != "README.md"
+    }
+    built_services = {
+        path.parent.name
+        for path in (site_dir / "services").glob("*/index.html")
+    } | {
+        path.name.removesuffix(".html")
+        for path in (site_dir / "services").glob("*.html")
+        if path.name != "index.html"
+    }
+    missing_services = sorted(source_services - built_services)
+    if missing_services:
+        sample = ", ".join(missing_services[:12])
+        more = "" if len(missing_services) <= 12 else f" (+{len(missing_services) - 12} more)"
+        failures.append(
+            "built site is missing service introduction routes: " + sample + more
+        )
+
     if not failures:
         print(
             "Built agent endpoints passed: "
-            f"{len(required)} endpoints, {len(source_categories)} category routes"
+            f"{len(required)} endpoints, {len(source_categories)} category routes, "
+            f"{len(source_services)} service routes"
         )
     return failures
 

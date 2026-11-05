@@ -870,6 +870,7 @@ def build_search_index(catalog: dict[str, Any]) -> dict[str, Any]:
                 "website": service.get("website"),
                 "repository": service.get("repository"),
                 "dossier": service.get("dossier"),
+                "page": f"/services/{slug}/",
                 "mcp_status": service["mcp_status"],
                 "url_onboarding": url_onboarding_flag(service.get("onboarding") or {}),
                 "haystack": haystack,

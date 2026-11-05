@@ -18,9 +18,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Cordum</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/cordum/' | relative_url }}">Cordum</a></h2>
+    <p class="service-card__tagline">The open agent control plane.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/cordum.md">Open dossier ↗</a>
+      <a href="{{ '/services/cordum/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/cordum.md">Dossier ↗</a>
       <a href="https://github.com/cordum-io/cordum">Official repo ↗</a>
     </div>
     </div>
@@ -29,9 +31,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">HumanLayer</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/humanlayer/' | relative_url }}">HumanLayer</a></h2>
+    <p class="service-card__tagline">Human in the Loop for AI Agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/humanlayer.md">Open dossier ↗</a>
+      <a href="{{ '/services/humanlayer/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/humanlayer.md">Dossier ↗</a>
       <a href="https://github.com/humanlayer/humanlayer">Official repo ↗</a>
     </div>
     </div>
@@ -40,9 +44,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Preloop</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/preloop/' | relative_url }}">Preloop</a></h2>
+    <p class="service-card__tagline">The Open Source Control Plane for AI Agents</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/preloop.md">Open dossier ↗</a>
+      <a href="{{ '/services/preloop/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/preloop.md">Dossier ↗</a>
       <a href="https://github.com/preloop/preloop">Official repo ↗</a>
     </div>
     </div>
@@ -51,9 +57,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Sallyport</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/sallyport/' | relative_url }}">Sallyport</a></h2>
+    <p class="service-card__tagline">Let your agent touch prod. Keep the keys.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/sallyport.md">Open dossier ↗</a>
+      <a href="{{ '/services/sallyport/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/sallyport.md">Dossier ↗</a>
       <a href="https://github.com/OlegSotnikov/sallyport">Official repo ↗</a>
     </div>
     </div>
@@ -62,9 +70,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Sondera Coding Agent Hooks</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/sondera-coding-agent-hooks/' | relative_url }}">Sondera Coding Agent Hooks</a></h2>
+    <p class="service-card__tagline">A reference monitor for AI coding agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/sondera-coding-agent-hooks.md">Open dossier ↗</a>
+      <a href="{{ '/services/sondera-coding-agent-hooks/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/sondera-coding-agent-hooks.md">Dossier ↗</a>
       <a href="https://github.com/sondera-ai/sondera-coding-agent-hooks">Official repo ↗</a>
     </div>
     </div>
@@ -73,9 +83,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Tracekit</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/tracekit/' | relative_url }}">Tracekit</a></h2>
+    <p class="service-card__tagline">Let your agents act. Prove every action.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/tracekit.md">Open dossier ↗</a>
+      <a href="{{ '/services/tracekit/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/tracekit.md">Dossier ↗</a>
       <a href="https://github.com/Cygnux-Labs/Tracekit">Official repo ↗</a>
     </div>
     </div>
@@ -84,9 +96,11 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">withHuman</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/withhuman/' | relative_url }}">withHuman</a></h2>
+    <p class="service-card__tagline">The approval layer for AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/withhuman.md">Open dossier ↗</a>
+      <a href="{{ '/services/withhuman/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/withhuman.md">Dossier ↗</a>
       <a href="https://github.com/withHumanAI/withHuman">Official repo ↗</a>
     </div>
     </div>

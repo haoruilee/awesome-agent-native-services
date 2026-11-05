@@ -86,4 +86,54 @@
   ]
 }
 </script>
+{% elsif page.page_kind == "service" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ page.service_name | default: page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "isPartOf": { "@type": "WebSite", "name": "The Agent-Native Index", "url": {{ '/' | absolute_url | jsonify }} },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": {{ page.service_name | default: page.title | jsonify }},
+    "applicationCategory": "DeveloperApplication"{% if page.website %},
+    "url": {{ page.website | jsonify }}{% endif %}{% if page.repository %},
+    "codeRepository": {{ page.repository | jsonify }}{% endif %}
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Index",
+      "item": {{ '/' | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Collections",
+      "item": {{ '/categories/' | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.category_label | jsonify }},
+      "item": {{ '/categories/' | append: page.category_slug | append: '/' | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": {{ page.service_name | default: page.title | jsonify }},
+      "item": {{ page.url | absolute_url | jsonify }}
+    }
+  ]
+}
+</script>
 {% endif %}

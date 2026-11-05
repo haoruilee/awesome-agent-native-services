@@ -18,6 +18,8 @@
       <link rel="preload" as="image" href="{{ '/assets/images/editorial-hero.webp' | relative_url }}" type="image/webp">
     {% elsif page.page_kind == "collection" and page.hero_image %}
       <link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" type="image/webp">
+    {% elsif page.page_kind == "service" and page.hero_image %}
+      <link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" type="image/webp">
     {% endif %}
     <link rel="preload" as="fetch" href="{{ '/assets/search-index.json' | relative_url }}" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/catalog.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -77,6 +79,26 @@
           <p class="hero-deck">{{ page.description }}</p>
         </div>
         <p class="hero-folio" aria-hidden="true">{{ page.collection_number | default: 'A/NS' }}</p>
+      </section>
+    {% elsif page.page_kind == "service" %}
+      <section class="editorial-hero service-hero" aria-labelledby="page-title">
+        <figure class="service-hero__art">
+          <img src="{{ page.hero_image | default: '/assets/images/editorial-hero.webp' | relative_url }}" alt="" width="1536" height="1024" fetchpriority="high">
+        </figure>
+        <div class="hero-inner">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="{{ '/' | relative_url }}">Index</a><span aria-hidden="true">/</span><a href="{{ '/categories/' | relative_url }}">Collections</a><span aria-hidden="true">/</span><a href="{{ '/categories/' | append: page.category_slug | append: '/' | relative_url }}">{{ page.category_label }}</a><span aria-hidden="true">/</span><span aria-current="page">{{ page.service_name | default: page.title }}</span>
+          </nav>
+          <p class="eyebrow">{% if page.classification %}{{ page.classification }} · {% endif %}{{ page.category_label }}{% if page.verified_at %} · Verified {{ page.verified_at }}{% endif %}</p>
+          <h1 id="page-title">{{ page.service_name | default: page.title }}</h1>
+          {% if page.tagline %}<p class="hero-deck">{{ page.tagline }}</p>{% elsif page.description %}<p class="hero-deck">{{ page.description }}</p>{% endif %}
+          <div class="hero-actions">
+            {% if page.website %}<a class="action-link action-link--primary" href="{{ page.website }}" rel="noopener noreferrer">Website ↗</a>{% endif %}
+            {% if page.repository %}<a class="action-link" href="{{ page.repository }}" rel="noopener noreferrer">Repo ↗</a>{% endif %}
+            {% if page.dossier_url %}<a class="action-link" href="{{ page.dossier_url }}" rel="noopener noreferrer">Full dossier ↗</a>{% endif %}
+          </div>
+        </div>
+        <p class="hero-folio" aria-hidden="true">A/NS</p>
       </section>
     {% else %}
       <section class="editorial-hero document-hero" aria-labelledby="page-title">

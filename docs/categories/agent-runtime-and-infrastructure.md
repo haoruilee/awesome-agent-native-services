@@ -18,9 +18,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">acpx</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/acpx/' | relative_url }}">acpx</a></h2>
+    <p class="service-card__tagline">Headless CLI client for stateful Agent Client Protocol (ACP) sessions — so AI agents and orchestrators can talk to coding agents over a structured protocol instead of PTY scraping.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/acpx.md">Open dossier ↗</a>
+      <a href="{{ '/services/acpx/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/acpx.md">Dossier ↗</a>
       <a href="https://github.com/openclaw/acpx">Official repo ↗</a>
     </div>
     </div>
@@ -29,9 +31,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Aembit</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/aembit/' | relative_url }}">Aembit</a></h2>
+    <p class="service-card__tagline">Secretless workload identity and access management for AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/aembit.md">Open dossier ↗</a>
+      <a href="{{ '/services/aembit/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/aembit.md">Dossier ↗</a>
     </div>
     </div>
   </article>
@@ -39,9 +43,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">AgentAnycast</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/agentanycast/' | relative_url }}">AgentAnycast</a></h2>
+    <p class="service-card__tagline">Connect AI agents across any network. No public IP required.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agentanycast.md">Open dossier ↗</a>
+      <a href="{{ '/services/agentanycast/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agentanycast.md">Dossier ↗</a>
       <a href="https://github.com/AgentAnycast/agentanycast">Official repo ↗</a>
     </div>
     </div>
@@ -50,9 +56,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Agent Executor (AX)</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/google-ax/' | relative_url }}">Agent Executor (AX)</a></h2>
+    <p class="service-card__tagline">An open source distributed agent runtime</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/google-ax.md">Open dossier ↗</a>
+      <a href="{{ '/services/google-ax/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/google-ax.md">Dossier ↗</a>
       <a href="https://github.com/google/ax">Official repo ↗</a>
     </div>
     </div>
@@ -61,9 +69,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">agentOS by Fiserv</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/fiserv-agentos/' | relative_url }}">agentOS by Fiserv</a></h2>
+    <p class="service-card__tagline">A governed operating layer that enables financial institutions to deploy AI agents safely and securely.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/fiserv-agentos.md">Open dossier ↗</a>
+      <a href="{{ '/services/fiserv-agentos/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/fiserv-agentos.md">Dossier ↗</a>
     </div>
     </div>
   </article>
@@ -71,9 +81,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Agent Rider</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/agent-rider/' | relative_url }}">Agent Rider</a></h2>
+    <p class="service-card__tagline">Stop making your agents re-prove themselves every time.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agent-rider.md">Open dossier ↗</a>
+      <a href="{{ '/services/agent-rider/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agent-rider.md">Dossier ↗</a>
       <a href="https://github.com/ceedot-rock/Agent-Rider">Official repo ↗</a>
     </div>
     </div>
@@ -82,9 +94,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Agent Substrate</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/agent-substrate/' | relative_url }}">Agent Substrate</a></h2>
+    <p class="service-card__tagline">A performant, high density runtime environment for large scale agent deployments.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agent-substrate.md">Open dossier ↗</a>
+      <a href="{{ '/services/agent-substrate/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agent-substrate.md">Dossier ↗</a>
       <a href="https://github.com/agent-substrate/substrate">Official repo ↗</a>
     </div>
     </div>
@@ -93,9 +107,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Agentuity</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/agentuity/' | relative_url }}">Agentuity</a></h2>
+    <p class="service-card__tagline">The Full-Stack Platform for AI Agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agentuity.md">Open dossier ↗</a>
+      <a href="{{ '/services/agentuity/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agentuity.md">Dossier ↗</a>
       <a href="https://github.com/agentuity/sdk">Official repo ↗</a>
     </div>
     </div>
@@ -104,9 +120,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Amazon Bedrock AgentCore</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/amazon-bedrock-agentcore/' | relative_url }}">Amazon Bedrock AgentCore</a></h2>
+    <p class="service-card__tagline">Purpose-built for deploying and scaling dynamic AI agents and tools.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/amazon-bedrock-agentcore.md">Open dossier ↗</a>
+      <a href="{{ '/services/amazon-bedrock-agentcore/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/amazon-bedrock-agentcore.md">Dossier ↗</a>
     </div>
     </div>
   </article>
@@ -114,9 +132,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">APort Agent Guardrails</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/aport-agent-guardrails/' | relative_url }}">APort Agent Guardrails</a></h2>
+    <p class="service-card__tagline">Deterministic pre-action authorization for AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/aport-agent-guardrails.md">Open dossier ↗</a>
+      <a href="{{ '/services/aport-agent-guardrails/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/aport-agent-guardrails.md">Dossier ↗</a>
       <a href="https://github.com/aporthq/aport-agent-guardrails">Official repo ↗</a>
     </div>
     </div>
@@ -125,9 +145,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">ATXP</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/atxp/' | relative_url }}">ATXP</a></h2>
+    <p class="service-card__tagline">Give your AI agent a wallet, email, phone number, and instant access to paid MCP tools.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/atxp.md">Open dossier ↗</a>
+      <a href="{{ '/services/atxp/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/atxp.md">Dossier ↗</a>
       <a href="https://github.com/atxp-dev/atxp">Official repo ↗</a>
     </div>
     </div>
@@ -136,9 +158,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Auten</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/auten/' | relative_url }}">Auten</a></h2>
+    <p class="service-card__tagline">Give your AI agent hands. It clicks, types and sees your screen.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/auten.md">Open dossier ↗</a>
+      <a href="{{ '/services/auten/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/auten.md">Dossier ↗</a>
       <a href="https://github.com/auten-ai/auten-mcp">Official repo ↗</a>
     </div>
     </div>
@@ -147,9 +171,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Chrome DevTools MCP</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/chrome-devtools-mcp/' | relative_url }}">Chrome DevTools MCP</a></h2>
+    <p class="service-card__tagline">chrome-devtools-mcp lets your coding agent (such as Gemini, Claude, Cursor or Copilot) control and inspect a live Chrome browser.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/chrome-devtools-mcp.md">Open dossier ↗</a>
+      <a href="{{ '/services/chrome-devtools-mcp/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/chrome-devtools-mcp.md">Dossier ↗</a>
       <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">Official repo ↗</a>
     </div>
     </div>
@@ -158,9 +184,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Claude Managed Agents</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/claude-managed-agents/' | relative_url }}">Claude Managed Agents</a></h2>
+    <p class="service-card__tagline">The Claude API is a RESTful API at https://api.anthropic.com that provides programmatic access to Claude models and Claude Managed Agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/claude-managed-agents.md">Open dossier ↗</a>
+      <a href="{{ '/services/claude-managed-agents/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/claude-managed-agents.md">Dossier ↗</a>
       <a href="https://github.com/anthropics/anthropic-sdk-python">Official repo ↗</a>
     </div>
     </div>
@@ -169,9 +197,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Claude Peers (claude-peers-mcp)</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/claude-peers/' | relative_url }}">Claude Peers (claude-peers-mcp)</a></h2>
+    <p class="service-card__tagline">Allow all your Claude Codes to message each other ad-hoc!</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/claude-peers.md">Open dossier ↗</a>
+      <a href="{{ '/services/claude-peers/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/claude-peers.md">Dossier ↗</a>
       <a href="https://github.com/louislva/claude-peers-mcp">Official repo ↗</a>
     </div>
     </div>
@@ -180,9 +210,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Cloudflare Agents SDK</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/cloudflare-agents-sdk/' | relative_url }}">Cloudflare Agents SDK</a></h2>
+    <p class="service-card__tagline">Build and host durable AI agents on Cloudflare&#39;s global network.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cloudflare-agents-sdk.md">Open dossier ↗</a>
+      <a href="{{ '/services/cloudflare-agents-sdk/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cloudflare-agents-sdk.md">Dossier ↗</a>
       <a href="https://github.com/cloudflare/agents">Official repo ↗</a>
     </div>
     </div>
@@ -191,9 +223,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Cloudflare Computer</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/cloudflare-computer/' | relative_url }}">Cloudflare Computer</a></h2>
+    <p class="service-card__tagline">Give your agent a computer 👾</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cloudflare-computer.md">Open dossier ↗</a>
+      <a href="{{ '/services/cloudflare-computer/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cloudflare-computer.md">Dossier ↗</a>
       <a href="https://github.com/cloudflare/computer">Official repo ↗</a>
     </div>
     </div>
@@ -202,9 +236,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Codex plugin for Claude Code (codex-plugin-cc)</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/codex-plugin-cc/' | relative_url }}">Codex plugin for Claude Code (codex-plugin-cc)</a></h2>
+    <p class="service-card__tagline">Use Codex from inside Claude Code for code reviews or to delegate tasks to Codex.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/codex-plugin-cc.md">Open dossier ↗</a>
+      <a href="{{ '/services/codex-plugin-cc/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/codex-plugin-cc.md">Dossier ↗</a>
       <a href="https://github.com/openai/codex-plugin-cc">Official repo ↗</a>
     </div>
     </div>
@@ -213,9 +249,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Cohesivity</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/cohesivity/' | relative_url }}">Cohesivity</a></h2>
+    <p class="service-card__tagline">backend infra your agents can actually use.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cohesivity.md">Open dossier ↗</a>
+      <a href="{{ '/services/cohesivity/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cohesivity.md">Dossier ↗</a>
       <a href="https://github.com/cohesivity-org/cohesivity-plugin">Official repo ↗</a>
     </div>
     </div>
@@ -224,9 +262,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Cua</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/cua/' | relative_url }}">Cua</a></h2>
+    <p class="service-card__tagline">Scale computer fleets for every agent</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cua.md">Open dossier ↗</a>
+      <a href="{{ '/services/cua/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cua.md">Dossier ↗</a>
       <a href="https://github.com/trycua/cua">Official repo ↗</a>
     </div>
     </div>
@@ -235,9 +275,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">cx</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/cx/' | relative_url }}">cx</a></h2>
+    <p class="service-card__tagline">Semantic code navigation for AI agents — file overviews, symbol search, definitions, and references — without running a language server.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cx.md">Open dossier ↗</a>
+      <a href="{{ '/services/cx/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cx.md">Dossier ↗</a>
       <a href="https://github.com/ind-igo/cx">Official repo ↗</a>
     </div>
     </div>
@@ -246,9 +288,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Cyberdesk</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/cyberdesk/' | relative_url }}">Cyberdesk</a></h2>
+    <p class="service-card__tagline">Open source virtual desktops for AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cyberdesk.md">Open dossier ↗</a>
+      <a href="{{ '/services/cyberdesk/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cyberdesk.md">Dossier ↗</a>
       <a href="https://github.com/cyberdesk-hq/cyberdesk">Official repo ↗</a>
     </div>
     </div>
@@ -257,9 +301,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">db9</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/db9/' | relative_url }}">db9</a></h2>
+    <p class="service-card__tagline">Postgres but for agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/db9.md">Open dossier ↗</a>
+      <a href="{{ '/services/db9/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/db9.md">Dossier ↗</a>
     </div>
     </div>
   </article>
@@ -267,9 +313,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">deed.page</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/deed-page/' | relative_url }}">deed.page</a></h2>
+    <p class="service-card__tagline">Permanent static hosting for AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/deed-page.md">Open dossier ↗</a>
+      <a href="{{ '/services/deed-page/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/deed-page.md">Dossier ↗</a>
       <a href="https://github.com/f-o-x11/deed-page-skill">Official repo ↗</a>
     </div>
     </div>
@@ -278,9 +326,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Gemini Enterprise Agent Platform (formerly Vertex AI Agent Engine)</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/vertex-ai-agent-engine/' | relative_url }}">Gemini Enterprise Agent Platform (formerly Vertex AI Agent Engine)</a></h2>
+    <p class="service-card__tagline">Scale your agents&quot; — Gemini Enterprise Agent Platform</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/vertex-ai-agent-engine.md">Open dossier ↗</a>
+      <a href="{{ '/services/vertex-ai-agent-engine/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/vertex-ai-agent-engine.md">Dossier ↗</a>
       <a href="https://github.com/googleapis/python-aiplatform">Official repo ↗</a>
     </div>
     </div>
@@ -289,9 +339,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Infisical Agent Sentinel</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/infisical-agent-sentinel/' | relative_url }}">Infisical Agent Sentinel</a></h2>
+    <p class="service-card__tagline">Secrets and credential governance for AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md">Open dossier ↗</a>
+      <a href="{{ '/services/infisical-agent-sentinel/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md">Dossier ↗</a>
       <a href="https://github.com/Infisical/infisical">Official repo ↗</a>
     </div>
     </div>
@@ -300,9 +352,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Letta</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/letta/' | relative_url }}">Letta</a></h2>
+    <p class="service-card__tagline">The fastest way to bring stateful agents to production.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/letta.md">Open dossier ↗</a>
+      <a href="{{ '/services/letta/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/letta.md">Dossier ↗</a>
       <a href="https://github.com/letta-ai/letta">Official repo ↗</a>
     </div>
     </div>
@@ -311,9 +365,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Modal</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/modal/' | relative_url }}">Modal</a></h2>
+    <p class="service-card__tagline">AI infrastructure that developers love.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/modal.md">Open dossier ↗</a>
+      <a href="{{ '/services/modal/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/modal.md">Dossier ↗</a>
       <a href="https://github.com/modal-labs/modal-client">Official repo ↗</a>
     </div>
     </div>
@@ -322,9 +378,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Multica</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/multica/' | relative_url }}">Multica</a></h2>
+    <p class="service-card__tagline">AI-native project management — like Linear, but with AI agents as first-class team members.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/multica.md">Open dossier ↗</a>
+      <a href="{{ '/services/multica/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/multica.md">Dossier ↗</a>
       <a href="https://github.com/multica-ai/multica">Official repo ↗</a>
     </div>
     </div>
@@ -333,9 +391,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title">OpenAI Symphony</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/openai-symphony/' | relative_url }}">OpenAI Symphony</a></h2>
+    <p class="service-card__tagline">Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/openai-symphony.md">Open dossier ↗</a>
+      <a href="{{ '/services/openai-symphony/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/openai-symphony.md">Dossier ↗</a>
       <a href="https://github.com/openai/symphony">Official repo ↗</a>
     </div>
     </div>
@@ -344,9 +404,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Polos</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/polos/' | relative_url }}">Polos</a></h2>
+    <p class="service-card__tagline">The open-source runtime for AI agents. Sandboxed execution with built-in tools, human-in-the-loop approvals, Slack integration, and durable workflows with automatic retries and prompt caching. You write the agent. Polos handles the infrastructure.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/polos.md">Open dossier ↗</a>
+      <a href="{{ '/services/polos/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/polos.md">Dossier ↗</a>
       <a href="https://github.com/polos-dev/polos">Official repo ↗</a>
     </div>
     </div>
@@ -355,9 +417,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">SandBase Harness</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/sandbase-harness/' | relative_url }}">SandBase Harness</a></h2>
+    <p class="service-card__tagline">A local-first runtime for AI agents.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/sandbase-harness.md">Open dossier ↗</a>
+      <a href="{{ '/services/sandbase-harness/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/sandbase-harness.md">Dossier ↗</a>
       <a href="https://github.com/sandbaseai/sandbase-harness">Official repo ↗</a>
     </div>
     </div>
@@ -366,9 +430,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Scrapybara</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/scrapybara/' | relative_url }}">Scrapybara</a></h2>
+    <p class="service-card__tagline">A COMPUTER FOR YOUR AI.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/scrapybara.md">Open dossier ↗</a>
+      <a href="{{ '/services/scrapybara/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/scrapybara.md">Dossier ↗</a>
       <a href="https://github.com/Scrapybara/scrapybara-python">Official repo ↗</a>
     </div>
     </div>
@@ -377,9 +443,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Serena</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/serena/' | relative_url }}">Serena</a></h2>
+    <p class="service-card__tagline">Serena is the IDE for your coding agent.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/serena.md">Open dossier ↗</a>
+      <a href="{{ '/services/serena/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/serena.md">Dossier ↗</a>
       <a href="https://github.com/oraios/serena">Official repo ↗</a>
     </div>
     </div>
@@ -388,9 +456,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">UTA Trust API</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/uta-trust-api/' | relative_url }}">UTA Trust API</a></h2>
+    <p class="service-card__tagline">The USB-C of agent trust.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/uta-trust-api.md">Open dossier ↗</a>
+      <a href="{{ '/services/uta-trust-api/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/uta-trust-api.md">Dossier ↗</a>
       <a href="https://github.com/alicelabs-llc/universal-trust-adapter">Official repo ↗</a>
     </div>
     </div>
@@ -399,9 +469,11 @@ service_count: 36
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title">Vectoree</h2>
+    <h2 class="service-card__title"><a href="{{ '/services/vectoree/' | relative_url }}">Vectoree</a></h2>
+    <p class="service-card__tagline">Give your coding agent a backend.</p>
     <div class="service-card__actions">
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/vectoree.md">Open dossier ↗</a>
+      <a href="{{ '/services/vectoree/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/vectoree.md">Dossier ↗</a>
       <a href="https://github.com/VectoreeAI/vectoree-skills">Official repo ↗</a>
     </div>
     </div>
