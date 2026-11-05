@@ -63,6 +63,7 @@ These services can be joined with a single instruction, right now, with no human
 | **CosVoice** | A phone number and email for the assistant. The owner approves OAuth and a plan before a number is issued | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
 | **The Vibe Hosting** | Root Ubuntu server on a live HTTPS subdomain from one HTTP call, no signup | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
 | **deed.page** | Permanent static site at an agent-chosen `https://<slug>.deed.page/` URL from one PUT, no signup | `Read https://deed.page/skill.md and follow the instructions to publish a page.` |
+| **ReleaseLog** | Verified AI release intelligence: structured changelogs an agent can poll with no API key | `Read https://releaselog.site/skill.md and follow the instructions.` |
 
 ---
 
@@ -305,7 +306,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 9. Search & Web Intelligence (9 services)
+### 9. Search & Web Intelligence (10 services)
 *LLM-optimized web search returning structured content tuned for context windows.*
 
 | Service | Tagline | Onboarding |
@@ -319,6 +320,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Linkup](https://www.linkup.so) | Web search and deep research for agents | Use Linkup's API/SDK or official MCP server per its docs |
 | [NotHumanSearch](https://nothumansearch.ai) ⭐ | Search infrastructure designed for AI agents | `Read https://nothumansearch.ai/llms.txt and follow the instructions` |
 | [Agent Search MCP](https://github.com/lennney/agent-search-mcp) | Free-first web search with inspectable evidence | `npx -y agent-search-mcp` — optional `npx skills add lennney/agent-search-mcp --skill agent-search` |
+| [ReleaseLog](https://releaselog.site) ⭐ | Verified AI release intelligence for AI agents | `Read https://releaselog.site/skill.md and follow the instructions.` |
 
 ---
 
