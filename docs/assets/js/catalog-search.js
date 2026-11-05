@@ -54,6 +54,8 @@
         categoryLabel: label,
         dossier: item.dossier || "",
         page: item.page || "",
+        website: item.website || "",
+        repository: item.repository || "",
         mcp: item.mcp_status === "available" || item.mcp_status === "optional",
         urlOnboarding: !!item.url_onboarding,
         nameLc: name.toLowerCase(),
@@ -139,6 +141,16 @@
       return baseurl + item.page;
     }
     return collectionUrl(item.category);
+  }
+
+  function isHttpUrl(value) {
+    return typeof value === "string" && /^https?:\/\//i.test(value);
+  }
+
+  function officialUrl(item) {
+    if (isHttpUrl(item.website)) return item.website;
+    if (isHttpUrl(item.repository)) return item.repository;
+    return "";
   }
 
   function setExpanded(expanded) {
@@ -229,13 +241,15 @@
       option.setAttribute("role", "option");
       option.setAttribute("aria-selected", i === 0 ? "true" : "false");
 
-      var primary = document.createElement("a");
+      var primary = document.createElement("div");
       primary.className = "catalog-search__primary";
-      primary.href = servicePageUrl(item);
-      primary.tabIndex = -1;
 
-      var name = document.createElement("span");
-      name.className = "catalog-search__name";
+      var official = officialUrl(item);
+      var name = document.createElement("a");
+      name.className = official ? "catalog-search__name catalog-search__official" : "catalog-search__name";
+      name.href = official || servicePageUrl(item);
+      name.tabIndex = -1;
+      if (official) name.rel = "noopener noreferrer";
       name.textContent = item.name;
       primary.appendChild(name);
 
@@ -266,6 +280,13 @@
         line.textContent = excerpt;
         primary.appendChild(line);
       }
+
+      var source = document.createElement("a");
+      source.className = "listing-source";
+      source.href = servicePageUrl(item);
+      source.tabIndex = -1;
+      source.textContent = "Listed on The Agent-Native Index";
+      primary.appendChild(source);
       option.appendChild(primary);
 
       if (item.dossier) {
@@ -386,10 +407,14 @@
   });
 
   panel.addEventListener("click", function (event) {
-    var dossier = event.target.closest(".catalog-search__dossier");
-    if (dossier && dossier.href) {
+    var link = event.target.closest("a[href]");
+    if (link && root.contains(link)) {
       event.preventDefault();
-      window.open(dossier.href, "_blank", "noopener,noreferrer");
+      if (link.classList.contains("catalog-search__dossier") || link.classList.contains("catalog-search__official")) {
+        window.open(link.href, "_blank", "noopener,noreferrer");
+        return;
+      }
+      window.location.assign(link.href);
       return;
     }
     var option = event.target.closest(".catalog-search__option");

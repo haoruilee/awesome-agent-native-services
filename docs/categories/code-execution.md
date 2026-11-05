@@ -18,7 +18,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agent-sandbox/' | relative_url }}">Agent Sandbox</a></h2>
+    <h2 class="service-card__title"><a href="https://agentsandbox.co" rel="noopener noreferrer">Agent Sandbox</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agent-sandbox/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The trusted runtime for untrusted code.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agent-sandbox/' | relative_url }}">Introduction</a>
@@ -30,7 +31,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/kubernetes-agent-sandbox/' | relative_url }}">Agent Sandbox (Kubernetes SIG)</a></h2>
+    <h2 class="service-card__title"><a href="https://agent-sandbox.sigs.k8s.io" rel="noopener noreferrer">Agent Sandbox (Kubernetes SIG)</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/kubernetes-agent-sandbox/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Agent Sandbox provides a secure and isolated execution layer to safely deploy autonomous AI agents on Kubernetes that generate and run untrusted code at scale.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/kubernetes-agent-sandbox/' | relative_url }}">Introduction</a>
@@ -43,7 +45,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agent-infra-sandbox/' | relative_url }}">AIO Sandbox (agent-infra)</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/agent-infra/sandbox" rel="noopener noreferrer">AIO Sandbox (agent-infra)</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agent-infra-sandbox/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">AIO Sandbox is an all-in-one agent sandbox environment that combines Browser, Shell, File, MCP operations, and VSCode Server in a single Docker container.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agent-infra-sandbox/' | relative_url }}">Introduction</a>
@@ -56,7 +59,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/axern/' | relative_url }}">Axern</a></h2>
+    <h2 class="service-card__title"><a href="https://axern.cofy-x.space" rel="noopener noreferrer">Axern</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/axern/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Axern is an open-source sandbox platform for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/axern/' | relative_url }}">Introduction</a>
@@ -69,7 +73,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/clawk/' | relative_url }}">Clawk</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/clawkwork/clawk" rel="noopener noreferrer">Clawk</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/clawk/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Give a coding agent its own disposable Linux machine, not yours.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/clawk/' | relative_url }}">Introduction</a>
@@ -82,7 +87,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/coderunner/' | relative_url }}">CodeRunner</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/instavm/coderunner" rel="noopener noreferrer">CodeRunner</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/coderunner/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A local sandbox for your AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/coderunner/' | relative_url }}">Introduction</a>
@@ -95,7 +101,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/cubesandbox/' | relative_url }}">CubeSandbox</a></h2>
+    <h2 class="service-card__title"><a href="https://cubesandbox.com" rel="noopener noreferrer">CubeSandbox</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/cubesandbox/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Instant, Concurrent, Secure &amp; Lightweight Sandbox Service for AI Agents</p>
     <div class="service-card__actions">
       <a href="{{ '/services/cubesandbox/' | relative_url }}">Introduction</a>
@@ -108,7 +115,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/dormice/' | relative_url }}">Dormice</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/BitMiracle-AI/Dormice" rel="noopener noreferrer">Dormice</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/dormice/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The SQLite of agent sandboxes — a self-hosted sandbox platform for AI agents. One machine, sandboxes that live forever, idle costs nothing.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/dormice/' | relative_url }}">Introduction</a>
@@ -121,7 +129,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/e2b/' | relative_url }}">E2B</a></h2>
+    <h2 class="service-card__title"><a href="https://e2b.dev" rel="noopener noreferrer">E2B</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/e2b/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Cloud for AI agents — secure sandboxes for AI-generated code.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/e2b/' | relative_url }}">Introduction</a>
@@ -134,7 +143,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/forkd/' | relative_url }}">forkd</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/deeplethe/sandstorm" rel="noopener noreferrer">forkd</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/forkd/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A microVM sandbox runtime for AI agent fan-out.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/forkd/' | relative_url }}">Introduction</a>
@@ -147,7 +157,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/latchkey/' | relative_url }}">Latchkey</a></h2>
+    <h2 class="service-card__title"><a href="https://latchkey.dev" rel="noopener noreferrer">Latchkey</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/latchkey/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">CI your coding agents can run, read and fix.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/latchkey/' | relative_url }}">Introduction</a>
@@ -160,7 +171,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/opensandbox/' | relative_url }}">OpenSandbox</a></h2>
+    <h2 class="service-card__title"><a href="https://open-sandbox.ai" rel="noopener noreferrer">OpenSandbox</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/opensandbox/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Secure, fast, extensible sandbox runtime for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/opensandbox/' | relative_url }}">Introduction</a>
@@ -173,7 +185,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/riza/' | relative_url }}">Riza</a></h2>
+    <h2 class="service-card__title"><a href="https://riza.io/" rel="noopener noreferrer">Riza</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/riza/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">AI writes code. Riza runs it.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/riza/' | relative_url }}">Introduction</a>
@@ -186,7 +199,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/runloop/' | relative_url }}">Runloop</a></h2>
+    <h2 class="service-card__title"><a href="https://runloop.ai" rel="noopener noreferrer">Runloop</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/runloop/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Your AI Agent Accelerator.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/runloop/' | relative_url }}">Introduction</a>
@@ -199,7 +213,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/smolvm/' | relative_url }}">SmolVM</a></h2>
+    <h2 class="service-card__title"><a href="https://docs.celesto.ai/smolvm" rel="noopener noreferrer">SmolVM</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/smolvm/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">SmolVM: secure microVM sandboxes for AI agents</p>
     <div class="service-card__actions">
       <a href="{{ '/services/smolvm/' | relative_url }}">Introduction</a>
@@ -212,7 +227,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/the-vibe-hosting/' | relative_url }}">The Vibe Hosting</a></h2>
+    <h2 class="service-card__title"><a href="https://thevibehosting.com" rel="noopener noreferrer">The Vibe Hosting</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/the-vibe-hosting/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">One prompt → root Linux → your project is live.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/the-vibe-hosting/' | relative_url }}">Introduction</a>
@@ -224,7 +240,8 @@ service_count: 17
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/vercel-sandbox/' | relative_url }}">Vercel Sandbox</a></h2>
+    <h2 class="service-card__title"><a href="https://vercel.com/docs/sandbox" rel="noopener noreferrer">Vercel Sandbox</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/vercel-sandbox/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Secure, isolated microVMs for AI-generated code.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/vercel-sandbox/' | relative_url }}">Introduction</a>

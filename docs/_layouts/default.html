@@ -12,7 +12,7 @@
     {% endif %}
     <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#151411">
+    <meta name="theme-color" content="#f5f5f7">
     <meta name="color-scheme" content="light">
     {% if page.page_kind == "home" %}
       <link rel="preload" as="image" href="{{ '/assets/images/editorial-hero.webp' | relative_url }}" type="image/webp">
@@ -21,6 +21,7 @@
     {% elsif page.page_kind == "service" and page.hero_image %}
       <link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" type="image/webp">
     {% endif %}
+    <link rel="preload" as="image" href="{{ '/assets/images/collection-atlas.webp' | relative_url }}" type="image/webp">
     <link rel="preload" as="fetch" href="{{ '/assets/search-index.json' | relative_url }}" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/catalog.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
@@ -28,6 +29,7 @@
   <body class="page-kind-{{ page.page_kind | default: 'document' }}">
     <a id="skip-to-content" href="#content">Skip to the collection</a>
 
+    <div class="site-chrome">
     <header class="site-masthead">
       <div class="masthead-inner">
         <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Agent-Native Index home">
@@ -43,6 +45,31 @@
         </nav>
       </div>
     </header>
+    <nav class="collection-tabs" aria-label="Collections">
+      <div class="collection-tabs__scroller">
+        <a class="collection-tab{% if page.url == '/categories/' %} is-current{% endif %}" href="{{ '/categories/' | relative_url }}"{% if page.url == '/categories/' %} aria-current="page"{% endif %}>
+          <span class="collection-tab__thumb collection-tab__thumb--all" aria-hidden="true"></span>
+          <span class="collection-tab__label">All</span>
+        </a>
+        {% assign collection_pages = site.pages | where: "page_kind", "collection" | sort: "collection_number" %}
+        {% for collection in collection_pages %}
+          {% assign tab_current = false %}
+          {% if page.url == collection.url %}
+            {% assign tab_current = true %}
+          {% elsif page.page_kind == "service" %}
+            {% assign category_path = "/categories/" | append: page.category_slug | append: "/" %}
+            {% if collection.url == category_path %}
+              {% assign tab_current = true %}
+            {% endif %}
+          {% endif %}
+          <a class="collection-tab{% if tab_current %} is-current{% endif %}" href="{{ collection.url | relative_url }}" title="{{ collection.collection_label | escape }}"{% if page.url == collection.url %} aria-current="page"{% endif %}>
+            <span class="collection-tab__thumb atlas-visual--{{ collection.collection_number }}" aria-hidden="true"></span>
+            <span class="collection-tab__label">{{ collection.collection_label }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </nav>
+    </div>
 
     {% if page.page_kind == "home" %}
       <section class="editorial-hero home-hero" aria-labelledby="page-title">
@@ -90,7 +117,9 @@
             <a href="{{ '/' | relative_url }}">Index</a><span aria-hidden="true">/</span><a href="{{ '/categories/' | relative_url }}">Collections</a><span aria-hidden="true">/</span><a href="{{ '/categories/' | append: page.category_slug | append: '/' | relative_url }}">{{ page.category_label }}</a><span aria-hidden="true">/</span><span aria-current="page">{{ page.service_name | default: page.title }}</span>
           </nav>
           <p class="eyebrow">{% if page.classification %}{{ page.classification }} · {% endif %}{{ page.category_label }}{% if page.verified_at %} · Verified {{ page.verified_at }}{% endif %}</p>
-          <h1 id="page-title">{{ page.service_name | default: page.title }}</h1>
+          {% assign official_url = page.website | default: page.repository %}
+          <h1 id="page-title">{% if official_url %}<a href="{{ official_url }}" rel="noopener noreferrer">{{ page.service_name | default: page.title }}</a>{% else %}{{ page.service_name | default: page.title }}{% endif %}</h1>
+          <p class="listing-source">Listed on <a href="{{ page.url | absolute_url }}">The Agent-Native Index</a></p>
           {% if page.tagline %}<p class="hero-deck">{{ page.tagline }}</p>{% elsif page.description %}<p class="hero-deck">{{ page.description }}</p>{% endif %}
           <div class="hero-actions">
             {% if page.website %}<a class="action-link action-link--primary" href="{{ page.website }}" rel="noopener noreferrer">Website ↗</a>{% endif %}

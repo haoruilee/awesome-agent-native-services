@@ -18,7 +18,8 @@ service_count: 11
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agentgateway/' | relative_url }}">Agentgateway</a></h2>
+    <h2 class="service-card__title"><a href="https://agentgateway.dev" rel="noopener noreferrer">Agentgateway</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agentgateway/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Connect Secure Observe Connect Agentic Workflows.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agentgateway/' | relative_url }}">Introduction</a>
@@ -31,7 +32,8 @@ service_count: 11
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/bifrost/' | relative_url }}">Bifrost</a></h2>
+    <h2 class="service-card__title"><a href="https://docs.getbifrost.ai" rel="noopener noreferrer">Bifrost</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/bifrost/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The fastest way to build AI applications that never go down.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/bifrost/' | relative_url }}">Introduction</a>
@@ -44,7 +46,8 @@ service_count: 11
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/dasha-compute/' | relative_url }}">Dasha Compute</a></h2>
+    <h2 class="service-card__title"><a href="https://lobby.getdasha.com/compute" rel="noopener noreferrer">Dasha Compute</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/dasha-compute/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">OpenAI-compatible inference. A run factory, not a ledger.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/dasha-compute/' | relative_url }}">Introduction</a>
@@ -57,7 +60,8 @@ service_count: 11
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/helicone/' | relative_url }}">Helicone</a></h2>
+    <h2 class="service-card__title"><a href="https://www.helicone.ai" rel="noopener noreferrer">Helicone</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/helicone/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Build Reliable AI Apps&quot; — AI Gateway &amp; LLM observability.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/helicone/' | relative_url }}">Introduction</a>
@@ -69,7 +73,8 @@ service_count: 11
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/litellm/' | relative_url }}">LiteLLM</a></h2>
+    <h2 class="service-card__title"><a href="https://www.litellm.ai" rel="noopener noreferrer">LiteLLM</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/litellm/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">AI Gateway to provide model access, fallbacks and spend tracking across 100+ LLMs. All in the OpenAI format.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/litellm/' | relative_url }}">Introduction</a>
@@ -82,7 +87,8 @@ service_count: 11
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/openrouter/' | relative_url }}">OpenRouter</a></h2>
+    <h2 class="service-card__title"><a href="https://openrouter.ai" rel="noopener noreferrer">OpenRouter</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/openrouter/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The Unified Interface For LLMs.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/openrouter/' | relative_url }}">Introduction</a>
@@ -95,7 +101,8 @@ service_count: 11
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/portkey/' | relative_url }}">Portkey</a></h2>
+    <h2 class="service-card__title"><a href="https://portkey.ai" rel="noopener noreferrer">Portkey</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/portkey/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The AI gateway built for production agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/portkey/' | relative_url }}">Introduction</a>
@@ -108,7 +115,8 @@ service_count: 11
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/keywords-ai/' | relative_url }}">Respan (Keywords AI)</a></h2>
+    <h2 class="service-card__title"><a href="https://www.respan.ai/" rel="noopener noreferrer">Respan (Keywords AI)</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/keywords-ai/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Route, observe, and evaluate every LLM call</p>
     <div class="service-card__actions">
       <a href="{{ '/services/keywords-ai/' | relative_url }}">Introduction</a>
@@ -120,7 +128,8 @@ service_count: 11
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/routerly/' | relative_url }}">Routerly</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/Inebrio/Routerly" rel="noopener noreferrer">Routerly</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/routerly/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Self-hosted LLM gateway that routes requests across AI providers (OpenAI, Anthropic, Gemini, Mistral, Ollama) using intelligent multi-policy scoring — including an LLM-native routing policy. Drop-in compatible: just swap the base URL. No database required, built-in cost tracking, budget enforcement and multi-tenant isolation.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/routerly/' | relative_url }}">Introduction</a>
@@ -133,7 +142,8 @@ service_count: 11
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/sageroute/' | relative_url }}">SageRoute</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/codejunkie99/sageroute" rel="noopener noreferrer">SageRoute</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/sageroute/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A trajectory-aware model router.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/sageroute/' | relative_url }}">Introduction</a>
@@ -146,7 +156,8 @@ service_count: 11
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/xiurouter/' | relative_url }}">XiuRouter</a></h2>
+    <h2 class="service-card__title"><a href="https://router.xiu.ai/en" rel="noopener noreferrer">XiuRouter</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/xiurouter/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Claude, GPT, Gemini, and more through one API</p>
     <div class="service-card__actions">
       <a href="{{ '/services/xiurouter/' | relative_url }}">Introduction</a>

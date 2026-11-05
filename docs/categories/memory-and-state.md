@@ -18,7 +18,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agentmemory/' | relative_url }}">agentmemory</a></h2>
+    <h2 class="service-card__title"><a href="https://agent-memory.dev" rel="noopener noreferrer">agentmemory</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agentmemory/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Your coding agent remembers everything. No more re-explaining.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agentmemory/' | relative_url }}">Introduction</a>
@@ -31,7 +32,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/beads/' | relative_url }}">Beads</a></h2>
+    <h2 class="service-card__title"><a href="https://beads.gascity.com" rel="noopener noreferrer">Beads</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/beads/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Dependency-aware, Dolt-backed issue tracker built for AI coding agents that survive context loss</p>
     <div class="service-card__actions">
       <a href="{{ '/services/beads/' | relative_url }}">Introduction</a>
@@ -44,7 +46,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/claude-mem/' | relative_url }}">Claude-Mem</a></h2>
+    <h2 class="service-card__title"><a href="https://cmem.ai/" rel="noopener noreferrer">Claude-Mem</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/claude-mem/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Persistent memory compression system for Claude Code</p>
     <div class="service-card__actions">
       <a href="{{ '/services/claude-mem/' | relative_url }}">Introduction</a>
@@ -57,7 +60,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/cognee/' | relative_url }}">Cognee</a></h2>
+    <h2 class="service-card__title"><a href="https://www.cognee.ai" rel="noopener noreferrer">Cognee</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/cognee/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Memory control plane for AI Agents in 6 lines of code.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/cognee/' | relative_url }}">Introduction</a>
@@ -70,7 +74,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/compartment/' | relative_url }}">Compartment</a></h2>
+    <h2 class="service-card__title"><a href="https://maxfreedompollard.github.io/Compartment/" rel="noopener noreferrer">Compartment</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/compartment/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Encrypted, fully offline memory for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/compartment/' | relative_url }}">Introduction</a>
@@ -83,7 +88,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/contextstream/' | relative_url }}">ContextStream</a></h2>
+    <h2 class="service-card__title"><a href="https://contextstream.io" rel="noopener noreferrer">ContextStream</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/contextstream/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Persistent memory. Millisecond code search.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/contextstream/' | relative_url }}">Introduction</a>
@@ -96,7 +102,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/dexio/' | relative_url }}">Dexio</a></h2>
+    <h2 class="service-card__title"><a href="https://dexio.wiki" rel="noopener noreferrer">Dexio</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/dexio/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">One wiki for all your agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/dexio/' | relative_url }}">Introduction</a>
@@ -109,7 +116,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/engram/' | relative_url }}">Engram</a></h2>
+    <h2 class="service-card__title"><a href="https://engram.gentlemanprogramming.com/" rel="noopener noreferrer">Engram</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/engram/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Persistent memory for AI coding agents</p>
     <div class="service-card__actions">
       <a href="{{ '/services/engram/' | relative_url }}">Introduction</a>
@@ -122,7 +130,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/ensue/' | relative_url }}">Ensue</a></h2>
+    <h2 class="service-card__title"><a href="https://ensue-network.ai" rel="noopener noreferrer">Ensue</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/ensue/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The shared memory network for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/ensue/' | relative_url }}">Introduction</a>
@@ -135,7 +144,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/goodmem/' | relative_url }}">GoodMem</a></h2>
+    <h2 class="service-card__title"><a href="https://goodmem.ai/" rel="noopener noreferrer">GoodMem</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/goodmem/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Memory that survives context windows.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/goodmem/' | relative_url }}">Introduction</a>
@@ -148,7 +158,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/graphiti/' | relative_url }}">Graphiti</a></h2>
+    <h2 class="service-card__title"><a href="https://help.getzep.com/graphiti" rel="noopener noreferrer">Graphiti</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/graphiti/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Build Real-Time Knowledge Graphs for AI Agents</p>
     <div class="service-card__actions">
       <a href="{{ '/services/graphiti/' | relative_url }}">Introduction</a>
@@ -161,7 +172,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/hindsight/' | relative_url }}">Hindsight</a></h2>
+    <h2 class="service-card__title"><a href="https://hindsight.vectorize.io" rel="noopener noreferrer">Hindsight</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/hindsight/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Agent Memory That Learns.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/hindsight/' | relative_url }}">Introduction</a>
@@ -174,7 +186,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/llm-wiki/' | relative_url }}">LLM Wiki</a></h2>
+    <h2 class="service-card__title"><a href="https://llm-wiki.net" rel="noopener noreferrer">LLM Wiki</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/llm-wiki/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">LLM-compiled knowledge bases for any AI agent.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/llm-wiki/' | relative_url }}">Introduction</a>
@@ -187,7 +200,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mcp-memory-service/' | relative_url }}">mcp-memory-service</a></h2>
+    <h2 class="service-card__title"><a href="https://mcpmemory.services" rel="noopener noreferrer">mcp-memory-service</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mcp-memory-service/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Memory for AI Agents — REST, MCP, OAuth, CLI</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mcp-memory-service/' | relative_url }}">Introduction</a>
@@ -200,7 +214,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mem0/' | relative_url }}">Mem0</a></h2>
+    <h2 class="service-card__title"><a href="https://mem0.ai" rel="noopener noreferrer">Mem0</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mem0/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The memory layer for your AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mem0/' | relative_url }}">Introduction</a>
@@ -213,7 +228,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mem9/' | relative_url }}">mem9</a></h2>
+    <h2 class="service-card__title"><a href="https://mem9.ai" rel="noopener noreferrer">mem9</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mem9/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Persistent memory for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mem9/' | relative_url }}">Introduction</a>
@@ -226,7 +242,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/memmachine/' | relative_url }}">MemMachine</a></h2>
+    <h2 class="service-card__title"><a href="https://memmachine.ai" rel="noopener noreferrer">MemMachine</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/memmachine/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Universal memory layer for AI Agents. Scalable, extensible, and interoperable memory storage and retrieval for next-generation autonomous systems.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/memmachine/' | relative_url }}">Introduction</a>
@@ -239,7 +256,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/memmy-agent/' | relative_url }}">Memmy</a></h2>
+    <h2 class="service-card__title"><a href="https://memmy.bot/" rel="noopener noreferrer">Memmy</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/memmy-agent/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Memmy is your personal AI agent &amp; local memory hub for all AI agents — it lets every AI connect to the same memory and keep self-evolving.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/memmy-agent/' | relative_url }}">Introduction</a>
@@ -252,7 +270,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/memoir/' | relative_url }}">Memoir</a></h2>
+    <h2 class="service-card__title"><a href="https://www.memoir-ai.dev" rel="noopener noreferrer">Memoir</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/memoir/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Git for AI Memory</p>
     <div class="service-card__actions">
       <a href="{{ '/services/memoir/' | relative_url }}">Introduction</a>
@@ -265,7 +284,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/memoria/' | relative_url }}">Memoria</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/matrixorigin/Memoria" rel="noopener noreferrer">Memoria</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/memoria/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Persistent memory layer for AI agents with Git-level version control.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/memoria/' | relative_url }}">Introduction</a>
@@ -278,7 +298,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/memorix/' | relative_url }}">Memorix</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/AVIDS2/memorix" rel="noopener noreferrer">Memorix</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/memorix/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Local-first shared memory layer for AI coding agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/memorix/' | relative_url }}">Introduction</a>
@@ -291,7 +312,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/memos/' | relative_url }}">MemOS</a></h2>
+    <h2 class="service-card__title"><a href="https://openmem.net" rel="noopener noreferrer">MemOS</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/memos/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A memory OS for LLM and AI agent systems.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/memos/' | relative_url }}">Introduction</a>
@@ -304,7 +326,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mempalace/' | relative_url }}">MemPalace</a></h2>
+    <h2 class="service-card__title"><a href="https://mempalaceofficial.com" rel="noopener noreferrer">MemPalace</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mempalace/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The best-benchmarked open-source AI memory system. And it&#39;s free.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mempalace/' | relative_url }}">Introduction</a>
@@ -317,7 +340,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/memsearch/' | relative_url }}">MemSearch</a></h2>
+    <h2 class="service-card__title"><a href="https://zilliztech.github.io/memsearch/" rel="noopener noreferrer">MemSearch</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/memsearch/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Cross-platform semantic memory for AI coding agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/memsearch/' | relative_url }}">Introduction</a>
@@ -330,7 +354,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/memu/' | relative_url }}">memU</a></h2>
+    <h2 class="service-card__title"><a href="https://memu.pro" rel="noopener noreferrer">memU</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/memu/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Memory for 24/7 proactive AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/memu/' | relative_url }}">Introduction</a>
@@ -343,7 +368,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mnemoverse/' | relative_url }}">Mnemoverse</a></h2>
+    <h2 class="service-card__title"><a href="https://mnemoverse.com/" rel="noopener noreferrer">Mnemoverse</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mnemoverse/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Persistent memory for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mnemoverse/' | relative_url }}">Introduction</a>
@@ -356,7 +382,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/openviking/' | relative_url }}">OpenViking</a></h2>
+    <h2 class="service-card__title"><a href="https://openviking.ai" rel="noopener noreferrer">OpenViking</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/openviking/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The context database for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/openviking/' | relative_url }}">Introduction</a>
@@ -369,7 +396,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/projectmem/' | relative_url }}">projectmem</a></h2>
+    <h2 class="service-card__title"><a href="https://www.projectmem.dev" rel="noopener noreferrer">projectmem</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/projectmem/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">We don&#39;t make AI smarter. We make it experienced.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/projectmem/' | relative_url }}">Introduction</a>
@@ -382,7 +410,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/recall/' | relative_url }}">Recall</a></h2>
+    <h2 class="service-card__title"><a href="https://www.recall.works" rel="noopener noreferrer">Recall</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/recall/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Open-source memory for AI agents. MCP-native. Self-hosted.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/recall/' | relative_url }}">Introduction</a>
@@ -395,7 +424,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/supermemory/' | relative_url }}">Supermemory</a></h2>
+    <h2 class="service-card__title"><a href="https://supermemory.ai" rel="noopener noreferrer">Supermemory</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/supermemory/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The Memory API for the AI era.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/supermemory/' | relative_url }}">Introduction</a>
@@ -408,7 +438,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/tencentdb-agent-memory/' | relative_url }}">TencentDB Agent Memory</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/TencentCloud/TencentDB-Agent-Memory" rel="noopener noreferrer">TencentDB Agent Memory</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/tencentdb-agent-memory/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Agents remember,Humans innovate.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/tencentdb-agent-memory/' | relative_url }}">Introduction</a>
@@ -421,7 +452,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/zambo/' | relative_url }}">Zambo</a></h2>
+    <h2 class="service-card__title"><a href="https://zambo.dev" rel="noopener noreferrer">Zambo</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/zambo/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Give your AI hands, memory, and proof.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/zambo/' | relative_url }}">Introduction</a>
@@ -434,7 +466,8 @@ service_count: 33
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/zep/' | relative_url }}">Zep</a></h2>
+    <h2 class="service-card__title"><a href="https://www.getzep.com" rel="noopener noreferrer">Zep</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/zep/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The memory layer for production AI agents — powered by a temporal knowledge graph.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/zep/' | relative_url }}">Introduction</a>

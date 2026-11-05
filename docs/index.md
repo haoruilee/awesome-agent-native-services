@@ -15,790 +15,790 @@ new_arrivals_count: 98
     <p class="section-note">Last 30 days</p>
   </div>
   <div class="arrival-rail" role="region" aria-label="Last 30 days additions" tabindex="0">
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--01" href="{{ '/services/hronaut/' | relative_url }}">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--01">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Browser &amp; Web Execution</span>
-        <strong class="arrival-card__name">Hronaut</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://hronaut.dev/" rel="noopener noreferrer">Hronaut</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/hronaut/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--02" href="{{ '/services/ego-lite/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--02">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Browser &amp; Web Execution</span>
-        <strong class="arrival-card__name">ego lite</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://lite.ego.app" rel="noopener noreferrer">ego lite</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/ego-lite/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--03" href="{{ '/services/qwen-audio-agent/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--03">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Voice &amp; Phone</span>
-        <strong class="arrival-card__name">Qwen Audio Agent</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/QwenAudio/qwen-audio-agent" rel="noopener noreferrer">Qwen Audio Agent</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/qwen-audio-agent/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--04" href="{{ '/services/agent-chamber/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--04">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">Agent Chamber</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/LtyFantasy/agent-chamber" rel="noopener noreferrer">Agent Chamber</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agent-chamber/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--05" href="{{ '/services/loopx/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--05">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">LoopX</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://loopx-project.github.io/loopx/" rel="noopener noreferrer">LoopX</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/loopx/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--06" href="{{ '/services/codex-hud-fwyc0573/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--06">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">Codex HUD (fwyc0573)</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/fwyc0573/codex-hud" rel="noopener noreferrer">Codex HUD (fwyc0573)</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/codex-hud-fwyc0573/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--07" href="{{ '/services/memmy-agent/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--07">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Memmy</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://memmy.bot/" rel="noopener noreferrer">Memmy</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/memmy-agent/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--08" href="{{ '/services/moli/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--08">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Browser &amp; Web Execution</span>
-        <strong class="arrival-card__name">Moli</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://browser.lexmount.com" rel="noopener noreferrer">Moli</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/moli/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--09" href="{{ '/services/agentmemory/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--09">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">agentmemory</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://agent-memory.dev" rel="noopener noreferrer">agentmemory</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agentmemory/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--10" href="{{ '/services/claude-hud/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--10">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">Claude HUD</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/jarrodwatts/claude-hud" rel="noopener noreferrer">Claude HUD</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/claude-hud/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--11" href="{{ '/services/patter/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--11">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Voice &amp; Phone</span>
-        <strong class="arrival-card__name">Patter</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://getpatter.com" rel="noopener noreferrer">Patter</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/patter/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--12" href="{{ '/services/agentgram/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--12">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">AgentGram</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://agentgram.co" rel="noopener noreferrer">AgentGram</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agentgram/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--13" href="{{ '/services/atomic-mail/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--13">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Communication</span>
-        <strong class="arrival-card__name">Atomic Mail</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://atomicmail.ai/" rel="noopener noreferrer">Atomic Mail</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/atomic-mail/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--14" href="{{ '/services/google-ax/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--14">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
-        <strong class="arrival-card__name">Agent Executor (AX)</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://agentexecutor.io" rel="noopener noreferrer">Agent Executor (AX)</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/google-ax/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--15" href="{{ '/services/oh-my-codex/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--15">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">oh-my-codex (OMX)</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://oh-my-codex.dev" rel="noopener noreferrer">oh-my-codex (OMX)</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/oh-my-codex/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--16" href="{{ '/services/openchatcut/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--16">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Tool Access &amp; Integration</span>
-        <strong class="arrival-card__name">OpenChatCut</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://openchatcut.com" rel="noopener noreferrer">OpenChatCut</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/openchatcut/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--01" href="{{ '/services/numbat/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--01">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Observability &amp; Tracing</span>
-        <strong class="arrival-card__name">numbat</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/perplexityai/numbat" rel="noopener noreferrer">numbat</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/numbat/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--02" href="{{ '/services/preloop/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--02">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Oversight &amp; Approval</span>
-        <strong class="arrival-card__name">Preloop</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://preloop.ai" rel="noopener noreferrer">Preloop</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/preloop/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--03" href="{{ '/services/axern/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--03">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Code Execution</span>
-        <strong class="arrival-card__name">Axern</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://axern.cofy-x.space" rel="noopener noreferrer">Axern</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/axern/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--04" href="{{ '/services/longhorizon-harness/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--04">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">LongHorizon-Harness</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://lh-harness.pages.dev" rel="noopener noreferrer">LongHorizon-Harness</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/longhorizon-harness/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--05" href="{{ '/services/agent-qa/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--05">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">Agent QA</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://vostride.com/" rel="noopener noreferrer">Agent QA</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agent-qa/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--06" href="{{ '/services/qm/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--06">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">QM</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://qm.ycombinator.com" rel="noopener noreferrer">QM</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/qm/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--07" href="{{ '/services/openai-symphony/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--07">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
-        <strong class="arrival-card__name">OpenAI Symphony</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://openai.com/index/open-source-codex-orchestration-symphony/" rel="noopener noreferrer">OpenAI Symphony</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/openai-symphony/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--08" href="{{ '/services/shinjuku-shield/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--08">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
-        <strong class="arrival-card__name">Shinjuku Shield</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://shinjukustaition.com" rel="noopener noreferrer">Shinjuku Shield</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/shinjuku-shield/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--09" href="{{ '/services/mnemoverse/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--09">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Mnemoverse</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://mnemoverse.com/" rel="noopener noreferrer">Mnemoverse</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/mnemoverse/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--10" href="{{ '/services/cloudflare-computer/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--10">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
-        <strong class="arrival-card__name">Cloudflare Computer</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/cloudflare/computer" rel="noopener noreferrer">Cloudflare Computer</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/cloudflare-computer/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--11" href="{{ '/services/auten/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--11">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
-        <strong class="arrival-card__name">Auten</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://auten.ai" rel="noopener noreferrer">Auten</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/auten/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--12" href="{{ '/services/kernel/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--12">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Browser &amp; Web Execution</span>
-        <strong class="arrival-card__name">Kernel</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://www.kernel.sh/" rel="noopener noreferrer">Kernel</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/kernel/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--13" href="{{ '/services/deed-page/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--13">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
-        <strong class="arrival-card__name">deed.page</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://deed.page" rel="noopener noreferrer">deed.page</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/deed-page/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--14" href="{{ '/services/cosvoice/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--14">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Voice &amp; Phone</span>
-        <strong class="arrival-card__name">CosVoice</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://cosvoice.com" rel="noopener noreferrer">CosVoice</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/cosvoice/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--15" href="{{ '/services/fsb/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--15">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Browser &amp; Web Execution</span>
-        <strong class="arrival-card__name">FSB (Full Self Browsing)</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://full-selfbrowsing.com" rel="noopener noreferrer">FSB (Full Self Browsing)</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/fsb/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--16" href="{{ '/services/agentel/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--16">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">Agentel</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://agentel.tech" rel="noopener noreferrer">Agentel</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agentel/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--01" href="{{ '/services/sageroute/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--01">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">LLM Gateway &amp; Routing</span>
-        <strong class="arrival-card__name">SageRoute</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/codejunkie99/sageroute" rel="noopener noreferrer">SageRoute</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/sageroute/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--02" href="{{ '/services/swarmmemo/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--02">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">SwarmMemo</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://swarmmemo.com" rel="noopener noreferrer">SwarmMemo</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/swarmmemo/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--03" href="{{ '/services/peerd/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--03">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">peerd</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://peerd.ai" rel="noopener noreferrer">peerd</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/peerd/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--04" href="{{ '/services/cua/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--04">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
-        <strong class="arrival-card__name">Cua</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://cua.ai" rel="noopener noreferrer">Cua</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/cua/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--05" href="{{ '/services/pizza-bot/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--05">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">Pizza Bot</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/pizza-bot-app/pizza-bot" rel="noopener noreferrer">Pizza Bot</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/pizza-bot/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--06" href="{{ '/services/dexio/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--06">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Dexio</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://dexio.wiki" rel="noopener noreferrer">Dexio</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/dexio/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--07" href="{{ '/services/toolport/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--07">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Tool Access &amp; Integration</span>
-        <strong class="arrival-card__name">Toolport</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://toolport.app" rel="noopener noreferrer">Toolport</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/toolport/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--08" href="{{ '/services/smolvm/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--08">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Code Execution</span>
-        <strong class="arrival-card__name">SmolVM</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://docs.celesto.ai/smolvm" rel="noopener noreferrer">SmolVM</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/smolvm/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--09" href="{{ '/services/lumen-tab/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--09">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
-        <strong class="arrival-card__name">Lumen Tab</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://dansgit2b.github.io/lumen-tab/" rel="noopener noreferrer">Lumen Tab</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/lumen-tab/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--10" href="{{ '/services/anansi-haven/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--10">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">Anansi Haven</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://anansi-haven.anansidata.workers.dev" rel="noopener noreferrer">Anansi Haven</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/anansi-haven/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--11" href="{{ '/services/agent-commons/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--11">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">Agent Commons</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://commons.dooza.ai" rel="noopener noreferrer">Agent Commons</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agent-commons/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--12" href="{{ '/services/switchboard/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--12">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">Switchboard</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://switchboard-ai.fly.dev" rel="noopener noreferrer">Switchboard</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/switchboard/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--13" href="{{ '/services/forkd/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--13">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Code Execution</span>
-        <strong class="arrival-card__name">forkd</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/deeplethe/sandstorm" rel="noopener noreferrer">forkd</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/forkd/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--14" href="{{ '/services/contextx/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--14">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Search &amp; Web Intelligence</span>
-        <strong class="arrival-card__name">contextX</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/akasakariko/ContextX" rel="noopener noreferrer">contextX</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/contextx/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--15" href="{{ '/services/reef/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--15">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">Reef</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://reefinfra.ai" rel="noopener noreferrer">Reef</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/reef/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--16" href="{{ '/services/pi-dispatch/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--16">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Durable Execution &amp; Scheduling</span>
-        <strong class="arrival-card__name">pi-dispatch</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/edgehero/pi-dispatch" rel="noopener noreferrer">pi-dispatch</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/pi-dispatch/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--01" href="{{ '/services/agent-search-mcp/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--01">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Search &amp; Web Intelligence</span>
-        <strong class="arrival-card__name">Agent Search MCP</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://lennney.com/en/agent-search-mcp" rel="noopener noreferrer">Agent Search MCP</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agent-search-mcp/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--02" href="{{ '/services/agent-rider/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--02">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
-        <strong class="arrival-card__name">Agent Rider</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://agentrider.fly.dev" rel="noopener noreferrer">Agent Rider</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agent-rider/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--03" href="{{ '/services/txcript/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--03">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">txcript</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/skillsynchq/txcript" rel="noopener noreferrer">txcript</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/txcript/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--04" href="{{ '/services/sallyport/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--04">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Oversight &amp; Approval</span>
-        <strong class="arrival-card__name">Sallyport</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://sallyport.dev" rel="noopener noreferrer">Sallyport</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/sallyport/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--05" href="{{ '/services/secondsign-core/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--05">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
-        <strong class="arrival-card__name">SecondSign Core</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://secondsignruntime.com" rel="noopener noreferrer">SecondSign Core</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/secondsign-core/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--06" href="{{ '/services/caspian/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--06">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Communication</span>
-        <strong class="arrival-card__name">Caspian</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://trycaspianai.com" rel="noopener noreferrer">Caspian</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/caspian/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--07" href="{{ '/services/mpp/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--07">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
-        <strong class="arrival-card__name">MPP</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://mpp.dev" rel="noopener noreferrer">MPP</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/mpp/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--08" href="{{ '/services/agentteam-email/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--08">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Communication</span>
-        <strong class="arrival-card__name">AgentTeam Email</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://www.agentteam.email" rel="noopener noreferrer">AgentTeam Email</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agentteam-email/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--09" href="{{ '/services/context7/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--09">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Search &amp; Web Intelligence</span>
-        <strong class="arrival-card__name">Context7</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://context7.com" rel="noopener noreferrer">Context7</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/context7/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--10" href="{{ '/services/supermemory/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--10">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Supermemory</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://supermemory.ai" rel="noopener noreferrer">Supermemory</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/supermemory/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--11" href="{{ '/services/cubesandbox/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--11">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Code Execution</span>
-        <strong class="arrival-card__name">CubeSandbox</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://cubesandbox.com" rel="noopener noreferrer">CubeSandbox</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/cubesandbox/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--12" href="{{ '/services/ruflo/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--12">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">Ruflo</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/ruvnet/ruflo" rel="noopener noreferrer">Ruflo</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/ruflo/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--13" href="{{ '/services/mcp-memory-service/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--13">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">mcp-memory-service</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://mcpmemory.services" rel="noopener noreferrer">mcp-memory-service</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/mcp-memory-service/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--14" href="{{ '/services/graphiti/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--14">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Graphiti</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://help.getzep.com/graphiti" rel="noopener noreferrer">Graphiti</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/graphiti/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--15" href="{{ '/services/beads/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--15">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Beads</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://beads.gascity.com" rel="noopener noreferrer">Beads</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/beads/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--16" href="{{ '/services/mcphub/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--16">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Tool Access &amp; Integration</span>
-        <strong class="arrival-card__name">MCPHub</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://www.mcphub.app" rel="noopener noreferrer">MCPHub</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/mcphub/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--01" href="{{ '/services/memorix/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--01">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Memorix</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/AVIDS2/memorix" rel="noopener noreferrer">Memorix</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/memorix/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--02" href="{{ '/services/compartment/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--02">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Compartment</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://maxfreedompollard.github.io/Compartment/" rel="noopener noreferrer">Compartment</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/compartment/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--03" href="{{ '/services/memoir/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--03">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Memoir</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://www.memoir-ai.dev" rel="noopener noreferrer">Memoir</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/memoir/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--04" href="{{ '/services/sssnack/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--04">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">SSSNACK</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://sssnack.com/" rel="noopener noreferrer">SSSNACK</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/sssnack/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--05" href="{{ '/services/projectmem/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--05">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">projectmem</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://www.projectmem.dev" rel="noopener noreferrer">projectmem</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/projectmem/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--06" href="{{ '/services/agentcall/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--06">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Meeting &amp; Conversation</span>
-        <strong class="arrival-card__name">AgentCall</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://agentcall.dev" rel="noopener noreferrer">AgentCall</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agentcall/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--07" href="{{ '/services/joinly/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--07">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Meeting &amp; Conversation</span>
-        <strong class="arrival-card__name">joinly.ai</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://joinly.ai" rel="noopener noreferrer">joinly.ai</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/joinly/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--08" href="{{ '/services/engram/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--08">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Engram</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://engram.gentlemanprogramming.com/" rel="noopener noreferrer">Engram</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/engram/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--09" href="{{ '/services/claude-mem/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--09">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">Claude-Mem</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://cmem.ai/" rel="noopener noreferrer">Claude-Mem</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/claude-mem/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--10" href="{{ '/services/ucp/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--10">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
-        <strong class="arrival-card__name">Universal Commerce Protocol (UCP)</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://ucp.dev" rel="noopener noreferrer">Universal Commerce Protocol (UCP)</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/ucp/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--11" href="{{ '/services/agent-substrate/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--11">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
-        <strong class="arrival-card__name">Agent Substrate</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/agent-substrate/substrate" rel="noopener noreferrer">Agent Substrate</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agent-substrate/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--12" href="{{ '/services/agentsight/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--12">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Observability &amp; Tracing</span>
-        <strong class="arrival-card__name">AgentSight</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://eunomia.dev/agentsight/" rel="noopener noreferrer">AgentSight</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/agentsight/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--13" href="{{ '/services/mempalace/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--13">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">MemPalace</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://mempalaceofficial.com" rel="noopener noreferrer">MemPalace</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/mempalace/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--14" href="{{ '/services/kubernetes-agent-sandbox/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--14">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Code Execution</span>
-        <strong class="arrival-card__name">Agent Sandbox (Kubernetes SIG)</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://agent-sandbox.sigs.k8s.io" rel="noopener noreferrer">Agent Sandbox (Kubernetes SIG)</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/kubernetes-agent-sandbox/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--15" href="{{ '/services/contextforge/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--15">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Tool Access &amp; Integration</span>
-        <strong class="arrival-card__name">ContextForge</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://ibm.github.io/mcp-context-forge/" rel="noopener noreferrer">ContextForge</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/contextforge/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--16" href="{{ '/services/mcp-gateway-registry/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--16">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Tool Access &amp; Integration</span>
-        <strong class="arrival-card__name">MCP Gateway &amp; Registry</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://agentic-community.github.io/mcp-gateway-registry/" rel="noopener noreferrer">MCP Gateway &amp; Registry</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/mcp-gateway-registry/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--01" href="{{ '/services/sandbase-cli/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--01">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Tool Access &amp; Integration</span>
-        <strong class="arrival-card__name">SandBase CLI</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://www.sandbase.ai" rel="noopener noreferrer">SandBase CLI</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/sandbase-cli/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--02" href="{{ '/services/memsearch/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--02">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">MemSearch</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://zilliztech.github.io/memsearch/" rel="noopener noreferrer">MemSearch</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/memsearch/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--03" href="{{ '/services/deepseek-harness/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--03">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
-        <strong class="arrival-card__name">DeepSeek Harness (dsh)</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://deepseek.com/harness" rel="noopener noreferrer">DeepSeek Harness (dsh)</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/deepseek-harness/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--04" href="{{ '/services/dormice/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--04">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Code Execution</span>
-        <strong class="arrival-card__name">Dormice</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/BitMiracle-AI/Dormice" rel="noopener noreferrer">Dormice</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/dormice/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--05" href="{{ '/services/clawk/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--05">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Code Execution</span>
-        <strong class="arrival-card__name">Clawk</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/clawkwork/clawk" rel="noopener noreferrer">Clawk</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/clawk/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--06" href="{{ '/services/mcpjungle/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--06">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Tool Access &amp; Integration</span>
-        <strong class="arrival-card__name">MCPJungle</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://docs.mcpjungle.com" rel="noopener noreferrer">MCPJungle</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/mcpjungle/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--07" href="{{ '/services/stealth-browser-mcp/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--07">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Browser &amp; Web Execution</span>
-        <strong class="arrival-card__name">Stealth Browser MCP</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/vibheksoni/stealth-browser-mcp" rel="noopener noreferrer">Stealth Browser MCP</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/stealth-browser-mcp/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--08" href="{{ '/services/metamcp/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--08">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Tool Access &amp; Integration</span>
-        <strong class="arrival-card__name">MetaMCP</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://docs.metamcp.com" rel="noopener noreferrer">MetaMCP</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/metamcp/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--09" href="{{ '/services/ap2/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--09">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
-        <strong class="arrival-card__name">Agent Payments Protocol (AP2)</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://ap2-protocol.org" rel="noopener noreferrer">Agent Payments Protocol (AP2)</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/ap2/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--10" href="{{ '/services/priors/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--10">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
-        <strong class="arrival-card__name">Priors</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://priors.trade" rel="noopener noreferrer">Priors</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/priors/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--11" href="{{ '/services/contextstream/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--11">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">ContextStream</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://contextstream.io" rel="noopener noreferrer">ContextStream</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/contextstream/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--12" href="{{ '/services/send21/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--12">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
-        <strong class="arrival-card__name">send21</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://send21.io" rel="noopener noreferrer">send21</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/send21/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--13" href="{{ '/services/veyra/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--13">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
-        <strong class="arrival-card__name">Veyra</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://veyra.money" rel="noopener noreferrer">Veyra</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/veyra/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--14" href="{{ '/services/inam-protocol/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--14">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
-        <strong class="arrival-card__name">INAM Protocol</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://inamprotocol.org" rel="noopener noreferrer">INAM Protocol</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/inam-protocol/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--15" href="{{ '/services/402xagent/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--15">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
-        <strong class="arrival-card__name">402xAgent</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://402xagent.com" rel="noopener noreferrer">402xAgent</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/402xagent/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--service atlas-visual--16" href="{{ '/services/tencentdb-agent-memory/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--16">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
-        <strong class="arrival-card__name">TencentDB Agent Memory</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/TencentCloud/TencentDB-Agent-Memory" rel="noopener noreferrer">TencentDB Agent Memory</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/tencentdb-agent-memory/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--01" href="{{ '/services/orcareplay/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--01">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Observability &amp; Tracing</span>
-        <strong class="arrival-card__name">OrcaReplay</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://github.com/Continuum-AI-Corp/OrcaReplay" rel="noopener noreferrer">OrcaReplay</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/orcareplay/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
-    <a class="arrival-card atlas-sheet--arrival atlas-visual--02" href="{{ '/services/direct-hire/' | relative_url }}">
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--02">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
-        <strong class="arrival-card__name">Direct Hire</strong>
-        <span class="arrival-card__arrow" aria-hidden="true">↗</span>
+        <a class="arrival-card__name" href="https://directhireagents.com" rel="noopener noreferrer">Direct Hire</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/direct-hire/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
-    </a>
+    </article>
   </div>
 </section>
 

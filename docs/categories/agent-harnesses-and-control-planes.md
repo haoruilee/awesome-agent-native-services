@@ -18,7 +18,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agent-qa/' | relative_url }}">Agent QA</a></h2>
+    <h2 class="service-card__title"><a href="https://vostride.com/" rel="noopener noreferrer">Agent QA</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agent-qa/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The self-improving QA agent for software teams.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agent-qa/' | relative_url }}">Introduction</a>
@@ -31,7 +32,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/claude-hud/' | relative_url }}">Claude HUD</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/jarrodwatts/claude-hud" rel="noopener noreferrer">Claude HUD</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/claude-hud/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A Claude Code plugin that shows what&#39;s happening</p>
     <div class="service-card__actions">
       <a href="{{ '/services/claude-hud/' | relative_url }}">Introduction</a>
@@ -44,7 +46,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/codex-hud-anhannin/' | relative_url }}">Codex HUD (anhannin)</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/anhannin/codex-hud" rel="noopener noreferrer">Codex HUD (anhannin)</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/codex-hud-anhannin/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Codex HUD is an open-source status line HUD for Codex CLI, rendering Claude-HUD style usage and session status directly in the terminal.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/codex-hud-anhannin/' | relative_url }}">Introduction</a>
@@ -57,7 +60,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/codex-hud-fwyc0573/' | relative_url }}">Codex HUD (fwyc0573)</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/fwyc0573/codex-hud" rel="noopener noreferrer">Codex HUD (fwyc0573)</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/codex-hud-fwyc0573/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Real-time statusline HUD for OpenAI Codex CLI. Lightweight, zero-config, works inside tmux.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/codex-hud-fwyc0573/' | relative_url }}">Introduction</a>
@@ -70,7 +74,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/deepseek-harness/' | relative_url }}">DeepSeek Harness (dsh)</a></h2>
+    <h2 class="service-card__title"><a href="https://deepseek.com/harness" rel="noopener noreferrer">DeepSeek Harness (dsh)</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/deepseek-harness/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Everything is a Plugin.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/deepseek-harness/' | relative_url }}">Introduction</a>
@@ -83,7 +88,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/longhorizon-harness/' | relative_url }}">LongHorizon-Harness</a></h2>
+    <h2 class="service-card__title"><a href="https://lh-harness.pages.dev" rel="noopener noreferrer">LongHorizon-Harness</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/longhorizon-harness/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Plan → act → verify → checkpoint or recover → repeat — until the work is actually done.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/longhorizon-harness/' | relative_url }}">Introduction</a>
@@ -96,7 +102,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/loopx/' | relative_url }}">LoopX</a></h2>
+    <h2 class="service-card__title"><a href="https://loopx-project.github.io/loopx/" rel="noopener noreferrer">LoopX</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/loopx/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The open, provider-neutral, stateful control plane for long-horizon agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/loopx/' | relative_url }}">Introduction</a>
@@ -109,7 +116,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/oh-my-codex/' | relative_url }}">oh-my-codex (OMX)</a></h2>
+    <h2 class="service-card__title"><a href="https://oh-my-codex.dev" rel="noopener noreferrer">oh-my-codex (OMX)</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/oh-my-codex/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Start Codex stronger, then let OMX add better prompts, workflows, and runtime help when the work grows.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/oh-my-codex/' | relative_url }}">Introduction</a>
@@ -122,7 +130,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/peerd/' | relative_url }}">peerd</a></h2>
+    <h2 class="service-card__title"><a href="https://peerd.ai" rel="noopener noreferrer">peerd</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/peerd/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">peerd: the AI agent harness native to the browser</p>
     <div class="service-card__actions">
       <a href="{{ '/services/peerd/' | relative_url }}">Introduction</a>
@@ -135,7 +144,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/pizza-bot/' | relative_url }}">Pizza Bot</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/pizza-bot-app/pizza-bot" rel="noopener noreferrer">Pizza Bot</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/pizza-bot/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Pizza Bot is an inbox for long-running AI work.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/pizza-bot/' | relative_url }}">Introduction</a>
@@ -148,7 +158,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/qm/' | relative_url }}">QM</a></h2>
+    <h2 class="service-card__title"><a href="https://qm.ycombinator.com" rel="noopener noreferrer">QM</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/qm/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A multiplayer agent harness for work. In Slack and on the web.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/qm/' | relative_url }}">Introduction</a>
@@ -161,7 +172,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/reef/' | relative_url }}">Reef</a></h2>
+    <h2 class="service-card__title"><a href="https://reefinfra.ai" rel="noopener noreferrer">Reef</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/reef/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Infrastructure for continually self-improving agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/reef/' | relative_url }}">Introduction</a>
@@ -174,7 +186,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/ruflo/' | relative_url }}">Ruflo</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/ruvnet/ruflo" rel="noopener noreferrer">Ruflo</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/ruflo/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">An agent meta-harness for Claude Code and Codex.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/ruflo/' | relative_url }}">Introduction</a>
@@ -187,7 +200,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/txcript/' | relative_url }}">txcript</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/skillsynchq/txcript" rel="noopener noreferrer">txcript</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/txcript/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Continue your conversation in another coding agent.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/txcript/' | relative_url }}">Introduction</a>
@@ -200,7 +214,8 @@ service_count: 15
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/yylo/' | relative_url }}">YYLO</a></h2>
+    <h2 class="service-card__title"><a href="https://yylo.dev" rel="noopener noreferrer">YYLO</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/yylo/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Run the work. Keep the memory.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/yylo/' | relative_url }}">Introduction</a>

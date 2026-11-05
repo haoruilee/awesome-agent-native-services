@@ -18,7 +18,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agent-search-mcp/' | relative_url }}">Agent Search MCP</a></h2>
+    <h2 class="service-card__title"><a href="https://lennney.com/en/agent-search-mcp" rel="noopener noreferrer">Agent Search MCP</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agent-search-mcp/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A Node.js MCP server and CLI for English and Chinese web search.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agent-search-mcp/' | relative_url }}">Introduction</a>
@@ -31,7 +32,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/context7/' | relative_url }}">Context7</a></h2>
+    <h2 class="service-card__title"><a href="https://context7.com" rel="noopener noreferrer">Context7</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/context7/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Up-to-date Docs for AI Agents</p>
     <div class="service-card__actions">
       <a href="{{ '/services/context7/' | relative_url }}">Introduction</a>
@@ -44,7 +46,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/contextx/' | relative_url }}">contextX</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/akasakariko/ContextX" rel="noopener noreferrer">contextX</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/contextx/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">contextX is a remote MCP server that provides normal search powered by Grok 4.3 and deep search powered by Grok 4.20 Multi-Agent 0309.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/contextx/' | relative_url }}">Introduction</a>
@@ -57,7 +60,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/exa/' | relative_url }}">Exa</a></h2>
+    <h2 class="service-card__title"><a href="https://exa.ai" rel="noopener noreferrer">Exa</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/exa/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The search engine designed for AI.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/exa/' | relative_url }}">Introduction</a>
@@ -70,7 +74,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/jina-deepsearch/' | relative_url }}">Jina DeepSearch</a></h2>
+    <h2 class="service-card__title"><a href="https://jina.ai" rel="noopener noreferrer">Jina DeepSearch</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/jina-deepsearch/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Agentic search and deep research API for AI applications.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/jina-deepsearch/' | relative_url }}">Introduction</a>
@@ -83,7 +88,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/jina-reader/' | relative_url }}">Jina Reader</a></h2>
+    <h2 class="service-card__title"><a href="https://jina.ai/reader" rel="noopener noreferrer">Jina Reader</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/jina-reader/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Convert a URL to LLM-friendly input, by simply adding r.jina.ai in front.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/jina-reader/' | relative_url }}">Introduction</a>
@@ -96,7 +102,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/linkup/' | relative_url }}">Linkup</a></h2>
+    <h2 class="service-card__title"><a href="https://www.linkup.so" rel="noopener noreferrer">Linkup</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/linkup/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Search API for AI agents and LLM apps.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/linkup/' | relative_url }}">Introduction</a>
@@ -109,7 +116,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/nothumansearch/' | relative_url }}">NotHumanSearch</a></h2>
+    <h2 class="service-card__title"><a href="https://nothumansearch.ai" rel="noopener noreferrer">NotHumanSearch</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/nothumansearch/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Agent-first search — the index of services designed for AI, not humans.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/nothumansearch/' | relative_url }}">Introduction</a>
@@ -121,7 +129,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/parallel/' | relative_url }}">Parallel</a></h2>
+    <h2 class="service-card__title"><a href="https://www.parallel.ai" rel="noopener noreferrer">Parallel</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/parallel/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The highest accuracy web search for your AI.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/parallel/' | relative_url }}">Introduction</a>
@@ -134,7 +143,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/prooffetch/' | relative_url }}">ProofFetch</a></h2>
+    <h2 class="service-card__title"><a href="https://prooffetch.steellantern.com" rel="noopener noreferrer">ProofFetch</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/prooffetch/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Web pages your agent can quote.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/prooffetch/' | relative_url }}">Introduction</a>
@@ -146,7 +156,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/releaselog/' | relative_url }}">ReleaseLog</a></h2>
+    <h2 class="service-card__title"><a href="https://releaselog.site" rel="noopener noreferrer">ReleaseLog</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/releaselog/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Verified AI release intelligence for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/releaselog/' | relative_url }}">Introduction</a>
@@ -159,7 +170,8 @@ service_count: 12
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/tavily/' | relative_url }}">Tavily</a></h2>
+    <h2 class="service-card__title"><a href="https://tavily.com" rel="noopener noreferrer">Tavily</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/tavily/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Connect your agent to the web.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/tavily/' | relative_url }}">Introduction</a>
