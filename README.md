@@ -8,6 +8,8 @@ Each service is either infrastructure an AI agent *consumes directly* or a narro
 
 **Also on the web:** [Awesome Agent-Native Services — The Agent-Native Index](https://theagentnative.com/) — the same catalog with structured metadata and machine-readable discovery endpoints.
 
+**Related:** [ReleaseLog](https://releaselog.site) — the verified AI release calendar from the same curator. Published separately from this catalog.
+
 ---
 
 ---
