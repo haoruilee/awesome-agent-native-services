@@ -5,8 +5,8 @@ title: "Awesome Agent-Native Services"
 # Used only in <title> (short for SEO). On-page <h1> still uses page title from index.md.
 seo_html_title: "Awesome Agent-Native Services | The Agent-Native Index"
 description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
-url: "https://lihaorui.com"
-baseurl: "/awesome-agent-native-services"
+url: "https://theagentnative.com"
+baseurl: ""
 lang: en-US
 author: haoruilee
 

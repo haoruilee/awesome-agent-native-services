@@ -21,7 +21,7 @@ SERVICES_ROOT = ROOT / "services"
 DOCS_SERVICES = ROOT / "docs" / "services"
 CATALOG_PATH = ROOT / "catalog.json"
 SITEMAP_PATH = ROOT / "sitemap.xml"
-SITE_BASE = "https://lihaorui.com/awesome-agent-native-services"
+SITE_BASE = "https://theagentnative.com"
 REPOSITORY = "https://github.com/haoruilee/awesome-agent-native-services"
 
 CATEGORY_ORDER = (

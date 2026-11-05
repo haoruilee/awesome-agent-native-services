@@ -1,15 +1,51 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ $# -ne 1 ]]; then
-  echo "Usage: $0 <site-base-url>" >&2
+if [[ $# -gt 1 ]]; then
+  echo "Usage: $0 [site-base-url]" >&2
   exit 2
 fi
 
-site_base="${1%/}"
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 work_dir="$(mktemp -d)"
 trap 'rm -rf "$work_dir"' EXIT
+
+config_site_base="$(
+  python3 - "$repo_root/docs/_config.yml" <<'PY'
+import re
+import sys
+from pathlib import Path
+
+text = Path(sys.argv[1]).read_text(encoding="utf-8")
+url_match = re.search(r'^url:\s*["\']?([^"\'\n]+)', text, re.MULTILINE)
+base_match = re.search(r'^baseurl:\s*["\']?([^"\'\n]*)', text, re.MULTILINE)
+if not url_match:
+    raise SystemExit(0)
+url = url_match.group(1).rstrip("/")
+base = (base_match.group(1) if base_match else "").strip().rstrip("/")
+if base in {"", '""', "''"}:
+    print(url + "/")
+else:
+    if not base.startswith("/"):
+        base = "/" + base
+    print(url + base + "/")
+PY
+)"
+
+if [[ $# -eq 1 ]]; then
+  arg_base="${1%/}/"
+  if [[ -n "$config_site_base" && "$arg_base" != "$config_site_base" ]]; then
+    echo "Note: using docs/_config.yml site URL ($config_site_base) instead of argument ($arg_base)" >&2
+    site_base="${config_site_base%/}"
+  else
+    site_base="${1%/}"
+  fi
+elif [[ -n "$config_site_base" ]]; then
+  site_base="${config_site_base%/}"
+else
+  echo "Usage: $0 <site-base-url>" >&2
+  exit 2
+fi
 
 site_origin="$(python3 - "$site_base" <<'PY'
 import sys
@@ -89,8 +125,8 @@ grep -Eiq 'agent' "$work_dir/skill.md"
 grep -Eiq '^sitemap:' "$work_dir/robots.txt"
 
 for endpoint in llms.txt skill.md catalog.json catalog.schema.json; do
-  if ! grep -Fq "/awesome-agent-native-services/$endpoint" "$work_dir/homepage.html"; then
-    echo "::error::Homepage does not advertise $endpoint." >&2
+  if ! grep -Fq "/$endpoint" "$work_dir/homepage.html"; then
+    echo "::error::Homepage does not advertise /$endpoint." >&2
     exit 1
   fi
   if ! cmp -s "$work_dir/$endpoint" "$repo_root/docs/$endpoint"; then

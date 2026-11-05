@@ -1,5 +1,5 @@
 {
-  "$schema": "https://lihaorui.com/awesome-agent-native-services/catalog.schema.json",
+  "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
   "catalog_version": "2026-11-04",
   "generated_at": "2026-11-04",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "79948be3a0f248ff488c3928b100f34ebd3292fa4fae14232aec116f6ebe8547",
+      "value": "6c748a936363cfdcd56fb0d6f6b26ea02ab1d4885012cc71197b6fc45987f56e",
       "input_paths": [
         "README.md",
         "skill.md",

@@ -6,7 +6,7 @@ Browse services by capability, compare their agent-native design against the [se
 
 Each service is either infrastructure an AI agent *consumes directly* or a narrowly qualified, purpose-built surface for operating concrete agent sessions — not a generic platform for humans to *build agents with*.
 
-**Also on the web:** [Awesome Agent-Native Services — The Agent-Native Index](https://lihaorui.com/awesome-agent-native-services/) — the same catalog with structured metadata and machine-readable discovery endpoints.
+**Also on the web:** [Awesome Agent-Native Services — The Agent-Native Index](https://theagentnative.com/) — the same catalog with structured metadata and machine-readable discovery endpoints.
 
 ---
 

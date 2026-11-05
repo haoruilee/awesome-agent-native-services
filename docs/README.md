@@ -6,7 +6,7 @@ This folder is the **Jekyll source** for the catalog’s public site. The home p
 
 1. **Settings → Pages → Build and deployment**
    - **Source:** GitHub Actions (not “Deploy from a branch”).
-2. After the first successful run of [`.github/workflows/pages.yml`](../.github/workflows/pages.yml), open `https://lihaorui.com/awesome-agent-native-services/`.
+2. After the first successful run of [`.github/workflows/pages.yml`](../.github/workflows/pages.yml), open `https://theagentnative.com/`.
 3. **Settings → General → Social preview** — set the image to `docs/assets/images/social-preview.png` for richer cards on social platforms.
 
 ## Regenerate before submitting catalog changes
