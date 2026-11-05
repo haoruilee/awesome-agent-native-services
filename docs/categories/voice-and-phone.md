@@ -18,7 +18,8 @@ service_count: 8
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/cosvoice/' | relative_url }}">CosVoice</a></h2>
+    <h2 class="service-card__title"><a href="https://cosvoice.com" rel="noopener noreferrer">CosVoice</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/cosvoice/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Your AI Agent gets its own phone number.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/cosvoice/' | relative_url }}">Introduction</a>
@@ -31,7 +32,8 @@ service_count: 8
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/livekit-agents/' | relative_url }}">LiveKit Agents</a></h2>
+    <h2 class="service-card__title"><a href="https://livekit.com/agents" rel="noopener noreferrer">LiveKit Agents</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/livekit-agents/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Build, run, and observe AI agents&quot; — voice, video, and physical AI on LiveKit.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/livekit-agents/' | relative_url }}">Introduction</a>
@@ -44,7 +46,8 @@ service_count: 8
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/patter/' | relative_url }}">Patter</a></h2>
+    <h2 class="service-card__title"><a href="https://getpatter.com" rel="noopener noreferrer">Patter</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/patter/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Patter is the open-source SDK that gives your AI agent a phone number.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/patter/' | relative_url }}">Introduction</a>
@@ -57,7 +60,8 @@ service_count: 8
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/pipecat/' | relative_url }}">Pipecat</a></h2>
+    <h2 class="service-card__title"><a href="https://pipecat.ai" rel="noopener noreferrer">Pipecat</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/pipecat/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Open-source framework for real-time voice AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/pipecat/' | relative_url }}">Introduction</a>
@@ -70,7 +74,8 @@ service_count: 8
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/qwen-audio-agent/' | relative_url }}">Qwen Audio Agent</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/QwenAudio/qwen-audio-agent" rel="noopener noreferrer">Qwen Audio Agent</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/qwen-audio-agent/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A realtime voice runtime that keeps Agents talking, working, and present.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/qwen-audio-agent/' | relative_url }}">Introduction</a>
@@ -83,7 +88,8 @@ service_count: 8
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/retell-ai/' | relative_url }}">Retell AI</a></h2>
+    <h2 class="service-card__title"><a href="https://www.retellai.com" rel="noopener noreferrer">Retell AI</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/retell-ai/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">#1 AI Voice Agent Platform for Automating Calls.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/retell-ai/' | relative_url }}">Introduction</a>
@@ -96,7 +102,8 @@ service_count: 8
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/stimm/' | relative_url }}">Stimm</a></h2>
+    <h2 class="service-card__title"><a href="https://stimm.ai" rel="noopener noreferrer">Stimm</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/stimm/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The Open Source Voice Agent Platform. Orchestrate ultra-low latency AI pipelines for real-time conversations over WebRTC.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/stimm/' | relative_url }}">Introduction</a>
@@ -109,7 +116,8 @@ service_count: 8
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/vapi/' | relative_url }}">Vapi</a></h2>
+    <h2 class="service-card__title"><a href="https://vapi.ai" rel="noopener noreferrer">Vapi</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/vapi/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Build advanced voice AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/vapi/' | relative_url }}">Introduction</a>

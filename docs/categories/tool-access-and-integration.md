@@ -18,7 +18,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/aident-loadout/' | relative_url }}">Aident Loadout</a></h2>
+    <h2 class="service-card__title"><a href="https://aident.ai" rel="noopener noreferrer">Aident Loadout</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/aident-loadout/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Give your agents real capabilities</p>
     <div class="service-card__actions">
       <a href="{{ '/services/aident-loadout/' | relative_url }}">Introduction</a>
@@ -31,7 +32,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/apify-mcp-server/' | relative_url }}">Apify MCP Server</a></h2>
+    <h2 class="service-card__title"><a href="https://apify.com" rel="noopener noreferrer">Apify MCP Server</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/apify-mcp-server/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">MCP server enabling AI agents to run Apify Actors and extract web data.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/apify-mcp-server/' | relative_url }}">Introduction</a>
@@ -44,7 +46,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/arcade/' | relative_url }}">Arcade</a></h2>
+    <h2 class="service-card__title"><a href="https://www.arcade.dev" rel="noopener noreferrer">Arcade</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/arcade/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">MCP tools with managed OAuth — credentials stay out of the LLM.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/arcade/' | relative_url }}">Introduction</a>
@@ -57,7 +60,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/clawhub/' | relative_url }}">ClawHub</a></h2>
+    <h2 class="service-card__title"><a href="https://claw-hub.net/" rel="noopener noreferrer">ClawHub</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/clawhub/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Claw Hub: OpenClaw Skill Marketplace</p>
     <div class="service-card__actions">
       <a href="{{ '/services/clawhub/' | relative_url }}">Introduction</a>
@@ -70,7 +74,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/cli-anything/' | relative_url }}">CLI-Anything</a></h2>
+    <h2 class="service-card__title"><a href="https://clianything.cc" rel="noopener noreferrer">CLI-Anything</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/cli-anything/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">CLI-Anything: Making ALL Software Agent-Native</p>
     <div class="service-card__actions">
       <a href="{{ '/services/cli-anything/' | relative_url }}">Introduction</a>
@@ -83,7 +88,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/composio/' | relative_url }}">Composio</a></h2>
+    <h2 class="service-card__title"><a href="https://composio.dev" rel="noopener noreferrer">Composio</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/composio/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The tool platform built for agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/composio/' | relative_url }}">Introduction</a>
@@ -96,7 +102,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/contextforge/' | relative_url }}">ContextForge</a></h2>
+    <h2 class="service-card__title"><a href="https://ibm.github.io/mcp-context-forge/" rel="noopener noreferrer">ContextForge</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/contextforge/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">An open source registry and proxy that federates MCP, A2A, and REST/gRPC APIs with centralized governance, discovery, and observability. Optimizes Agent &amp; Tool calling, and supports plugins.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/contextforge/' | relative_url }}">Introduction</a>
@@ -109,7 +116,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/framelink-figma-mcp/' | relative_url }}">Framelink MCP for Figma</a></h2>
+    <h2 class="service-card__title"><a href="https://www.framelink.ai/" rel="noopener noreferrer">Framelink MCP for Figma</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/framelink-figma-mcp/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/framelink-figma-mcp/' | relative_url }}">Introduction</a>
@@ -122,7 +130,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/github-mcp-server/' | relative_url }}">GitHub MCP Server</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/github/github-mcp-server" rel="noopener noreferrer">GitHub MCP Server</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/github-mcp-server/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The GitHub MCP Server connects AI tools directly to GitHub&#39;s platform. This gives AI agents, assistants, and chatbots the ability to read repositories and code files, manage issues and PRs, analyze code, and automate workflows.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/github-mcp-server/' | relative_url }}">Introduction</a>
@@ -135,7 +144,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/greyridge-x402-tools/' | relative_url }}">Grey Ridge x402 Tools</a></h2>
+    <h2 class="service-card__title"><a href="https://x402-data-api.sigrunner.workers.dev/" rel="noopener noreferrer">Grey Ridge x402 Tools</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/greyridge-x402-tools/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Vet an MCP server before your agent trusts it.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/greyridge-x402-tools/' | relative_url }}">Introduction</a>
@@ -148,7 +158,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mcpgateway/' | relative_url }}">MCP Gateway</a></h2>
+    <h2 class="service-card__title"><a href="https://mcpgateway.com" rel="noopener noreferrer">MCP Gateway</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mcpgateway/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The platform for production AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mcpgateway/' | relative_url }}">Introduction</a>
@@ -160,7 +171,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mcp-gateway-registry/' | relative_url }}">MCP Gateway &amp; Registry</a></h2>
+    <h2 class="service-card__title"><a href="https://agentic-community.github.io/mcp-gateway-registry/" rel="noopener noreferrer">MCP Gateway &amp; Registry</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mcp-gateway-registry/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Unified Agent &amp; MCP Server Registry – Gateway for AI Development Tools</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mcp-gateway-registry/' | relative_url }}">Introduction</a>
@@ -173,7 +185,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mcphub/' | relative_url }}">MCPHub</a></h2>
+    <h2 class="service-card__title"><a href="https://www.mcphub.app" rel="noopener noreferrer">MCPHub</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mcphub/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">One gateway for all your MCP servers.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mcphub/' | relative_url }}">Introduction</a>
@@ -186,7 +199,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mcpjungle/' | relative_url }}">MCPJungle</a></h2>
+    <h2 class="service-card__title"><a href="https://docs.mcpjungle.com" rel="noopener noreferrer">MCPJungle</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mcpjungle/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Run all your MCP servers behind one endpoint</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mcpjungle/' | relative_url }}">Introduction</a>
@@ -199,7 +213,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/google-mcp-toolbox/' | relative_url }}">MCP Toolbox for Databases</a></h2>
+    <h2 class="service-card__title"><a href="https://mcp-toolbox.dev/" rel="noopener noreferrer">MCP Toolbox for Databases</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/google-mcp-toolbox/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">MCP Toolbox for Databases is an open source Model Context Protocol (MCP) server that connects your AI agents, IDEs, and applications directly to your enterprise databases.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/google-mcp-toolbox/' | relative_url }}">Introduction</a>
@@ -212,7 +227,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/metamcp/' | relative_url }}">MetaMCP</a></h2>
+    <h2 class="service-card__title"><a href="https://docs.metamcp.com" rel="noopener noreferrer">MetaMCP</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/metamcp/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">MCP Aggregator, Orchestrator, Middleware, Gateway in one docker</p>
     <div class="service-card__actions">
       <a href="{{ '/services/metamcp/' | relative_url }}">Introduction</a>
@@ -225,7 +241,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/nango/' | relative_url }}">Nango</a></h2>
+    <h2 class="service-card__title"><a href="https://nango.dev" rel="noopener noreferrer">Nango</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/nango/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The OAuth and API credential layer for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/nango/' | relative_url }}">Introduction</a>
@@ -238,7 +255,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/obot/' | relative_url }}">Obot</a></h2>
+    <h2 class="service-card__title"><a href="https://obot.ai" rel="noopener noreferrer">Obot</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/obot/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Complete MCP Platform — Hosting, Registry, Gateway, and Chat Client.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/obot/' | relative_url }}">Introduction</a>
@@ -251,7 +269,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/openchatcut/' | relative_url }}">OpenChatCut</a></h2>
+    <h2 class="service-card__title"><a href="https://openchatcut.com" rel="noopener noreferrer">OpenChatCut</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/openchatcut/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Open-source, local-first conversational AI video editor with a professional multi-track timeline, Agent Skills, MCP integration, and Remotion rendering.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/openchatcut/' | relative_url }}">Introduction</a>
@@ -264,7 +283,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/rea/' | relative_url }}">REA (Reverse Engineer Anything)</a></h2>
+    <h2 class="service-card__title"><a href="https://rea.tools" rel="noopener noreferrer">REA (Reverse Engineer Anything)</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/rea/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">One MCP for reverse engineering across binaries, applications, and runtime behavior.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/rea/' | relative_url }}">Introduction</a>
@@ -277,7 +297,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/sandbase-cli/' | relative_url }}">SandBase CLI</a></h2>
+    <h2 class="service-card__title"><a href="https://www.sandbase.ai" rel="noopener noreferrer">SandBase CLI</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/sandbase-cli/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Give your AI agent superpowers. One command. 2,000+ AI models.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/sandbase-cli/' | relative_url }}">Introduction</a>
@@ -290,7 +311,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/scalekit/' | relative_url }}">Scalekit</a></h2>
+    <h2 class="service-card__title"><a href="https://www.scalekit.com" rel="noopener noreferrer">Scalekit</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/scalekit/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Connect your agents to any tool. Authenticated, scoped, and logged.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/scalekit/' | relative_url }}">Introduction</a>
@@ -303,7 +325,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/smithery/' | relative_url }}">Smithery</a></h2>
+    <h2 class="service-card__title"><a href="https://smithery.ai" rel="noopener noreferrer">Smithery</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/smithery/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Connect your agent to thousands of MCP tools and Agent Skills.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/smithery/' | relative_url }}">Introduction</a>
@@ -316,7 +339,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/snyk-agent-scan/' | relative_url }}">Snyk Agent Scan</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/snyk/agent-scan" rel="noopener noreferrer">Snyk Agent Scan</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/snyk-agent-scan/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Security scanner for AI agents, MCP servers and agent skills.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/snyk-agent-scan/' | relative_url }}">Introduction</a>
@@ -329,7 +353,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/toolhive/' | relative_url }}">ToolHive</a></h2>
+    <h2 class="service-card__title"><a href="https://stacklok.com/download/" rel="noopener noreferrer">ToolHive</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/toolhive/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Run any MCP server securely, instantly, anywhere.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/toolhive/' | relative_url }}">Introduction</a>
@@ -342,7 +367,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/toolhouse/' | relative_url }}">Toolhouse</a></h2>
+    <h2 class="service-card__title"><a href="https://toolhouse.ai" rel="noopener noreferrer">Toolhouse</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/toolhouse/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Repetitive tasks, done for you, by AI workers.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/toolhouse/' | relative_url }}">Introduction</a>
@@ -355,7 +381,8 @@ service_count: 27
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/toolport/' | relative_url }}">Toolport</a></h2>
+    <h2 class="service-card__title"><a href="https://toolport.app" rel="noopener noreferrer">Toolport</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/toolport/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Every tool. One port.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/toolport/' | relative_url }}">Introduction</a>

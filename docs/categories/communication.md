@@ -18,7 +18,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agenticmail/' | relative_url }}">AgenticMail</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/agenticmail/agenticmail" rel="noopener noreferrer">AgenticMail</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agenticmail/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Email &amp; SMS infrastructure for AI agents — send and receive real email and text messages programmatically.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agenticmail/' | relative_url }}">Introduction</a>
@@ -31,7 +32,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agentmail/' | relative_url }}">AgentMail</a></h2>
+    <h2 class="service-card__title"><a href="https://agentmail.to" rel="noopener noreferrer">AgentMail</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agentmail/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Email for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agentmail/' | relative_url }}">Introduction</a>
@@ -44,7 +46,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agents-mail/' | relative_url }}">Agents Mail</a></h2>
+    <h2 class="service-card__title"><a href="https://agentsmail.org" rel="noopener noreferrer">Agents Mail</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agents-mail/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Email for AI Agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agents-mail/' | relative_url }}">Introduction</a>
@@ -56,7 +59,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agentteam-email/' | relative_url }}">AgentTeam Email</a></h2>
+    <h2 class="service-card__title"><a href="https://www.agentteam.email" rel="noopener noreferrer">AgentTeam Email</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agentteam-email/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Open-source email infrastructure for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agentteam-email/' | relative_url }}">Introduction</a>
@@ -69,7 +73,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/atomic-mail/' | relative_url }}">Atomic Mail</a></h2>
+    <h2 class="service-card__title"><a href="https://atomicmail.ai/" rel="noopener noreferrer">Atomic Mail</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/atomic-mail/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Not AI for your email. Email for your AI.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/atomic-mail/' | relative_url }}">Introduction</a>
@@ -82,7 +87,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/atxp-email/' | relative_url }}">ATXP Email</a></h2>
+    <h2 class="service-card__title"><a href="https://atxp.email/" rel="noopener noreferrer">ATXP Email</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/atxp-email/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Email for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/atxp-email/' | relative_url }}">Introduction</a>
@@ -95,7 +101,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/caspian/' | relative_url }}">Caspian</a></h2>
+    <h2 class="service-card__title"><a href="https://trycaspianai.com" rel="noopener noreferrer">Caspian</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/caspian/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Agent communication SDK. The open-source agent communication layer for AI agents — email, WhatsApp, Slack, Discord, Telegram, SMS.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/caspian/' | relative_url }}">Introduction</a>
@@ -108,7 +115,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/chimely/' | relative_url }}">Chimely</a></h2>
+    <h2 class="service-card__title"><a href="https://chimely.dev" rel="noopener noreferrer">Chimely</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/chimely/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Open-source, self-hostable in-app notification inbox infrastructure that agents can call through an HTTP API.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/chimely/' | relative_url }}">Introduction</a>
@@ -121,7 +129,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mailboxkit/' | relative_url }}">MailboxKit</a></h2>
+    <h2 class="service-card__title"><a href="https://mailboxkit.com" rel="noopener noreferrer">MailboxKit</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mailboxkit/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Email infrastructure for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mailboxkit/' | relative_url }}">Introduction</a>
@@ -133,7 +142,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mails-dev/' | relative_url }}">mails.dev</a></h2>
+    <h2 class="service-card__title"><a href="https://mails.dev" rel="noopener noreferrer">mails.dev</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mails-dev/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Email for AI Agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mails-dev/' | relative_url }}">Introduction</a>
@@ -146,7 +156,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mcp-agent-mail/' | relative_url }}">MCP Agent Mail</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/Dicklesworthstone/mcp_agent_mail" rel="noopener noreferrer">MCP Agent Mail</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mcp-agent-mail/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Asynchronous coordination layer for AI coding agents: identities, inboxes, searchable threads, and advisory file leases over FastMCP + Git + SQLite.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mcp-agent-mail/' | relative_url }}">Introduction</a>
@@ -159,7 +170,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/mcp-agent-mail-rust/' | relative_url }}">MCP Agent Mail (Rust)</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/Dicklesworthstone/mcp_agent_mail_rust" rel="noopener noreferrer">MCP Agent Mail (Rust)</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mcp-agent-mail-rust/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">It&#39;s like Gmail for your coding agents!</p>
     <div class="service-card__actions">
       <a href="{{ '/services/mcp-agent-mail-rust/' | relative_url }}">Introduction</a>
@@ -172,7 +184,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/novu/' | relative_url }}">Novu</a></h2>
+    <h2 class="service-card__title"><a href="https://novu.co" rel="noopener noreferrer">Novu</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/novu/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The open-source notification infrastructure — with an Agent Toolkit for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/novu/' | relative_url }}">Introduction</a>
@@ -185,7 +198,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/openmail/' | relative_url }}">OpenMail</a></h2>
+    <h2 class="service-card__title"><a href="https://openmail.sh" rel="noopener noreferrer">OpenMail</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/openmail/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Built for agents, not marketers.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/openmail/' | relative_url }}">Introduction</a>
@@ -198,7 +212,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/outreachagent/' | relative_url }}">OutreachAgent</a></h2>
+    <h2 class="service-card__title"><a href="https://outreachagent.dev/" rel="noopener noreferrer">OutreachAgent</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/outreachagent/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The Cold Outbound Engine for AI Agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/outreachagent/' | relative_url }}">Introduction</a>
@@ -210,7 +225,8 @@ service_count: 16
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/sendraven/' | relative_url }}">SendRaven</a></h2>
+    <h2 class="service-card__title"><a href="https://sendraven.ai" rel="noopener noreferrer">SendRaven</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/sendraven/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Email infrastructure for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/sendraven/' | relative_url }}">Introduction</a>

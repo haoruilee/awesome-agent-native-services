@@ -216,6 +216,33 @@ html_escape() {
     -e "s/'/\&#39;/g"
 }
 
+# Canonical outbound destination from catalog.json: official website, then
+# join URL, then repository. Offline records may have none.
+declare -A OFFICIAL_URLS=()
+while IFS=$'\t' read -r slug official; do
+  [[ -n "$slug" && -n "$official" ]] || continue
+  OFFICIAL_URLS["$slug"]="$official"
+done < <(python3 - "$ROOT/catalog.json" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+catalog = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+
+def http_url(value):
+    return value if isinstance(value, str) and value.lower().startswith(("http://", "https://")) else ""
+
+for service in catalog["services"]:
+    official = http_url(service.get("website"))
+    if not official:
+        official = http_url((service.get("onboarding") or {}).get("url"))
+    if not official:
+        official = http_url(service.get("repository"))
+    if official:
+        print(f"{service['slug']}\t{official}")
+PY
+)
+
 strip_inline_markdown() {
   printf '%s' "$1" | sed -E \
     -e 's/\[([^][]+)\]\([^)]*\)/\1/g' \
@@ -344,14 +371,19 @@ while IFS= read -r record; do
   label_html="$(html_escape "$label")"
   {
     service_slug="${base%.md}"
-    printf '    <a class="arrival-card %s atlas-visual--%s" href="{{ '\''/services/%s/'\'' | relative_url }}">\n' "$atlas_sheet" "$visual_number" "$service_slug"
+    official_html="$(html_escape "${OFFICIAL_URLS[$service_slug]:-}")"
+    printf '    <article class="arrival-card %s atlas-visual--%s">\n' "$atlas_sheet" "$visual_number"
     echo '      <span class="arrival-card__image" aria-hidden="true"></span>'
     echo '      <span class="arrival-card__copy">'
     printf '        <span class="arrival-card__category">%s</span>\n' "$label_html"
-    printf '        <strong class="arrival-card__name">%s</strong>\n' "$title_html"
-    echo '        <span class="arrival-card__arrow" aria-hidden="true">↗</span>'
+    if [[ -n "$official_html" ]]; then
+      printf '        <a class="arrival-card__name" href="%s" rel="noopener noreferrer">%s</a>\n' "$official_html" "$title_html"
+    else
+      printf '        <a class="arrival-card__name" href="{{ '\''/services/%s/'\'' | relative_url }}">%s</a>\n' "$service_slug" "$title_html"
+    fi
+    printf '        <span class="listing-source">Listed on <a href="{{ '\''/services/%s/'\'' | relative_url }}">The Agent-Native Index</a></span>\n' "$service_slug"
     echo '      </span>'
-    echo '    </a>'
+    echo '    </article>'
   } >>"$INDEX"
 done < <(
   while IFS= read -r file; do
@@ -540,7 +572,13 @@ YAML
       service_slug="${base%.md}"
       tagline="$(extract_tagline "$file")"
       tagline_html="$(html_escape "$tagline")"
-      printf '    <h2 class="service-card__title"><a href="{{ '\''/services/%s/'\'' | relative_url }}">%s</a></h2>\n' "$service_slug" "$service_title_html"
+      official_html="$(html_escape "${OFFICIAL_URLS[$service_slug]:-}")"
+      if [[ -n "$official_html" ]]; then
+        printf '    <h2 class="service-card__title"><a href="%s" rel="noopener noreferrer">%s</a></h2>\n' "$official_html" "$service_title_html"
+      else
+        printf '    <h2 class="service-card__title"><a href="{{ '\''/services/%s/'\'' | relative_url }}">%s</a></h2>\n' "$service_slug" "$service_title_html"
+      fi
+      printf '    <p class="listing-source">Listed on <a href="{{ '\''/services/%s/'\'' | relative_url }}">The Agent-Native Index</a></p>\n' "$service_slug"
       if [[ -n "$tagline" ]]; then
         printf '    <p class="service-card__tagline">%s</p>\n' "$tagline_html"
       fi

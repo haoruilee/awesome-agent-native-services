@@ -18,7 +18,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agentql/' | relative_url }}">AgentQL</a></h2>
+    <h2 class="service-card__title"><a href="https://agentql.com" rel="noopener noreferrer">AgentQL</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agentql/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Make the web AI‑ready.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agentql/' | relative_url }}">Introduction</a>
@@ -31,7 +32,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/anchor-browser/' | relative_url }}">Anchor Browser</a></h2>
+    <h2 class="service-card__title"><a href="https://www.anchorbrowser.io" rel="noopener noreferrer">Anchor Browser</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/anchor-browser/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The Secure Infrastructure for Computer Use Agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/anchor-browser/' | relative_url }}">Introduction</a>
@@ -44,7 +46,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/apify/' | relative_url }}">Apify</a></h2>
+    <h2 class="service-card__title"><a href="https://apify.com" rel="noopener noreferrer">Apify</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/apify/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Get real-time web data for your AI.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/apify/' | relative_url }}">Introduction</a>
@@ -57,7 +60,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/bb-browser/' | relative_url }}">bb-browser</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/epiral/bb-browser" rel="noopener noreferrer">bb-browser</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/bb-browser/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Your browser is the API. No keys. No bots. No scrapers.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/bb-browser/' | relative_url }}">Introduction</a>
@@ -70,7 +74,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/browser-debugger-cli/' | relative_url }}">bdg (Browser Debugger CLI)</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/szymdzum/browser-debugger-cli" rel="noopener noreferrer">bdg (Browser Debugger CLI)</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/browser-debugger-cli/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Give your AI agent a real browser. And the DevTools to go with it.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/browser-debugger-cli/' | relative_url }}">Introduction</a>
@@ -83,7 +88,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/bright-data-agent-browser/' | relative_url }}">Bright Data Agent Browser</a></h2>
+    <h2 class="service-card__title"><a href="https://brightdata.com/ai/agent-browser" rel="noopener noreferrer">Bright Data Agent Browser</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/bright-data-agent-browser/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A cloud browser built for AI agents — with built-in website unlocking.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/bright-data-agent-browser/' | relative_url }}">Introduction</a>
@@ -96,7 +102,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/browserbase/' | relative_url }}">Browserbase</a></h2>
+    <h2 class="service-card__title"><a href="https://browserbase.com" rel="noopener noreferrer">Browserbase</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/browserbase/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A web browser for AI agents &amp; applications.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/browserbase/' | relative_url }}">Introduction</a>
@@ -109,7 +116,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/browser-mcp/' | relative_url }}">Browser MCP</a></h2>
+    <h2 class="service-card__title"><a href="https://browsermcp.io/" rel="noopener noreferrer">Browser MCP</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/browser-mcp/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Browser MCP server for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/browser-mcp/' | relative_url }}">Introduction</a>
@@ -122,7 +130,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/browser-use-cloud/' | relative_url }}">Browser Use Cloud</a></h2>
+    <h2 class="service-card__title"><a href="https://browser-use.com" rel="noopener noreferrer">Browser Use Cloud</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/browser-use-cloud/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">State-of-the-art AI browser automation with stealth browsers, CAPTCHA solving, residential proxies, and managed infrastructure.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/browser-use-cloud/' | relative_url }}">Introduction</a>
@@ -135,7 +144,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/camofox/' | relative_url }}">CamoFox Browser</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/jo-inc/camofox-browser" rel="noopener noreferrer">CamoFox Browser</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/camofox/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/camofox/' | relative_url }}">Introduction</a>
@@ -148,7 +158,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/cloudflare-browser-rendering/' | relative_url }}">Cloudflare Browser Rendering</a></h2>
+    <h2 class="service-card__title"><a href="https://www.cloudflare.com/products/browser-rendering/" rel="noopener noreferrer">Cloudflare Browser Rendering</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/cloudflare-browser-rendering/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Headless browsers for AI agents (Cloudflare Workers).</p>
     <div class="service-card__actions">
       <a href="{{ '/services/cloudflare-browser-rendering/' | relative_url }}">Introduction</a>
@@ -161,7 +172,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/crawl4ai/' | relative_url }}">Crawl4AI</a></h2>
+    <h2 class="service-card__title"><a href="https://crawl4ai.com" rel="noopener noreferrer">Crawl4AI</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/crawl4ai/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/crawl4ai/' | relative_url }}">Introduction</a>
@@ -174,7 +186,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/ego-lite/' | relative_url }}">ego lite</a></h2>
+    <h2 class="service-card__title"><a href="https://lite.ego.app" rel="noopener noreferrer">ego lite</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/ego-lite/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The fastest browser for AI agents to run browser automation</p>
     <div class="service-card__actions">
       <a href="{{ '/services/ego-lite/' | relative_url }}">Introduction</a>
@@ -187,7 +200,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/firecrawl/' | relative_url }}">Firecrawl</a></h2>
+    <h2 class="service-card__title"><a href="https://firecrawl.dev" rel="noopener noreferrer">Firecrawl</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/firecrawl/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Turn any website into LLM-ready data.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/firecrawl/' | relative_url }}">Introduction</a>
@@ -200,7 +214,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/fsb/' | relative_url }}">FSB (Full Self Browsing)</a></h2>
+    <h2 class="service-card__title"><a href="https://full-selfbrowsing.com" rel="noopener noreferrer">FSB (Full Self Browsing)</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/fsb/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">DOM-first AI browser automation for Chrome and MCP clients.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/fsb/' | relative_url }}">Introduction</a>
@@ -213,7 +228,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/hronaut/' | relative_url }}">Hronaut</a></h2>
+    <h2 class="service-card__title"><a href="https://hronaut.dev/" rel="noopener noreferrer">Hronaut</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/hronaut/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A browser your AI agent can come back to.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/hronaut/' | relative_url }}">Introduction</a>
@@ -226,7 +242,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/hyperbrowser/' | relative_url }}">Hyperbrowser</a></h2>
+    <h2 class="service-card__title"><a href="https://www.hyperbrowser.ai" rel="noopener noreferrer">Hyperbrowser</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/hyperbrowser/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Hyperbrowser - Web Infra for AI Agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/hyperbrowser/' | relative_url }}">Introduction</a>
@@ -239,7 +256,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/jet-browser/' | relative_url }}">Jet Browser</a></h2>
+    <h2 class="service-card__title"><a href="https://masaka-ai.vercel.app/jet-browser/" rel="noopener noreferrer">Jet Browser</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/jet-browser/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Jet Browser — the browser runtime agents can carry.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/jet-browser/' | relative_url }}">Introduction</a>
@@ -252,7 +270,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/kernel/' | relative_url }}">Kernel</a></h2>
+    <h2 class="service-card__title"><a href="https://www.kernel.sh/" rel="noopener noreferrer">Kernel</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/kernel/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">you build agents. we give them the internet.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/kernel/' | relative_url }}">Introduction</a>
@@ -265,7 +284,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/lightpanda/' | relative_url }}">Lightpanda</a></h2>
+    <h2 class="service-card__title"><a href="https://lightpanda.io" rel="noopener noreferrer">Lightpanda</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/lightpanda/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The headless browser built from scratch for AI agents and automation.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/lightpanda/' | relative_url }}">Introduction</a>
@@ -278,7 +298,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/moli/' | relative_url }}">Moli</a></h2>
+    <h2 class="service-card__title"><a href="https://browser.lexmount.com" rel="noopener noreferrer">Moli</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/moli/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Moli is a production-ready, structured-first browser engine for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/moli/' | relative_url }}">Introduction</a>
@@ -291,7 +312,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/notte/' | relative_url }}">Notte</a></h2>
+    <h2 class="service-card__title"><a href="https://www.notte.cc" rel="noopener noreferrer">Notte</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/notte/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Browser infrastructure that lets AI run on the internet at speed.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/notte/' | relative_url }}">Introduction</a>
@@ -304,7 +326,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/obscura/' | relative_url }}">Obscura</a></h2>
+    <h2 class="service-card__title"><a href="https://obscura.sh" rel="noopener noreferrer">Obscura</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/obscura/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The open-source headless browser for AI agents and web scraping.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/obscura/' | relative_url }}">Introduction</a>
@@ -317,7 +340,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/olostep/' | relative_url }}">Olostep</a></h2>
+    <h2 class="service-card__title"><a href="https://www.olostep.com" rel="noopener noreferrer">Olostep</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/olostep/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Transform websites into clean, LLM-ready data.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/olostep/' | relative_url }}">Introduction</a>
@@ -330,7 +354,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/opencli/' | relative_url }}">OpenCLI</a></h2>
+    <h2 class="service-card__title"><a href="https://opencli.info/" rel="noopener noreferrer">OpenCLI</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/opencli/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Make any website, Electron App, or Local Tool your CLI.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/opencli/' | relative_url }}">Introduction</a>
@@ -343,7 +368,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/playwright-mcp/' | relative_url }}">Playwright MCP</a></h2>
+    <h2 class="service-card__title"><a href="https://playwright.dev/docs/getting-started-mcp" rel="noopener noreferrer">Playwright MCP</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/playwright-mcp/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/playwright-mcp/' | relative_url }}">Introduction</a>
@@ -356,7 +382,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/skyvern/' | relative_url }}">Skyvern</a></h2>
+    <h2 class="service-card__title"><a href="https://www.skyvern.com" rel="noopener noreferrer">Skyvern</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/skyvern/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">AI agents to automate workflows on any website.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/skyvern/' | relative_url }}">Introduction</a>
@@ -369,7 +396,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/stealth-browser-mcp/' | relative_url }}">Stealth Browser MCP</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/vibheksoni/stealth-browser-mcp" rel="noopener noreferrer">Stealth Browser MCP</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/stealth-browser-mcp/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Stealth browser automation for MCP-compatible AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/stealth-browser-mcp/' | relative_url }}">Introduction</a>
@@ -382,7 +410,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/steel/' | relative_url }}">Steel</a></h2>
+    <h2 class="service-card__title"><a href="https://steel.dev" rel="noopener noreferrer">Steel</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/steel/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Browser Infrastructure for AI Agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/steel/' | relative_url }}">Introduction</a>
@@ -395,7 +424,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agent-browser/' | relative_url }}">Vercel Agent Browser</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/vercel-labs/agent-browser" rel="noopener noreferrer">Vercel Agent Browser</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agent-browser/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Browser automation CLI for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agent-browser/' | relative_url }}">Introduction</a>
@@ -408,7 +438,8 @@ service_count: 31
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/vessel-browser/' | relative_url }}">Vessel Browser</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/unmodeled-tyler/vessel-browser" rel="noopener noreferrer">Vessel Browser</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/vessel-browser/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Built from the ground-up for agents, Vessel Browser is an open source AI browser for Linux/Windows that provides a durable state, MCP control, and BYOK with full autonomous browsing.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/vessel-browser/' | relative_url }}">Introduction</a>

@@ -18,7 +18,8 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/cordum/' | relative_url }}">Cordum</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/cordum-io/cordum" rel="noopener noreferrer">Cordum</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/cordum/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The open agent control plane.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/cordum/' | relative_url }}">Introduction</a>
@@ -31,7 +32,8 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/humanlayer/' | relative_url }}">HumanLayer</a></h2>
+    <h2 class="service-card__title"><a href="https://humanlayer.dev" rel="noopener noreferrer">HumanLayer</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/humanlayer/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Human in the Loop for AI Agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/humanlayer/' | relative_url }}">Introduction</a>
@@ -44,7 +46,8 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/preloop/' | relative_url }}">Preloop</a></h2>
+    <h2 class="service-card__title"><a href="https://preloop.ai" rel="noopener noreferrer">Preloop</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/preloop/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The Open Source Control Plane for AI Agents</p>
     <div class="service-card__actions">
       <a href="{{ '/services/preloop/' | relative_url }}">Introduction</a>
@@ -57,7 +60,8 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/sallyport/' | relative_url }}">Sallyport</a></h2>
+    <h2 class="service-card__title"><a href="https://sallyport.dev" rel="noopener noreferrer">Sallyport</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/sallyport/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Let your agent touch prod. Keep the keys.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/sallyport/' | relative_url }}">Introduction</a>
@@ -70,7 +74,8 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/sondera-coding-agent-hooks/' | relative_url }}">Sondera Coding Agent Hooks</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/sondera-ai/sondera-coding-agent-hooks" rel="noopener noreferrer">Sondera Coding Agent Hooks</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/sondera-coding-agent-hooks/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A reference monitor for AI coding agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/sondera-coding-agent-hooks/' | relative_url }}">Introduction</a>
@@ -83,7 +88,8 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/tracekit/' | relative_url }}">Tracekit</a></h2>
+    <h2 class="service-card__title"><a href="https://tracekit.tech" rel="noopener noreferrer">Tracekit</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/tracekit/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Let your agents act. Prove every action.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/tracekit/' | relative_url }}">Introduction</a>
@@ -96,7 +102,8 @@ service_count: 7
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/withhuman/' | relative_url }}">withHuman</a></h2>
+    <h2 class="service-card__title"><a href="https://withhuman.ai" rel="noopener noreferrer">withHuman</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/withhuman/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The approval layer for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/withhuman/' | relative_url }}">Introduction</a>

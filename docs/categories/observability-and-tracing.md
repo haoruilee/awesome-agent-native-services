@@ -18,7 +18,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agentevals/' | relative_url }}">AgentEvals</a></h2>
+    <h2 class="service-card__title"><a href="https://aevals.ai" rel="noopener noreferrer">AgentEvals</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agentevals/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Ship Agents Reliably — Benchmark your agents before they hit production. AgentEvals scores performance and inference quality from OpenTelemetry traces — no re-runs, no guesswork.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agentevals/' | relative_url }}">Introduction</a>
@@ -31,7 +32,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agent-inspect/' | relative_url }}">agent-inspect</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/rajudandigam/agent-inspect" rel="noopener noreferrer">agent-inspect</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agent-inspect/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Local execution trees for TypeScript AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agent-inspect/' | relative_url }}">Introduction</a>
@@ -44,7 +46,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agentops/' | relative_url }}">AgentOps</a></h2>
+    <h2 class="service-card__title"><a href="https://www.agentops.ai" rel="noopener noreferrer">AgentOps</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agentops/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">AgentOps is the developer favorite platform for testing, debugging, and deploying AI agents and LLM apps.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agentops/' | relative_url }}">Introduction</a>
@@ -57,7 +60,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agentsight/' | relative_url }}">AgentSight</a></h2>
+    <h2 class="service-card__title"><a href="https://eunomia.dev/agentsight/" rel="noopener noreferrer">AgentSight</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agentsight/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">lightweight system-level observability for AI Agents</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agentsight/' | relative_url }}">Introduction</a>
@@ -70,7 +74,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/agent-trace/' | relative_url }}">Agent Trace</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/Siddhant-K-code/agent-trace" rel="noopener noreferrer">Agent Trace</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/agent-trace/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Observability for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/agent-trace/' | relative_url }}">Introduction</a>
@@ -83,7 +88,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/braintrust/' | relative_url }}">Braintrust</a></h2>
+    <h2 class="service-card__title"><a href="https://www.braintrust.dev" rel="noopener noreferrer">Braintrust</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/braintrust/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Ship quality AI at scale&quot; — AI observability and evaluation.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/braintrust/' | relative_url }}">Introduction</a>
@@ -96,7 +102,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/galileo/' | relative_url }}">Galileo</a></h2>
+    <h2 class="service-card__title"><a href="https://galileo.ai" rel="noopener noreferrer">Galileo</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/galileo/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Galileo is the AI observability and eval engineering platform where offline evals become production guardrails.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/galileo/' | relative_url }}">Introduction</a>
@@ -109,7 +116,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/kitaru/' | relative_url }}">Kitaru</a></h2>
+    <h2 class="service-card__title"><a href="https://www.zenml.io/product/kitaru" rel="noopener noreferrer">Kitaru</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/kitaru/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Traces you can run, not just read.&quot; — zenml-io/kitaru README</p>
     <div class="service-card__actions">
       <a href="{{ '/services/kitaru/' | relative_url }}">Introduction</a>
@@ -122,7 +130,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/laminar/' | relative_url }}">Laminar</a></h2>
+    <h2 class="service-card__title"><a href="https://laminar.sh" rel="noopener noreferrer">Laminar</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/laminar/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Open-source observability platform for long-running agents. Trace in one line, debug from any step, detect patterns at scale.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/laminar/' | relative_url }}">Introduction</a>
@@ -135,7 +144,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/langfuse/' | relative_url }}">Langfuse</a></h2>
+    <h2 class="service-card__title"><a href="https://langfuse.com" rel="noopener noreferrer">Langfuse</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/langfuse/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Open-source LLM observability, tracing, and evaluation for AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/langfuse/' | relative_url }}">Introduction</a>
@@ -148,7 +158,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/langwatch/' | relative_url }}">LangWatch</a></h2>
+    <h2 class="service-card__title"><a href="https://langwatch.ai" rel="noopener noreferrer">LangWatch</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/langwatch/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Open-source LLM Ops platform for tracing, evals, and guardrails.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/langwatch/' | relative_url }}">Introduction</a>
@@ -161,7 +172,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/numbat/' | relative_url }}">numbat</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/perplexityai/numbat" rel="noopener noreferrer">numbat</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/numbat/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Endpoint visibility into AI agent activity, with local detection, optional pre-action blocking, and forensic reconstruction.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/numbat/' | relative_url }}">Introduction</a>
@@ -174,7 +186,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/openlit/' | relative_url }}">OpenLIT</a></h2>
+    <h2 class="service-card__title"><a href="https://openlit.io" rel="noopener noreferrer">OpenLIT</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/openlit/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">OpenTelemetry-native observability for LLMs and AI agents.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/openlit/' | relative_url }}">Introduction</a>
@@ -187,7 +200,8 @@ service_count: 14
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="{{ '/services/orcareplay/' | relative_url }}">OrcaReplay</a></h2>
+    <h2 class="service-card__title"><a href="https://github.com/Continuum-AI-Corp/OrcaReplay" rel="noopener noreferrer">OrcaReplay</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/orcareplay/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Your agent broke something at 2am. Replay it at 9am — exactly, offline, as many times as you like.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/orcareplay/' | relative_url }}">Introduction</a>
