@@ -341,6 +341,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/briq/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/browser-debugger-cli/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

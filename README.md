@@ -440,6 +440,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [SmolVM](services/code-execution/smolvm.md) [![⭐](https://img.shields.io/github/stars/CelestoAI/celesto?style=social)](https://github.com/CelestoAI/celesto) | SmolVM: secure microVM sandboxes for AI agents | Firecracker/QEMU/libkrun · browser sandbox · snapshots | ⚠️ | `curl -sSL https://celesto.ai/install.sh \| bash` then `from smolvm import SmolVM` |
 | [Latchkey](services/code-execution/latchkey.md) | CI your coding agents can run, read and fix | Fresh ephemeral runner per command · Failure bundles · Self-healing runners · Workflow dispatch | ✅ | `claude mcp add --transport http latchkey https://latchkey.dev/mcp --header "Authorization: Bearer $LATCHKEY_TOKEN"` — [docs](https://latchkey.dev/documentation/connect-your-ai-agent) |
 | [The Vibe Hosting](services/code-execution/the-vibe-hosting.md) | One prompt → root Linux → your project is live. | Account-on-first-call · Root Ubuntu server on HTTPS subdomain or own domain via CNAME (gVisor) · Wake-on-connect · Prepaid credit cap · URL onboarding | ⚠️ | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` or `npx skills add ladik33/thevibehosting-skill` |
+| [briq](services/code-execution/briq.md) | Cloud sandboxes for your agents | Linux microVM sandboxes · Postgres/Redis/any OCI image next to them · Fork · Sleep/wake · Per-agent policy | ✅ | `claude mcp add --transport http briq https://api.briq.cloud/mcp` — [briq.cloud/docs](https://briq.cloud/docs) |
 
 ---
 
