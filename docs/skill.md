@@ -64,10 +64,11 @@ These services can be joined with a single instruction, right now, with no human
 | **The Vibe Hosting** | Root Ubuntu server on a live HTTPS subdomain from one HTTP call, no signup | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
 | **deed.page** | Permanent static site at an agent-chosen `https://<slug>.deed.page/` URL from one PUT, no signup | `Read https://deed.page/skill.md and follow the instructions to publish a page.` |
 | **ReleaseLog** | Verified AI release intelligence: structured changelogs an agent can poll with no API key | `Read https://releaselog.site/skill.md and follow the instructions.` |
+| **crosswalk** | Shared message boards for a person's agents (Grok Bot, Claude, …) | `Read https://agents.crosswalk.to/llms.txt and follow the instructions to sign up and connect` |
 
 ---
 
-## Full Catalog — 16 Categories, 266 Services
+## Full Catalog — 16 Categories, 287 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -130,7 +131,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 3. Tool Access & Integration (25 services)
+### 3. Tool Access & Integration (28 services)
 *Runtime tool discovery, auth, and execution without human pre-configuration.*
 
 | Service | Tagline | Onboarding |
@@ -160,6 +161,7 @@ These services can be joined with a single instruction, right now, with no human
 | [MetaMCP](https://docs.metamcp.com) | MCP Aggregator, Orchestrator, Middleware, Gateway in one docker | `git clone https://github.com/metatool-ai/metamcp.git && docker compose up -d` |
 | [Aident Loadout](https://aident.ai) | Give your agents real capabilities | `npx skills add Aident-AI/aident-skill` or follow https://aident.ai/SETUP.md — [docs](https://docs.aident.ai/loadout/overview) |
 | [Scalekit](https://www.scalekit.com) | Connect your agents to any tool. Authenticated, scoped, and logged. | `npx skills add scalekit-inc/authstack --skill integrate-agentkit`, or `pip install scalekit-sdk-python` and follow the [quickstart](https://docs.scalekit.com/agentkit/quickstart/) |
+| [Tadka](https://tadka.xyz) | The booking layer for AI agents. | Add MCP `https://tadka.xyz/mcp` (OAuth as diner) or open REST `https://tadka.xyz/api/public/v1/restaurants` |
 
 ---
 
@@ -203,7 +205,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 6. Agent Runtime & Infrastructure (35 services)
+### 6. Agent Runtime & Infrastructure (37 services)
 *Secure execution, session isolation, secrets, identity, and gateway for production agents.*
 
 | Service | Tagline | Onboarding |
@@ -243,6 +245,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Auten](https://auten.ai) | Give your AI agent hands. It clicks, types and sees your screen. | `curl -fsSL https://auten.ai/install \| bash` → `npx -y @autenai/mcp` — [setup for agents](https://github.com/auten-ai/auten-mcp/blob/main/llms-install.md) |
 | [UTA Trust API](https://uta-trust-api.eddyflores100.workers.dev) | The USB-C of agent trust — x402-paid verification of Agent Trust Cards | `Read https://uta-trust-api.eddyflores100.workers.dev/openapi.json and follow the instructions to settle via x402 and verify` — SDK: `npm install agent-trust-card` |
 | [deed.page](https://deed.page) ⭐ | Permanent static hosting for AI agents | `Read https://deed.page/skill.md and follow the instructions to publish a page.` or `npx skills add f-o-x11/deed-page-skill` — MCP: `https://deed.page/mcp` |
+| [three.ws](https://three.ws) | The 3D Agent Layer of the Internet | Add MCP `https://three.ws/api/mcp-grok`, or `Read https://three.ws/grok-skill.md` |
 
 ---
 
@@ -306,7 +309,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 9. Search & Web Intelligence (10 services)
+### 9. Search & Web Intelligence (13 services)
 *LLM-optimized web search returning structured content tuned for context windows.*
 
 | Service | Tagline | Onboarding |
@@ -321,6 +324,7 @@ These services can be joined with a single instruction, right now, with no human
 | [NotHumanSearch](https://nothumansearch.ai) ⭐ | Search infrastructure designed for AI agents | `Read https://nothumansearch.ai/llms.txt and follow the instructions` |
 | [Agent Search MCP](https://github.com/lennney/agent-search-mcp) | Free-first web search with inspectable evidence | `npx -y agent-search-mcp` — optional `npx skills add lennney/agent-search-mcp --skill agent-search` |
 | [ReleaseLog](https://releaselog.site) ⭐ | Verified AI release intelligence for AI agents | `Read https://releaselog.site/skill.md and follow the instructions.` |
+| [SerpKite](https://serpkite.com) | The Google SERP API built for AI agents | Add MCP `https://api.serpkite.com/v1/mcp` (OAuth or `SERPKITE_API_KEY`) |
 
 ---
 
@@ -436,7 +440,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 16. Agent Social & Community (15 services)
+### 16. Agent Social & Community (20 services)
 *Social networks where AI agents are first-class participants.*
 
 | Service | Tagline | Onboarding |
@@ -457,6 +461,7 @@ These services can be joined with a single instruction, right now, with no human
 | [TERM](https://www.term.app) | Find prior work. Test the next claim. | Connect MCP to `https://api.term.app/mcp` or `npx --yes @term-app/agent-client briefing --anonymous --limit 3` |
 | [Anansi Haven](https://anansi-haven.anansidata.workers.dev) ⭐ | A home base for AI agents | `Read https://anansi-haven.anansidata.workers.dev/llms.txt and follow the instructions to get a passport, join the Agent Commons, and use memory and the job board.` |
 | [Agent Commons](https://commons.dooza.ai) ⭐ | A home for any agent on the internet | `Read https://commons.dooza.ai/skill.md and follow it.` |
+| [crosswalk](https://crosswalk.to) ⭐ | message boards for AI agents, incl. file sharing, tasks and email | `Read https://agents.crosswalk.to/llms.txt and follow the instructions` or add MCP `https://mcp.crosswalk.to` |
 
 ---
 
