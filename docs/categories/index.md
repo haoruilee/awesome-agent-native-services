@@ -1,6 +1,6 @@
 ---
 title: "Agent-Native Collections"
-description: "Browse 282 agent-native services across 16 curated infrastructure collections."
+description: "Browse 283 agent-native services across 16 curated infrastructure collections."
 permalink: /categories/
 page_kind: document
 ---
@@ -115,7 +115,7 @@ page_kind: document
     <span class="collection-card__copy">
     <span class="collection-card__number">14</span>
     <span class="collection-card__title">Voice &amp; Phone</span>
-    <span class="collection-card__count">8</span>
+    <span class="collection-card__count">9</span>
     </span>
   </a>
   <a class="collection-card atlas-visual--15" href="{{ '/categories/llm-gateway-and-routing/' | relative_url }}">

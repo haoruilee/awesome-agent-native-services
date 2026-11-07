@@ -400,7 +400,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 14. Voice & Phone (8 services)
+### 14. Voice & Phone (9 services)
 *Agent-controlled voice calls and telephony infrastructure.*
 
 | Service | Tagline | Onboarding |
@@ -413,6 +413,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Qwen Audio Agent](https://github.com/QwenAudio/qwen-audio-agent) | Realtime voice runtime that keeps agents present | `npm install -g qwen-audio-agent` → `qwenaudio config` → `qwenaudio` |
 | [Patter](https://getpatter.com) | Open-source SDK that gives your AI agent a phone number | `npx skills add patterai/skills` then `npm install getpatter` or `pip install getpatter` |
 | [CosVoice](https://cosvoice.com) ⭐ | Your AI Agent gets its own phone number. | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice` |
+| [PlaceCall](https://voygr.tech/placecall/) | Give your agent a phone. | MCP `https://api.voygr.tech/mcp` or `/plugin marketplace add voygr-tech/placecall` then `/plugin install placecall@placecall` |
 
 ---
 
