@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "c4f01790b289a7fe4f0b8bd8ef99e1c7128399fa532ed1a01c5230b44e5c38a9",
+      "value": "56739d3c644368330085559d722c815d1f1d07676c98acd0f5214cdae5174ea8",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -65,6 +65,7 @@
         "services/browser-and-web-execution/steel.md",
         "services/browser-and-web-execution/vessel-browser.md",
         "services/tool-access-and-integration/README.md",
+        "services/tool-access-and-integration/account-access.md",
         "services/tool-access-and-integration/aident-loadout.md",
         "services/tool-access-and-integration/apify-mcp-server.md",
         "services/tool-access-and-integration/arcade.md",
@@ -323,7 +324,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 287
+    "services": 288
   },
   "categories": [
     {
@@ -345,7 +346,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 28
+      "service_count": 29
     },
     {
       "id": "oversight-and-approval",
@@ -1951,6 +1952,36 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "tool-access-and-integration/account-access",
+      "slug": "account-access",
+      "name": "Account Access",
+      "tagline": "Connect once. Grant specific permissions. Let your existing AI agent do the routine work.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "tool-access-and-integration",
+      "website": "https://github.com/fainir/account-access",
+      "repository": "https://github.com/fainir/account-access",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/account-access.md",
+      "source_path": "services/tool-access-and-integration/account-access.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": "Agent Skill + structured CLI over a local service.",
+        "instruction": "The owner first installs the service, connects supported accounts and grants named operations. An agent cannot enroll itself by reading a URL.",
+        "url": "https://github.com/fainir/account-access#easy-installation"
+      },
+      "protocols": [
+        "agent-skill",
+        "cli",
+        "api"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []

@@ -93,7 +93,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 16 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 31 | Remote browser and web data extraction for agents |
-| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 28 | Runtime tool discovery, auth, and execution |
+| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 29 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 7 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 23 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 37 | Execution, session isolation, secrets, and gateway |
@@ -191,6 +191,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
+| [Account Access](services/tool-access-and-integration/account-access.md) | Local delegated account reads for existing agents | Named operations · scoped client identities · resumable tasks · owner challenges | ⚠️ | Follow the [official setup guide](https://github.com/fainir/account-access#easy-installation); the installer provides the skill and CLI |
 | [Apify MCP Server](services/tool-access-and-integration/apify-mcp-server.md) [![⭐](https://img.shields.io/github/stars/apify/apify-mcp-server?style=social)](https://github.com/apify/apify-mcp-server) | MCP access to Apify Actors for agent web data tasks | Actor discovery/execution · dataset retrieval · x402/Skyfire payments | ✅ | Connect the official remote MCP endpoint following the [repository README](https://github.com/apify/apify-mcp-server) |
 | [Composio](services/tool-access-and-integration/composio.md) [![⭐](https://img.shields.io/github/stars/ComposioHQ/composio?style=social)](https://github.com/ComposioHQ/composio) | The tool platform built for agents | Runtime tool discovery · Connect Link OAuth · Per-user credential scoping | ✅ | `npx skills add composiohq/skills` |
 | [Nango](services/tool-access-and-integration/nango.md) [![⭐](https://img.shields.io/github/stars/NangoHQ/nango?style=social)](https://github.com/NangoHQ/nango) | OAuth and credential layer for AI agents | `getConnection()` · Automatic token refresh · 700+ API integrations | ✅ | `$skills install @NangoHQ/sync-builder-skill` |
