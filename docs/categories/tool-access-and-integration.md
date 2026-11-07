@@ -8,7 +8,7 @@ image: "/assets/images/editorial-tools.webp"
 permalink: /categories/tool-access-and-integration/
 page_kind: collection
 collection_number: "03"
-service_count: 27
+service_count: 28
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md">Collection notes ↗</a></p>
@@ -349,7 +349,20 @@ service_count: 27
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--09">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--09">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://tadka.xyz" rel="noopener noreferrer">Tadka</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/tadka/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">The booking layer for AI agents.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/tadka/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/tadka.md">Dossier ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--arrival atlas-visual--10">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -363,7 +376,7 @@ service_count: 27
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--10">
+  <article class="service-card atlas-sheet--arrival atlas-visual--11">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -377,7 +390,7 @@ service_count: 27
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--11">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--12">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>

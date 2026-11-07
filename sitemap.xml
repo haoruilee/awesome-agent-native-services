@@ -516,6 +516,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/crosswalk/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/cua/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1296,6 +1301,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/serpkite/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/shellmates/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1376,6 +1386,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/tadka/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/tavily/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1397,6 +1412,11 @@
   </url>
   <url>
     <loc>https://theagentnative.com/services/the-vibe-hosting/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/services/three-ws/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
