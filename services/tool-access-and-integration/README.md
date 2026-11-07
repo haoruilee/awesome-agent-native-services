@@ -16,6 +16,7 @@ Agent-native tool access services solve all three problems with primitives that 
 
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
+| [Account Access](account-access.md) | Connect once. Grant specific permissions. Let your existing AI agent do the routine work. | Agent Skill, structured CLI, private service API | ⚠️ |
 | [Apify MCP Server](apify-mcp-server.md) [![⭐](https://img.shields.io/github/stars/apify/apify-mcp-server?style=social)](https://github.com/apify/apify-mcp-server) | MCP access to Apify Actors for agent web data tasks | Remote MCP, actor discovery/execution, x402/Skyfire payments | ✅ |
 | [Composio](composio.md) | The tool platform built for agents | Python SDK, TypeScript SDK, 10+ framework integrations | ✅ |
 | [Nango](nango.md) | OAuth and credential layer for AI agents | REST API, Node SDK | ✅ |
