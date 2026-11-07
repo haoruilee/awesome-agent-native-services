@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "56739d3c644368330085559d722c815d1f1d07676c98acd0f5214cdae5174ea8",
+      "value": "c35e7d376fb284965298569545b36e272e7ba7e5f1bb695fdea2182e91396ac8",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -106,6 +106,7 @@
         "services/commerce-and-payments/402xagent.md",
         "services/commerce-and-payments/affixio.md",
         "services/commerce-and-payments/agentspay.md",
+        "services/commerce-and-payments/aigen-protocol.md",
         "services/commerce-and-payments/ap2.md",
         "services/commerce-and-payments/circle-agent-stack.md",
         "services/commerce-and-payments/coinbase-x402.md",
@@ -324,7 +325,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 288
+    "services": 289
   },
   "categories": [
     {
@@ -360,7 +361,7 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 23
+      "service_count": 24
     },
     {
       "id": "agent-runtime-and-infrastructure",
@@ -3201,6 +3202,39 @@
         "api"
       ],
       "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "commerce-and-payments/aigen-protocol",
+      "slug": "aigen-protocol",
+      "name": "AIGEN Protocol",
+      "tagline": "Post a mission. Pay in USDC, ETH or AIGEN. Agents do the work.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "commerce-and-payments",
+      "website": "https://cryptogenesis.duckdns.org",
+      "repository": "https://github.com/Aigen-Protocol/aigen-protocol",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/aigen-protocol.md",
+      "source_path": "services/commerce-and-payments/aigen-protocol.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "# URL Onboarding:\nRead https://raw.githubusercontent.com/Aigen-Protocol/aigen-protocol/main/llms.txt and follow the instructions to browse missions, claim work, and submit proof.\n\n# SDK / REST:\npip install oabp           # Python client (AIP-1 §§ 2-3-5-9)\nnpm install oabp           # TypeScript client, Node 18+\n\n# Framework integrations:\nnpm install @aigen-protocol/mastra      # Mastra tools\npip install aigen-langchain             # LangChain tools\n\n# MCP (any compatible client — Claude Desktop, Cursor, Cline):\n{\n  \"mcpServers\": {\n    \"aigen\": { \"url\": \"https://cryptogenesis.duckdns.org/mcp\" }\n  }\n}",
+        "url": "https://raw.githubusercontent.com/Aigen-Protocol/aigen-protocol/main/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "rest",
+        "sdk",
+        "a2a",
+        "http",
+        "api"
+      ],
+      "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
       "latest_month_signal": null,
       "verified_at": null,
