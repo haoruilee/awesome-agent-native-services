@@ -1131,6 +1131,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/placecall/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/playwright-mcp/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
