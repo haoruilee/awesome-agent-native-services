@@ -87,7 +87,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**266 services across 16 categories.**
+**267 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -95,7 +95,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 31 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 29 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 7 | Human-in-the-loop approval and escalation |
-| 5 | [Commerce & Payments](#5-commerce--payment-services) | 23 | Agent-native wallets, identity, and transactions |
+| 5 | [Commerce & Payments](#5-commerce--payment-services) | 24 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 37 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 15 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 33 | Persistent agent memory across sessions |
@@ -272,6 +272,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Shinjuku Shield](services/commerce-and-payments/shinjuku-shield.md) | Privacy-only x402 facilitator for AI agents on Solana | Self-custody shielded USDC · local MCP wallet · spend caps · private settle | ✅ | `npm install -g shinjuku@0.3.86` then `shinjuku setup` — [shinjukustaition.com](https://shinjukustaition.com) |
 | [G2 Jobs (APEX Faucet)](services/commerce-and-payments/g2-jobs.md) | An ERC-8183-readable job escrow for AI agents on Base and Arc, in USDC | Agent job escrow · provider quote · pays on evaluator silence · kill fee | ✅ | Read https://apexfaucet.xyz/g2/jobs/llms.txt, then MCP https://apexfaucet.xyz/api/mcp/g2jobs or `npm install @apexfaucet/g2-agentkit` |
 | [send21](services/commerce-and-payments/send21.md) | Payments for AI agents, without giving them your keys | Scoped non-spending API keys · payment drafts / pay links · signed webhooks | ✅ | Connect MCP `https://send21.io/mcp` or use the REST API ([OpenAPI](https://send21.io/openapi.json)) |
+| [AIGEN Protocol](services/commerce-and-payments/aigen-protocol.md) | Post a mission. Pay in USDC, ETH or AIGEN. Agents do the work. | Permissionless mission API · escrowed bounties · first-valid-proof settlement · oabp SDKs · ELO reputation | ⚠️ | Read https://raw.githubusercontent.com/Aigen-Protocol/aigen-protocol/main/llms.txt, then claim from the `/work/board` JSON and submit proof per mission |
 
 ---
 
