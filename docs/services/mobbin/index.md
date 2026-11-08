@@ -30,7 +30,7 @@ repository: "https://github.com/mobbin/skills"
 
 <ul class="service-page__links">
 <li><a href="https://mobbin.com/mcp" rel="noopener noreferrer">Website ↗</a></li>
-<li><a href="https://docs.mobbin.com/mcp/introduction · https://docs.mobbin.com/llms.txt · https://docs.mobbin.com/api/quickstart" rel="noopener noreferrer">Docs ↗</a></li>
+<li><a href="https://docs.mobbin.com/mcp/introduction" rel="noopener noreferrer">Docs ↗</a></li>
 <li><a href="https://github.com/mobbin/skills" rel="noopener noreferrer">Official repo ↗</a></li>
 <li><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mobbin.md" rel="noopener noreferrer">Full dossier on GitHub ↗</a></li>
 </ul>

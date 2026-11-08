@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **Website** | https://mobbin.com/mcp · https://mobbin.com |
-| **Docs** | https://docs.mobbin.com/mcp/introduction · https://docs.mobbin.com/llms.txt · https://docs.mobbin.com/api/quickstart |
+| **Docs** | https://docs.mobbin.com/mcp/introduction |
 | **GitHub** | https://github.com/mobbin/skills (official Agent Skills + client plugins; MCP is hosted) · [![GitHub Stars](https://img.shields.io/github/stars/mobbin/skills?style=social)](https://github.com/mobbin/skills) |
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration Services](README.md) |
