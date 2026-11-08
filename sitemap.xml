@@ -966,6 +966,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/mobbin/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/modal/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

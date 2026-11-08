@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-07",
-  "generated_at": "2026-11-07",
+  "catalog_version": "2026-11-08",
+  "generated_at": "2026-11-08",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "56739d3c644368330085559d722c815d1f1d07676c98acd0f5214cdae5174ea8",
+      "value": "94632636a64628ef2b9430c724c271cea7960796f8b159e6e92ec3247fd1dec0",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -82,6 +82,7 @@
         "services/tool-access-and-integration/mcphub.md",
         "services/tool-access-and-integration/mcpjungle.md",
         "services/tool-access-and-integration/metamcp.md",
+        "services/tool-access-and-integration/mobbin.md",
         "services/tool-access-and-integration/nango.md",
         "services/tool-access-and-integration/obot.md",
         "services/tool-access-and-integration/openchatcut.md",
@@ -324,7 +325,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 288
+    "services": 289
   },
   "categories": [
     {
@@ -346,7 +347,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 29
+      "service_count": 30
     },
     {
       "id": "oversight-and-approval",
@@ -2496,6 +2497,43 @@
       "verified_at": "2026-10-20",
       "verification_sources": [
         "https://api.github.com/repos/metatool-ai/metamcp"
+      ]
+    },
+    {
+      "id": "tool-access-and-integration/mobbin",
+      "slug": "mobbin",
+      "name": "Mobbin",
+      "tagline": "The Design MCP Server for AI Agents",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "tool-access-and-integration",
+      "website": "https://mobbin.com/mcp",
+      "repository": "https://github.com/mobbin/skills",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mobbin.md",
+      "source_path": "services/tool-access-and-integration/mobbin.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": "Remote MCP (OAuth) + Agent Skills / marketplace plugins",
+        "instruction": "https://api.mobbin.com/mcp",
+        "url": "https://api.mobbin.com/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "https://mobbin.com/mcp og:title \"Mobbin MCP: The Design MCP Server for AI Agents\" HTTP 200. https://docs.mobbin.com/llms.txt HTTP 200. Remote MCP https://api.mobbin.com/mcp answered HTTP 401 without auth (OAuth-protected Streamable HTTP, expected). Official skills at npx skills add mobbin/skills. Dedicated Grok Bot / Cursor Marketplace plugin docs live",
+      "verified_at": "2026-11-08",
+      "verification_sources": [
+        "https://mobbin.com/mcp",
+        "https://docs.mobbin.com/llms.txt",
+        "https://api.mobbin.com/mcp"
       ]
     },
     {
