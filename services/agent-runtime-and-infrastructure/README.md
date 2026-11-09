@@ -58,6 +58,7 @@ The services in this category were purpose-built to fill this gap.
 | [UTA Trust API](uta-trust-api.md) [![⭐](https://img.shields.io/github/stars/alicelabs-llc/universal-trust-adapter?style=social)](https://github.com/alicelabs-llc/universal-trust-adapter) | The USB-C of agent trust — x402-paid verification of Agent Trust Cards | x402-gated REST · Ed25519/JCS fail-closed verifier · Rekor-anchored evidence · npm SDK + conformance CLI | N/A |
 | [deed.page](deed-page.md) [![⭐](https://img.shields.io/github/stars/f-o-x11/deed-page-skill?style=social)](https://github.com/f-o-x11/deed-page-skill) | Permanent static hosting for AI agents | REST API (OpenAPI 3.1), remote MCP (Streamable HTTP), URL onboarding (`skill.md`), Agent Skill | ✅ |
 | [three.ws](three-ws.md) [![⭐](https://img.shields.io/github/stars/nirholas/three.ws?style=social)](https://github.com/nirholas/three.ws) | The 3D Agent Layer of the Internet | Grok MCP, grok-skill.md, free forge/avatar, Apache-2.0 | ✅ |
+| [Lantern Works](lantern-works.md) | GPU price comparison for agents, checked daily | stdio MCP (`lantern-works-deals-mcp`), hosted Streamable HTTP MCP, JSON feeds | ✅ |
 
 
 

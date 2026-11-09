@@ -8,7 +8,7 @@ image: "/assets/images/editorial-runtime.webp"
 permalink: /categories/agent-runtime-and-infrastructure/
 page_kind: collection
 collection_number: "06"
-service_count: 37
+service_count: 38
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md">Collection notes ↗</a></p>
@@ -377,6 +377,20 @@ service_count: 37
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://thelanternworks.com" rel="noopener noreferrer">Lantern Works</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/lantern-works/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">GPU price comparison for agents, checked daily.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/lantern-works/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/lantern-works.md">Dossier ↗</a>
+      <a href="https://github.com/connormatthewdouglas/agent-work-stack-deals">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--service atlas-visual--12">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
     <h2 class="service-card__title"><a href="https://letta.com" rel="noopener noreferrer">Letta</a></h2>
     <p class="listing-source">Listed on <a href="{{ '/services/letta/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The fastest way to bring stateful agents to production.</p>
@@ -387,7 +401,7 @@ service_count: 37
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--12">
+  <article class="service-card atlas-sheet--service atlas-visual--13">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -401,7 +415,7 @@ service_count: 37
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--13">
+  <article class="service-card atlas-sheet--service atlas-visual--14">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -415,7 +429,7 @@ service_count: 37
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--14">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--15">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -429,7 +443,7 @@ service_count: 37
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--15">
+  <article class="service-card atlas-sheet--service atlas-visual--16">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -443,7 +457,7 @@ service_count: 37
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--16">
+  <article class="service-card atlas-sheet--arrival atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -457,7 +471,7 @@ service_count: 37
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--01">
+  <article class="service-card atlas-sheet--arrival atlas-visual--02">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -471,7 +485,7 @@ service_count: 37
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--02">
+  <article class="service-card atlas-sheet--arrival atlas-visual--03">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -485,7 +499,7 @@ service_count: 37
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--03">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--04">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -499,7 +513,7 @@ service_count: 37
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--04">
+  <article class="service-card atlas-sheet--arrival atlas-visual--05">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -513,7 +527,7 @@ service_count: 37
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--05">
+  <article class="service-card atlas-sheet--arrival atlas-visual--06">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>

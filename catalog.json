@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "58b23ba5fa07c60371de9c9085c025ce3d10bdd002a76978b9ad2bf04f596408",
+      "value": "7dbd7fb0fe9851d7749ead175afc281a3b27923d53e498189b9185c9a78ab09f",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -152,6 +152,7 @@
         "services/agent-runtime-and-infrastructure/fiserv-agentos.md",
         "services/agent-runtime-and-infrastructure/google-ax.md",
         "services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md",
+        "services/agent-runtime-and-infrastructure/lantern-works.md",
         "services/agent-runtime-and-infrastructure/letta.md",
         "services/agent-runtime-and-infrastructure/modal.md",
         "services/agent-runtime-and-infrastructure/multica.md",
@@ -327,7 +328,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 291
+    "services": 292
   },
   "categories": [
     {
@@ -370,7 +371,7 @@
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 37
+      "service_count": 38
     },
     {
       "id": "agent-harnesses-and-control-planes",
@@ -4649,6 +4650,36 @@
         "mcp",
         "rest",
         "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/lantern-works",
+      "slug": "lantern-works",
+      "name": "Lantern Works",
+      "tagline": "GPU price comparison for agents, checked daily.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://thelanternworks.com",
+      "repository": "https://github.com/connormatthewdouglas/agent-work-stack-deals",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/lantern-works.md",
+      "source_path": "services/agent-runtime-and-infrastructure/lantern-works.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP (local stdio package or hosted Streamable HTTP). No API key for the core tools.",
+        "instruction": "# MCP (stdio, PyPI package lantern-works-deals-mcp):\nAdd to mcp_servers: \"command\": \"uvx\", \"args\": [\"lantern-works-deals-mcp\"]\n\n# MCP (hosted Streamable HTTP):\nclaude mcp add --transport http lantern-works https://lantern-works-mcp.lantern-works.workers.dev/mcp\n\n# Agent guide:\nRead https://thelanternworks.com/for-agents/ and follow the install steps.",
+        "url": "https://lantern-works-mcp.lantern-works.workers.dev/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "stdio",
+        "http"
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",

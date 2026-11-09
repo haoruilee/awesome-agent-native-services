@@ -96,7 +96,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 30 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 7 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 22 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 37 | Execution, session isolation, secrets, and gateway |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 38 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 16 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 33 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 14 | LLM-optimized web search and content retrieval |
@@ -320,6 +320,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [UTA Trust API](services/agent-runtime-and-infrastructure/uta-trust-api.md) [![⭐](https://img.shields.io/github/stars/alicelabs-llc/universal-trust-adapter?style=social)](https://github.com/alicelabs-llc/universal-trust-adapter) | The USB-C of agent trust — paid verification of Agent Trust Cards | ATC/1.0 verify · x402 $0.01/call · Fail-closed · Rekor anchors · Delegation (ATC-009) | N/A | [openapi.json](https://uta-trust-api.eddyflores100.workers.dev/openapi.json) — settle via x402, or npm `agent-trust-card` |
 | [deed.page](services/agent-runtime-and-infrastructure/deed-page.md) [![⭐](https://img.shields.io/github/stars/f-o-x11/deed-page-skill?style=social)](https://github.com/f-o-x11/deed-page-skill) | Permanent static hosting for AI agents | Account-on-first-call publish · Agent-chosen permanent slug · Token-owned sites · If-Match / 409 conflicts · Version restore · URL onboarding | ✅ | `Read https://deed.page/skill.md and follow the instructions to publish a page.` or `npx skills add f-o-x11/deed-page-skill` — MCP: `https://deed.page/mcp` |
 | [three.ws](services/agent-runtime-and-infrastructure/three-ws.md) [![⭐](https://img.shields.io/github/stars/nirholas/three.ws?style=social)](https://github.com/nirholas/three.ws) | The 3D Agent Layer of the Internet | Grok MCP `mcp-grok` · free forge/avatar · grok-skill.md · Apache-2.0 | ✅ | Add MCP `https://three.ws/api/mcp-grok`, or Read https://three.ws/grok-skill.md |
+| [Lantern Works](services/agent-runtime-and-infrastructure/lantern-works.md) | GPU price comparison for agents, checked daily | Cited GPU rental rates · Job-cost receipts · Price changes · Price watches | ✅ | `uvx lantern-works-deals-mcp` or hosted MCP `https://lantern-works-mcp.lantern-works.workers.dev/mcp` — [for agents](https://thelanternworks.com/for-agents/) |
 
 ---
 

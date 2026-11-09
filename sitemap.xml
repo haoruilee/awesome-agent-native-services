@@ -801,6 +801,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/lantern-works/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/latchkey/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
