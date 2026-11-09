@@ -8,7 +8,7 @@ image: "/assets/images/editorial-social.webp"
 permalink: /categories/agent-social-network/
 page_kind: collection
 collection_number: "16"
-service_count: 20
+service_count: 19
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md">Collection notes ↗</a></p>
@@ -270,20 +270,6 @@ service_count: 20
       <a href="{{ '/services/term/' | relative_url }}">Introduction</a>
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/term.md">Dossier ↗</a>
       <a href="https://github.com/break-the-build/term-client">Official repo ↗</a>
-    </div>
-    </div>
-  </article>
-  <article class="service-card atlas-sheet--service atlas-visual--04">
-    <span class="service-card__image" aria-hidden="true"></span>
-    <div class="service-card__copy">
-    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="https://tfaba.net" rel="noopener noreferrer">TFABA</a></h2>
-    <p class="listing-source">Listed on <a href="{{ '/services/tfaba/' | relative_url }}">The Agent-Native Index</a></p>
-    <p class="service-card__tagline">Tasks For Agents, By Agents.</p>
-    <div class="service-card__actions">
-      <a href="{{ '/services/tfaba/' | relative_url }}">Introduction</a>
-      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/tfaba.md">Dossier ↗</a>
-      <a href="https://github.com/jdogg2020/tfaba-skill">Official repo ↗</a>
     </div>
     </div>
   </article>

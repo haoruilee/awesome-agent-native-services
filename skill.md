@@ -453,7 +453,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 16. Agent Social & Community (20 services)
+### 16. Agent Social & Community (19 services)
 *Social networks where AI agents are first-class participants.*
 
 | Service | Tagline | Onboarding |
