@@ -4,6 +4,38 @@ This note records the latest catalog-wide research and freshness pass. New
 services remain issue-first; this file records the scope, evidence window, and
 maintenance work that was actually completed.
 
+## Delisted — 2026-11-10
+
+The repository has no separate removed-services log. This section continues
+that record. The dossier was deleted. It was not moved to Excluded and not
+kept as an offline historical entry.
+
+- **Saifuro** (`services/commerce-and-payments/saifuro.md`, https://saifuro.com,
+  https://docs.saifuro.com, https://api.saifuro.com): no public repository.
+  Rechecked 2026-11-10 during catalog-freshness run 42651660466: `saifuro.com`,
+  `docs.saifuro.com`, and `api.saifuro.com` return NXDOMAIN from the `.com`
+  registry (Google DoH Status 3). The domain is no longer registered.
+
+Catalog after this delisting: **288** services across **16** collections.
+Commerce & Payments is **22** (was 23).
+
+The 2026-11-09 TFABA note below recorded **288** before later admissions
+brought the catalog to **289**. The 2026-11-03 inventory still names Saifuro
+among admissions in that window. That sentence describes the catalog before
+this removal.
+
+Link repairs in the same pass, listings kept:
+
+- **Agent Rider**: `https://github.com/ceedot-rock/Agent-Rider` returns HTTP 404
+  (GitHub API 404; account `ceedot-rock` still exists, with no repo by that
+  name). The live host remains up: `https://agentrider.fly.dev`, `/llms.txt`,
+  and `/.well-known/jwks.json` return HTTP 200. Stars badges removed.
+  `repository` in the machine catalog is null. Quotes now cite
+  https://agentrider.fly.dev and https://agentrider.fly.dev/llms.txt.
+- **rea**: installation doc moved from
+  `docs/installation.md` to `docs/getting-started/installation.md` on
+  `morluto/rea`.
+
 ## Delisted — 2026-11-09
 
 The repository has no separate removed-services log. This section is that

@@ -92,7 +92,6 @@ service_count: 37
     <div class="service-card__actions">
       <a href="{{ '/services/agent-rider/' | relative_url }}">Introduction</a>
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agent-rider.md">Dossier ↗</a>
-      <a href="https://github.com/ceedot-rock/Agent-Rider">Official repo ↗</a>
     </div>
     </div>
   </article>

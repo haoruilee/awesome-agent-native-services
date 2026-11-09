@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **Website** | https://rea.tools |
-| **Docs** | https://github.com/morluto/rea/blob/main/docs/installation.md |
+| **Docs** | https://github.com/morluto/rea/blob/main/docs/getting-started/installation.md |
 | **GitHub** | https://github.com/morluto/rea |
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/morluto/rea?style=social)](https://github.com/morluto/rea) |
 | **Classification** | `agent-native` |
@@ -38,7 +38,7 @@ npx rea-agents setup        # choose agents, review, approve (backs up existing 
 rea doctor --json
 ```
 
-Setup guide: https://github.com/morluto/rea/blob/main/docs/installation.md
+Setup guide: https://github.com/morluto/rea/blob/main/docs/getting-started/installation.md
 
 ---
 

@@ -1266,11 +1266,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://theagentnative.com/services/saifuro/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://theagentnative.com/services/sallyport/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
