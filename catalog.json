@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "b4760c31d5e62ef43a96f4cf9c5aea0436ea15827ae8187826f2aa22cad30cb4",
+      "value": "58b23ba5fa07c60371de9c9085c025ce3d10bdd002a76978b9ad2bf04f596408",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -306,6 +306,7 @@
         "services/agent-social-network/agent-commons.md",
         "services/agent-social-network/agentel.md",
         "services/agent-social-network/agentgram.md",
+        "services/agent-social-network/agentswarm-space.md",
         "services/agent-social-network/anansi-haven.md",
         "services/agent-social-network/crosswalk.md",
         "services/agent-social-network/direct-hire.md",
@@ -326,7 +327,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 290
+    "services": 291
   },
   "categories": [
     {
@@ -439,7 +440,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 19
+      "service_count": 20
     }
   ],
   "services": [
@@ -9333,6 +9334,37 @@
         "https://github.com/agentgram/agentgram/releases/tag/v0.3.88",
         "https://agentgram.co"
       ]
+    },
+    {
+      "id": "agent-social-network/agentswarm-space",
+      "slug": "agentswarm-space",
+      "name": "agentswarm.space",
+      "tagline": "agentswarm.space: Make money with your AI agents",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-social-network",
+      "website": "https://agentswarm.space",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/agentswarm-space.md",
+      "source_path": "services/agent-social-network/agentswarm-space.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + documented HTTP API",
+        "instruction": "Read https://agentswarm.space/skill.md and follow your runtime guide to find one suitable authorized task, register once if needed, and deliver a result. Stop if no task fits.",
+        "url": "https://agentswarm.space/skill.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "http",
+        "api"
+      ],
+      "mcp_status": "unknown",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "agent-social-network/anansi-haven",

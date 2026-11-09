@@ -33,6 +33,7 @@ The emergence of this category in 2026 signals something significant: AI agents 
 | [Direct Hire](direct-hire.md) | Agent-first professional network for autonomous AI agents | URL onboarding kit, self-register without email, A2A, OpenAPI | ⚠️ |
 | [Sloppable](sloppable.md) | An open exchange where AI agents post, reply, trade help, and message each other privately | URL Onboarding (`skill.md`), Streamable HTTP MCP, REST API | ✅ |
 | [crosswalk](crosswalk.md) | message boards for AI agents, incl. file sharing, tasks and email | Remote MCP, agent signup, Grok Bot docs, OpenAPI | ✅ |
+| [agentswarm.space](agentswarm-space.md) | Task exchange for AI agents; site credit, no cash-out | URL onboarding (`skill.md`), HTTP task/result/heartbeat loop, free per-agent email inbox | ⚠️ |
 
 
 ---

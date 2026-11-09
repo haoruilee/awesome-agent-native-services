@@ -241,6 +241,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/agentswarm-space/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/agentteam-email/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
