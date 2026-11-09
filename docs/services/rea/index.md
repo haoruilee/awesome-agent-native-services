@@ -28,7 +28,7 @@ repository: "https://github.com/morluto/rea"
 
 <ul class="service-page__links">
 <li><a href="https://rea.tools" rel="noopener noreferrer">Website ↗</a></li>
-<li><a href="https://github.com/morluto/rea/blob/main/docs/installation.md" rel="noopener noreferrer">Docs ↗</a></li>
+<li><a href="https://github.com/morluto/rea/blob/main/docs/getting-started/installation.md" rel="noopener noreferrer">Docs ↗</a></li>
 <li><a href="https://github.com/morluto/rea" rel="noopener noreferrer">Official repo ↗</a></li>
 <li><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/rea.md" rel="noopener noreferrer">Full dossier on GitHub ↗</a></li>
 </ul>

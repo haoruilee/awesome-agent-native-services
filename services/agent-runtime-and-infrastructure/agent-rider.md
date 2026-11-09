@@ -6,11 +6,10 @@
 |---|---|
 | **Website** | https://agentrider.fly.dev |
 | **Docs** | https://agentrider.fly.dev/docs |
-| **GitHub** | https://github.com/ceedot-rock/Agent-Rider |
-| **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/ceedot-rock/Agent-Rider?style=social)](https://github.com/ceedot-rock/Agent-Rider) |
+| **GitHub** | None — public repository no longer available (404 as of 2026-11-10) |
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
-| **License** | AGPL-3.0-or-later OR Slid Phi Labs Commercial License. GitHub's license API reports SPDX `NOASSERTION` (`Other`) |
+| **License** | Previously documented as AGPL-3.0-or-later OR Slid Phi Labs Commercial License. The public repository that reported SPDX `NOASSERTION` (`Other`) is no longer available (404 as of 2026-11-10) |
 | **Publisher** | Slid Phi Labs. The proposal author disclosed that they built Agent Rider |
 | **Verified at** | 2026-10-09 |
 | **Latest-month signal** | Live host, `/.well-known/agent.json`, and `/.well-known/jwks.json` returned HTTP 200. `POST /api/mcp` `initialize` named the server `AgentRider`. `tools/list` returned 66 tools. https://agentrider.fly.dev |
@@ -21,15 +20,15 @@
 
 https://agentrider.fly.dev
 
-The live host is this Fly deployment. The repository README says not to use a `vercel.app` host.
+The live host is this Fly deployment. The former repository README said not to use a `vercel.app` host; that repository 404s as of 2026-11-10.
 
 ---
 
 ## Official Repo
 
-https://github.com/ceedot-rock/Agent-Rider
+None — public repository no longer available (404 as of 2026-11-10).
 
-The public npm client is `@slidphi/agent-rider` (registry `latest` 0.1.0 on 2026-10-09). Operator join, payment-path, and quickstart docs live in that repository under `docs/`.
+The public npm client is `@slidphi/agent-rider` (registry `latest` 0.1.0 on 2026-10-09). Operator join, payment-path, and quickstart material that used to live under `docs/` in that repository is cited from the live host at https://agentrider.fly.dev/llms.txt.
 
 ---
 
@@ -39,7 +38,7 @@ The public npm client is `@slidphi/agent-rider` (registry `latest` 0.1.0 on 2026
 
 **Interaction pattern:** `URL Onboarding`
 
-The live `llms.txt` tells an agent to register, mint a short-lived signed rider, verify it locally, and DM by `agent_id`. The step-by-step seat path is [OPERATOR_JOIN.md](https://github.com/ceedot-rock/Agent-Rider/blob/main/docs/OPERATOR_JOIN.md). `/.well-known/agent.json` is the capability manifest (identity, JWKS, MCP, and what is parked), not the join procedure itself.
+The live [llms.txt](https://agentrider.fly.dev/llms.txt) tells an agent to register, mint a short-lived signed rider, verify it locally, and DM by `agent_id`. That document is the seat path. `/.well-known/agent.json` is the capability manifest (identity, JWKS, MCP, and what is parked), not the join procedure itself.
 
 **One-sentence instruction:**
 
@@ -72,7 +71,7 @@ Send the returned JWT as `X-Agent-Rider`. Peers verify it against https://agentr
 
 **Status:** ⚠️ Not yet published
 
-No `SKILL.md` is published in the repository. The agent entry points are `llms.txt`, `agents.txt`, and `/.well-known/agent.json`.
+No `SKILL.md` is published on the live host. The agent entry points are `llms.txt`, `agents.txt`, and `/.well-known/agent.json`.
 
 ```bash
 npx clawhub@latest search agent-rider
@@ -101,9 +100,9 @@ Agent Rider issues a short-lived ES256 JWT — a rider — for an agent seat. Th
 
 A seat from `POST /api/agents` gets an `ar_` API key, shown once. That key mints riders capped at L1. L2–L4 require a paid merchant key (`X-Merchant-Key`), not self-issue. Agent-to-agent DMs are addressed by `agent_id` (`POST /api/dm`, `GET /api/dm/{agentId}`), and the same actions exist as MCP tools.
 
-The repository and the live manifest split what is running from what is not. Live, as they state it: signed rider identity, agent DMs, and XPay hop settle on Base USDC via x402. Parked or planned, and not to be described as live: AMP settle, file share, and host attestation. A signed rider is not KYC. Board credits are not hop currency; the payment-path doc says `credits:` on hop settle returns 410.
+The live host and its manifest split what is running from what is not. Live, as they state it: signed rider identity, agent DMs, and XPay hop settle on Base USDC via x402. Parked or planned, and not to be described as live: AMP settle, file share, and host attestation. A signed rider is not KYC. Board credits are not hop currency; the payment-path material says `credits:` on hop settle returns 410.
 
-Merchant pricing is not consistent across current surfaces, so this entry does not pick a monthly price. The homepage describes a 7-day free period and $0.15 per merchant-key status check after 69 included checks. `llms.txt` also describes an original merchant gate at $11.99/month after that trial. The GitHub repository description says `Team $79/mo · $790/yr`. Self-service L1 registration is documented as not requiring that merchant subscription.
+Merchant pricing is not consistent across current surfaces, so this entry does not pick a monthly price. The homepage describes a 7-day free period and $0.15 per merchant-key status check after 69 included checks. `llms.txt` also describes an original merchant gate at $11.99/month after that trial. The former public repository description said `Team $79/mo · $790/yr`; that repository 404s as of 2026-11-10, so the line cannot be re-checked. Self-service L1 registration is documented as not requiring that merchant subscription.
 
 ---
 
@@ -111,8 +110,8 @@ Merchant pricing is not consistent across current surfaces, so this entry does n
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | "Agent Rider is a network where AI agents operate under their own signed names. Every agent holds a signed identity credential that other agents can check on the spot — no calling home to ask who someone is." — [README](https://github.com/ceedot-rock/Agent-Rider/blob/main/README.md). Homepage: "Agent^Rider issues a signed, tamper-evident credential for each agent your fleet runs." — [agentrider.fly.dev](https://agentrider.fly.dev) |
-| **Agent-specific primitive** | The rider JWT: a short-lived ES256 credential with `agent_id`, clearance, and scopes, checked against a published JWKS. A human session cookie is not something a peer verifies offline. [OPERATOR_JOIN.md](https://github.com/ceedot-rock/Agent-Rider/blob/main/docs/OPERATOR_JOIN.md) |
+| **Agent-first positioning** | "Agent Rider is a network where AI agents operate under their own signed names. Every agent holds a signed identity credential that other agents can check on the spot — no calling home to ask who someone is." — [agentrider.fly.dev](https://agentrider.fly.dev). Homepage: "Agent^Rider issues a signed, tamper-evident credential for each agent your fleet runs." — [agentrider.fly.dev](https://agentrider.fly.dev) |
+| **Agent-specific primitive** | The rider JWT: a short-lived ES256 credential with `agent_id`, clearance, and scopes, checked against a published JWKS. A human session cookie is not something a peer verifies offline. [llms.txt](https://agentrider.fly.dev/llms.txt) |
 | **Autonomy-compatible control plane** | Self-service `POST /api/agents` then `POST /api/rider/issue` is documented for an agent seat at L1, with no approval click on the mint. Missing or invalid riders return 401 JSON that includes `issue_url` and `docs_url`. Higher clearance is a merchant key, not a per-call prompt |
 | **M2M integration surface** | REST on the live host, remote MCP at `/api/mcp`, JWKS, `/.well-known/agent.json`, `llms.txt`, and the npm client `@slidphi/agent-rider` |
 | **Identity / delegation** | Each seat has its own `agent_id` and vaulted `ar_` key. The JWT names the operator and the clearance. Self-service cannot mint above L1. DMs are attributed to `agent_id`. The docs say the signature is not KYC |
@@ -134,7 +133,7 @@ Merchant pricing is not consistent across current surfaces, so this entry does n
 
 ## Autonomy Model
 
-1. The agent reads https://agentrider.fly.dev/llms.txt and the operator-join doc.
+1. The agent reads https://agentrider.fly.dev/llms.txt.
 2. It registers a seat with `POST /api/agents` (`type` `agent`) and vaults the `ar_` key from the response.
 3. It mints an L1 rider with `POST /api/rider/issue` and caches the JWT until `expires_in`.
 4. It presents `X-Agent-Rider` on DMs and other gated routes. No human confirms each call.
@@ -160,7 +159,7 @@ Merchant pricing is not consistent across current surfaces, so this entry does n
 
 | Interface | Detail |
 |---|---|
-| URL onboarding | https://agentrider.fly.dev/llms.txt and [OPERATOR_JOIN.md](https://github.com/ceedot-rock/Agent-Rider/blob/main/docs/OPERATOR_JOIN.md) |
+| URL onboarding | https://agentrider.fly.dev/llms.txt |
 | Manifest | https://agentrider.fly.dev/.well-known/agent.json |
 | REST | `POST /api/agents`, `POST /api/rider/issue`, `POST /api/rider/verify`, `POST /api/dm`, `GET /api/dm/{agentId}`, `POST /api/settle` |
 | JWKS | https://agentrider.fly.dev/.well-known/jwks.json |

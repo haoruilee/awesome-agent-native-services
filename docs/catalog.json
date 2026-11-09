@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "d1ee17f17b1e6a85c417767253b49d8ba20f808d45034036b8d86d178b5ed02e",
+      "value": "40ed8088aa57f196d362e04652805d041271106a5e5b3629e8285a2b037506a2",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -119,7 +119,6 @@
         "services/commerce-and-payments/openlibx402.md",
         "services/commerce-and-payments/payman-ai.md",
         "services/commerce-and-payments/priors.md",
-        "services/commerce-and-payments/saifuro.md",
         "services/commerce-and-payments/secondsign-core.md",
         "services/commerce-and-payments/send21.md",
         "services/commerce-and-payments/shinjuku-shield.md",
@@ -325,7 +324,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 289
+    "services": 288
   },
   "categories": [
     {
@@ -361,7 +360,7 @@
       "name": "Commerce & Payments",
       "description": "Services that give AI agents a verified financial identity and the ability to transact in the real economy — paying for services, moving money, and being recognized as a legitimate, accountable economic actor.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/README.md",
-      "service_count": 23
+      "service_count": 22
     },
     {
       "id": "agent-runtime-and-infrastructure",
@@ -2650,7 +2649,7 @@
         "type": "mcp",
         "pattern": "MCP (stdio) + CLI + agent workflow instructions",
         "instruction": "# Preview the config changes first, then apply\nnpx -y rea-agents setup --dry-run\nnpx rea-agents setup        # choose agents, review, approve (backs up existing config)\n# restart the agent, then verify\nrea doctor --json",
-        "url": "https://github.com/morluto/rea/blob/main/docs/installation.md"
+        "url": "https://github.com/morluto/rea/blob/main/docs/getting-started/installation.md"
       },
       "protocols": [
         "agent-skill",
@@ -3630,40 +3629,6 @@
       ]
     },
     {
-      "id": "commerce-and-payments/saifuro",
-      "slug": "saifuro",
-      "name": "Saifuro",
-      "tagline": "The financial OS for the AI agent economy.",
-      "classification": "agent-native",
-      "status": "listed",
-      "lifecycle_status": "unknown",
-      "category": "commerce-and-payments",
-      "website": "https://saifuro.com",
-      "repository": null,
-      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/saifuro.md",
-      "source_path": "services/commerce-and-payments/saifuro.md",
-      "onboarding": {
-        "type": "cli",
-        "pattern": null,
-        "instruction": "curl -s https://api.saifuro.com/v1/authorizations \\\n  -H \"Authorization: Bearer $SAIFURO_AGENT_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{ \"amount\": 120.00, \"currency\": \"USD\", \"recipient\": \"vendor:acme_saas\", \"category\": \"saas\" }'",
-        "url": "https://api.saifuro.com/v1/authorizations"
-      },
-      "protocols": [
-        "rest",
-        "webhook",
-        "cli",
-        "acp",
-        "api"
-      ],
-      "mcp_status": "unknown",
-      "agent_skill_status": "unavailable",
-      "latest_month_signal": null,
-      "verified_at": "2026-10-05",
-      "verification_sources": [
-        "https://saifuro.com"
-      ]
-    },
-    {
       "id": "commerce-and-payments/secondsign-core",
       "slug": "secondsign-core",
       "name": "SecondSign Core",
@@ -3973,7 +3938,7 @@
       "lifecycle_status": "active",
       "category": "agent-runtime-and-infrastructure",
       "website": "https://agentrider.fly.dev",
-      "repository": "https://github.com/ceedot-rock/Agent-Rider",
+      "repository": null,
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agent-rider.md",
       "source_path": "services/agent-runtime-and-infrastructure/agent-rider.md",
       "onboarding": {

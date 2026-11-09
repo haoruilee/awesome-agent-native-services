@@ -15,13 +15,12 @@ dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/ma
 tagline: "Stop making your agents re-prove themselves every time"
 verified_at: "2026-10-09"
 website: "https://agentrider.fly.dev"
-repository: "https://github.com/ceedot-rock/Agent-Rider"
 ---
 
 <ul class="service-page__chips">
 <li><span class="service-page__chip-label">Collection</span><span class="service-page__chip-value">Agent Runtime &amp; Infrastructure</span></li>
 <li><span class="service-page__chip-label">Classification</span><span class="service-page__chip-value">agent-native</span></li>
-<li><span class="service-page__chip-label">License</span><span class="service-page__chip-value">AGPL-3.0-or-later OR Slid Phi Labs Commercial License. GitHub&#x27;s license API reports SPDX NOASSERTION (Other)</span></li>
+<li><span class="service-page__chip-label">License</span><span class="service-page__chip-value">Previously documented as AGPL-3.0-or-later OR Slid Phi Labs Commercial License. The public repository that reported SPDX NOASSERTION (Other) is no longer available (404 as of 2026-11-10)</span></li>
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">URL onboarding · MCP · REST · SDK · http · API</span></li>
@@ -31,7 +30,6 @@ repository: "https://github.com/ceedot-rock/Agent-Rider"
 <ul class="service-page__links">
 <li><a href="https://agentrider.fly.dev" rel="noopener noreferrer">Website ↗</a></li>
 <li><a href="https://agentrider.fly.dev/docs" rel="noopener noreferrer">Docs ↗</a></li>
-<li><a href="https://github.com/ceedot-rock/Agent-Rider" rel="noopener noreferrer">Official repo ↗</a></li>
 <li><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/agent-rider.md" rel="noopener noreferrer">Full dossier on GitHub ↗</a></li>
 </ul>
 
@@ -41,9 +39,9 @@ Agent Rider issues a short-lived ES256 JWT — a rider — for an agent seat. Th
 
 A seat from `POST /api/agents` gets an `ar_` API key, shown once. That key mints riders capped at L1. L2–L4 require a paid merchant key (`X-Merchant-Key`), not self-issue. Agent-to-agent DMs are addressed by `agent_id` (`POST /api/dm`, `GET /api/dm/{agentId}`), and the same actions exist as MCP tools.
 
-The repository and the live manifest split what is running from what is not. Live, as they state it: signed rider identity, agent DMs, and XPay hop settle on Base USDC via x402. Parked or planned, and not to be described as live: AMP settle, file share, and host attestation. A signed rider is not KYC. Board credits are not hop currency; the payment-path doc says `credits:` on hop settle returns 410.
+The live host and its manifest split what is running from what is not. Live, as they state it: signed rider identity, agent DMs, and XPay hop settle on Base USDC via x402. Parked or planned, and not to be described as live: AMP settle, file share, and host attestation. A signed rider is not KYC. Board credits are not hop currency; the payment-path material says `credits:` on hop settle returns 410.
 
-Merchant pricing is not consistent across current surfaces, so this entry does not pick a monthly price. The homepage describes a 7-day free period and $0.15 per merchant-key status check after 69 included checks. `llms.txt` also describes an original merchant gate at $11.99/month after that trial. The GitHub repository description says `Team $79/mo · $790/yr`. Self-service L1 registration is documented as not requiring that merchant subscription.
+Merchant pricing is not consistent across current surfaces, so this entry does not pick a monthly price. The homepage describes a 7-day free period and $0.15 per merchant-key status check after 69 included checks. `llms.txt` also describes an original merchant gate at $11.99/month after that trial. The former public repository description said `Team $79/mo · $790/yr`; that repository 404s as of 2026-11-10, so the line cannot be re-checked. Self-service L1 registration is documented as not requiring that merchant subscription.
 
 ---
 
@@ -69,7 +67,7 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 | Interface | Detail |
 |---|---|
-| URL onboarding | https://agentrider.fly.dev/llms.txt and [OPERATOR_JOIN.md](https://github.com/ceedot-rock/Agent-Rider/blob/main/docs/OPERATOR_JOIN.md) |
+| URL onboarding | https://agentrider.fly.dev/llms.txt |
 | Manifest | https://agentrider.fly.dev/.well-known/agent.json |
 | REST | `POST /api/agents`, `POST /api/rider/issue`, `POST /api/rider/verify`, `POST /api/dm`, `GET /api/dm/{agentId}`, `POST /api/settle` |
 | JWKS | https://agentrider.fly.dev/.well-known/jwks.json |
