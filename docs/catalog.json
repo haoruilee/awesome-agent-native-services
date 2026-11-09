@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-08",
-  "generated_at": "2026-11-08",
+  "catalog_version": "2026-11-09",
+  "generated_at": "2026-11-09",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "40ed8088aa57f196d362e04652805d041271106a5e5b3629e8285a2b037506a2",
+      "value": "b4760c31d5e62ef43a96f4cf9c5aea0436ea15827ae8187826f2aa22cad30cb4",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -178,6 +178,7 @@
         "services/agent-harnesses-and-control-planes/qm.md",
         "services/agent-harnesses-and-control-planes/reef.md",
         "services/agent-harnesses-and-control-planes/ruflo.md",
+        "services/agent-harnesses-and-control-planes/sqwakie.md",
         "services/agent-harnesses-and-control-planes/txcript.md",
         "services/agent-harnesses-and-control-planes/yylo.md",
         "services/memory-and-state/README.md",
@@ -218,6 +219,7 @@
         "services/search-and-web-intelligence/agent-search-mcp.md",
         "services/search-and-web-intelligence/context7.md",
         "services/search-and-web-intelligence/contextx.md",
+        "services/search-and-web-intelligence/datawebot.md",
         "services/search-and-web-intelligence/exa.md",
         "services/search-and-web-intelligence/jina-deepsearch.md",
         "services/search-and-web-intelligence/jina-reader.md",
@@ -324,7 +326,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 288
+    "services": 290
   },
   "categories": [
     {
@@ -374,7 +376,7 @@
       "name": "Agent Harnesses & Operator Surfaces",
       "description": "Systems purpose-built around running agents: either harnesses that add durable work state, orchestration, verification, and policy, or operator surfaces that expose live agent state and bounded session controls.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/README.md",
-      "service_count": 15
+      "service_count": 16
     },
     {
       "id": "memory-and-state",
@@ -388,7 +390,7 @@
       "name": "Search & Web Intelligence",
       "description": "Services that give AI agents optimized, structured access to web information — returning AI-ready content tuned for LLM context windows, not raw HTML or human-readable SERPs.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/README.md",
-      "service_count": 13
+      "service_count": 14
     },
     {
       "id": "code-execution",
@@ -5456,6 +5458,42 @@
       ]
     },
     {
+      "id": "agent-harnesses-and-control-planes/sqwakie",
+      "slug": "sqwakie",
+      "name": "Sqwakie",
+      "tagline": "A walkie-talkie for your team's AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-harnesses-and-control-planes",
+      "website": "https://sqwakie.si",
+      "repository": "https://github.com/alexcarney460-hue/walkie",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/sqwakie.md",
+      "source_path": "services/agent-harnesses-and-control-planes/sqwakie.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": "CLI",
+        "instruction": "curl -fsSL https://sqwakie.si/install.sh | sh",
+        "url": "https://sqwakie.si/install.sh"
+      },
+      "protocols": [
+        "mcp",
+        "cli",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Homepage and agents.md HTTP 200 on 2026-11-09. llms.txt HTTP 200. No skill.md on the site (HTTP 404). Installer pin v0.2.0-pre.21. Source repo last push 2026-10-26",
+      "verified_at": "2026-11-09",
+      "verification_sources": [
+        "https://sqwakie.si/",
+        "https://sqwakie.si/agents.md",
+        "https://sqwakie.si/llms.txt"
+      ]
+    },
+    {
       "id": "agent-harnesses-and-control-planes/txcript",
       "slug": "txcript",
       "name": "txcript",
@@ -6701,6 +6739,47 @@
       "verification_sources": [
         "https://mcp.twitter.monster/mcp",
         "https://api.github.com/repos/akasakariko/ContextX"
+      ]
+    },
+    {
+      "id": "search-and-web-intelligence/datawebot",
+      "slug": "datawebot",
+      "name": "datawebot",
+      "tagline": "The world's ecommerce. One MCP.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "search-and-web-intelligence",
+      "website": "https://www.datawebot.com",
+      "repository": "https://github.com/datawebot/datawebot-mcp",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/datawebot.md",
+      "source_path": "services/search-and-web-intelligence/datawebot.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://mcp.datawebot.com/setup.md and follow the instructions.",
+        "url": "https://mcp.datawebot.com/setup.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Homepage, setup.md, llms.txt, SKILL.md and openapi.json HTTP 200 on 2026-11-09. Unauthenticated POST https://mcp.datawebot.com/mcp returned HTTP 401 login_required with OAuth WWW-Authenticate. Connection-kit repo last push 2026-11-02. npm @datawebot/cli latest 0.1.4",
+      "verified_at": "2026-11-09",
+      "verification_sources": [
+        "https://mcp.datawebot.com/setup.md",
+        "https://www.datawebot.com/llms.txt",
+        "https://www.datawebot.com/SKILL.md",
+        "https://www.datawebot.com/openapi.json",
+        "https://mcp.datawebot.com/mcp"
       ]
     },
     {

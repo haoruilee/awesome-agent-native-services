@@ -566,6 +566,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/datawebot/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/db9/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1357,6 +1362,11 @@
   </url>
   <url>
     <loc>https://theagentnative.com/services/sondera-coding-agent-hooks/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/services/sqwakie/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

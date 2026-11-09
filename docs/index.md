@@ -3,9 +3,9 @@ title: "Awesome Agent-Native Services"
 description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
 image: /assets/images/social-preview-wide.webp
 page_kind: home
-service_count: 288
+service_count: 290
 collection_count: 16
-new_arrivals_count: 104
+new_arrivals_count: 106
 ---
 
 <section id="new-arrivals" aria-labelledby="new-arrivals-title">
@@ -771,11 +771,27 @@ new_arrivals_count: 104
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Search &amp; Web Intelligence</span>
+        <a class="arrival-card__name" href="https://www.datawebot.com" rel="noopener noreferrer">datawebot</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/datawebot/' | relative_url }}">The Agent-Native Index</a></span>
+      </span>
+    </article>
+    <article class="arrival-card atlas-sheet--service atlas-visual--16">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Search &amp; Web Intelligence</span>
         <a class="arrival-card__name" href="https://serpkite.com" rel="noopener noreferrer">SerpKite</a>
         <span class="listing-source">Listed on <a href="{{ '/services/serpkite/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--service atlas-visual--16">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--01">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
+        <a class="arrival-card__name" href="https://sqwakie.si" rel="noopener noreferrer">Sqwakie</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/sqwakie/' | relative_url }}">The Agent-Native Index</a></span>
+      </span>
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--02">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
@@ -783,7 +799,7 @@ new_arrivals_count: 104
         <span class="listing-source">Listed on <a href="{{ '/services/send21/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--01">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--03">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
@@ -791,7 +807,7 @@ new_arrivals_count: 104
         <span class="listing-source">Listed on <a href="{{ '/services/veyra/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--02">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--04">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Tool Access &amp; Integration</span>
@@ -799,7 +815,7 @@ new_arrivals_count: 104
         <span class="listing-source">Listed on <a href="{{ '/services/tadka/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--03">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--05">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
@@ -807,7 +823,7 @@ new_arrivals_count: 104
         <span class="listing-source">Listed on <a href="{{ '/services/three-ws/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--04">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--06">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
@@ -815,7 +831,7 @@ new_arrivals_count: 104
         <span class="listing-source">Listed on <a href="{{ '/services/inam-protocol/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--05">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--07">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
@@ -823,7 +839,7 @@ new_arrivals_count: 104
         <span class="listing-source">Listed on <a href="{{ '/services/402xagent/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--06">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--08">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
@@ -831,7 +847,7 @@ new_arrivals_count: 104
         <span class="listing-source">Listed on <a href="{{ '/services/tencentdb-agent-memory/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--07">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--09">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Observability &amp; Tracing</span>
@@ -839,7 +855,7 @@ new_arrivals_count: 104
         <span class="listing-source">Listed on <a href="{{ '/services/orcareplay/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--08">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--10">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
@@ -872,7 +888,7 @@ new_arrivals_count: 104
   <div class="section-intro">
     <span class="section-number">02</span>
     <h2 class="section-title" id="collections-title">The collections</h2>
-    <p class="section-note">16 fields · 288 dossiers</p>
+    <p class="section-note">16 fields · 290 dossiers</p>
   </div>
   <div class="collection-grid">
     <a class="collection-card atlas-visual--01" href="{{ '/categories/communication/' | relative_url }}">
@@ -928,7 +944,7 @@ new_arrivals_count: 104
       <span class="collection-card__copy">
       <span class="collection-card__number">07</span>
       <span class="collection-card__title">Agent Harnesses &amp; Operator Surfaces</span>
-      <span class="collection-card__count">15</span>
+      <span class="collection-card__count">16</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--08" href="{{ '/categories/memory-and-state/' | relative_url }}">
@@ -944,7 +960,7 @@ new_arrivals_count: 104
       <span class="collection-card__copy">
       <span class="collection-card__number">09</span>
       <span class="collection-card__title">Search &amp; Web Intelligence</span>
-      <span class="collection-card__count">13</span>
+      <span class="collection-card__count">14</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--10" href="{{ '/categories/code-execution/' | relative_url }}">

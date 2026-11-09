@@ -1,6 +1,6 @@
 ---
 title: "Agent-Native Collections"
-description: "Browse 288 agent-native services across 16 curated infrastructure collections."
+description: "Browse 290 agent-native services across 16 curated infrastructure collections."
 permalink: /categories/
 page_kind: document
 ---
@@ -59,7 +59,7 @@ page_kind: document
     <span class="collection-card__copy">
     <span class="collection-card__number">07</span>
     <span class="collection-card__title">Agent Harnesses &amp; Operator Surfaces</span>
-    <span class="collection-card__count">15</span>
+    <span class="collection-card__count">16</span>
     </span>
   </a>
   <a class="collection-card atlas-visual--08" href="{{ '/categories/memory-and-state/' | relative_url }}">
@@ -75,7 +75,7 @@ page_kind: document
     <span class="collection-card__copy">
     <span class="collection-card__number">09</span>
     <span class="collection-card__title">Search &amp; Web Intelligence</span>
-    <span class="collection-card__count">13</span>
+    <span class="collection-card__count">14</span>
     </span>
   </a>
   <a class="collection-card atlas-visual--10" href="{{ '/categories/code-execution/' | relative_url }}">
