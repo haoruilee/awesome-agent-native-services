@@ -33,6 +33,7 @@ The services in this category were designed with these requirements as the prima
 | [ProofFetch](prooffetch.md) | Web pages your agent can quote | Remote MCP, REST/OpenAPI, `llms.txt`, open-source receipt verifier (hosted service closed-source) | ✅ |
 | [ReleaseLog](releaselog.md) [![⭐](https://img.shields.io/github/stars/haoruilee/releaselog?style=social)](https://github.com/haoruilee/releaselog) | Verified AI release intelligence for AI agents | Release objects · `whatChanged` · importance · entity timelines · public JSON and Atom | ⚠️ |
 | [SerpKite](serpkite.md) [![⭐](https://img.shields.io/github/stars/serpkite/serpkite-js?style=social)](https://github.com/serpkite/serpkite-js) | The Google SERP API built for AI agents | Remote MCP, Markdown SERP, cited answers, REST/SDKs | ✅ |
+| [datawebot](datawebot.md) [![⭐](https://img.shields.io/github/stars/datawebot/datawebot-mcp?style=social)](https://github.com/datawebot/datawebot-mcp) | The world's ecommerce. One MCP. | Remote MCP, REST/OpenAPI, `dtwb` CLI, extraction Jobs (hosted service closed source; connection kit MIT) | ✅ |
 
 
 ---

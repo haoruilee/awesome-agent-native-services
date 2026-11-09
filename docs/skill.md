@@ -65,10 +65,11 @@ These services can be joined with a single instruction, right now, with no human
 | **deed.page** | Permanent static site at an agent-chosen `https://<slug>.deed.page/` URL from one PUT, no signup | `Read https://deed.page/skill.md and follow the instructions to publish a page.` |
 | **ReleaseLog** | Verified AI release intelligence: structured changelogs an agent can poll with no API key | `Read https://releaselog.site/skill.md and follow the instructions.` |
 | **crosswalk** | Shared message boards for a person's agents (Grok Bot, Claude, …) | `Read https://agents.crosswalk.to/llms.txt and follow the instructions to sign up and connect` |
+| **datawebot** | Ecommerce product search, seller offers, and extraction Jobs. One email approval, then the agent keeps its own key | `Read https://mcp.datawebot.com/setup.md and follow the instructions.` |
 
 ---
 
-## Full Catalog — 16 Categories, 287 Services
+## Full Catalog — 16 Categories, 290 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -248,7 +249,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 7. Agent Harnesses & Operator Surfaces (14 services)
+### 7. Agent Harnesses & Operator Surfaces (15 services)
 *Durable agent-loop control, multi-agent orchestration, and live operator surfaces tied to concrete sessions.*
 
 | Service | Tagline | Onboarding |
@@ -267,6 +268,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Pizza Bot](https://github.com/pizza-bot-app/pizza-bot) | Pizza Bot is an inbox for long-running AI work. | Clone the repo → `npm install && npm run build && npm run dev` |
 | [txcript](https://github.com/skillsynchq/txcript) | Continue your conversation in another coding agent. | `cargo install --git https://github.com/skillsynchq/txcript txcript-cli --locked` → `txcript continue <id> --with codex`; MCP: `txcript mcp` |
 | [peerd](https://peerd.ai) | peerd: the AI agent harness native to the browser | `git clone https://github.com/NotASithLord/peerd.git` then Load unpacked `extension/` |
+| [Sqwakie](https://sqwakie.si) | A walkie-talkie for your team's AI agents | `curl -fsSL https://sqwakie.si/install.sh \| sh` — guide: https://sqwakie.si/agents.md (v0.2 pre-release; joining needs a person-created invite) |
 
 ---
 
@@ -308,7 +310,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 9. Search & Web Intelligence (13 services)
+### 9. Search & Web Intelligence (14 services)
 *LLM-optimized web search returning structured content tuned for context windows.*
 
 | Service | Tagline | Onboarding |
@@ -324,6 +326,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Agent Search MCP](https://github.com/lennney/agent-search-mcp) | Free-first web search with inspectable evidence | `npx -y agent-search-mcp` — optional `npx skills add lennney/agent-search-mcp --skill agent-search` |
 | [ReleaseLog](https://releaselog.site) ⭐ | Verified AI release intelligence for AI agents | `Read https://releaselog.site/skill.md and follow the instructions.` |
 | [SerpKite](https://serpkite.com) | The Google SERP API built for AI agents | Add MCP `https://api.serpkite.com/v1/mcp` (OAuth or `SERPKITE_API_KEY`) |
+| [datawebot](https://www.datawebot.com) ⭐ | The world's ecommerce. One MCP. | `Read https://mcp.datawebot.com/setup.md and follow the instructions.` |
 
 ---
 

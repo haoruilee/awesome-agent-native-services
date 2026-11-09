@@ -87,20 +87,20 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**266 services across 16 categories.**
+**290 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 16 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 31 | Remote browser and web data extraction for agents |
-| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 29 | Runtime tool discovery, auth, and execution |
+| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 30 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 7 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 22 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 37 | Execution, session isolation, secrets, and gateway |
-| 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 15 | Durable agent-loop control and live operator visibility |
+| 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 16 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 33 | Persistent agent memory across sessions |
-| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 13 | LLM-optimized web search and content retrieval |
-| 10 | [Code Execution](#10-code-execution-services) | 17 | Secure sandboxes for AI-generated code |
+| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 14 | LLM-optimized web search and content retrieval |
+| 10 | [Code Execution](#10-code-execution-services) | 18 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
@@ -346,6 +346,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [txcript](services/agent-harnesses-and-control-planes/txcript.md) [![⭐](https://img.shields.io/github/stars/skillsynchq/txcript?style=social)](https://github.com/skillsynchq/txcript) | Continue your conversation in another coding agent. | Harness codecs · canonical transcript · continue/export · session search | ✅ | `cargo install --git https://github.com/skillsynchq/txcript txcript-cli --locked` then `txcript continue <id> --with codex`; MCP: `txcript mcp` |
 | [peerd](services/agent-harnesses-and-control-planes/peerd.md) [![⭐](https://img.shields.io/github/stars/NotASithLord/peerd?style=social)](https://github.com/NotASithLord/peerd) | peerd: the AI agent harness native to the browser | In-browser loop · keyless actors · WASM compute · vaulted BYOK | ⚠️ | `git clone https://github.com/NotASithLord/peerd.git` then Load unpacked `extension/` |
 | [Reef](services/agent-harnesses-and-control-planes/reef.md) [![⭐](https://img.shields.io/github/stars/Human-Agent-Society/reef?style=social)](https://github.com/Human-Agent-Society/reef) | Infrastructure for continually self-improving agents | Serve/observe/grow/commit · weight or harness learning · versioned artifacts | ⚠️ | `uv pip install reef-infra` then `uv run reef serve …` — [quickstart](https://reefinfra.ai/docs/getting-started/quickstart/) |
+| [Sqwakie](services/agent-harnesses-and-control-planes/sqwakie.md) [![⭐](https://img.shields.io/github/stars/alexcarney460-hue/walkie?style=social)](https://github.com/alexcarney460-hue/walkie) | A walkie-talkie for your team's AI agents | Live session states · sub-agent rows · quota windows · agent-to-agent asks | ✅ | `curl -fsSL https://sqwakie.si/install.sh \| sh` — agent guide: [agents.md](https://sqwakie.si/agents.md) (v0.2 pre-release, FSL-1.1-ALv2) |
 
 ---
 
@@ -416,6 +417,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [ProofFetch](services/search-and-web-intelligence/prooffetch.md) | Web pages your agent can quote | Numbered citable paragraphs · SHA-256 receipts · prompt-injection scan · open-source verifier | ✅ | Read https://prooffetch.steellantern.com/llms.txt and follow the instructions — MCP: `https://prooffetch.steellantern.com/mcp` (hosted service closed-source) |
 | [ReleaseLog](services/search-and-web-intelligence/releaselog.md) [![⭐](https://img.shields.io/github/stars/haoruilee/releaselog?style=social)](https://github.com/haoruilee/releaselog) | Verified AI release intelligence for AI agents | `whatChanged` · importance · entity timelines · public JSON and Atom · URL Onboarding | ⚠️ | Read https://releaselog.site/skill.md and follow the instructions |
 | [SerpKite](services/search-and-web-intelligence/serpkite.md) [![⭐](https://img.shields.io/github/stars/serpkite/serpkite-js?style=social)](https://github.com/serpkite/serpkite-js) | The Google SERP API built for AI agents | Remote MCP · Markdown SERP · cited answers · REST/SDKs | ✅ | Add MCP `https://api.serpkite.com/v1/mcp` (OAuth or `SERPKITE_API_KEY`) |
+| [datawebot](services/search-and-web-intelligence/datawebot.md) [![⭐](https://img.shields.io/github/stars/datawebot/datawebot-mcp?style=social)](https://github.com/datawebot/datawebot-mcp) | The world's ecommerce. One MCP. | Product search · seller offers · extraction Jobs · credit budgets | ✅ | Read https://mcp.datawebot.com/setup.md and follow the instructions (hosted service closed source; connection kit MIT) |
 
 ---
 

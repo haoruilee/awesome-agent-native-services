@@ -43,6 +43,7 @@ Operator surfaces are an explicit narrow exception to the catalog's usual machin
 | [txcript](txcript.md) [![⭐](https://img.shields.io/github/stars/skillsynchq/txcript?style=social)](https://github.com/skillsynchq/txcript) | Continue your conversation in another coding agent. | Harness codecs · canonical transcript · continue/export · session search | CLI · stdio MCP · Rust crate · npm WASM |
 | [peerd](peerd.md) [![⭐](https://img.shields.io/github/stars/NotASithLord/peerd?style=social)](https://github.com/NotASithLord/peerd) | peerd: the AI agent harness native to the browser | In-browser loop · keyless actors · WASM compute · vaulted BYOK | Browser extension · preview WebRTC A2A |
 | [Reef](reef.md) [![⭐](https://img.shields.io/github/stars/Human-Agent-Society/reef?style=social)](https://github.com/Human-Agent-Society/reef) | Infrastructure for continually self-improving agents | Serve/observe/grow/commit · weight or harness learning · versioned artifacts | CLI · Python package |
+| [Sqwakie](sqwakie.md) [![⭐](https://img.shields.io/github/stars/alexcarney460-hue/walkie?style=social)](https://github.com/alexcarney460-hue/walkie) | A walkie-talkie for your team's AI agents | Live session states · sub-agent trees · quota windows · agent asks | CLI · local API · MCP · Claude Code and Codex hooks |
 
 ## Criteria Reminder
 
