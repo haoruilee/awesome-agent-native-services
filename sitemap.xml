@@ -96,6 +96,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/account-access/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/acpx/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -517,6 +522,11 @@
   </url>
   <url>
     <loc>https://theagentnative.com/services/crawl4ai/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/services/crosswalk/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -961,6 +971,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/mobbin/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/modal/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1136,6 +1151,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/placecall/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/playwright-mcp/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1296,6 +1316,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/serpkite/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/shellmates/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1376,6 +1401,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/tadka/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/tavily/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1391,12 +1421,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://theagentnative.com/services/tfaba/</loc>
+    <loc>https://theagentnative.com/services/the-vibe-hosting/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://theagentnative.com/services/the-vibe-hosting/</loc>
+    <loc>https://theagentnative.com/services/three-ws/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

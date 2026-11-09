@@ -16,6 +16,7 @@ Agent-native tool access services solve all three problems with primitives that 
 
 | Service | Tagline | Protocol Surface | MCP? |
 |---|---|---|---|
+| [Account Access](account-access.md) | Connect once. Grant specific permissions. Let your existing AI agent do the routine work. | Agent Skill, structured CLI, private service API | ⚠️ |
 | [Apify MCP Server](apify-mcp-server.md) [![⭐](https://img.shields.io/github/stars/apify/apify-mcp-server?style=social)](https://github.com/apify/apify-mcp-server) | MCP access to Apify Actors for agent web data tasks | Remote MCP, actor discovery/execution, x402/Skyfire payments | ✅ |
 | [Composio](composio.md) | The tool platform built for agents | Python SDK, TypeScript SDK, 10+ framework integrations | ✅ |
 | [Nango](nango.md) | OAuth and credential layer for AI agents | REST API, Node SDK | ✅ |
@@ -25,6 +26,7 @@ Agent-native tool access services solve all three problems with primitives that 
 | [ClawHub](clawhub.md) [![⭐](https://img.shields.io/github/stars/openclaw/clawhub?style=social)](https://github.com/openclaw/clawhub) | OpenClaw skill marketplace — vector search, versioning, CLI install/publish | `npx clawhub@latest` CLI, Convex HTTP/registry API, `SKILL.md` artifact model | ⚠️ |
 | [Arcade](arcade.md) [![⭐](https://img.shields.io/github/stars/ArcadeAI/arcade-mcp?style=social)](https://github.com/ArcadeAI/arcade-mcp) | MCP tools with managed OAuth — secrets isolated from the LLM | MCP, Arcade CLI (`arcade-mcp`), Arcade Cloud | ✅ |
 | [Framelink MCP for Figma](framelink-figma-mcp.md) [![⭐](https://img.shields.io/github/stars/GLips/Figma-Context-MCP?style=social)](https://github.com/GLips/Figma-Context-MCP) | Give your coding agent access to your Figma data — layout context for one-shot UI | MCP (`figma-developer-mcp`), Figma REST API | ✅ |
+| [Mobbin](mobbin.md) [![⭐](https://img.shields.io/github/stars/mobbin/skills?style=social)](https://github.com/mobbin/skills) | The Design MCP Server for AI Agents | Remote MCP (OAuth) · `search_screens`/`flows`/`sections` · collections · official skills | ✅ |
 | [GitHub MCP Server](github-mcp-server.md) [![⭐](https://img.shields.io/github/stars/github/github-mcp-server?style=social)](https://github.com/github/github-mcp-server) | Official GitHub MCP — agents work with repos, issues, PRs, Actions | Remote HTTP MCP, OAuth/PAT, local server option | ✅ |
 | [MCP Toolbox for Databases](google-mcp-toolbox.md) [![⭐](https://img.shields.io/github/stars/googleapis/mcp-toolbox?style=social)](https://github.com/googleapis/mcp-toolbox) | MCP server connecting agents to enterprise databases | `@toolbox-sdk/server`, prebuilt packs, multi-language SDKs, IAM, OTEL | ✅ |
 | [ToolHive](toolhive.md) [![⭐](https://img.shields.io/github/stars/stacklok/toolhive-studio?style=social)](https://github.com/stacklok/toolhive-studio) | Run any MCP server securely, instantly, anywhere | MCP server discovery/deploy/manage · secure container runtime | ✅ |
@@ -43,6 +45,7 @@ Agent-native tool access services solve all three problems with primitives that 
 | [Scalekit](scalekit.md) [![⭐](https://img.shields.io/github/stars/scalekit-inc/scalekit-sdk-python?style=social)](https://github.com/scalekit-inc/scalekit-sdk-python) | Connect your agents to any tool. Authenticated, scoped, and logged. | Python & Node.js SDKs · REST API · Virtual MCP servers (Streamable HTTP) · AgentKit skills · per-user token vault (BYOK) · tool-call audit logs · 500+ connectors | ✅ |
 | [CLI-Anything](cli-anything.md) [![⭐](https://img.shields.io/github/stars/HKUDS/CLI-Anything?style=social)](https://github.com/HKUDS/CLI-Anything) | Turns existing software into agent-operable CLIs | Harness generator skill · `--json` CLIs · `cli-hub` registry | ⚠️ |
 | [REA](rea.md) [![⭐](https://img.shields.io/github/stars/morluto/rea?style=social)](https://github.com/morluto/rea) | Reverse-engineering MCP for coding agents | MCP (stdio) · CLI · binaries/Electron/.NET/APK/web | ✅ |
+| [Tadka](tadka.md) | The booking layer for AI agents. | Remote MCP (OAuth), open REST directory, OpenAPI, llms.txt | ✅ |
 
 
 

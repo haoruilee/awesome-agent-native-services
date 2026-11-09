@@ -120,7 +120,7 @@ The same call starts a service: Postgres, MySQL, Redis, MongoDB, Qdrant, a headl
 ## Identity and Delegation Model
 
 - Each connected client or API key is one agent of a team, with its own policy: concurrent briqs, daily spend cap, allowed sizes, allowed image registries, longest sleep, expiry.
-- Tokens stay with the client; the model never sees them. Revoking an agent takes effect immediately.
+- OAuth tokens are managed by the MCP client. A person can revoke the agent from the dashboard.
 - An API key acts for the whole team, under the budget of its policy. The policy bounds what the key spends, not what it reaches; a narrower reach needs a separate team.
 - Credentials are not managed by agents: an API key calling the credential routes gets `403 forbidden`.
 - Secrets go in as named values, boot-only or team-scoped, and are not returned by status. A team secret reaches the code as a placeholder that a credential gateway replaces in requests to allowed hosts.

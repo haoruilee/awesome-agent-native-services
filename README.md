@@ -92,21 +92,21 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 16 | Give agents a communication identity on the internet |
-| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 29 | Remote browser and web data extraction for agents |
-| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 25 | Runtime tool discovery, auth, and execution |
-| 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
+| 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 31 | Remote browser and web data extraction for agents |
+| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 29 | Runtime tool discovery, auth, and execution |
+| 4 | [Oversight & Approval](#4-oversight--approval-services) | 7 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 23 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 36 | Execution, session isolation, secrets, and gateway |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 37 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 15 | Durable agent-loop control and live operator visibility |
-| 8 | [Memory & State](#8-memory--state-services) | 31 | Persistent agent memory across sessions |
-| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 9 | LLM-optimized web search and content retrieval |
+| 8 | [Memory & State](#8-memory--state-services) | 33 | Persistent agent memory across sessions |
+| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 13 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 17 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
-| 14 | [Voice & Phone](#14-voice--phone-services) | 8 | Agent-controlled voice calls and phone infrastructure |
+| 14 | [Voice & Phone](#14-voice--phone-services) | 9 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 11 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 16 | [Agent Social & Community](#16-agent-social--community-services) | 17 | Social networks where agents are first-class participants |
+| 16 | [Agent Social & Community](#16-agent-social--community-services) | 19 | Social networks where agents are first-class participants |
 
 ---
 
@@ -191,6 +191,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
+| [Account Access](services/tool-access-and-integration/account-access.md) | Local delegated account reads for existing agents | Named operations · scoped client identities · resumable tasks · owner challenges | ⚠️ | Follow the [official setup guide](https://github.com/fainir/account-access#easy-installation); the installer provides the skill and CLI |
 | [Apify MCP Server](services/tool-access-and-integration/apify-mcp-server.md) [![⭐](https://img.shields.io/github/stars/apify/apify-mcp-server?style=social)](https://github.com/apify/apify-mcp-server) | MCP access to Apify Actors for agent web data tasks | Actor discovery/execution · dataset retrieval · x402/Skyfire payments | ✅ | Connect the official remote MCP endpoint following the [repository README](https://github.com/apify/apify-mcp-server) |
 | [Composio](services/tool-access-and-integration/composio.md) [![⭐](https://img.shields.io/github/stars/ComposioHQ/composio?style=social)](https://github.com/ComposioHQ/composio) | The tool platform built for agents | Runtime tool discovery · Connect Link OAuth · Per-user credential scoping | ✅ | `npx skills add composiohq/skills` |
 | [Nango](services/tool-access-and-integration/nango.md) [![⭐](https://img.shields.io/github/stars/NangoHQ/nango?style=social)](https://github.com/NangoHQ/nango) | OAuth and credential layer for AI agents | `getConnection()` · Automatic token refresh · 700+ API integrations | ✅ | `$skills install @NangoHQ/sync-builder-skill` |
@@ -201,6 +202,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Arcade](services/tool-access-and-integration/arcade.md) [![⭐](https://img.shields.io/github/stars/ArcadeAI/arcade-mcp?style=social)](https://github.com/ArcadeAI/arcade-mcp) | MCP tools with managed OAuth | Authorized tool calling · Secrets off-LLM · Pre-built integrations | ✅ | `uv tool install arcade-mcp` → `arcade new my_server` — [docs.arcade.dev](https://docs.arcade.dev) |
 | [Aident Loadout](services/tool-access-and-integration/aident-loadout.md) [![⭐](https://img.shields.io/github/stars/Aident-AI/aident-skill?style=social)](https://github.com/Aident-AI/aident-skill) | Give your agents real capabilities | Runtime discover/inspect/preflight/execute · Vault · Audit · 400+ Skills | ✅ | `Follow https://aident.ai/SETUP.md` or `npx skills add Aident-AI/aident-skill` |
 | [Framelink MCP for Figma](services/tool-access-and-integration/framelink-figma-mcp.md) [![⭐](https://img.shields.io/github/stars/GLips/Figma-Context-MCP?style=social)](https://github.com/GLips/Figma-Context-MCP) | Give your coding agent access to your Figma data | LLM-compacted layout/style context · Figma API · stdio MCP | ✅ | `npx -y figma-developer-mcp --figma-api-key=… --stdio` — [quickstart](https://www.framelink.ai/docs/quickstart) |
+| [Mobbin](services/tool-access-and-integration/mobbin.md) [![⭐](https://img.shields.io/github/stars/mobbin/skills?style=social)](https://github.com/mobbin/skills) | The Design MCP Server for AI Agents | Remote MCP (OAuth) · screen/flow/section search · collections · `npx skills add mobbin/skills` | ✅ | Plugin/Marketplace or MCP `https://api.mobbin.com/mcp` — [docs](https://docs.mobbin.com/mcp/introduction) · [Grok Bot](https://docs.mobbin.com/mcp/clients/grok-bot) |
 | [GitHub MCP Server](services/tool-access-and-integration/github-mcp-server.md) [![⭐](https://img.shields.io/github/stars/github/github-mcp-server?style=social)](https://github.com/github/github-mcp-server) | Connect AI agents to GitHub — repos, issues, PRs, Actions | Remote HTTP MCP · OAuth or PAT · Toolsets · Enterprise paths | ✅ | `https://api.githubcopilot.com/mcp/` in MCP host — [repo README](https://github.com/github/github-mcp-server) |
 | [MCP Toolbox for Databases](services/tool-access-and-integration/google-mcp-toolbox.md) [![⭐](https://img.shields.io/github/stars/googleapis/mcp-toolbox?style=social)](https://github.com/googleapis/mcp-toolbox) | MCP server connecting agents to enterprise databases | Prebuilt DB tools · Custom governed tools · IAM · OpenTelemetry | ✅ | `npx -y @toolbox-sdk/server --prebuilt=postgres` + env — [mcp-toolbox.dev](https://mcp-toolbox.dev/) |
 | [ToolHive](services/tool-access-and-integration/toolhive.md) [![⭐](https://img.shields.io/github/stars/stacklok/toolhive-studio?style=social)](https://github.com/stacklok/toolhive-studio) | Run any MCP server securely, instantly, anywhere | MCP server discovery/deploy/manage · secure container runtime | ✅ | [stacklok.com/download](https://stacklok.com/download/) |
@@ -218,6 +220,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Scalekit](services/tool-access-and-integration/scalekit.md) [![⭐](https://img.shields.io/github/stars/scalekit-inc/scalekit-sdk-python?style=social)](https://github.com/scalekit-inc/scalekit-sdk-python) | Connect your agents to any tool. Authenticated, scoped, and logged. | Per-user OAuth, API key & RSA credentials in a token vault (bring your own KMS key) · 500+ connectors / 20,000+ tools · Admin-scoped Virtual MCP servers · Per-run session tokens · Tool-call audit logs | ✅ | `npx skills add scalekit-inc/authstack --skill integrate-agentkit` — [docs.scalekit.com/agentkit](https://docs.scalekit.com/agentkit/overview/) |
 | [CLI-Anything](services/tool-access-and-integration/cli-anything.md) [![⭐](https://img.shields.io/github/stars/HKUDS/CLI-Anything?style=social)](https://github.com/HKUDS/CLI-Anything) | Making ALL software agent-native | Agent-run CLI harness generator · `--json` CLIs · CLI-Hub registry · meta-skill | ⚠️ | `npx skills add HKUDS/CLI-Anything --skill cli-hub-meta-skill -g -y` — or `pip install cli-anything-hub` |
 | [REA](services/tool-access-and-integration/rea.md) [![⭐](https://img.shields.io/github/stars/morluto/rea?style=social)](https://github.com/morluto/rea) | Reverse engineer anything with agents | Binary decompile (Ghidra/IDA/Hopper) · Electron/JS · .NET · APK · web traffic · evidence-backed findings | ✅ | `npx rea-agents setup` → restart agent → `rea doctor --json` |
+| [Tadka](services/tool-access-and-integration/tadka.md) | The booking layer for AI agents. | Remote MCP OAuth booking · open REST directory · OpenAPI · llms.txt | ✅ | Add MCP `https://tadka.xyz/mcp` (OAuth as diner), or `GET https://tadka.xyz/api/public/v1/restaurants` |
 
 ---
 
@@ -317,6 +320,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Auten](services/agent-runtime-and-infrastructure/auten.md) [![⭐](https://img.shields.io/github/stars/auten-ai/auten-mcp?style=social)](https://github.com/auten-ai/auten-mcp) | Give your AI agent hands. It clicks, types and sees your screen. | Real Mac/Windows/Linux desktop + Android phone (beta) · AX element ids · learned skills replay without the model · local secrets | ✅ | `claude mcp add auten -- npx -y @autenai/mcp` after `curl -fsSL https://auten.ai/install \| bash` — [setup for agents](https://github.com/auten-ai/auten-mcp/blob/main/llms-install.md) |
 | [UTA Trust API](services/agent-runtime-and-infrastructure/uta-trust-api.md) [![⭐](https://img.shields.io/github/stars/alicelabs-llc/universal-trust-adapter?style=social)](https://github.com/alicelabs-llc/universal-trust-adapter) | The USB-C of agent trust — paid verification of Agent Trust Cards | ATC/1.0 verify · x402 $0.01/call · Fail-closed · Rekor anchors · Delegation (ATC-009) | N/A | [openapi.json](https://uta-trust-api.eddyflores100.workers.dev/openapi.json) — settle via x402, or npm `agent-trust-card` |
 | [deed.page](services/agent-runtime-and-infrastructure/deed-page.md) [![⭐](https://img.shields.io/github/stars/f-o-x11/deed-page-skill?style=social)](https://github.com/f-o-x11/deed-page-skill) | Permanent static hosting for AI agents | Account-on-first-call publish · Agent-chosen permanent slug · Token-owned sites · If-Match / 409 conflicts · Version restore · URL onboarding | ✅ | `Read https://deed.page/skill.md and follow the instructions to publish a page.` or `npx skills add f-o-x11/deed-page-skill` — MCP: `https://deed.page/mcp` |
+| [three.ws](services/agent-runtime-and-infrastructure/three-ws.md) [![⭐](https://img.shields.io/github/stars/nirholas/three.ws?style=social)](https://github.com/nirholas/three.ws) | The 3D Agent Layer of the Internet | Grok MCP `mcp-grok` · free forge/avatar · grok-skill.md · Apache-2.0 | ✅ | Add MCP `https://three.ws/api/mcp-grok`, or Read https://three.ws/grok-skill.md |
 
 ---
 
@@ -412,6 +416,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Context7](services/search-and-web-intelligence/context7.md) [![⭐](https://img.shields.io/github/stars/upstash/context7?style=social)](https://github.com/upstash/context7) | Up-to-date docs for AI agents | `resolve-library-id` · `query-docs` · version-matched snippets · MIT | ✅ | `npx ctx7 setup` — MCP: `https://mcp.context7.com/mcp` |
 | [ProofFetch](services/search-and-web-intelligence/prooffetch.md) | Web pages your agent can quote | Numbered citable paragraphs · SHA-256 receipts · prompt-injection scan · open-source verifier | ✅ | Read https://prooffetch.steellantern.com/llms.txt and follow the instructions — MCP: `https://prooffetch.steellantern.com/mcp` (hosted service closed-source) |
 | [ReleaseLog](services/search-and-web-intelligence/releaselog.md) [![⭐](https://img.shields.io/github/stars/haoruilee/releaselog?style=social)](https://github.com/haoruilee/releaselog) | Verified AI release intelligence for AI agents | `whatChanged` · importance · entity timelines · public JSON and Atom · URL Onboarding | ⚠️ | Read https://releaselog.site/skill.md and follow the instructions |
+| [SerpKite](services/search-and-web-intelligence/serpkite.md) [![⭐](https://img.shields.io/github/stars/serpkite/serpkite-js?style=social)](https://github.com/serpkite/serpkite-js) | The Google SERP API built for AI agents | Remote MCP · Markdown SERP · cited answers · REST/SDKs | ✅ | Add MCP `https://api.serpkite.com/v1/mcp` (OAuth or `SERPKITE_API_KEY`) |
 
 ---
 
@@ -520,6 +525,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Qwen Audio Agent](services/voice-and-phone/qwen-audio-agent.md) [![⭐](https://img.shields.io/github/stars/QwenAudio/qwen-audio-agent?style=social)](https://github.com/QwenAudio/qwen-audio-agent) | Realtime voice runtime that keeps agents talking, working, and present | Gateway · ACP backend · CLI/TUI/WebUI · realtime voice sessions | ⚠️ | `npm install -g qwen-audio-agent`, run `qwenaudio config`, then start `qwenaudio` |
 | [Patter](services/voice-and-phone/patter.md) [![⭐](https://img.shields.io/github/stars/PatterAI/Patter?style=social)](https://github.com/PatterAI/Patter) | The open-source SDK that gives your AI agent a phone number | Agent loop + PSTN · swap STT/TTS/realtime/carrier · Skills | ⚠️ | `npx skills add patterai/skills` then `npm install getpatter` or `pip install getpatter` |
 | [CosVoice](services/voice-and-phone/cosvoice.md) [![⭐](https://img.shields.io/github/stars/CosVoice/cosvoice-mcp?style=social)](https://github.com/CosVoice/cosvoice-mcp) | Your AI Agent gets its own phone number. | Hosted line + email · remote MCP · skill URL · OpenAPI | ✅ | Read https://cosvoice.com/skill and follow the instructions to connect CosVoice |
+| [PlaceCall](services/voice-and-phone/placecall.md) [![⭐](https://img.shields.io/github/stars/voygr-tech/placecall?style=social)](https://github.com/voygr-tech/placecall) | Give your agent a phone. | Brief-driven US business calls · mid-call questions · structured outcomes · remote MCP · Skills | ✅ | `/plugin marketplace add voygr-tech/placecall` then `/plugin install placecall@placecall`, or add MCP `https://api.voygr.tech/mcp` |
 
 ---
 
@@ -570,8 +576,8 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Anansi Haven](services/agent-social-network/anansi-haven.md) [![⭐](https://img.shields.io/github/stars/kburrus64-max/anansi-haven?style=social)](https://github.com/kburrus64-max/anansi-haven) | A home base for AI agents | Agent passport · Commons rooms & DMs · Lessons library · Per-agent memory · Agent directory · Job board · Encrypted private house · MCP/A2A | ✅ | Read https://anansi-haven.anansidata.workers.dev/llms.txt and follow the instructions to get a passport, join the Agent Commons, and use memory and the job board. |
 | [Agent Commons](services/agent-social-network/agent-commons.md) [![⭐](https://img.shields.io/github/stars/sibi-narendran/common-agent-network?style=social)](https://github.com/sibi-narendran/common-agent-network) | A home for any agent on the internet | Per-wake `home` call · Append-only public board & DMs · Retry-safe writes · Job board · Agent directory & record · MCP/A2A | ✅ | Read https://commons.dooza.ai/skill.md and follow it. |
 | [Direct Hire](services/agent-social-network/direct-hire.md) | Agent-first professional network for autonomous AI agents | URL onboarding kit · self-register without email · A2A · OpenAPI · endpoint verify | ⚠️ | `Read https://directhireagents.com/.well-known/agent-runtime-kit.json and follow the bootstrap links.` |
-| [TFABA](services/agent-social-network/tfaba.md) | Tasks For Agents, By Agents — early pilot; private app source | Self-held Ed25519 identity · Signed inboxes · Tracked delegation · Frozen terms · Optional A2A | ❌ | Read https://tfaba.net/SKILL.md and follow the instructions within operator authorization |
 | [Sloppable](services/agent-social-network/sloppable.md) | An open exchange where AI agents post, reply, trade help, and message each other privately | Agent credential · Sealed agent DMs · Ask/offer listings · Activity poll | ✅ | Read https://sloppable.pages.dev/skill.md and follow the instructions to get a credential, then read the feed, post, and message other agents. |
+| [crosswalk](services/agent-social-network/crosswalk.md) | message boards for AI agents, incl. file sharing, tasks and email | Remote MCP · agent signup · Grok Bot plugin docs · OpenAPI | ✅ | Read https://agents.crosswalk.to/llms.txt, or add MCP `https://mcp.crosswalk.to` |
 
 ---
 

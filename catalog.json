@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-04",
-  "generated_at": "2026-11-04",
+  "catalog_version": "2026-11-08",
+  "generated_at": "2026-11-08",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "2cea179ea7bd9328edf7677777dda8768d6572f36bee5b352cc039ae9eacbda3",
+      "value": "d1ee17f17b1e6a85c417767253b49d8ba20f808d45034036b8d86d178b5ed02e",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -65,6 +65,7 @@
         "services/browser-and-web-execution/steel.md",
         "services/browser-and-web-execution/vessel-browser.md",
         "services/tool-access-and-integration/README.md",
+        "services/tool-access-and-integration/account-access.md",
         "services/tool-access-and-integration/aident-loadout.md",
         "services/tool-access-and-integration/apify-mcp-server.md",
         "services/tool-access-and-integration/arcade.md",
@@ -81,6 +82,7 @@
         "services/tool-access-and-integration/mcphub.md",
         "services/tool-access-and-integration/mcpjungle.md",
         "services/tool-access-and-integration/metamcp.md",
+        "services/tool-access-and-integration/mobbin.md",
         "services/tool-access-and-integration/nango.md",
         "services/tool-access-and-integration/obot.md",
         "services/tool-access-and-integration/openchatcut.md",
@@ -89,6 +91,7 @@
         "services/tool-access-and-integration/scalekit.md",
         "services/tool-access-and-integration/smithery.md",
         "services/tool-access-and-integration/snyk-agent-scan.md",
+        "services/tool-access-and-integration/tadka.md",
         "services/tool-access-and-integration/toolhive.md",
         "services/tool-access-and-integration/toolhouse.md",
         "services/tool-access-and-integration/toolport.md",
@@ -158,6 +161,7 @@
         "services/agent-runtime-and-infrastructure/sandbase-harness.md",
         "services/agent-runtime-and-infrastructure/scrapybara.md",
         "services/agent-runtime-and-infrastructure/serena.md",
+        "services/agent-runtime-and-infrastructure/three-ws.md",
         "services/agent-runtime-and-infrastructure/uta-trust-api.md",
         "services/agent-runtime-and-infrastructure/vectoree.md",
         "services/agent-runtime-and-infrastructure/vertex-ai-agent-engine.md",
@@ -223,6 +227,7 @@
         "services/search-and-web-intelligence/parallel.md",
         "services/search-and-web-intelligence/prooffetch.md",
         "services/search-and-web-intelligence/releaselog.md",
+        "services/search-and-web-intelligence/serpkite.md",
         "services/search-and-web-intelligence/tavily.md",
         "services/code-execution/README.md",
         "services/code-execution/agent-infra-sandbox.md",
@@ -278,6 +283,7 @@
         "services/voice-and-phone/livekit-agents.md",
         "services/voice-and-phone/patter.md",
         "services/voice-and-phone/pipecat.md",
+        "services/voice-and-phone/placecall.md",
         "services/voice-and-phone/qwen-audio-agent.md",
         "services/voice-and-phone/retell-ai.md",
         "services/voice-and-phone/stimm.md",
@@ -300,6 +306,7 @@
         "services/agent-social-network/agentel.md",
         "services/agent-social-network/agentgram.md",
         "services/agent-social-network/anansi-haven.md",
+        "services/agent-social-network/crosswalk.md",
         "services/agent-social-network/direct-hire.md",
         "services/agent-social-network/kinthai.md",
         "services/agent-social-network/mcpverse.md",
@@ -312,14 +319,13 @@
         "services/agent-social-network/sssnack.md",
         "services/agent-social-network/swarmmemo.md",
         "services/agent-social-network/switchboard.md",
-        "services/agent-social-network/term.md",
-        "services/agent-social-network/tfaba.md"
+        "services/agent-social-network/term.md"
       ]
     }
   },
   "counts": {
     "categories": 16,
-    "services": 283
+    "services": 289
   },
   "categories": [
     {
@@ -341,7 +347,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 27
+      "service_count": 30
     },
     {
       "id": "oversight-and-approval",
@@ -362,7 +368,7 @@
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 36
+      "service_count": 37
     },
     {
       "id": "agent-harnesses-and-control-planes",
@@ -383,7 +389,7 @@
       "name": "Search & Web Intelligence",
       "description": "Services that give AI agents optimized, structured access to web information — returning AI-ready content tuned for LLM context windows, not raw HTML or human-readable SERPs.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/README.md",
-      "service_count": 12
+      "service_count": 13
     },
     {
       "id": "code-execution",
@@ -418,7 +424,7 @@
       "name": "Voice & Phone",
       "description": "Services that give AI agents a first-class voice and telephony identity — letting agents make and receive phone calls, conduct voice conversations, and interact via speech with no human operating a phone on their behalf.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/README.md",
-      "service_count": 8
+      "service_count": 9
     },
     {
       "id": "llm-gateway-and-routing",
@@ -1952,6 +1958,36 @@
       "verification_sources": []
     },
     {
+      "id": "tool-access-and-integration/account-access",
+      "slug": "account-access",
+      "name": "Account Access",
+      "tagline": "Connect once. Grant specific permissions. Let your existing AI agent do the routine work.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "tool-access-and-integration",
+      "website": "https://github.com/fainir/account-access",
+      "repository": "https://github.com/fainir/account-access",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/account-access.md",
+      "source_path": "services/tool-access-and-integration/account-access.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": "Agent Skill + structured CLI over a local service.",
+        "instruction": "The owner first installs the service, connects supported accounts and grants named operations. An agent cannot enroll itself by reading a URL.",
+        "url": "https://github.com/fainir/account-access#easy-installation"
+      },
+      "protocols": [
+        "agent-skill",
+        "cli",
+        "api"
+      ],
+      "mcp_status": "unavailable",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
       "id": "tool-access-and-integration/aident-loadout",
       "slug": "aident-loadout",
       "name": "Aident Loadout",
@@ -2464,6 +2500,43 @@
       ]
     },
     {
+      "id": "tool-access-and-integration/mobbin",
+      "slug": "mobbin",
+      "name": "Mobbin",
+      "tagline": "The Design MCP Server for AI Agents",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "tool-access-and-integration",
+      "website": "https://mobbin.com/mcp",
+      "repository": "https://github.com/mobbin/skills",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/mobbin.md",
+      "source_path": "services/tool-access-and-integration/mobbin.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": "Remote MCP (OAuth) + Agent Skills / marketplace plugins",
+        "instruction": "https://api.mobbin.com/mcp",
+        "url": "https://api.mobbin.com/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "https://mobbin.com/mcp og:title \"Mobbin MCP: The Design MCP Server for AI Agents\" HTTP 200. https://docs.mobbin.com/llms.txt HTTP 200. Remote MCP https://api.mobbin.com/mcp answered HTTP 401 without auth (OAuth-protected Streamable HTTP, expected). Official skills at npx skills add mobbin/skills. Dedicated Grok Bot / Cursor Marketplace plugin docs live",
+      "verified_at": "2026-11-08",
+      "verification_sources": [
+        "https://mobbin.com/mcp",
+        "https://docs.mobbin.com/llms.txt",
+        "https://api.mobbin.com/mcp"
+      ]
+    },
+    {
       "id": "tool-access-and-integration/nango",
       "slug": "nango",
       "name": "Nango",
@@ -2721,6 +2794,42 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "tool-access-and-integration/tadka",
+      "slug": "tadka",
+      "name": "Tadka",
+      "tagline": "The booking layer for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "tool-access-and-integration",
+      "website": "https://tadka.xyz",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/tadka.md",
+      "source_path": "services/tool-access-and-integration/tadka.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP (OAuth as diner) + open REST directory",
+        "instruction": "https://tadka.xyz/mcp",
+        "url": "https://tadka.xyz/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Homepage H1 \"The booking layer for AI agents.\" HTTP 200. https://tadka.xyz/llms.txt and https://tadka.xyz/openapi.json HTTP 200. MCP https://tadka.xyz/mcp answered HTTP 401 (OAuth-protected, expected). Public REST GET /api/public/v1/restaurants documented no-key",
+      "verified_at": "2026-11-07",
+      "verification_sources": [
+        "https://tadka.xyz/llms.txt",
+        "https://tadka.xyz/openapi.json",
+        "https://tadka.xyz/mcp"
+      ]
     },
     {
       "id": "tool-access-and-integration/toolhive",
@@ -4825,6 +4934,40 @@
       "verification_sources": []
     },
     {
+      "id": "agent-runtime-and-infrastructure/three-ws",
+      "slug": "three-ws",
+      "name": "three.ws",
+      "tagline": "The 3D Agent Layer of the Internet",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://three.ws",
+      "repository": "https://github.com/nirholas/three.ws",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/three-ws.md",
+      "source_path": "services/agent-runtime-and-infrastructure/three-ws.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "Remote MCP (+ Grok skill URL)",
+        "instruction": "https://three.ws/api/mcp-grok",
+        "url": "https://three.ws/api/mcp-grok"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Homepage \"three.ws: The 3D Agent Layer of the Internet\" HTTP 200. https://three.ws/grok-skill.md HTTP 200. Grok-dedicated MCP https://three.ws/api/mcp-grok answered HTTP 405 on bare GET (expected for Streamable HTTP). Repo Apache-2.0 with description \"Give your AI agent a 3D body…",
+      "verified_at": "2026-11-07",
+      "verification_sources": [
+        "https://three.ws/grok-skill.md",
+        "https://three.ws/api/mcp-grok"
+      ]
+    },
+    {
       "id": "agent-runtime-and-infrastructure/uta-trust-api",
       "slug": "uta-trust-api",
       "name": "UTA Trust API",
@@ -6847,6 +6990,42 @@
       "verification_sources": []
     },
     {
+      "id": "search-and-web-intelligence/serpkite",
+      "slug": "serpkite",
+      "name": "SerpKite",
+      "tagline": "The Google SERP API built for AI agents",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "search-and-web-intelligence",
+      "website": "https://serpkite.com",
+      "repository": "https://github.com/serpkite/serpkite-js",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/serpkite.md",
+      "source_path": "services/search-and-web-intelligence/serpkite.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "Remote MCP + REST/SDKs",
+        "instruction": "https://api.serpkite.com/v1/mcp",
+        "url": "https://api.serpkite.com/v1/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "sdk",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Homepage tagline \"The Google SERP API built for AI agents\" HTTP 200. https://serpkite.com/llms.txt HTTP 200. Remote MCP https://api.serpkite.com/v1/mcp answered HTTP 405 on bare GET (expected for Streamable HTTP POST). Docs list 23 MCP tools with OAuth or Bearer auth",
+      "verified_at": "2026-11-07",
+      "verification_sources": [
+        "https://serpkite.com/llms.txt",
+        "https://api.serpkite.com/v1/mcp"
+      ]
+    },
+    {
       "id": "search-and-web-intelligence/tavily",
       "slug": "tavily",
       "name": "Tavily",
@@ -8447,6 +8626,44 @@
       "verification_sources": []
     },
     {
+      "id": "voice-and-phone/placecall",
+      "slug": "placecall",
+      "name": "PlaceCall",
+      "tagline": "Give your agent a phone.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "voice-and-phone",
+      "website": "https://voygr.tech/placecall/",
+      "repository": "https://github.com/voygr-tech/placecall",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/placecall.md",
+      "source_path": "services/voice-and-phone/placecall.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": "MCP + published Agent Skills",
+        "instruction": "https://api.voygr.tech/mcp",
+        "url": "https://api.voygr.tech/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "https://voygr.tech/placecall/ returned HTTP 200 with tagline \"Give your agent a phone.\" Remote MCP https://api.voygr.tech/mcp answered POST without auth with a Bearer / X-API-Key requirement. OpenAPI at https://api.voygr.tech/openapi.json includes /calls, /calls/{call_id}/answer, and /v1/places/suggest. Packaging repo https://github.com/voygr-tech/placecall is MIT with skills/placecall/SKILL.md",
+      "verified_at": "2026-11-07",
+      "verification_sources": [
+        "https://voygr.tech/placecall/",
+        "https://api.voygr.tech/mcp",
+        "https://api.voygr.tech/openapi.json",
+        "https://github.com/voygr-tech/placecall"
+      ]
+    },
+    {
       "id": "voice-and-phone/qwen-audio-agent",
       "slug": "qwen-audio-agent",
       "name": "Qwen Audio Agent",
@@ -9112,6 +9329,43 @@
       ]
     },
     {
+      "id": "agent-social-network/crosswalk",
+      "slug": "crosswalk",
+      "name": "crosswalk",
+      "tagline": "message boards for AI agents, incl. file sharing, tasks and email",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-social-network",
+      "website": "https://crosswalk.to",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/crosswalk.md",
+      "source_path": "services/agent-social-network/crosswalk.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + hosted Streamable HTTP MCP + plain HTTP",
+        "instruction": "Read https://agents.crosswalk.to/llms.txt and follow the instructions to sign up, claim the account with your person's email, and connect MCP at https://mcp.crosswalk.to.",
+        "url": "https://agents.crosswalk.to/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "openapi",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "https://crosswalk.to/llms.txt and https://agents.crosswalk.to/llms.txt returned HTTP 200. Remote MCP https://mcp.crosswalk.to answered HTTP 200. OpenAPI at https://mcp.crosswalk.to/openapi.json returned HTTP 200. Site documents Grok Bot Plugins custom MCP and agent self-signup at https://agents.crosswalk.to/signup",
+      "verified_at": "2026-11-07",
+      "verification_sources": [
+        "https://crosswalk.to/llms.txt",
+        "https://agents.crosswalk.to/llms.txt",
+        "https://mcp.crosswalk.to",
+        "https://mcp.crosswalk.to/openapi.json",
+        "https://agents.crosswalk.to/signup"
+      ]
+    },
+    {
       "id": "agent-social-network/direct-hire",
       "slug": "direct-hire",
       "name": "Direct Hire",
@@ -9544,37 +9798,6 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": null,
-      "verified_at": null,
-      "verification_sources": []
-    },
-    {
-      "id": "agent-social-network/tfaba",
-      "slug": "tfaba",
-      "name": "TFABA",
-      "tagline": "Tasks For Agents, By Agents.",
-      "classification": "agent-native",
-      "status": "listed",
-      "lifecycle_status": "unknown",
-      "category": "agent-social-network",
-      "website": "https://tfaba.net",
-      "repository": "https://github.com/jdogg2020/tfaba-skill",
-      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/tfaba.md",
-      "source_path": "services/agent-social-network/tfaba.md",
-      "onboarding": {
-        "type": "url",
-        "pattern": "URL Onboarding",
-        "instruction": "Read https://tfaba.net/SKILL.md and follow the instructions within your operator's authorized scope.",
-        "url": "https://tfaba.net/SKILL.md"
-      },
-      "protocols": [
-        "url-onboarding",
-        "agent-skill",
-        "http",
-        "api"
-      ],
-      "mcp_status": "unavailable",
-      "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []

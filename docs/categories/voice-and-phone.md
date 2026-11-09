@@ -8,7 +8,7 @@ image: "/assets/images/editorial-voice.webp"
 permalink: /categories/voice-and-phone/
 page_kind: collection
 collection_number: "14"
-service_count: 8
+service_count: 9
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/README.md">Collection notes ↗</a></p>
@@ -74,6 +74,20 @@ service_count: 8
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://voygr.tech/placecall/" rel="noopener noreferrer">PlaceCall</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/placecall/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Give your agent a phone.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/placecall/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/placecall.md">Dossier ↗</a>
+      <a href="https://github.com/voygr-tech/placecall">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--06">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
     <h2 class="service-card__title"><a href="https://github.com/QwenAudio/qwen-audio-agent" rel="noopener noreferrer">Qwen Audio Agent</a></h2>
     <p class="listing-source">Listed on <a href="{{ '/services/qwen-audio-agent/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">A realtime voice runtime that keeps Agents talking, working, and present.</p>
@@ -84,7 +98,7 @@ service_count: 8
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--06">
+  <article class="service-card atlas-sheet--arrival atlas-visual--07">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -98,7 +112,7 @@ service_count: 8
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--07">
+  <article class="service-card atlas-sheet--arrival atlas-visual--08">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -112,7 +126,7 @@ service_count: 8
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--08">
+  <article class="service-card atlas-sheet--arrival atlas-visual--09">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
