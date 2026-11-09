@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "9d02e49bb8adc1b668e25206cb5a71110d54eb0636f076b8bdcf770618d5189a",
+      "value": "d1ee17f17b1e6a85c417767253b49d8ba20f808d45034036b8d86d178b5ed02e",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -233,6 +233,7 @@
         "services/code-execution/agent-infra-sandbox.md",
         "services/code-execution/agent-sandbox.md",
         "services/code-execution/axern.md",
+        "services/code-execution/briq.md",
         "services/code-execution/clawk.md",
         "services/code-execution/coderunner.md",
         "services/code-execution/cubesandbox.md",
@@ -324,7 +325,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 288
+    "services": 289
   },
   "categories": [
     {
@@ -395,7 +396,7 @@
       "name": "Code Execution",
       "description": "Services that give AI agents a secure, isolated runtime for executing generated code — without human-side sandbox setup, without risking the host environment, and with output formatted for direct LLM consumption.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/README.md",
-      "service_count": 17
+      "service_count": 18
     },
     {
       "id": "observability-and-tracing",
@@ -7157,6 +7158,42 @@
         "https://axern.cofy-x.space",
         "https://api.github.com/repos/cofy-x/axern"
       ]
+    },
+    {
+      "id": "code-execution/briq",
+      "slug": "briq",
+      "name": "briq",
+      "tagline": "Cloud sandboxes for your agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "code-execution",
+      "website": "https://briq.cloud",
+      "repository": "https://github.com/briq-cloud/briq-mcp",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/briq.md",
+      "source_path": "services/code-execution/briq.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "# MCP (Streamable HTTP, OAuth sign-in in the browser):\nclaude mcp add --transport http briq https://api.briq.cloud/mcp\n\n# Agent instructions:\nRead https://briq.cloud/llms.txt and follow the instructions.\n\n# CLI:\nnpm install -g @briq-cloud/cli  # then: briq login, briq run sandbox\n\n# SDK / REST (API key):\nnpm install @briq-cloud/sdk  # or: pip install briq-cloud",
+        "url": "https://api.briq.cloud/mcp"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "sdk",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "code-execution/clawk",

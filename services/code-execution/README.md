@@ -37,6 +37,7 @@ Agent-native code execution services solve this with:
 | [SmolVM](smolvm.md) [![⭐](https://img.shields.io/github/stars/CelestoAI/celesto?style=social)](https://github.com/CelestoAI/celesto) | SmolVM: secure microVM sandboxes for AI agents | Python SDK, smolvm CLI, browser sandbox, snapshots | ⚠️ |
 | [Latchkey](latchkey.md) | CI your coding agents can run, read and fix | MCP (Streamable HTTP), REST Jobs API (OpenAPI 3.1), CLI, agent.txt | ✅ |
 | [The Vibe Hosting](the-vibe-hosting.md) | One prompt → root Linux → your project is live. | REST API, SSH, URL onboarding (`SKILL.md`), Agent Skill (`npx skills add`) | ⚠️ |
+| [briq](briq.md) | Cloud sandboxes for your agents | MCP (Streamable HTTP, OAuth), REST API (OpenAPI 3.1), TypeScript SDK, Python client, CLI, Agent Skill | ✅ |
 
 
 ---
