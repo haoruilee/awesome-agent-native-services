@@ -4,6 +4,26 @@ This note records the latest catalog-wide research and freshness pass. New
 services remain issue-first; this file records the scope, evidence window, and
 maintenance work that was actually completed.
 
+## Delisted — 2026-11-09
+
+The repository has no separate removed-services log. This section is that
+record. Issue [#293](https://github.com/haoruilee/awesome-agent-native-services/issues/293)
+asked for a full removal. The dossier was deleted. It was not moved to
+Excluded and not kept as an offline historical entry.
+
+- **TFABA** (`services/agent-social-network/tfaba.md`, https://tfaba.net,
+  https://github.com/jdogg2020/tfaba-skill): owner Jason Odom reported the
+  shutdown. Rechecked 2026-11-09: `https://tfaba.net/` and
+  `https://tfaba.net/ready` return HTTP 503 `DEPLOYMENT_PAUSED`. The skill
+  repository README says the marketplace and API were taken offline on
+  November 5, 2026. Original inclusion was issue #226 and PR #268.
+
+Catalog after this delisting: **288** services across **16** collections.
+Agent Social & Community is **19** (was 20).
+
+The 2026-11-03 inventory below still names TFABA among admissions in that
+window. That sentence describes the catalog before this removal.
+
 ## Scope
 
 - Window: catalog changes and live checks from the previous watermark

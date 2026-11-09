@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "e47d7aca6d9908fd5c770cf997eb26e9996566355a57921e812b0c8c647552a5",
+      "value": "9d02e49bb8adc1b668e25206cb5a71110d54eb0636f076b8bdcf770618d5189a",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -318,14 +318,13 @@
         "services/agent-social-network/sssnack.md",
         "services/agent-social-network/swarmmemo.md",
         "services/agent-social-network/switchboard.md",
-        "services/agent-social-network/term.md",
-        "services/agent-social-network/tfaba.md"
+        "services/agent-social-network/term.md"
       ]
     }
   },
   "counts": {
     "categories": 16,
-    "services": 289
+    "services": 288
   },
   "categories": [
     {
@@ -438,7 +437,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 20
+      "service_count": 19
     }
   ],
   "services": [
@@ -9762,37 +9761,6 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": null,
-      "verified_at": null,
-      "verification_sources": []
-    },
-    {
-      "id": "agent-social-network/tfaba",
-      "slug": "tfaba",
-      "name": "TFABA",
-      "tagline": "Tasks For Agents, By Agents.",
-      "classification": "agent-native",
-      "status": "listed",
-      "lifecycle_status": "unknown",
-      "category": "agent-social-network",
-      "website": "https://tfaba.net",
-      "repository": "https://github.com/jdogg2020/tfaba-skill",
-      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/tfaba.md",
-      "source_path": "services/agent-social-network/tfaba.md",
-      "onboarding": {
-        "type": "url",
-        "pattern": "URL Onboarding",
-        "instruction": "Read https://tfaba.net/SKILL.md and follow the instructions within your operator's authorized scope.",
-        "url": "https://tfaba.net/SKILL.md"
-      },
-      "protocols": [
-        "url-onboarding",
-        "agent-skill",
-        "http",
-        "api"
-      ],
-      "mcp_status": "unavailable",
-      "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
