@@ -156,6 +156,9 @@ def check_local_links() -> list[str]:
         return failures
 
     failures.extend(check_service_editorials(services))
+    from home_editorial import check_sources
+
+    failures.extend(check_sources())
     if failures:
         return failures
 
@@ -263,6 +266,9 @@ def check_site_directory(site_dir: Path) -> list[str]:
     failures.extend(check_editorial_pages(site_dir))
     failures.extend(check_built_service_editorials(site_dir))
     failures.extend(check_advertising_disabled(site_dir))
+    from home_editorial import check_built_home
+
+    failures.extend(check_built_home(site_dir))
 
     if not failures:
         print(
@@ -404,6 +410,7 @@ def check_service_editorials(services: list[Path]) -> list[str]:
     seen_sentences: dict[str, str] = {}
     linked_services: set[str] = set()
     prior_sources = [
+        *sorted((ROOT / "editorial" / "home").glob("*.md")),
         *sorted((ROOT / "editorial" / "categories").glob("*.md")),
         *sorted((ROOT / "docs" / "guides").glob("*.md")),
         ROOT / "docs" / "about.md",

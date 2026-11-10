@@ -8,9 +8,322 @@ collection_count: 16
 new_arrivals_count: 107
 ---
 
-<section id="new-arrivals" aria-labelledby="new-arrivals-title">
+<section id="practices" class="home-editorial" aria-labelledby="practices-title">
   <div class="section-intro">
     <span class="section-number">01</span>
+    <h2 class="section-title" id="practices-title">Practices we keep coming back to</h2>
+    <p class="section-note">From the guides</p>
+  </div>
+  <p class="home-editorial__lede">Seven decisions the guides keep returning to. The essays are the long form. These are the lines that still seem true once the comparison tables are closed.</p>
+  <div class="practice-list">
+    <article class="practice-list__item">
+      <span class="practice-list__index">01</span>
+      <div class="practice-list__copy">
+        <h3>Four out of five is still a miss</h3>
+        <p class="practice-list__takeaway">A page that says "for agents" can still be a person's account with a new headline.</p>
+        <div class="practice-list__body">
+        <p>The catalog refuses a service with tests you can point at. The vendor's pages have to name agents as the caller. The primitive has to be something a human product would not need. The agent has to finish the loop. The interface has to be a machine's. Outward action needs an identity that is not the operator's. Drop one and the proposal is out. The usual miss is an adapted product: a real API, a post that welcomes agents, and a user account. Operator surfaces are a narrow exception. They must read live agent state, tie it to a session, and admit the powers they lack. A passing card is a listing, not a recommendation.</p>
+        </div>
+        <p class="practice-list__links">
+          <a href="{{ '/guides/what-makes-a-service-agent-native/' | relative_url }}">What makes a service agent-native</a>
+          <a href="{{ '/categories/' | relative_url }}">All collections</a>
+        </p>
+      </div>
+    </article>
+    <article class="practice-list__item">
+      <span class="practice-list__index">02</span>
+      <div class="practice-list__copy">
+        <h3>Who replies decides the inbox</h3>
+        <p class="practice-list__takeaway">Correspondence, a one-time code, a notification, and notes between coding agents are four different products.</p>
+        <div class="practice-list__body">
+        <p>"Send email" is not a requirement until the other party has a name. A stranger who must reach the agent needs an address the agent owns, threads as data, and inbound mail as an event. A signup that only needs a code needs a mailbox that can wait. A person who already uses the product needs a notification, not a second public identity. Another coding agent in the same repository needs a record beside the code, not an MX record. A review-before-send gate is a real control. A sentence in the prompt that says not to email the customer is not. When a person must prove the domain first, that step is DNS being honest.</p>
+        </div>
+        <p class="practice-list__links">
+          <a href="{{ '/guides/choose-an-email-api-for-agents/' | relative_url }}">How to choose an email API for AI agents</a>
+          <a href="{{ '/categories/communication/' | relative_url }}">Communication</a>
+        </p>
+      </div>
+    </article>
+    <article class="practice-list__item">
+      <span class="practice-list__index">03</span>
+      <div class="practice-list__copy">
+        <h3>A document, a click, or someone else's login</h3>
+        <p class="practice-list__takeaway">Extraction, a disposable session, and a browser that is already signed in are not interchangeable.</p>
+        <div class="practice-list__body">
+        <p>The browser collection shares a page and not an architecture. An extraction API returns markdown or JSON and never submits the form. A hosted session is a browser the agent creates, drives, and throws away, which is what a click with a side effect requires. A local browser that kept its cookies can do what a fresh cloud profile cannot, because it is already signed in as a person. Mixing those up is how an agent reports a task that never happened, or pays for a full browser to fetch a public document. A task that works only when someone is already signed in is borrowing an identity, and the gate has to sit outside the model.</p>
+        </div>
+        <p class="practice-list__links">
+          <a href="{{ '/guides/browser-infrastructure-for-agents/' | relative_url }}">Browser infrastructure for agents compared</a>
+          <a href="{{ '/categories/browser-and-web-execution/' | relative_url }}">Browser &amp; Web Execution</a>
+        </p>
+      </div>
+    </article>
+    <article class="practice-list__item">
+      <span class="practice-list__index">04</span>
+      <div class="practice-list__copy">
+        <h3>Retrieval is not a memory</h3>
+        <p class="practice-list__takeaway">What may be written, contradicted, forgotten, and named is the product. The index is only a part.</p>
+        <div class="practice-list__body">
+        <p>The next call sees the prompt you assembled, not the previous session, unless something was stored on purpose. Putting the transcript back in fails once the old lines crowd out the question. A vector index finds similar chunks and still has no lifecycle. Something has to decide that a sentence was a fact, that a newer sentence retired it, and which identity may read the row. Automatic extractors write when the agent forgets to, and also when the agent would have refused. A shared store leaks if user and agent are the same key. A store on one laptop is blank in CI unless the sync is real.</p>
+        </div>
+        <p class="practice-list__links">
+          <a href="{{ '/guides/memory-layers-for-agents/' | relative_url }}">Memory layers for agents: approaches and trade-offs</a>
+          <a href="{{ '/categories/memory-and-state/' | relative_url }}">Memory &amp; State</a>
+        </p>
+      </div>
+    </article>
+    <article class="practice-list__item">
+      <span class="practice-list__index">05</span>
+      <div class="practice-list__copy">
+        <h3>Name the wall, including the network</h3>
+        <p class="practice-list__takeaway">A filesystem that cannot see your disk, and a network that can still see the internet, are different promises.</p>
+        <div class="practice-list__body">
+        <p>Code a model just wrote should not run in the process that wrote it. This collection is environments an agent can create, run, read a result from, and destroy, with enough state that the next snippet still sees the previous files. A hosted microVM is the short path, and the vendor sees the code. A Kubernetes resource fits when you already operate a cluster, and nowhere else. A local hypervisor is only as strict as its mounts and its egress list. A container that bind-mounts a home directory is not a sandbox because the command says so. Secrets belong in neither the prompt nor an image shared across tenants.</p>
+        </div>
+        <p class="practice-list__links">
+          <a href="{{ '/guides/sandboxes-and-code-execution/' | relative_url }}">Sandboxes and code execution for agents</a>
+          <a href="{{ '/categories/code-execution/' | relative_url }}">Code Execution</a>
+        </p>
+      </div>
+    </article>
+    <article class="practice-list__item">
+      <span class="practice-list__index">06</span>
+      <div class="practice-list__copy">
+        <h3>The protocol is not the permission</h3>
+        <p class="practice-list__takeaway">A registry can tell you a tool exists. It cannot decide that this agent may call it.</p>
+        <div class="practice-list__body">
+        <p>MCP is how a host talks to servers that offer tools. It is not what this catalog means by agent-native. An HTTP API can pass the admission tests with no server, and a product built for people can ship a server and still fail. Stdio is a program you start beside the host. Remote HTTP is someone else's endpoint, and a secret in the query string is not an auth design. One server, one read, and the narrowest token that works is a finished first setup. The block on a bad write should not be a sentence in the prompt. A gateway moves where tokens sit. It does not remove the trust boundary.</p>
+        </div>
+        <p class="practice-list__links">
+          <a href="{{ '/guides/getting-started-with-mcp-servers/' | relative_url }}">Getting started with MCP servers</a>
+          <a href="{{ '/categories/tool-access-and-integration/' | relative_url }}">Tool Access &amp; Integration</a>
+        </p>
+      </div>
+    </article>
+    <article class="practice-list__item">
+      <span class="practice-list__index">07</span>
+      <div class="practice-list__copy">
+        <h3>Three layers before anything is signed</h3>
+        <p class="practice-list__takeaway">Identity, settlement, and the right to refuse are different parts. A demo usually has only one.</p>
+        <div class="practice-list__body">
+        <p>A checkout for people has a signal an agent lacks: someone clicked Buy. What remains is who the agent is, what it may spend, and which record names the agent rather than a shared card. A wallet whose cap lives outside the model makes the agent a principal. An HTTP 402 challenge lets a metered API demand payment inside the request, and it does not create that cap. A mandate is evidence of what a person authorized when nobody was at the button. A probe, a co-signer, or a band the signing key cannot bypass is the check that should run first. A token transfer with no identity and no limit is not this category.</p>
+        </div>
+        <p class="practice-list__links">
+          <a href="{{ '/guides/payments-for-autonomous-agents/' | relative_url }}">Payments for autonomous agents</a>
+          <a href="{{ '/categories/commerce-and-payments/' | relative_url }}">Commerce &amp; Payments</a>
+        </p>
+      </div>
+    </article>
+  </div>
+  <p class="guide-list__more"><a href="{{ '/guides/' | relative_url }}">All guides</a></p>
+</section>
+
+<section id="attention" class="home-editorial" aria-labelledby="attention-title">
+  <div class="section-intro">
+    <span class="section-number">02</span>
+    <h2 class="section-title" id="attention-title">Where attention clusters</h2>
+    <p class="section-note">GitHub stars · 2026-11-10 UTC</p>
+  </div>
+  <p class="home-editorial__lede home-editorial__disclaimer">Each figure is the public stargazers_count of one repository, read from the GitHub API and stored with the fetch date so the site can build without calling GitHub. Stars measure public interest in that repository, not traffic, revenue, or quality, and they are not a ranking of "best".</p>
+  <p class="home-editorial__lede">The linked repository is the one the dossier's star badge points at, or the official repository when a dossier has no badge. OpenRouter and Skyfire are omitted: their dossiers do not name a single public repository, so there is no count to show.</p>
+  <div class="attention-list">
+    <article class="attention-list__item">
+      <span class="attention-list__index">01</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/firecrawl/' | relative_url }}">Firecrawl</a></h3>
+          <a class="attention-list__stars" href="https://github.com/firecrawl/firecrawl" rel="noopener noreferrer">200,310 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/browser-and-web-execution/' | relative_url }}">Browser &amp; Web Execution</a>
+          <a href="https://github.com/firecrawl/firecrawl" rel="noopener noreferrer">firecrawl/firecrawl</a>
+        </p>
+        <div class="attention-list__body">
+        <p>Research and ingestion agents that want a page as text a model can quote, and that do not need to log in or press a button, are the fit. The repository is the open-source side of a service whose documented calls still go through the vendor's API, so a star is interest in that code while the fetch itself runs on their machines. An endpoint that takes a goal instead of a URL also hands them the choice of which pages to open. When the task has to end as an action on the page, a live browser session is the other tool.</p>
+        </div>
+      </div>
+    </article>
+    <article class="attention-list__item">
+      <span class="attention-list__index">02</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/mem0/' | relative_url }}">Mem0</a></h3>
+          <a class="attention-list__stars" href="https://github.com/mem0ai/mem0" rel="noopener noreferrer">68,741 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/memory-and-state/' | relative_url }}">Memory &amp; State</a>
+          <a href="https://github.com/mem0ai/mem0" rel="noopener noreferrer">mem0ai/mem0</a>
+        </p>
+        <div class="attention-list__body">
+        <p>Assistants that keep facts about a person across many sessions, without the application managing the table, are the job this project describes. An extractor chooses what to add, change, drop, or leave alone, which is both the convenience and the hazard: a stray preference in a test conversation can come back later as something the prompt treats as known. User, agent, and session need to stay different namespaces. Accuracy claims on the vendor site were not rerun for this note, and a star count does not confirm them.</p>
+        </div>
+      </div>
+    </article>
+    <article class="attention-list__item">
+      <span class="attention-list__index">03</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/playwright-mcp/' | relative_url }}">Playwright MCP</a></h3>
+          <a class="attention-list__stars" href="https://github.com/microsoft/playwright-mcp" rel="noopener noreferrer">39,402 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/browser-and-web-execution/' | relative_url }}">Browser &amp; Web Execution</a>
+          <a href="https://github.com/microsoft/playwright-mcp" rel="noopener noreferrer">microsoft/playwright-mcp</a>
+        </p>
+        <div class="attention-list__body">
+        <p>This is browser tooling that stays on a machine you control: the host starts the server, Playwright drives a local browser, and the model reads a structured view of the page rather than a screenshot. Coding agents checking a flow, or reading a document that only renders in a real browser, are the natural users. That is a sensible repository to star and a poor description of a hosted fleet. The process can reach whatever that machine can reach, so the allowed hosts have to be set before a run is left alone.</p>
+        </div>
+      </div>
+    </article>
+    <article class="attention-list__item">
+      <span class="attention-list__index">04</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/langfuse/' | relative_url }}">Langfuse</a></h3>
+          <a class="attention-list__stars" href="https://github.com/langfuse/langfuse" rel="noopener noreferrer">37,246 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/observability-and-tracing/' | relative_url }}">Observability &amp; Tracing</a>
+          <a href="https://github.com/langfuse/langfuse" rel="noopener noreferrer">langfuse/langfuse</a>
+        </p>
+        <div class="attention-list__body">
+        <p>The audience is a team that wants an agent run stored as a tree of spans, model calls, and tool calls, and a way to turn traces into an evaluation set, including the option to run the store themselves. Switching a decorator on captures whatever the current docs say it captures, which can include prompts, so the retention notes come before any customer data. If the only need is to export OpenTelemetry, a narrower collector may be the smaller commitment. The figure beside the name is this repository, not a census of self-hosted deployments.</p>
+        </div>
+      </div>
+    </article>
+    <article class="attention-list__item">
+      <span class="attention-list__index">05</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/github-mcp-server/' | relative_url }}">GitHub MCP Server</a></h3>
+          <a class="attention-list__stars" href="https://github.com/github/github-mcp-server" rel="noopener noreferrer">34,360 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/tool-access-and-integration/' | relative_url }}">Tool Access &amp; Integration</a>
+          <a href="https://github.com/github/github-mcp-server" rel="noopener noreferrer">github/github-mcp-server</a>
+        </p>
+        <div class="attention-list__body">
+        <p>A first-party server for repositories, issues, pull requests, Actions, and security alerts is the obvious remote starting point for agents that already work on GitHub. The agent acts as the user behind the token or the OAuth grant, and GitHub's own permissions still bound what it can do. Start with a read on one repository, and treat write toolsets as a separate decision. Being official does not make a broad token safe, and the hosted endpoint and a local build are different places for that credential to live.</p>
+        </div>
+      </div>
+    </article>
+    <article class="attention-list__item">
+      <span class="attention-list__index">06</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/composio/' | relative_url }}">Composio</a></h3>
+          <a class="attention-list__stars" href="https://github.com/ComposioHQ/composio" rel="noopener noreferrer">31,009 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/tool-access-and-integration/' | relative_url }}">Tool Access &amp; Integration</a>
+          <a href="https://github.com/ComposioHQ/composio" rel="noopener noreferrer">ComposioHQ/composio</a>
+        </p>
+        <div class="attention-list__body">
+        <p>Multi-user agents that must act inside many SaaS accounts, and can collect consent in the middle of a conversation, are the case this platform is built around. The agent sees tools, while refresh tokens are supposed to stay in a store the model cannot read. Where that store lives, and how a person disconnects an app, belong in the docs before the first consent link goes out. Stars do not say whether a team adopted this platform or kept the vault and the tool definitions in a system they operate.</p>
+        </div>
+      </div>
+    </article>
+    <article class="attention-list__item">
+      <span class="attention-list__index">07</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/browserbase/' | relative_url }}">Browserbase</a></h3>
+          <a class="attention-list__stars" href="https://github.com/browserbase/stagehand" rel="noopener noreferrer">25,991 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/browser-and-web-execution/' | relative_url }}">Browser &amp; Web Execution</a>
+          <a href="https://github.com/browserbase/stagehand" rel="noopener noreferrer">browserbase/stagehand</a>
+        </p>
+        <div class="attention-list__body">
+        <p>The number on this row is Stagehand, the open-source SDK the dossier badges, not a tally of cloud browser sessions. It suits people who already write Playwright and want a remote browser they can also steer with ordinary language, then throw the session away. Recordings let a person replay what the agent did, and they are a place typed secrets can land, so the retention note should be open before recording is turned on. Public interest in the SDK is not a measure of the hosted product.</p>
+        </div>
+      </div>
+    </article>
+    <article class="attention-list__item">
+      <span class="attention-list__index">08</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/e2b/' | relative_url }}">E2B</a></h3>
+          <a class="attention-list__stars" href="https://github.com/e2b-dev/E2B" rel="noopener noreferrer">14,794 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/code-execution/' | relative_url }}">Code Execution</a>
+          <a href="https://github.com/e2b-dev/E2B" rel="noopener noreferrer">e2b-dev/E2B</a>
+        </p>
+        <div class="attention-list__body">
+        <p>Coding and analysis agents that iterate in a REPL, keep state between steps, and read charts or files back from the run are the fit. The public project is the plain statement of a hosted sandbox, and part of its draw is running other tool servers inside the VM rather than on the agent's own machine. A disk that cannot see your files, paired with a network that can still reach the internet, is only half a boundary. This figure counts the repository, not sandboxes anyone has started.</p>
+        </div>
+      </div>
+    </article>
+    <article class="attention-list__item">
+      <span class="attention-list__index">09</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/humanlayer/' | relative_url }}">HumanLayer</a></h3>
+          <a class="attention-list__stars" href="https://github.com/humanlayer/humanlayer" rel="noopener noreferrer">12,849 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/oversight-and-approval/' | relative_url }}">Oversight &amp; Approval</a>
+          <a href="https://github.com/humanlayer/humanlayer" rel="noopener noreferrer">humanlayer/humanlayer</a>
+        </p>
+        <div class="attention-list__body">
+        <p>The repository is a human gate with a particular mechanism: mark the risky function, pause the run, and write the person's answer, including a reason for refusal, back into the agent's context. It suits teams whose dangerous calls are few and whose approver already lives in Slack or email. It is the wrong shape when a rule could decide and nobody should have to be waiting. The dossier does not settle what happens when the person never answers, or how an approval link proves who clicked it.</p>
+        </div>
+      </div>
+    </article>
+    <article class="attention-list__item">
+      <span class="attention-list__index">10</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/steel/' | relative_url }}">Steel</a></h3>
+          <a class="attention-list__stars" href="https://github.com/steel-dev/steel-browser" rel="noopener noreferrer">7,939 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/browser-and-web-execution/' | relative_url }}">Browser &amp; Web Execution</a>
+          <a href="https://github.com/steel-dev/steel-browser" rel="noopener noreferrer">steel-dev/steel-browser</a>
+        </p>
+        <div class="attention-list__body">
+        <p>Remote sessions for Playwright, Puppeteer, or Selenium, together with an open image you can run yourself, are why this repository is the one the dossier badges. The cloud service and that image are not promised to be the same set of features. CAPTCHA solving, proxies, and automatic sign-in need a check of which shape includes them, and automatic sign-in means site credentials are stored somewhere. The star count is the repository, and it says nothing about how many cloud sessions exist.</p>
+        </div>
+      </div>
+    </article>
+    <article class="attention-list__item">
+      <span class="attention-list__index">11</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/tavily/' | relative_url }}">Tavily</a></h3>
+          <a class="attention-list__stars" href="https://github.com/tavily-ai/tavily-mcp" rel="noopener noreferrer">2,483 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/search-and-web-intelligence/' | relative_url }}">Search &amp; Web Intelligence</a>
+          <a href="https://github.com/tavily-ai/tavily-mcp" rel="noopener noreferrer">tavily-ai/tavily-mcp</a>
+        </p>
+        <div class="attention-list__body">
+        <p>Search, extraction, crawl, and a research pass under one key are why teams look here when they want the web as text for a context window, rather than a list of links a person would click. This count is the MCP server the dossier badges, not the Python SDK listed beside it and not the volume of queries anyone sends. Ranking, query retention, and what a research call does with the prompt are questions for the current docs. A neighboring tool is the closer fit when the need is embeddings-first retrieval, or only current library documentation.</p>
+        </div>
+      </div>
+    </article>
+    <article class="attention-list__item">
+      <span class="attention-list__index">12</span>
+      <div class="attention-list__copy">
+        <div class="attention-list__head">
+          <h3><a href="{{ '/services/vercel-sandbox/' | relative_url }}">Vercel Sandbox</a></h3>
+          <a class="attention-list__stars" href="https://github.com/vercel/sandbox" rel="noopener noreferrer">224 stars · 2026-11-10 UTC</a>
+        </div>
+        <p class="attention-list__meta">
+          <a href="{{ '/categories/code-execution/' | relative_url }}">Code Execution</a>
+          <a href="https://github.com/vercel/sandbox" rel="noopener noreferrer">vercel/sandbox</a>
+        </p>
+        <div class="attention-list__body">
+        <p>Firecracker microVMs for code a model just produced, with snapshots when the work outlasts one turn, are the fit, especially if the caller is already on Vercel and can use OIDC instead of a long-lived token. The repository is the SDK and the tooling, so the figure is public interest in that code, not a usage statistic for the hosted machines. This catalog does not have that statistic. Persistent sandboxes are marked beta in the dossier, which means the vendor docs have to say what is actually kept before anyone plans on a disk that is still there tomorrow.</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+<section id="new-arrivals" aria-labelledby="new-arrivals-title">
+  <div class="section-intro">
+    <span class="section-number">03</span>
     <h2 class="section-title" id="new-arrivals-title">New arrivals</h2>
     <p class="section-note">Last 30 days</p>
   </div>
@@ -894,7 +1207,7 @@ new_arrivals_count: 107
 
 <section id="collections" aria-labelledby="collections-title">
   <div class="section-intro">
-    <span class="section-number">02</span>
+    <span class="section-number">04</span>
     <h2 class="section-title" id="collections-title">The collections</h2>
     <p class="section-note">16 fields · 293 dossiers</p>
   </div>
@@ -1032,7 +1345,7 @@ new_arrivals_count: 107
 
 <section id="guides" aria-labelledby="guides-title">
   <div class="section-intro">
-    <span class="section-number">03</span>
+    <span class="section-number">05</span>
     <h2 class="section-title" id="guides-title">Guides</h2>
     <p class="section-note">How to choose</p>
   </div>
@@ -1109,7 +1422,7 @@ new_arrivals_count: 107
 <section class="source-gateway" id="complete-index">
   <span class="source-gateway__image" aria-hidden="true"></span>
   <div>
-  <span class="section-number">04</span>
+  <span class="section-number">06</span>
   <h2 class="section-title">Full source.</h2>
   <a class="source-gateway__link" href="https://github.com/haoruilee/awesome-agent-native-services">Awesome Agent-Native Services on GitHub ↗</a>
   </div>
