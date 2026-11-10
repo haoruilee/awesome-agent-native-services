@@ -1,1 +1,2 @@
-# Advertising is disabled. Add the verified publisher entry only after account and consent setup.
+# Advertising is not enabled. This record identifies the AdSense account for site verification only.
+google.com, pub-7668037987581637, DIRECT, f08c47fec0942fa0

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Privacy Policy
-description: "How The Agent-Native Index handles ordinary request data, first-party scripts, and advertising. Advertising is not enabled."
+description: "How The Agent-Native Index handles ordinary request data, first-party scripts, and advertising. An AdSense account exists for site verification. Advertising is not enabled."
 permalink: /privacy/
 page_kind: document
 ads: false
@@ -45,19 +45,21 @@ This release does not load an analytics product. The repository and the public s
 
 Pages load one first-party search script, `/assets/js/catalog-search.js`. When you use the search box, that script fetches `/assets/search-index.json` from this same site and filters it in the browser. It does not send the search text to a third party.
 
-Pages that reserve an advertising space also load `/assets/js/publisher.js`. That script fetches `/publisher-config.json` from this same site and then stops, because advertising is turned off. It does not contact an advertising network in this release.
+Pages that reserve an advertising space also load `/assets/js/publisher.js`. That script fetches `/publisher-config.json` from this same site and then stops, because `adsense.enabled` is false, slot IDs are null, and consent is not configured. It does not contact an advertising network in this release.
+
+Each page also includes a `google-adsense-account` meta tag for the AdSense publisher `ca-pub-7668037987581637`. The tag is not a script. It does not load `adsbygoogle.js`, and it does not turn on Auto ads.
 
 Inline JSON-LD on the pages describes the catalog for search engines. It is not a tracker. The type used for headings and body text is a system font stack. The site does not load a third-party font service.
 
 ## Advertising
 
-Google AdSense and other advertising are not enabled in this release.
+An AdSense account exists for this site (`ca-pub-7668037987581637`). Advertising is not enabled.
 
-Some pages include reserved layout spaces. Those spaces are placeholders. Each one is labeled “Advertisements” and reads “Advertising placement reserved.” They are not live ads. This release does not request ads and does not show ad units. The privacy policy page has no reserved space.
+Some pages include reserved layout spaces. Those spaces are placeholders. Each one is labeled “Advertisements” and reads “Advertising placement reserved.” They are not live ads. This release does not request ads, does not load `adsbygoogle.js`, and does not turn on Auto ads. The privacy policy page has no reserved space.
 
-`/ads.txt` is a plain-text file. It contains only a comment that advertising is disabled. A verified publisher entry belongs there only after an advertising account and a consent setup exist.
+`/ads.txt` is a plain-text file served at the site root. It contains one publisher record for that same account, `google.com, pub-7668037987581637, DIRECT, f08c47fec0942fa0`, plus a comment that advertising is not enabled. The record lets Google match the account to this site. It does not request or display ads.
 
-`/publisher-config.json` ships with advertising off: `adsense.enabled` is false, the client ID is null, every named slot ID is null, and `consentIntegration` is `not_configured`. The first-party script does nothing unless all of the following are true at once: the config enables advertising, the client ID is a valid `ca-pub-` publisher ID, every reserved slot on that page has a numeric slot ID, `consentIntegration` is set to a consent setup other than `not_configured`, and the page carries an explicit consent signal (`window.agentNativeAdConsent` set to `granted`). No publisher ID is hard-coded in the site.
+`/publisher-config.json` keeps advertising off: `adsense.enabled` is false, the client ID is `ca-pub-7668037987581637`, every named slot ID is null, and `consentIntegration` is `not_configured`. The first-party script does nothing unless all of the following are true at once: the config enables advertising, every reserved slot on that page has a numeric slot ID, `consentIntegration` is set to a consent setup other than `not_configured`, and the page carries an explicit consent signal (`window.agentNativeAdConsent` set to `granted`). A client ID in that file does not load an ad by itself.
 
 This release does not include a cookie-consent popup. A certified consent-management platform is required before advertising is enabled for regions that require consent. That platform is what would set the consent signal above. It is not part of this release.
 

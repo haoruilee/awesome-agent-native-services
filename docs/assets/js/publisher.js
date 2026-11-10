@@ -1,10 +1,11 @@
 /*
  * Reserved AdSense placements stay empty unless every gate below is open.
- * Default publisher-config.json fails all of them, so this file does not
- * request an ad script. No consent popup ships with the site. A certified
- * CMP has to set window.agentNativeAdConsent = "granted" before ads may load
- * for regions that require consent, and consentIntegration must name that
- * setup (any value other than "not_configured").
+ * publisher-config.json may name a client id for site verification and still
+ * fail those gates. This file does not request an ad script unless enabled
+ * is true, every reserved slot has an id, consentIntegration names a setup
+ * other than "not_configured", and window.agentNativeAdConsent is "granted".
+ * No consent popup ships with the site. A certified CMP has to set that
+ * consent signal before ads may load for regions that require consent.
  */
 (function () {
   "use strict";

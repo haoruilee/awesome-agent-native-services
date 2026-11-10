@@ -268,8 +268,11 @@ def check_site_directory(site_dir: Path) -> list[str]:
 
 
 def check_advertising_disabled(site_dir: Path) -> list[str]:
-    """Reserved placements must stay inert, and /privacy/ must be crawlable."""
+    """Ownership verification may be present, but ad delivery must stay off."""
     failures: list[str] = []
+    adsense_client = "ca-pub-7668037987581637"
+    ads_txt_record = "google.com, pub-7668037987581637, DIRECT, f08c47fec0942fa0"
+    adsense_meta = f'<meta name="google-adsense-account" content="{adsense_client}">'
     ad_hosts = (
         "googlesyndication.com",
         "googleads.g.doubleclick.net",
@@ -285,13 +288,17 @@ def check_advertising_disabled(site_dir: Path) -> list[str]:
         lowered = ads_text.lower()
         if "<html" in lowered or "<!doctype" in lowered:
             failures.append("ads.txt must be plain text, not an HTML page")
-        if "ca-pub-" in lowered or "google.com" in lowered:
-            failures.append("ads.txt must not publish a publisher entry while advertising is disabled")
         stripped = [line.strip() for line in ads_text.splitlines() if line.strip()]
-        if not stripped or any(not line.startswith("#") for line in stripped):
-            failures.append("ads.txt must contain only a comment while advertising is disabled")
-        if "advertising is disabled" not in lowered:
-            failures.append("ads.txt must state that advertising is disabled")
+        records = [line for line in stripped if not line.startswith("#")]
+        comments = [line for line in stripped if line.startswith("#")]
+        if records != [ads_txt_record]:
+            failures.append("ads.txt must contain exactly one publisher record: " + ads_txt_record)
+        if not any(
+            "not enabled" in line.lower() or "disabled" in line.lower() for line in comments
+        ):
+            failures.append("ads.txt must state that advertising is not enabled")
+        if "adsbygoogle" in lowered or "googlesyndication" in lowered:
+            failures.append("ads.txt must not reference an ad script")
 
     privacy_path = site_dir / "privacy" / "index.html"
     if not privacy_path.is_file():
@@ -299,13 +306,20 @@ def check_advertising_disabled(site_dir: Path) -> list[str]:
     else:
         privacy_html = privacy_path.read_text(encoding="utf-8")
         for phrase in (
-            "Google AdSense and other advertising are not enabled",
+            "An AdSense account exists for this site",
+            "Advertising is not enabled",
+            adsense_client,
+            ads_txt_record,
             "consentIntegration",
             "not_configured",
+            "adsbygoogle.js",
+            "Auto ads",
             'href="/privacy/"',
         ):
             if phrase not in privacy_html:
                 failures.append(f"/privacy/ is missing {phrase!r}")
+        if adsense_meta not in privacy_html or privacy_html.find(adsense_meta) > privacy_html.lower().find("</head>"):
+            failures.append("/privacy/ is missing the AdSense account meta tag in <head>")
         if "data-ad-slot-key" in privacy_html or 'src="/assets/js/publisher.js' in privacy_html:
             failures.append("/privacy/ must not reserve an ad placement or load publisher.js")
 
@@ -317,13 +331,17 @@ def check_advertising_disabled(site_dir: Path) -> list[str]:
         if (
             not isinstance(adsense, dict)
             or adsense.get("enabled") is not False
-            or adsense.get("clientId") is not None
+            or adsense.get("clientId") != adsense_client
             or adsense.get("consentIntegration") != "not_configured"
             or not isinstance(slots, dict)
             or set(slots) != set(slot_keys)
             or any(slots.get(key) is not None for key in slot_keys)
         ):
-            failures.append("publisher-config.json must keep AdSense disabled with null slots")
+            failures.append(
+                "publisher-config.json must record "
+                + adsense_client
+                + " while AdSense stays disabled (enabled false, null slots, consent not_configured)"
+            )
     except (OSError, json.JSONDecodeError, AttributeError, TypeError) as error:
         failures.append(f"publisher-config.json: {error}")
 
@@ -393,14 +411,44 @@ def check_advertising_disabled(site_dir: Path) -> list[str]:
     if "Allow: /privacy/" not in robots or "Allow: /ads.txt" not in robots:
         failures.append("robots.txt does not explicitly allow /privacy/ and /ads.txt")
 
+    checked_html: set[str] = set()
+    missing_meta: list[str] = []
     for html_path in sorted(site_dir.rglob("*.html")):
-        lowered = html_path.read_text(encoding="utf-8", errors="ignore").lower()
+        html = html_path.read_text(encoding="utf-8", errors="ignore")
+        lowered = html.lower()
+        relative = html_path.relative_to(site_dir).as_posix()
+        checked_html.add(relative)
+        head_end = lowered.find("</head>")
+        meta_at = html.find(adsense_meta)
+        if meta_at < 0 or head_end < 0 or meta_at > head_end:
+            missing_meta.append(relative)
         for host in ad_hosts:
             if host in lowered:
-                failures.append(f"{html_path.relative_to(site_dir)} references {host}")
+                failures.append(f"{relative} references {host}")
                 break
-        if "adsbygoogle.js" in lowered:
-            failures.append(f"{html_path.relative_to(site_dir)} loads adsbygoogle.js")
+        # A privacy-policy mention of the filename is not a script tag.
+        if (
+            "pagead/js/adsbygoogle.js" in lowered
+            or "enable_page_level_ads" in lowered
+            or re.search(r"<script\b[^>]*\badsbygoogle\b", lowered)
+        ):
+            failures.append(f"{relative} loads adsbygoogle.js or Auto ads")
+        if 'class="adsbygoogle"' in lowered or "data-ad-client=" in lowered:
+            failures.append(f"{relative} contains a live AdSense unit")
+    for required in ("index.html", "privacy/index.html"):
+        if required not in checked_html:
+            failures.append(f"{required} is missing the AdSense account meta tag")
+        elif required in missing_meta:
+            failures.append(f"{required} is missing the AdSense account meta tag in <head>")
+    other_missing = [
+        path for path in missing_meta if path not in {"index.html", "privacy/index.html"}
+    ]
+    if other_missing:
+        sample = ", ".join(other_missing[:8])
+        more = "" if len(other_missing) <= 8 else f" (+{len(other_missing) - 8} more)"
+        failures.append(
+            "built pages are missing the AdSense account meta tag: " + sample + more
+        )
 
     publisher_path = site_dir / "assets" / "js" / "publisher.js"
     if not publisher_path.is_file():
@@ -413,7 +461,10 @@ def check_advertising_disabled(site_dir: Path) -> list[str]:
             failures.append("publisher.js hard-codes a publisher id")
 
     if not failures:
-        print("Advertising stays disabled: privacy page, ads.txt, and reserved slots passed")
+        print(
+            "Advertising stays disabled: account meta, ads.txt, privacy page, "
+            "and reserved slots passed"
+        )
     return failures
 
 
