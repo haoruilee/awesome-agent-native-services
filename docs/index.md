@@ -3,9 +3,9 @@ title: "Awesome Agent-Native Services"
 description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
 image: /assets/images/social-preview-wide.webp
 page_kind: home
-service_count: 292
+service_count: 293
 collection_count: 16
-new_arrivals_count: 106
+new_arrivals_count: 107
 ---
 
 <section id="new-arrivals" aria-labelledby="new-arrivals-title">
@@ -818,12 +818,20 @@ new_arrivals_count: 106
     <article class="arrival-card atlas-sheet--arrival atlas-visual--05">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
+        <span class="arrival-card__category">Tool Access &amp; Integration</span>
+        <a class="arrival-card__name" href="https://www.corpusiq.io" rel="noopener noreferrer">CorpusIQ</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/corpusiq/' | relative_url }}">The Agent-Native Index</a></span>
+      </span>
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--06">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
         <a class="arrival-card__name" href="https://three.ws" rel="noopener noreferrer">three.ws</a>
         <span class="listing-source">Listed on <a href="{{ '/services/three-ws/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--06">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--07">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
@@ -831,7 +839,7 @@ new_arrivals_count: 106
         <span class="listing-source">Listed on <a href="{{ '/services/inam-protocol/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--07">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--08">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Commerce &amp; Payments</span>
@@ -839,7 +847,7 @@ new_arrivals_count: 106
         <span class="listing-source">Listed on <a href="{{ '/services/402xagent/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--08">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--09">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Memory &amp; State</span>
@@ -847,7 +855,7 @@ new_arrivals_count: 106
         <span class="listing-source">Listed on <a href="{{ '/services/tencentdb-agent-memory/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--09">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--10">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Observability &amp; Tracing</span>
@@ -855,7 +863,7 @@ new_arrivals_count: 106
         <span class="listing-source">Listed on <a href="{{ '/services/orcareplay/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--10">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--11">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
@@ -888,7 +896,7 @@ new_arrivals_count: 106
   <div class="section-intro">
     <span class="section-number">02</span>
     <h2 class="section-title" id="collections-title">The collections</h2>
-    <p class="section-note">16 fields · 292 dossiers</p>
+    <p class="section-note">16 fields · 293 dossiers</p>
   </div>
   <div class="collection-grid">
     <a class="collection-card atlas-visual--01" href="{{ '/categories/communication/' | relative_url }}">
@@ -912,7 +920,7 @@ new_arrivals_count: 106
       <span class="collection-card__copy">
       <span class="collection-card__number">03</span>
       <span class="collection-card__title">Tool Access &amp; Integration</span>
-      <span class="collection-card__count">30</span>
+      <span class="collection-card__count">31</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--04" href="{{ '/categories/oversight-and-approval/' | relative_url }}">

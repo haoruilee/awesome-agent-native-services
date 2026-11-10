@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-09",
-  "generated_at": "2026-11-09",
+  "catalog_version": "2026-11-10",
+  "generated_at": "2026-11-10",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "7dbd7fb0fe9851d7749ead175afc281a3b27923d53e498189b9185c9a78ab09f",
+      "value": "abd4799189375fc423f5635bd639ce5aecc050493c263a4905292519e29534dd",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -73,6 +73,7 @@
         "services/tool-access-and-integration/cli-anything.md",
         "services/tool-access-and-integration/composio.md",
         "services/tool-access-and-integration/contextforge.md",
+        "services/tool-access-and-integration/corpusiq.md",
         "services/tool-access-and-integration/framelink-figma-mcp.md",
         "services/tool-access-and-integration/github-mcp-server.md",
         "services/tool-access-and-integration/google-mcp-toolbox.md",
@@ -328,7 +329,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 292
+    "services": 293
   },
   "categories": [
     {
@@ -350,7 +351,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 30
+      "service_count": 31
     },
     {
       "id": "oversight-and-approval",
@@ -2209,6 +2210,46 @@
       "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/IBM/mcp-context-forge"
+      ]
+    },
+    {
+      "id": "tool-access-and-integration/corpusiq",
+      "slug": "corpusiq",
+      "name": "CorpusIQ",
+      "tagline": "Accelerate your business. All your tools in one place.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "tool-access-and-integration",
+      "website": "https://www.corpusiq.io",
+      "repository": "https://github.com/CorpusIQ/corpusiq-docs",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/corpusiq.md",
+      "source_path": "services/tool-access-and-integration/corpusiq.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP",
+        "instruction": "claude mcp add --transport http corpusiq https://mcp2.corpusiq.io/mcp",
+        "url": "https://mcp2.corpusiq.io/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Homepage (apex https://corpusiq.io returns 308), llms.txt, developers, pricing.md and openapi.json HTTP 200 on 2026-11-10. POST https://mcp2.corpusiq.io/mcp initialize returned serverInfo.name multi-source-mcp version 1.0.0. Unauthenticated tools/list returned 121 tools. Unauthenticated tools/call returned HTTP 401. Registry io.corpusiq/multi-source-mcp 1.0.3 is latest. corpusiq-docs last push 2026-11-10, 28 stars, no license file",
+      "verified_at": "2026-11-10",
+      "verification_sources": [
+        "https://www.corpusiq.io/",
+        "https://corpusiq.io",
+        "https://www.corpusiq.io/llms.txt",
+        "https://www.corpusiq.io/developers",
+        "https://www.corpusiq.io/pricing.md",
+        "https://www.corpusiq.io/openapi.json",
+        "https://mcp2.corpusiq.io/mcp"
       ]
     },
     {
