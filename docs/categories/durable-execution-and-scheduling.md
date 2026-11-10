@@ -13,6 +13,16 @@ service_count: 6
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/README.md">Collection notes ↗</a></p>
 
+<div class="collection-essay" markdown="1">
+
+Agent workflows fail in the middle of a chain. A retry that starts over repeats model calls and throws away steps that already succeeded. Queue systems built for stateless jobs can retry a function. They do not, by themselves, remember where an agent was in a reasoning loop. This collection is for runtimes that checkpoint that work and resume it.
+
+Inngest, Restate, and Trigger.dev publish durable execution for workflows and agents. Inferable is an open-source workflow runtime whose own description includes people in the loop. MCP-Cloud is about hosting mcp-agent apps. pi-dispatch runs a coding agent on a trigger, a schedule, or an event. They share the idea of a run that outlives one process. They differ in whether you bring your own agent or write steps in their model.
+
+What gets saved is the design choice. A durable step remembers that a function returned. It does not remember why the model chose a tool unless you store that trajectory, which is the observability collection. A wait for a person can be a step that lasts overnight, and it can also be an approval product whose whole job is the decision. Read the docs for how a crash, a rate limit, and a person who answers tomorrow are each represented. A scheduler that only fires a cron job is a smaller thing than a checkpoint between model calls, and the category notes are written for the latter.
+
+</div>
+
 <div class="service-grid">
   <article class="service-card atlas-sheet--arrival atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>

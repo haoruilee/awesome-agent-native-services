@@ -13,6 +13,18 @@ service_count: 31
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/README.md">Collection notes ↗</a></p>
 
+<div class="collection-essay" markdown="1">
+
+The web is a user interface. An agent that has to click, type, or read a page needs either a browser session it can open and close, or an extraction interface that returns text instead of a layout meant for a person. A headless library on a laptop is a script. The services here are the session, the engine, or the extraction API.
+
+They split, and the split matters more than the shared word "browser." Browserbase, Steel, Anchor Browser, Hyperbrowser, Browser Use Cloud, Kernel, Notte, and Bright Data Agent Browser are hosted sessions, usually driven over CDP, Playwright, Puppeteer, or an MCP server. Cloudflare Browser Rendering pools headless Chrome on Cloudflare's network, including a Browser Run path in the Agents SDK. Lightpanda, Obscura, Moli, and Playwright MCP are engines or MCP servers you run or attach, Playwright MCP by exposing accessibility snapshots as tools. Firecrawl, Crawl4AI, Olostep, and Apify are closer to turning sites into model-ready data than to driving a live UI. Hronaut, bb-browser, ego lite, and OpenCLI care about a browser that already has login state.
+
+A cloud session isolates the agent from the host and starts without the user's cookies. A local browser can reuse a real login and shares that machine's risk. Stealth, proxies, and CAPTCHA handling are vendor features aimed at sites that try to block automation. Whether they work on a given site is not something this catalog measures. Extraction APIs skip the click-path, and they also skip tasks that only exist as a button.
+
+The comparison is [Browser infrastructure for agents compared](/guides/browser-infrastructure-for-agents/).
+
+</div>
+
 <div class="service-grid">
   <article class="service-card atlas-sheet--arrival atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>

@@ -13,6 +13,16 @@ service_count: 9
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/README.md">Collection notes ↗</a></p>
 
+<div class="collection-essay" markdown="1">
+
+A meeting link and a telephone number are different networks. This collection is the second one: realtime speech, a call, or a number the agent can use. The services range from pipeline frameworks you assemble to platforms that already sit on the phone network.
+
+Vapi, Retell AI, and LiveKit Agents are platforms for voice agents. LiveKit's docs cover agents on its realtime media stack, not only telephone calls. Pipecat and Stimm are open-source pipelines for wiring speech models, transports, and tools. CosVoice, Patter, and PlaceCall are positioned around giving the agent a phone number, CosVoice with a machine-readable join document. Qwen Audio Agent is a realtime voice runtime published as a repository. A pipeline expects you to bring the models and the deployment. A phone-number service is closer to an identity on the telephone network, with whatever calling coverage that vendor documents.
+
+Latency is the constraint people feel, and published figures belong on the vendor's site. A hosted platform hides the media servers and ties the call to that vendor's session. An open pipeline keeps the pieces swappable and leaves the servers to you. Tool calls during the call are a different primitive from a webhook after hangup. The category notes look for a lifecycle the agent can start by API, a way to react to speech without polling, and a way to test before a real person is on the line. Recording and consent rules are outside this catalog. Read them in the vendor docs and in the places you call.
+
+</div>
+
 <div class="service-grid">
   <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>

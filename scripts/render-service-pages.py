@@ -487,6 +487,32 @@ def build_page(service: dict[str, Any]) -> str:
     return front_matter + "\n".join(body_parts).rstrip() + "\n"
 
 
+def editorial_sitemap_urls() -> list[tuple[str, str, str]]:
+    """Hand-written pages. Jekyll also emits these; this keeps the repo sitemap in step."""
+    urls = [
+        (f"{SITE_BASE}/about/", "monthly", "0.5"),
+        (f"{SITE_BASE}/editorial-policy/", "monthly", "0.5"),
+        (f"{SITE_BASE}/guides/", "weekly", "0.8"),
+    ]
+    guides = ROOT / "docs" / "guides"
+    found: list[tuple[str, str, str]] = []
+    if not guides.is_dir():
+        raise SystemExit("docs/guides is missing")
+    for path in sorted(guides.glob("*.md")):
+        if path.name == "index.md":
+            continue
+        match = re.search(r"^permalink:\s*(\S+)\s*$", read_text(path), re.MULTILINE)
+        if not match:
+            raise SystemExit(f"{path} is missing a permalink")
+        permalink = match.group(1).strip('"')
+        if not permalink.endswith("/"):
+            permalink += "/"
+        found.append((f"{SITE_BASE}{permalink}", "monthly", "0.6"))
+    if len(found) < 6:
+        raise SystemExit(f"expected at least 6 guide permalinks, found {len(found)}")
+    return urls + found
+
+
 def write_sitemap(services: list[dict[str, Any]]) -> None:
     urls: list[tuple[str, str, str]] = [
         (f"{SITE_BASE}/", "daily", "1.0"),
@@ -494,6 +520,7 @@ def write_sitemap(services: list[dict[str, Any]]) -> None:
     ]
     for slug in CATEGORY_ORDER:
         urls.append((f"{SITE_BASE}/categories/{slug}/", "weekly", "0.7"))
+    urls.extend(editorial_sitemap_urls())
     for service in sorted(services, key=lambda item: item["slug"]):
         urls.append((f"{SITE_BASE}/services/{service['slug']}/", "weekly", "0.6"))
     urls.extend(

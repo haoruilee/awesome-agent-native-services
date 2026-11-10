@@ -13,6 +13,18 @@ service_count: 33
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md">Collection notes ↗</a></p>
 
+<div class="collection-essay" markdown="1">
+
+A model call does not keep a store. Putting the whole transcript back into the next prompt works until the transcript is the prompt. A vector index still leaves the agent to decide what to write, what to overwrite, and what to drop. This collection is for services that take on that lifecycle: extract or accept a memory, keep it across sessions, and return a slice that fits the next call.
+
+The mechanisms differ enough that the taglines should not be compared as if they were the same feature. Mem0's dossier describes automatic extraction and a reconciliation step that can add, update, delete, or leave a memory. Zep is the managed product built on a temporal knowledge graph. Graphiti is the open-source engine and is listed separately so the two are not treated as one entry. Ensue, mem9, and Dexio lean toward memory more than one agent can read. Dexio is a hosted wiki of linked pages. agentmemory, Claude-Mem, Engram, and Memorix are aimed at coding agents on a machine. Beads is a dependency-aware work graph in Dolt, closer to issues that survive a context reset than to a fact store. Compartment is an encrypted offline vault. Cognee, OpenViking, MemOS, and Supermemory are broader context or memory databases with their own APIs.
+
+Automatic extraction is less work for the agent and can store a fact you did not mean to keep. Explicit writes are easier to audit and easier to forget to call. Hosted memory follows the agent across machines. Local memory stays next to the repo. Shared memory needs a rule for whose fact wins.
+
+The approaches are compared in [Memory layers for agents](/guides/memory-layers-for-agents/).
+
+</div>
+
 <div class="service-grid">
   <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>

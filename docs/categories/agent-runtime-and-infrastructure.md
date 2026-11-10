@@ -13,6 +13,18 @@ service_count: 38
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md">Collection notes ↗</a></p>
 
+<div class="collection-essay" markdown="1">
+
+Running one agent in a notebook hides the problems that show up when the agent has to keep a session, a secret, and an identity across restarts. This is the wide collection. It holds deployment substrates, workload identity, computers an agent can use, and a few local tools that change how an agent reads a repository. The shared test is that the agent operates the surface. A visual product for a person to assemble an agent belongs in the excluded builder list, not here.
+
+Amazon Bedrock AgentCore, the Cloudflare Agents SDK, Letta, Modal, Agentuity, and the Gemini Enterprise Agent Platform are deployment platforms, each with its own session model. Aembit and Infisical Agent Sentinel are about identity and secrets for workloads that happen to be agents. Cua, Scrapybara, Cyberdesk, Auten, and Cloudflare Computer are closer to a machine or a screen. db9, Cohesivity, and Vectoree are data or backend surfaces aimed at agents. Serena and cx are local code navigation. Read the dossier before assuming a runtime includes a sandbox, a browser, or a wallet. Those have their own collections.
+
+A full platform shortens the path to a running agent and also chooses how sessions, secrets, and logs work. A narrow primitive is easier to replace and leaves the loop to you. Local tools avoid a hosted session and exist only on the machine where the agent runs. The admission test for any of them is the same five criteria, or the narrow operator-surface track when the product is a live view of agent state rather than a place the agent runs.
+
+That test is spelled out in [What makes a service agent-native](/guides/what-makes-a-service-agent-native/).
+
+</div>
+
 <div class="service-grid">
   <article class="service-card atlas-sheet--arrival atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>

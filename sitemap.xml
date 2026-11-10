@@ -91,6 +91,56 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/editorial-policy/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/guides/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/guides/browser-infrastructure-for-agents/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/guides/choose-an-email-api-for-agents/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/guides/getting-started-with-mcp-servers/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/guides/memory-layers-for-agents/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/guides/payments-for-autonomous-agents/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/guides/sandboxes-and-code-execution/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/guides/what-makes-a-service-agent-native/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/402xagent/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

@@ -13,6 +13,18 @@ service_count: 7
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/README.md">Collection notes ↗</a></p>
 
+<div class="collection-essay" markdown="1">
+
+Most of this catalog is about letting an agent finish a loop. This collection is about the step where the loop should stop. Sending mail, paying, deleting, or deploying can be the point of the agent, and it can also be the action a person still has to authorize. An approval product is the primitive that makes that pause part of the run, instead of an informal message someone might see.
+
+HumanLayer, withHuman, and Preloop are positioned as approval layers. Sallyport is about letting an agent reach production systems while the keys stay elsewhere. Cordum describes itself as an open control plane. Tracekit is aimed at evidence for each action. Sondera Coding Agent Hooks is a reference monitor for coding agents. They do not block in the same place. Some inject an approve, deny, or edit back into the agent's context. Some wrap the tool. Some record the decision so a later review can see who allowed it.
+
+A gate that lives only in the prompt can be argued past. A gate on the tool or the credential can refuse the call even when the model insists. A log written after the fact is evidence, which is the job of the observability collection, not a prevention. The category notes look for autonomous operation except at named decision points, a route to a person, and a way to put that person's answer back into the run. A status line that shows context pressure is an operator surface, listed under harnesses, and it is not this gate.
+
+How the index draws that line is in [What makes a service agent-native](/guides/what-makes-a-service-agent-native/).
+
+</div>
+
 <div class="service-grid">
   <article class="service-card atlas-sheet--arrival atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>
