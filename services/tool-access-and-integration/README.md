@@ -46,6 +46,7 @@ Agent-native tool access services solve all three problems with primitives that 
 | [CLI-Anything](cli-anything.md) [![⭐](https://img.shields.io/github/stars/HKUDS/CLI-Anything?style=social)](https://github.com/HKUDS/CLI-Anything) | Turns existing software into agent-operable CLIs | Harness generator skill · `--json` CLIs · `cli-hub` registry | ⚠️ |
 | [REA](rea.md) [![⭐](https://img.shields.io/github/stars/morluto/rea?style=social)](https://github.com/morluto/rea) | Reverse-engineering MCP for coding agents | MCP (stdio) · CLI · binaries/Electron/.NET/APK/web | ✅ |
 | [Tadka](tadka.md) | The booking layer for AI agents. | Remote MCP (OAuth), open REST directory, OpenAPI, llms.txt | ✅ |
+| [CorpusIQ](corpusiq.md) [![⭐](https://img.shields.io/github/stars/CorpusIQ/corpusiq-docs?style=social)](https://github.com/CorpusIQ/corpusiq-docs) | Accelerate your business. All your tools in one place. | Hosted Streamable HTTP MCP · OAuth device flow · OpenAPI 3.1 · llms.txt | ✅ |
 
 
 

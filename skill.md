@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-11-09"
+version: "2026-11-10"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -82,7 +82,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 290 Services
+## Full Catalog — 16 Categories, 293 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -145,7 +145,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 3. Tool Access & Integration (28 services)
+### 3. Tool Access & Integration (27 services)
 *Runtime tool discovery, auth, and execution without human pre-configuration.*
 
 | Service | Tagline | Onboarding |
@@ -176,6 +176,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Aident Loadout](https://aident.ai) | Give your agents real capabilities | `npx skills add Aident-AI/aident-skill` or follow https://aident.ai/SETUP.md — [docs](https://docs.aident.ai/loadout/overview) |
 | [Scalekit](https://www.scalekit.com) | Connect your agents to any tool. Authenticated, scoped, and logged. | `npx skills add scalekit-inc/authstack --skill integrate-agentkit`, or `pip install scalekit-sdk-python` and follow the [quickstart](https://docs.scalekit.com/agentkit/quickstart/) |
 | [Tadka](https://tadka.xyz) | The booking layer for AI agents. | Add MCP `https://tadka.xyz/mcp` (OAuth as diner) or open REST `https://tadka.xyz/api/public/v1/restaurants` |
+| [CorpusIQ](https://www.corpusiq.io) | Accelerate your business. All your tools in one place. | `claude mcp add --transport http corpusiq https://mcp2.corpusiq.io/mcp` — [developers](https://www.corpusiq.io/developers). Server source is private |
 
 ---
 
