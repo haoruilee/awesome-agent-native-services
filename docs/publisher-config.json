@@ -1,0 +1,13 @@
+{
+  "adsense": {
+    "enabled": false,
+    "clientId": null,
+    "slots": {
+      "home-banner": null,
+      "list-banner": null,
+      "in-content": null,
+      "content-footer": null
+    },
+    "consentIntegration": "not_configured"
+  }
+}

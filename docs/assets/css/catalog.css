@@ -1134,6 +1134,38 @@ a:hover {
   text-transform: uppercase;
 }
 
+.ad-reserve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 88px;
+  margin: 0 0 8px;
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.ad-reserve--article {
+  min-height: 112px;
+  margin: 64px 0 0;
+}
+
+.ad-reserve__label {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.ad-reserve__copy {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: 17px;
+}
+
 .site-footer {
   color: var(--porcelain);
   background: var(--ink);
@@ -1179,6 +1211,19 @@ a:hover {
 
 .footer-nav a {
   color: #c7c0b4;
+}
+
+.footer-inner .ad-reserve--footer {
+  grid-column: 1 / -1;
+  min-height: 72px;
+  margin: 8px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+  border-bottom: 0;
+}
+
+.footer-inner .ad-reserve--footer .ad-reserve__label,
+.footer-inner .ad-reserve--footer .ad-reserve__copy {
+  color: #a1a1a6;
 }
 
 .footer-meta {

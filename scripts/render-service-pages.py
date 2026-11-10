@@ -498,6 +498,7 @@ def write_sitemap(services: list[dict[str, Any]]) -> None:
         urls.append((f"{SITE_BASE}/services/{service['slug']}/", "weekly", "0.6"))
     urls.extend(
         [
+            (f"{SITE_BASE}/privacy/", "monthly", "0.4"),
             (f"{SITE_BASE}/skill.md", "weekly", "0.9"),
             (f"{SITE_BASE}/catalog.json", "weekly", "0.9"),
             (f"{SITE_BASE}/llms.txt", "weekly", "0.8"),

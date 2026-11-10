@@ -41,6 +41,7 @@
           <a href="{{ '/' | relative_url }}#collections">Collections</a>
           <a href="{{ '/' | relative_url }}#new-arrivals">New</a>
           <a href="{{ '/' | relative_url }}#for-agents">Enter</a>
+          <a href="{{ '/privacy/' | relative_url }}"{% if page.url == '/privacy/' %} aria-current="page"{% endif %}>Privacy</a>
           <a href="{{ site.github.repository_url | default: 'https://github.com/haoruilee/awesome-agent-native-services' }}">GitHub <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
@@ -142,8 +143,27 @@
       </section>
     {% endif %}
 
+    {% assign reserve_ads = false %}
+    {% if page.ads != false %}
+      {% if page.page_kind == "home" or page.page_kind == "collection" or page.page_kind == "service" or page.url == "/categories/" %}
+        {% assign reserve_ads = true %}
+      {% endif %}
+    {% endif %}
+
     <main id="content" class="catalog-content">
+      {% if reserve_ads and page.page_kind == "home" %}
+        {% include ad-slot.html key="home-banner" variant="banner" %}
+      {% elsif reserve_ads %}
+        {% if page.page_kind == "collection" or page.url == "/categories/" %}
+          {% include ad-slot.html key="list-banner" variant="banner" %}
+        {% endif %}
+      {% endif %}
       {{ content }}
+      {% if reserve_ads %}
+        {% if page.page_kind == "collection" or page.page_kind == "service" %}
+          {% include ad-slot.html key="in-content" variant="article" %}
+        {% endif %}
+      {% endif %}
     </main>
 
     <footer class="site-footer">
@@ -156,12 +176,19 @@
           <a href="{{ '/categories/' | relative_url }}">All collections</a>
           <a href="{{ '/' | relative_url }}#faq">FAQ</a>
           <a href="{{ site.github.repository_url | default: 'https://github.com/haoruilee/awesome-agent-native-services' }}/blob/main/CONTRIBUTING.md">Criteria</a>
+          <a href="{{ '/privacy/' | relative_url }}"{% if page.url == '/privacy/' %} aria-current="page"{% endif %}>Privacy</a>
           <a href="https://releaselog.site">AI release calendar · ReleaseLog</a>
           <a href="{{ site.github.repository_url | default: 'https://github.com/haoruilee/awesome-agent-native-services' }}">Awesome Agent-Native Services on GitHub</a>
         </nav>
+        {% if reserve_ads %}
+          {% include ad-slot.html key="content-footer" variant="footer" %}
+        {% endif %}
         <p class="footer-meta">Curated in public · CC0-1.0 · {{ site.time | date: '%Y' }}</p>
       </div>
     </footer>
     <script src="{{ '/assets/js/catalog-search.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
+    {% if reserve_ads %}
+    <script src="{{ '/assets/js/publisher.js?v=' | append: site.github.build_revision | relative_url }}" defer data-publisher-config="{{ '/publisher-config.json' | relative_url }}"></script>
+    {% endif %}
   </body>
 </html>

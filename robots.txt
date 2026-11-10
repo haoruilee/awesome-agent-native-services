@@ -1,25 +1,40 @@
 # https://theagentnative.com/
 # LLM catalog: https://theagentnative.com/llms.txt
+# /privacy/ and /ads.txt are public. Do not disallow them.
 User-agent: *
 Allow: /
+Allow: /privacy/
+Allow: /ads.txt
 
 User-agent: GPTBot
 Allow: /
+Allow: /privacy/
+Allow: /ads.txt
 
 User-agent: ChatGPT-User
 Allow: /
+Allow: /privacy/
+Allow: /ads.txt
 
 User-agent: ClaudeBot
 Allow: /
+Allow: /privacy/
+Allow: /ads.txt
 
 User-agent: anthropic-ai
 Allow: /
+Allow: /privacy/
+Allow: /ads.txt
 
 User-agent: PerplexityBot
 Allow: /
+Allow: /privacy/
+Allow: /ads.txt
 
 User-agent: Google-Extended
 Allow: /
+Allow: /privacy/
+Allow: /ads.txt
 
 Sitemap: https://theagentnative.com/sitemap.xml
 Sitemap: https://theagentnative.com/machine-sitemap.xml

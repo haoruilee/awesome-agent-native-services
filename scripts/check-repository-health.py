@@ -256,12 +256,164 @@ def check_site_directory(site_dir: Path) -> list[str]:
             "built site is missing service introduction routes: " + sample + more
         )
 
+    failures.extend(check_advertising_disabled(site_dir))
+
     if not failures:
         print(
             "Built agent endpoints passed: "
             f"{len(required)} endpoints, {len(source_categories)} category routes, "
             f"{len(source_services)} service routes"
         )
+    return failures
+
+
+def check_advertising_disabled(site_dir: Path) -> list[str]:
+    """Reserved placements must stay inert, and /privacy/ must be crawlable."""
+    failures: list[str] = []
+    ad_hosts = (
+        "googlesyndication.com",
+        "googleads.g.doubleclick.net",
+        "adservice.google.com",
+    )
+    slot_keys = ("home-banner", "list-banner", "in-content", "content-footer")
+
+    ads_path = site_dir / "ads.txt"
+    if not ads_path.is_file() or ads_path.stat().st_size == 0:
+        failures.append(f"{ads_path}: missing ads.txt")
+    else:
+        ads_text = ads_path.read_text(encoding="utf-8")
+        lowered = ads_text.lower()
+        if "<html" in lowered or "<!doctype" in lowered:
+            failures.append("ads.txt must be plain text, not an HTML page")
+        if "ca-pub-" in lowered or "google.com" in lowered:
+            failures.append("ads.txt must not publish a publisher entry while advertising is disabled")
+        stripped = [line.strip() for line in ads_text.splitlines() if line.strip()]
+        if not stripped or any(not line.startswith("#") for line in stripped):
+            failures.append("ads.txt must contain only a comment while advertising is disabled")
+        if "advertising is disabled" not in lowered:
+            failures.append("ads.txt must state that advertising is disabled")
+
+    privacy_path = site_dir / "privacy" / "index.html"
+    if not privacy_path.is_file():
+        failures.append("built site is missing /privacy/")
+    else:
+        privacy_html = privacy_path.read_text(encoding="utf-8")
+        for phrase in (
+            "Google AdSense and other advertising are not enabled",
+            "consentIntegration",
+            "not_configured",
+            'href="/privacy/"',
+        ):
+            if phrase not in privacy_html:
+                failures.append(f"/privacy/ is missing {phrase!r}")
+        if "data-ad-slot-key" in privacy_html or 'src="/assets/js/publisher.js' in privacy_html:
+            failures.append("/privacy/ must not reserve an ad placement or load publisher.js")
+
+    config_path = site_dir / "publisher-config.json"
+    try:
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        adsense = config.get("adsense") if isinstance(config, dict) else None
+        slots = adsense.get("slots") if isinstance(adsense, dict) else None
+        if (
+            not isinstance(adsense, dict)
+            or adsense.get("enabled") is not False
+            or adsense.get("clientId") is not None
+            or adsense.get("consentIntegration") != "not_configured"
+            or not isinstance(slots, dict)
+            or set(slots) != set(slot_keys)
+            or any(slots.get(key) is not None for key in slot_keys)
+        ):
+            failures.append("publisher-config.json must keep AdSense disabled with null slots")
+    except (OSError, json.JSONDecodeError, AttributeError, TypeError) as error:
+        failures.append(f"publisher-config.json: {error}")
+
+    home_path = site_dir / "index.html"
+    home = home_path.read_text(encoding="utf-8") if home_path.is_file() else ""
+    for key in ("home-banner", "content-footer"):
+        if f'data-ad-slot-key="{key}"' not in home:
+            failures.append(f"homepage is missing reserved slot {key}")
+    if 'data-ad-slot-key="in-content"' in home or 'data-ad-slot-key="list-banner"' in home:
+        failures.append("homepage reserved an unexpected ad slot")
+    if 'href="/privacy/"' not in home:
+        failures.append("homepage does not link to /privacy/")
+    if 'src="/assets/js/publisher.js' not in home:
+        failures.append("homepage does not load the gated publisher script")
+    if "Advertisements" not in home or "Advertising placement reserved" not in home:
+        failures.append("homepage placeholder is missing its visible label or copy")
+
+    categories_index = site_dir / "categories" / "index.html"
+    if categories_index.is_file():
+        categories_html = categories_index.read_text(encoding="utf-8")
+        for key in ("list-banner", "content-footer"):
+            if f'data-ad-slot-key="{key}"' not in categories_html:
+                failures.append(f"categories index is missing reserved slot {key}")
+        if 'data-ad-slot-key="in-content"' in categories_html or 'data-ad-slot-key="home-banner"' in categories_html:
+            failures.append("categories index reserved an unexpected ad slot")
+
+    collection_pages = list((site_dir / "categories").glob("*/index.html"))
+    if not collection_pages:
+        collection_pages = [
+            path
+            for path in (site_dir / "categories").glob("*.html")
+            if path.name != "index.html"
+        ]
+    if not collection_pages:
+        failures.append("no collection page available to check list placements")
+    else:
+        listing = collection_pages[0].read_text(encoding="utf-8")
+        for key in ("list-banner", "in-content", "content-footer"):
+            if f'data-ad-slot-key="{key}"' not in listing:
+                failures.append(
+                    f"{collection_pages[0].parent.name} is missing reserved slot {key}"
+                )
+
+    service_pages = list((site_dir / "services").glob("*/index.html"))
+    if not service_pages:
+        failures.append("no service page available to check the in-content placement")
+    else:
+        guide = service_pages[0].read_text(encoding="utf-8")
+        for key in ("in-content", "content-footer"):
+            if f'data-ad-slot-key="{key}"' not in guide:
+                failures.append(f"{service_pages[0].parent.name} is missing reserved slot {key}")
+        if 'data-ad-slot-key="home-banner"' in guide or 'data-ad-slot-key="list-banner"' in guide:
+            failures.append(f"{service_pages[0].parent.name} reserved an unexpected banner slot")
+
+    sitemap_path = site_dir / "sitemap.xml"
+    if sitemap_path.is_file():
+        sitemap = sitemap_path.read_text(encoding="utf-8")
+        if "https://theagentnative.com/privacy/" not in sitemap:
+            failures.append("sitemap.xml does not list https://theagentnative.com/privacy/")
+    else:
+        failures.append("sitemap.xml is missing, so /privacy/ cannot be advertised")
+
+    robots_path = site_dir / "robots.txt"
+    robots = robots_path.read_text(encoding="utf-8") if robots_path.is_file() else ""
+    if re.search(r"(?im)^disallow:\s*/(?:privacy|ads\.txt)", robots):
+        failures.append("robots.txt disallows /privacy/ or /ads.txt")
+    if "Allow: /privacy/" not in robots or "Allow: /ads.txt" not in robots:
+        failures.append("robots.txt does not explicitly allow /privacy/ and /ads.txt")
+
+    for html_path in sorted(site_dir.rglob("*.html")):
+        lowered = html_path.read_text(encoding="utf-8", errors="ignore").lower()
+        for host in ad_hosts:
+            if host in lowered:
+                failures.append(f"{html_path.relative_to(site_dir)} references {host}")
+                break
+        if "adsbygoogle.js" in lowered:
+            failures.append(f"{html_path.relative_to(site_dir)} loads adsbygoogle.js")
+
+    publisher_path = site_dir / "assets" / "js" / "publisher.js"
+    if not publisher_path.is_file():
+        failures.append("publisher.js was not copied into the built site")
+    else:
+        source = publisher_path.read_text(encoding="utf-8")
+        if "pagead2.googlesyndication.com" not in source or "adsMayLoad" not in source:
+            failures.append("publisher.js is missing the disabled advertising gate")
+        if re.search(r"ca-pub-\d", source):
+            failures.append("publisher.js hard-codes a publisher id")
+
+    if not failures:
+        print("Advertising stays disabled: privacy page, ads.txt, and reserved slots passed")
     return failures
 
 
