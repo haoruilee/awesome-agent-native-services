@@ -14,8 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5f5f7">
     <meta name="color-scheme" content="light">
-    {% comment %}AdSense ownership verification only. Do not load adsbygoogle.js or enable Auto ads.{% endcomment %}
+    {% comment %}AdSense code-snippet verification. Do not add ad units, adsbygoogle.push, or Auto ads.{% endcomment %}
     <meta name="google-adsense-account" content="ca-pub-7668037987581637">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7668037987581637" crossorigin="anonymous"></script>
     {% if page.page_kind == "home" %}
       <link rel="preload" as="image" href="{{ '/assets/images/editorial-hero.webp' | relative_url }}" type="image/webp">
     {% elsif page.page_kind == "collection" and page.hero_image %}

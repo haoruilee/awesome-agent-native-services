@@ -267,17 +267,80 @@ def check_site_directory(site_dir: Path) -> list[str]:
     return failures
 
 
-def check_advertising_disabled(site_dir: Path) -> list[str]:
-    """Ownership verification may be present, but ad delivery must stay off."""
+ADSENSE_CLIENT = "ca-pub-7668037987581637"
+# Exact AdSense "code snippet" tag. One copy is allowed, and only inside <head>.
+ADSENSE_VERIFICATION_LOADER = (
+    '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+    f'?client={ADSENSE_CLIENT}" crossorigin="anonymous"></script>'
+)
+AD_HOSTS = (
+    "googlesyndication.com",
+    "googleads.g.doubleclick.net",
+    "adservice.google.com",
+)
+# Quotes are optional so both enabled:true and "enabled": true fail.
+ENABLED_TRUE_RE = re.compile(
+    r"""(?<![A-Za-z0-9_])['"]?enabled['"]?\s*:\s*true\b""",
+    re.IGNORECASE,
+)
+ADSENSE_PUSH_RE = re.compile(
+    r"adsbygoogle\s*\.\s*push\b"
+    r"|(?:window\.)?adsbygoogle\s*=\s*(?:window\.)?adsbygoogle[\s\S]{0,80}?\.push\s*\(",
+    re.IGNORECASE,
+)
+ADSENSE_UNIT_RE = re.compile(r"<ins\b[^>]*\badsbygoogle\b", re.IGNORECASE)
+
+
+def verification_loader_in_head(html: str) -> bool:
+    """True when the exact verification loader appears once, inside <head>."""
+    head_end = html.lower().find("</head>")
+    loader_at = html.find(ADSENSE_VERIFICATION_LOADER)
+    return (
+        head_end >= 0
+        and html.count(ADSENSE_VERIFICATION_LOADER) == 1
+        and 0 <= loader_at < head_end
+    )
+
+
+def forbidden_ad_markup(relative: str, html: str) -> list[str]:
+    """Fail closed after removing the one allowed verification loader.
+
+    publisher.js may still contain a gated adsbygoogle.push. That file is not
+    HTML, and this check does not treat it as a live unit.
+    """
     failures: list[str] = []
-    adsense_client = "ca-pub-7668037987581637"
+    stripped = html.replace(ADSENSE_VERIFICATION_LOADER, "")
+    stripped_lower = stripped.lower()
+    for host in AD_HOSTS:
+        if host in stripped_lower:
+            failures.append(f"{relative} references {host}")
+            break
+    if (
+        "pagead/js/adsbygoogle.js" in stripped_lower
+        or "enable_page_level_ads" in stripped_lower
+        or re.search(r"<script\b[^>]*\badsbygoogle\b", stripped_lower)
+    ):
+        failures.append(f"{relative} loads adsbygoogle.js or Auto ads")
+    if ADSENSE_PUSH_RE.search(stripped):
+        failures.append(f"{relative} calls adsbygoogle.push")
+    if (
+        'class="adsbygoogle"' in stripped_lower
+        or "class='adsbygoogle'" in stripped_lower
+        or "data-ad-client=" in stripped_lower
+        or ADSENSE_UNIT_RE.search(stripped)
+    ):
+        failures.append(f"{relative} contains a live AdSense unit")
+    if ENABLED_TRUE_RE.search(stripped):
+        failures.append(f"{relative} sets AdSense enabled:true")
+    return failures
+
+
+def check_advertising_disabled(site_dir: Path) -> list[str]:
+    """The verification loader may sit in <head>. Ad delivery stays off."""
+    failures: list[str] = []
+    adsense_client = ADSENSE_CLIENT
     ads_txt_record = "google.com, pub-7668037987581637, DIRECT, f08c47fec0942fa0"
     adsense_meta = f'<meta name="google-adsense-account" content="{adsense_client}">'
-    ad_hosts = (
-        "googlesyndication.com",
-        "googleads.g.doubleclick.net",
-        "adservice.google.com",
-    )
     slot_keys = ("home-banner", "list-banner", "in-content", "content-footer")
 
     ads_path = site_dir / "ads.txt"
@@ -314,6 +377,8 @@ def check_advertising_disabled(site_dir: Path) -> list[str]:
             "not_configured",
             "adsbygoogle.js",
             "Auto ads",
+            "account verification",
+            "Google may set cookies",
             'href="/privacy/"',
         ):
             if phrase not in privacy_html:
@@ -325,7 +390,10 @@ def check_advertising_disabled(site_dir: Path) -> list[str]:
 
     config_path = site_dir / "publisher-config.json"
     try:
-        config = json.loads(config_path.read_text(encoding="utf-8"))
+        config_text = config_path.read_text(encoding="utf-8")
+        if ENABLED_TRUE_RE.search(config_text):
+            failures.append("publisher-config.json sets AdSense enabled:true")
+        config = json.loads(config_text)
         adsense = config.get("adsense") if isinstance(config, dict) else None
         slots = adsense.get("slots") if isinstance(adsense, dict) else None
         if (
@@ -413,6 +481,7 @@ def check_advertising_disabled(site_dir: Path) -> list[str]:
 
     checked_html: set[str] = set()
     missing_meta: list[str] = []
+    missing_loader: list[str] = []
     for html_path in sorted(site_dir.rglob("*.html")):
         html = html_path.read_text(encoding="utf-8", errors="ignore")
         lowered = html.lower()
@@ -422,24 +491,23 @@ def check_advertising_disabled(site_dir: Path) -> list[str]:
         meta_at = html.find(adsense_meta)
         if meta_at < 0 or head_end < 0 or meta_at > head_end:
             missing_meta.append(relative)
-        for host in ad_hosts:
-            if host in lowered:
-                failures.append(f"{relative} references {host}")
-                break
+        # /privacy/ uses the same head as every other page.
+        if not verification_loader_in_head(html):
+            missing_loader.append(relative)
         # A privacy-policy mention of the filename is not a script tag.
-        if (
-            "pagead/js/adsbygoogle.js" in lowered
-            or "enable_page_level_ads" in lowered
-            or re.search(r"<script\b[^>]*\badsbygoogle\b", lowered)
-        ):
-            failures.append(f"{relative} loads adsbygoogle.js or Auto ads")
-        if 'class="adsbygoogle"' in lowered or "data-ad-client=" in lowered:
-            failures.append(f"{relative} contains a live AdSense unit")
+        # The exact verification loader above is removed before these checks.
+        failures.extend(forbidden_ad_markup(relative, html))
     for required in ("index.html", "privacy/index.html"):
         if required not in checked_html:
             failures.append(f"{required} is missing the AdSense account meta tag")
-        elif required in missing_meta:
-            failures.append(f"{required} is missing the AdSense account meta tag in <head>")
+            failures.append(f"{required} is missing the AdSense verification loader")
+        else:
+            if required in missing_meta:
+                failures.append(f"{required} is missing the AdSense account meta tag in <head>")
+            if required in missing_loader:
+                failures.append(
+                    f"{required} must contain exactly one AdSense verification loader in <head>"
+                )
     other_missing = [
         path for path in missing_meta if path not in {"index.html", "privacy/index.html"}
     ]
@@ -448,6 +516,17 @@ def check_advertising_disabled(site_dir: Path) -> list[str]:
         more = "" if len(other_missing) <= 8 else f" (+{len(other_missing) - 8} more)"
         failures.append(
             "built pages are missing the AdSense account meta tag: " + sample + more
+        )
+    other_loader = [
+        path for path in missing_loader if path not in {"index.html", "privacy/index.html"}
+    ]
+    if other_loader:
+        sample = ", ".join(other_loader[:8])
+        more = "" if len(other_loader) <= 8 else f" (+{len(other_loader) - 8} more)"
+        failures.append(
+            "built pages must contain exactly one AdSense verification loader in <head>: "
+            + sample
+            + more
         )
 
     publisher_path = site_dir / "assets" / "js" / "publisher.js"
@@ -459,11 +538,13 @@ def check_advertising_disabled(site_dir: Path) -> list[str]:
             failures.append("publisher.js is missing the disabled advertising gate")
         if re.search(r"ca-pub-\d", source):
             failures.append("publisher.js hard-codes a publisher id")
+        if ENABLED_TRUE_RE.search(source):
+            failures.append("publisher.js sets AdSense enabled:true")
 
     if not failures:
         print(
-            "Advertising stays disabled: account meta, ads.txt, privacy page, "
-            "and reserved slots passed"
+            "Advertising stays disabled: verification loader, account meta, ads.txt, "
+            "privacy page, and reserved slots passed"
         )
     return failures
 
