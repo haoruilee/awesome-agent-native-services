@@ -155,6 +155,10 @@ def check_local_links() -> list[str]:
         )
         return failures
 
+    failures.extend(check_service_editorials(services))
+    if failures:
+        return failures
+
     print(f"Local links and inventory passed: {checked} links, {len(services)} services")
     return []
 
@@ -257,6 +261,7 @@ def check_site_directory(site_dir: Path) -> list[str]:
         )
 
     failures.extend(check_editorial_pages(site_dir))
+    failures.extend(check_built_service_editorials(site_dir))
     failures.extend(check_advertising_disabled(site_dir))
 
     if not failures:
@@ -333,6 +338,194 @@ def forbidden_ad_markup(relative: str, html: str) -> list[str]:
         failures.append(f"{relative} contains a live AdSense unit")
     if ENABLED_TRUE_RE.search(stripped):
         failures.append(f"{relative} sets AdSense enabled:true")
+    return failures
+
+
+def editorial_prose_words(text: str) -> int:
+    """Count words in a commentary, ignoring URLs, code, and markdown marks."""
+    stripped = re.sub(r"```.*?```", " ", text, flags=re.DOTALL)
+    stripped = re.sub(r"`[^`]+`", " ", stripped)
+    stripped = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", stripped)
+    stripped = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", stripped)
+    stripped = re.sub(r"https?://\S+", " ", stripped)
+    stripped = re.sub(r"[#>*_]+", " ", stripped)
+    return len(re.findall(r"[A-Za-z][A-Za-z'’-]{1,}", stripped))
+
+
+def editorial_sentences(text: str) -> list[str]:
+    plain = re.sub(r"```.*?```", " ", text, flags=re.DOTALL)
+    plain = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", plain)
+    plain = re.sub(r"[#>*_`]+", " ", plain)
+    plain = re.sub(r"\s+", " ", plain).strip().lower()
+    parts = re.split(r"(?<=[.!?])\s+", plain)
+    sentences: list[str] = []
+    for part in parts:
+        words = re.findall(r"[a-z][a-z'’-]+", part)
+        if len(words) >= 12:
+            sentences.append(" ".join(words))
+    return sentences
+
+
+def service_slug_set() -> set[str]:
+    return {
+        path.stem
+        for path in (ROOT / "services").glob("*/*.md")
+        if path.name != "README.md"
+    }
+
+
+def guide_paths() -> set[str]:
+    found: set[str] = set()
+    guides = ROOT / "docs" / "guides"
+    for path in guides.glob("*.md"):
+        if path.name == "index.md":
+            continue
+        match = re.search(r"^permalink:\s*(\S+)\s*$", path.read_text(encoding="utf-8"), re.MULTILINE)
+        if not match:
+            continue
+        permalink = match.group(1).strip('"').strip("'")
+        if not permalink.endswith("/"):
+            permalink += "/"
+        found.add(permalink)
+    return found
+
+
+def check_service_editorials(services: list[Path]) -> list[str]:
+    """Commentary files must name a real service and stay specific."""
+    failures: list[str] = []
+    directory = ROOT / "editorial" / "services"
+    if not directory.is_dir():
+        return failures
+
+    slugs = service_slug_set()
+    categories = {path.name for path in (ROOT / "services").iterdir() if path.is_dir()}
+    guides = guide_paths()
+    files = sorted(path for path in directory.glob("*.md"))
+    seen_sentences: dict[str, str] = {}
+    linked_services: set[str] = set()
+    prior_sources = [
+        *sorted((ROOT / "editorial" / "categories").glob("*.md")),
+        *sorted((ROOT / "docs" / "guides").glob("*.md")),
+        ROOT / "docs" / "about.md",
+        ROOT / "docs" / "editorial-policy.md",
+    ]
+    for source in prior_sources:
+        if not source.is_file():
+            continue
+        for sentence in editorial_sentences(source.read_text(encoding="utf-8")):
+            seen_sentences.setdefault(sentence, source.relative_to(ROOT).as_posix())
+
+    for path in files:
+        slug = path.stem
+        relative = path.relative_to(ROOT).as_posix()
+        if slug not in slugs:
+            failures.append(f"{relative}: {slug} is not a service slug")
+            continue
+        text = path.read_text(encoding="utf-8")
+        if text.lstrip().startswith("---"):
+            failures.append(f"{relative}: commentary files must not use front matter")
+        if "### Editor's take" not in text and "### Editor’s take" not in text:
+            failures.append(f"{relative}: missing an Editor's take section")
+        word_count = editorial_prose_words(text)
+        if word_count < 350 or word_count > 700:
+            failures.append(f"{relative}: {word_count} words (expected 350–700)")
+        lowered = text.lower()
+        for banned in (
+            "we tested",
+            "we measured",
+            "in our testing",
+            "hands-on test",
+            "our benchmark",
+        ):
+            if banned in lowered:
+                failures.append(f"{relative}: contains {banned!r}")
+        if re.search(r"\$\s?\d", text):
+            failures.append(f"{relative}: contains a dollar amount")
+        if re.search(r"\d+(?:\.\d+)?\s*%", text):
+            failures.append(f"{relative}: contains a percentage claim")
+        if re.search(r"\d{1,3}(?:,\d{3})+", text):
+            failures.append(f"{relative}: contains a grouped number")
+        if re.search(r"\d+(?:\.\d+)?\s*(?:ms|milliseconds)\b", text, re.IGNORECASE):
+            failures.append(f"{relative}: contains a latency figure")
+        if re.search(r"\{\{|\{%", text):
+            failures.append(f"{relative}: contains Liquid markup")
+        if not re.search(r"\]\(https?://", text):
+            failures.append(f"{relative}: does not link a vendor URL")
+
+        for destination in LINK_RE.findall(text):
+            cleaned = clean_destination(destination)
+            parsed = urlsplit(cleaned)
+            if parsed.scheme or parsed.netloc:
+                continue
+            route = unquote(parsed.path)
+            service_match = re.fullmatch(r"/services/([a-z0-9-]+)/?", route)
+            category_match = re.fullmatch(r"/categories/([a-z0-9-]+)/?", route)
+            guide_match = re.fullmatch(r"/guides/([a-z0-9-]+)/?", route)
+            if service_match:
+                target = service_match.group(1)
+                linked_services.add(target)
+                if target not in slugs:
+                    failures.append(f"{relative}: links unknown service /services/{target}/")
+            elif category_match:
+                if category_match.group(1) not in categories:
+                    failures.append(
+                        f"{relative}: links unknown category /categories/{category_match.group(1)}/"
+                    )
+            elif guide_match:
+                canonical = f"/guides/{guide_match.group(1)}/"
+                if canonical not in guides:
+                    failures.append(f"{relative}: links unknown guide {canonical}")
+            elif route.startswith("/"):
+                failures.append(f"{relative}: links unrecognized site path {route}")
+
+        page = ROOT / "docs" / "services" / slug / "index.md"
+        if not page.is_file() or 'class="service-essay"' not in page.read_text(encoding="utf-8"):
+            failures.append(
+                f"{relative}: docs/services/{slug}/index.md is missing the rendered essay"
+            )
+
+        for sentence in editorial_sentences(text):
+            previous = seen_sentences.get(sentence)
+            if previous and previous != relative:
+                failures.append(
+                    f"{relative}: repeats a sentence also used in {previous}"
+                )
+            else:
+                seen_sentences.setdefault(sentence, relative)
+
+    if files and not failures:
+        print(
+            "Service editorials passed: "
+            f"{len(files)} commentaries, {len(linked_services)} neighbor links"
+        )
+    return failures
+
+
+def check_built_service_editorials(site_dir: Path) -> list[str]:
+    """The built service page must show the commentary as HTML, not raw markdown."""
+    failures: list[str] = []
+    directory = ROOT / "editorial" / "services"
+    if not directory.is_dir():
+        return failures
+    checked = 0
+    for path in sorted(directory.glob("*.md")):
+        built = site_dir / "services" / path.stem / "index.html"
+        if not built.is_file():
+            failures.append(f"built site is missing /services/{path.stem}/ for its editorial")
+            continue
+        html = built.read_text(encoding="utf-8", errors="ignore")
+        checked += 1
+        if "service-essay" not in html:
+            failures.append(f"/services/{path.stem}/ is missing the editorial section")
+            continue
+        if "Editor" not in html:
+            failures.append(f"/services/{path.stem}/ editorial did not render")
+        if "### Editor" in html:
+            failures.append(
+                f"/services/{path.stem}/ left the editorial heading as raw markdown"
+            )
+    if checked and not failures:
+        print(f"Built service editorials passed: {checked} pages")
     return failures
 
 

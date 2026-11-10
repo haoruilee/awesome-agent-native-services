@@ -13,7 +13,7 @@ This folder is the **Jekyll source** for the catalog’s public site. The home p
 
 When changing `README.md`, `skill.md`, `llms.txt`, or `services/**`, run both generators from the repo root and commit all affected generated artifacts. CI checks that these outputs are current.
 
-`docs/about.md`, `docs/editorial-policy.md`, and `docs/guides/` are hand-written. Collection essays live in `editorial/categories/` and are inserted when `scripts/build-github-pages.sh` regenerates `docs/categories/`. Do not edit the generated collection pages or `docs/index.md` by hand.
+`docs/about.md`, `docs/editorial-policy.md`, and `docs/guides/` are hand-written. Collection essays live in `editorial/categories/` and are inserted when `scripts/build-github-pages.sh` regenerates `docs/categories/`. Service commentaries live in `editorial/services/<slug>.md` and are inserted into `docs/services/<slug>/` by `scripts/render-service-pages.py`. Do not edit the generated collection pages, service pages, or `docs/index.md` by hand.
 
 ```bash
 python3 scripts/build-machine-catalog.py

@@ -3800,3 +3800,30 @@ a.catalog-search__name:hover {
   font-size: 12px;
   font-weight: 600;
 }
+
+.catalog-content .service-essay {
+  max-width: var(--measure);
+  margin: 4px 0 28px;
+}
+
+.catalog-content .service-essay h3 {
+  margin: 32px 0 12px;
+  font-size: clamp(26px, 3vw, 36px);
+  letter-spacing: -.03em;
+  line-height: 1.15;
+}
+
+.catalog-content .service-essay h3:first-child {
+  margin-top: 0;
+}
+
+.catalog-content .service-essay p,
+.catalog-content .service-essay li {
+  margin: 0 0 1.05em;
+}
+
+.catalog-content .service-essay ul,
+.catalog-content .service-essay ol {
+  margin: 0 0 1.05em;
+  padding-left: 1.25em;
+}
