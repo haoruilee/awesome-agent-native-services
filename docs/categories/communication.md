@@ -13,6 +13,18 @@ service_count: 16
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/README.md">Collection notes ↗</a></p>
 
+<div class="collection-essay" markdown="1">
+
+A human mailbox still assumes a person at the address. An agent that has to correspond, receive a verification code, or keep a thread going needs an identity it can create, read, and retire without borrowing someone's Gmail. That is the line this collection draws. Notification products that only render a message inside an app a person already uses sit on one side of it. Inboxes the agent owns sit on the other.
+
+The cards are not one product. AgentMail, mails.dev, MailboxKit, Agents Mail, OpenMail, and SendRaven are hosted email APIs, with different mixes of webhooks, threads, and domains. AgenticMail and AgentTeam Email are stacks you run, the latter with a review-before-send path. Atomic Mail documents a JMAP inbox and a proof-of-work signup so an agent can register without a CAPTCHA. Caspian normalizes several human channels behind one agent identity. Chimely and Novu are notification infrastructure, Novu through an agent toolkit over workflows a person configured. MCP Agent Mail, and the Rust service beside it, is a coordination inbox for coding agents, stored for the agents working a repo, not as public internet mail.
+
+Hosted inboxes are the shortest path to a working address, and domain authentication still usually needs a person who can edit DNS. SendRaven's dossier says that part out loud: a person verifies the domain before the agent sends. Self-hosting keeps the mail store on infrastructure you operate, including deliverability. A multi-channel SDK avoids a separate inbox per network and couples the agent to each network's rules. A coding-agent mailbox will not receive mail from a stranger on the internet, which is the point.
+
+The longer comparison is [How to choose an email API for AI agents](/guides/choose-an-email-api-for-agents/).
+
+</div>
+
 <div class="service-grid">
   <article class="service-card atlas-sheet--service atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>

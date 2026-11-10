@@ -42,7 +42,8 @@
         {% include catalog-search.html %}
         <nav class="primary-nav" aria-label="Primary navigation">
           <a href="{{ '/' | relative_url }}#collections">Collections</a>
-          <a href="{{ '/' | relative_url }}#new-arrivals">New</a>
+          <a href="{{ '/guides/' | relative_url }}"{% if page.url == '/guides/' or page.url contains '/guides/' %} aria-current="page"{% endif %}>Guides</a>
+          <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
           <a href="{{ '/' | relative_url }}#for-agents">Enter</a>
           <a href="{{ '/privacy/' | relative_url }}"{% if page.url == '/privacy/' %} aria-current="page"{% endif %}>Privacy</a>
           <a href="{{ site.github.repository_url | default: 'https://github.com/haoruilee/awesome-agent-native-services' }}">GitHub <span aria-hidden="true">↗</span></a>
@@ -86,6 +87,7 @@
           <p class="hero-deck">A curated directory of services and infrastructure for AI agents, with selection criteria and practical onboarding guides.</p>
           <div class="hero-actions">
             <a class="action-link action-link--primary" href="#collections">Explore</a>
+            <a class="action-link" href="{{ '/guides/' | relative_url }}">Guides</a>
             <a class="action-link" href="#for-agents">Agent entry</a>
           </div>
           <dl class="edition-stats">
@@ -177,6 +179,9 @@
         </div>
         <nav class="footer-nav" aria-label="Footer navigation">
           <a href="{{ '/categories/' | relative_url }}">All collections</a>
+          <a href="{{ '/guides/' | relative_url }}"{% if page.url == '/guides/' or page.url contains '/guides/' %} aria-current="page"{% endif %}>Guides</a>
+          <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+          <a href="{{ '/editorial-policy/' | relative_url }}"{% if page.url == '/editorial-policy/' %} aria-current="page"{% endif %}>Editorial policy</a>
           <a href="{{ '/' | relative_url }}#faq">FAQ</a>
           <a href="{{ site.github.repository_url | default: 'https://github.com/haoruilee/awesome-agent-native-services' }}/blob/main/CONTRIBUTING.md">Criteria</a>
           <a href="{{ '/privacy/' | relative_url }}"{% if page.url == '/privacy/' %} aria-current="page"{% endif %}>Privacy</a>

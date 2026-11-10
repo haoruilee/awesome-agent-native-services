@@ -1,0 +1,7 @@
+Generated code has to run somewhere that is not the agent's own process. On the host, a bad or hostile snippet can read files, open the network, or linger. A shared sandbox passes one task's files to the next. This collection lists execution environments whose lifecycle an agent can drive: create, run, read the result, destroy.
+
+E2B, Runloop, Riza, and briq are hosted sandboxes with SDKs or APIs. Vercel Sandbox's docs describe Firecracker microVMs for untrusted code, with snapshots in the product description. forkd is a Firecracker runtime aimed at fan-out from a warmed parent. OpenSandbox, Axern, and Dormice are stacks you can run yourself. The Kubernetes Agent Sandbox is a SIG API: a Sandbox resource with a stable identity, storage, and pause/resume, plus warm pools. CodeRunner and Clawk are local. AIO Sandbox packages a browser, shell, and editor in one image. Latchkey is closer to CI a coding agent can run and read than to a general interpreter.
+
+Isolation, startup, and leftover state are the real comparison. Current timings belong in each vendor's docs. A fresh microVM protects the host and pays for a boot. A warm pool or a long-lived devbox keeps files and processes, and the next task inherits them unless something cleans up. Local sandboxes avoid a network hop and only isolate as well as the local hypervisor does. Self-hosted runtimes leave patching on your cluster.
+
+The comparison is [Sandboxes and code execution for agents](/guides/sandboxes-and-code-execution/).

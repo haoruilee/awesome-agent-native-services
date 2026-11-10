@@ -1030,6 +1030,66 @@ new_arrivals_count: 107
   </div>
 </section>
 
+<section id="guides" aria-labelledby="guides-title">
+  <div class="section-intro">
+    <span class="section-number">03</span>
+    <h2 class="section-title" id="guides-title">Guides</h2>
+    <p class="section-note">How to choose</p>
+  </div>
+  <div class="guide-list">
+    <a class="guide-list__item" href="{{ '/guides/what-makes-a-service-agent-native/' | relative_url }}">
+      <span class="guide-list__index">01</span>
+      <span class="guide-list__copy">
+        <strong>What makes a service agent-native</strong>
+        <span>The five admission tests this catalog applies, the narrow operator-surface exception, and the products that stay off the list.</span>
+      </span>
+    </a>
+    <a class="guide-list__item" href="{{ '/guides/choose-an-email-api-for-agents/' | relative_url }}">
+      <span class="guide-list__index">02</span>
+      <span class="guide-list__copy">
+        <strong>How to choose an email API for AI agents</strong>
+        <span>Agent-owned inboxes, self-hosted mail, notification workflows, and coordination mail for coding agents.</span>
+      </span>
+    </a>
+    <a class="guide-list__item" href="{{ '/guides/browser-infrastructure-for-agents/' | relative_url }}">
+      <span class="guide-list__index">03</span>
+      <span class="guide-list__copy">
+        <strong>Browser infrastructure for agents compared</strong>
+        <span>Hosted browser sessions, local engines, extraction APIs, and browsers that keep a login between tasks.</span>
+      </span>
+    </a>
+    <a class="guide-list__item" href="{{ '/guides/memory-layers-for-agents/' | relative_url }}">
+      <span class="guide-list__index">04</span>
+      <span class="guide-list__copy">
+        <strong>Memory layers for agents: approaches and trade-offs</strong>
+        <span>Fact extractors, temporal graphs, shared wikis, and local memory for coding agents, and why a vector index is not the whole problem.</span>
+      </span>
+    </a>
+    <a class="guide-list__item" href="{{ '/guides/sandboxes-and-code-execution/' | relative_url }}">
+      <span class="guide-list__index">05</span>
+      <span class="guide-list__copy">
+        <strong>Sandboxes and code execution for agents</strong>
+        <span>Where generated code should run, and how microVMs, Kubernetes sandboxes, and local hypervisors differ.</span>
+      </span>
+    </a>
+    <a class="guide-list__item" href="{{ '/guides/getting-started-with-mcp-servers/' | relative_url }}">
+      <span class="guide-list__index">06</span>
+      <span class="guide-list__copy">
+        <strong>Getting started with MCP servers</strong>
+        <span>Hosts, clients, and servers; local stdio versus remote HTTP; and the registries and credential layers in this catalog.</span>
+      </span>
+    </a>
+    <a class="guide-list__item" href="{{ '/guides/payments-for-autonomous-agents/' | relative_url }}">
+      <span class="guide-list__index">07</span>
+      <span class="guide-list__copy">
+        <strong>Payments for autonomous agents</strong>
+        <span>Wallets and Know Your Agent identity, HTTP 402, payment mandates, and the checks that run before anything is signed.</span>
+      </span>
+    </a>
+  </div>
+  <p class="guide-list__more"><a href="{{ '/guides/' | relative_url }}">All guides</a></p>
+</section>
+
 <section id="for-agents" class="agent-entry-panel" aria-labelledby="agent-entry-title">
   <p class="eyebrow">Machine entrance</p>
   <h2 id="agent-entry-title">Enter as an agent.</h2>
@@ -1038,6 +1098,7 @@ new_arrivals_count: 107
 
   <div class="agent-entry-panel__links">
     <a href="{{ '/skill.md' | relative_url }}">skill.md ↗</a>
+    <a href="{{ '/guides/' | relative_url }}">Guides</a>
     <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/CONTRIBUTING.md">Criteria ↗</a>
     <a href="#faq">FAQ</a>
   </div>
@@ -1048,7 +1109,7 @@ new_arrivals_count: 107
 <section class="source-gateway" id="complete-index">
   <span class="source-gateway__image" aria-hidden="true"></span>
   <div>
-  <span class="section-number">03</span>
+  <span class="section-number">04</span>
   <h2 class="section-title">Full source.</h2>
   <a class="source-gateway__link" href="https://github.com/haoruilee/awesome-agent-native-services">Awesome Agent-Native Services on GitHub ↗</a>
   </div>

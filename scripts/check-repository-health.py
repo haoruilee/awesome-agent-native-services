@@ -256,6 +256,7 @@ def check_site_directory(site_dir: Path) -> list[str]:
             "built site is missing service introduction routes: " + sample + more
         )
 
+    failures.extend(check_editorial_pages(site_dir))
     failures.extend(check_advertising_disabled(site_dir))
 
     if not failures:
@@ -332,6 +333,61 @@ def forbidden_ad_markup(relative: str, html: str) -> list[str]:
         failures.append(f"{relative} contains a live AdSense unit")
     if ENABLED_TRUE_RE.search(stripped):
         failures.append(f"{relative} sets AdSense enabled:true")
+    return failures
+
+
+def visible_word_count(html: str) -> int:
+    text = re.sub(r"(?is)<script\b.*?</script>|<style\b.*?</style>", " ", html)
+    text = re.sub(r"(?is)<[^>]+>", " ", text)
+    return len(re.findall(r"[A-Za-z]{2,}", text))
+
+
+def check_editorial_pages(site_dir: Path) -> list[str]:
+    """Guides, about, and category essays are the original prose on the site."""
+    failures: list[str] = []
+    required_pages = {
+        "about/index.html": "https://theagentnative.com/about/",
+        "editorial-policy/index.html": "https://theagentnative.com/editorial-policy/",
+        "guides/index.html": "https://theagentnative.com/guides/",
+    }
+    for relative, loc in required_pages.items():
+        path = site_dir / relative
+        if not path.is_file():
+            failures.append(f"built site is missing /{relative.removesuffix('index.html')}")
+            continue
+        if visible_word_count(path.read_text(encoding="utf-8", errors="ignore")) < 400:
+            failures.append(f"/{relative} has too little visible text for an editorial page")
+
+    guide_pages = sorted((site_dir / "guides").glob("*/index.html"))
+    if len(guide_pages) < 6:
+        failures.append(f"expected at least 6 guide articles, found {len(guide_pages)}")
+    for path in guide_pages:
+        if visible_word_count(path.read_text(encoding="utf-8", errors="ignore")) < 900:
+            failures.append(f"/guides/{path.parent.name}/ is shorter than a guide article")
+
+    collection_pages = sorted((site_dir / "categories").glob("*/index.html"))
+    if len(collection_pages) < 16:
+        failures.append(f"expected 16 collection essays, found {len(collection_pages)}")
+    for path in collection_pages:
+        html = path.read_text(encoding="utf-8", errors="ignore")
+        if "collection-essay" not in html:
+            failures.append(f"/categories/{path.parent.name}/ is missing its essay")
+
+    sitemap_path = site_dir / "sitemap.xml"
+    sitemap = sitemap_path.read_text(encoding="utf-8") if sitemap_path.is_file() else ""
+    expected_locs = list(required_pages.values())
+    expected_locs.extend(
+        f"https://theagentnative.com/guides/{path.parent.name}/" for path in guide_pages
+    )
+    for loc in expected_locs:
+        if loc not in sitemap:
+            failures.append(f"sitemap.xml does not list {loc}")
+
+    if not failures:
+        print(
+            "Editorial pages passed: "
+            f"{len(guide_pages)} guides, {len(collection_pages)} collection essays"
+        )
     return failures
 
 

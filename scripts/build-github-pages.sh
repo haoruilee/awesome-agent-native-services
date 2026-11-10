@@ -448,6 +448,57 @@ cat >>"$INDEX" <<HTML
   </div>
 </section>
 
+<section id="guides" aria-labelledby="guides-title">
+  <div class="section-intro">
+    <span class="section-number">03</span>
+    <h2 class="section-title" id="guides-title">Guides</h2>
+    <p class="section-note">How to choose</p>
+  </div>
+  <div class="guide-list">
+HTML
+
+python3 - "$ROOT/docs/guides" >>"$INDEX" <<'PY'
+import html
+import re
+import sys
+from pathlib import Path
+
+guides = Path(sys.argv[1])
+pages = []
+for path in sorted(guides.glob("*.md")):
+    if path.name == "index.md":
+        continue
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        raise SystemExit(f"{path} is missing front matter")
+    end = text.find("\n---", 3)
+    front = text[3:end]
+    fields = {}
+    for line in front.splitlines():
+        if ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        fields[key.strip()] = value.strip().strip('"')
+    order = int(fields.get("guide_order", "99"))
+    pages.append((order, fields["title"], fields["description"], fields["permalink"]))
+if len(pages) < 6:
+    raise SystemExit(f"expected at least 6 guides, found {len(pages)}")
+for index, (_, title, description, permalink) in enumerate(sorted(pages), start=1):
+    href = "{{ '" + permalink + "' | relative_url }}"
+    print(f'    <a class="guide-list__item" href="{href}">')
+    print(f'      <span class="guide-list__index">{index:02d}</span>')
+    print('      <span class="guide-list__copy">')
+    print(f'        <strong>{html.escape(title)}</strong>')
+    print(f'        <span>{html.escape(description)}</span>')
+    print("      </span>")
+    print("    </a>")
+PY
+
+cat >>"$INDEX" <<HTML
+  </div>
+  <p class="guide-list__more"><a href="{{ '/guides/' | relative_url }}">All guides</a></p>
+</section>
+
 <section id="for-agents" class="agent-entry-panel" aria-labelledby="agent-entry-title">
   <p class="eyebrow">Machine entrance</p>
   <h2 id="agent-entry-title">Enter as an agent.</h2>
@@ -456,6 +507,7 @@ cat >>"$INDEX" <<HTML
 
   <div class="agent-entry-panel__links">
     <a href="{{ '/skill.md' | relative_url }}">skill.md ↗</a>
+    <a href="{{ '/guides/' | relative_url }}">Guides</a>
     <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/CONTRIBUTING.md">Criteria ↗</a>
     <a href="#faq">FAQ</a>
   </div>
@@ -466,7 +518,7 @@ cat >>"$INDEX" <<HTML
 <section class="source-gateway" id="complete-index">
   <span class="source-gateway__image" aria-hidden="true"></span>
   <div>
-  <span class="section-number">03</span>
+  <span class="section-number">04</span>
   <h2 class="section-title">Full source.</h2>
   <a class="source-gateway__link" href="https://github.com/haoruilee/awesome-agent-native-services">Awesome Agent-Native Services on GitHub ↗</a>
   </div>
@@ -538,9 +590,23 @@ service_count: ${count}
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/${slug}/README.md">Collection notes ↗</a></p>
-
-<div class="service-grid">
 YAML
+
+  essay="$ROOT/editorial/categories/${slug}.md"
+  if [[ ! -s "$essay" ]]; then
+    echo "Missing category essay: $essay" >&2
+    exit 1
+  fi
+  {
+    echo
+    echo '<div class="collection-essay" markdown="1">'
+    echo
+    cat "$essay"
+    echo
+    echo '</div>'
+    echo
+    echo '<div class="service-grid">'
+  } >>"$out"
 
   service_visual_index=0
   while IFS=$'\t' read -r _sort_key service_title base; do

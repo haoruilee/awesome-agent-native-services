@@ -1,0 +1,7 @@
+A capable agent still loses the plot across turns: the objective, the last checkpoint, which worktree it was in, how much context is left. A harness is the layer wrapped around that agent. It is not the model, and it is not a general cloud for arbitrary code. The category notes keep two tracks separate because they fail in different ways.
+
+Harness and control-plane entries such as LoopX, LongHorizon-Harness, Ruflo, Reef, and oh-my-codex take responsibility for work that spans turns, roles, or machines. Operator surfaces such as Claude HUD and the two distinct Codex HUD projects exist to show live agent state: session identity, tools, permissions, context pressure. They qualify only when they interpret that agent-specific state and attribute it to a session. A theme that redraws ordinary CPU numbers does not. The contribution guide says this exception does not admit a human product that later added an agent tab.
+
+The practical confusion is installing a status line and believing you have an approval gate. A control plane should still know what the agent was trying to do after a crash. An operator surface should say when it can only observe. Enforcement of a dangerous action is the oversight collection. Isolated execution of generated code is the sandbox collection. A harness can sit beside both. It does not replace them.
+
+The operator-surface exception is part of [What makes a service agent-native](/guides/what-makes-a-service-agent-native/).
