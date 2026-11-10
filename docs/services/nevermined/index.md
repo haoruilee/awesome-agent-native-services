@@ -55,7 +55,7 @@ Before wiring money into an agent loop, confirm in the vendor's materials which 
 
 ### Editor's take
 
-Nevermined is aimed at two groups: API and tool sellers who want to charge agents per call inside HTTP, and Python agent builders who want operator budgets around those payments. Teams that only need the protocol should start with OpenLibx402; teams worried about where their agent sends money should add 402xAgent regardless. This is an editor's reading of the dossier, the payments repository, and the SDK docs, and no payment has moved through Nevermined on this project's behalf.
+Nevermined serves two groups: API and tool sellers who want to charge agents per call inside HTTP, and Python agent builders who want operator budgets around those payments. Teams that only need the protocol should start with OpenLibx402; teams worried about where their agent sends money should add 402xAgent regardless. This is an editor's reading of the dossier, the payments repository, and the SDK docs, and no payment has moved through Nevermined on this project's behalf.
 
 </section>
 

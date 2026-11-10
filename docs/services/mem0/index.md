@@ -34,19 +34,31 @@ repository: "https://github.com/mem0ai/mem0"
 
 <section class="service-essay" aria-label="Editorial" markdown="1">
 
-A long-running agent that stuffs the whole transcript back into the prompt will eventually run out of window, and it will still forget the one fact that mattered. Mem0 is filed as the memory layer that extracts facts, reconciles them with what it already stored, and returns a smaller context at query time. The tagline is "The memory layer for your AI agents." The quick path is `pip install mem0ai` and `m.add(messages, user_id=...)`. The agent calls the API. The dossier says Mem0 decides what to store, update, or retrieve, including conflict handling described as add, update, delete, or no-op. Memory types named are episodic, semantic, and procedural. Namespacing is per user and per agent. A graph mode is mentioned. Docs are [docs.mem0.ai](https://docs.mem0.ai). The repo is [mem0ai/mem0](https://github.com/mem0ai/mem0).
+[Zep](/services/zep/) builds agent memory around a temporal knowledge graph. Mem0 puts its emphasis on the write path: deciding what in a conversation is worth keeping, reconciling it with what is already stored, and returning only the relevant pieces later.
 
-MCP is a separate server, [mem0ai/mem0-mcp](https://github.com/mem0ai/mem0-mcp), documented at [docs.mem0.ai/integrations/mcp-server](https://docs.mem0.ai/integrations/mcp-server). The dossier says it exposes the memory operations as tools over stdio, with Docker and Smithery also listed as ways to run it. A community skill, `mem0-memory`, is recorded via `npx skills add`. The catalog marks both the skill and MCP as available. There is also a Python SDK and a REST API. The dossier includes vendor performance and adoption figures. They are not repeated here. If a number matters to a design, read the current docs and treat it as the vendor's claim.
+### Deciding what to keep
 
-[Memory layers for agents](/guides/memory-layers-for-agents/) separates fact extractors, temporal graphs, shared wikis, and local memory for coding agents. Mem0 is the extractor: automatic write from a conversation, not a page someone edits. [Zep](/services/zep/) is the temporal knowledge graph in the same [Memory & State](/categories/memory-and-state/) collection. [Graphiti](/services/graphiti/) is the real-time knowledge-graph library. [Cognee](/services/cognee/) calls itself a memory control plane. [Letta](/services/letta/), in the runtime collection, keeps state inside the agent deployment, including a self-editing memory pattern. Mem0 is a layer you call, with `user_id` as the scope. [Recall](/services/recall/) is the open-source, MCP-native, self-hosted neighbor if you do not want this API. The guide's warning applies: automatic extraction applies someone else's judgment to the transcript. That is the product, and it is also the failure mode.
+The dossier describes a self-improving memory layer. After a conversation turn, the agent hands messages to Mem0. Mem0 extracts salient facts, compares each against existing memories, and chooses one of four outcomes: ADD, UPDATE, DELETE, or NOOP. Before the next turn, the agent searches with the current query and gets back the memories that matter, which it places in its prompt. The dossier is clear that the agent never reads or writes raw memory records.
 
-### Who writes, and who can read it back
+Memories are typed as episodic for events, semantic for facts, and procedural for how-to knowledge. A graph variant, written Mem0ᵍ in the dossier, adds a relational representation for multi-entity queries. The dossier cites benchmark and token-saving percentages; current figures and their methodology belong in the vendor docs.
 
-Confirm in the docs what `user_id` isolates, whether an agent id is a second namespace or just a field, and whether the graph mode is on by default. Extraction that silently drops a fact looks like a successful call. The dossier does not show the retrieval payload. Keys are `MEM0_API_KEY` in the skill notes. A key that can read every user's memories is a delegation larger than one agent. Retention and training use of stored text are not settled in the catalog entry. Read them in the vendor policy before you send customer conversations.
+### Namespaces and interfaces
+
+Scoping uses three identifiers: `user_id`, `agent_id`, and `run_id`. They combine, so a memory can belong to one user, one agent type, and one session at once.
+
+The quickest documented path is `pip install mem0ai` followed by `m.add(messages, user_id=...)`. The Python SDK exposes add, search, update, and delete. A REST API offers full CRUD and search, documented at [docs.mem0.ai](https://docs.mem0.ai).
+
+An official MCP server, `mem0-mcp`, published on PyPI as `mem0-mcp-server`, exposes the memory operations as MCP tools over stdio, Docker, or a hosted Smithery deployment. The dossier marks Agent Skills as official, but the command it gives, `npx skills add yonatangross/orchestkit --skill mem0-memory`, installs from a third-party repository, so treat it as community work.
+
+### Automatic edits need review
+
+The [Memory & State](/categories/memory-and-state/) category splits on who decides what gets stored. Mem0 decides for you. [Memoria](/services/memoria/) offers Git-level version control over memory, which matters when you need to see and revert each change. [Recall](/services/recall/) is open-source, MCP-native, and self-hosted. [Graphiti](/services/graphiti/) builds real-time knowledge graphs. The [memory layers guide](/guides/memory-layers-for-agents/) compares these designs.
+
+Automatic DELETE and UPDATE are convenient and also a source of silent loss. Before relying on Mem0, find out whether past versions of a memory are retained and how to audit a deletion. Extraction is model-driven, so check which model runs it and who pays for those calls. The dossier lists a dashboard for inspection and an open-source repository, but does not compare hosted and self-hosted features. The healthcare use case it lists raises data-residency questions that belong in the vendor's terms, not in this catalog.
 
 ### Editor's take
 
-Mem0 fits an agent that should remember facts across sessions and can accept that the service, not the prompt, chooses what is salient. It is a poor fit if you need an explicit graph you edit, which is the Zep and Graphiti conversation, or if the memory must stay on a machine you control. This project has not stored or queried a memory. The opinion is from the SDK quickstart and the MCP docs linked in the dossier, with the vendor's benchmark language left out on purpose.
+Mem0 works best for assistants and support agents that accumulate per-user facts over many sessions, built by teams content to delegate the keep-or-discard decision. When every memory change must be traceable, Memoria's versioning is the safer starting point; for time-aware relationships between entities, Zep. This review comes from the dossier and Mem0's public docs, and none of its accuracy claims were checked by this project.
 
 </section>
 

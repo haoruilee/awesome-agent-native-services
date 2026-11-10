@@ -46,7 +46,7 @@ Output comes back as it is produced: stdout, stderr, error traces, charts from m
 
 The quickest documented path is `pip install e2b-code-interpreter`, then `from e2b_code_interpreter import Sandbox` and a `with Sandbox() as sandbox:` block. The TypeScript equivalent is `import { Sandbox } from "@e2b/code-interpreter"`. A REST API manages sandbox lifecycle and execution, and the dossier lists LangChain, AutoGen, and CrewAI integrations. The [E2B docs](https://e2b.dev/docs) cover all of these.
 
-The dossier uses the word "uniquely" for E2B's MCP relationship, because it runs both ways. An official MCP server exposes the code interpreter to MCP clients. Separately, a sandbox can host MCP servers from the Docker MCP Catalog behind a gateway, so third-party tools run inside the isolated VM rather than on the agent's host.
+The dossier describes E2B's MCP relationship as unique, because it runs both ways. An official MCP server exposes the code interpreter to MCP clients. Separately, a sandbox can host MCP servers from the Docker MCP Catalog behind a gateway, so third-party tools run inside the isolated VM rather than on the agent's host.
 
 Skills are distributed through the LobeHub marketplace CLI: an `e2b` skill for SDK patterns and an `e2b-desktop` skill for computer-use agents. The dossier says official and community skills both exist, so check which one you are installing.
 

@@ -56,7 +56,7 @@ Before relying on MailboxKit, check how webhook payloads are authenticated so a 
 
 ### Editor's take
 
-MailboxKit is a good match for an agent that corresponds with people over ordinary email, where correct threading and authenticated custom domains matter more than attachment parsing, and the team already runs a public HTTPS endpoint. If the agent cannot expose a webhook receiver, or needs attachments turned into text, OpenMail's WebSocket and parsing features are the reason to look there. If "mail" really means agents coordinating edits, MCP Agent Mail is the right listing. These notes rest on the dossier and the vendor's public pages; no inbox was provisioned in preparing them.
+MailboxKit is a good match for an agent that corresponds with people over ordinary email, where correct threading and authenticated custom domains matter more than attachment parsing, and the team already runs a public HTTPS endpoint. If the agent cannot expose a webhook receiver, or needs attachments turned into text, OpenMail's WebSocket and parsing features are the reason to look there. If the real need is agents coordinating edits in one repository, MCP Agent Mail is the right listing. These notes rest on the dossier and the vendor's public pages; no inbox was provisioned in preparing them.
 
 </section>
 
