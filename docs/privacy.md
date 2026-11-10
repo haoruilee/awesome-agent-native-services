@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Privacy Policy
-description: "How The Agent-Native Index handles ordinary request data, first-party scripts, and advertising. An AdSense account exists for site verification. Advertising is not enabled."
+description: "How The Agent-Native Index handles ordinary request data, first-party scripts, and advertising. The AdSense loader script is present for account verification. Advertising is not enabled."
 permalink: /privacy/
 page_kind: document
 ads: false
@@ -35,9 +35,11 @@ This project does not run its own application server. The repository does not co
 
 ## Cookies and browser storage
 
-This site’s own pages and scripts do not set cookies and do not use local storage or session storage. The catalog search keeps results in memory for the current page only.
+This site’s own pages and first-party scripts do not set cookies and do not use local storage or session storage. The catalog search keeps results in memory for the current page only.
 
 A response from the public homepage did not include a `Set-Cookie` header set by this project. GitHub Pages and its CDN still receive the connection data described above when they deliver a page.
+
+Every page loads Google’s AdSense loader script for account verification. Google may set cookies when that script runs.
 
 ## Scripts on these pages
 
@@ -47,7 +49,9 @@ Pages load one first-party search script, `/assets/js/catalog-search.js`. When y
 
 Pages that reserve an advertising space also load `/assets/js/publisher.js`. That script fetches `/publisher-config.json` from this same site and then stops, because `adsense.enabled` is false, slot IDs are null, and consent is not configured. It does not contact an advertising network in this release.
 
-Each page also includes a `google-adsense-account` meta tag for the AdSense publisher `ca-pub-7668037987581637`. The tag is not a script. It does not load `adsbygoogle.js`, and it does not turn on Auto ads.
+Each page includes a `google-adsense-account` meta tag for the AdSense publisher `ca-pub-7668037987581637`. The meta tag is not a script and does not turn on Auto ads.
+
+Each page head also includes the AdSense loader script, `adsbygoogle.js`, for account verification of that publisher. The script is present so Google can verify the site. It does not turn on Auto ads, and this release does not place ad units on the page.
 
 Inline JSON-LD on the pages describes the catalog for search engines. It is not a tracker. The type used for headings and body text is a system font stack. The site does not load a third-party font service.
 
@@ -55,7 +59,7 @@ Inline JSON-LD on the pages describes the catalog for search engines. It is not 
 
 An AdSense account exists for this site (`ca-pub-7668037987581637`). Advertising is not enabled.
 
-Some pages include reserved layout spaces. Those spaces are placeholders. Each one is labeled “Advertisements” and reads “Advertising placement reserved.” They are not live ads. This release does not request ads, does not load `adsbygoogle.js`, and does not turn on Auto ads. The privacy policy page has no reserved space.
+Some pages include reserved layout spaces. Those spaces are placeholders. Each one is labeled “Advertisements” and reads “Advertising placement reserved.” They are not live ads. This release does not request ads and does not turn on Auto ads. The AdSense loader script in each page head is for account verification only. The privacy policy page has no reserved space.
 
 `/ads.txt` is a plain-text file served at the site root. It contains one publisher record for that same account, `google.com, pub-7668037987581637, DIRECT, f08c47fec0942fa0`, plus a comment that advertising is not enabled. The record lets Google match the account to this site. It does not request or display ads.
 
@@ -63,7 +67,7 @@ Some pages include reserved layout spaces. Those spaces are placeholders. Each o
 
 This release does not include a cookie-consent popup. A certified consent-management platform is required before advertising is enabled for regions that require consent. That platform is what would set the consent signal above. It is not part of this release.
 
-If advertising is enabled later, third-party providers may use cookies or similar signals, subject to that consent setup and to their own policies. Reserved spaces would still be normal in-page placements. This site does not use full-screen interstitial or vignette ads.
+The AdSense loader script is already present for account verification, and Google may set cookies when it runs. If advertising is enabled later, third-party providers may use cookies or similar signals, subject to that consent setup and to their own policies. Reserved spaces would still be normal in-page placements. This site does not use full-screen interstitial or vignette ads.
 
 ## Links to other sites
 
