@@ -1,7 +1,7 @@
 {
   "adsense": {
     "enabled": false,
-    "clientId": null,
+    "clientId": "ca-pub-7668037987581637",
     "slots": {
       "home-banner": null,
       "list-banner": null,
