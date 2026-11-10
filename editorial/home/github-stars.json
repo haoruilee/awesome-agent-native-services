@@ -1,0 +1,70 @@
+{
+  "comment": "Snapshot of GitHub stargazers_count for the homepage attention section. The site build reads this file and does not call the network. Refresh with: python3 scripts/refresh-github-stars.py",
+  "fetched_at": "2026-11-10T10:21:14Z",
+  "metric": "stargazers_count",
+  "api": "https://api.github.com/repos/{owner}/{repo}",
+  "selection": "For each slug in editorial/home/attention.md, count the repository linked from that dossier's GitHub Stars badge. If the dossier has no badge, count the first github.com/owner/repo URL under ## Official Repo. These counts measure public interest in that repository, not traffic, revenue, or quality, and they are not a ranking of best.",
+  "refresh": "python3 scripts/refresh-github-stars.py",
+  "repositories": {
+    "browserbase": {
+      "full_name": "browserbase/stagehand",
+      "html_url": "https://github.com/browserbase/stagehand",
+      "stargazers_count": 25991
+    },
+    "composio": {
+      "full_name": "ComposioHQ/composio",
+      "html_url": "https://github.com/ComposioHQ/composio",
+      "stargazers_count": 31009
+    },
+    "e2b": {
+      "full_name": "e2b-dev/E2B",
+      "html_url": "https://github.com/e2b-dev/E2B",
+      "stargazers_count": 14794
+    },
+    "firecrawl": {
+      "full_name": "firecrawl/firecrawl",
+      "html_url": "https://github.com/firecrawl/firecrawl",
+      "stargazers_count": 200310
+    },
+    "github-mcp-server": {
+      "full_name": "github/github-mcp-server",
+      "html_url": "https://github.com/github/github-mcp-server",
+      "stargazers_count": 34360
+    },
+    "humanlayer": {
+      "full_name": "humanlayer/humanlayer",
+      "html_url": "https://github.com/humanlayer/humanlayer",
+      "stargazers_count": 12849
+    },
+    "langfuse": {
+      "full_name": "langfuse/langfuse",
+      "html_url": "https://github.com/langfuse/langfuse",
+      "stargazers_count": 37246
+    },
+    "mem0": {
+      "full_name": "mem0ai/mem0",
+      "html_url": "https://github.com/mem0ai/mem0",
+      "stargazers_count": 68741
+    },
+    "playwright-mcp": {
+      "full_name": "microsoft/playwright-mcp",
+      "html_url": "https://github.com/microsoft/playwright-mcp",
+      "stargazers_count": 39402
+    },
+    "steel": {
+      "full_name": "steel-dev/steel-browser",
+      "html_url": "https://github.com/steel-dev/steel-browser",
+      "stargazers_count": 7939
+    },
+    "tavily": {
+      "full_name": "tavily-ai/tavily-mcp",
+      "html_url": "https://github.com/tavily-ai/tavily-mcp",
+      "stargazers_count": 2483
+    },
+    "vercel-sandbox": {
+      "full_name": "vercel/sandbox",
+      "html_url": "https://github.com/vercel/sandbox",
+      "stargazers_count": 224
+    }
+  }
+}

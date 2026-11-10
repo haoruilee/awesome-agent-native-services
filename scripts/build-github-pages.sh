@@ -344,9 +344,18 @@ collection_count: ${TOTAL_COLLECTIONS}
 new_arrivals_count: ${NEW_ARRIVALS}
 ---
 
+YAML
+
+# Homepage essays live in editorial/home and are concatenated here so a
+# regeneration does not drop them. Star counts are the committed snapshot in
+# editorial/home/github-stars.json. Refresh with:
+#   python3 scripts/refresh-github-stars.py
+python3 "$ROOT/scripts/home_editorial.py" >>"$INDEX"
+
+cat >>"$INDEX" <<YAML
 <section id="new-arrivals" aria-labelledby="new-arrivals-title">
   <div class="section-intro">
-    <span class="section-number">01</span>
+    <span class="section-number">03</span>
     <h2 class="section-title" id="new-arrivals-title">New arrivals</h2>
     <p class="section-note">Last 30 days</p>
   </div>
@@ -418,7 +427,7 @@ cat >>"$INDEX" <<HTML
 
 <section id="collections" aria-labelledby="collections-title">
   <div class="section-intro">
-    <span class="section-number">02</span>
+    <span class="section-number">04</span>
     <h2 class="section-title" id="collections-title">The collections</h2>
     <p class="section-note">${TOTAL_COLLECTIONS} fields · ${TOTAL_SERVICES} dossiers</p>
   </div>
@@ -450,7 +459,7 @@ cat >>"$INDEX" <<HTML
 
 <section id="guides" aria-labelledby="guides-title">
   <div class="section-intro">
-    <span class="section-number">03</span>
+    <span class="section-number">05</span>
     <h2 class="section-title" id="guides-title">Guides</h2>
     <p class="section-note">How to choose</p>
   </div>
@@ -518,7 +527,7 @@ cat >>"$INDEX" <<HTML
 <section class="source-gateway" id="complete-index">
   <span class="source-gateway__image" aria-hidden="true"></span>
   <div>
-  <span class="section-number">04</span>
+  <span class="section-number">06</span>
   <h2 class="section-title">Full source.</h2>
   <a class="source-gateway__link" href="https://github.com/haoruilee/awesome-agent-native-services">Awesome Agent-Native Services on GitHub ↗</a>
   </div>
