@@ -53,7 +53,7 @@ Anyone can report a stale entry. The update issue template asks for the file, th
 
 If a service shuts down, pivots away from agents, or never qualified, the flag template asks for evidence and a proposed action: remove, reclassify, or leave a deprecation note. Shellmates is the current example of keeping an entry while marking the join path offline, because the old URL returned HTTP 404 and pretending otherwise would be worse. Offline is a fact to record. It is not a quiet deletion.
 
-The rendered site is generated. Collection cards, service introductions, `catalog.json`, and `skill.md` are built from the dossiers. Editing a card by hand does not last. The fix belongs in `services/{category}/{service}.md`, then a regeneration. The essays at the top of each collection, and the guides, are written separately and are not overwritten by that generator.
+The rendered site is generated. Collection cards, service introductions, `catalog.json`, and `skill.md` are built from the dossiers. Editing a card by hand does not last. The fix belongs in `services/{category}/{service}.md`, then a regeneration. The essays at the top of each collection, the guides, and the service commentaries in `editorial/services/{slug}.md` are written separately. The generator inserts those files and does not overwrite them. A service commentary is a reading of the dossier and the vendor's public docs. It is not a new source of product facts. When it and the dossier disagree, correct the dossier from the vendor's docs first, then the commentary.
 
 ## Corrections
 
