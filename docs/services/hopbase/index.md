@@ -32,7 +32,7 @@ website: "https://hop-base.com"
 
 ## What it does
 
-HopBase is a hosted AI gateway. Through one base URL (`https://api.hop-base.com/v1`) it serves chat, image, and video models over OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, and native Gemini routes, so an agent client keeps the wire protocol it already sends. Each API key belongs to one model group and carries its own spend cap, concurrency limit, expiry, and IP rules.
+HopBase is a hosted AI gateway. Through one base URL (`https://api.hop-base.com/v1`) it serves chat, image, and video models over OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, and native Gemini routes, so an agent client keeps the wire protocol it already sends. Each API key includes one or more model groups and carries its own spend cap, concurrency limit, expiry, and IP rules.
 
 For agents, HopBase publishes an AI-readable integration contract (`llms.txt` plus per-model-family contracts) and a key-scoped, read-only MCP server. Together they let a coding agent configure itself and check what its key may call, its limits, and its usage before and after it acts.
 

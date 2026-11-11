@@ -31,7 +31,7 @@ No public source repository is published. HopBase is a hosted commercial service
 
 **Interaction pattern:** operator-issued API key + agent integration contract + key-scoped MCP.
 
-1. An operator creates an API key in the HopBase console. Each key belongs to one model group. The agent cannot self-register.
+1. An operator creates an API key in the HopBase console. Each key includes one or more model groups chosen at creation. The agent cannot self-register.
 2. The agent reads the integration contract and discovers the models its key can call:
 
 ```
@@ -87,7 +87,7 @@ Every tool result covers only the key in use. The MCP server does not present mo
 
 ## What It Does
 
-HopBase is a hosted AI gateway. Through one base URL (`https://api.hop-base.com/v1`) it serves chat, image, and video models over OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, and native Gemini routes, so an agent client keeps the wire protocol it already sends. Each API key belongs to one model group and carries its own spend cap, concurrency limit, expiry, and IP rules.
+HopBase is a hosted AI gateway. Through one base URL (`https://api.hop-base.com/v1`) it serves chat, image, and video models over OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, and native Gemini routes, so an agent client keeps the wire protocol it already sends. Each API key includes one or more model groups and carries its own spend cap, concurrency limit, expiry, and IP rules.
 
 For agents, HopBase publishes an AI-readable integration contract (`llms.txt` plus per-model-family contracts) and a key-scoped, read-only MCP server. Together they let a coding agent configure itself and check what its key may call, its limits, and its usage before and after it acts.
 
@@ -101,7 +101,7 @@ The control boundary is intentionally narrower than a full agent identity platfo
 |---|---|
 | **Agent-first positioning** | "HopBase is a high-performance, high-stability AI gateway for enterprises and agent services. … This file is an AI-readable integration contract." — [llms.txt](https://hop-base.com/llms.txt). "Choose a HopBase model family and give its focused integration contract to a coding agent." — [AI agent guide](https://hop-base.com/en/docs/getting-started/ai-agent). The homepage headline is enterprise-oriented and the API also serves ordinary applications; the admitted fit is the agent operations surface. |
 | **Agent-specific primitive** | Per-model-family integration contracts written for coding agents (base URL, key group, exact model IDs, parameter bounds, async task flow, retries) that tell the agent to read the key only from `HOPBASE_API_KEY`, never ask for it in conversation, and discover callable models with `GET /v1/models` first. A key-scoped MCP server lets the agent inspect its own models, limits, spend cap, and usage. |
-| **Autonomy-compatible control plane** | After an operator creates a key, the agent makes model calls with no per-request confirmation. The key constrains that loop: one model group, USD spend cap, max concurrency, expiry, IP allowlist / blocklist, and active/disabled status. Within a group, requests fail over automatically without the agent changing its config. |
+| **Autonomy-compatible control plane** | After an operator creates a key, the agent makes model calls with no per-request confirmation. The key constrains that loop: the model groups it includes, USD spend cap, max concurrency, expiry, IP allowlist / blocklist, and active/disabled status. Within a group, requests fail over automatically without the agent changing its config. |
 | **M2M integration surface** | REST routes for OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, native Gemini, image/video task endpoints, and key-scoped model discovery; MCP over Streamable HTTP. |
 | **Identity / delegation** | A dedicated API key is the attributable runtime identity at the HopBase boundary. Usage records attribute each request (model, tokens, billed cost, status) to that key, and team keys can be attributed to a member or department. This is not a KYA credential or delegated user-authorization protocol. |
 
@@ -113,7 +113,7 @@ The control boundary is intentionally narrower than a full agent identity platfo
 |---|---|
 | **Agent integration contract** | Copy-paste, per-model-family instructions for coding agents, downloadable as `AGENTS.md`, a Cursor rule, or a Claude Code `SKILL.md`. |
 | **Key-scoped MCP server** | Read-only tools (`list_models`, `get_model_limits`, `search_docs`, `get_balance`, `get_key_info`, `get_usage`) whose results cover only the key in use. |
-| **Scoped API key** | One model group per key, with USD spend cap, max concurrency, expiry, IP allowlist / blocklist, and active/disabled status. |
+| **Scoped API key** | One or more model groups per key, with USD spend cap, max concurrency, expiry, IP allowlist / blocklist, and active/disabled status. |
 | **Key-scoped model discovery** | `GET /v1/models` requires the key and lists only the model IDs that key can call. |
 | **Native protocol routes** | Chat Completions, Responses, Anthropic Messages, and native Gemini through one base URL. |
 | **Request usage record** | Per-request model, tokens, billed cost, and status attributed to the key, and optionally to a team member or department. |
