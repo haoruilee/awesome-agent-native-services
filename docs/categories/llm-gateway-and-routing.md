@@ -8,7 +8,7 @@ image: "/assets/images/editorial-routing.webp"
 permalink: /categories/llm-gateway-and-routing/
 page_kind: collection
 collection_number: "15"
-service_count: 11
+service_count: 12
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/README.md">Collection notes ↗</a></p>
@@ -83,6 +83,19 @@ The unit of control is the thing to read for. A single key shared by every agent
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://hop-base.com" rel="noopener noreferrer">HopBase</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/hopbase/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Built for enterprise — A stable, high-concurrency AI gateway</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/hopbase/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/hopbase.md">Dossier ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--service atlas-visual--06">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
     <h2 class="service-card__title"><a href="https://www.litellm.ai" rel="noopener noreferrer">LiteLLM</a></h2>
     <p class="listing-source">Listed on <a href="{{ '/services/litellm/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">AI Gateway to provide model access, fallbacks and spend tracking across 100+ LLMs. All in the OpenAI format.</p>
@@ -93,7 +106,7 @@ The unit of control is the thing to read for. A single key shared by every agent
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--06">
+  <article class="service-card atlas-sheet--service atlas-visual--07">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -107,7 +120,7 @@ The unit of control is the thing to read for. A single key shared by every agent
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--07">
+  <article class="service-card atlas-sheet--service atlas-visual--08">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -121,7 +134,7 @@ The unit of control is the thing to read for. A single key shared by every agent
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--08">
+  <article class="service-card atlas-sheet--service atlas-visual--09">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -134,7 +147,7 @@ The unit of control is the thing to read for. A single key shared by every agent
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--09">
+  <article class="service-card atlas-sheet--service atlas-visual--10">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -148,7 +161,7 @@ The unit of control is the thing to read for. A single key shared by every agent
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--10">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--11">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -162,7 +175,7 @@ The unit of control is the thing to read for. A single key shared by every agent
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--11">
+  <article class="service-card atlas-sheet--service atlas-visual--12">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
