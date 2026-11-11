@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "97f02ff0eb029817d9c45166b7210995757e64b650b61a6e825d13d69522d747",
+      "value": "884920918d6eecd50b3bd4479b00e16ea631fbc9a7c00a3906fba3ad49c592a2",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -172,6 +172,7 @@
         "services/agent-harnesses-and-control-planes/codex-hud-anhannin.md",
         "services/agent-harnesses-and-control-planes/codex-hud-fwyc0573.md",
         "services/agent-harnesses-and-control-planes/deepseek-harness.md",
+        "services/agent-harnesses-and-control-planes/kwant.md",
         "services/agent-harnesses-and-control-planes/longhorizon-harness.md",
         "services/agent-harnesses-and-control-planes/loopx.md",
         "services/agent-harnesses-and-control-planes/oh-my-codex.md",
@@ -330,7 +331,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 294
+    "services": 295
   },
   "categories": [
     {
@@ -380,7 +381,7 @@
       "name": "Agent Harnesses & Operator Surfaces",
       "description": "Systems purpose-built around running agents: either harnesses that add durable work state, orchestration, verification, and policy, or operator surfaces that expose live agent state and bounded session controls.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/README.md",
-      "service_count": 16
+      "service_count": 17
     },
     {
       "id": "memory-and-state",
@@ -5264,6 +5265,42 @@
       "verified_at": "2026-10-13",
       "verification_sources": [
         "https://api.github.com/repos/deepseek-ai/deepseek-harness"
+      ]
+    },
+    {
+      "id": "agent-harnesses-and-control-planes/kwant",
+      "slug": "kwant",
+      "name": "kwant",
+      "tagline": "Your own team of AI bots in one self-hosted binary: spaces, every account you have, handoffs, approvals and routines. Open-source, self-hosted alternative to Grok Bot, Claude Duet and OpenAI dots.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-harnesses-and-control-planes",
+      "website": "https://kwant.si",
+      "repository": "https://github.com/alexsergivan/kwant",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/kwant.md",
+      "source_path": "services/agent-harnesses-and-control-planes/kwant.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": "CLI + HTTP/SSE daemon (kwnt serve)",
+        "instruction": "curl -fsSL https://kwant.si/install.sh | sh\nkwnt serve",
+        "url": "https://kwant.si/install.sh"
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "cli",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "0.8.2 released 2026-11-10; 472 stars; AGPL-3.0; kwant.si returned HTTP 200. Operator-surface evidence is pinned to commit 2c93196",
+      "verified_at": "2026-11-10",
+      "verification_sources": [
+        "https://github.com/alexsergivan/kwant/releases/tag/mac-v0.8.2",
+        "https://kwant.si",
+        "https://github.com/alexsergivan/kwant/commit/2c931968680ce26d65ec79e08cbf2527c0d2d25f"
       ]
     },
     {
