@@ -3,9 +3,9 @@ title: "Awesome Agent-Native Services"
 description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
 image: /assets/images/social-preview-wide.webp
 page_kind: home
-service_count: 294
+service_count: 295
 collection_count: 16
-new_arrivals_count: 107
+new_arrivals_count: 108
 ---
 
 <section id="practices" class="home-editorial" aria-labelledby="practices-title">
@@ -1179,6 +1179,14 @@ new_arrivals_count: 107
     <article class="arrival-card atlas-sheet--arrival atlas-visual--11">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
+        <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
+        <a class="arrival-card__name" href="https://kwant.si" rel="noopener noreferrer">kwant</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/kwant/' | relative_url }}">The Agent-Native Index</a></span>
+      </span>
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--12">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
         <a class="arrival-card__name" href="https://directhireagents.com" rel="noopener noreferrer">Direct Hire</a>
         <span class="listing-source">Listed on <a href="{{ '/services/direct-hire/' | relative_url }}">The Agent-Native Index</a></span>
@@ -1209,7 +1217,7 @@ new_arrivals_count: 107
   <div class="section-intro">
     <span class="section-number">04</span>
     <h2 class="section-title" id="collections-title">The collections</h2>
-    <p class="section-note">16 fields · 294 dossiers</p>
+    <p class="section-note">16 fields · 295 dossiers</p>
   </div>
   <div class="collection-grid">
     <a class="collection-card atlas-visual--01" href="{{ '/categories/communication/' | relative_url }}">
@@ -1265,7 +1273,7 @@ new_arrivals_count: 107
       <span class="collection-card__copy">
       <span class="collection-card__number">07</span>
       <span class="collection-card__title">Agent Harnesses &amp; Operator Surfaces</span>
-      <span class="collection-card__count">16</span>
+      <span class="collection-card__count">17</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--08" href="{{ '/categories/memory-and-state/' | relative_url }}">
