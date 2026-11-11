@@ -82,7 +82,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 293 Services
+## Full Catalog — 16 Categories, 294 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -437,7 +437,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 15. LLM Gateway & Routing (11 services)
+### 15. LLM Gateway & Routing (12 services)
 *Per-agent budget, routing, caching, and observability for LLM calls.*
 
 | Service | Tagline | Onboarding |
@@ -453,6 +453,7 @@ These services can be joined with a single instruction, right now, with no human
 | [SageRoute](https://github.com/codejunkie99/sageroute) | Trajectory-aware model router | Clone → `bun install` → `bun run serve`, then set the client base URL |
 | [XiuRouter](https://router.xiu.ai/en) | Claude, GPT, Gemini, and more through one API | Create a scoped key, then follow [Agent integrations](https://router.xiu.ai/en/integrations) for the client's native protocol |
 | [Dasha Compute](https://lobby.getdasha.com/compute) | OpenAI-compatible inference marketplace on idle community hardware | Mint a guest key (`POST /compute/api/guest-keys`), then point the OpenAI SDK at `https://lobby.getdasha.com/compute/api/v1` |
+| [HopBase](https://hop-base.com) | Built for enterprise — A stable, high-concurrency AI gateway | Operator creates a key, then `Read https://hop-base.com/llms.txt and follow the AI Integration Contract.` — MCP: `https://api.hop-base.com/mcp` (API key required). Hosted service, no public source |
 
 ---
 

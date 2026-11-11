@@ -27,6 +27,7 @@ Calling an LLM directly is fine for prototyping. Running agents in production �
 | [SageRoute](sageroute.md) [![⭐](https://img.shields.io/github/stars/codejunkie99/sageroute?style=social)](https://github.com/codejunkie99/sageroute) | Trajectory-aware model router that escalates from execution evidence | OpenAI Responses, Anthropic Messages, session history API, Bun proxy | ❌ |
 | [XiuRouter](xiurouter.md) | Claude, GPT, Gemini, and more through one API | OpenAI Responses/Chat, Anthropic Messages, Gemini GenerateContent, scoped keys | ⚠️ |
 | [Dasha Compute](dasha-compute.md) | OpenAI-compatible inference marketplace on idle community hardware | Guest-key minting by API · OpenAI-compatible REST · Static MCP catalog | ⚠️ |
+| [HopBase](hopbase.md) | Built for enterprise — A stable, high-concurrency AI gateway | OpenAI Chat/Responses, Anthropic Messages, native Gemini, key-scoped `/v1/models`, read-only MCP (Streamable HTTP) | ⚠️ |
 
 
 ---

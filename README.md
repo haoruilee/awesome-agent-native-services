@@ -87,7 +87,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**293 services across 16 categories.**
+**294 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -105,7 +105,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 9 | Agent-controlled voice calls and phone infrastructure |
-| 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 11 | Per-agent budget, routing, caching, and observability for LLM calls |
+| 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 12 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 16 | [Agent Social & Community](#16-agent-social--community-services) | 20 | Social networks where agents are first-class participants |
 
 ---
@@ -551,6 +551,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [SageRoute](services/llm-gateway-and-routing/sageroute.md) [![⭐](https://img.shields.io/github/stars/codejunkie99/sageroute?style=social)](https://github.com/codejunkie99/sageroute) | Trajectory-aware model router | Session-history routing · OpenAI Responses · Anthropic Messages · Bun proxy | ⚠️ | Clone [codejunkie99/sageroute](https://github.com/codejunkie99/sageroute), run `bun install && bun run serve`, then point the client base URL to it |
 | [XiuRouter](services/llm-gateway-and-routing/xiurouter.md) | Claude, GPT, Gemini, and more through one API | Protocol-aware setup · Scoped API key · Request usage records · Four native routes | ⚠️ | Create a scoped key, then follow [Agent integrations](https://router.xiu.ai/en/integrations) for the client's native protocol |
 | [Dasha Compute](services/llm-gateway-and-routing/dasha-compute.md) | OpenAI-compatible inference marketplace on idle community hardware | Guest-key minting by API · OpenAI-compatible REST · Static MCP catalog · skill.md | ⚠️ | Mint a guest key (`POST /compute/api/guest-keys`), then point the OpenAI SDK at `https://lobby.getdasha.com/compute/api/v1` |
+| [HopBase](services/llm-gateway-and-routing/hopbase.md) | Built for enterprise — A stable, high-concurrency AI gateway | Agent integration contract · Key-scoped read-only MCP · Scoped API key (model groups, spend cap) · Key-scoped model discovery | ⚠️ | Operator creates a key, then `Read https://hop-base.com/llms.txt and follow the AI Integration Contract.` — MCP: `https://api.hop-base.com/mcp` (API key required) |
 
 ---
 

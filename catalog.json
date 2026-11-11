@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "abd4799189375fc423f5635bd639ce5aecc050493c263a4905292519e29534dd",
+      "value": "97f02ff0eb029817d9c45166b7210995757e64b650b61a6e825d13d69522d747",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -296,6 +296,7 @@
         "services/llm-gateway-and-routing/bifrost.md",
         "services/llm-gateway-and-routing/dasha-compute.md",
         "services/llm-gateway-and-routing/helicone.md",
+        "services/llm-gateway-and-routing/hopbase.md",
         "services/llm-gateway-and-routing/keywords-ai.md",
         "services/llm-gateway-and-routing/litellm.md",
         "services/llm-gateway-and-routing/openrouter.md",
@@ -329,7 +330,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 293
+    "services": 294
   },
   "categories": [
     {
@@ -435,7 +436,7 @@
       "name": "LLM Gateway & Routing",
       "description": "Services that give AI agents a reliable, observable, and cost-controlled interface to LLM providers — with per-agent routing, budget enforcement, fallback logic, and semantic caching as first-class primitives.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/README.md",
-      "service_count": 11
+      "service_count": 12
     },
     {
       "id": "agent-social-network",
@@ -9033,6 +9034,38 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "llm-gateway-and-routing/hopbase",
+      "slug": "hopbase",
+      "name": "HopBase",
+      "tagline": "Built for enterprise — A stable, high-concurrency AI gateway",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "llm-gateway-and-routing",
+      "website": "https://hop-base.com",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/hopbase.md",
+      "source_path": "services/llm-gateway-and-routing/hopbase.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "operator-issued API key + agent integration contract + key-scoped MCP.",
+        "instruction": "Read https://hop-base.com/llms.txt and follow the AI Integration Contract.",
+        "url": "https://hop-base.com/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "sdk",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unknown",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
