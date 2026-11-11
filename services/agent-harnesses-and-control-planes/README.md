@@ -44,6 +44,7 @@ Operator surfaces are an explicit narrow exception to the catalog's usual machin
 | [peerd](peerd.md) [![⭐](https://img.shields.io/github/stars/NotASithLord/peerd?style=social)](https://github.com/NotASithLord/peerd) | peerd: the AI agent harness native to the browser | In-browser loop · keyless actors · WASM compute · vaulted BYOK | Browser extension · preview WebRTC A2A |
 | [Reef](reef.md) [![⭐](https://img.shields.io/github/stars/Human-Agent-Society/reef?style=social)](https://github.com/Human-Agent-Society/reef) | Infrastructure for continually self-improving agents | Serve/observe/grow/commit · weight or harness learning · versioned artifacts | CLI · Python package |
 | [Sqwakie](sqwakie.md) [![⭐](https://img.shields.io/github/stars/alexcarney460-hue/walkie?style=social)](https://github.com/alexcarney460-hue/walkie) | A walkie-talkie for your team's AI agents | Live session states · sub-agent trees · quota windows · agent asks | CLI · local API · MCP · Claude Code and Codex hooks |
+| [kwant](kwant.md) [![⭐](https://img.shields.io/github/stars/alexsergivan/kwant?style=social)](https://github.com/alexsergivan/kwant) | Your own team of AI bots in one self-hosted binary | Spaces · @mention handoffs · Mission-board verification · enforced approvals · routines | CLI (`kwnt serve`) · HTTP/SSE · inbound MCP |
 
 ## Criteria Reminder
 
