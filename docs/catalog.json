@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-10",
-  "generated_at": "2026-11-10",
+  "catalog_version": "2026-11-12",
+  "generated_at": "2026-11-12",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "ba59a614a2f3150929c1f1ad53ae3b5970f149ed9a366e4ca942f1f17752dbdd",
+      "value": "eb62e8bb9bcbc83b0e754cb45f52e88816218f03257d5547a659fb0bbc35ba15",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -150,14 +150,19 @@
         "services/agent-runtime-and-infrastructure/cyberdesk.md",
         "services/agent-runtime-and-infrastructure/db9.md",
         "services/agent-runtime-and-infrastructure/deed-page.md",
+        "services/agent-runtime-and-infrastructure/e2b-desktop.md",
         "services/agent-runtime-and-infrastructure/fiserv-agentos.md",
         "services/agent-runtime-and-infrastructure/google-ax.md",
         "services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md",
         "services/agent-runtime-and-infrastructure/lantern-works.md",
         "services/agent-runtime-and-infrastructure/letta.md",
+        "services/agent-runtime-and-infrastructure/limrun.md",
+        "services/agent-runtime-and-infrastructure/mobile-next.md",
+        "services/agent-runtime-and-infrastructure/mobilerun.md",
         "services/agent-runtime-and-infrastructure/modal.md",
         "services/agent-runtime-and-infrastructure/multica.md",
         "services/agent-runtime-and-infrastructure/openai-symphony.md",
+        "services/agent-runtime-and-infrastructure/phonebox.md",
         "services/agent-runtime-and-infrastructure/polos.md",
         "services/agent-runtime-and-infrastructure/sandbase-harness.md",
         "services/agent-runtime-and-infrastructure/scrapybara.md",
@@ -331,7 +336,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 295
+    "services": 300
   },
   "categories": [
     {
@@ -374,7 +379,7 @@
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 38
+      "service_count": 43
     },
     {
       "id": "agent-harnesses-and-control-planes",
@@ -4611,6 +4616,37 @@
       ]
     },
     {
+      "id": "agent-runtime-and-infrastructure/e2b-desktop",
+      "slug": "e2b-desktop",
+      "name": "E2B Desktop",
+      "tagline": "Build AI agents that see, understand, and control virtual Linux desktops using E2B Desktop sandboxes.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://e2b.dev",
+      "repository": "https://github.com/e2b-dev/desktop",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/e2b-desktop.md",
+      "source_path": "services/agent-runtime-and-infrastructure/e2b-desktop.md",
+      "onboarding": {
+        "type": "sdk",
+        "pattern": "SDK (@e2b/desktop / e2b-desktop).",
+        "instruction": "pip install e2b-desktop\n# or: npm i @e2b/desktop",
+        "url": "https://e2b.dev/docs"
+      },
+      "protocols": [
+        "sdk",
+        "http"
+      ],
+      "mcp_status": "unknown",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Active on 2026-11-11 (~1.5k★)",
+      "verified_at": "2026-11-12",
+      "verification_sources": [
+        "https://github.com/e2b-dev/desktop"
+      ]
+    },
+    {
       "id": "agent-runtime-and-infrastructure/fiserv-agentos",
       "slug": "fiserv-agentos",
       "name": "agentOS by Fiserv",
@@ -4762,6 +4798,112 @@
       "verification_sources": []
     },
     {
+      "id": "agent-runtime-and-infrastructure/limrun",
+      "slug": "limrun",
+      "name": "Limrun",
+      "tagline": "Unlock cloud agents for mobile dev teams",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://limrun.com",
+      "repository": "https://github.com/limrun-inc",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/limrun.md",
+      "source_path": "services/agent-runtime-and-infrastructure/limrun.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "remote MCP (OAuth or API key) + lim CLI + published skills.",
+        "instruction": "claude mcp add --transport http limrun https://mcp.limrun.com/mcp",
+        "url": "https://mcp.limrun.com/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "sdk",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": "2026-11-12",
+      "verification_sources": [
+        "https://github.com/limrun-inc"
+      ]
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/mobile-next",
+      "slug": "mobile-next",
+      "name": "Mobile Next",
+      "tagline": "Real iOS and Android devices for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://mobilenext.ai",
+      "repository": "https://github.com/mobile-next/mobile-mcp",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/mobile-next.md",
+      "source_path": "services/agent-runtime-and-infrastructure/mobile-next.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP (local stdio or hosted Streamable HTTP) + REST API.",
+        "instruction": "npx @mobilenext/mobile-mcp@latest install",
+        "url": "https://github.com/mobile-next/mobile-mcp"
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "openapi",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Active on 2026-11-11 (~10.5k★ on mobile-mcp)",
+      "verified_at": "2026-11-12",
+      "verification_sources": [
+        "https://github.com/mobile-next/mobile-mcp"
+      ]
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/mobilerun",
+      "slug": "mobilerun",
+      "name": "Mobilerun",
+      "tagline": "Give your AI Agent a phone.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://mobilerun.ai",
+      "repository": "https://github.com/droidrun/mobilerun",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/mobilerun.md",
+      "source_path": "services/agent-runtime-and-infrastructure/mobilerun.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI (local framework) + Cloud REST / Python / TypeScript SDK + hosted MCP.",
+        "instruction": "uv tool install mobilerun\nmobilerun setup\nmobilerun configure\nmobilerun run \"Open settings and turn on dark mode\"",
+        "url": "https://docs.mobilerun.ai/framework/guides/device-setup"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "cli",
+        "sdk",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Active on 2026-11-12 (~10.0k★); formerly published as Droidrun",
+      "verified_at": "2026-11-12",
+      "verification_sources": [
+        "https://github.com/droidrun/mobilerun"
+      ]
+    },
+    {
       "id": "agent-runtime-and-infrastructure/modal",
       "slug": "modal",
       "name": "Modal",
@@ -4852,6 +4994,41 @@
       "verification_sources": [
         "https://github.com/openai/symphony/releases/tag/v0.0.3",
         "https://api.github.com/repos/openai/symphony"
+      ]
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/phonebox",
+      "slug": "phonebox",
+      "name": "Phonebox",
+      "tagline": "The agent-first cloud phone: cloud Android phones that AI agents can see and control, billed per second.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://phonebox.dev",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/phonebox.md",
+      "source_path": "services/agent-runtime-and-infrastructure/phonebox.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "agent-readable setup document + CLI + hosted MCP + REST.",
+        "instruction": "npm install -g https://phonebox.dev/downloads/phonebox-0.1.0.tgz\nphonebox setup --no-wait",
+        "url": "https://phonebox.dev/downloads/phonebox-0.1.0.tgz"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "openapi",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": "2026-11-12",
+      "verification_sources": [
+        "https://phonebox.dev"
       ]
     },
     {

@@ -3,9 +3,9 @@ title: "Awesome Agent-Native Services"
 description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
 image: /assets/images/social-preview-wide.webp
 page_kind: home
-service_count: 295
+service_count: 300
 collection_count: 16
-new_arrivals_count: 108
+new_arrivals_count: 111
 ---
 
 <section id="practices" class="home-editorial" aria-labelledby="practices-title">
@@ -1179,12 +1179,36 @@ new_arrivals_count: 108
     <article class="arrival-card atlas-sheet--arrival atlas-visual--11">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
+        <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
+        <a class="arrival-card__name" href="https://mobilerun.ai" rel="noopener noreferrer">Mobilerun</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/mobilerun/' | relative_url }}">The Agent-Native Index</a></span>
+      </span>
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--12">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
+        <a class="arrival-card__name" href="https://mobilenext.ai" rel="noopener noreferrer">Mobile Next</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/mobile-next/' | relative_url }}">The Agent-Native Index</a></span>
+      </span>
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--13">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
+        <span class="arrival-card__category">Agent Runtime &amp; Infrastructure</span>
+        <a class="arrival-card__name" href="https://e2b.dev" rel="noopener noreferrer">E2B Desktop</a>
+        <span class="listing-source">Listed on <a href="{{ '/services/e2b-desktop/' | relative_url }}">The Agent-Native Index</a></span>
+      </span>
+    </article>
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--14">
+      <span class="arrival-card__image" aria-hidden="true"></span>
+      <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Harnesses &amp; Operator Surfaces</span>
         <a class="arrival-card__name" href="https://kwant.si" rel="noopener noreferrer">kwant</a>
         <span class="listing-source">Listed on <a href="{{ '/services/kwant/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>
-    <article class="arrival-card atlas-sheet--arrival atlas-visual--12">
+    <article class="arrival-card atlas-sheet--arrival atlas-visual--15">
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Agent Social &amp; Community</span>
@@ -1217,7 +1241,7 @@ new_arrivals_count: 108
   <div class="section-intro">
     <span class="section-number">04</span>
     <h2 class="section-title" id="collections-title">The collections</h2>
-    <p class="section-note">16 fields · 295 dossiers</p>
+    <p class="section-note">16 fields · 300 dossiers</p>
   </div>
   <div class="collection-grid">
     <a class="collection-card atlas-visual--01" href="{{ '/categories/communication/' | relative_url }}">
@@ -1265,7 +1289,7 @@ new_arrivals_count: 108
       <span class="collection-card__copy">
       <span class="collection-card__number">06</span>
       <span class="collection-card__title">Agent Runtime &amp; Infrastructure</span>
-      <span class="collection-card__count">38</span>
+      <span class="collection-card__count">43</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--07" href="{{ '/categories/agent-harnesses-and-control-planes/' | relative_url }}">

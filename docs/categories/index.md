@@ -1,6 +1,6 @@
 ---
 title: "Agent-Native Collections"
-description: "Browse 295 agent-native services across 16 curated infrastructure collections."
+description: "Browse 300 agent-native services across 16 curated infrastructure collections."
 permalink: /categories/
 page_kind: document
 ---
@@ -51,7 +51,7 @@ page_kind: document
     <span class="collection-card__copy">
     <span class="collection-card__number">06</span>
     <span class="collection-card__title">Agent Runtime &amp; Infrastructure</span>
-    <span class="collection-card__count">38</span>
+    <span class="collection-card__count">43</span>
     </span>
   </a>
   <a class="collection-card atlas-visual--07" href="{{ '/categories/agent-harnesses-and-control-planes/' | relative_url }}">
