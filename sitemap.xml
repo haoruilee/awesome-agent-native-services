@@ -666,6 +666,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/e2b-desktop/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/ego-lite/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -886,6 +891,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/limrun/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/linkup/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1056,6 +1066,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/mobile-next/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/services/mobilerun/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/modal/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1212,6 +1232,11 @@
   </url>
   <url>
     <loc>https://theagentnative.com/services/peerd/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/services/phonebox/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
