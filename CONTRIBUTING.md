@@ -135,6 +135,7 @@ This means the service's onboarding flow — registration, authentication, capab
 | **Dexio** | `Read https://dexio.wiki/agents.md and follow the instructions to connect.` |
 | **Agent Rider** | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
 | **CosVoice** | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
+| **Cooper Email** | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
 
 Shellmates is retained in the catalog as an offline historical entry. Its former `shellmates.app/skill.md` URL onboarding returned HTTP 404 as of 2026-09-08 and is not a live join path.
 

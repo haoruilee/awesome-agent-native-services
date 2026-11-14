@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with agents that can read repository files and browse official sources.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-11-12"
+  catalog-version: "2026-11-15"
 allowed-tools: WebSearch Read Bash
 ---
 
@@ -43,6 +43,7 @@ If YES — this is **URL Onboarding**, the highest form of agent-nativeness. Mar
 - Dexio: `Read https://dexio.wiki/agents.md and follow the instructions to connect.`
 - Agent Rider: `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.`
 - CosVoice: `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.`
+- Cooper Email: `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.`
 
 When the new service has URL Onboarding, lead with this in every section.
 

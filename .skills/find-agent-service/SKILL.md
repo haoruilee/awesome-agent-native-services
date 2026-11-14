@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with any agent that can read markdown files and call web searches.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-11-12"
+  catalog-version: "2026-11-15"
 allowed-tools: WebSearch Read
 ---
 
@@ -44,6 +44,7 @@ This is called **URL Onboarding** — the service hosts a machine-readable skill
 | **Dexio** | `Read https://dexio.wiki/agents.md and follow the instructions to connect.` |
 | **Agent Rider** | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
 | **CosVoice** | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
+| **Cooper Email** | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
 
 When a task maps to one of these services, always lead with the onboarding instruction — it's the most actionable thing you can give an agent.
 

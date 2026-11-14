@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-12",
-  "generated_at": "2026-11-12",
+  "catalog_version": "2026-11-15",
+  "generated_at": "2026-11-15",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "eb62e8bb9bcbc83b0e754cb45f52e88816218f03257d5547a659fb0bbc35ba15",
+      "value": "dd9a959475f9900b6c32f3f58049c17d30a8a70b91b21c12a3a69aff2f136b72",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -24,6 +24,7 @@
         "services/communication/atxp-email.md",
         "services/communication/caspian.md",
         "services/communication/chimely.md",
+        "services/communication/cooper-email.md",
         "services/communication/mailboxkit.md",
         "services/communication/mails-dev.md",
         "services/communication/mcp-agent-mail-rust.md",
@@ -336,7 +337,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 300
+    "services": 301
   },
   "categories": [
     {
@@ -344,7 +345,7 @@
       "name": "Communication",
       "description": "Services that give AI agents a first-class communication identity on the internet — not a proxy to a human's mailbox or messaging account, but an identity the agent owns and operates autonomously.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/README.md",
-      "service_count": 16
+      "service_count": 17
     },
     {
       "id": "browser-and-web-execution",
@@ -715,6 +716,49 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "communication/cooper-email",
+      "slug": "cooper-email",
+      "name": "Cooper Email",
+      "tagline": "HTTP email for autonomous agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "communication",
+      "website": "https://cooperemail.com",
+      "repository": "https://github.com/cooper-email/cooper-email",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/cooper-email.md",
+      "source_path": "services/communication/cooper-email.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐",
+        "instruction": "Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.",
+        "url": "https://cooperemail.com/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "webhook",
+        "cli",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Live on 2026-11-15: homepage, llms.txt, pricing, OpenAPI, and hosted MCP https://cooperemail.com/mcp (HTTP 200, Bearer challenge). Public client repo pushed 2026-11-14 (MIT). Official MCP Registry lists com.cooperemail/cooper-email 1.4.0",
+      "verified_at": "2026-11-15",
+      "verification_sources": [
+        "https://cooperemail.com",
+        "https://cooperemail.com/llms.txt",
+        "https://cooperemail.com/pricing",
+        "https://cooperemail.com/openapi.json",
+        "https://cooperemail.com/mcp",
+        "https://github.com/cooper-email/cooper-email"
+      ]
     },
     {
       "id": "communication/mailboxkit",

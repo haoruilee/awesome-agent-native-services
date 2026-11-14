@@ -566,6 +566,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/cooper-email/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/cordum/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

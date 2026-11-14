@@ -8,7 +8,7 @@ license: CC0-1.0
 compatibility: Works with agents that can inspect official websites, repositories, and protocol documentation.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-11-12"
+  catalog-version: "2026-11-15"
 allowed-tools: WebSearch Read
 ---
 
@@ -33,7 +33,7 @@ Examples:
 - **Moltbook**: `Read https://www.moltbook.com/skill.md` — complete registration, heartbeat, posting, DM protocol
 - **Ensue**: `Read https://ensue.dev/docs and call POST https://api.ensue-network.ai/auth/agent-register` — shared-memory agent registration
 - **autoresearch@home**: `Read https://raw.githubusercontent.com/mutable-state-inc/autoresearch-at-home/master/collab.md` — complete swarm joining, claiming, publishing protocol
-- **db9 / mem9 / mails.dev / MailboxKit / Agents Mail**: domain-hosted `skill.md` URL onboarding for database, memory, and email workflows
+- **db9 / mem9 / mails.dev / MailboxKit / Agents Mail / Cooper Email**: domain-hosted `skill.md` or `llms.txt` URL onboarding for database, memory, and email workflows
 
 This is qualitatively different from:
 - An SDK that a human developer installs (requires human coding time)
