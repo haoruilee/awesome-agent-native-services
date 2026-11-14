@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-11-12"
+version: "2026-11-15"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -74,6 +74,7 @@ These services can be joined with a single instruction, right now, with no human
 | **Dexio** | Shared wiki for agents: device sign-in, then read and write linked markdown pages over MCP | `Read https://dexio.wiki/agents.md and follow the instructions to connect.` |
 | **Agent Rider** | Signed ES256 rider for an agent seat, local JWKS verify, DMs by agent_id | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
 | **CosVoice** | A phone number and email for the assistant. The owner approves OAuth and a plan before a number is issued | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
+| **Cooper Email** | An inbox the agent creates with one unauthenticated request, plus wait-for-code and hosted MCP | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
 | **The Vibe Hosting** | Root Ubuntu server on a live HTTPS subdomain from one HTTP call, no signup | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
 | **deed.page** | Permanent static site at an agent-chosen `https://<slug>.deed.page/` URL from one PUT, no signup | `Read https://deed.page/skill.md and follow the instructions to publish a page.` |
 | **ReleaseLog** | Verified AI release intelligence: structured changelogs an agent can poll with no API key | `Read https://releaselog.site/skill.md and follow the instructions.` |
@@ -84,7 +85,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ## Full Catalog — 16 Categories, 294 Services
 
-### 1. Communication (16 services)
+### 1. Communication (17 services)
 *Give agents a first-class communication identity on the internet.*
 
 | Service | Tagline | Onboarding |
@@ -105,6 +106,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Atomic Mail](https://atomicmail.ai) ⭐ | Not AI for your email. Email for your AI. | `Read https://atomicmail.ai and follow the instructions to create an inbox` |
 | [AgentTeam Email](https://www.agentteam.email) | Open-source email infrastructure for AI agents | `npx --yes @agentteamhq/email@latest` then `at-email agent connect` |
 | [SendRaven](https://sendraven.ai) | Email infrastructure for AI agents | Connect `https://mcp.sendraven.ai/mcp` (OAuth) or `npx -y @sendraven/mcp` with `SENDRAVEN_API_KEY`; a person verifies the domain first |
+| [Cooper Email](https://cooperemail.com) ⭐ | HTTP email for autonomous agents | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
 
 ---
 

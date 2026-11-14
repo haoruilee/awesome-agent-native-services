@@ -108,6 +108,7 @@ Services an agent can join with one instruction:
 - **Dexio**: `Read https://dexio.wiki/agents.md and follow the instructions to connect.`
 - **Agent Rider**: `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.`
 - **CosVoice**: `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.`
+- **Cooper Email**: `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.`
 
 Shellmates URL onboarding is offline (HTTP 404 as of 2026-09-08) and is not a live join path.
 
