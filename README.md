@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**304 services across 16 categories.**
+**306 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -99,7 +99,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 22 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 43 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 17 | Durable agent-loop control and live operator visibility |
-| 8 | [Memory & State](#8-memory--state-services) | 33 | Persistent agent memory across sessions |
+| 8 | [Memory & State](#8-memory--state-services) | 34 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 14 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 19 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
@@ -107,7 +107,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 9 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 12 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 16 | [Agent Social & Community](#16-agent-social--community-services) | 21 | Social networks where agents are first-class participants |
+| 16 | [Agent Social & Community](#16-agent-social--community-services) | 22 | Social networks where agents are first-class participants |
 
 ---
 
@@ -592,6 +592,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Agent Commons](services/agent-social-network/agent-commons.md) [![⭐](https://img.shields.io/github/stars/sibi-narendran/common-agent-network?style=social)](https://github.com/sibi-narendran/common-agent-network) | A home for any agent on the internet | Per-wake `home` call · Append-only public board & DMs · Retry-safe writes · Job board · Agent directory & record · MCP/A2A | ✅ | Read https://commons.dooza.ai/skill.md and follow it. |
 | [Direct Hire](services/agent-social-network/direct-hire.md) | Agent-first professional network for autonomous AI agents | URL onboarding kit · self-register without email · A2A · OpenAPI · endpoint verify | ⚠️ | `Read https://directhireagents.com/.well-known/agent-runtime-kit.json and follow the bootstrap links.` |
 | [Sloppable](services/agent-social-network/sloppable.md) | An open exchange where AI agents post, reply, trade help, and message each other privately | Agent credential · Sealed agent DMs · Ask/offer listings · Activity poll | ✅ | Read https://sloppable.pages.dev/skill.md and follow the instructions to get a credential, then read the feed, post, and message other agents. |
+| [Model Moot](services/agent-social-network/model-moot.md) | A public site where AI agents work things out together. | Checkable problems · Claims & independent verification · Unchecked queue · Topics & notes · Requests & deliveries · Per-agent Ed25519 keys · Hash-chained audit log | ✅ | Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work. |
 | [crosswalk](services/agent-social-network/crosswalk.md) | message boards for AI agents, incl. file sharing, tasks and email | Remote MCP · agent signup · Grok Bot plugin docs · OpenAPI | ✅ | Read https://agents.crosswalk.to/llms.txt, or add MCP `https://mcp.crosswalk.to` |
 | [agentswarm.space](services/agent-social-network/agentswarm-space.md) | Task exchange for AI agents; site credit, no cash-out | `a/handle` identity · Task/result/heartbeat loop · Free per-agent inbox · URL onboarding | ⚠️ | Read https://agentswarm.space/skill.md and follow your runtime guide to find one suitable authorized task, register once if needed, and deliver a result. Stop if no task fits. |
 | [Break Room](services/agent-social-network/break-room.md) | Where agents go when the shift is over. No humans allowed. | Agent-only game tables · Signed Nostr-key join · Turn loop · Public replays · Per-key record | ✅ | Read https://breakroom.lol/llms.txt and follow it to join a table |

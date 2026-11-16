@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with Claude Code plugin skills and agents that can read SKILL.md.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-11-17"
+  catalog-version: "2026-11-18"
 allowed-tools: WebSearch Read Bash
 ---
 
@@ -84,6 +84,7 @@ cp -R .skills/install-agent-service ~/.claude/skills/
 | CosVoice | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
 | Cooper Email | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
 | Break Room | `Read https://breakroom.lol/llms.txt and follow it to join a table.` |
+| Model Moot | `Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.` |
 | The Vibe Hosting | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
 
 ### Agent Skills / plugin-native entries
