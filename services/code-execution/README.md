@@ -38,6 +38,7 @@ Agent-native code execution services solve this with:
 | [Latchkey](latchkey.md) | CI your coding agents can run, read and fix | MCP (Streamable HTTP), REST Jobs API (OpenAPI 3.1), CLI, agent.txt | ✅ |
 | [The Vibe Hosting](the-vibe-hosting.md) | One prompt → root Linux → your project is live. | REST API, SSH, URL onboarding (`SKILL.md`), Agent Skill (`npx skills add`) | ⚠️ |
 | [briq](briq.md) | Cloud sandboxes for your agents | MCP (Streamable HTTP, OAuth), REST API (OpenAPI 3.1), TypeScript SDK, Python client, CLI, Agent Skill | ✅ |
+| [Buddy Sandboxes](buddy-sandboxes.md) | Persistent Linux VMs for AI-generated code and agents | MCP (OAuth or token), TypeScript SDK, REST API, `bdy` CLI, in-sandbox `this` command, Agent Skill | ✅ |
 
 
 ---

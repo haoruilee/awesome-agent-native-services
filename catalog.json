@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "4c06927eee6c39a6a467c5a18c18042db6292186769f382b59257870e0db9b4a",
+      "value": "255159034675c7bb2eccbb9b5d47f3ef7ac9d68a263ae6e2d2d14964d401c58f",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -245,6 +245,7 @@
         "services/code-execution/agent-sandbox.md",
         "services/code-execution/axern.md",
         "services/code-execution/briq.md",
+        "services/code-execution/buddy-sandboxes.md",
         "services/code-execution/clawk.md",
         "services/code-execution/coderunner.md",
         "services/code-execution/cubesandbox.md",
@@ -339,7 +340,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 303
+    "services": 304
   },
   "categories": [
     {
@@ -410,7 +411,7 @@
       "name": "Code Execution",
       "description": "Services that give AI agents a secure, isolated runtime for executing generated code — without human-side sandbox setup, without risking the host environment, and with output formatted for direct LLM consumption.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/README.md",
-      "service_count": 18
+      "service_count": 19
     },
     {
       "id": "observability-and-tracing",
@@ -7601,6 +7602,41 @@
         "cli",
         "sdk",
         "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "code-execution/buddy-sandboxes",
+      "slug": "buddy-sandboxes",
+      "name": "Buddy Sandboxes",
+      "tagline": "Secure, elastic infrastructure for AI-generated code and the apps it becomes - on a real Linux machine, not a throwaway container.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "code-execution",
+      "website": "https://buddy.works/sandboxes",
+      "repository": "https://github.com/buddy/sandbox-sdk",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/buddy-sandboxes.md",
+      "source_path": "services/code-execution/buddy-sandboxes.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": null,
+        "instruction": "# MCP (remote HTTP, OAuth sign-in in the browser):\nclaude mcp add --transport http buddy \"https://mcp.buddy.works/mcp?tools=sandboxes\"\n\n# Coding-time Skill:\nnpx skills add buddy/buddy-plugin  # drives the bdy CLI: bdy login, bdy sandbox create\n\n# SDK (token with SANDBOX_READ and SANDBOX_WRITE scopes):\nnpm install @buddy-works/sandbox-sdk  # then: await Sandbox.create({ identifier: \"my-sandbox\" })\n\n# Inside a running Sandbox (no identifier, no token):\nthis endpoint add -e 5173",
+        "url": "https://mcp.buddy.works/mcp?tools=sandboxes"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "sdk",
+        "stdio",
         "http",
         "api"
       ],
