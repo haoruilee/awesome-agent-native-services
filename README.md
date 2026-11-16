@@ -37,6 +37,7 @@ Each service is either infrastructure an AI agent *consumes directly* or a narro
 - [Excluded / boundary cases](#excluded--boundary-cases)
 - [Classification](#classification)
 - [Contributing](#contributing)
+- [Contributors](#contributors)
 - [License](#license)
 
 ---
@@ -697,6 +698,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full submission guide, criteria c
 - [ ] Entry follows the per-service file format in the relevant category folder
 
 Purpose-built operator surfaces use the alternative track in [Classification](#classification) and must disclose missing autonomy, MCP, identity, and delegation explicitly.
+
+---
+
+## Contributors
+
+Thank you to everyone who has reviewed services, fixed entries, and improved this catalog.
+
+[![Contributors to haoruilee/awesome-agent-native-services](https://contrib.rocks/image?repo=haoruilee/awesome-agent-native-services)](https://github.com/haoruilee/awesome-agent-native-services/graphs/contributors)
 
 ---
 
