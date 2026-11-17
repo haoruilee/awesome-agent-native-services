@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Show HN CUA-S1 2026-09-19 ([item 49767564](https://news.ycombinator.com/item?id=49767564)); mature OSS (~24.6k★) |
-| **Verified at** | 2026-09-20 |
+| **Latest-month signal** | Checked 2026-11-17: latest release cua-spaces-v0.37.2 published 2026-11-17 ([releases](https://github.com/trycua/cua/releases)); last push 2026-11-17; 32456 stars; GitHub SPDX MIT; official site HTTP 200 (Cua Spaces: combine all your computers into one supercomputer); Homepage title "Cua Spaces: combine all your computers into one supercomputer"; [docs](https://cua.ai/docs) HTTP 200.; [repo metadata](https://api.github.com/repos/trycua/cua) |
+| **Verified at** | 2026-11-17 |
 
 ---
 
@@ -19,7 +19,7 @@
 
 https://cua.ai
 
-Live document title: *Cua: Scale computer fleets for computer-use agents*. Homepage H1: *Scale computer fleets for every agent*. GitHub README lead: *"Give AI agents computers they can use."*
+Checked 2026-11-17: the homepage title is **“Cua Spaces: combine all your computers into one supercomputer”** and the page says **“Your computers, shared by your team and its agents.”** [Docs](https://cua.ai/docs) return HTTP 200. The GitHub description is still **“Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.”**
 
 ---
 

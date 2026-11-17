@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | [v0.8.0](https://github.com/jarrodwatts/claude-hud/releases/tag/v0.8.0) released 2026-08-18; last GitHub push 2026-09-26; 28,233 stars; MIT; `.claude-plugin/marketplace.json` still present (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.15.0 published 2026-11-02 ([releases](https://github.com/jarrodwatts/claude-hud/releases)); last push 2026-11-10; 29224 stars; GitHub SPDX MIT; official site HTTP 200 (GitHub - jarrodwatts/claude-hud: A Claude Code plugin that shows what&#39;s happening - context usage, active tools, running agents, and todo progress · GitHub); [repo metadata](https://api.github.com/repos/jarrodwatts/claude-hud) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

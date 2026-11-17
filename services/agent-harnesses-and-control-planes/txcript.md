@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Launch HN 2026-09-17 ([item 49743049](https://news.ycombinator.com/item?id=49743049)); OSS core of Skillsync |
-| **Verified at** | 2026-09-20 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.14.4 published 2026-09-13 ([releases](https://github.com/skillsynchq/txcript/releases)); last push 2026-11-17; 222 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (GitHub - skillsynchq/txcript: Pandoc for AI chats. Move ai chats across harnesses: Claude Code, Codex, OpenCode, Cursor, and more. Rust library, CLI, and WASM. · GitHub); [repo metadata](https://api.github.com/repos/skillsynchq/txcript) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

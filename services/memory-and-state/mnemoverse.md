@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | MCP server MIT, Python SDK MIT; the memory engine they call is a proprietary hosted service with a free tier. No self-hostable build of the engine is published; Enterprise customers can self-host it by agreement |
-| **Latest-month signal** | npm `@mnemoverse/mcp-memory-server` 0.10.2 published 2026-09-20 ([npm](https://www.npmjs.com/package/@mnemoverse/mcp-memory-server)); PyPI `mnemoverse` 0.3.0 ([PyPI](https://pypi.org/project/mnemoverse/)); an unauthenticated POST to https://mcp.mnemoverse.com/mcp answered 401 with OAuth resource metadata on 2026-09-20 |
-| **Verified at** | 2026-09-20 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.18.1 published 2026-11-13 ([releases](https://github.com/mnemoverse/mcp-memory-server/releases)); last push 2026-11-14; 29 stars; GitHub SPDX MIT; official site HTTP 200 (Mnemoverse: Persistent memory API for AI agents); [repo metadata](https://api.github.com/repos/mnemoverse/mcp-memory-server) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

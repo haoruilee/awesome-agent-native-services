@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [LLM Gateway & Routing Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Still no GitHub release; last push remains 2026-07-29; 105 stars; license MIT ([repo metadata](https://api.github.com/repos/codejunkie99/sageroute)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: no GitHub release; last push 2026-07-29; 106 stars; GitHub SPDX MIT; official site HTTP 200 (GitHub - codejunkie99/sageroute: Trajectory-aware model router. An OpenAI-compatible proxy that starts every task on a cheap model, watches what the agent actually does, and escala); Still no GitHub release; last push remains 2026-07-29.; [repo metadata](https://api.github.com/repos/codejunkie99/sageroute) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

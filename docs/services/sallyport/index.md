@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/oversight-and-approval/sallyport.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/sallyport.md"
 tagline: "Let your agent touch prod. Keep the keys"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://sallyport.dev"
 repository: "https://github.com/OlegSotnikov/sallyport"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/OlegSotnikov/sallyport"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">MCP · CLI · STDIO · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -73,11 +73,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/OlegSotnikov/sallyport/releases/tag/v0.8.16
-- https://sallyport.dev
+- https://github.com/OlegSotnikov/sallyport/releases
 - https://api.github.com/repos/OlegSotnikov/sallyport
 
 <nav class="service-page__nav" aria-label="Service placement">

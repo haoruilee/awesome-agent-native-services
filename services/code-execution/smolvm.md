@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Code Execution Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Repository renamed from `CelestoAI/SmolVM` to `CelestoAI/celesto` (old URL redirects); last push 2026-09-25; license still Apache-2.0 ([repo metadata](https://api.github.com/repos/CelestoAI/celesto)); homepage still [docs.celesto.ai/smolvm](https://docs.celesto.ai/smolvm) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.1.14 published 2026-11-15 ([releases](https://github.com/CelestoAI/celesto/releases)); last push 2026-11-16; 1474 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Run Docker in a Celesto sandbox - Celesto AI); [docs.celesto.ai/smolvm](https://docs.celesto.ai/smolvm) redirects to [celesto.ai/docs/celesto/features/docker](https://celesto.ai/docs/celesto/features/docker), titled "Run Docker in a Celesto sandbox".; [repo metadata](https://api.github.com/repos/CelestoAI/celesto) |
+| **Verified at** | 2026-11-17 |
 
 ---
 
@@ -20,7 +20,7 @@
 
 https://docs.celesto.ai/smolvm
 
-Docs H1 (live 2026-09-04): **“SmolVM: secure microVM sandboxes for AI agents”**. Supporting line: “Introduction to SmolVM — an open-source microVM sandbox with sub-second boot, hardware isolation, and persistent state for running AI agents safely.”
+Checked 2026-11-17: `https://docs.celesto.ai/smolvm` redirects to [https://celesto.ai/docs/celesto/features/docker](https://celesto.ai/docs/celesto/features/docker). That page is titled **“Run Docker in a Celesto sandbox”** and discusses Docker versus a microVM. The old SmolVM H1 is no longer the live docs title.
 
 ---
 
@@ -28,7 +28,7 @@ Docs H1 (live 2026-09-04): **“SmolVM: secure microVM sandboxes for AI agents�
 
 https://github.com/CelestoAI/celesto
 
-GitHub renamed this repository from `CelestoAI/SmolVM`; the old URL redirects here (confirmed 2026-09-26). The homepage is still https://docs.celesto.ai/smolvm. Live GitHub description: **“Secure and persistent computer for AI agents -- build your own Grokbot, and Muse.”** The license file is still Apache-2.0. Last push 2026-09-25.
+GitHub renamed this repository from `CelestoAI/SmolVM`; the old URL redirects here (confirmed 2026-09-26). Checked 2026-11-17: the license is still Apache-2.0, the latest release is v0.1.14 (2026-11-15), and the last push is 2026-11-16. The former docs URL now redirects to Celesto’s Docker-in-sandbox page.
 
 ---
 

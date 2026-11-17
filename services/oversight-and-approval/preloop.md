@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Oversight & Approval Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | [v0.16.0](https://github.com/preloop/preloop/releases/tag/v0.16.0) released 2026-09-21; last GitHub push 2026-09-29; Apache-2.0; [preloop.ai](https://preloop.ai), [docs](https://docs.preloop.ai), and the CLI installer HTTP 200 (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v1.0.2 published 2026-11-12 ([releases](https://github.com/preloop/preloop/releases)); last push 2026-11-17; 96 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Preloop: The Open-Source AI Agent Control Plane); [repo metadata](https://api.github.com/repos/preloop/preloop) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

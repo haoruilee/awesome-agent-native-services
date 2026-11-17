@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/llm-gateway-and-routing/sageroute.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/llm-gateway-and-routing/sageroute.md"
 tagline: "A trajectory-aware model router"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://github.com/codejunkie99/sageroute"
 repository: "https://github.com/codejunkie99/sageroute"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/codejunkie99/sageroute"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">CLI · documentation</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -84,7 +84,7 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
 - https://api.github.com/repos/codejunkie99/sageroute

@@ -19,9 +19,9 @@ website: "https://tollex.org"
 <ul class="service-page__chips">
 <li><span class="service-page__chip-label">Collection</span><span class="service-page__chip-value">Commerce &amp; Payments</span></li>
 <li><span class="service-page__chip-label">Classification</span><span class="service-page__chip-value">agent-native</span></li>
-<li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unknown</span></li>
-<li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
-<li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">URL onboarding · Agent Skill · A2A · openapi · json rpc · http · API</span></li>
+<li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
+<li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
+<li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">documentation</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -38,10 +38,9 @@ Tollex sells paid capabilities to software agents: Robinhood Chain reads (blocks
 
 ## Agent-facing interfaces
 
-- **Catalog protocols:** URL onboarding, Agent Skill, A2A, openapi, json rpc, http, API
+- **Catalog protocols:** documentation
 - **MCP:** ⚠️ No hosted MCP endpoint
 - **Agent Skill:** ⚠️ Official skill unavailable — its GitHub repository (ShiftAboveCtrl/tollex) returned 404 on 2026-10-13
-- **Onboarding type:** `url`
 
 ## How agents onboard
 

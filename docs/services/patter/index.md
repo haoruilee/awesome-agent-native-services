@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/voice-and-phone/patter.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/patter.md"
 tagline: "Patter is the open-source SDK that gives your AI agent a phone number"
-verified_at: "2026-09-30"
+verified_at: "2026-11-17"
 website: "https://getpatter.com"
 repository: "https://github.com/PatterAI/Patter"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/PatterAI/Patter"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · http</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-30</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -76,12 +76,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-30**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/PatterAI/skills
-- https://getpatter.com
-- https://docs.getpatter.com
+- https://github.com/PatterAI/Patter/releases
+- https://api.github.com/repos/PatterAI/Patter
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/voice-and-phone/' | relative_url }}"><small>Collection</small><strong>← Voice &amp; Phone</strong></a>

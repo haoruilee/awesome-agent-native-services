@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | MIT (LICENSE file; GitHub SPDX shows `NOASSERTION`) |
-| **Latest-month signal** | Default branch still `feat/server_team`; [v2.0.1](https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.1) released 2026-08-25; last push 2026-09-29; 27,526 stars; LICENSE text still MIT (GitHub SPDX `NOASSERTION`) (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v2.0.3 published 2026-10-26 ([releases](https://github.com/TencentCloud/TencentDB-Agent-Memory/releases)); last push 2026-11-10; 30942 stars; GitHub SPDX NOASSERTION; official site HTTP 200 (GitHub - TencentCloud/TencentDB-Agent-Memory: TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory asse); Default branch is still `feat/server_team`. GitHub SPDX is NOASSERTION.; [repo metadata](https://api.github.com/repos/TencentCloud/TencentDB-Agent-Memory) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

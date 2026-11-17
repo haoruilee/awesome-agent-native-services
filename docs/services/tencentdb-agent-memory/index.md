@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/memory-and-state/tencentdb-agent-memory.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/tencentdb-agent-memory.md"
 tagline: "Agents remember,Humans innovate"
-verified_at: "2026-09-30"
+verified_at: "2026-11-17"
 website: "https://github.com/TencentCloud/TencentDB-Agent-Memory"
 repository: "https://github.com/TencentCloud/TencentDB-Agent-Memory"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/TencentCloud/TencentDB-Agent-Memory"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">http</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-30</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -73,10 +73,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-30**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.1
+- https://github.com/TencentCloud/TencentDB-Agent-Memory/releases
+- https://api.github.com/repos/TencentCloud/TencentDB-Agent-Memory
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/memory-and-state/' | relative_url }}"><small>Collection</small><strong>← Memory &amp; State</strong></a>

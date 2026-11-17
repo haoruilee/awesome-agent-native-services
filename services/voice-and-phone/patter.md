@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Voice & Phone Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | v0.7.0 (2026-06-30) is still the latest release (npm and PyPI `getpatter` 0.7.0); last GitHub push 2026-08-25; 1,062 stars; MIT; [`PatterAI/skills`](https://github.com/PatterAI/skills) present; [getpatter.com](https://getpatter.com) and [docs](https://docs.getpatter.com) HTTP 200 (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.7.0 published 2026-06-30 ([releases](https://github.com/PatterAI/Patter/releases)); last push 2026-11-04; 1084 stars; GitHub SPDX MIT; official site HTTP 200 (Patter — Give your AI agent a phone number); [repo metadata](https://api.github.com/repos/PatterAI/Patter) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

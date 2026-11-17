@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/oversight-and-approval/preloop.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/oversight-and-approval/preloop.md"
 tagline: "The Open Source Control Plane for AI Agents"
-verified_at: "2026-09-30"
+verified_at: "2026-11-17"
 website: "https://preloop.ai"
 repository: "https://github.com/preloop/preloop"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/preloop/preloop"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">MCP · REST · CLI · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-30</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -76,12 +76,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-30**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/preloop/preloop/releases/tag/v0.16.0
-- https://preloop.ai
-- https://docs.preloop.ai
+- https://github.com/preloop/preloop/releases
+- https://api.github.com/repos/preloop/preloop
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/oversight-and-approval/' | relative_url }}"><small>Collection</small><strong>← Oversight &amp; Approval</strong></a>

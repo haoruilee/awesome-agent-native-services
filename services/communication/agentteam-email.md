@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Communication Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Last GitHub push still 2026-08-01; npm `@agentteamhq/email` 0.0.1-beta.1; MIT; `skills/at-email-cli` present. Docs now served at [agentteamemail.mintlify.app](https://agentteamemail.mintlify.app/) (linked from the homepage); the old `agentteamemail.mintlify.app` host no longer resolves (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: no GitHub release; last push 2026-08-01; 58 stars; GitHub SPDX MIT; official site HTTP 200 (AT Email - Agent Email on Your Domain); Homepage title "AT Email - Agent Email on Your Domain".; [repo metadata](https://api.github.com/repos/agentteamhq/agentteam-email) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

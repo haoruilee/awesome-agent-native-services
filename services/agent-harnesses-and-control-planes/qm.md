@@ -11,14 +11,16 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | MIT, except where noted upstream |
-| **Latest-month signal** | [v0.1.12](https://github.com/yc-software/qm/releases/tag/v0.1.12) released 2026-09-19; 15,253 stars; root `LICENSE` is MIT; [qm.ycombinator.com](https://qm.ycombinator.com) returned HTTP 200 on 2026-09-26 ([repo metadata](https://api.github.com/repos/yc-software/qm)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.1.18 published 2026-11-11 ([releases](https://github.com/yc-software/qm/releases)); last push 2026-11-17; 15715 stars; GitHub SPDX MIT; official site HTTP 200 (Sign in · QM); [qm.ycombinator.com](https://qm.ycombinator.com) redirects to a sign-in page; GitHub docs remain public.; [repo metadata](https://api.github.com/repos/yc-software/qm) |
+| **Verified at** | 2026-11-17 |
 
 ---
 
 ## Official Website
 
 https://qm.ycombinator.com
+
+Checked 2026-11-17: the public URL redirects to a sign-in page. The repository and its docs remain public.
 
 ---
 

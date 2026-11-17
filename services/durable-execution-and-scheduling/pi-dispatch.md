@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Durable Execution & Scheduling Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Product release [v1.10.3](https://github.com/edgehero/pi-dispatch/releases/tag/v1.10.3) published 2026-09-07; 178 stars; license MIT; last push 2026-09-25 ([repo metadata](https://api.github.com/repos/edgehero/pi-dispatch)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v5.3.3 published 2026-11-16 ([releases](https://github.com/edgehero/pi-dispatch/releases)); last push 2026-11-16; 197 stars; GitHub SPDX MIT; official site HTTP 200 (GitHub - edgehero/pi-dispatch: Go from sitting next to one AI coding agent to running many in the background. Dark engineering with the pi coding agent: self-hosted, each job in a ); [repo metadata](https://api.github.com/repos/edgehero/pi-dispatch) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Meeting & Conversation Services](README.md) |
 | **License** | MIT (skill package) |
-| **Latest-month signal** | Last GitHub push 2026-09-15; latest release v1.1.15 (2026-07-01); MIT; `SKILL.md`, `.claude-plugin/`, and `gemini-extension.json` still present; [agentcall.dev](https://agentcall.dev) HTTP 200 (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v1.1.25 published 2026-11-12 ([releases](https://github.com/pattern-ai-labs/agentcall/releases)); last push 2026-11-15; 201 stars; GitHub SPDX MIT; official site HTTP 200 (AgentCall — Turn AI agents into teammates who join your meetings); [repo metadata](https://api.github.com/repos/pattern-ai-labs/agentcall) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

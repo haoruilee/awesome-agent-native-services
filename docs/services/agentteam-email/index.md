@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/communication/agentteam-email.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/agentteam-email.md"
 tagline: "Open-source email infrastructure for AI agents"
-verified_at: "2026-09-30"
+verified_at: "2026-11-17"
 website: "https://www.agentteam.email"
 repository: "https://github.com/agentteamhq/agentteam-email"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/agentteamhq/agentteam-email"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · CLI · http</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-30</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -77,10 +77,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-30**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://agentteamemail.mintlify.app/
+- https://api.github.com/repos/agentteamhq/agentteam-email
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/communication/' | relative_url }}"><small>Collection</small><strong>← Communication</strong></a>

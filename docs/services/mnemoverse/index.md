@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/memory-and-state/mnemoverse.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/mnemoverse.md"
 tagline: "Persistent memory for AI agents"
-verified_at: "2026-09-20"
+verified_at: "2026-11-17"
 website: "https://mnemoverse.com/"
 repository: "https://github.com/mnemoverse/mcp-memory-server"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/mnemoverse/mcp-memory-server"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · MCP · REST · CLI · SDK · STDIO · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-20</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -84,12 +84,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-20**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://www.npmjs.com/package/@mnemoverse/mcp-memory-server
-- https://pypi.org/project/mnemoverse/
-- https://mcp.mnemoverse.com/mcp
+- https://github.com/mnemoverse/mcp-memory-server/releases
+- https://api.github.com/repos/mnemoverse/mcp-memory-server
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/memory-and-state/' | relative_url }}"><small>Collection</small><strong>← Memory &amp; State</strong></a>

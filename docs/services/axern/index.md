@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/code-execution/axern.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/axern.md"
 tagline: "Axern is an open-source sandbox platform for AI agents"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://axern.cofy-x.space"
 repository: "https://github.com/cofy-x/axern"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/cofy-x/axern"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">GRPC · CLI · SDK · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -82,11 +82,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/cofy-x/axern/releases/tag/v0.11.4
-- https://axern.cofy-x.space
+- https://github.com/cofy-x/axern/releases
 - https://api.github.com/repos/cofy-x/axern
 
 <nav class="service-page__nav" aria-label="Service placement">

@@ -10,8 +10,8 @@
 | **Stars** | [2,000 stars (snapshot: 2026-09-26)](https://github.com/0xsline/OpenChatCut) |
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration Services](README.md) |
-| **Latest-month signal** | [v0.2.14](https://github.com/0xsline/OpenChatCut/releases/tag/v0.2.14) released 2026-09-04; 2,000 stars; root `LICENSE` is AGPL-3.0; [openchatcut.com](https://openchatcut.com) returned HTTP 200 on 2026-09-26 ([repo metadata](https://api.github.com/repos/0xsline/OpenChatCut)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.2.17 published 2026-10-15 ([releases](https://github.com/0xsline/OpenChatCut/releases)); last push 2026-11-12; 3152 stars; GitHub SPDX AGPL-3.0; official site HTTP 200 (OpenChatCut / Open-Source ChatCut Alternative & Pro); [repo metadata](https://api.github.com/repos/0xsline/OpenChatCut) |
+| **Verified at** | 2026-11-17 |
 | **Status** | Early, actively evolving local-first project; AGPL-3.0-or-later |
 
 ---

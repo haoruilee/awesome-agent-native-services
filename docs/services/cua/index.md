@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/agent-runtime-and-infrastructure/cua.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/cua.md"
 tagline: "Scale computer fleets for every agent"
-verified_at: "2026-09-20"
+verified_at: "2026-11-17"
 website: "https://cua.ai"
 repository: "https://github.com/trycua/cua"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/trycua/cua"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · MCP · CLI · SDK · http</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-20</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -85,10 +85,12 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-20**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://news.ycombinator.com/item?id=49767564
+- https://github.com/trycua/cua/releases
+- https://cua.ai/docs
+- https://api.github.com/repos/trycua/cua
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/agent-runtime-and-infrastructure/' | relative_url }}"><small>Collection</small><strong>← Agent Runtime &amp; Infrastructure</strong></a>

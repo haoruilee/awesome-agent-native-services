@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/agent-harnesses-and-control-planes/loopx.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/loopx.md"
 tagline: "The open, provider-neutral, stateful control plane for long-horizon agents"
-verified_at: "2026-09-30"
+verified_at: "2026-11-17"
 website: "https://loopx-project.github.io/loopx/"
 repository: "https://github.com/loopx-project/loopx"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/loopx-project/loopx"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · MCP · CLI</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-30</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -77,12 +77,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-30**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/loopx-project/loopx/releases/tag/v1.2.3
-- https://loopx-project.github.io/loopx/
-- https://loopx-project.github.io/loopx/docs/
+- https://github.com/loopx-project/loopx/releases
+- https://api.github.com/repos/loopx-project/loopx
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/agent-harnesses-and-control-planes/' | relative_url }}"><small>Collection</small><strong>← Agent Harnesses &amp; Operator Surfaces</strong></a>

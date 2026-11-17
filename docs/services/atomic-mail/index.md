@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/communication/atomic-mail.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/atomic-mail.md"
 tagline: "Not AI for your email. Email for your AI"
-verified_at: "2026-09-30"
+verified_at: "2026-11-17"
 website: "https://atomicmail.ai/"
 repository: "https://github.com/Atomic-Mail/atomic-mail-agentic"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/Atomic-Mail/atomic-mail-agentic"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">URL onboarding · Agent Skill · MCP · REST · CLI · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-30</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -74,11 +74,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-30**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/Atomic-Mail/atomic-mail-agentic/releases/tag/v0.3.31
-- https://atomicmail.ai/
+- https://github.com/Atomic-Mail/atomic-mail-agentic/releases
+- https://api.github.com/repos/Atomic-Mail/atomic-mail-agentic
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/communication/' | relative_url }}"><small>Collection</small><strong>← Communication</strong></a>

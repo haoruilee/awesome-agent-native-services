@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/agent-runtime-and-infrastructure/google-ax.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/google-ax.md"
 tagline: "An open source distributed agent runtime"
-verified_at: "2026-09-30"
+verified_at: "2026-11-17"
 website: "https://agentexecutor.io"
 repository: "https://github.com/google/ax"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/google/ax"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unknown</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unknown</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">GRPC · CLI</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-30</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -80,11 +80,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-30**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/google/ax/releases/tag/v0.3.1
-- https://agentexecutor.io
+- https://github.com/google/ax/releases
+- https://api.github.com/repos/google/ax
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/agent-runtime-and-infrastructure/' | relative_url }}"><small>Collection</small><strong>← Agent Runtime &amp; Infrastructure</strong></a>

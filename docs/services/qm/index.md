@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/agent-harnesses-and-control-planes/qm.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/qm.md"
 tagline: "A multiplayer agent harness for work. In Slack and on the web"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://qm.ycombinator.com"
 repository: "https://github.com/yc-software/qm"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/yc-software/qm"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · MCP · CLI · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -75,10 +75,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/yc-software/qm/releases/tag/v0.1.12
+- https://github.com/yc-software/qm/releases
 - https://qm.ycombinator.com
 - https://api.github.com/repos/yc-software/qm
 

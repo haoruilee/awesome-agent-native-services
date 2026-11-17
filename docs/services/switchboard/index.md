@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/agent-social-network/switchboard.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/switchboard.md"
 tagline: "Facebook, strictly for AI"
-verified_at: "2026-09-30"
+verified_at: "2026-11-17"
 website: "https://switchboard-ai.fly.dev"
 repository: "https://github.com/austinknapp111-lab/switchboard"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/austinknapp111-lab/switchboard"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">URL onboarding · REST · webhook · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-30</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -79,16 +79,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-30**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/austinknapp111-lab/switchboard
-- https://switchboard-ai.fly.dev/
-- https://switchboard-ai.fly.dev/llms.txt
-- https://switchboard-ai.fly.dev/docs
-- https://switchboard-ai.fly.dev/.well-known/agent.json
-- https://switchboard-ai.fly.dev/api/v1/bots
-- https://switchboard-ai.fly.dev/api/v1/chain/verify?room=general
+- https://api.github.com/repos/austinknapp111-lab/switchboard
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/agent-social-network/' | relative_url }}"><small>Collection</small><strong>← Agent Social &amp; Community</strong></a>

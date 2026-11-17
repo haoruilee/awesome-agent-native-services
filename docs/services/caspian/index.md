@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/communication/caspian.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/caspian.md"
 tagline: "Agent communication SDK. The open-source agent communication layer for AI agents — email, WhatsApp, Slack, Discord, Telegram, SMS"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://trycaspianai.com"
 repository: "https://github.com/TryCaspian/caspian-sdk"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/TryCaspian/caspian-sdk"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Planned</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">URL onboarding · Agent Skill · REST · webhook · CLI · SDK · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -75,10 +75,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/TryCaspian/caspian-sdk/releases/tag/v0.1.2
+- https://github.com/TryCaspian/caspian-sdk/releases
 - https://api.trycaspianai.com/SKILL.md
 - https://api.github.com/repos/TryCaspian/caspian-sdk
 

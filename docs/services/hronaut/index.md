@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/browser-and-web-execution/hronaut.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/hronaut.md"
 tagline: "A browser your AI agent can come back to"
-verified_at: "2026-09-30"
+verified_at: "2026-11-17"
 website: "https://hronaut.dev/"
 repository: "https://github.com/hronaut/hronaut"
 ---
@@ -24,7 +24,7 @@ repository: "https://github.com/hronaut/hronaut"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · MCP · http</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-30</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -63,13 +63,11 @@ The trial starts with the first agent tool call and lasts 10 consecutive days, w
 
 ## Verification
 
-Last verified **2026-09-30**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/hronaut/hronaut/releases/tag/v2.8.6
-- https://hronaut.dev/
-- https://hronaut.dev/setup
-- https://hronaut.dev/client-topology
+- https://github.com/hronaut/hronaut/releases
+- https://api.github.com/repos/hronaut/hronaut
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/browser-and-web-execution/' | relative_url }}"><small>Collection</small><strong>← Browser &amp; Web Execution</strong></a>

@@ -7,8 +7,8 @@
 | **Website** | https://memmy.bot/ |
 | **Docs** | https://memmy.bot/docs/ |
 | **GitHub** | https://github.com/MemTensor/memmy-agent |
-| **Latest-month signal** | [v1.1.8](https://github.com/MemTensor/memmy-agent/releases/tag/v1.1.8) released 2026-09-23; 1,982 stars; license MIT; [memmy.bot](https://memmy.bot/) returned HTTP 200 on 2026-09-26 ([repo metadata](https://api.github.com/repos/MemTensor/memmy-agent)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v1.2.6 published 2026-11-11 ([releases](https://github.com/MemTensor/memmy-agent/releases)); last push 2026-11-16; 2218 stars; GitHub SPDX MIT; official site HTTP 200 (Memmy); [repo metadata](https://api.github.com/repos/MemTensor/memmy-agent) |
+| **Verified at** | 2026-11-17 |
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | MIT |
