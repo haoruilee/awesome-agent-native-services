@@ -17,7 +17,7 @@
 
 https://tollex.org
 
-Checked 2026-11-17: `https://tollex.org`, `/llms.txt`, `/developers/`, and `/docs/` return HTTP 503 with a page titled **“TOLLEX — Maintenance”**. DNS still resolves through Cloudflare (`172.67.203.43`). `https://api.tollex.org/openapi.json` returns HTTP 502. This is a maintenance response, not an NXDOMAIN or a removed domain, so the listing stays. It is not confirmed discontinued. The same three site URLs failed the 2026-11-16 catalog-freshness run for the same 503.
+Checked 2026-11-17: `https://tollex.org`, `/llms.txt`, `/developers/`, and `/docs/` return HTTP 503 with a page titled **“TOLLEX — Maintenance”**. DNS still resolves through Cloudflare (`172.67.203.43`). `https://api.tollex.org/openapi.json` returns HTTP 502. This is a maintenance outage, not an NXDOMAIN or a removed domain and not evidence that the service has been withdrawn, and the listing stays. The same three site URLs failed the 2026-11-16 catalog-freshness run for the same 503.
 
 ---
 
