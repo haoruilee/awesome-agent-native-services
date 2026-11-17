@@ -8,7 +8,7 @@ image: "/assets/images/editorial-communication.webp"
 permalink: /categories/communication/
 page_kind: collection
 collection_number: "01"
-service_count: 17
+service_count: 18
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/README.md">Collection notes ↗</a></p>
@@ -220,7 +220,21 @@ The longer comparison is [How to choose an email API for AI agents](/guides/choo
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--15">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--15">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://npubmail.com" rel="noopener noreferrer">nPubMail</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/npubmail/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Email for AI agents. The key is the account.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/npubmail/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/npubmail.md">Dossier ↗</a>
+      <a href="https://github.com/obvioussummer46/npubmail">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--service atlas-visual--16">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -234,7 +248,7 @@ The longer comparison is [How to choose an email API for AI agents](/guides/choo
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--16">
+  <article class="service-card atlas-sheet--arrival atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -247,7 +261,7 @@ The longer comparison is [How to choose an email API for AI agents](/guides/choo
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--01">
+  <article class="service-card atlas-sheet--arrival atlas-visual--02">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>

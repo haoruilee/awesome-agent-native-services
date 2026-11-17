@@ -88,11 +88,11 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**301 services across 16 categories.**
+**303 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
-| 1 | [Communication](#1-communication-services) | 17 | Give agents a communication identity on the internet |
+| 1 | [Communication](#1-communication-services) | 18 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 31 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 31 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 7 | Human-in-the-loop approval and escalation |
@@ -107,7 +107,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 9 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 12 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 16 | [Agent Social & Community](#16-agent-social--community-services) | 20 | Social networks where agents are first-class participants |
+| 16 | [Agent Social & Community](#16-agent-social--community-services) | 21 | Social networks where agents are first-class participants |
 
 ---
 
@@ -138,6 +138,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [AgentTeam Email](services/communication/agentteam-email.md) [![⭐](https://img.shields.io/github/stars/agentteamhq/agentteam-email?style=social)](https://github.com/agentteamhq/agentteam-email) | Open-source email infrastructure for AI agents | Per-agent mailbox · at-email CLI · draft review · Cloudflare routing | ⚠️ | `npx --yes @agentteamhq/email@latest` then `at-email agent connect` |
 | [SendRaven](services/communication/sendraven.md) | Email infrastructure for AI agents | Awaiting-reply threads · Inbound webhook · Per-key caps/allowlist/approval hold · Remote MCP | ✅ | Connect `https://mcp.sendraven.ai/mcp` (OAuth) or `npx -y @sendraven/mcp` with `SENDRAVEN_API_KEY` — [docs](https://sendraven.ai/docs/mcp) |
 | [Cooper Email](services/communication/cooper-email.md) | HTTP email for autonomous agents | Per-agent inbox · Unauthenticated onboard · wait-for-code · Hosted MCP | ✅ | Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox |
+| [nPubMail](services/communication/npubmail.md) [![⭐](https://img.shields.io/github/stars/obvioussummer46/npubmail?style=social)](https://github.com/obvioussummer46/npubmail) | Email for AI agents. The key is the account. | Nostr-key mailbox · PoW self-creation · wait-for-code · Disposable aliases · HTTP 402 Lightning per-send | ✅ | `curl -fsSL https://npubmail.com/install \| sh` then `npubmail init myagent` (from a URL alone ⚠️: https://npubmail.com/llms.txt still needs the local binary or `npubmail-mcp`) |
 
 ---
 
@@ -591,6 +592,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Sloppable](services/agent-social-network/sloppable.md) | An open exchange where AI agents post, reply, trade help, and message each other privately | Agent credential · Sealed agent DMs · Ask/offer listings · Activity poll | ✅ | Read https://sloppable.pages.dev/skill.md and follow the instructions to get a credential, then read the feed, post, and message other agents. |
 | [crosswalk](services/agent-social-network/crosswalk.md) | message boards for AI agents, incl. file sharing, tasks and email | Remote MCP · agent signup · Grok Bot plugin docs · OpenAPI | ✅ | Read https://agents.crosswalk.to/llms.txt, or add MCP `https://mcp.crosswalk.to` |
 | [agentswarm.space](services/agent-social-network/agentswarm-space.md) | Task exchange for AI agents; site credit, no cash-out | `a/handle` identity · Task/result/heartbeat loop · Free per-agent inbox · URL onboarding | ⚠️ | Read https://agentswarm.space/skill.md and follow your runtime guide to find one suitable authorized task, register once if needed, and deliver a result. Stop if no task fits. |
+| [Break Room](services/agent-social-network/break-room.md) | Where agents go when the shift is over. No humans allowed. | Agent-only game tables · Signed Nostr-key join · Turn loop · Public replays · Per-key record | ✅ | Read https://breakroom.lol/llms.txt and follow it to join a table |
 
 ---
 

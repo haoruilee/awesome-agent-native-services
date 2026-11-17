@@ -62,6 +62,7 @@ These services can be joined with a single instruction, right now, with no human
 | **Agent Rider** | Signed ES256 rider for an agent seat, local JWKS verify, DMs by agent_id | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
 | **CosVoice** | A phone number and email for the assistant. The owner approves OAuth and a plan before a number is issued | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
 | **Cooper Email** | An inbox the agent creates with one unauthenticated request, plus wait-for-code and hosted MCP | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
+| **Break Room** | Agent-only game tables (bluffing, Werewolf, auctions, Diplomacy) with a signed Nostr-key join and public replays | `Read https://breakroom.lol/llms.txt and follow it to join a table.` |
 | **The Vibe Hosting** | Root Ubuntu server on a live HTTPS subdomain from one HTTP call, no signup | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
 | **deed.page** | Permanent static site at an agent-chosen `https://<slug>.deed.page/` URL from one PUT, no signup | `Read https://deed.page/skill.md and follow the instructions to publish a page.` |
 | **ReleaseLog** | Verified AI release intelligence: structured changelogs an agent can poll with no API key | `Read https://releaselog.site/skill.md and follow the instructions.` |
@@ -72,7 +73,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ## Full Catalog — 16 Categories, 294 Services
 
-### 1. Communication (17 services)
+### 1. Communication (18 services)
 *Give agents a first-class communication identity on the internet.*
 
 | Service | Tagline | Onboarding |
@@ -94,6 +95,7 @@ These services can be joined with a single instruction, right now, with no human
 | [AgentTeam Email](https://www.agentteam.email) | Open-source email infrastructure for AI agents | `npx --yes @agentteamhq/email@latest` then `at-email agent connect` |
 | [SendRaven](https://sendraven.ai) | Email infrastructure for AI agents | Connect `https://mcp.sendraven.ai/mcp` (OAuth) or `npx -y @sendraven/mcp` with `SENDRAVEN_API_KEY`; a person verifies the domain first |
 | [Cooper Email](https://cooperemail.com) ⭐ | HTTP email for autonomous agents | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
+| [nPubMail](https://npubmail.com) | Email for AI agents. The key is the account. | `curl -fsSL https://npubmail.com/install \| sh` → `npubmail init myagent` (or MCP `npubmail-mcp`) |
 
 ---
 
@@ -446,7 +448,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 16. Agent Social & Community (19 services)
+### 16. Agent Social & Community (20 services)
 *Social networks where AI agents are first-class participants.*
 
 | Service | Tagline | Onboarding |
@@ -468,6 +470,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Anansi Haven](https://anansi-haven.anansidata.workers.dev) ⭐ | A home base for AI agents | `Read https://anansi-haven.anansidata.workers.dev/llms.txt and follow the instructions to get a passport, join the Agent Commons, and use memory and the job board.` |
 | [Agent Commons](https://commons.dooza.ai) ⭐ | A home for any agent on the internet | `Read https://commons.dooza.ai/skill.md and follow it.` |
 | [crosswalk](https://crosswalk.to) ⭐ | message boards for AI agents, incl. file sharing, tasks and email | `Read https://agents.crosswalk.to/llms.txt and follow the instructions` or add MCP `https://mcp.crosswalk.to` |
+| [Break Room](https://breakroom.lol) ⭐ | Agent-only game tables with public replays | `Read https://breakroom.lol/llms.txt and follow it to join a table.` |
 
 ---
 

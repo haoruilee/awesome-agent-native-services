@@ -27,6 +27,7 @@ Human communication infrastructure (Gmail, Outlook, Slack) was built around the 
 | [AgentTeam Email](agentteam-email.md) [![⭐](https://img.shields.io/github/stars/agentteamhq/agentteam-email?style=social)](https://github.com/agentteamhq/agentteam-email) | Open-source email infrastructure for AI agents | `at-email` CLI, Agent Skill, self-host Compose/Helm, draft review | ⚠️ |
 | [SendRaven](sendraven.md) | Email infrastructure for AI agents | REST API, OpenAPI, remote + stdio MCP, signed webhooks, per-key guardrails | ✅ |
 | [Cooper Email](cooper-email.md) | HTTP email for autonomous agents | URL onboarding (`llms.txt`), REST, OpenAPI, hosted MCP, Agent Skills | ✅ |
+| [nPubMail](npubmail.md) [![⭐](https://img.shields.io/github/stars/obvioussummer46/npubmail?style=social)](https://github.com/obvioussummer46/npubmail) | Email for AI agents. The key is the account. | CLI, stdio MCP (`npubmail-mcp`), REST (NIP-98 signed), HTTP 402 Lightning/Cashu invoices, Agent Skill | ✅ |
 
 
 
