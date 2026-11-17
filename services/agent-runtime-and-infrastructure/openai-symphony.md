@@ -11,7 +11,7 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Checked 2026-11-17: latest release v0.0.3 published 2026-09-15 ([releases](https://github.com/openai/symphony/releases)); last push 2026-09-15; 28066 stars; GitHub SPDX Apache-2.0; official site HTTP 403 (<html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:cente); The OpenAI blog URL returned HTTP 403 (JavaScript challenge) to this client; [SPEC.md](https://github.com/openai/symphony/blob/main/SPEC.md) HTTP 200.; [repo metadata](https://api.github.com/repos/openai/symphony) |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.0.3 published 2026-09-15 ([releases](https://github.com/openai/symphony/releases)); last push 2026-09-15; 28066 stars; GitHub SPDX Apache-2.0; official site HTTP 403 (JavaScript challenge); The OpenAI blog URL returned HTTP 403 (JavaScript challenge) to this client; [SPEC.md](https://github.com/openai/symphony/blob/main/SPEC.md) HTTP 200.; [repo metadata](https://api.github.com/repos/openai/symphony) |
 | **Verified at** | 2026-11-17 |
 
 ---
