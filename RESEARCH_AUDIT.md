@@ -38,7 +38,9 @@ The other 34 of the 42 were still at the same official site and repository, with
 2026-11-16 freshness run and again on 2026-11-17. The body is a page titled
 “TOLLEX — Maintenance.” DNS still resolves to Cloudflare. `api.tollex.org`
 returned HTTP 502. That is an outage or a maintenance hold, not proof the
-service was discontinued, so the dossier stays. The external canonical check
+service has ended, so the dossier stays. The machine catalog keeps the
+previously documented URL onboarding and protocol fields. Those calls were
+not re-verified while the host returned HTTP 503. The external canonical check
 still treats HTTP 503 as a failure, so that job stays red until those URLs
 answer again.
 

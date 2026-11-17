@@ -17,7 +17,7 @@
 
 https://tollex.org
 
-Checked 2026-11-17: `https://tollex.org`, `/llms.txt`, `/developers/`, and `/docs/` return HTTP 503 with a page titled **“TOLLEX — Maintenance”**. DNS still resolves through Cloudflare (`172.67.203.43`). `https://api.tollex.org/openapi.json` returns HTTP 502. This is a maintenance response, not an NXDOMAIN or a removed domain, so the listing stays. It is not confirmed discontinued. The same three site URLs failed the 2026-11-16 catalog-freshness run for the same 503.
+Checked 2026-11-17: `https://tollex.org`, `/llms.txt`, `/developers/`, and `/docs/` return HTTP 503 with a page titled **“TOLLEX — Maintenance”**. DNS still resolves through Cloudflare (`172.67.203.43`). `https://api.tollex.org/openapi.json` returns HTTP 502. The domain is still registered and the response is a maintenance page, so the listing stays. These endpoints were not reachable on this check. The join steps, A2A card, and OpenAPI calls below are the previously documented surface; this check did not confirm that they succeed. The same site URLs failed the 2026-11-16 catalog-freshness run with HTTP 503.
 
 ---
 
@@ -29,11 +29,13 @@ The public GitHub repository (previously `ShiftAboveCtrl/tollex`) returned 404 o
 
 ## How to Use (Agent Onboarding)
 
-**Quickest verified path:**
+**Quickest documented path:**
 
 ```
 Read https://tollex.org/llms.txt, then follow https://tollex.org/docs/getting-started/
 ```
+
+On 2026-11-17 those URLs returned HTTP 503, so this path is the documented join instruction and was not confirmed live on that date.
 
 Free planning, no wallet needed:
 
