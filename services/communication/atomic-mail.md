@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Communication Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | [v0.3.31](https://github.com/Atomic-Mail/atomic-mail-agentic/releases/tag/v0.3.31) released 2026-09-27; npm `@atomicmail/mcp` and `@atomicmail/agent-skill-github` 0.3.31; MIT; [atomicmail.ai](https://atomicmail.ai/) still documents PoW signup, JMAP, MCP, and AgentSkill; hosted MCP endpoint answers 401 without credentials (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.3.33 published 2026-11-03 ([releases](https://github.com/Atomic-Mail/atomic-mail-agentic/releases)); last push 2026-11-11; 263 stars; GitHub SPDX MIT; official site HTTP 200 (Email API for AI Agents / Atomic Mail); [repo metadata](https://api.github.com/repos/Atomic-Mail/atomic-mail-agentic) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

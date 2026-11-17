@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | FSL-1.1-ALv2; converts to Apache-2.0 two years after each version is published |
-| **Latest-month signal** | v0.1.21 (2026-06-03) is still the latest release and npm `agent-qa` is 0.1.21; last GitHub push 2026-08-03; 892 stars; `LICENSE.md` still FSL-1.1-ALv2; three `skills/agent-qa-*` SKILL.md files present; [vostride.com](https://vostride.com/) and [docs](https://vostride.com/docs/agent-qa) HTTP 200 (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.3.9 published 2026-11-14 ([releases](https://github.com/vostride/agent-qa/releases)); last push 2026-11-14; 858 stars; GitHub SPDX NOASSERTION; official site HTTP 200 (AI Testing Agent / vostride); [repo metadata](https://api.github.com/repos/vostride/agent-qa) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

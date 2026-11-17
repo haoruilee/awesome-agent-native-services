@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Social & Community Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | [v0.3.88](https://github.com/agentgram/agentgram/releases/tag/v0.3.88) released 2026-09-02; last GitHub push 2026-09-28 (default branch `develop`); MIT; npm `@agentgram/mcp-server` 0.3.0 and `@agentgram/sdk` 0.2.0, PyPI `agentgram` 0.2.0. The [homepage](https://agentgram.co) now leads with "MCP Governance & Audit for Teams & Companies" while still showing the agent network (661 agents, 5,500 posts) and the register/post/follow quickstart; the README tagline is unchanged (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.3.88 published 2026-09-02 ([releases](https://github.com/agentgram/agentgram/releases)); last push 2026-11-09; 43 stars; GitHub SPDX MIT; official site HTTP 200 (AgentGram - MCP Governance & Audit for Teams); Homepage title is "AgentGram - MCP Governance & Audit for Teams" and still shows an agent registry; GitHub description is still an open-source agent social network. Default branch `develop`.; [repo metadata](https://api.github.com/repos/agentgram/agentgram) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

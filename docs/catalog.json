@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-15",
-  "generated_at": "2026-11-15",
+  "catalog_version": "2026-11-17",
+  "generated_at": "2026-11-17",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "43440c96eef70ff41bfce5056e97d3c44ec097a6efe162ee167055e66f388180",
+      "value": "3b066d85bce4b772cf2b146c8438b00b871465cc1821d026d2f77947419502fc",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -575,10 +575,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push still 2026-08-01; npm @agentteamhq/email 0.0.1-beta.1; MIT; skills/at-email-cli present. Docs now served at agentteamemail.mintlify.app (linked from the homepage); the old agentteamemail.mintlify.app host no longer resolves (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: no GitHub release; last push 2026-08-01; 58 stars; GitHub SPDX MIT; official site HTTP 200 (AT Email - Agent Email on Your Domain); Homepage title \"AT Email - Agent Email on Your Domain\".; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://agentteamemail.mintlify.app/"
+        "https://api.github.com/repos/agentteamhq/agentteam-email"
       ]
     },
     {
@@ -611,11 +611,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "v0.3.31 released 2026-09-27; npm @atomicmail/mcp and @atomicmail/agent-skill-github 0.3.31; MIT; atomicmail.ai still documents PoW signup, JMAP, MCP, and AgentSkill; hosted MCP endpoint answers 401 without credentials (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.3.33 published 2026-11-03 (releases); last push 2026-11-11; 263 stars; GitHub SPDX MIT; official site HTTP 200 (Email API for AI Agents / Atomic Mail); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/Atomic-Mail/atomic-mail-agentic/releases/tag/v0.3.31",
-        "https://atomicmail.ai/"
+        "https://github.com/Atomic-Mail/atomic-mail-agentic/releases",
+        "https://api.github.com/repos/Atomic-Mail/atomic-mail-agentic"
       ]
     },
     {
@@ -679,10 +679,10 @@
       ],
       "mcp_status": "planned",
       "agent_skill_status": "available",
-      "latest_month_signal": "Latest release is still v0.1.2; 973 stars; last push 2026-08-25; root LICENSE is still AGPL-3.0 while the README license section still says Apache-2.0; SKILL.md returned HTTP 200 on 2026-09-26 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.1.2 published 2026-07-21 (releases); last push 2026-08-25; 972 stars; GitHub SPDX AGPL-3.0; official site HTTP 200 (The Constructor); Homepage title is still \"The Constructor\"; SKILL.md HTTP 200 and still opens with the channel SDK.; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/TryCaspian/caspian-sdk/releases/tag/v0.1.2",
+        "https://github.com/TryCaspian/caspian-sdk/releases",
         "https://api.trycaspianai.com/SKILL.md",
         "https://api.github.com/repos/TryCaspian/caspian-sdk"
       ]
@@ -1552,13 +1552,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "v2.8.6 released 2026-09-30; last GitHub push 2026-09-30; repository created 2026-08-23; proprietary subscription/trial LICENSE (GitHub SPDX NOASSERTION); hronaut.dev, setup and client-topology HTTP 200; skills/hronaut/SKILL.md present (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v3.14.33 published 2026-11-15 (releases); last push 2026-11-16; 6 stars; GitHub SPDX NOASSERTION; official site HTTP 200 (Hronaut — Give Your Coding Agent Its Own Browser); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/hronaut/hronaut/releases/tag/v2.8.6",
-        "https://hronaut.dev/",
-        "https://hronaut.dev/setup",
-        "https://hronaut.dev/client-topology"
+        "https://github.com/hronaut/hronaut/releases",
+        "https://api.github.com/repos/hronaut/hronaut"
       ]
     },
     {
@@ -1655,11 +1653,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "kernel/kernel-images last push 2026-09-29; kernel/cli v0.41.0 released 2026-09-24 (npm @onkernel/cli 0.41.0); both Apache-2.0; hosted MCP server documented at kernel.sh/docs/reference/mcp-server (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: no GitHub release; last push 2026-11-16; 1139 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (KERNEL: browser infrastructure for web agents and automations); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/kernel/cli/releases/tag/v0.41.0",
-        "https://www.kernel.sh/docs/reference/mcp-server"
+        "https://api.github.com/repos/kernel/kernel-images"
       ]
     },
     {
@@ -1720,11 +1717,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "v1.1.10 released 2026-09-24; 2,403 stars; both LICENSE-APACHE and LICENSE-MIT are present (GitHub SPDX Apache-2.0); browser.lexmount.com returned HTTP 200 on 2026-09-26 with title \"Lexmount Browser\" (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v1.1.25 published 2026-11-15 (releases); last push 2026-11-16; 23879 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Cloud Browser API for AI Agents & Web Fetch / Lexmount); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/lexmount/moli/releases/tag/v1.1.10",
-        "https://browser.lexmount.com",
+        "https://github.com/lexmount/moli/releases",
         "https://api.github.com/repos/lexmount/moli"
       ]
     },
@@ -2720,11 +2716,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "v0.2.14 released 2026-09-04; 2,000 stars; root LICENSE is AGPL-3.0; openchatcut.com returned HTTP 200 on 2026-09-26 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.2.17 published 2026-10-15 (releases); last push 2026-11-12; 3152 stars; GitHub SPDX AGPL-3.0; official site HTTP 200 (OpenChatCut / Open-Source ChatCut Alternative & Pro); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/0xsline/OpenChatCut/releases/tag/v0.2.14",
-        "https://openchatcut.com",
+        "https://github.com/0xsline/OpenChatCut/releases",
         "https://api.github.com/repos/0xsline/OpenChatCut"
       ]
     },
@@ -3016,9 +3011,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Repository transferred from tsouth89/toolport to btsouth/toolport (old URL redirects); last push 2026-09-26; license MIT (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v2.3.7 published 2026-11-16 (releases); last push 2026-11-17; 241 stars; GitHub SPDX MIT; official site HTTP 200 (Toolport: every MCP server, in every AI agent, set up once); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
+        "https://github.com/btsouth/toolport/releases",
         "https://api.github.com/repos/btsouth/toolport"
       ]
     },
@@ -3109,12 +3105,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "v0.16.0 released 2026-09-21; last GitHub push 2026-09-29; Apache-2.0; preloop.ai, docs, and the CLI installer HTTP 200 (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v1.0.2 published 2026-11-12 (releases); last push 2026-11-17; 96 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Preloop: The Open-Source AI Agent Control Plane); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/preloop/preloop/releases/tag/v0.16.0",
-        "https://preloop.ai",
-        "https://docs.preloop.ai"
+        "https://github.com/preloop/preloop/releases",
+        "https://api.github.com/repos/preloop/preloop"
       ]
     },
     {
@@ -3145,11 +3140,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Latest release is still v0.8.16 (2026-07-17); last push still 2026-07-19; 192 stars on 2026-09-26 (the 2026-08-13 snapshot was 246); license Apache-2.0; sallyport.dev returned HTTP 200 and still uses the catalog tagline (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.8.16 published 2026-07-17 (releases); last push 2026-07-19; 172 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Sallyport: credential security for AI coding agents); Latest release remains v0.8.16 (2026-07-17); last push remains 2026-07-19; stars are 172, down from 192 on 2026-09-26.; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/OlegSotnikov/sallyport/releases/tag/v0.8.16",
-        "https://sallyport.dev",
+        "https://github.com/OlegSotnikov/sallyport/releases",
         "https://api.github.com/repos/OlegSotnikov/sallyport"
       ]
     },
@@ -3750,11 +3744,10 @@
       ],
       "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Latest release is still v0.2.0 (2026-08-01); 32 stars; license Apache-2.0; last push 2026-09-04; secondsignruntime.com returned HTTP 200 on 2026-09-26 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.2.0 published 2026-08-01 (releases); last push 2026-11-06; 33 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (SecondSign - Independent authorization and evidence for AI agents); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/Bestpart-Irene/secondsign-core/releases/tag/v0.2.0",
-        "https://secondsignruntime.com",
+        "https://github.com/Bestpart-Irene/secondsign-core/releases",
         "https://api.github.com/repos/Bestpart-Irene/secondsign-core"
       ]
     },
@@ -3865,29 +3858,23 @@
       "tagline": "The economic control plane for autonomous software.",
       "classification": "agent-native",
       "status": "listed",
-      "lifecycle_status": "unknown",
+      "lifecycle_status": "sunset",
       "category": "commerce-and-payments",
       "website": "https://tollex.org",
       "repository": null,
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/tollex.md",
       "source_path": "services/commerce-and-payments/tollex.md",
       "onboarding": {
-        "type": "url",
-        "pattern": "URL Onboarding",
-        "instruction": "Read https://tollex.org/llms.txt, then follow https://tollex.org/docs/getting-started/",
-        "url": "https://tollex.org/llms.txt"
+        "type": "unspecified",
+        "pattern": "Unavailable",
+        "instruction": null,
+        "url": null
       },
       "protocols": [
-        "url-onboarding",
-        "agent-skill",
-        "a2a",
-        "openapi",
-        "json-rpc",
-        "http",
-        "api"
+        "documentation"
       ],
-      "mcp_status": "unknown",
-      "agent_skill_status": "available",
+      "mcp_status": "unavailable",
+      "agent_skill_status": "unavailable",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
@@ -4424,10 +4411,11 @@
       ],
       "mcp_status": "unknown",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "npm @cloudflare/computer 0.3.1 released 2026-09-18; README still marks the package PREVIEW ONLY; last GitHub push 2026-09-29; 9,325 stars; MIT; examples/mcp still present (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release @cloudflare/computer@0.11.2 published 2026-11-12 (releases); last push 2026-11-13; 9929 stars; GitHub SPDX MIT; official site HTTP 200 (GitHub - cloudflare/computer: Give your agent a computer 👾 · GitHub); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/cloudflare/computer/tree/main/examples/mcp"
+        "https://github.com/cloudflare/computer/releases",
+        "https://api.github.com/repos/cloudflare/computer"
       ]
     },
     {
@@ -4519,10 +4507,12 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Show HN CUA-S1 2026-09-19 (item 49767564); mature OSS (~24.6k★)",
-      "verified_at": "2026-09-20",
+      "latest_month_signal": "Checked 2026-11-17: latest release cua-spaces-v0.37.2 published 2026-11-17 (releases); last push 2026-11-17; 32456 stars; GitHub SPDX MIT; official site HTTP 200 (Cua Spaces: combine all your computers into one supercomputer); Homepage title \"Cua Spaces: combine all your computers into one supercomputer\"; docs HTTP 200.; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://news.ycombinator.com/item?id=49767564"
+        "https://github.com/trycua/cua/releases",
+        "https://cua.ai/docs",
+        "https://api.github.com/repos/trycua/cua"
       ]
     },
     {
@@ -4743,11 +4733,11 @@
       ],
       "mcp_status": "unknown",
       "agent_skill_status": "unknown",
-      "latest_month_signal": "v0.3.1 released 2026-09-25; last GitHub push 2026-09-27; 12,569 stars; Apache-2.0; README still warns AX is in heavy development; agentexecutor.io HTTP 200 (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.3.1 published 2026-09-25 (releases); last push 2026-11-17; 14746 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (AX); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/google/ax/releases/tag/v0.3.1",
-        "https://agentexecutor.io"
+        "https://github.com/google/ax/releases",
+        "https://api.github.com/repos/google/ax"
       ]
     },
     {
@@ -5033,10 +5023,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": "v0.0.3 released 2026-09-15; 27,409 stars; license Apache-2.0; last push 2026-09-15. The marketing page returned HTTP 403 to this client on 2026-09-26 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.0.3 published 2026-09-15 (releases); last push 2026-09-15; 28066 stars; GitHub SPDX Apache-2.0; official site HTTP 403 (<html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:cente); The OpenAI blog URL returned HTTP 403 (JavaScript challenge) to this client; SPEC.md HTTP 200.; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/openai/symphony/releases/tag/v0.0.3",
+        "https://github.com/openai/symphony/releases",
+        "https://github.com/openai/symphony/blob/main/SPEC.md",
         "https://api.github.com/repos/openai/symphony"
       ]
     },
@@ -5358,11 +5349,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "v0.1.21 (2026-06-03) is still the latest release and npm agent-qa is 0.1.21; last GitHub push 2026-08-03; 892 stars; LICENSE.md still FSL-1.1-ALv2; three skills/agent-qa-* SKILL.md files present; vostride.com and docs HTTP 200 (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.3.9 published 2026-11-14 (releases); last push 2026-11-14; 858 stars; GitHub SPDX NOASSERTION; official site HTTP 200 (AI Testing Agent / vostride); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://vostride.com/",
-        "https://vostride.com/docs/agent-qa"
+        "https://github.com/vostride/agent-qa/releases",
+        "https://api.github.com/repos/vostride/agent-qa"
       ]
     },
     {
@@ -5389,10 +5380,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unknown",
-      "latest_month_signal": "v0.8.0 released 2026-08-18; last GitHub push 2026-09-26; 28,233 stars; MIT; .claude-plugin/marketplace.json still present (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.15.0 published 2026-11-02 (releases); last push 2026-11-10; 29224 stars; GitHub SPDX MIT; official site HTTP 200 (GitHub - jarrodwatts/claude-hud: A Claude Code plugin that shows what&#39;s happening - context usage, active tools, running agents, and todo progress · GitHub); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/jarrodwatts/claude-hud/releases/tag/v0.8.0"
+        "https://github.com/jarrodwatts/claude-hud/releases",
+        "https://api.github.com/repos/jarrodwatts/claude-hud"
       ]
     },
     {
@@ -5447,10 +5439,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "v1.2 released 2026-09-01; 79 stars; last push 2026-09-06; package.json license is MIT and there is still no root LICENSE file (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v1.2 published 2026-09-01 (releases); last push 2026-11-11; 80 stars; GitHub reports no SPDX license; official site HTTP 200 (GitHub - fwyc0573/codex-hud: Real-time statusline HUD for OpenAI Codex CLI - Monitor sessions, context usage, git status, and tool activity · GitHub); GitHub API reports no SPDX license file. Latest release tag remains v1.2 (2026-09-01).; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/fwyc0573/codex-hud/releases/tag/v1.2",
+        "https://github.com/fwyc0573/codex-hud/releases",
         "https://api.github.com/repos/fwyc0573/codex-hud"
       ]
     },
@@ -5549,11 +5541,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "v0.1.7 released 2026-08-20; 1,628 stars; license MIT; last push 2026-08-20; lh-harness.pages.dev returned HTTP 200 on 2026-09-26 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.1.8 published 2026-10-21 (releases); last push 2026-11-11; 1874 stars; GitHub SPDX MIT; official site HTTP 200 (LongHorizon-Harness / Advancing Long-Horizon Agents for Real-World Tasks); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/AMAP-ML/LongHorizon-Harness/releases/tag/v0.1.7",
-        "https://lh-harness.pages.dev",
+        "https://github.com/AMAP-ML/LongHorizon-Harness/releases",
         "https://api.github.com/repos/AMAP-ML/LongHorizon-Harness"
       ]
     },
@@ -5583,12 +5574,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "v1.2.3 released 2026-09-29 (PyPI loopx 1.2.3); last GitHub push 2026-09-30; 6,108 stars; Apache-2.0; site and docs HTTP 200 (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v2.3.0 published 2026-11-09 (releases); last push 2026-11-17; 6696 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (LoopX — Start long-running agent work with one goal); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/loopx-project/loopx/releases/tag/v1.2.3",
-        "https://loopx-project.github.io/loopx/",
-        "https://loopx-project.github.io/loopx/docs/"
+        "https://github.com/loopx-project/loopx/releases",
+        "https://api.github.com/repos/loopx-project/loopx"
       ]
     },
     {
@@ -5617,11 +5607,10 @@
       ],
       "mcp_status": "optional",
       "agent_skill_status": "available",
-      "latest_month_signal": "v0.21.6 released 2026-09-21; 33,371 stars; root LICENSE is MIT; oh-my-codex.dev returned HTTP 200 on 2026-09-26 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.22.10 published 2026-11-16 (releases); last push 2026-11-16; 33794 stars; GitHub SPDX MIT; official site HTTP 200 (oh-my-codex - Your codex is not alone); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.21.6",
-        "https://oh-my-codex.dev",
+        "https://github.com/Yeachan-Heo/oh-my-codex/releases",
         "https://api.github.com/repos/Yeachan-Heo/oh-my-codex"
       ]
     },
@@ -5651,10 +5640,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Softer HN heat this week; architecture fit + Apache-2.0 OSS (earlier Show HN 2026-06-23, item 48646165)",
-      "verified_at": "2026-09-20",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.10.0 published 2026-10-28 (releases); last push 2026-11-16; 425 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (peerd — the browser-native agent harness); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://news.ycombinator.com/item?id=48646165"
+        "https://github.com/NotASithLord/peerd/releases",
+        "https://api.github.com/repos/NotASithLord/peerd"
       ]
     },
     {
@@ -5684,10 +5674,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Show HN 2026-09-15 (item 49713894); Amazon-developed OSS inbox for background agent runs",
-      "verified_at": "2026-09-20",
+      "latest_month_signal": "Checked 2026-11-17: latest release v1.3.0 published 2026-11-10 (releases); last push 2026-11-13; 563 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (GitHub - pizza-bot-app/pizza-bot: A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph. · GitHub); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://news.ycombinator.com/item?id=49713894"
+        "https://github.com/pizza-bot-app/pizza-bot/releases",
+        "https://api.github.com/repos/pizza-bot-app/pizza-bot"
       ]
     },
     {
@@ -5718,10 +5709,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "v0.1.12 released 2026-09-19; 15,253 stars; root LICENSE is MIT; qm.ycombinator.com returned HTTP 200 on 2026-09-26 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.1.18 published 2026-11-11 (releases); last push 2026-11-17; 15715 stars; GitHub SPDX MIT; official site HTTP 200 (Sign in · QM); qm.ycombinator.com redirects to a sign-in page; GitHub docs remain public.; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/yc-software/qm/releases/tag/v0.1.12",
+        "https://github.com/yc-software/qm/releases",
         "https://qm.ycombinator.com",
         "https://api.github.com/repos/yc-software/qm"
       ]
@@ -5852,10 +5843,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Launch HN 2026-09-17 (item 49743049); OSS core of Skillsync",
-      "verified_at": "2026-09-20",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.14.4 published 2026-09-13 (releases); last push 2026-11-17; 222 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (GitHub - skillsynchq/txcript: Pandoc for AI chats. Move ai chats across harnesses: Claude Code, Codex, OpenCode, Cursor, and more. Rust library, CLI, and WASM. · GitHub); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://news.ycombinator.com/item?id=49743049"
+        "https://github.com/skillsynchq/txcript/releases",
+        "https://api.github.com/repos/skillsynchq/txcript"
       ]
     },
     {
@@ -5918,10 +5910,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "v0.9.29 released 2026-08-16 (npm @agentmemory/agentmemory and @agentmemory/mcp 0.9.29); last GitHub push 2026-09-28; 29,029 stars; Apache-2.0 (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.9.33 published 2026-11-09 (releases); last push 2026-11-16; 30410 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (agentmemory: persistent memory for AI coding agents); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/rohitg00/agentmemory/releases/tag/v0.9.29"
+        "https://github.com/rohitg00/agentmemory/releases",
+        "https://api.github.com/repos/rohitg00/agentmemory"
       ]
     },
     {
@@ -6474,11 +6467,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "v1.1.8 released 2026-09-23; 1,982 stars; license MIT; memmy.bot returned HTTP 200 on 2026-09-26 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v1.2.6 published 2026-11-11 (releases); last push 2026-11-16; 2218 stars; GitHub SPDX MIT; official site HTTP 200 (Memmy); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/MemTensor/memmy-agent/releases/tag/v1.1.8",
-        "https://memmy.bot/",
+        "https://github.com/MemTensor/memmy-agent/releases",
         "https://api.github.com/repos/MemTensor/memmy-agent"
       ]
     },
@@ -6743,12 +6735,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "npm @mnemoverse/mcp-memory-server 0.10.2 published 2026-09-20 (npm); PyPI mnemoverse 0.3.0 (PyPI); an unauthenticated POST to https://mcp.mnemoverse.com/mcp answered 401 with OAuth resource metadata on 2026-09-20",
-      "verified_at": "2026-09-20",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.18.1 published 2026-11-13 (releases); last push 2026-11-14; 29 stars; GitHub SPDX MIT; official site HTTP 200 (Mnemoverse: Persistent memory API for AI agents); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://www.npmjs.com/package/@mnemoverse/mcp-memory-server",
-        "https://pypi.org/project/mnemoverse/",
-        "https://mcp.mnemoverse.com/mcp"
+        "https://github.com/mnemoverse/mcp-memory-server/releases",
+        "https://api.github.com/repos/mnemoverse/mcp-memory-server"
       ]
     },
     {
@@ -6906,10 +6897,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Default branch still feat/server_team; v2.0.1 released 2026-08-25; last push 2026-09-29; 27,526 stars; LICENSE text still MIT (GitHub SPDX NOASSERTION) (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v2.0.3 published 2026-10-26 (releases); last push 2026-11-10; 30942 stars; GitHub SPDX NOASSERTION; official site HTTP 200 (GitHub - TencentCloud/TencentDB-Agent-Memory: TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory asse); Default branch is still feat/server_team. GitHub SPDX is NOASSERTION.; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.1"
+        "https://github.com/TencentCloud/TencentDB-Agent-Memory/releases",
+        "https://api.github.com/repos/TencentCloud/TencentDB-Agent-Memory"
       ]
     },
     {
@@ -7001,11 +6993,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Product page moved to lennney.com/en/agent-search-mcp; take-a-deep-breath0.com redirects there. Last GitHub push 2026-09-21; license Apache-2.0 (repo)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v3.2.1 published 2026-08-11 (releases); last push 2026-11-10; 113 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Agent Search MCP: Free Web Search for AI Agents – Lennney); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://lennney.com/en/agent-search-mcp",
-        "https://github.com/lennney/agent-search-mcp"
+        "https://github.com/lennney/agent-search-mcp/releases",
+        "https://api.github.com/repos/lennney/agent-search-mcp"
       ]
     },
     {
@@ -7066,10 +7058,9 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Repo moved from KayanoLiam/ContextX to akasakariko/ContextX (checked 2026-11-03). Still no GitHub release and still no LICENSE file; 175 stars; last push 2026-09-09. README still documents the public MCP at mcp.twitter.monster/mcp, which on 2026-09-26 answered HTTP 406 until the client accepted both application/json and text/event-stream (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: no GitHub release; last push 2026-09-09; 182 stars; GitHub reports no SPDX license; official site HTTP 200 (GitHub - akasakariko/ContextX: A free remote MCP server offering normal (Grok 4.3) and deep (Grok 4.20 Multi-Agent) search. No API keys required, streaming support prevents gateway); Still no GitHub release and no LICENSE file; last push remains 2026-09-09.; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://mcp.twitter.monster/mcp",
         "https://api.github.com/repos/akasakariko/ContextX"
       ]
     },
@@ -7527,11 +7518,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "v0.11.4 released 2026-09-24; 66 stars on 2026-09-26 (the 2026-08-13 snapshot recorded 232); license Apache-2.0; axern.cofy-x.space returned HTTP 200 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.13.0 published 2026-11-08 (releases); last push 2026-11-13; 65 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Axern — Self-hosted execution for AI agents); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/cofy-x/axern/releases/tag/v0.11.4",
-        "https://axern.cofy-x.space",
+        "https://github.com/cofy-x/axern/releases",
         "https://api.github.com/repos/cofy-x/axern"
       ]
     },
@@ -7947,11 +7937,13 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Repository renamed from CelestoAI/SmolVM to CelestoAI/celesto (old URL redirects); last push 2026-09-25; license still Apache-2.0 (repo metadata); homepage still docs.celesto.ai/smolvm",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.1.14 published 2026-11-15 (releases); last push 2026-11-16; 1474 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Run Docker in a Celesto sandbox - Celesto AI); docs.celesto.ai/smolvm redirects to celesto.ai/docs/celesto/features/docker, titled \"Run Docker in a Celesto sandbox\".; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://api.github.com/repos/CelestoAI/celesto",
-        "https://docs.celesto.ai/smolvm"
+        "https://github.com/CelestoAI/celesto/releases",
+        "https://docs.celesto.ai/smolvm",
+        "https://celesto.ai/docs/celesto/features/docker",
+        "https://api.github.com/repos/CelestoAI/celesto"
       ]
     },
     {
@@ -8387,10 +8379,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "v0.2.0 released 2026-08-17; 1,073 stars; license Apache-2.0; repository pushed_at 2026-09-15 and default-branch commit 2026-08-17 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.3.0 published 2026-10-19 (releases); last push 2026-11-16; 1165 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (GitHub - perplexityai/numbat: Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction. · GitHub); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/perplexityai/numbat/releases/tag/v0.2.0",
+        "https://github.com/perplexityai/numbat/releases",
         "https://api.github.com/repos/perplexityai/numbat"
       ]
     },
@@ -8579,10 +8571,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": "Product release v1.10.3 published 2026-09-07; 178 stars; license MIT; last push 2026-09-25 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v5.3.3 published 2026-11-16 (releases); last push 2026-11-16; 197 stars; GitHub SPDX MIT; official site HTTP 200 (GitHub - edgehero/pi-dispatch: Go from sitting next to one AI coding agent to running many in the background. Dark engineering with the pi coding agent: self-hosted, each job in a ); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/edgehero/pi-dispatch/releases/tag/v1.10.3",
+        "https://github.com/edgehero/pi-dispatch/releases",
         "https://api.github.com/repos/edgehero/pi-dispatch"
       ]
     },
@@ -8676,10 +8668,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": "Last GitHub push 2026-09-15; latest release v1.1.15 (2026-07-01); MIT; SKILL.md, .claude-plugin/, and gemini-extension.json still present; agentcall.dev HTTP 200 (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v1.1.25 published 2026-11-12 (releases); last push 2026-11-15; 201 stars; GitHub SPDX MIT; official site HTTP 200 (AgentCall — Turn AI agents into teammates who join your meetings); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://agentcall.dev"
+        "https://github.com/pattern-ai-labs/agentcall/releases",
+        "https://api.github.com/repos/pattern-ai-labs/agentcall"
       ]
     },
     {
@@ -8965,12 +8958,11 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": "v0.7.0 (2026-06-30) is still the latest release (npm and PyPI getpatter 0.7.0); last GitHub push 2026-08-25; 1,062 stars; MIT; PatterAI/skills present; getpatter.com and docs HTTP 200 (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.7.0 published 2026-06-30 (releases); last push 2026-11-04; 1084 stars; GitHub SPDX MIT; official site HTTP 200 (Patter — Give your AI agent a phone number); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/PatterAI/skills",
-        "https://getpatter.com",
-        "https://docs.getpatter.com"
+        "https://github.com/PatterAI/Patter/releases",
+        "https://api.github.com/repos/PatterAI/Patter"
       ]
     },
     {
@@ -9065,11 +9057,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "v2.0.0 released 2026-09-23; 2,764 stars; license Apache-2.0; last push 2026-09-23; docs site qwenaudio.github.io/qwen-audio-agent returned HTTP 200 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v2.1.0 published 2026-11-16 (releases); last push 2026-11-16; 3239 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (GitHub - QwenAudio/qwen-audio-agent: A realtime voice runtime that keeps Agents talking, working, and present. Real-time Voice Runtime for AI Agents · GitHub); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/QwenAudio/qwen-audio-agent/releases/tag/v2.0.0",
-        "https://qwenaudio.github.io/qwen-audio-agent/",
+        "https://github.com/QwenAudio/qwen-audio-agent/releases",
         "https://api.github.com/repos/QwenAudio/qwen-audio-agent"
       ]
     },
@@ -9511,8 +9502,8 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Still no GitHub release; last push remains 2026-07-29; 105 stars; license MIT (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: no GitHub release; last push 2026-07-29; 106 stars; GitHub SPDX MIT; official site HTTP 200 (GitHub - codejunkie99/sageroute: Trajectory-aware model router. An OpenAI-compatible proxy that starts every task on a cheap model, watches what the agent actually does, and escala); Still no GitHub release; last push remains 2026-07-29.; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
         "https://api.github.com/repos/codejunkie99/sageroute"
       ]
@@ -9577,10 +9568,10 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "v1.83.0 released 2026-09-24; 16 stars; license MIT; last push 2026-09-24 (repo metadata)",
-      "verified_at": "2026-09-26",
+      "latest_month_signal": "Checked 2026-11-17: latest release v1.100.2 published 2026-10-27 (releases); last push 2026-10-27; 23 stars; GitHub SPDX MIT; official site HTTP 200 (GitHub - LtyFantasy/agent-chamber: Agent Chamber — where AI agents meet, discuss, and get work done. Collaboration & communication middleware for AI agents: topics (meeting roo); repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/LtyFantasy/agent-chamber/releases/tag/v1.83.0",
+        "https://github.com/LtyFantasy/agent-chamber/releases",
         "https://api.github.com/repos/LtyFantasy/agent-chamber"
       ]
     },
@@ -9691,11 +9682,11 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unknown",
-      "latest_month_signal": "v0.3.88 released 2026-09-02; last GitHub push 2026-09-28 (default branch develop); MIT; npm @agentgram/mcp-server 0.3.0 and @agentgram/sdk 0.2.0, PyPI agentgram 0.2.0. The homepage now leads with \"MCP Governance & Audit for Teams & Companies\" while still showing the agent network (661 agents, 5,500 posts) and the register/post/follow quickstart; the README tagline is unchanged (verified 2026-09-30)",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.3.88 published 2026-09-02 (releases); last push 2026-11-09; 43 stars; GitHub SPDX MIT; official site HTTP 200 (AgentGram - MCP Governance & Audit for Teams); Homepage title is \"AgentGram - MCP Governance & Audit for Teams\" and still shows an agent registry; GitHub description is still an open-source agent social network. Default branch develop.; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/agentgram/agentgram/releases/tag/v0.3.88",
-        "https://agentgram.co"
+        "https://github.com/agentgram/agentgram/releases",
+        "https://api.github.com/repos/agentgram/agentgram"
       ]
     },
     {
@@ -10197,16 +10188,10 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Repository austinknapp111-lab/switchboard created 2026-09-28, last push 2026-09-29, 0 stars, still no license file. Verified 2026-09-30: homepage H1 is the exact tagline (switchboard-ai.fly.dev); llms.txt, docs and agent.json return HTTP 200; public bot directory lists 27 bots and chain verify reports an intact #general chain",
-      "verified_at": "2026-09-30",
+      "latest_month_signal": "Checked 2026-11-17: no GitHub release; last push 2026-10-05; 0 stars; GitHub reports no SPDX license; official site HTTP 200 (home — Switchboard); Homepage HTTP 200, title \"home — Switchboard\"; the page still describes Ed25519 bot identities. No license file.; repo metadata",
+      "verified_at": "2026-11-17",
       "verification_sources": [
-        "https://github.com/austinknapp111-lab/switchboard",
-        "https://switchboard-ai.fly.dev/",
-        "https://switchboard-ai.fly.dev/llms.txt",
-        "https://switchboard-ai.fly.dev/docs",
-        "https://switchboard-ai.fly.dev/.well-known/agent.json",
-        "https://switchboard-ai.fly.dev/api/v1/bots",
-        "https://switchboard-ai.fly.dev/api/v1/chain/verify?room=general"
+        "https://api.github.com/repos/austinknapp111-lab/switchboard"
       ]
     },
     {

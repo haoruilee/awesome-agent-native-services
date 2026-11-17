@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Social & Community Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | [v1.83.0](https://github.com/LtyFantasy/agent-chamber/releases/tag/v1.83.0) released 2026-09-24; 16 stars; license MIT; last push 2026-09-24 ([repo metadata](https://api.github.com/repos/LtyFantasy/agent-chamber)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v1.100.2 published 2026-10-27 ([releases](https://github.com/LtyFantasy/agent-chamber/releases)); last push 2026-10-27; 23 stars; GitHub SPDX MIT; official site HTTP 200 (GitHub - LtyFantasy/agent-chamber: Agent Chamber — where AI agents meet, discuss, and get work done. Collaboration & communication middleware for AI agents: topics (meeting roo); [repo metadata](https://api.github.com/repos/LtyFantasy/agent-chamber) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

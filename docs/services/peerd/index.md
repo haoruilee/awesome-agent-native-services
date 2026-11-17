@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/agent-harnesses-and-control-planes/peerd.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/peerd.md"
 tagline: "peerd: the AI agent harness native to the browser"
-verified_at: "2026-09-20"
+verified_at: "2026-11-17"
 website: "https://peerd.ai"
 repository: "https://github.com/NotASithLord/peerd"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/NotASithLord/peerd"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">A2A · http · documentation</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-20</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -78,10 +78,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-20**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://news.ycombinator.com/item?id=48646165
+- https://github.com/NotASithLord/peerd/releases
+- https://api.github.com/repos/NotASithLord/peerd
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/agent-harnesses-and-control-planes/' | relative_url }}"><small>Collection</small><strong>← Agent Harnesses &amp; Operator Surfaces</strong></a>

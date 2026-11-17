@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/agent-harnesses-and-control-planes/longhorizon-harness.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/longhorizon-harness.md"
 tagline: "Plan → act → verify → checkpoint or recover → repeat — until the work is actually done"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://lh-harness.pages.dev"
 repository: "https://github.com/AMAP-ML/LongHorizon-Harness"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/AMAP-ML/LongHorizon-Harness"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">MCP · CLI</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -81,11 +81,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/AMAP-ML/LongHorizon-Harness/releases/tag/v0.1.7
-- https://lh-harness.pages.dev
+- https://github.com/AMAP-ML/LongHorizon-Harness/releases
 - https://api.github.com/repos/AMAP-ML/LongHorizon-Harness
 
 <nav class="service-page__nav" aria-label="Service placement">

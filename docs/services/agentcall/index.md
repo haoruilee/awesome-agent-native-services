@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/meeting-and-conversation/agentcall.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/meeting-and-conversation/agentcall.md"
 tagline: "Your AI agent, in every meeting"
-verified_at: "2026-09-30"
+verified_at: "2026-11-17"
 website: "https://agentcall.dev"
 repository: "https://github.com/pattern-ai-labs/agentcall"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/pattern-ai-labs/agentcall"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · REST · websocket · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-30</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -72,10 +72,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-30**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://agentcall.dev
+- https://github.com/pattern-ai-labs/agentcall/releases
+- https://api.github.com/repos/pattern-ai-labs/agentcall
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/meeting-and-conversation/' | relative_url }}"><small>Collection</small><strong>← Meeting &amp; Conversation</strong></a>

@@ -10,8 +10,8 @@
 | **Stars** | [2,403 stars (snapshot: 2026-09-26)](https://github.com/lexmount/moli) |
 | **Classification** | `agent-native` |
 | **Category** | [Browser & Web Execution](README.md) |
-| **Latest-month signal** | [v1.1.10](https://github.com/lexmount/moli/releases/tag/v1.1.10) released 2026-09-24; 2,403 stars; both `LICENSE-APACHE` and `LICENSE-MIT` are present (GitHub SPDX Apache-2.0); [browser.lexmount.com](https://browser.lexmount.com) returned HTTP 200 on 2026-09-26 with title "Lexmount Browser" ([repo metadata](https://api.github.com/repos/lexmount/moli)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v1.1.25 published 2026-11-15 ([releases](https://github.com/lexmount/moli/releases)); last push 2026-11-16; 23879 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Cloud Browser API for AI Agents & Web Fetch / Lexmount); [repo metadata](https://api.github.com/repos/lexmount/moli) |
+| **Verified at** | 2026-11-17 |
 | **Status** | Open-source engine; Apache-2.0 or MIT at the user's option; managed Lexmount Browser control plane is separate |
 
 ---

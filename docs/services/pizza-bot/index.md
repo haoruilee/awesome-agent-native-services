@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/agent-harnesses-and-control-planes/pizza-bot.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/pizza-bot.md"
 tagline: "Pizza Bot is an inbox for long-running AI work"
-verified_at: "2026-09-20"
+verified_at: "2026-11-17"
 website: "https://github.com/pizza-bot-app/pizza-bot"
 repository: "https://github.com/pizza-bot-app/pizza-bot"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/pizza-bot-app/pizza-bot"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">CLI · SDK · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-20</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -83,10 +83,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-20**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://news.ycombinator.com/item?id=49713894
+- https://github.com/pizza-bot-app/pizza-bot/releases
+- https://api.github.com/repos/pizza-bot-app/pizza-bot
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/agent-harnesses-and-control-planes/' | relative_url }}"><small>Collection</small><strong>← Agent Harnesses &amp; Operator Surfaces</strong></a>

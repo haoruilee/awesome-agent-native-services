@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/durable-execution-and-scheduling/pi-dispatch.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/durable-execution-and-scheduling/pi-dispatch.md"
 tagline: "Run the pi coding agent as a service — triggered on demand, on a cron schedule, or by a GitHub or GitLab issue, comment or pull/merge request — in a container you control, with a durable queue, a spend cap, and a live admin panel"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://github.com/edgehero/pi-dispatch"
 repository: "https://github.com/edgehero/pi-dispatch"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/edgehero/pi-dispatch"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · webhook · CLI</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -84,10 +84,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/edgehero/pi-dispatch/releases/tag/v1.10.3
+- https://github.com/edgehero/pi-dispatch/releases
 - https://api.github.com/repos/edgehero/pi-dispatch
 
 <nav class="service-page__nav" aria-label="Service placement">

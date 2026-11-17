@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/commerce-and-payments/secondsign-core.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/secondsign-core.md"
 tagline: "An independent transaction co-signer for AI agents that manage other people's money"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://secondsignruntime.com"
 repository: "https://github.com/Bestpart-Irene/secondsign-core"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/Bestpart-Irene/secondsign-core"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unknown</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">SDK · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -77,11 +77,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/Bestpart-Irene/secondsign-core/releases/tag/v0.2.0
-- https://secondsignruntime.com
+- https://github.com/Bestpart-Irene/secondsign-core/releases
 - https://api.github.com/repos/Bestpart-Irene/secondsign-core
 
 <nav class="service-page__nav" aria-label="Service placement">

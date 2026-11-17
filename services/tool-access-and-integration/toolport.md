@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | Repository transferred from `tsouth89/toolport` to `btsouth/toolport` (old URL redirects); last push 2026-09-26; license MIT ([repo metadata](https://api.github.com/repos/btsouth/toolport)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v2.3.7 published 2026-11-16 ([releases](https://github.com/btsouth/toolport/releases)); last push 2026-11-17; 241 stars; GitHub SPDX MIT; official site HTTP 200 (Toolport: every MCP server, in every AI agent, set up once); [repo metadata](https://api.github.com/repos/btsouth/toolport) |
+| **Verified at** | 2026-11-17 |
 
 ---
 
@@ -26,7 +26,7 @@ https://toolport.app
 
 https://github.com/btsouth/toolport
 
-Transferred from `tsouth89/toolport`; the old URL redirects here (confirmed 2026-09-26). Live GitHub description: **“Local-first MCP gateway. One port for every tool and every AI client: lazy discovery (~90% token savings), tool integrity + quarantine, secrets in the OS keychain.”** License MIT. Last push 2026-09-26.
+Transferred from `tsouth89/toolport`; the old URL redirects here (confirmed 2026-09-26). Checked 2026-11-17: license MIT, latest release v2.3.7 (2026-11-16), last push 2026-11-17. Homepage title: **“Toolport: every MCP server, in every AI agent, set up once.”**
 
 ---
 

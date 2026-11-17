@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | MIT in `package.json`; no root `LICENSE` file as of 2026-09-26 |
-| **Latest-month signal** | [v1.2](https://github.com/fwyc0573/codex-hud/releases/tag/v1.2) released 2026-09-01; 79 stars; last push 2026-09-06; `package.json` license is MIT and there is still no root `LICENSE` file ([repo metadata](https://api.github.com/repos/fwyc0573/codex-hud)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v1.2 published 2026-09-01 ([releases](https://github.com/fwyc0573/codex-hud/releases)); last push 2026-11-11; 80 stars; GitHub reports no SPDX license; official site HTTP 200 (GitHub - fwyc0573/codex-hud: Real-time statusline HUD for OpenAI Codex CLI - Monitor sessions, context usage, git status, and tool activity · GitHub); GitHub API reports no SPDX license file. Latest release tag remains v1.2 (2026-09-01).; [repo metadata](https://api.github.com/repos/fwyc0573/codex-hud) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

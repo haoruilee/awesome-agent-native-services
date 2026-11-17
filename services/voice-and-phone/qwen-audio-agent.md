@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Voice & Phone Services](README.md) |
 | **License** | Apache 2.0 |
-| **Latest-month signal** | [v2.0.0](https://github.com/QwenAudio/qwen-audio-agent/releases/tag/v2.0.0) released 2026-09-23; 2,764 stars; license Apache-2.0; last push 2026-09-23; docs site [qwenaudio.github.io/qwen-audio-agent](https://qwenaudio.github.io/qwen-audio-agent/) returned HTTP 200 ([repo metadata](https://api.github.com/repos/QwenAudio/qwen-audio-agent)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v2.1.0 published 2026-11-16 ([releases](https://github.com/QwenAudio/qwen-audio-agent/releases)); last push 2026-11-16; 3239 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (GitHub - QwenAudio/qwen-audio-agent: A realtime voice runtime that keeps Agents talking, working, and present. Real-time Voice Runtime for AI Agents · GitHub); [repo metadata](https://api.github.com/repos/QwenAudio/qwen-audio-agent) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

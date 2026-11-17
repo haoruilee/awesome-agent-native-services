@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Softer HN heat this week; architecture fit + Apache-2.0 OSS (earlier Show HN 2026-06-23, [item 48646165](https://news.ycombinator.com/item?id=48646165)) |
-| **Verified at** | 2026-09-20 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.10.0 published 2026-10-28 ([releases](https://github.com/NotASithLord/peerd/releases)); last push 2026-11-16; 425 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (peerd — the browser-native agent harness); [repo metadata](https://api.github.com/repos/NotASithLord/peerd) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

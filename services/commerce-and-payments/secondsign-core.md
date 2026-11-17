@@ -10,8 +10,8 @@
 | **Stars** | [32 stars (snapshot: 2026-09-26)](https://github.com/Bestpart-Irene/secondsign-core) |
 | **Classification** | `agent-native` |
 | **Category** | [Commerce & Payment Services](README.md) |
-| **Latest-month signal** | Latest release is still [v0.2.0](https://github.com/Bestpart-Irene/secondsign-core/releases/tag/v0.2.0) (2026-08-01); 32 stars; license Apache-2.0; last push 2026-09-04; [secondsignruntime.com](https://secondsignruntime.com) returned HTTP 200 on 2026-09-26 ([repo metadata](https://api.github.com/repos/Bestpart-Irene/secondsign-core)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.2.0 published 2026-08-01 ([releases](https://github.com/Bestpart-Irene/secondsign-core/releases)); last push 2026-11-06; 33 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (SecondSign - Independent authorization and evidence for AI agents); [repo metadata](https://api.github.com/repos/Bestpart-Irene/secondsign-core) |
+| **Verified at** | 2026-11-17 |
 | **Status** | **Pre-1.0 preview.** Interfaces may change; no independent security audit; some gateway control-plane state is not restart-durable. Apache-2.0. |
 
 ---

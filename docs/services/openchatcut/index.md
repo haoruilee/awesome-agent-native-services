@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/tool-access-and-integration/openchatcut.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/openchatcut.md"
 tagline: "Open-source, local-first conversational AI video editor with a professional multi-track timeline, Agent Skills, MCP integration, and Remotion rendering"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://openchatcut.com"
 repository: "https://github.com/0xsline/OpenChatCut"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/0xsline/OpenChatCut"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · MCP · http</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -72,11 +72,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/0xsline/OpenChatCut/releases/tag/v0.2.14
-- https://openchatcut.com
+- https://github.com/0xsline/OpenChatCut/releases
 - https://api.github.com/repos/0xsline/OpenChatCut
 
 <nav class="service-page__nav" aria-label="Service placement">

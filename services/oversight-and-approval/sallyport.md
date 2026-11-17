@@ -10,8 +10,8 @@
 | **Stars** | [192 stars (snapshot: 2026-09-26)](https://github.com/OlegSotnikov/sallyport) |
 | **Classification** | `agent-native` |
 | **Category** | [Oversight & Approval Services](README.md) |
-| **Latest-month signal** | Latest release is still [v0.8.16](https://github.com/OlegSotnikov/sallyport/releases/tag/v0.8.16) (2026-07-17); last push still 2026-07-19; 192 stars on 2026-09-26 (the 2026-08-13 snapshot was 246); license Apache-2.0; [sallyport.dev](https://sallyport.dev) returned HTTP 200 and still uses the catalog tagline ([repo metadata](https://api.github.com/repos/OlegSotnikov/sallyport)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.8.16 published 2026-07-17 ([releases](https://github.com/OlegSotnikov/sallyport/releases)); last push 2026-07-19; 172 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Sallyport: credential security for AI coding agents); Latest release remains v0.8.16 (2026-07-17); last push remains 2026-07-19; stars are 172, down from 192 on 2026-09-26.; [repo metadata](https://api.github.com/repos/OlegSotnikov/sallyport) |
+| **Verified at** | 2026-11-17 |
 | **Status** | Free Apache-2.0 Mac app; Apple Silicon and macOS 14+ only |
 
 ---

@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | npm `@cloudflare/computer` 0.3.1 released 2026-09-18; README still marks the package **PREVIEW ONLY**; last GitHub push 2026-09-29; 9,325 stars; MIT; [`examples/mcp`](https://github.com/cloudflare/computer/tree/main/examples/mcp) still present (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release @cloudflare/computer@0.11.2 published 2026-11-12 ([releases](https://github.com/cloudflare/computer/releases)); last push 2026-11-13; 9929 stars; GitHub SPDX MIT; official site HTTP 200 (GitHub - cloudflare/computer: Give your agent a computer 👾 · GitHub); [repo metadata](https://api.github.com/repos/cloudflare/computer) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

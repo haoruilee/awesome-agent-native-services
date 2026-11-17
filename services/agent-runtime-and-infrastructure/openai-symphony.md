@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | [v0.0.3](https://github.com/openai/symphony/releases/tag/v0.0.3) released 2026-09-15; 27,409 stars; license Apache-2.0; last push 2026-09-15. The marketing page returned HTTP 403 to this client on 2026-09-26 ([repo metadata](https://api.github.com/repos/openai/symphony)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.0.3 published 2026-09-15 ([releases](https://github.com/openai/symphony/releases)); last push 2026-09-15; 28066 stars; GitHub SPDX Apache-2.0; official site HTTP 403 (<html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:cente); The OpenAI blog URL returned HTTP 403 (JavaScript challenge) to this client; [SPEC.md](https://github.com/openai/symphony/blob/main/SPEC.md) HTTP 200.; [repo metadata](https://api.github.com/repos/openai/symphony) |
+| **Verified at** | 2026-11-17 |
 
 ---
 
@@ -20,7 +20,7 @@
 
 https://openai.com/index/open-source-codex-orchestration-symphony/
 
-That URL returned HTTP 403 to the catalog client on 2026-09-26. The same URL is still the repository homepage. This re-check used the GitHub repository, not the marketing page body.
+Rechecked 2026-11-17: that URL still returns HTTP 403 to an automated client and asks for JavaScript and cookies. It is a bot challenge, not a removed page. [SPEC.md](https://github.com/openai/symphony/blob/main/SPEC.md) returns HTTP 200. The repository is still Apache-2.0, release v0.0.3 (2026-09-15), last push 2026-09-15.
 
 ---
 

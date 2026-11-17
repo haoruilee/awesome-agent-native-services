@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/search-and-web-intelligence/agent-search-mcp.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/agent-search-mcp.md"
 tagline: "A Node.js MCP server and CLI for English and Chinese web search"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://lennney.com/en/agent-search-mcp"
 repository: "https://github.com/lennney/agent-search-mcp"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/lennney/agent-search-mcp"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · MCP · CLI · STDIO · http</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -79,11 +79,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://lennney.com/en/agent-search-mcp
-- https://github.com/lennney/agent-search-mcp
+- https://github.com/lennney/agent-search-mcp/releases
+- https://api.github.com/repos/lennney/agent-search-mcp
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/search-and-web-intelligence/' | relative_url }}"><small>Collection</small><strong>← Search &amp; Web Intelligence</strong></a>

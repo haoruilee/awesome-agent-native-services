@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Runtime & Infrastructure Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | [v0.3.1](https://github.com/google/ax/releases/tag/v0.3.1) released 2026-09-25; last GitHub push 2026-09-27; 12,569 stars; Apache-2.0; README still warns AX is in heavy development; [agentexecutor.io](https://agentexecutor.io) HTTP 200 (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.3.1 published 2026-09-25 ([releases](https://github.com/google/ax/releases)); last push 2026-11-17; 14746 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (AX); [repo metadata](https://api.github.com/repos/google/ax) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

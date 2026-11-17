@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Search & Web Intelligence Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Product page moved to [lennney.com/en/agent-search-mcp](https://lennney.com/en/agent-search-mcp); `take-a-deep-breath0.com` redirects there. Last GitHub push 2026-09-21; license Apache-2.0 ([repo](https://github.com/lennney/agent-search-mcp)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v3.2.1 published 2026-08-11 ([releases](https://github.com/lennney/agent-search-mcp/releases)); last push 2026-11-10; 113 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Agent Search MCP: Free Web Search for AI Agents – Lennney); [repo metadata](https://api.github.com/repos/lennney/agent-search-mcp) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

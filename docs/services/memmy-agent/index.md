@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/memory-and-state/memmy-agent.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/memmy-agent.md"
 tagline: "Memmy is your personal AI agent & local memory hub for all AI agents — it lets every AI connect to the same memory and keep self-evolving"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://memmy.bot/"
 repository: "https://github.com/MemTensor/memmy-agent"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/MemTensor/memmy-agent"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · REST · CLI · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -81,11 +81,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/MemTensor/memmy-agent/releases/tag/v1.1.8
-- https://memmy.bot/
+- https://github.com/MemTensor/memmy-agent/releases
 - https://api.github.com/repos/MemTensor/memmy-agent
 
 <nav class="service-page__nav" aria-label="Service placement">

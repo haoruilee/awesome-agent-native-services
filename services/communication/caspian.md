@@ -10,8 +10,8 @@
 | **Stars** | [973 stars (snapshot: 2026-09-26)](https://github.com/TryCaspian/caspian-sdk) |
 | **Classification** | `agent-native` |
 | **Category** | [Communication Services](README.md) |
-| **Latest-month signal** | Latest release is still [v0.1.2](https://github.com/TryCaspian/caspian-sdk/releases/tag/v0.1.2); 973 stars; last push 2026-08-25; root `LICENSE` is still AGPL-3.0 while the README license section still says Apache-2.0; [SKILL.md](https://api.trycaspianai.com/SKILL.md) returned HTTP 200 on 2026-09-26 ([repo metadata](https://api.github.com/repos/TryCaspian/caspian-sdk)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.1.2 published 2026-07-21 ([releases](https://github.com/TryCaspian/caspian-sdk/releases)); last push 2026-08-25; 972 stars; GitHub SPDX AGPL-3.0; official site HTTP 200 (The Constructor); Homepage title is still "The Constructor"; [SKILL.md](https://api.trycaspianai.com/SKILL.md) HTTP 200 and still opens with the channel SDK.; [repo metadata](https://api.github.com/repos/TryCaspian/caspian-sdk) |
+| **Verified at** | 2026-11-17 |
 | **License** | **The root repository is AGPL-3.0 according to its actual [`LICENSE`](https://github.com/TryCaspian/caspian-sdk/blob/main/LICENSE) and GitHub metadata, despite the root README's Apache-2.0 badge/text.** The [Python](https://github.com/TryCaspian/caspian-sdk/blob/main/sdks/python/LICENSE) and [TypeScript](https://github.com/TryCaspian/caspian-sdk/blob/main/sdks/typescript/LICENSE) SDK subdirectories separately carry MIT license files; verify the scope of the artifact you use. |
 
 ---
@@ -20,7 +20,7 @@
 
 https://trycaspianai.com
 
-On 2026-09-26 the page title was **"The Constructor"**. The meta description still reads **"Caspian: the AI infrastructure stack for self-sovereign agents and their relationships with humans."** The hosted skill at `https://api.trycaspianai.com/SKILL.md` still describes the channel SDK.
+Rechecked 2026-11-17: the page title is still **"The Constructor"**, and the page leads with a self-replication manifesto. The hosted skill at `https://api.trycaspianai.com/SKILL.md` still opens with the channel SDK (“one handler, every channel”). The GitHub description is still the agent communication SDK.
 
 ---
 

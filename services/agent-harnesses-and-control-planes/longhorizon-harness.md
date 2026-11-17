@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | MIT |
-| **Latest-month signal** | [v0.1.7](https://github.com/AMAP-ML/LongHorizon-Harness/releases/tag/v0.1.7) released 2026-08-20; 1,628 stars; license MIT; last push 2026-08-20; [lh-harness.pages.dev](https://lh-harness.pages.dev) returned HTTP 200 on 2026-09-26 ([repo metadata](https://api.github.com/repos/AMAP-ML/LongHorizon-Harness)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.1.8 published 2026-10-21 ([releases](https://github.com/AMAP-ML/LongHorizon-Harness/releases)); last push 2026-11-11; 1874 stars; GitHub SPDX MIT; official site HTTP 200 (LongHorizon-Harness / Advancing Long-Horizon Agents for Real-World Tasks); [repo metadata](https://api.github.com/repos/AMAP-ML/LongHorizon-Harness) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

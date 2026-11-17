@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/agent-harnesses-and-control-planes/claude-hud.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/claude-hud.md"
 tagline: "A Claude Code plugin that shows what's happening"
-verified_at: "2026-09-30"
+verified_at: "2026-11-17"
 website: "https://github.com/jarrodwatts/claude-hud"
 repository: "https://github.com/jarrodwatts/claude-hud"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/jarrodwatts/claude-hud"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unknown</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">documentation</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-30</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -77,10 +77,11 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-30**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/jarrodwatts/claude-hud/releases/tag/v0.8.0
+- https://github.com/jarrodwatts/claude-hud/releases
+- https://api.github.com/repos/jarrodwatts/claude-hud
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/agent-harnesses-and-control-planes/' | relative_url }}"><small>Collection</small><strong>← Agent Harnesses &amp; Operator Surfaces</strong></a>

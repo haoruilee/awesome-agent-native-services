@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | MIT (root `LICENSE` file, confirmed 2026-09-26) |
-| **Latest-month signal** | [v0.21.6](https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.21.6) released 2026-09-21; 33,371 stars; root `LICENSE` is MIT; [oh-my-codex.dev](https://oh-my-codex.dev) returned HTTP 200 on 2026-09-26 ([repo metadata](https://api.github.com/repos/Yeachan-Heo/oh-my-codex)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.22.10 published 2026-11-16 ([releases](https://github.com/Yeachan-Heo/oh-my-codex/releases)); last push 2026-11-16; 33794 stars; GitHub SPDX MIT; official site HTTP 200 (oh-my-codex - Your codex is not alone); [repo metadata](https://api.github.com/repos/Yeachan-Heo/oh-my-codex) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

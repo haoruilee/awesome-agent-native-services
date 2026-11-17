@@ -7,8 +7,8 @@
 | **Website** | https://github.com/perplexityai/numbat |
 | **Docs** | https://github.com/perplexityai/numbat/tree/main/docs |
 | **GitHub** | https://github.com/perplexityai/numbat |
-| **Latest-month signal** | [v0.2.0](https://github.com/perplexityai/numbat/releases/tag/v0.2.0) released 2026-08-17; 1,073 stars; license Apache-2.0; repository `pushed_at` 2026-09-15 and default-branch commit 2026-08-17 ([repo metadata](https://api.github.com/repos/perplexityai/numbat)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.3.0 published 2026-10-19 ([releases](https://github.com/perplexityai/numbat/releases)); last push 2026-11-16; 1165 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (GitHub - perplexityai/numbat: Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction. · GitHub); [repo metadata](https://api.github.com/repos/perplexityai/numbat) |
+| **Verified at** | 2026-11-17 |
 | **Classification** | `agent-native` |
 | **Category** | [Observability & Tracing Services](README.md) |
 | **License** | Apache-2.0 |

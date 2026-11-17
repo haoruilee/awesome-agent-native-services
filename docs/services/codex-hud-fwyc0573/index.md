@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/agent-harnesses-and-control-planes/codex-hud-fwyc0573.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/codex-hud-fwyc0573.md"
 tagline: "Real-time statusline HUD for OpenAI Codex CLI. Lightweight, zero-config, works inside tmux"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://github.com/fwyc0573/codex-hud"
 repository: "https://github.com/fwyc0573/codex-hud"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/fwyc0573/codex-hud"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">CLI</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -77,10 +77,10 @@ There is no REST API, language SDK, or MCP transport.
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/fwyc0573/codex-hud/releases/tag/v1.2
+- https://github.com/fwyc0573/codex-hud/releases
 - https://api.github.com/repos/fwyc0573/codex-hud
 
 <nav class="service-page__nav" aria-label="Service placement">

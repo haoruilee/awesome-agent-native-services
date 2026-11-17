@@ -7,8 +7,8 @@
 | **Website** | https://axern.cofy-x.space |
 | **Docs** | https://axern.cofy-x.space/getting-started/ |
 | **GitHub** | https://github.com/cofy-x/axern |
-| **Latest-month signal** | [v0.11.4](https://github.com/cofy-x/axern/releases/tag/v0.11.4) released 2026-09-24; 66 stars on 2026-09-26 (the 2026-08-13 snapshot recorded 232); license Apache-2.0; [axern.cofy-x.space](https://axern.cofy-x.space) returned HTTP 200 ([repo metadata](https://api.github.com/repos/cofy-x/axern)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.13.0 published 2026-11-08 ([releases](https://github.com/cofy-x/axern/releases)); last push 2026-11-13; 65 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (Axern — Self-hosted execution for AI agents); [repo metadata](https://api.github.com/repos/cofy-x/axern) |
+| **Verified at** | 2026-11-17 |
 | **Classification** | `agent-native` |
 | **Category** | [Code Execution Services](README.md) |
 | **License** | Apache-2.0 |

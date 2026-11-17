@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Agent Harnesses & Operator Surfaces](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | Show HN 2026-09-15 ([item 49713894](https://news.ycombinator.com/item?id=49713894)); Amazon-developed OSS inbox for background agent runs |
-| **Verified at** | 2026-09-20 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v1.3.0 published 2026-11-10 ([releases](https://github.com/pizza-bot-app/pizza-bot/releases)); last push 2026-11-13; 563 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (GitHub - pizza-bot-app/pizza-bot: A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph. · GitHub); [repo metadata](https://api.github.com/repos/pizza-bot-app/pizza-bot) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

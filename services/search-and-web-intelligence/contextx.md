@@ -8,8 +8,8 @@
 | **Docs** | https://github.com/akasakariko/ContextX/blob/main/README.en.md |
 | **GitHub** | https://github.com/akasakariko/ContextX |
 | **Public MCP** | `https://mcp.twitter.monster/mcp` |
-| **Latest-month signal** | Repo moved from `KayanoLiam/ContextX` to `akasakariko/ContextX` (checked 2026-11-03). Still no GitHub release and still no `LICENSE` file; 175 stars; last push 2026-09-09. README still documents the public MCP at [mcp.twitter.monster/mcp](https://mcp.twitter.monster/mcp), which on 2026-09-26 answered HTTP 406 until the client accepted both `application/json` and `text/event-stream` ([repo metadata](https://api.github.com/repos/akasakariko/ContextX)) |
-| **Verified at** | 2026-09-26 |
+| **Latest-month signal** | Checked 2026-11-17: no GitHub release; last push 2026-09-09; 182 stars; GitHub reports no SPDX license; official site HTTP 200 (GitHub - akasakariko/ContextX: A free remote MCP server offering normal (Grok 4.3) and deep (Grok 4.20 Multi-Agent) search. No API keys required, streaming support prevents gateway); Still no GitHub release and no LICENSE file; last push remains 2026-09-09.; [repo metadata](https://api.github.com/repos/akasakariko/ContextX) |
+| **Verified at** | 2026-11-17 |
 | **Classification** | `agent-native` |
 | **Category** | [Search & Web Intelligence Services](README.md) |
 | **License** | ⚠️ No repository license detected as of 2026-09-26 ([GitHub metadata](https://api.github.com/repos/akasakariko/ContextX)) |

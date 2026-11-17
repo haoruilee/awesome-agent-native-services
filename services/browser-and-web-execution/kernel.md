@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Browser & Web Execution Services](README.md) |
 | **License** | Apache-2.0 (`kernel/kernel-images`, `kernel/cli`) |
-| **Latest-month signal** | `kernel/kernel-images` last push 2026-09-29; [`kernel/cli` v0.41.0](https://github.com/kernel/cli/releases/tag/v0.41.0) released 2026-09-24 (npm `@onkernel/cli` 0.41.0); both Apache-2.0; hosted MCP server documented at [kernel.sh/docs/reference/mcp-server](https://www.kernel.sh/docs/reference/mcp-server) (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: no GitHub release; last push 2026-11-16; 1139 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (KERNEL: browser infrastructure for web agents and automations); [repo metadata](https://api.github.com/repos/kernel/kernel-images) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

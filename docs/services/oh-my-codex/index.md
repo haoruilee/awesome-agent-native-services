@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/agent-harnesses-and-control-planes/oh-my-codex.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/oh-my-codex.md"
 tagline: "Start Codex stronger, then let OMX add better prompts, workflows, and runtime help when the work grows"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://oh-my-codex.dev"
 repository: "https://github.com/Yeachan-Heo/oh-my-codex"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/Yeachan-Heo/oh-my-codex"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Optional</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">Agent Skill · MCP · CLI</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -83,11 +83,10 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://github.com/Yeachan-Heo/oh-my-codex/releases/tag/v0.21.6
-- https://oh-my-codex.dev
+- https://github.com/Yeachan-Heo/oh-my-codex/releases
 - https://api.github.com/repos/Yeachan-Heo/oh-my-codex
 
 <nav class="service-page__nav" aria-label="Service placement">

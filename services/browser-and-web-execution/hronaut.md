@@ -10,8 +10,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Browser & Web Execution](README.md) |
 | **Terms** | Proprietary source-available; paid after a 10-day trial |
-| **Latest-month signal** | [v2.8.6](https://github.com/hronaut/hronaut/releases/tag/v2.8.6) released 2026-09-30; last GitHub push 2026-09-30; repository created 2026-08-23; proprietary subscription/trial `LICENSE` (GitHub SPDX `NOASSERTION`); [hronaut.dev](https://hronaut.dev/), [setup](https://hronaut.dev/setup) and [client-topology](https://hronaut.dev/client-topology) HTTP 200; `skills/hronaut/SKILL.md` present (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v3.14.33 published 2026-11-15 ([releases](https://github.com/hronaut/hronaut/releases)); last push 2026-11-16; 6 stars; GitHub SPDX NOASSERTION; official site HTTP 200 (Hronaut — Give Your Coding Agent Its Own Browser); [repo metadata](https://api.github.com/repos/hronaut/hronaut) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

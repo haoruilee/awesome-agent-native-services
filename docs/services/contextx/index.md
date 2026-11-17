@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/search-and-web-intelligence/contextx.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/contextx.md"
 tagline: "contextX is a remote MCP server that provides normal search powered by Grok 4.3 and deep search powered by Grok 4.20 Multi-Agent 0309"
-verified_at: "2026-09-26"
+verified_at: "2026-11-17"
 website: "https://github.com/akasakariko/ContextX"
 repository: "https://github.com/akasakariko/ContextX"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/akasakariko/ContextX"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Unavailable</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">MCP · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-09-26</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-17</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -75,10 +75,9 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-09-26**.
+Last verified **2026-11-17**.
 
 Sources:
-- https://mcp.twitter.monster/mcp
 - https://api.github.com/repos/akasakariko/ContextX
 
 <nav class="service-page__nav" aria-label="Service placement">

@@ -11,8 +11,8 @@
 | **Classification** | `agent-native` |
 | **Category** | [Memory & State Services](README.md) |
 | **License** | Apache-2.0 |
-| **Latest-month signal** | [v0.9.29](https://github.com/rohitg00/agentmemory/releases/tag/v0.9.29) released 2026-08-16 (npm `@agentmemory/agentmemory` and `@agentmemory/mcp` 0.9.29); last GitHub push 2026-09-28; 29,029 stars; Apache-2.0 (verified 2026-09-30) |
-| **Verified at** | 2026-09-30 |
+| **Latest-month signal** | Checked 2026-11-17: latest release v0.9.33 published 2026-11-09 ([releases](https://github.com/rohitg00/agentmemory/releases)); last push 2026-11-16; 30410 stars; GitHub SPDX Apache-2.0; official site HTTP 200 (agentmemory: persistent memory for AI coding agents); [repo metadata](https://api.github.com/repos/rohitg00/agentmemory) |
+| **Verified at** | 2026-11-17 |
 
 ---
 

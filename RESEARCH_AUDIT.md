@@ -4,6 +4,44 @@ This note records the latest catalog-wide research and freshness pass. New
 services remain issue-first; this file records the scope, evidence window, and
 maintenance work that was actually completed.
 
+## Dossier re-check — 2026-11-17
+
+The 2026-11-03 heading above is the last catalog-wide audit. It does not
+refresh individual `verified_at` dates. Scheduled run
+[43898117873](https://github.com/haoruilee/awesome-agent-native-services/actions/runs/43898117873)
+failed on 2026-11-16 because 42 dossiers were older than 45 days. This section
+records a re-check of those 42 only.
+
+Each one was fetched on 2026-11-17: the official site and the GitHub
+repository metadata (archived flag, SPDX license, `pushed_at`, stars, latest
+release). None of the 42 repositories are archived. None of the official sites
+returned 404. `verified_at` is 2026-11-17 only on these dossiers, and each
+latest-month signal cites the live response. The rest of the catalog was not
+re-read.
+
+Facts that changed, kept in the dossiers:
+
+- **Cua** (`cua.ai`): homepage is now “Cua Spaces: combine all your computers into one supercomputer,” and it still says the computers are shared with agents. The repository description is still computer-use drivers and cross-OS sandboxes. MIT. Release `cua-spaces-v0.37.2` on 2026-11-17.
+- **SmolVM** (`CelestoAI/celesto`): `https://docs.celesto.ai/smolvm` redirects to `https://celesto.ai/docs/celesto/features/docker`, titled “Run Docker in a Celesto sandbox.” Apache-2.0. Release v0.1.14 on 2026-11-15.
+- **Caspian**: homepage title is still “The Constructor.” `SKILL.md` still describes the channel SDK, and the GitHub description is still the agent communication SDK. AGPL-3.0. Last push remains 2026-08-25.
+- **AgentGram**: homepage leads with “MCP Governance & Audit for Teams” and still shows an agent registry (748 agents, 6,659 posts). The GitHub description is still an agent social network. MIT.
+- **QM**: `https://qm.ycombinator.com` redirects to a sign-in page. The MIT repository and docs remain public. Release v0.1.18 on 2026-11-11.
+- **OpenAI Symphony**: `openai.com` blog URL returns HTTP 403 with a JavaScript challenge. `SPEC.md` returns HTTP 200. Apache-2.0. Release v0.0.3, last push 2026-09-15.
+- **Sallyport**: still Apache-2.0 and release v0.8.16. Last push remains 2026-07-19. Stars are 172, down from 192 on 2026-09-26.
+- **ContextX** and **SageRoute**: still public, still no GitHub release. ContextX still has no LICENSE file. Last pushes remain 2026-09-09 and 2026-07-29.
+
+The other 34 of the 42 were still at the same official site and repository, with a current license, push date, and release recorded in the dossier signal.
+
+### Tollex — maintenance, not delisted
+
+`https://tollex.org`, `/llms.txt`, and `/developers/` returned HTTP 503 on the
+2026-11-16 freshness run and again on 2026-11-17. The body is a page titled
+“TOLLEX — Maintenance.” DNS still resolves to Cloudflare. `api.tollex.org`
+returned HTTP 502. That is an outage or a maintenance hold, not proof the
+service was discontinued, so the dossier stays. The external canonical check
+still treats HTTP 503 as a failure, so that job stays red until those URLs
+answer again.
+
 ## Delisted — 2026-11-10
 
 The repository has no separate removed-services log. This section continues
