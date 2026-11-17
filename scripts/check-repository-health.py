@@ -159,11 +159,60 @@ def check_local_links() -> list[str]:
     from home_editorial import check_sources
 
     failures.extend(check_sources())
+    failures.extend(check_tollex_maintenance_record())
     if failures:
         return failures
 
     print(f"Local links and inventory passed: {checked} links, {len(services)} services")
     return []
+
+
+def check_tollex_maintenance_record() -> list[str]:
+    """A maintenance outage must not be exported as a sunset listing.
+
+    The generator treats the words sunset, discontinued, and shut down in the
+    Official Website section as an explicit end of service, then drops
+    onboarding and protocol metadata. Tollex is a registered domain returning
+    HTTP 503 with a maintenance page, so the catalog should keep the
+    previously documented surfaces and must not mark the listing sunset.
+    """
+    catalog = json.loads((ROOT / "catalog.json").read_text(encoding="utf-8"))
+    service = next(
+        item for item in catalog["services"] if item["id"] == "commerce-and-payments/tollex"
+    )
+    failures: list[str] = []
+    if service["lifecycle_status"] != "unknown":
+        failures.append(
+            "commerce-and-payments/tollex: maintenance outage exported as "
+            f"{service['lifecycle_status']}, expected unknown"
+        )
+    onboarding = service["onboarding"]
+    if onboarding.get("type") != "url" or onboarding.get("url") != "https://tollex.org/llms.txt":
+        failures.append(
+            "commerce-and-payments/tollex: documented URL onboarding was dropped"
+        )
+    for protocol in ("url-onboarding", "a2a", "openapi"):
+        if protocol not in service["protocols"]:
+            failures.append(
+                f"commerce-and-payments/tollex: documented protocol {protocol} was dropped"
+            )
+    if service["mcp_status"] != "unknown" or service["agent_skill_status"] != "available":
+        failures.append(
+            "commerce-and-payments/tollex: MCP or Agent Skill status changed "
+            f"({service['mcp_status']}, {service['agent_skill_status']})"
+        )
+    dossier = (ROOT / "services/commerce-and-payments/tollex.md").read_text(encoding="utf-8")
+    website = dossier.split("## Official Website", 1)[1].split("## Official Repo", 1)[0]
+    lowered = website.lower()
+    if "503" not in website or "maintenance" not in lowered:
+        failures.append("commerce-and-payments/tollex: maintenance note is missing")
+    for marker in ("sunset", "discontinued", "shut down"):
+        if marker in lowered:
+            failures.append(
+                "commerce-and-payments/tollex: Official Website contains "
+                f"{marker!r}, which the catalog generator reads as an ended service"
+            )
+    return failures
 
 
 def check_site_directory(site_dir: Path) -> list[str]:

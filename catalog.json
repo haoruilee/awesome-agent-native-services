@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "3b066d85bce4b772cf2b146c8438b00b871465cc1821d026d2f77947419502fc",
+      "value": "fd58315b45d0df5c29fc44fcd8b92a156317f6065a34c62f371a9a0e700c1d36",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -3858,23 +3858,29 @@
       "tagline": "The economic control plane for autonomous software.",
       "classification": "agent-native",
       "status": "listed",
-      "lifecycle_status": "sunset",
+      "lifecycle_status": "unknown",
       "category": "commerce-and-payments",
       "website": "https://tollex.org",
       "repository": null,
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/commerce-and-payments/tollex.md",
       "source_path": "services/commerce-and-payments/tollex.md",
       "onboarding": {
-        "type": "unspecified",
-        "pattern": "Unavailable",
-        "instruction": null,
-        "url": null
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://tollex.org/llms.txt, then follow https://tollex.org/docs/getting-started/",
+        "url": "https://tollex.org/llms.txt"
       },
       "protocols": [
-        "documentation"
+        "url-onboarding",
+        "agent-skill",
+        "a2a",
+        "openapi",
+        "json-rpc",
+        "http",
+        "api"
       ],
-      "mcp_status": "unavailable",
-      "agent_skill_status": "unavailable",
+      "mcp_status": "unknown",
+      "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
