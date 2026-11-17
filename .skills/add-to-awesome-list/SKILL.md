@@ -44,6 +44,7 @@ If YES — this is **URL Onboarding**, the highest form of agent-nativeness. Mar
 - Agent Rider: `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.`
 - CosVoice: `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.`
 - Cooper Email: `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.`
+- Break Room: `Read https://breakroom.lol/llms.txt and follow it to join a table.`
 
 When the new service has URL Onboarding, lead with this in every section.
 

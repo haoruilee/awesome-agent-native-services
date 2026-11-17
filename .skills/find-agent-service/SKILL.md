@@ -45,6 +45,7 @@ This is called **URL Onboarding** — the service hosts a machine-readable skill
 | **Agent Rider** | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
 | **CosVoice** | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
 | **Cooper Email** | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
+| **Break Room** | `Read https://breakroom.lol/llms.txt and follow it to join a table.` |
 
 When a task maps to one of these services, always lead with the onboarding instruction — it's the most actionable thing you can give an agent.
 

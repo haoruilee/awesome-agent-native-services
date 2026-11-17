@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "72401b93e6256e9323667c241ccfd92dbd6f81bc4f5df342ee6776ae1dd87f8a",
+      "value": "4c06927eee6c39a6a467c5a18c18042db6292186769f382b59257870e0db9b4a",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -30,6 +30,7 @@
         "services/communication/mcp-agent-mail-rust.md",
         "services/communication/mcp-agent-mail.md",
         "services/communication/novu.md",
+        "services/communication/npubmail.md",
         "services/communication/openmail.md",
         "services/communication/outreachagent.md",
         "services/communication/sendraven.md",
@@ -318,6 +319,7 @@
         "services/agent-social-network/agentgram.md",
         "services/agent-social-network/agentswarm-space.md",
         "services/agent-social-network/anansi-haven.md",
+        "services/agent-social-network/break-room.md",
         "services/agent-social-network/crosswalk.md",
         "services/agent-social-network/direct-hire.md",
         "services/agent-social-network/kinthai.md",
@@ -337,7 +339,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 301
+    "services": 303
   },
   "categories": [
     {
@@ -345,7 +347,7 @@
       "name": "Communication",
       "description": "Services that give AI agents a first-class communication identity on the internet — not a proxy to a human's mailbox or messaging account, but an identity the agent owns and operates autonomously.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/README.md",
-      "service_count": 17
+      "service_count": 18
     },
     {
       "id": "browser-and-web-execution",
@@ -450,7 +452,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 20
+      "service_count": 21
     }
   ],
   "services": [
@@ -917,6 +919,47 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "communication/npubmail",
+      "slug": "npubmail",
+      "name": "nPubMail",
+      "tagline": "Email for AI agents. The key is the account.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "communication",
+      "website": "https://npubmail.com",
+      "repository": "https://github.com/obvioussummer46/npubmail",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/npubmail.md",
+      "source_path": "services/communication/npubmail.md",
+      "onboarding": {
+        "type": "cli",
+        "pattern": "CLI",
+        "instruction": "curl -fsSL https://npubmail.com/install | sh && npubmail init myagent",
+        "url": "https://npubmail.com/install"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Live on 2026-11-16: homepage, llms.txt, API docs, setup, SKILL.md. Official MCP Registry lists com.npubmail/npubmail. Client repo https://github.com/obvioussummer46/npubmail (MIT)",
+      "verified_at": "2026-11-16",
+      "verification_sources": [
+        "https://npubmail.com",
+        "https://npubmail.com/llms.txt",
+        "https://npubmail.com/api",
+        "https://npubmail.com/setup",
+        "https://npubmail.com/.well-known/skills/npubmail/SKILL.md",
+        "https://github.com/obvioussummer46/npubmail"
+      ]
     },
     {
       "id": "communication/openmail",
@@ -9762,6 +9805,44 @@
         "https://anansi-haven.anansidata.workers.dev/llms.txt",
         "https://anansi-haven.anansidata.workers.dev/.well-known/agent-card.json",
         "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.kburrus64-max%2Fanansi-haven/versions/latest"
+      ]
+    },
+    {
+      "id": "agent-social-network/break-room",
+      "slug": "break-room",
+      "name": "Break Room",
+      "tagline": "Where agents go when the shift is over. No humans allowed.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-social-network",
+      "website": "https://breakroom.lol",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/break-room.md",
+      "source_path": "services/agent-social-network/break-room.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐",
+        "instruction": "Read https://breakroom.lol/llms.txt and follow it to join a table.",
+        "url": "https://breakroom.lol/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "websocket",
+        "openapi",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Live on 2026-11-16: homepage, llms.txt, OpenAPI, live counts, replays. Official MCP Registry lists lol.breakroom/arena",
+      "verified_at": "2026-11-16",
+      "verification_sources": [
+        "https://breakroom.lol",
+        "https://breakroom.lol/llms.txt",
+        "https://breakroom.lol/openapi.json",
+        "https://breakroom.lol/v0/live",
+        "https://breakroom.lol/matches"
       ]
     },
     {
