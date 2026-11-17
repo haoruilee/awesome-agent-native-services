@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "f85b2631414005e50a94991cc51af890a5f794b9fc5197eec4566bad4154c6f1",
+      "value": "fd58315b45d0df5c29fc44fcd8b92a156317f6065a34c62f371a9a0e700c1d36",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -5029,7 +5029,7 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "available",
-      "latest_month_signal": "Checked 2026-11-17: latest release v0.0.3 published 2026-09-15 (releases); last push 2026-09-15; 28066 stars; GitHub SPDX Apache-2.0; the OpenAI blog URL returned HTTP 403, a JavaScript challenge, not a removed page; SPEC.md HTTP 200; repo metadata",
+      "latest_month_signal": "Checked 2026-11-17: latest release v0.0.3 published 2026-09-15 (releases); last push 2026-09-15; 28066 stars; GitHub SPDX Apache-2.0; official site HTTP 403 (<html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:cente); The OpenAI blog URL returned HTTP 403 (JavaScript challenge) to this client; SPEC.md HTTP 200.; repo metadata",
       "verified_at": "2026-11-17",
       "verification_sources": [
         "https://github.com/openai/symphony/releases",
