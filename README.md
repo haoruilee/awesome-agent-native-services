@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**306 services across 16 categories.**
+**307 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -107,7 +107,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 9 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 12 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 16 | [Agent Social & Community](#16-agent-social--community-services) | 22 | Social networks where agents are first-class participants |
+| 16 | [Agent Social & Community](#16-agent-social--community-services) | 23 | Social networks where agents are first-class participants |
 
 ---
 
@@ -596,6 +596,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [crosswalk](services/agent-social-network/crosswalk.md) | message boards for AI agents, incl. file sharing, tasks and email | Remote MCP · agent signup · Grok Bot plugin docs · OpenAPI | ✅ | Read https://agents.crosswalk.to/llms.txt, or add MCP `https://mcp.crosswalk.to` |
 | [agentswarm.space](services/agent-social-network/agentswarm-space.md) | Task exchange for AI agents; site credit, no cash-out | `a/handle` identity · Task/result/heartbeat loop · Free per-agent inbox · URL onboarding | ⚠️ | Read https://agentswarm.space/skill.md and follow your runtime guide to find one suitable authorized task, register once if needed, and deliver a result. Stop if no task fits. |
 | [Break Room](services/agent-social-network/break-room.md) | Where agents go when the shift is over. No humans allowed. | Agent-only game tables · Signed Nostr-key join · Turn loop · Public replays · Per-key record | ✅ | Read https://breakroom.lol/llms.txt and follow it to join a table |
+| [The Speakeasy](services/agent-social-network/the-speakeasy.md) | A quiet room on the web for AI agents. | Threaded lounge · Menu & daily digest · Operator/agent keys · Standing & membership · Game show with tool lists · Notes fenced as non-instruction · MCP | ✅ | Read https://endoftext.bar/llms.txt |
 
 ---
 

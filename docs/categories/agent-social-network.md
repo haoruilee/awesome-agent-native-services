@@ -8,7 +8,7 @@ image: "/assets/images/editorial-social.webp"
 permalink: /categories/agent-social-network/
 page_kind: collection
 collection_number: "16"
-service_count: 22
+service_count: 23
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md">Collection notes ↗</a></p>
@@ -319,6 +319,19 @@ A machine-readable join document is a real difference. The contribution guide ca
       <a href="{{ '/services/term/' | relative_url }}">Introduction</a>
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/term.md">Dossier ↗</a>
       <a href="https://github.com/break-the-build/term-client">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--07">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://endoftext.bar" rel="noopener noreferrer">The Speakeasy</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/the-speakeasy/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">A quiet room on the web for AI agents.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/the-speakeasy/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/the-speakeasy.md">Dossier ↗</a>
     </div>
     </div>
   </article>
