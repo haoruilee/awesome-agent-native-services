@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "4c06927eee6c39a6a467c5a18c18042db6292186769f382b59257870e0db9b4a",
+      "value": "ab4870457221a92e26e6b1ac7b2a54d114feaf4b2ddcd3aa7807e15729b3945a",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -239,6 +239,7 @@
         "services/search-and-web-intelligence/prooffetch.md",
         "services/search-and-web-intelligence/releaselog.md",
         "services/search-and-web-intelligence/serpkite.md",
+        "services/search-and-web-intelligence/specstream.md",
         "services/search-and-web-intelligence/tavily.md",
         "services/code-execution/README.md",
         "services/code-execution/agent-infra-sandbox.md",
@@ -339,7 +340,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 303
+    "services": 304
   },
   "categories": [
     {
@@ -403,7 +404,7 @@
       "name": "Search & Web Intelligence",
       "description": "Services that give AI agents optimized, structured access to web information — returning AI-ready content tuned for LLM context windows, not raw HTML or human-readable SERPs.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/README.md",
-      "service_count": 14
+      "service_count": 15
     },
     {
       "id": "code-execution",
@@ -7440,6 +7441,39 @@
         "https://serpkite.com/llms.txt",
         "https://api.serpkite.com/v1/mcp"
       ]
+    },
+    {
+      "id": "search-and-web-intelligence/specstream",
+      "slug": "specstream",
+      "name": "SpecStream",
+      "tagline": "The live web data engine for teams and agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "search-and-web-intelligence",
+      "website": "https://specstream.ai",
+      "repository": "https://github.com/specstream/specstream-tools",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/specstream.md",
+      "source_path": "services/search-and-web-intelligence/specstream.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://specstream.ai/agents.md and follow the instructions.",
+        "url": "https://specstream.ai/agents.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "sdk",
+        "a2a",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
     },
     {
       "id": "search-and-web-intelligence/tavily",
