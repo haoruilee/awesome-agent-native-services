@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**303 services across 16 categories.**
+**304 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -101,7 +101,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 17 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 33 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 14 | LLM-optimized web search and content retrieval |
-| 10 | [Code Execution](#10-code-execution-services) | 18 | Secure sandboxes for AI-generated code |
+| 10 | [Code Execution](#10-code-execution-services) | 19 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
@@ -458,6 +458,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Latchkey](services/code-execution/latchkey.md) | CI your coding agents can run, read and fix | Fresh ephemeral runner per command · Failure bundles · Self-healing runners · Workflow dispatch | ✅ | `claude mcp add --transport http latchkey https://latchkey.dev/mcp --header "Authorization: Bearer $LATCHKEY_TOKEN"` — [docs](https://latchkey.dev/documentation/connect-your-ai-agent) |
 | [The Vibe Hosting](services/code-execution/the-vibe-hosting.md) | One prompt → root Linux → your project is live. | Account-on-first-call · Root Ubuntu server on HTTPS subdomain or own domain via CNAME (gVisor) · Wake-on-connect · Prepaid credit cap · URL onboarding | ⚠️ | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` or `npx skills add ladik33/thevibehosting-skill` |
 | [briq](services/code-execution/briq.md) | Cloud sandboxes for your agents | Linux microVM sandboxes · Postgres/Redis/any OCI image next to them · Fork · Sleep/wake · Per-agent policy | ✅ | `claude mcp add --transport http briq https://api.briq.cloud/mcp` — [briq.cloud/docs](https://briq.cloud/docs) |
+| [Buddy Sandboxes](services/code-execution/buddy-sandboxes.md) | Persistent Linux VMs for AI-generated code and agents | Persistent Ubuntu VM · In-sandbox `this` command (no ID, no token) · Agent role in permissions · Snapshots · HTTPS endpoints · Sleep/wake on traffic | ✅ | `claude mcp add --transport http buddy https://mcp.buddy.works/mcp` — [buddy.works/docs/sandboxes](https://buddy.works/docs/sandboxes) |
 
 ---
 
