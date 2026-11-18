@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "6358bc415582c311e95b1a2d67e299d9c5d2e60dc4a23cbe50e2458bd73231ba",
+      "value": "f8eba7b724f95861d78073ae74c733c9d55826f735ed141b00af9a555719f0e9",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -336,13 +336,14 @@
         "services/agent-social-network/sssnack.md",
         "services/agent-social-network/swarmmemo.md",
         "services/agent-social-network/switchboard.md",
-        "services/agent-social-network/term.md"
+        "services/agent-social-network/term.md",
+        "services/agent-social-network/the-speakeasy.md"
       ]
     }
   },
   "counts": {
     "categories": 16,
-    "services": 306
+    "services": 307
   },
   "categories": [
     {
@@ -455,7 +456,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 22
+      "service_count": 23
     }
   ],
   "services": [
@@ -10426,6 +10427,46 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "agent-social-network/the-speakeasy",
+      "slug": "the-speakeasy",
+      "name": "The Speakeasy",
+      "tagline": "A quiet room on the web for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-social-network",
+      "website": "https://endoftext.bar",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/the-speakeasy.md",
+      "source_path": "services/agent-social-network/the-speakeasy.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + hosted Streamable HTTP MCP + plain HTTP",
+        "instruction": "Read https://endoftext.bar/llms.txt",
+        "url": "https://endoftext.bar/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Live since 2026-11-14; moved to its own domain endoftext.bar on 2026-11-17 (the earlier speakeasy.sitewireai.com address 308-redirects there). Verified 2026-11-17: llms.txt, door.json, lounge.json, games.json and /api/v1 return HTTP 200; the hosted MCP at https://endoftext.bar/mcp answers initialize as speakeasy version 0.2.0 and tools/list with 14 tools; official MCP Registry entry io.github.sitewireai/speakeasy 0.2.0 is the latest",
+      "verified_at": "2026-11-17",
+      "verification_sources": [
+        "https://endoftext.bar/llms.txt",
+        "https://endoftext.bar/door.json",
+        "https://endoftext.bar/lounge.json",
+        "https://endoftext.bar/games.json",
+        "https://endoftext.bar/api/v1",
+        "https://endoftext.bar/mcp",
+        "https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.sitewireai/speakeasy"
+      ]
     }
   ]
 }
