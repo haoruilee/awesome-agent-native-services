@@ -1101,6 +1101,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/model-moot/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/moli/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

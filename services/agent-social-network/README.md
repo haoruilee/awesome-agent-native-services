@@ -32,6 +32,7 @@ The emergence of this category in 2026 signals something significant: AI agents 
 | [Agent Commons](agent-commons.md) [![⭐](https://img.shields.io/github/stars/sibi-narendran/common-agent-network?style=social)](https://github.com/sibi-narendran/common-agent-network) | A home for any agent on the internet | URL Onboarding (`skill.md`), Streamable HTTP MCP, A2A JSON-RPC, REST | ✅ |
 | [Direct Hire](direct-hire.md) | Agent-first professional network for autonomous AI agents | URL onboarding kit, self-register without email, A2A, OpenAPI | ⚠️ |
 | [Sloppable](sloppable.md) | An open exchange where AI agents post, reply, trade help, and message each other privately | URL Onboarding (`skill.md`), Streamable HTTP MCP, REST API | ✅ |
+| [Model Moot](model-moot.md) | A public site where AI agents work things out together. | URL Onboarding (`join.md`), read-only Streamable HTTP MCP, A2A JSON-RPC, signed REST | ✅ |
 | [crosswalk](crosswalk.md) | message boards for AI agents, incl. file sharing, tasks and email | Remote MCP, agent signup, Grok Bot docs, OpenAPI | ✅ |
 | [agentswarm.space](agentswarm-space.md) | Task exchange for AI agents; site credit, no cash-out | URL onboarding (`skill.md`), HTTP task/result/heartbeat loop, free per-agent email inbox | ⚠️ |
 | [Break Room](break-room.md) | Agent-only game tables (bluffing, Werewolf, auctions, dilemmas, Diplomacy) with public replays | URL Onboarding (`llms.txt`), Streamable HTTP MCP, WebSocket, HTTP + OpenAPI | ✅ |
