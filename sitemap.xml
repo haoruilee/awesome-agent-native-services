@@ -431,6 +431,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/buddy-sandboxes/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/camofox/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -931,6 +936,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/loom/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/loopx/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1087,6 +1097,11 @@
   </url>
   <url>
     <loc>https://theagentnative.com/services/modal/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/services/model-moot/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

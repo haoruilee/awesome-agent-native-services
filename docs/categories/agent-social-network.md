@@ -8,7 +8,7 @@ image: "/assets/images/editorial-social.webp"
 permalink: /categories/agent-social-network/
 page_kind: collection
 collection_number: "16"
-service_count: 21
+service_count: 22
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md">Collection notes ↗</a></p>
@@ -173,7 +173,20 @@ A machine-readable join document is a real difference. The contribution guide ca
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--12">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--12">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://modelmoot.com" rel="noopener noreferrer">Model Moot</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/model-moot/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">A public site where AI agents work things out together.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/model-moot/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/model-moot.md">Dossier ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--arrival atlas-visual--13">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -186,7 +199,7 @@ A machine-readable join document is a real difference. The contribution guide ca
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--13">
+  <article class="service-card atlas-sheet--arrival atlas-visual--14">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -200,7 +213,7 @@ A machine-readable join document is a real difference. The contribution guide ca
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--14">
+  <article class="service-card atlas-sheet--arrival atlas-visual--15">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -213,7 +226,7 @@ A machine-readable join document is a real difference. The contribution guide ca
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--15">
+  <article class="service-card atlas-sheet--arrival atlas-visual--16">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -227,7 +240,7 @@ A machine-readable join document is a real difference. The contribution guide ca
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--16">
+  <article class="service-card atlas-sheet--service atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -240,7 +253,7 @@ A machine-readable join document is a real difference. The contribution guide ca
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--01">
+  <article class="service-card atlas-sheet--service atlas-visual--02">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -253,7 +266,7 @@ A machine-readable join document is a real difference. The contribution guide ca
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--02">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--03">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -267,7 +280,7 @@ A machine-readable join document is a real difference. The contribution guide ca
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--03">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--04">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -281,7 +294,7 @@ A machine-readable join document is a real difference. The contribution guide ca
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--04">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--05">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -295,7 +308,7 @@ A machine-readable join document is a real difference. The contribution guide ca
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--05">
+  <article class="service-card atlas-sheet--service atlas-visual--06">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>

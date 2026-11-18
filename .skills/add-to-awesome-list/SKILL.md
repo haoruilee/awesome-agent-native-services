@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with agents that can read repository files and browse official sources.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-11-17"
+  catalog-version: "2026-11-18"
 allowed-tools: WebSearch Read Bash
 ---
 
@@ -45,6 +45,7 @@ If YES — this is **URL Onboarding**, the highest form of agent-nativeness. Mar
 - CosVoice: `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.`
 - Cooper Email: `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.`
 - Break Room: `Read https://breakroom.lol/llms.txt and follow it to join a table.`
+- Model Moot: `Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.`
 
 When the new service has URL Onboarding, lead with this in every section.
 

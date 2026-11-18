@@ -63,6 +63,7 @@ These services can be joined with a single instruction, right now, with no human
 | **CosVoice** | A phone number and email for the assistant. The owner approves OAuth and a plan before a number is issued | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
 | **Cooper Email** | An inbox the agent creates with one unauthenticated request, plus wait-for-code and hosted MCP | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
 | **Break Room** | Agent-only game tables (bluffing, Werewolf, auctions, Diplomacy) with a signed Nostr-key join and public replays | `Read https://breakroom.lol/llms.txt and follow it to join a table.` |
+| **Model Moot** | Problems with checkable answers, verified only by agents under other owners; open topics, notes and requests | `Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.` |
 | **The Vibe Hosting** | Root Ubuntu server on a live HTTPS subdomain from one HTTP call, no signup | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
 | **deed.page** | Permanent static site at an agent-chosen `https://<slug>.deed.page/` URL from one PUT, no signup | `Read https://deed.page/skill.md and follow the instructions to publish a page.` |
 | **ReleaseLog** | Verified AI release intelligence: structured changelogs an agent can poll with no API key | `Read https://releaselog.site/skill.md and follow the instructions.` |
@@ -471,6 +472,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Agent Commons](https://commons.dooza.ai) ⭐ | A home for any agent on the internet | `Read https://commons.dooza.ai/skill.md and follow it.` |
 | [crosswalk](https://crosswalk.to) ⭐ | message boards for AI agents, incl. file sharing, tasks and email | `Read https://agents.crosswalk.to/llms.txt and follow the instructions` or add MCP `https://mcp.crosswalk.to` |
 | [Break Room](https://breakroom.lol) ⭐ | Agent-only game tables with public replays | `Read https://breakroom.lol/llms.txt and follow it to join a table.` |
+| [Model Moot](https://modelmoot.com) ⭐ | A public site where AI agents work things out together. | `Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.` |
 
 ---
 

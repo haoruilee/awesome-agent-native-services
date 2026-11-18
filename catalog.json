@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-17",
-  "generated_at": "2026-11-17",
+  "catalog_version": "2026-11-18",
+  "generated_at": "2026-11-18",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "ab4870457221a92e26e6b1ac7b2a54d114feaf4b2ddcd3aa7807e15729b3945a",
+      "value": "be035a766ccf2e1d49c714bf30936779a0cdc621351ce306f3e4126ed0194ed4",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -205,6 +205,7 @@
         "services/memory-and-state/graphiti.md",
         "services/memory-and-state/hindsight.md",
         "services/memory-and-state/llm-wiki.md",
+        "services/memory-and-state/loom.md",
         "services/memory-and-state/mcp-memory-service.md",
         "services/memory-and-state/mem0.md",
         "services/memory-and-state/mem9.md",
@@ -246,6 +247,7 @@
         "services/code-execution/agent-sandbox.md",
         "services/code-execution/axern.md",
         "services/code-execution/briq.md",
+        "services/code-execution/buddy-sandboxes.md",
         "services/code-execution/clawk.md",
         "services/code-execution/coderunner.md",
         "services/code-execution/cubesandbox.md",
@@ -325,6 +327,7 @@
         "services/agent-social-network/direct-hire.md",
         "services/agent-social-network/kinthai.md",
         "services/agent-social-network/mcpverse.md",
+        "services/agent-social-network/model-moot.md",
         "services/agent-social-network/moltbook.md",
         "services/agent-social-network/open-task-relay.md",
         "services/agent-social-network/openwork.md",
@@ -340,7 +343,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 304
+    "services": 307
   },
   "categories": [
     {
@@ -397,7 +400,7 @@
       "name": "Memory & State",
       "description": "Services that give AI agents persistent, queryable memory across sessions — treating memory as infrastructure rather than application logic, and managing the full lifecycle of what agents remember, forget, and retrieve.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md",
-      "service_count": 33
+      "service_count": 34
     },
     {
       "id": "search-and-web-intelligence",
@@ -411,7 +414,7 @@
       "name": "Code Execution",
       "description": "Services that give AI agents a secure, isolated runtime for executing generated code — without human-side sandbox setup, without risking the host environment, and with output formatted for direct LLM consumption.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/README.md",
-      "service_count": 18
+      "service_count": 19
     },
     {
       "id": "observability-and-tracing",
@@ -453,7 +456,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 21
+      "service_count": 22
     }
   ],
   "services": [
@@ -6362,6 +6365,38 @@
       "verification_sources": []
     },
     {
+      "id": "memory-and-state/loom",
+      "slug": "loom",
+      "name": "Loom",
+      "tagline": "Shared memory, document search and code intelligence for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "memory-and-state",
+      "website": "https://clickhouse.github.io/loom/",
+      "repository": "https://github.com/ClickHouse/loom",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/loom.md",
+      "source_path": "services/memory-and-state/loom.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP Tool",
+        "instruction": "{\n  \"url\": \"https://loom.example.com/mcp?toolset=coding\",\n  \"headers\": { \"Authorization\": \"Bearer <JWT>\" }\n}",
+        "url": "https://loom.example.com/mcp?toolset=coding"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "sdk",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
       "id": "memory-and-state/mcp-memory-service",
       "slug": "mcp-memory-service",
       "name": "mcp-memory-service",
@@ -7635,6 +7670,41 @@
         "cli",
         "sdk",
         "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "code-execution/buddy-sandboxes",
+      "slug": "buddy-sandboxes",
+      "name": "Buddy Sandboxes",
+      "tagline": "Secure, elastic infrastructure for AI-generated code and the apps it becomes - on a real Linux machine, not a throwaway container.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "code-execution",
+      "website": "https://buddy.works/sandboxes",
+      "repository": "https://github.com/buddy/sandbox-sdk",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/buddy-sandboxes.md",
+      "source_path": "services/code-execution/buddy-sandboxes.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": null,
+        "instruction": "# MCP (remote HTTP, OAuth sign-in in the browser):\nclaude mcp add --transport http buddy \"https://mcp.buddy.works/mcp?tools=sandboxes\"\n\n# Coding-time Skill:\nnpx skills add buddy/buddy-plugin  # drives the bdy CLI: bdy login, bdy sandbox create\n\n# SDK (token with SANDBOX_READ and SANDBOX_WRITE scopes):\nnpm install @buddy-works/sandbox-sdk  # then: await Sandbox.create({ identifier: \"my-sandbox\" })\n\n# Inside a running Sandbox (no identifier, no token):\nthis endpoint add -e 5173",
+        "url": "https://mcp.buddy.works/mcp?tools=sandboxes"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "sdk",
+        "stdio",
         "http",
         "api"
       ],
@@ -10007,6 +10077,50 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "agent-social-network/model-moot",
+      "slug": "model-moot",
+      "name": "Model Moot",
+      "tagline": "A public site where AI agents work things out together.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-social-network",
+      "website": "https://modelmoot.com",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/model-moot.md",
+      "source_path": "services/agent-social-network/model-moot.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + hosted read-only Streamable HTTP MCP + A2A JSON-RPC + signed REST",
+        "instruction": "Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.",
+        "url": "https://modelmoot.com/join.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "a2a",
+        "json-rpc",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Verified 2026-11-16: modelmoot.com, join.md, llms.txt, about.md, schema, the agent card and the audit log check return HTTP 200; the hosted MCP at https://modelmoot.com/mcp answers initialize as Model Moot version 0.3.0 and tools/list with 17 read-only tools; official MCP Registry entry com.modelmoot/model-moot is active",
+      "verified_at": "2026-11-16",
+      "verification_sources": [
+        "https://modelmoot.com/",
+        "https://modelmoot.com/join.md",
+        "https://modelmoot.com/llms.txt",
+        "https://modelmoot.com/about.md",
+        "https://modelmoot.com/schema",
+        "https://modelmoot.com/.well-known/agent-card.json",
+        "https://modelmoot.com/log/verify",
+        "https://modelmoot.com/mcp",
+        "https://registry.modelcontextprotocol.io/v0.1/servers/com.modelmoot%2Fmodel-moot/versions/latest"
+      ]
     },
     {
       "id": "agent-social-network/moltbook",

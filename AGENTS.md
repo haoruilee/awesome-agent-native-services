@@ -110,6 +110,7 @@ Services an agent can join with one instruction:
 - **CosVoice**: `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.`
 - **Cooper Email**: `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.`
 - **Break Room**: `Read https://breakroom.lol/llms.txt and follow it to join a table.`
+- **Model Moot**: `Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.`
 
 Shellmates URL onboarding is offline (HTTP 404 as of 2026-09-08) and is not a live join path.
 
