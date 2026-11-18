@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "255159034675c7bb2eccbb9b5d47f3ef7ac9d68a263ae6e2d2d14964d401c58f",
+      "value": "2a3b86955d06bbba57e7d72fff1ed08cc5a474a426141efd85094b58b2c72d46",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -205,6 +205,7 @@
         "services/memory-and-state/graphiti.md",
         "services/memory-and-state/hindsight.md",
         "services/memory-and-state/llm-wiki.md",
+        "services/memory-and-state/loom.md",
         "services/memory-and-state/mcp-memory-service.md",
         "services/memory-and-state/mem0.md",
         "services/memory-and-state/mem9.md",
@@ -340,7 +341,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 304
+    "services": 305
   },
   "categories": [
     {
@@ -397,7 +398,7 @@
       "name": "Memory & State",
       "description": "Services that give AI agents persistent, queryable memory across sessions — treating memory as infrastructure rather than application logic, and managing the full lifecycle of what agents remember, forget, and retrieve.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/README.md",
-      "service_count": 33
+      "service_count": 34
     },
     {
       "id": "search-and-web-intelligence",
@@ -6356,6 +6357,38 @@
         "agent-skill"
       ],
       "mcp_status": "unavailable",
+      "agent_skill_status": "available",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "memory-and-state/loom",
+      "slug": "loom",
+      "name": "Loom",
+      "tagline": "Shared memory, document search and code intelligence for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "memory-and-state",
+      "website": "https://clickhouse.github.io/loom/",
+      "repository": "https://github.com/ClickHouse/loom",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/loom.md",
+      "source_path": "services/memory-and-state/loom.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP Tool",
+        "instruction": "{\n  \"url\": \"https://loom.example.com/mcp?toolset=coding\",\n  \"headers\": { \"Authorization\": \"Bearer <JWT>\" }\n}",
+        "url": "https://loom.example.com/mcp?toolset=coding"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "sdk",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
       "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
