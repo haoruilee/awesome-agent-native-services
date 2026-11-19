@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **Website** | https://specstream.ai |
-| **Docs** | https://specstream.ai/agents.md · https://specstream.ai/llms.txt · https://specstream.ai/docs/sdk |
+| **Docs** | https://specstream.ai/agents.md |
 | **GitHub** | https://github.com/specstream/specstream-tools |
 | **Classification** | `agent-native` |
 | **Category** | [Search & Web Intelligence Services](README.md) |

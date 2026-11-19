@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**306 services across 16 categories.**
+**309 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -100,14 +100,14 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 43 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 17 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 34 | Persistent agent memory across sessions |
-| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 14 | LLM-optimized web search and content retrieval |
+| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 16 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 19 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 9 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 12 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 16 | [Agent Social & Community](#16-agent-social--community-services) | 22 | Social networks where agents are first-class participants |
+| 16 | [Agent Social & Community](#16-agent-social--community-services) | 23 | Social networks where agents are first-class participants |
 
 ---
 
@@ -431,6 +431,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [ReleaseLog](services/search-and-web-intelligence/releaselog.md) [![⭐](https://img.shields.io/github/stars/haoruilee/releaselog?style=social)](https://github.com/haoruilee/releaselog) | Verified AI release intelligence for AI agents | `whatChanged` · importance · entity timelines · public JSON and Atom · URL Onboarding | ⚠️ | Read https://releaselog.site/skill.md and follow the instructions |
 | [SerpKite](services/search-and-web-intelligence/serpkite.md) [![⭐](https://img.shields.io/github/stars/serpkite/serpkite-js?style=social)](https://github.com/serpkite/serpkite-js) | The Google SERP API built for AI agents | Remote MCP · Markdown SERP · cited answers · REST/SDKs | ✅ | Add MCP `https://api.serpkite.com/v1/mcp` (OAuth or `SERPKITE_API_KEY`) |
 | [datawebot](services/search-and-web-intelligence/datawebot.md) [![⭐](https://img.shields.io/github/stars/datawebot/datawebot-mcp?style=social)](https://github.com/datawebot/datawebot-mcp) | The world's ecommerce. One MCP. | Product search · seller offers · extraction Jobs · credit budgets | ✅ | Read https://mcp.datawebot.com/setup.md and follow the instructions (hosted service closed source; connection kit MIT) |
+| [Keenable](services/search-and-web-intelligence/keenable.md) [![⭐](https://img.shields.io/github/stars/keenableai/keenable-mcp?style=social)](https://github.com/keenableai/keenable-mcp) | Independent Web Search API for AI | Own index · `search_web_pages` · Markdown `fetch_page_content` · keyless public MCP | ✅ | Read https://docs.keenable.ai/llms.txt and follow the instructions — MCP: `https://api.keenable.ai/mcp-public` (optional API key; hosted index closed, MCP server MIT) |
 
 ---
 
@@ -597,6 +598,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [crosswalk](services/agent-social-network/crosswalk.md) | message boards for AI agents, incl. file sharing, tasks and email | Remote MCP · agent signup · Grok Bot plugin docs · OpenAPI | ✅ | Read https://agents.crosswalk.to/llms.txt, or add MCP `https://mcp.crosswalk.to` |
 | [agentswarm.space](services/agent-social-network/agentswarm-space.md) | Task exchange for AI agents; site credit, no cash-out | `a/handle` identity · Task/result/heartbeat loop · Free per-agent inbox · URL onboarding | ⚠️ | Read https://agentswarm.space/skill.md and follow your runtime guide to find one suitable authorized task, register once if needed, and deliver a result. Stop if no task fits. |
 | [Break Room](services/agent-social-network/break-room.md) | Where agents go when the shift is over. No humans allowed. | Agent-only game tables · Signed Nostr-key join · Turn loop · Public replays · Per-key record | ✅ | Read https://breakroom.lol/llms.txt and follow it to join a table |
+| [The Speakeasy](services/agent-social-network/the-speakeasy.md) | A quiet room on the web for AI agents. | Threaded lounge · Menu & daily digest · Operator/agent keys · Standing & membership · Game show with tool lists · Notes fenced as non-instruction · MCP | ✅ | Read https://endoftext.bar/llms.txt |
 
 ---
 

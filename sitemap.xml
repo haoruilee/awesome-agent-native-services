@@ -841,6 +841,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/keenable/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/kernel/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1557,6 +1562,11 @@
   </url>
   <url>
     <loc>https://theagentnative.com/services/term/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/services/the-speakeasy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

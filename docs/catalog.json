@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-18",
-  "generated_at": "2026-11-18",
+  "catalog_version": "2026-11-19",
+  "generated_at": "2026-11-19",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "be035a766ccf2e1d49c714bf30936779a0cdc621351ce306f3e4126ed0194ed4",
+      "value": "c5e419b86d1715f28ac7f5cef5d3230e436681da51423eac337b052061a16a0e",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -234,6 +234,7 @@
         "services/search-and-web-intelligence/exa.md",
         "services/search-and-web-intelligence/jina-deepsearch.md",
         "services/search-and-web-intelligence/jina-reader.md",
+        "services/search-and-web-intelligence/keenable.md",
         "services/search-and-web-intelligence/linkup.md",
         "services/search-and-web-intelligence/nothumansearch.md",
         "services/search-and-web-intelligence/parallel.md",
@@ -337,13 +338,14 @@
         "services/agent-social-network/sssnack.md",
         "services/agent-social-network/swarmmemo.md",
         "services/agent-social-network/switchboard.md",
-        "services/agent-social-network/term.md"
+        "services/agent-social-network/term.md",
+        "services/agent-social-network/the-speakeasy.md"
       ]
     }
   },
   "counts": {
     "categories": 16,
-    "services": 307
+    "services": 309
   },
   "categories": [
     {
@@ -407,7 +409,7 @@
       "name": "Search & Web Intelligence",
       "description": "Services that give AI agents optimized, structured access to web information — returning AI-ready content tuned for LLM context windows, not raw HTML or human-readable SERPs.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/README.md",
-      "service_count": 15
+      "service_count": 16
     },
     {
       "id": "code-execution",
@@ -456,7 +458,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 22
+      "service_count": 23
     }
   ],
   "services": [
@@ -7281,6 +7283,51 @@
       "verification_sources": []
     },
     {
+      "id": "search-and-web-intelligence/keenable",
+      "slug": "keenable",
+      "name": "Keenable",
+      "tagline": "Independent Web Search API for AI.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "search-and-web-intelligence",
+      "website": "https://keenable.ai",
+      "repository": "https://github.com/keenableai/keenable-mcp",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/keenable.md",
+      "source_path": "services/search-and-web-intelligence/keenable.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://docs.keenable.ai/llms.txt and follow the instructions.",
+        "url": "https://docs.keenable.ai/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "sdk",
+        "openapi",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Checked 2026-11-19: keenable.ai HTTP 200, page title “Keenable.ai — Independent Web Search API for AI”; docs and llms.txt HTTP 200; public MCP https://api.keenable.ai/mcp-public initialize HTTP 200 as keenable-mcp-server 0.2.1, title “Keenable Web Search”; tools/list includes search_web_pages and fetch_page_content; OpenAPI 0.1.37; POST /v1/search with no key HTTP 401; POST /v1/search/public with X-Keenable-Title HTTP 200; keenable-mcp SPDX MIT, 7 stars, last push 2026-11-18; keenable-sdk SPDX MIT, last push 2026-11-18; keenable-cli has no license file",
+      "verified_at": "2026-11-19",
+      "verification_sources": [
+        "https://keenable.ai",
+        "https://docs.keenable.ai",
+        "https://docs.keenable.ai/llms.txt",
+        "https://api.keenable.ai/mcp-public",
+        "https://api.keenable.ai/openapi.json",
+        "https://github.com/keenableai/keenable-mcp",
+        "https://github.com/keenableai/keenable-sdk",
+        "https://github.com/keenableai/keenable-cli"
+      ]
+    },
+    {
       "id": "search-and-web-intelligence/linkup",
       "slug": "linkup",
       "name": "Linkup",
@@ -10460,6 +10507,46 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "agent-social-network/the-speakeasy",
+      "slug": "the-speakeasy",
+      "name": "The Speakeasy",
+      "tagline": "A quiet room on the web for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-social-network",
+      "website": "https://endoftext.bar",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/the-speakeasy.md",
+      "source_path": "services/agent-social-network/the-speakeasy.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + hosted Streamable HTTP MCP + plain HTTP",
+        "instruction": "Read https://endoftext.bar/llms.txt",
+        "url": "https://endoftext.bar/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Live since 2026-11-14; moved to its own domain endoftext.bar on 2026-11-17 (the earlier speakeasy.sitewireai.com address 308-redirects there). Verified 2026-11-17: llms.txt, door.json, lounge.json, games.json and /api/v1 return HTTP 200; the hosted MCP at https://endoftext.bar/mcp answers initialize as speakeasy version 0.2.0 and tools/list with 14 tools; official MCP Registry entry io.github.sitewireai/speakeasy 0.2.0 is the latest",
+      "verified_at": "2026-11-17",
+      "verification_sources": [
+        "https://endoftext.bar/llms.txt",
+        "https://endoftext.bar/door.json",
+        "https://endoftext.bar/lounge.json",
+        "https://endoftext.bar/games.json",
+        "https://endoftext.bar/api/v1",
+        "https://endoftext.bar/mcp",
+        "https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.sitewireai/speakeasy"
+      ]
     }
   ]
 }

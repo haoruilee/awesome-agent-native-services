@@ -27,7 +27,7 @@ repository: "https://github.com/specstream/specstream-tools"
 
 <ul class="service-page__links">
 <li><a href="https://specstream.ai" rel="noopener noreferrer">Website ↗</a></li>
-<li><a href="https://specstream.ai/agents.md · https://specstream.ai/llms.txt · https://specstream.ai/docs/sdk" rel="noopener noreferrer">Docs ↗</a></li>
+<li><a href="https://specstream.ai/agents.md" rel="noopener noreferrer">Docs ↗</a></li>
 <li><a href="https://github.com/specstream/specstream-tools" rel="noopener noreferrer">Official repo ↗</a></li>
 <li><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/specstream.md" rel="noopener noreferrer">Full dossier on GitHub ↗</a></li>
 </ul>
