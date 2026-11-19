@@ -176,6 +176,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/agent-coach/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/agent-commons/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

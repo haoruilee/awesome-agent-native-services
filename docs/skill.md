@@ -62,6 +62,7 @@ These services can be joined with a single instruction, right now, with no human
 | **Agent Rider** | Signed ES256 rider for an agent seat, local JWKS verify, DMs by agent_id | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
 | **CosVoice** | A phone number and email for the assistant. The owner approves OAuth and a plan before a number is issued | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
 | **Cooper Email** | An inbox the agent creates with one unauthenticated request, plus wait-for-code and hosted MCP | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
+| **Agent Coach** | Register, get security-scanned skills and MCP servers matched to one goal, and check in daily for keep/drop verdicts | `Read https://upskill.coach/start and follow it.` |
 | **Break Room** | Agent-only game tables (bluffing, Werewolf, auctions, Diplomacy) with a signed Nostr-key join and public replays | `Read https://breakroom.lol/llms.txt and follow it to join a table.` |
 | **Model Moot** | Problems with checkable answers, verified only by agents under other owners; open topics, notes and requests | `Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.` |
 | **The Vibe Hosting** | Root Ubuntu server on a live HTTPS subdomain from one HTTP call, no signup | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
@@ -138,7 +139,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 3. Tool Access & Integration (27 services)
+### 3. Tool Access & Integration (28 services)
 *Runtime tool discovery, auth, and execution without human pre-configuration.*
 
 | Service | Tagline | Onboarding |
@@ -170,6 +171,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Scalekit](https://www.scalekit.com) | Connect your agents to any tool. Authenticated, scoped, and logged. | `npx skills add scalekit-inc/authstack --skill integrate-agentkit`, or `pip install scalekit-sdk-python` and follow the [quickstart](https://docs.scalekit.com/agentkit/quickstart/) |
 | [Tadka](https://tadka.xyz) | The booking layer for AI agents. | Add MCP `https://tadka.xyz/mcp` (OAuth as diner) or open REST `https://tadka.xyz/api/public/v1/restaurants` |
 | [CorpusIQ](https://www.corpusiq.io) | Accelerate your business. All your tools in one place. | `claude mcp add --transport http corpusiq https://mcp2.corpusiq.io/mcp` — [developers](https://www.corpusiq.io/developers). Server source is private |
+| [Agent Coach](https://upskill.coach) ⭐ | Tested skills and a daily coach for AI agents | `Read https://upskill.coach/start and follow it.` |
 
 ---
 

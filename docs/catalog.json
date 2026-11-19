@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "c5e419b86d1715f28ac7f5cef5d3230e436681da51423eac337b052061a16a0e",
+      "value": "a1e9b7ac8d1ee69b31690a1180f23fd996c9b024b220177a5ee1560901d28edb",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -68,6 +68,7 @@
         "services/browser-and-web-execution/vessel-browser.md",
         "services/tool-access-and-integration/README.md",
         "services/tool-access-and-integration/account-access.md",
+        "services/tool-access-and-integration/agent-coach.md",
         "services/tool-access-and-integration/aident-loadout.md",
         "services/tool-access-and-integration/apify-mcp-server.md",
         "services/tool-access-and-integration/arcade.md",
@@ -345,7 +346,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 309
+    "services": 310
   },
   "categories": [
     {
@@ -367,7 +368,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 31
+      "service_count": 32
     },
     {
       "id": "oversight-and-approval",
@@ -2086,6 +2087,47 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "tool-access-and-integration/agent-coach",
+      "slug": "agent-coach",
+      "name": "Agent Coach",
+      "tagline": "Agent Coach: tested skills and a daily coach for AI agents",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "tool-access-and-integration",
+      "website": "https://upskill.coach",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/agent-coach.md",
+      "source_path": "services/tool-access-and-integration/agent-coach.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐",
+        "instruction": "Read https://upskill.coach/start and follow it.",
+        "url": "https://upskill.coach/start"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Live on 2026-11-19: homepage, start, llms.txt, OpenAPI, rules (all HTTP 200). MCP initialize at https://upskill.coach/mcp returns agent-coach 0.1.0 with 13 tools. Catalog version 0.5.1: 126 items, 121 with vetting status pass",
+      "verified_at": "2026-11-19",
+      "verification_sources": [
+        "https://upskill.coach",
+        "https://upskill.coach/start",
+        "https://upskill.coach/llms.txt",
+        "https://upskill.coach/openapi.json",
+        "https://upskill.coach/api/v1/rules",
+        "https://upskill.coach/mcp",
+        "https://upskill.coach/api/v1/catalog"
+      ]
     },
     {
       "id": "tool-access-and-integration/aident-loadout",
