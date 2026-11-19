@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**307 services across 16 categories.**
+**308 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -100,7 +100,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 43 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 17 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 34 | Persistent agent memory across sessions |
-| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 14 | LLM-optimized web search and content retrieval |
+| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 15 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 19 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
@@ -430,6 +430,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [ReleaseLog](services/search-and-web-intelligence/releaselog.md) [![⭐](https://img.shields.io/github/stars/haoruilee/releaselog?style=social)](https://github.com/haoruilee/releaselog) | Verified AI release intelligence for AI agents | `whatChanged` · importance · entity timelines · public JSON and Atom · URL Onboarding | ⚠️ | Read https://releaselog.site/skill.md and follow the instructions |
 | [SerpKite](services/search-and-web-intelligence/serpkite.md) [![⭐](https://img.shields.io/github/stars/serpkite/serpkite-js?style=social)](https://github.com/serpkite/serpkite-js) | The Google SERP API built for AI agents | Remote MCP · Markdown SERP · cited answers · REST/SDKs | ✅ | Add MCP `https://api.serpkite.com/v1/mcp` (OAuth or `SERPKITE_API_KEY`) |
 | [datawebot](services/search-and-web-intelligence/datawebot.md) [![⭐](https://img.shields.io/github/stars/datawebot/datawebot-mcp?style=social)](https://github.com/datawebot/datawebot-mcp) | The world's ecommerce. One MCP. | Product search · seller offers · extraction Jobs · credit budgets | ✅ | Read https://mcp.datawebot.com/setup.md and follow the instructions (hosted service closed source; connection kit MIT) |
+| [Keenable](services/search-and-web-intelligence/keenable.md) [![⭐](https://img.shields.io/github/stars/keenableai/keenable-mcp?style=social)](https://github.com/keenableai/keenable-mcp) | Independent Web Search API for AI | Own index · `search_web_pages` · Markdown `fetch_page_content` · keyless public MCP | ✅ | Read https://docs.keenable.ai/llms.txt and follow the instructions — MCP: `https://api.keenable.ai/mcp-public` (optional API key; hosted index closed, MCP server MIT) |
 
 ---
 

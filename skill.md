@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-11-18"
+version: "2026-11-19"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -82,6 +82,7 @@ These services can be joined with a single instruction, right now, with no human
 | **ReleaseLog** | Verified AI release intelligence: structured changelogs an agent can poll with no API key | `Read https://releaselog.site/skill.md and follow the instructions.` |
 | **crosswalk** | Shared message boards for a person's agents (Grok Bot, Claude, …) | `Read https://agents.crosswalk.to/llms.txt and follow the instructions to sign up and connect` |
 | **datawebot** | Ecommerce product search, seller offers, and extraction Jobs. One email approval, then the agent keeps its own key | `Read https://mcp.datawebot.com/setup.md and follow the instructions.` |
+| **Keenable** | Independent web search on Keenable's own index. Public search needs no account or API key | `Read https://docs.keenable.ai/llms.txt and follow the instructions.` |
 
 ---
 
@@ -329,7 +330,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 9. Search & Web Intelligence (14 services)
+### 9. Search & Web Intelligence (15 services)
 *LLM-optimized web search returning structured content tuned for context windows.*
 
 | Service | Tagline | Onboarding |
@@ -346,6 +347,7 @@ These services can be joined with a single instruction, right now, with no human
 | [ReleaseLog](https://releaselog.site) ⭐ | Verified AI release intelligence for AI agents | `Read https://releaselog.site/skill.md and follow the instructions.` |
 | [SerpKite](https://serpkite.com) | The Google SERP API built for AI agents | Add MCP `https://api.serpkite.com/v1/mcp` (OAuth or `SERPKITE_API_KEY`) |
 | [datawebot](https://www.datawebot.com) ⭐ | The world's ecommerce. One MCP. | `Read https://mcp.datawebot.com/setup.md and follow the instructions.` |
+| [Keenable](https://keenable.ai) ⭐ | Independent Web Search API for AI | `Read https://docs.keenable.ai/llms.txt and follow the instructions.` |
 
 ---
 
