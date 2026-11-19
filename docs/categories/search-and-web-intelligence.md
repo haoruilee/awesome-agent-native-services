@@ -8,7 +8,7 @@ image: "/assets/images/editorial-search.webp"
 permalink: /categories/search-and-web-intelligence/
 page_kind: collection
 collection_number: "09"
-service_count: 15
+service_count: 16
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/README.md">Collection notes ↗</a></p>
@@ -219,6 +219,20 @@ Judge the output, not the word "search." Does the response include the source UR
     </div>
   </article>
   <article class="service-card atlas-sheet--service atlas-visual--15">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://specstream.ai" rel="noopener noreferrer">SpecStream</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/specstream/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">The live web data engine for teams and agents.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/specstream/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/specstream.md">Dossier ↗</a>
+      <a href="https://github.com/specstream/specstream-tools">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--service atlas-visual--16">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>

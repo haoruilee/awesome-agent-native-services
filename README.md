@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**308 services across 16 categories.**
+**309 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -100,7 +100,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 43 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 17 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 34 | Persistent agent memory across sessions |
-| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 15 | LLM-optimized web search and content retrieval |
+| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 16 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 19 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
@@ -418,6 +418,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 |---|---|---|---|---|
 | [contextX](services/search-and-web-intelligence/contextx.md) [![⭐](https://img.shields.io/github/stars/akasakariko/ContextX?style=social)](https://github.com/akasakariko/ContextX) | Remote MCP search powered by Grok normal and multi-agent deep search | `grok_search` · `grok_deep_search` · Streamable HTTP · read-only public endpoint | ✅ | Connect MCP to `https://mcp.twitter.monster/mcp`; note that upstream publishes no auth, release, or license |
 | [Jina DeepSearch](services/search-and-web-intelligence/jina-deepsearch.md) | Agentic search and deep research API for AI applications | Deep search · iterative research · cited answers · HTTP API | ⚠️ | Follow the [Jina DeepSearch API docs](https://jina.ai/deepsearch) |
+| [SpecStream](services/search-and-web-intelligence/specstream.md) | The live web data engine for teams and agents | Search/Extract APIs · x402/MPP pay per call · Agent sign-up · URL Onboarding | ✅ | Read https://specstream.ai/agents.md and follow the instructions — MCP: `https://api.specstream.ai/mcp` (API key or OAuth) |
 | [Tavily](services/search-and-web-intelligence/tavily.md) [![⭐](https://img.shields.io/github/stars/tavily-ai/tavily-mcp?style=social)](https://github.com/tavily-ai/tavily-mcp) | Connect your agent to the web | Agent-optimized search · Multi-step research · Source attribution | ✅ | `npx skills add tavily-ai/skills` |
 | [Exa](services/search-and-web-intelligence/exa.md) | The search engine designed for AI | Neural/semantic search · `exa-code` for coding agents · Websets | ✅ | `pip install exa-py` then `exa.search(query)` |
 | [Parallel](services/search-and-web-intelligence/parallel.md) | The highest accuracy web search for your AI | Search/Task/FindAll/Monitor APIs · Citations · Official MCP | ✅ | `pip install parallel-web` — hosted Search MCP: `https://search.parallel.ai/mcp` · [task-mcp](https://github.com/parallel-web/task-mcp) |
