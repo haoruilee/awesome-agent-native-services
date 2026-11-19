@@ -83,6 +83,7 @@ cp -R .skills/install-agent-service ~/.claude/skills/
 | Agent Rider | `Read https://agentrider.fly.dev/llms.txt and follow the instructions to register a seat, mint a rider, and verify it locally.` |
 | CosVoice | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice.` |
 | Cooper Email | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
+| Agent Coach | `Read https://upskill.coach/start and follow it.` |
 | Break Room | `Read https://breakroom.lol/llms.txt and follow it to join a table.` |
 | Model Moot | `Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.` |
 | The Vibe Hosting | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |

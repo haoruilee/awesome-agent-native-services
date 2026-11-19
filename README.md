@@ -88,13 +88,13 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**309 services across 16 categories.**
+**310 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 18 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 31 | Remote browser and web data extraction for agents |
-| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 31 | Runtime tool discovery, auth, and execution |
+| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 32 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 7 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 22 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 43 | Execution, session isolation, secrets, and gateway |
@@ -225,6 +225,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [REA](services/tool-access-and-integration/rea.md) [![⭐](https://img.shields.io/github/stars/morluto/rea?style=social)](https://github.com/morluto/rea) | Reverse engineer anything with agents | Binary decompile (Ghidra/IDA/Hopper) · Electron/JS · .NET · APK · web traffic · evidence-backed findings | ✅ | `npx rea-agents setup` → restart agent → `rea doctor --json` |
 | [Tadka](services/tool-access-and-integration/tadka.md) | The booking layer for AI agents. | Remote MCP OAuth booking · open REST directory · OpenAPI · llms.txt | ✅ | Add MCP `https://tadka.xyz/mcp` (OAuth as diner), or `GET https://tadka.xyz/api/public/v1/restaurants` |
 | [CorpusIQ](services/tool-access-and-integration/corpusiq.md) [![⭐](https://img.shields.io/github/stars/CorpusIQ/corpusiq-docs?style=social)](https://github.com/CorpusIQ/corpusiq-docs) | Accelerate your business. All your tools in one place. | Hosted MCP · user OAuth · read-only connector tools · control-plane writes | ✅ | `claude mcp add --transport http corpusiq https://mcp2.corpusiq.io/mcp` — [developers](https://www.corpusiq.io/developers) (server source private; docs repo has no license file) |
+| [Agent Coach](services/tool-access-and-integration/agent-coach.md) | Tested skills and a daily coach for AI agents | Security-scanned library at pinned commits · Daily check-in with keep/drop verdicts · Per-agent credential · URL onboarding | ✅ | Read https://upskill.coach/start and follow it. — MCP: `https://upskill.coach/mcp` |
 
 ---
 
