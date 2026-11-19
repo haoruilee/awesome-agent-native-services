@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-18",
-  "generated_at": "2026-11-18",
+  "catalog_version": "2026-11-19",
+  "generated_at": "2026-11-19",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "f8eba7b724f95861d78073ae74c733c9d55826f735ed141b00af9a555719f0e9",
+      "value": "0e14181826ba1bc78efcdf59ccd1fd3ebdd6215460efa31f1e68797dc37deb59",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -234,6 +234,7 @@
         "services/search-and-web-intelligence/exa.md",
         "services/search-and-web-intelligence/jina-deepsearch.md",
         "services/search-and-web-intelligence/jina-reader.md",
+        "services/search-and-web-intelligence/keenable.md",
         "services/search-and-web-intelligence/linkup.md",
         "services/search-and-web-intelligence/nothumansearch.md",
         "services/search-and-web-intelligence/parallel.md",
@@ -343,7 +344,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 307
+    "services": 308
   },
   "categories": [
     {
@@ -407,7 +408,7 @@
       "name": "Search & Web Intelligence",
       "description": "Services that give AI agents optimized, structured access to web information — returning AI-ready content tuned for LLM context windows, not raw HTML or human-readable SERPs.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/README.md",
-      "service_count": 14
+      "service_count": 15
     },
     {
       "id": "code-execution",
@@ -7279,6 +7280,51 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "search-and-web-intelligence/keenable",
+      "slug": "keenable",
+      "name": "Keenable",
+      "tagline": "Independent Web Search API for AI.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "search-and-web-intelligence",
+      "website": "https://keenable.ai",
+      "repository": "https://github.com/keenableai/keenable-mcp",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/keenable.md",
+      "source_path": "services/search-and-web-intelligence/keenable.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://docs.keenable.ai/llms.txt and follow the instructions.",
+        "url": "https://docs.keenable.ai/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "sdk",
+        "openapi",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Checked 2026-11-19: keenable.ai HTTP 200, page title “Keenable.ai — Independent Web Search API for AI”; docs and llms.txt HTTP 200; public MCP https://api.keenable.ai/mcp-public initialize HTTP 200 as keenable-mcp-server 0.2.1, title “Keenable Web Search”; tools/list includes search_web_pages and fetch_page_content; OpenAPI 0.1.37; POST /v1/search with no key HTTP 401; POST /v1/search/public with X-Keenable-Title HTTP 200; keenable-mcp SPDX MIT, 7 stars, last push 2026-11-18; keenable-sdk SPDX MIT, last push 2026-11-18; keenable-cli has no license file",
+      "verified_at": "2026-11-19",
+      "verification_sources": [
+        "https://keenable.ai",
+        "https://docs.keenable.ai",
+        "https://docs.keenable.ai/llms.txt",
+        "https://api.keenable.ai/mcp-public",
+        "https://api.keenable.ai/openapi.json",
+        "https://github.com/keenableai/keenable-mcp",
+        "https://github.com/keenableai/keenable-sdk",
+        "https://github.com/keenableai/keenable-cli"
+      ]
     },
     {
       "id": "search-and-web-intelligence/linkup",
