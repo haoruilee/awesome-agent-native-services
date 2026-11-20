@@ -1,6 +1,6 @@
 ---
 title: "Agent-Native Collections"
-description: "Browse 310 agent-native services across 16 curated infrastructure collections."
+description: "Browse 311 agent-native services across 16 curated infrastructure collections."
 permalink: /categories/
 page_kind: document
 ---
@@ -11,7 +11,7 @@ page_kind: document
     <span class="collection-card__copy">
     <span class="collection-card__number">01</span>
     <span class="collection-card__title">Communication</span>
-    <span class="collection-card__count">18</span>
+    <span class="collection-card__count">19</span>
     </span>
   </a>
   <a class="collection-card atlas-visual--02" href="{{ '/categories/browser-and-web-execution/' | relative_url }}">

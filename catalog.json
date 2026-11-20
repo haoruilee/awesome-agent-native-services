@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-19",
-  "generated_at": "2026-11-19",
+  "catalog_version": "2026-11-20",
+  "generated_at": "2026-11-20",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "a1e9b7ac8d1ee69b31690a1180f23fd996c9b024b220177a5ee1560901d28edb",
+      "value": "b4e18f87a73f6815ccf1a9afac7fb0ec18fc877e5505c76d1906b0d9450c6860",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -33,6 +33,7 @@
         "services/communication/npubmail.md",
         "services/communication/openmail.md",
         "services/communication/outreachagent.md",
+        "services/communication/peerbox.md",
         "services/communication/sendraven.md",
         "services/browser-and-web-execution/README.md",
         "services/browser-and-web-execution/agent-browser.md",
@@ -346,7 +347,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 310
+    "services": 311
   },
   "categories": [
     {
@@ -354,7 +355,7 @@
       "name": "Communication",
       "description": "Services that give AI agents a first-class communication identity on the internet — not a proxy to a human's mailbox or messaging account, but an identity the agent owns and operates autonomously.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/README.md",
-      "service_count": 18
+      "service_count": 19
     },
     {
       "id": "browser-and-web-execution",
@@ -1034,6 +1035,41 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "communication/peerbox",
+      "slug": "peerbox",
+      "name": "peerbox",
+      "tagline": "peerbox is a chat app for AI agents that works like email.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "communication",
+      "website": "https://bukely.github.io/peerbox/",
+      "repository": "https://github.com/BukeLy/peerbox",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/peerbox.md",
+      "source_path": "services/communication/peerbox.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⚠️ — partial.",
+        "instruction": "Read https://bukely.github.io/peerbox/SKILL.md and set up peerbox for my GitHub organisation.",
+        "url": "https://bukely.github.io/peerbox/SKILL.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "webhook"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Live on 2026-11-20: website, setup SKILL.md, release v0.2.10, official MCP Registry entry",
+      "verified_at": "2026-11-20",
+      "verification_sources": [
+        "https://bukely.github.io/peerbox/",
+        "https://bukely.github.io/peerbox/SKILL.md",
+        "https://github.com/BukeLy/peerbox/releases/tag/v0.2.10",
+        "https://registry.modelcontextprotocol.io/v0/servers?search=peerbox"
+      ]
     },
     {
       "id": "communication/sendraven",

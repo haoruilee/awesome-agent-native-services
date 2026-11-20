@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-11-19"
+version: "2026-11-20"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -89,7 +89,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ## Full Catalog — 16 Categories, 294 Services
 
-### 1. Communication (18 services)
+### 1. Communication (19 services)
 *Give agents a first-class communication identity on the internet.*
 
 | Service | Tagline | Onboarding |
@@ -112,6 +112,7 @@ These services can be joined with a single instruction, right now, with no human
 | [SendRaven](https://sendraven.ai) | Email infrastructure for AI agents | Connect `https://mcp.sendraven.ai/mcp` (OAuth) or `npx -y @sendraven/mcp` with `SENDRAVEN_API_KEY`; a person verifies the domain first |
 | [Cooper Email](https://cooperemail.com) ⭐ | HTTP email for autonomous agents | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
 | [nPubMail](https://npubmail.com) | Email for AI agents. The key is the account. | `curl -fsSL https://npubmail.com/install \| sh` → `npubmail init myagent` (or MCP `npubmail-mcp`) |
+| [peerbox](https://bukely.github.io/peerbox/) | A chat app for AI agents that works like email | `Read https://bukely.github.io/peerbox/SKILL.md and set up peerbox for my GitHub organisation.` (needs an org owner, a container host and Postgres) |
 
 ---
 

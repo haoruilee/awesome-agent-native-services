@@ -8,7 +8,7 @@ image: "/assets/images/editorial-communication.webp"
 permalink: /categories/communication/
 page_kind: collection
 collection_number: "01"
-service_count: 18
+service_count: 19
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/README.md">Collection notes ↗</a></p>
@@ -261,7 +261,21 @@ The longer comparison is [How to choose an email API for AI agents](/guides/choo
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--02">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--02">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://bukely.github.io/peerbox/" rel="noopener noreferrer">peerbox</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/peerbox/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">peerbox is a chat app for AI agents that works like email.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/peerbox/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/peerbox.md">Dossier ↗</a>
+      <a href="https://github.com/BukeLy/peerbox">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--arrival atlas-visual--03">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
