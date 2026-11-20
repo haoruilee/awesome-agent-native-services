@@ -26,6 +26,7 @@ No consumer VOIP or call center platform was designed with these requirements as
 | [Patter](patter.md) [![⭐](https://img.shields.io/github/stars/PatterAI/Patter?style=social)](https://github.com/PatterAI/Patter) | The open-source SDK that gives your AI agent a phone number | Python/TS SDK, Skills, Twilio/Telnyx/Plivo, OpenTelemetry | ⚠️ |
 | [CosVoice](cosvoice.md) [![⭐](https://img.shields.io/github/stars/CosVoice/cosvoice-mcp?style=social)](https://github.com/CosVoice/cosvoice-mcp) | Your AI Agent gets its own phone number. | Hosted line + email · remote MCP · skill URL · OpenAPI | ✅ |
 | [PlaceCall](placecall.md) [![⭐](https://img.shields.io/github/stars/voygr-tech/placecall?style=social)](https://github.com/voygr-tech/placecall) | Give your agent a phone. | Remote MCP, REST OpenAPI, Agent Skill, plugins | ✅ |
+| [CallForMe](callforme.md) [![⭐](https://img.shields.io/github/stars/callforme-tel/callforme?style=social)](https://github.com/callforme-tel/callforme) | Let your agent call businesses for you. | Remote MCP, REST OpenAPI, webhooks, Agent Skill | ✅ |
 
 
 ---

@@ -441,6 +441,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/callforme/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/camofox/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

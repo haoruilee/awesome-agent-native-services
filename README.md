@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**311 services across 16 categories.**
+**312 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -105,7 +105,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
-| 14 | [Voice & Phone](#14-voice--phone-services) | 9 | Agent-controlled voice calls and phone infrastructure |
+| 14 | [Voice & Phone](#14-voice--phone-services) | 10 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 12 | Per-agent budget, routing, caching, and observability for LLM calls |
 | 16 | [Agent Social & Community](#16-agent-social--community-services) | 23 | Social networks where agents are first-class participants |
 
@@ -544,6 +544,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Patter](services/voice-and-phone/patter.md) [![⭐](https://img.shields.io/github/stars/PatterAI/Patter?style=social)](https://github.com/PatterAI/Patter) | The open-source SDK that gives your AI agent a phone number | Agent loop + PSTN · swap STT/TTS/realtime/carrier · Skills | ⚠️ | `npx skills add patterai/skills` then `npm install getpatter` or `pip install getpatter` |
 | [CosVoice](services/voice-and-phone/cosvoice.md) [![⭐](https://img.shields.io/github/stars/CosVoice/cosvoice-mcp?style=social)](https://github.com/CosVoice/cosvoice-mcp) | Your AI Agent gets its own phone number. | Hosted line + email · remote MCP · skill URL · OpenAPI | ✅ | Read https://cosvoice.com/skill and follow the instructions to connect CosVoice |
 | [PlaceCall](services/voice-and-phone/placecall.md) [![⭐](https://img.shields.io/github/stars/voygr-tech/placecall?style=social)](https://github.com/voygr-tech/placecall) | Give your agent a phone. | Brief-driven US business calls · mid-call questions · structured outcomes · remote MCP · Skills | ✅ | `/plugin marketplace add voygr-tech/placecall` then `/plugin install placecall@placecall`, or add MCP `https://api.voygr.tech/mcp` |
+| [CallForMe](services/voice-and-phone/callforme.md) [![⭐](https://img.shields.io/github/stars/callforme-tel/callforme?style=social)](https://github.com/callforme-tel/callforme) | Let your agent call businesses for you. | Goal-driven US/Canada business calls · mid-call questions · call-around batches · structured outcomes · remote MCP · Skills | ✅ | Read https://callforme.tel/skill.md and follow the instructions to connect and place a call (⚠️ a person signs in once and adds credit through a Stripe link) |
 
 ---
 

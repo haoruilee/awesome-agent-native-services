@@ -430,7 +430,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 14. Voice & Phone (9 services)
+### 14. Voice & Phone (10 services)
 *Agent-controlled voice calls and telephony infrastructure.*
 
 | Service | Tagline | Onboarding |
@@ -444,6 +444,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Patter](https://getpatter.com) | Open-source SDK that gives your AI agent a phone number | `npx skills add patterai/skills` then `npm install getpatter` or `pip install getpatter` |
 | [CosVoice](https://cosvoice.com) ⭐ | Your AI Agent gets its own phone number. | `Read https://cosvoice.com/skill and follow the instructions to connect CosVoice` |
 | [PlaceCall](https://voygr.tech/placecall/) | Give your agent a phone. | MCP `https://api.voygr.tech/mcp` or `/plugin marketplace add voygr-tech/placecall` then `/plugin install placecall@placecall` |
+| [CallForMe](https://callforme.tel/) | Let your agent call businesses for you. | `Read https://callforme.tel/skill.md and follow the instructions to connect and place a call` (a person signs in once and adds credit) |
 
 ---
 

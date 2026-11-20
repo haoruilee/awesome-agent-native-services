@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "036879d57fa8a324e1ff40a8a24954587dd5695a42f71d980123b2a68901ec60",
+      "value": "c28d070d9419c4407c5f84b1a51b436fe6bf81b94d110270e51704162fa185dd",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -296,6 +296,7 @@
         "services/meeting-and-conversation/recall-ai.md",
         "services/meeting-and-conversation/vexa.md",
         "services/voice-and-phone/README.md",
+        "services/voice-and-phone/callforme.md",
         "services/voice-and-phone/cosvoice.md",
         "services/voice-and-phone/livekit-agents.md",
         "services/voice-and-phone/patter.md",
@@ -347,7 +348,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 311
+    "services": 312
   },
   "categories": [
     {
@@ -446,7 +447,7 @@
       "name": "Voice & Phone",
       "description": "Services that give AI agents a first-class voice and telephony identity — letting agents make and receive phone calls, conduct voice conversations, and interact via speech with no human operating a phone on their behalf.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/README.md",
-      "service_count": 9
+      "service_count": 10
     },
     {
       "id": "llm-gateway-and-routing",
@@ -9142,6 +9143,46 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "voice-and-phone/callforme",
+      "slug": "callforme",
+      "name": "CallForMe",
+      "tagline": "Let your agent call businesses for you.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "voice-and-phone",
+      "website": "https://callforme.tel/",
+      "repository": "https://github.com/callforme-tel/callforme",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/callforme.md",
+      "source_path": "services/voice-and-phone/callforme.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⚠️ — partial.",
+        "instruction": "Read https://callforme.tel/skill.md and follow the instructions to connect and place a call.",
+        "url": "https://callforme.tel/skill.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "openapi",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "https://callforme.tel/ returned HTTP 200 with H1 \"Let your agent call businesses for you.\" Remote MCP https://callforme.tel/mcp answered an unauthenticated POST with 401 and OAuth metadata; https://callforme.tel/mcp/open listed 15 tools. OpenAPI 1.3.0 at https://callforme.tel/openapi.json. Agent Skill at https://callforme.tel/skill.md and https://github.com/callforme-tel/callforme/tree/main/skills/callforme",
+      "verified_at": "2026-11-20",
+      "verification_sources": [
+        "https://callforme.tel/",
+        "https://callforme.tel/mcp",
+        "https://callforme.tel/mcp/open",
+        "https://callforme.tel/openapi.json",
+        "https://callforme.tel/skill.md",
+        "https://github.com/callforme-tel/callforme/tree/main/skills/callforme"
+      ]
     },
     {
       "id": "voice-and-phone/cosvoice",
