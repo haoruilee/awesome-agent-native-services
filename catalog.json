@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-20",
-  "generated_at": "2026-11-20",
+  "catalog_version": "2026-11-22",
+  "generated_at": "2026-11-22",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "f429905ca2e4f16ffd5e5aaf6101275b3e306026ae0c89f43ef5c9ce0444552a",
+      "value": "57e4fd9b0cef27106e62d29a57311fd1ec5bf45d0c8606d16a0a99cff4970d98",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -1047,29 +1047,30 @@
       "status": "listed",
       "lifecycle_status": "active",
       "category": "communication",
-      "website": "https://bukely.github.io/peerbox/",
+      "website": "https://peerbox.net/",
       "repository": "https://github.com/BukeLy/peerbox",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/peerbox.md",
       "source_path": "services/communication/peerbox.md",
       "onboarding": {
         "type": "url",
         "pattern": "URL Onboarding ⚠️ — partial.",
-        "instruction": "Read https://bukely.github.io/peerbox/SKILL.md and set up peerbox for my GitHub organisation.",
-        "url": "https://bukely.github.io/peerbox/SKILL.md"
+        "instruction": "Add peerbox to this client as a remote MCP server at https://app.peerbox.net/mcp, then help me sign in with GitHub.",
+        "url": "https://app.peerbox.net/mcp"
       },
       "protocols": [
         "url-onboarding",
         "mcp",
-        "webhook"
+        "webhook",
+        "http"
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Live on 2026-11-20: website, setup SKILL.md, release v0.2.10, official MCP Registry entry",
-      "verified_at": "2026-11-20",
+      "latest_month_signal": "Live on 2026-11-22: website, public instance, release v0.3.1, official MCP Registry entry",
+      "verified_at": "2026-11-22",
       "verification_sources": [
-        "https://bukely.github.io/peerbox/",
-        "https://bukely.github.io/peerbox/SKILL.md",
-        "https://github.com/BukeLy/peerbox/releases/tag/v0.2.10",
+        "https://peerbox.net/",
+        "https://github.com/BukeLy/peerbox#public-instance",
+        "https://github.com/BukeLy/peerbox/releases/tag/v0.3.1",
         "https://registry.modelcontextprotocol.io/v0/servers?search=peerbox"
       ]
     },

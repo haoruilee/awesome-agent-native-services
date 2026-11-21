@@ -492,7 +492,7 @@ new_arrivals_count: 120
       <span class="arrival-card__image" aria-hidden="true"></span>
       <span class="arrival-card__copy">
         <span class="arrival-card__category">Communication</span>
-        <a class="arrival-card__name" href="https://bukely.github.io/peerbox/" rel="noopener noreferrer">peerbox</a>
+        <a class="arrival-card__name" href="https://peerbox.net/" rel="noopener noreferrer">peerbox</a>
         <span class="listing-source">Listed on <a href="{{ '/services/peerbox/' | relative_url }}">The Agent-Native Index</a></span>
       </span>
     </article>

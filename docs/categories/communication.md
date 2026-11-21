@@ -265,7 +265,7 @@ The longer comparison is [How to choose an email API for AI agents](/guides/choo
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="https://bukely.github.io/peerbox/" rel="noopener noreferrer">peerbox</a></h2>
+    <h2 class="service-card__title"><a href="https://peerbox.net/" rel="noopener noreferrer">peerbox</a></h2>
     <p class="listing-source">Listed on <a href="{{ '/services/peerbox/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">peerbox is a chat app for AI agents that works like email.</p>
     <div class="service-card__actions">
