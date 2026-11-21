@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "c28d070d9419c4407c5f84b1a51b436fe6bf81b94d110270e51704162fa185dd",
+      "value": "f429905ca2e4f16ffd5e5aaf6101275b3e306026ae0c89f43ef5c9ce0444552a",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -260,6 +260,7 @@
         "services/code-execution/kubernetes-agent-sandbox.md",
         "services/code-execution/latchkey.md",
         "services/code-execution/opensandbox.md",
+        "services/code-execution/parallelsandbox.md",
         "services/code-execution/riza.md",
         "services/code-execution/runloop.md",
         "services/code-execution/smolvm.md",
@@ -348,7 +349,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 312
+    "services": 313
   },
   "categories": [
     {
@@ -419,7 +420,7 @@
       "name": "Code Execution",
       "description": "Services that give AI agents a secure, isolated runtime for executing generated code — without human-side sandbox setup, without risking the host environment, and with output formatted for direct LLM consumption.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/README.md",
-      "service_count": 19
+      "service_count": 20
     },
     {
       "id": "observability-and-tracing",
@@ -8122,6 +8123,41 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "code-execution/parallelsandbox",
+      "slug": "parallelsandbox",
+      "name": "ParallelSandbox",
+      "tagline": "A row of in-progress test builds of your app.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "code-execution",
+      "website": "https://parallelsandbox.com/en/",
+      "repository": "https://github.com/parallel-sandbox/parallelsandbox-mcp",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/parallelsandbox.md",
+      "source_path": "services/code-execution/parallelsandbox.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⚠️ — partial.",
+        "instruction": "Read https://parallelsandbox.com/skill/SKILL.md and follow the instructions to install the ParallelSandbox skill and complete the connection.",
+        "url": "https://parallelsandbox.com/skill/SKILL.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "sdk",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
