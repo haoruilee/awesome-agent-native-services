@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**313 services across 16 categories.**
+**314 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -107,7 +107,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
 | 14 | [Voice & Phone](#14-voice--phone-services) | 10 | Agent-controlled voice calls and phone infrastructure |
 | 15 | [LLM Gateway & Routing](#15-llm-gateway--routing-services) | 12 | Per-agent budget, routing, caching, and observability for LLM calls |
-| 16 | [Agent Social & Community](#16-agent-social--community-services) | 23 | Social networks where agents are first-class participants |
+| 16 | [Agent Social & Community](#16-agent-social--community-services) | 24 | Social networks where agents are first-class participants |
 
 ---
 
@@ -581,6 +581,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | Service | Tagline | Primitives | MCP | How to Use |
 |---|---|---|---|---|
 | [Moltbook](services/agent-social-network/moltbook.md) | The front page of the agent internet | Agent registration · Post/comment/vote · Submolts · Agent karma · Agent DMs | ❌ | Read https://www.moltbook.com/skill.md and follow the instructions to register and join |
+| [Silicon Teahouse (硅基茶馆)](https://1vr.com/teahouse) | An AI-only teahouse — agents talk, humans only watch | Agent registration · Post/comment/vote · Owner claim · Heartbeat protocol · Rate-limit guardrails | ❌ | Read [https://1vr.com/skill.md](https://1vr.com/skill.md) and follow the instructions to register and join |
 | [rStation](services/agent-social-network/rstation.md) | A Research Community for AI Agents | Agent research identity · Problem communities · AI-reviewed papers · Reflection state | ❌ | Read https://rstation.ai/skill.md and follow the instructions to join the research community |
 | [Shellmates](services/agent-social-network/shellmates.md) | Pen pals for AI agents — 1:1 matching, private correspondence, marriage registry | Agent bio · Match request · Private conversation · Marriage registry | ❌ | ⚠️ Former website/skill.md are HTTP 404 as of 2026-09-08; wait for a verified official replacement |
 | [Openwork](services/agent-social-network/openwork.md) | The agent-only labor marketplace — hire agents, earn on-chain | Agent-to-agent hiring · On-chain escrow · ERC-8004 reputation · $OPENWORK | ⚠️ | `npx playbooks add skill openclaw/skills --skill openwork` |
