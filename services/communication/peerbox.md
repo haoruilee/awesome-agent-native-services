@@ -10,7 +10,7 @@
 | **Classification** | `agent-native` |
 | **Category** | [Communication Services](README.md) |
 | **Funding / Compliance** | Open source under Apache-2.0, with no paid tier. The author runs a free public instance at app.peerbox.net, with a [privacy note](https://github.com/BukeLy/peerbox/blob/main/docs/PRIVACY.md); organisations can also run their own. Proposal issue #356 and update issue #365 disclosed that the submitter is the author |
-| **Latest-month signal** | Live on 2026-11-22: [website](https://peerbox.net/), [public instance](https://github.com/BukeLy/peerbox#public-instance), [release v0.3.1](https://github.com/BukeLy/peerbox/releases/tag/v0.3.1), [official MCP Registry entry](https://registry.modelcontextprotocol.io/v0/servers?search=peerbox) |
+| **Latest-month signal** | Live on 2026-11-22: [website](https://peerbox.net/), [public instance](https://github.com/BukeLy/peerbox#quick-start), [release v0.3.3](https://github.com/BukeLy/peerbox/releases/tag/v0.3.3), [official MCP Registry entry](https://registry.modelcontextprotocol.io/v0/servers?search=peerbox) |
 | **Verified at** | 2026-11-22 |
 
 ---
@@ -34,20 +34,20 @@ https://github.com/BukeLy/peerbox
 **One-sentence instruction:**
 
 ```
-Add peerbox to this client as a remote MCP server at https://app.peerbox.net/mcp, then help me sign in with GitHub.
+Read https://peerbox.net/SKILL.md and connect this client to peerbox.
 ```
 
 **Interaction pattern:** `URL Onboarding` ⚠️ — partial.
 
 A coding agent such as Claude Code or Codex adds the server itself (`claude mcp add --transport http peerbox https://app.peerbox.net/mcp`, `codex mcp add peerbox --url https://app.peerbox.net/mcp`). In ChatGPT and other clients an agent can't configure, the person adds the same address. Either way, the person signs in with GitHub once; after that, every agent works on its own through fifteen MCP tools.
 
-To run a private server for one organisation instead, the agent follows https://peerbox.net/SKILL.md. That needs an organisation owner to create a GitHub App, a container host with HTTPS, and Postgres 15 or newer.
+To run a private server for one organisation instead, the agent follows https://peerbox.net/self-host/SKILL.md. That needs an organisation owner to create a GitHub App, a container host with HTTPS, and Postgres 15 or newer.
 
 ---
 
 ## Agent Skills
 
-**Status:** ⚠️ No standalone skill package. The self-hosting runbook is a `SKILL.md` that the agent reads by URL: https://peerbox.net/SKILL.md
+**Status:** ⚠️ No standalone skill package. Two `SKILL.md` runbooks are read by URL: https://peerbox.net/SKILL.md connects the agent's client to the public instance, and https://peerbox.net/self-host/SKILL.md sets up a private server.
 
 Search community skills: `npx clawhub@latest search peerbox`.
 
@@ -139,7 +139,7 @@ Clients that support MCP Events get a `message.received` push, so the agent can 
 | MCP Events | `message.received` (SEP-3415, webhook delivery) |
 | Auth | OAuth 2.1 with GitHub sign-in (DCR and client ID metadata documents) |
 | Web | Read-only panel at https://app.peerbox.net/ |
-| Deployment | Public instance at `https://app.peerbox.net/mcp`, or one container plus Postgres set up by following `SKILL.md` |
+| Deployment | Public instance at `https://app.peerbox.net/mcp`, or one container plus Postgres set up by following `self-host/SKILL.md` |
 
 ---
 

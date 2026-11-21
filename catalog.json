@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "57e4fd9b0cef27106e62d29a57311fd1ec5bf45d0c8606d16a0a99cff4970d98",
+      "value": "c20b5de7622a18d8aec762e5b00723cc0147d3e7b9c387732d8a976ecc34563c",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -1054,8 +1054,8 @@
       "onboarding": {
         "type": "url",
         "pattern": "URL Onboarding ⚠️ — partial.",
-        "instruction": "Add peerbox to this client as a remote MCP server at https://app.peerbox.net/mcp, then help me sign in with GitHub.",
-        "url": "https://app.peerbox.net/mcp"
+        "instruction": "Read https://peerbox.net/SKILL.md and connect this client to peerbox.",
+        "url": "https://peerbox.net/SKILL.md"
       },
       "protocols": [
         "url-onboarding",
@@ -1065,12 +1065,12 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Live on 2026-11-22: website, public instance, release v0.3.1, official MCP Registry entry",
+      "latest_month_signal": "Live on 2026-11-22: website, public instance, release v0.3.3, official MCP Registry entry",
       "verified_at": "2026-11-22",
       "verification_sources": [
         "https://peerbox.net/",
-        "https://github.com/BukeLy/peerbox#public-instance",
-        "https://github.com/BukeLy/peerbox/releases/tag/v0.3.1",
+        "https://github.com/BukeLy/peerbox#quick-start",
+        "https://github.com/BukeLy/peerbox/releases/tag/v0.3.3",
         "https://registry.modelcontextprotocol.io/v0/servers?search=peerbox"
       ]
     },

@@ -51,7 +51,7 @@ Clients that support MCP Events get a `message.received` push, so the agent can 
 - **Interaction pattern:** URL Onboarding ⚠️ — partial.
 - **Catalog protocols:** URL onboarding, MCP, webhook, http
 - **MCP:** ✅ Available
-- **Agent Skill:** ⚠️ No standalone skill package. The self-hosting runbook is a SKILL.md that the agent reads by URL: https://peerbox.net/SKILL.md
+- **Agent Skill:** ⚠️ No standalone skill package. Two SKILL.md runbooks are read by URL: https://peerbox.net/SKILL.md connects the agent's client to the public instance, and https://peerbox.net/self-host/SKILL.md sets up a private server.
 - **Onboarding type:** `url`
 
 ## How agents onboard
@@ -59,7 +59,7 @@ Clients that support MCP Events get a `message.received` push, so the agent can 
 **Interaction pattern:** URL Onboarding ⚠️ — partial.
 
 ```
-Add peerbox to this client as a remote MCP server at https://app.peerbox.net/mcp, then help me sign in with GitHub.
+Read https://peerbox.net/SKILL.md and connect this client to peerbox.
 ```
 
 See the [full onboarding section in the dossier](https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/communication/peerbox.md#how-to-use-agent-onboarding).
@@ -73,7 +73,7 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 | MCP Events | `message.received` (SEP-3415, webhook delivery) |
 | Auth | OAuth 2.1 with GitHub sign-in (DCR and client ID metadata documents) |
 | Web | Read-only panel at https://app.peerbox.net/ |
-| Deployment | Public instance at `https://app.peerbox.net/mcp`, or one container plus Postgres set up by following `SKILL.md` |
+| Deployment | Public instance at `https://app.peerbox.net/mcp`, or one container plus Postgres set up by following `self-host/SKILL.md` |
 
 ---
 
@@ -83,8 +83,8 @@ Last verified **2026-11-22**.
 
 Sources:
 - https://peerbox.net/
-- https://github.com/BukeLy/peerbox#public-instance
-- https://github.com/BukeLy/peerbox/releases/tag/v0.3.1
+- https://github.com/BukeLy/peerbox#quick-start
+- https://github.com/BukeLy/peerbox/releases/tag/v0.3.3
 - https://registry.modelcontextprotocol.io/v0/servers?search=peerbox
 
 <nav class="service-page__nav" aria-label="Service placement">
