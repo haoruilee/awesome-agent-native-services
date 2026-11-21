@@ -1266,6 +1266,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/parallelsandbox/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/patter/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

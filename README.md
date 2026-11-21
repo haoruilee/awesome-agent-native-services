@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**312 services across 16 categories.**
+**313 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -101,7 +101,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 17 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 34 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 16 | LLM-optimized web search and content retrieval |
-| 10 | [Code Execution](#10-code-execution-services) | 19 | Secure sandboxes for AI-generated code |
+| 10 | [Code Execution](#10-code-execution-services) | 20 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
 | 13 | [Meeting & Conversation](#13-meeting--conversation-services) | 7 | Agent presence in voice and video meetings |
@@ -464,6 +464,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [The Vibe Hosting](services/code-execution/the-vibe-hosting.md) | One prompt → root Linux → your project is live. | Account-on-first-call · Root Ubuntu server on HTTPS subdomain or own domain via CNAME (gVisor) · Wake-on-connect · Prepaid credit cap · URL onboarding | ⚠️ | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` or `npx skills add ladik33/thevibehosting-skill` |
 | [briq](services/code-execution/briq.md) | Cloud sandboxes for your agents | Linux microVM sandboxes · Postgres/Redis/any OCI image next to them · Fork · Sleep/wake · Per-agent policy | ✅ | `claude mcp add --transport http briq https://api.briq.cloud/mcp` — [briq.cloud/docs](https://briq.cloud/docs) |
 | [Buddy Sandboxes](services/code-execution/buddy-sandboxes.md) | Persistent Linux VMs for AI-generated code and agents | Persistent Ubuntu VM · In-sandbox `this` command (no ID, no token) · Agent role in permissions · Snapshots · HTTPS endpoints · Sleep/wake on traffic | ✅ | `claude mcp add --transport http buddy https://mcp.buddy.works/mcp` — [buddy.works/docs/sandboxes](https://buddy.works/docs/sandboxes) |
+| [ParallelSandbox](services/code-execution/parallelsandbox.md) | A row of in-progress test builds of your app. | Remote Linux VM per task with a goal · Docker + Chromium screen · Screenshots/recordings · Hand a version to a person (`sandbox_review`) · Human takeover · Browser logs | ✅ | Read https://parallelsandbox.com/skill/SKILL.md and follow the instructions to install the skill and connect (⚠️ a person completes OAuth in the browser once; the stdio adapter needs Node/npx) |
 
 ---
 
