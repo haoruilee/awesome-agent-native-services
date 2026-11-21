@@ -39,6 +39,7 @@ Agent-native code execution services solve this with:
 | [The Vibe Hosting](the-vibe-hosting.md) | One prompt → root Linux → your project is live. | REST API, SSH, URL onboarding (`SKILL.md`), Agent Skill (`npx skills add`) | ⚠️ |
 | [briq](briq.md) | Cloud sandboxes for your agents | MCP (Streamable HTTP, OAuth), REST API (OpenAPI 3.1), TypeScript SDK, Python client, CLI, Agent Skill | ✅ |
 | [Buddy Sandboxes](buddy-sandboxes.md) | Persistent Linux VMs for AI-generated code and agents | MCP (OAuth or token), TypeScript SDK, REST API, `bdy` CLI, in-sandbox `this` command, Agent Skill | ✅ |
+| [ParallelSandbox](parallelsandbox.md) | A row of in-progress test builds of your app. | MCP (Streamable HTTP, OAuth), MIT stdio adapter, REST API, browser log SDK, Agent Skill | ✅ |
 
 
 ---
