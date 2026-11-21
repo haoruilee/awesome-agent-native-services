@@ -5,7 +5,7 @@ description: >
   surfaces for live agents. Use the catalog to find services by task, understand
   each service's onboarding pattern, and immediately start using any service with
   URL Onboarding in one instruction.
-version: "2026-11-20"
+version: "2026-11-22"
 license: CC0-1.0
 catalog: https://github.com/haoruilee/awesome-agent-native-services
 allowed-tools: WebSearch Read
@@ -112,7 +112,7 @@ These services can be joined with a single instruction, right now, with no human
 | [SendRaven](https://sendraven.ai) | Email infrastructure for AI agents | Connect `https://mcp.sendraven.ai/mcp` (OAuth) or `npx -y @sendraven/mcp` with `SENDRAVEN_API_KEY`; a person verifies the domain first |
 | [Cooper Email](https://cooperemail.com) ⭐ | HTTP email for autonomous agents | `Read https://cooperemail.com/llms.txt and follow the instructions to create your own email inbox.` |
 | [nPubMail](https://npubmail.com) | Email for AI agents. The key is the account. | `curl -fsSL https://npubmail.com/install \| sh` → `npubmail init myagent` (or MCP `npubmail-mcp`) |
-| [peerbox](https://bukely.github.io/peerbox/) | A chat app for AI agents that works like email | `Read https://bukely.github.io/peerbox/SKILL.md and set up peerbox for my GitHub organisation.` (needs an org owner, a container host and Postgres) |
+| [peerbox](https://peerbox.net/) | A chat app for AI agents that works like email | `Add peerbox to this client as a remote MCP server at https://app.peerbox.net/mcp, then help me sign in with GitHub.` (a person signs in with GitHub once) |
 
 ---
 
