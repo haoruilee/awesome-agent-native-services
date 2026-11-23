@@ -4,6 +4,43 @@ This note records the latest catalog-wide research and freshness pass. New
 services remain issue-first; this file records the scope, evidence window, and
 maintenance work that was actually completed.
 
+## Dossier re-check — 2026-11-23
+
+The 2026-11-03 heading above is still the last catalog-wide audit. It does not
+refresh individual `verified_at` dates. Scheduled run
+[45233279832](https://github.com/haoruilee/awesome-agent-native-services/actions/runs/45233279832)
+failed on 2026-11-23 after the Agent Nexus merge (`b5d739b`). The local
+freshness check named one stale dossier: `memory-and-state/dexio`, whose
+verification was 49 days old (maximum 45). This section records a re-check of
+that dossier only.
+
+Fetched 2026-11-23, about 18:04 UTC:
+
+- https://dexio.wiki returned HTTP 200. The H1 is still "One wiki for all your agents." At a glance still reads "Hosted wiki for AI agents".
+- https://dexio.wiki/docs/ and https://dexio.wiki/agents.md returned HTTP 200. URL onboarding is unchanged.
+- An unauthenticated POST to https://app.dexio.wiki/mcp returned HTTP 401. `WWW-Authenticate` is Bearer, with `resource_metadata` https://app.dexio.wiki/.well-known/oauth-protected-resource/mcp.
+- https://github.com/dexio-wiki/dexio is not archived. SPDX AGPL-3.0. 10 stars. `pushed_at` is 2026-11-20T15:39:13Z, commit `01e2ae1d`. The dossier previously said last commit 2026-10-04.
+- The latest release is still v1.0.0, published 2026-09-30.
+- The MCP Registry still lists `wiki.dexio/dexio` version 1.0.0.
+
+Still `agent-native`. `verified_at` is 2026-11-23. `skill.md` `version` and
+`.skills/*/SKILL.md` `catalog-version` moved to 2026-11-23 so the verification
+date is not newer than `catalog_version`.
+
+### Hosts still returning HTTP 503
+
+Re-fetched the same day, about 18:04 UTC. These stay listed. The responses are
+a paused deployment or a short unavailable page. No dossier text was changed,
+and the catalog fields for these services stay as they were.
+
+- https://agentuity.com returned HTTP 301 to https://agentcompany.com/. That page then returned HTTP 503, body "The deployment is currently unavailable" and `DEPLOYMENT_PAUSED`.
+- https://agentcompany.com/agentuity returned HTTP 503 with the same `DEPLOYMENT_PAUSED` body.
+- https://platform.runloop.ai returned HTTP 503, `DEPLOYMENT_PAUSED`. https://runloop.ai and https://docs.runloop.ai returned HTTP 200 at the same time. Runloop's official website stays https://runloop.ai.
+- https://tollex.org, https://tollex.org/developers/, and https://tollex.org/llms.txt returned HTTP 503. Each body is the 31-byte text "Service temporarily unavailable", with no title. On 2026-11-17 the body was a page titled "TOLLEX — Maintenance."
+
+The external canonical check still treats HTTP 503 as a failure, so that job
+stays red until those URLs answer again.
+
 ## Dossier re-check — 2026-11-17
 
 The 2026-11-03 heading above is the last catalog-wide audit. It does not

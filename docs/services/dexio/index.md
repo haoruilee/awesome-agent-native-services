@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/memory-and-state/dexio.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/dexio.md"
 tagline: "One wiki for all your agents"
-verified_at: "2026-10-05"
+verified_at: "2026-11-23"
 website: "https://dexio.wiki"
 repository: "https://github.com/dexio-wiki/dexio"
 ---
@@ -25,7 +25,7 @@ repository: "https://github.com/dexio-wiki/dexio"
 <li><span class="service-page__chip-label">MCP</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Agent Skill</span><span class="service-page__chip-value">Available</span></li>
 <li><span class="service-page__chip-label">Interfaces</span><span class="service-page__chip-value">URL onboarding · Agent Skill · MCP · http · API</span></li>
-<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-10-05</span></li>
+<li><span class="service-page__chip-label">Verified</span><span class="service-page__chip-value">2026-11-23</span></li>
 </ul>
 
 <ul class="service-page__links">
@@ -81,15 +81,17 @@ See the [full onboarding section in the dossier](https://github.com/haoruilee/aw
 
 ## Verification
 
-Last verified **2026-10-05**.
+Last verified **2026-11-23**.
 
 Sources:
 - https://github.com/dexio-wiki/dexio/releases/tag/v1.0.0
+- https://github.com/dexio-wiki/dexio/commit/01e2ae1d100ea7eea90e6c215baa013f260a1acf
 - https://registry.modelcontextprotocol.io/v0.1/servers/wiki.dexio%2Fdexio/versions/latest
 - https://dexio.wiki
 - https://dexio.wiki/agents.md
 - https://dexio.wiki/docs/
 - https://app.dexio.wiki/mcp
+- https://app.dexio.wiki/.well-known/oauth-protected-resource/mcp
 
 <nav class="service-page__nav" aria-label="Service placement">
   <a href="{{ '/categories/memory-and-state/' | relative_url }}"><small>Collection</small><strong>← Memory &amp; State</strong></a>

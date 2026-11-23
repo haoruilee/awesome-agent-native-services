@@ -11,8 +11,8 @@
 | **Category** | [Memory & State Services](README.md) |
 | **License** | Server AGPL-3.0 (self-hostable with Docker; the hosted service at app.dexio.wiki runs the same code). Agent skills MIT |
 | **Interest disclosure** | Operator-submitted: the proposer of [#179](https://github.com/haoruilee/awesome-agent-native-services/issues/179) is Dexio's founder |
-| **Latest-month signal** | Server release [v1.0.0](https://github.com/dexio-wiki/dexio/releases/tag/v1.0.0) published 2026-09-30, last commit 2026-10-04; listed on the official MCP Registry as `wiki.dexio/dexio` 1.0.0 ([registry](https://registry.modelcontextprotocol.io/v0.1/servers/wiki.dexio%2Fdexio/versions/latest)). Verified 2026-10-05: [dexio.wiki](https://dexio.wiki), [agents.md](https://dexio.wiki/agents.md) and [docs](https://dexio.wiki/docs/) return HTTP 200; an unauthenticated POST to https://app.dexio.wiki/mcp answers 401 with OAuth protected-resource metadata |
-| **Verified at** | 2026-10-05 |
+| **Latest-month signal** | Server release [v1.0.0](https://github.com/dexio-wiki/dexio/releases/tag/v1.0.0) published 2026-09-30; last push 2026-11-20 ([01e2ae1d](https://github.com/dexio-wiki/dexio/commit/01e2ae1d100ea7eea90e6c215baa013f260a1acf)); not archived; SPDX AGPL-3.0; 10 stars. Listed on the official MCP Registry as `wiki.dexio/dexio` 1.0.0 ([registry](https://registry.modelcontextprotocol.io/v0.1/servers/wiki.dexio%2Fdexio/versions/latest)). Verified 2026-11-23: [dexio.wiki](https://dexio.wiki) HTTP 200 (H1 still "One wiki for all your agents."), [agents.md](https://dexio.wiki/agents.md) and [docs](https://dexio.wiki/docs/) HTTP 200; an unauthenticated POST to https://app.dexio.wiki/mcp answers 401 with Bearer `resource_metadata` https://app.dexio.wiki/.well-known/oauth-protected-resource/mcp |
+| **Verified at** | 2026-11-23 |
 
 ---
 
@@ -20,7 +20,7 @@
 
 https://dexio.wiki
 
-Homepage H1, read 2026-10-05: **"One wiki for all your agents."** The At a glance box reads "Hosted wiki for AI agents".
+Homepage H1, read 2026-11-23: **"One wiki for all your agents."** The At a glance box reads "Hosted wiki for AI agents".
 
 ---
 
