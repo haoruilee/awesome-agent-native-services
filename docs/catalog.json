@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-22",
-  "generated_at": "2026-11-22",
+  "catalog_version": "2026-11-23",
+  "generated_at": "2026-11-23",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "c3b7816b551c857ba25634343086272ef668e7e1f7a5aac8fcfecf5302361941",
+      "value": "4b7a0d4a85927c5faee8bcec033aac5768c3fee791ee708eced83d2e6d54a2bd",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -6283,15 +6283,17 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "available",
-      "latest_month_signal": "Server release v1.0.0 published 2026-09-30, last commit 2026-10-04; listed on the official MCP Registry as wiki.dexio/dexio 1.0.0 (registry). Verified 2026-10-05: dexio.wiki, agents.md and docs return HTTP 200; an unauthenticated POST to https://app.dexio.wiki/mcp answers 401 with OAuth protected-resource metadata",
-      "verified_at": "2026-10-05",
+      "latest_month_signal": "Server release v1.0.0 published 2026-09-30; last push 2026-11-20 (01e2ae1d); not archived; SPDX AGPL-3.0; 10 stars. Listed on the official MCP Registry as wiki.dexio/dexio 1.0.0 (registry). Verified 2026-11-23: dexio.wiki HTTP 200 (H1 still \"One wiki for all your agents.\"), agents.md and docs HTTP 200; an unauthenticated POST to https://app.dexio.wiki/mcp answers 401 with Bearer resource_metadata https://app.dexio.wiki/.well-known/oauth-protected-resource/mcp",
+      "verified_at": "2026-11-23",
       "verification_sources": [
         "https://github.com/dexio-wiki/dexio/releases/tag/v1.0.0",
+        "https://github.com/dexio-wiki/dexio/commit/01e2ae1d100ea7eea90e6c215baa013f260a1acf",
         "https://registry.modelcontextprotocol.io/v0.1/servers/wiki.dexio%2Fdexio/versions/latest",
         "https://dexio.wiki",
         "https://dexio.wiki/agents.md",
         "https://dexio.wiki/docs/",
-        "https://app.dexio.wiki/mcp"
+        "https://app.dexio.wiki/mcp",
+        "https://app.dexio.wiki/.well-known/oauth-protected-resource/mcp"
       ]
     },
     {
