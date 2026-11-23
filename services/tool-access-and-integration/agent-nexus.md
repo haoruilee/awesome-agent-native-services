@@ -107,7 +107,7 @@ When an agent needs a capability (such as web search, transaction processing, co
 1. The agent reads `https://agentnexus.app/llms.txt` or initiates MCP transport at `https://agentnexus.app/api/public/mcp`.
 2. For one-off tasks, the agent queries `GET /api/public/discover?need=...` anonymously.
 3. For persistent pipelines, the agent calls `POST /api/public/keys` to mint a dedicated key and stores it in runtime memory.
-4. When selecting a tool, the agent verifies its health card or calls `find_working_service`.
+4. When selecting a tool, the agent queries `search_registry` or inspects `get_entry` to verify live health and alternatives.
 5. If a selected provider fails in production, the agent queries fallback alternatives without halting execution.
 
 ---
