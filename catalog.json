@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "57ed3f477b175080bf876e7d5c9cc028bada75e668ed751d5a2e26087c1af8f9",
+      "value": "f9572e3af654beccffa8d9f6c8b7b3096fdef770885266e3b60efaadf19749cf",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -2198,7 +2198,7 @@
       ],
       "mcp_status": "available",
       "agent_skill_status": "unavailable",
-      "latest_month_signal": "Live on 2026-11-22: homepage, llms.txt, OpenAPI, discover (all HTTP 200). Remote MCP initialize at https://agentnexus.app/api/public/mcp returns agent-nexus 1.1.0 with 8 tools. 730+ active server entries",
+      "latest_month_signal": "Live on 2026-11-22: homepage, llms.txt, OpenAPI, discover (all HTTP 200). Remote MCP initialize at https://agentnexus.app/api/public/mcp returns agent-nexus 1.1.0 with 6 tools. 730+ active server entries",
       "verified_at": "2026-11-22",
       "verification_sources": [
         "https://agentnexus.app",

@@ -10,7 +10,7 @@
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration Services](README.md) |
 | **Funding / Compliance** | Self-funded. Independent registry and verification layer for AI agents. Open discovery API, free programmatic key minting (1,000 calls/day), optional Pro/Publisher tiers |
-| **Latest-month signal** | Live on 2026-11-22: [homepage](https://agentnexus.app), [llms.txt](https://agentnexus.app/llms.txt), [OpenAPI](https://agentnexus.app/openapi.json), [discover](https://agentnexus.app/api/public/discover) (all HTTP 200). Remote MCP `initialize` at `https://agentnexus.app/api/public/mcp` returns `agent-nexus` 1.1.0 with 8 tools. 730+ active server entries |
+| **Latest-month signal** | Live on 2026-11-22: [homepage](https://agentnexus.app), [llms.txt](https://agentnexus.app/llms.txt), [OpenAPI](https://agentnexus.app/openapi.json), [discover](https://agentnexus.app/api/public/discover) (all HTTP 200). Remote MCP `initialize` at `https://agentnexus.app/api/public/mcp` returns `agent-nexus` 1.1.0 with 6 tools. 730+ active server entries |
 | **Verified at** | 2026-11-22 |
 
 ---
@@ -64,7 +64,7 @@ See: https://agentskills.io/specification to contribute one.
 |---|---|
 | **Endpoint** | `https://agentnexus.app/api/public/mcp` (Streamable HTTP) |
 | **Auth** | Anonymous for discovery and health checks; bearer or `x-api-key` header for higher rate limits and programmatic submissions |
-| **Tools** | `discover_services`, `find_working_service`, `check_service_health`, `get_service_alternatives`, `get_health_card`, `mint_free_key`, `submit_service`, `report_issue` |
+| **Tools** | `discover_capabilities`, `search_registry`, `get_entry`, `list_categories`, `list_entries`, `submit_entry` |
 | **Docs** | https://agentnexus.app/llms.txt |
 
 ---
