@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "c20b5de7622a18d8aec762e5b00723cc0147d3e7b9c387732d8a976ecc34563c",
+      "value": "57ed3f477b175080bf876e7d5c9cc028bada75e668ed751d5a2e26087c1af8f9",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -70,6 +70,7 @@
         "services/tool-access-and-integration/README.md",
         "services/tool-access-and-integration/account-access.md",
         "services/tool-access-and-integration/agent-coach.md",
+        "services/tool-access-and-integration/agent-nexus.md",
         "services/tool-access-and-integration/aident-loadout.md",
         "services/tool-access-and-integration/apify-mcp-server.md",
         "services/tool-access-and-integration/arcade.md",
@@ -349,7 +350,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 313
+    "services": 314
   },
   "categories": [
     {
@@ -371,7 +372,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 32
+      "service_count": 33
     },
     {
       "id": "oversight-and-approval",
@@ -2166,6 +2167,45 @@
         "https://upskill.coach/api/v1/rules",
         "https://upskill.coach/mcp",
         "https://upskill.coach/api/v1/catalog"
+      ]
+    },
+    {
+      "id": "tool-access-and-integration/agent-nexus",
+      "slug": "agent-nexus",
+      "name": "Agent Nexus",
+      "tagline": "Autonomous discovery, verified health cards, and drift alerts for 730+ live MCP servers and agent tools.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "tool-access-and-integration",
+      "website": "https://agentnexus.app",
+      "repository": "https://github.com/Strategiumfinancepartner/AgentNexus",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/agent-nexus.md",
+      "source_path": "services/tool-access-and-integration/agent-nexus.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐",
+        "instruction": "Read https://agentnexus.app/llms.txt and follow it.",
+        "url": "https://agentnexus.app/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Live on 2026-11-22: homepage, llms.txt, OpenAPI, discover (all HTTP 200). Remote MCP initialize at https://agentnexus.app/api/public/mcp returns agent-nexus 1.1.0 with 8 tools. 730+ active server entries",
+      "verified_at": "2026-11-22",
+      "verification_sources": [
+        "https://agentnexus.app",
+        "https://agentnexus.app/llms.txt",
+        "https://agentnexus.app/openapi.json",
+        "https://agentnexus.app/api/public/discover",
+        "https://agentnexus.app/api/public/mcp"
       ]
     },
     {
