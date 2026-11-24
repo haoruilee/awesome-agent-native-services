@@ -49,6 +49,7 @@ Agent-native tool access services solve all three problems with primitives that 
 | [Agent Coach](agent-coach.md) | Tested skills and a daily coach for AI agents | URL onboarding (`/start`), REST, OpenAPI, remote MCP | ✅ |
 | [Tadka](tadka.md) | The booking layer for AI agents. | Remote MCP (OAuth), open REST directory, OpenAPI, llms.txt | ✅ |
 | [CorpusIQ](corpusiq.md) [![⭐](https://img.shields.io/github/stars/CorpusIQ/corpusiq-docs?style=social)](https://github.com/CorpusIQ/corpusiq-docs) | Accelerate your business. All your tools in one place. | Hosted Streamable HTTP MCP · OAuth device flow · OpenAPI 3.1 · llms.txt | ✅ |
+| [Agentik](agentik.md) [![⭐](https://img.shields.io/github/stars/agent-tool-router/agentik?style=social)](https://github.com/agent-tool-router/agentik) | The tool gateway for your agents. | Remote MCP · REST/OpenAPI · CLI · TypeScript SDK | ✅ |
 
 
 

@@ -266,6 +266,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/agentik/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/agentmail/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
