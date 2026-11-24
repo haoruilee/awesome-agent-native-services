@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "1a072be6e71ca3ea73a5b803b3b6bfb933b681a3772e0512f70119ee1a551515",
+      "value": "17ae998f1da030bc34e33de5cc4b800e47f5165a1a323bd0459e463c8b121121",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -178,6 +178,7 @@
         "services/agent-runtime-and-infrastructure/vectoree.md",
         "services/agent-runtime-and-infrastructure/vertex-ai-agent-engine.md",
         "services/agent-harnesses-and-control-planes/README.md",
+        "services/agent-harnesses-and-control-planes/5dive.md",
         "services/agent-harnesses-and-control-planes/agent-qa.md",
         "services/agent-harnesses-and-control-planes/claude-hud.md",
         "services/agent-harnesses-and-control-planes/codex-hud-anhannin.md",
@@ -352,7 +353,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 316
+    "services": 317
   },
   "categories": [
     {
@@ -402,7 +403,7 @@
       "name": "Agent Harnesses & Operator Surfaces",
       "description": "Systems purpose-built around running agents: either harnesses that add durable work state, orchestration, verification, and policy, or operator surfaces that expose live agent state and bounded session controls.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/README.md",
-      "service_count": 17
+      "service_count": 18
     },
     {
       "id": "memory-and-state",
@@ -5544,6 +5545,43 @@
       "verified_at": "2026-10-19",
       "verification_sources": [
         "https://github.com/googleapis/python-aiplatform"
+      ]
+    },
+    {
+      "id": "agent-harnesses-and-control-planes/5dive",
+      "slug": "5dive",
+      "name": "5dive",
+      "tagline": "Run a company of AI agents on a server you own.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-harnesses-and-control-planes",
+      "website": "https://5dive.ai",
+      "repository": "https://github.com/5dive-ai/5dive",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/5dive.md",
+      "source_path": "services/agent-harnesses-and-control-planes/5dive.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⚠️ — partial.",
+        "instruction": "Install 5dive on this server: curl -fsSL https://install.5dive.ai | sudo bash\nThen add the 5dive-cli skill: npx -y skills add https://github.com/5dive-ai/skills --skill 5dive-cli\nThen ask me which agent to create first.",
+        "url": "https://install.5dive.ai"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "webhook",
+        "cli"
+      ],
+      "mcp_status": "unknown",
+      "agent_skill_status": "available",
+      "latest_month_signal": "v0.142.0 released 2026-11-24; MIT; 5dive.ai returned HTTP 200. Operator-surface evidence is pinned to commit f373b23 (2026-11-23), the commit re-checked before the Go on #360; the README is unchanged at main commit c615db8",
+      "verified_at": "2026-11-24",
+      "verification_sources": [
+        "https://github.com/5dive-ai/5dive/releases/tag/v0.142.0",
+        "https://5dive.ai",
+        "https://github.com/5dive-ai/5dive/commit/f373b237a4f7356b92903dfeb45793af7fbf936a",
+        "https://github.com/haoruilee/awesome-agent-native-services/issues/360#issuecomment-7118568294",
+        "https://github.com/5dive-ai/5dive/commit/c615db886abbc3681470b02a2c4f467579367652"
       ]
     },
     {

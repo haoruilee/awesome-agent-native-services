@@ -8,7 +8,7 @@ image: "/assets/images/editorial-harness.webp"
 permalink: /categories/agent-harnesses-and-control-planes/
 page_kind: collection
 collection_number: "07"
-service_count: 17
+service_count: 18
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/README.md">Collection notes ↗</a></p>
@@ -30,6 +30,20 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://5dive.ai" rel="noopener noreferrer">5dive</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/5dive/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Run a company of AI agents on a server you own.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/5dive/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-harnesses-and-control-planes/5dive.md">Dossier ↗</a>
+      <a href="https://github.com/5dive-ai/5dive">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--02">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
     <h2 class="service-card__title"><a href="https://vostride.com/" rel="noopener noreferrer">Agent QA</a></h2>
     <p class="listing-source">Listed on <a href="{{ '/services/agent-qa/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">The self-improving QA agent for software teams.</p>
@@ -40,7 +54,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--02">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--03">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -54,7 +68,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--03">
+  <article class="service-card atlas-sheet--service atlas-visual--04">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -68,7 +82,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--04">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--05">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -82,7 +96,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--05">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--06">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -96,7 +110,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--06">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--07">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -110,7 +124,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--07">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--08">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -124,7 +138,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--08">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--09">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -138,7 +152,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--09">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--10">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -152,7 +166,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--10">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--11">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -166,7 +180,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--11">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--12">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -180,7 +194,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--12">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--13">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -194,7 +208,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--13">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--14">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -208,7 +222,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--14">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--15">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -222,7 +236,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--15">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--16">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -236,7 +250,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--16">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -250,7 +264,7 @@ The operator-surface exception is part of [What makes a service agent-native](/g
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--01">
+  <article class="service-card atlas-sheet--arrival atlas-visual--02">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>

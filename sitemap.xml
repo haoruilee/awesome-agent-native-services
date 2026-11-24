@@ -146,6 +146,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/5dive/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/account-access/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
