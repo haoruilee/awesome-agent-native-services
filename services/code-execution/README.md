@@ -40,6 +40,7 @@ Agent-native code execution services solve this with:
 | [briq](briq.md) | Cloud sandboxes for your agents | MCP (Streamable HTTP, OAuth), REST API (OpenAPI 3.1), TypeScript SDK, Python client, CLI, Agent Skill | ✅ |
 | [Buddy Sandboxes](buddy-sandboxes.md) | Persistent Linux VMs for AI-generated code and agents | MCP (OAuth or token), TypeScript SDK, REST API, `bdy` CLI, in-sandbox `this` command, Agent Skill | ✅ |
 | [ParallelSandbox](parallelsandbox.md) | A row of in-progress test builds of your app. | MCP (Streamable HTTP, OAuth), MIT stdio adapter, REST API, browser log SDK, Agent Skill | ✅ |
+| [Sandboxer](sandboxer.md) | The agent swarm platform | MCP (Streamable HTTP, OAuth or API key), stdio adapter, REST API (OpenAPI), TypeScript/Python SDKs, `sbx` CLI | ✅ |
 
 
 ---
