@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-23",
-  "generated_at": "2026-11-23",
+  "catalog_version": "2026-11-24",
+  "generated_at": "2026-11-24",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "4b7a0d4a85927c5faee8bcec033aac5768c3fee791ee708eced83d2e6d54a2bd",
+      "value": "5d3d001206213722a20c21c900904ce4d302bb771ee2491fb7e9d1fce69c8075",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -71,6 +71,7 @@
         "services/tool-access-and-integration/account-access.md",
         "services/tool-access-and-integration/agent-coach.md",
         "services/tool-access-and-integration/agent-nexus.md",
+        "services/tool-access-and-integration/agentik.md",
         "services/tool-access-and-integration/aident-loadout.md",
         "services/tool-access-and-integration/apify-mcp-server.md",
         "services/tool-access-and-integration/arcade.md",
@@ -350,7 +351,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 314
+    "services": 315
   },
   "categories": [
     {
@@ -372,7 +373,7 @@
       "name": "Tool Access & Integration",
       "description": "Services that let AI agents discover, authenticate, and invoke external tools at runtime — without a human pre-configuring credentials or selecting which integrations to activate.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/README.md",
-      "service_count": 33
+      "service_count": 34
     },
     {
       "id": "oversight-and-approval",
@@ -2206,6 +2207,53 @@
         "https://agentnexus.app/openapi.json",
         "https://agentnexus.app/api/public/discover",
         "https://agentnexus.app/api/public/mcp"
+      ]
+    },
+    {
+      "id": "tool-access-and-integration/agentik",
+      "slug": "agentik",
+      "name": "Agentik",
+      "tagline": "The tool gateway for your agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "tool-access-and-integration",
+      "website": "https://www.agentik.cc",
+      "repository": "https://github.com/agent-tool-router/agentik",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/tool-access-and-integration/agentik.md",
+      "source_path": "services/tool-access-and-integration/agentik.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "MCP. A person must approve OAuth or create an API key, and add prepaid credit before a paid run.",
+        "instruction": "npx @get-agentik/cli connect <client>",
+        "url": "https://ai.agentik.cc/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "sdk",
+        "openapi",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Checked 2026-11-24: index.md HTTP 200, “The tool gateway for your agents.” and “3,539 tools from 165 providers.”; docs HTTP 200; SKILL.md, llms.txt, pricing.md, and connect.md HTTP 200; OpenAPI HTTP 200, Agentik agent API 0.1.0; public MCP https://ai.agentik.cc/mcp/public initialize HTTP 200, serverInfo name agentik version 0.0.2; tools/list returns discover_tools and inspect_tool; POST https://ai.agentik.cc/mcp initialize HTTP 401, message expects OAuth or Authorization: Bearer trk_...; POST https://api.agentik.cc/v1/discover HTTP 200; agent-tool-router/agentik SPDX MIT, 0 stars, last push 2026-11-04; npm @get-agentik/cli and @get-agentik/sdk 0.1.0, license MIT",
+      "verified_at": "2026-11-24",
+      "verification_sources": [
+        "https://www.agentik.cc/index.md",
+        "https://www.agentik.cc/docs",
+        "https://www.agentik.cc/SKILL.md",
+        "https://www.agentik.cc/llms.txt",
+        "https://www.agentik.cc/pricing.md",
+        "https://www.agentik.cc/connect.md",
+        "https://api.agentik.cc/openapi/agent.json",
+        "https://ai.agentik.cc/mcp/public",
+        "https://ai.agentik.cc/mcp",
+        "https://api.agentik.cc/v1/discover",
+        "https://github.com/agent-tool-router/agentik"
       ]
     },
     {

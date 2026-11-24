@@ -88,13 +88,13 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**314 services across 16 categories.**
+**315 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
 | 1 | [Communication](#1-communication-services) | 19 | Give agents a communication identity on the internet |
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 31 | Remote browser and web data extraction for agents |
-| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 33 | Runtime tool discovery, auth, and execution |
+| 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 34 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 7 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 22 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 43 | Execution, session isolation, secrets, and gateway |
@@ -228,6 +228,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [CorpusIQ](services/tool-access-and-integration/corpusiq.md) [![⭐](https://img.shields.io/github/stars/CorpusIQ/corpusiq-docs?style=social)](https://github.com/CorpusIQ/corpusiq-docs) | Accelerate your business. All your tools in one place. | Hosted MCP · user OAuth · read-only connector tools · control-plane writes | ✅ | `claude mcp add --transport http corpusiq https://mcp2.corpusiq.io/mcp` — [developers](https://www.corpusiq.io/developers) (server source private; docs repo has no license file) |
 | [Agent Nexus](services/tool-access-and-integration/agent-nexus.md) [![⭐](https://img.shields.io/github/stars/Strategiumfinancepartner/AgentNexus?style=social)](https://github.com/Strategiumfinancepartner/AgentNexus) | Autonomous discovery, verified health cards, and drift alerts for 730+ live MCP servers and agent tools | Multi-layer hourly probes · Schema drift detection · Failover alternatives · Zero-friction programmatic key minting · URL onboarding | ✅ | Read https://agentnexus.app/llms.txt and follow it. — MCP: `https://agentnexus.app/api/public/mcp` |
 | [Agent Coach](services/tool-access-and-integration/agent-coach.md) | Tested skills and a daily coach for AI agents | Security-scanned library at pinned commits · Daily check-in with keep/drop verdicts · Per-agent credential · URL onboarding | ✅ | Read https://upskill.coach/start and follow it. — MCP: `https://upskill.coach/mcp` |
+| [Agentik](services/tool-access-and-integration/agentik.md) [![⭐](https://img.shields.io/github/stars/agent-tool-router/agentik?style=social)](https://github.com/agent-tool-router/agentik) | The tool gateway for your agents. | Discover/inspect before run · prepaid capped keys · idempotent runs · Plays | ✅ | `npx @get-agentik/cli connect <client>` — a person completes OAuth or creates a key, then tops up — [docs](https://www.agentik.cc/docs) |
 
 ---
 
