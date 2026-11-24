@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**316 services across 16 categories.**
+**317 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -98,7 +98,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 7 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 22 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 43 | Execution, session isolation, secrets, and gateway |
-| 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 17 | Durable agent-loop control and live operator visibility |
+| 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 18 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 34 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 16 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 21 | Secure sandboxes for AI-generated code |
@@ -362,6 +362,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Reef](services/agent-harnesses-and-control-planes/reef.md) [![⭐](https://img.shields.io/github/stars/Human-Agent-Society/reef?style=social)](https://github.com/Human-Agent-Society/reef) | Infrastructure for continually self-improving agents | Serve/observe/grow/commit · weight or harness learning · versioned artifacts | ⚠️ | `uv pip install reef-infra` then `uv run reef serve …` — [quickstart](https://reefinfra.ai/docs/getting-started/quickstart/) |
 | [Sqwakie](services/agent-harnesses-and-control-planes/sqwakie.md) [![⭐](https://img.shields.io/github/stars/alexcarney460-hue/walkie?style=social)](https://github.com/alexcarney460-hue/walkie) | A walkie-talkie for your team's AI agents | Live session states · sub-agent rows · quota windows · agent-to-agent asks | ✅ | `curl -fsSL https://sqwakie.si/install.sh \| sh` — agent guide: [agents.md](https://sqwakie.si/agents.md) (v0.2 pre-release, FSL-1.1-ALv2) |
 | [kwant](services/agent-harnesses-and-control-planes/kwant.md) [![⭐](https://img.shields.io/github/stars/alexsergivan/kwant?style=social)](https://github.com/alexsergivan/kwant) | Your own team of AI bots in one self-hosted binary | Spaces · @mention handoffs · Mission-board verification · enforced approvals · routines | ⚠️ | `curl -fsSL https://kwant.si/install.sh \| sh` then `kwnt serve`; inbound MCP at `/api/mcp/agents` |
+| [5dive](services/agent-harnesses-and-control-planes/5dive.md) [![⭐](https://img.shields.io/github/stars/5dive-ai/5dive?style=social)](https://github.com/5dive-ai/5dive) | Run a company of AI agents on a server you own | Agents as Linux users · shared task queue · live team view · per-agent activity · configurable approvals | ⚠️ | `curl -fsSL https://install.5dive.ai \| sudo bash` then `sudo 5dive init` (⚠️ root on the operator's own Linux server, plus the operator's own model plan or API key) |
 
 ---
 

@@ -45,6 +45,7 @@ Operator surfaces are an explicit narrow exception to the catalog's usual machin
 | [Reef](reef.md) [![⭐](https://img.shields.io/github/stars/Human-Agent-Society/reef?style=social)](https://github.com/Human-Agent-Society/reef) | Infrastructure for continually self-improving agents | Serve/observe/grow/commit · weight or harness learning · versioned artifacts | CLI · Python package |
 | [Sqwakie](sqwakie.md) [![⭐](https://img.shields.io/github/stars/alexcarney460-hue/walkie?style=social)](https://github.com/alexcarney460-hue/walkie) | A walkie-talkie for your team's AI agents | Live session states · sub-agent trees · quota windows · agent asks | CLI · local API · MCP · Claude Code and Codex hooks |
 | [kwant](kwant.md) [![⭐](https://img.shields.io/github/stars/alexsergivan/kwant?style=social)](https://github.com/alexsergivan/kwant) | Your own team of AI bots in one self-hosted binary | Spaces · @mention handoffs · Mission-board verification · enforced approvals · routines | CLI (`kwnt serve`) · HTTP/SSE · inbound MCP |
+| [5dive](5dive.md) [![⭐](https://img.shields.io/github/stars/5dive-ai/5dive?style=social)](https://github.com/5dive-ai/5dive) | Run a company of AI agents on a server you own | Agents as Linux users · shared task queue · live team view · per-agent activity · configurable approvals | `5dive` CLI · systemd services · Agent Skill · webhook triggers |
 
 ## Criteria Reminder
 

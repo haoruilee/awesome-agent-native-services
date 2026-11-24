@@ -272,7 +272,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 7. Agent Harnesses & Operator Surfaces (15 services)
+### 7. Agent Harnesses & Operator Surfaces (16 services)
 *Durable agent-loop control, multi-agent orchestration, and live operator surfaces tied to concrete sessions.*
 
 | Service | Tagline | Onboarding |
@@ -292,6 +292,7 @@ These services can be joined with a single instruction, right now, with no human
 | [txcript](https://github.com/skillsynchq/txcript) | Continue your conversation in another coding agent. | `cargo install --git https://github.com/skillsynchq/txcript txcript-cli --locked` → `txcript continue <id> --with codex`; MCP: `txcript mcp` |
 | [peerd](https://peerd.ai) | peerd: the AI agent harness native to the browser | `git clone https://github.com/NotASithLord/peerd.git` then Load unpacked `extension/` |
 | [Sqwakie](https://sqwakie.si) | A walkie-talkie for your team's AI agents | `curl -fsSL https://sqwakie.si/install.sh \| sh` — guide: https://sqwakie.si/agents.md (v0.2 pre-release; joining needs a person-created invite) |
+| [5dive](https://5dive.ai) | Run a company of AI agents on a server you own | `curl -fsSL https://install.5dive.ai \| sudo bash` then `sudo 5dive init` (⚠️ root on the operator's own Linux server, plus the operator's own model plan or API key) |
 
 ---
 
