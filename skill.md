@@ -354,7 +354,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 10. Code Execution (18 services)
+### 10. Code Execution (19 services)
 *Secure isolated runtimes for AI-generated code with LLM-formatted output.*
 
 | Service | Tagline | Onboarding |
@@ -377,6 +377,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Latchkey](https://latchkey.dev) | CI your coding agents can run, read and fix | `claude mcp add --transport http latchkey https://latchkey.dev/mcp --header "Authorization: Bearer $LATCHKEY_TOKEN"` — [docs](https://latchkey.dev/documentation/connect-your-ai-agent) |
 | [The Vibe Hosting](https://thevibehosting.com) ⭐ | One prompt → root Linux → your project is live. | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` or `npx skills add ladik33/thevibehosting-skill` |
 | [ParallelSandbox](https://parallelsandbox.com/en/) | A row of in-progress test builds of your app. | `Read https://parallelsandbox.com/skill/SKILL.md and follow the instructions to install the skill and connect` (a person completes OAuth in the browser once) |
+| [Sandboxer](https://sandboxer.com) | The agent swarm platform | `Read https://sandboxer.com/docs/mcp.md and follow the agent setup steps` (a person signs in with OAuth or creates an API key once) |
 
 ---
 

@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "5d3d001206213722a20c21c900904ce4d302bb771ee2491fb7e9d1fce69c8075",
+      "value": "1a072be6e71ca3ea73a5b803b3b6bfb933b681a3772e0512f70119ee1a551515",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -265,6 +265,7 @@
         "services/code-execution/parallelsandbox.md",
         "services/code-execution/riza.md",
         "services/code-execution/runloop.md",
+        "services/code-execution/sandboxer.md",
         "services/code-execution/smolvm.md",
         "services/code-execution/the-vibe-hosting.md",
         "services/code-execution/vercel-sandbox.md",
@@ -351,7 +352,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 315
+    "services": 316
   },
   "categories": [
     {
@@ -422,7 +423,7 @@
       "name": "Code Execution",
       "description": "Services that give AI agents a secure, isolated runtime for executing generated code — without human-side sandbox setup, without risking the host environment, and with output formatted for direct LLM consumption.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/README.md",
-      "service_count": 20
+      "service_count": 21
     },
     {
       "id": "observability-and-tracing",
@@ -8308,6 +8309,42 @@
         "rest",
         "cli",
         "sdk",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "code-execution/sandboxer",
+      "slug": "sandboxer",
+      "name": "Sandboxer",
+      "tagline": "The agent swarm platform.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "code-execution",
+      "website": "https://sandboxer.com",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/sandboxer.md",
+      "source_path": "services/code-execution/sandboxer.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⚠️ — partial.",
+        "instruction": "Read https://sandboxer.com/docs/mcp.md and follow the \"If you are an agent setting this up\" steps to connect the Sandboxer MCP server.",
+        "url": "https://sandboxer.com/docs/mcp.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "cli",
+        "sdk",
+        "openapi",
+        "stdio",
         "http",
         "api"
       ],

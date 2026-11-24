@@ -8,7 +8,7 @@ image: "/assets/images/editorial-sandbox.webp"
 permalink: /categories/code-execution/
 page_kind: collection
 collection_number: "10"
-service_count: 20
+service_count: 21
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/README.md">Collection notes ↗</a></p>
@@ -263,7 +263,20 @@ The comparison is [Sandboxes and code execution for agents](/guides/sandboxes-an
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--02">
+  <article class="service-card atlas-sheet--service atlas-visual--02">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://sandboxer.com" rel="noopener noreferrer">Sandboxer</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/sandboxer/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">The agent swarm platform.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/sandboxer/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/code-execution/sandboxer.md">Dossier ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--03">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -277,7 +290,7 @@ The comparison is [Sandboxes and code execution for agents](/guides/sandboxes-an
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--03">
+  <article class="service-card atlas-sheet--service atlas-visual--04">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -290,7 +303,7 @@ The comparison is [Sandboxes and code execution for agents](/guides/sandboxes-an
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--04">
+  <article class="service-card atlas-sheet--service atlas-visual--05">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
