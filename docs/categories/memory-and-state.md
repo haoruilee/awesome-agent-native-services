@@ -212,7 +212,7 @@ The approaches are compared in [Memory layers for agents](/guides/memory-layers-
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
-    <h2 class="service-card__title"><a href="https://clickhouse.github.io/loom/" rel="noopener noreferrer">Loom</a></h2>
+    <h2 class="service-card__title"><a href="https://loom.clickhouse.com/" rel="noopener noreferrer">Loom</a></h2>
     <p class="listing-source">Listed on <a href="{{ '/services/loom/' | relative_url }}">The Agent-Native Index</a></p>
     <p class="service-card__tagline">Shared memory, document search and code intelligence for AI agents.</p>
     <div class="service-card__actions">

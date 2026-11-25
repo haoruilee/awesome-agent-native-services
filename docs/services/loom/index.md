@@ -13,7 +13,7 @@ classification: "agent-native"
 dossier_path: "services/memory-and-state/loom.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/loom.md"
 tagline: "Shared memory, document search and code intelligence for AI agents"
-website: "https://clickhouse.github.io/loom/"
+website: "https://loom.clickhouse.com/"
 repository: "https://github.com/ClickHouse/loom"
 ---
 
@@ -26,8 +26,8 @@ repository: "https://github.com/ClickHouse/loom"
 </ul>
 
 <ul class="service-page__links">
-<li><a href="https://clickhouse.github.io/loom/" rel="noopener noreferrer">Website ↗</a></li>
-<li><a href="https://github.com/ClickHouse/loom/blob/v1.2.0/README.md" rel="noopener noreferrer">Docs ↗</a></li>
+<li><a href="https://loom.clickhouse.com/" rel="noopener noreferrer">Website ↗</a></li>
+<li><a href="https://loom.clickhouse.com/docs" rel="noopener noreferrer">Docs ↗</a></li>
 <li><a href="https://github.com/ClickHouse/loom" rel="noopener noreferrer">Official repo ↗</a></li>
 <li><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/loom.md" rel="noopener noreferrer">Full dossier on GitHub ↗</a></li>
 </ul>

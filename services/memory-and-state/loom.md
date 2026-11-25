@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| **Website** | https://clickhouse.github.io/loom/ |
-| **Docs** | https://github.com/ClickHouse/loom/blob/v1.2.0/README.md |
+| **Website** | https://loom.clickhouse.com/ |
+| **Docs** | https://loom.clickhouse.com/docs |
 | **GitHub** | https://github.com/ClickHouse/loom |
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/ClickHouse/loom?style=social)](https://github.com/ClickHouse/loom) |
 | **Classification** | `agent-native` |
@@ -16,7 +16,7 @@
 
 ## Official Website
 
-https://clickhouse.github.io/loom/
+https://loom.clickhouse.com/
 
 ---
 
