@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "fb2dabcfc54db853314ad91196a38430fbadfb6aa24ea3651a2fb555f321cf0e",
+      "value": "94f6658debd739c4ce66e996a118c53083301a83935fcbd086156146c3b195b0",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -6895,7 +6895,7 @@
       "status": "listed",
       "lifecycle_status": "unknown",
       "category": "memory-and-state",
-      "website": "https://clickhouse.github.io/loom/",
+      "website": "https://loom.clickhouse.com/",
       "repository": "https://github.com/ClickHouse/loom",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/memory-and-state/loom.md",
       "source_path": "services/memory-and-state/loom.md",
