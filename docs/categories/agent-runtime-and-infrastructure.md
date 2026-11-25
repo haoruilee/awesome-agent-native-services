@@ -8,7 +8,7 @@ image: "/assets/images/editorial-runtime.webp"
 permalink: /categories/agent-runtime-and-infrastructure/
 page_kind: collection
 collection_number: "06"
-service_count: 43
+service_count: 51
 ---
 
 <p class="collection-source"><a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md">Collection notes ↗</a></p>
@@ -190,7 +190,20 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--13">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--13">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://box.simular.ai" rel="noopener noreferrer">box by Simular</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/simular-box/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Give your agents a computer.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/simular-box/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/simular-box.md">Dossier ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--arrival atlas-visual--14">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -204,7 +217,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--14">
+  <article class="service-card atlas-sheet--arrival atlas-visual--15">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -218,7 +231,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--15">
+  <article class="service-card atlas-sheet--arrival atlas-visual--16">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -232,7 +245,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--16">
+  <article class="service-card atlas-sheet--service atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -246,7 +259,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--01">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--02">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -260,7 +273,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--02">
+  <article class="service-card atlas-sheet--service atlas-visual--03">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -274,7 +287,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--03">
+  <article class="service-card atlas-sheet--service atlas-visual--04">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -288,7 +301,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--04">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--05">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -302,7 +315,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--05">
+  <article class="service-card atlas-sheet--service atlas-visual--06">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -316,7 +329,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--06">
+  <article class="service-card atlas-sheet--service atlas-visual--07">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -330,7 +343,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--07">
+  <article class="service-card atlas-sheet--service atlas-visual--08">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -343,7 +356,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--08">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--09">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -357,7 +370,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--09">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--10">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -371,7 +384,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--10">
+  <article class="service-card atlas-sheet--service atlas-visual--11">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -385,7 +398,21 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--11">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--12">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://holm.computer" rel="noopener noreferrer">Holm</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/holm/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Isolated desktops for AI agents.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/holm/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/holm.md">Dossier ↗</a>
+      <a href="https://github.com/holm-inc/holm">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--service atlas-visual--13">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -399,7 +426,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--12">
+  <article class="service-card atlas-sheet--service atlas-visual--14">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -413,7 +440,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--13">
+  <article class="service-card atlas-sheet--service atlas-visual--15">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -427,7 +454,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--service atlas-visual--14">
+  <article class="service-card atlas-sheet--service atlas-visual--16">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -441,7 +468,34 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--15">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--01">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://mandala.computer" rel="noopener noreferrer">Mandala Computer</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mandala-computer/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Computers for AI Agents.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/mandala-computer/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/mandala-computer.md">Dossier ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--02">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://mobilebox.dev" rel="noopener noreferrer">Mobilebox</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/mobilebox/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Mobile sandboxes for your AI agents.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/mobilebox/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/mobilebox.md">Dossier ↗</a>
+      <a href="https://github.com/mobilebox-dev/mobilebox">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--03">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -455,7 +509,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--service atlas-visual--16">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--04">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -469,7 +523,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--01">
+  <article class="service-card atlas-sheet--arrival atlas-visual--05">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -483,7 +537,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--02">
+  <article class="service-card atlas-sheet--arrival atlas-visual--06">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -497,7 +551,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--03">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--07">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -511,7 +565,20 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--04">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--08">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://www.orgo.ai" rel="noopener noreferrer">Orgo</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/orgo/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Computers for Agents.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/orgo/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/orgo.md">Dossier ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--arrival atlas-visual--09">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -524,7 +591,35 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--05">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--10">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://phone-harness.com" rel="noopener noreferrer">Phone Harness</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/phone-harness/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Let your agent use your phone.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/phone-harness/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/phone-harness.md">Dossier ↗</a>
+      <a href="https://github.com/phone-harness/phone-harness">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--11">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://www.phoneuse.com" rel="noopener noreferrer">PhoneUse</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/phoneuse/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Your agent now has a phone.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/phoneuse/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/phoneuse.md">Dossier ↗</a>
+      <a href="https://github.com/phoneuse-official/phoneuse">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--arrival atlas-visual--12">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -538,7 +633,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--06">
+  <article class="service-card atlas-sheet--arrival atlas-visual--13">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -552,7 +647,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--07">
+  <article class="service-card atlas-sheet--arrival atlas-visual--14">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -566,7 +661,21 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--08">
+  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--15">
+    <span class="service-card__image" aria-hidden="true"></span>
+    <div class="service-card__copy">
+    <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
+    <h2 class="service-card__title"><a href="https://screenbox.dev" rel="noopener noreferrer">Screenbox</a></h2>
+    <p class="listing-source">Listed on <a href="{{ '/services/screenbox/' | relative_url }}">The Agent-Native Index</a></p>
+    <p class="service-card__tagline">Real desktops for AI agents.</p>
+    <div class="service-card__actions">
+      <a href="{{ '/services/screenbox/' | relative_url }}">Introduction</a>
+      <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/screenbox.md">Dossier ↗</a>
+      <a href="https://github.com/dklymentiev/screenbox">Official repo ↗</a>
+    </div>
+    </div>
+  </article>
+  <article class="service-card atlas-sheet--arrival atlas-visual--16">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -580,7 +689,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card service-card--new atlas-sheet--arrival atlas-visual--09">
+  <article class="service-card service-card--new atlas-sheet--service atlas-visual--01">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>New · Last 30 days</span><span>agent-native</span></div>
@@ -594,7 +703,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--10">
+  <article class="service-card atlas-sheet--service atlas-visual--02">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
@@ -608,7 +717,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     </div>
     </div>
   </article>
-  <article class="service-card atlas-sheet--arrival atlas-visual--11">
+  <article class="service-card atlas-sheet--service atlas-visual--03">
     <span class="service-card__image" aria-hidden="true"></span>
     <div class="service-card__copy">
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
