@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "530b06cf00b4fb6acaf4d4356c560e52f90848cb30a743dd496052163b40c0e3",
+      "value": "fb2dabcfc54db853314ad91196a38430fbadfb6aa24ea3651a2fb555f321cf0e",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -159,20 +159,28 @@
         "services/agent-runtime-and-infrastructure/e2b-desktop.md",
         "services/agent-runtime-and-infrastructure/fiserv-agentos.md",
         "services/agent-runtime-and-infrastructure/google-ax.md",
+        "services/agent-runtime-and-infrastructure/holm.md",
         "services/agent-runtime-and-infrastructure/infisical-agent-sentinel.md",
         "services/agent-runtime-and-infrastructure/lantern-works.md",
         "services/agent-runtime-and-infrastructure/letta.md",
         "services/agent-runtime-and-infrastructure/limrun.md",
+        "services/agent-runtime-and-infrastructure/mandala-computer.md",
         "services/agent-runtime-and-infrastructure/mobile-next.md",
+        "services/agent-runtime-and-infrastructure/mobilebox.md",
         "services/agent-runtime-and-infrastructure/mobilerun.md",
         "services/agent-runtime-and-infrastructure/modal.md",
         "services/agent-runtime-and-infrastructure/multica.md",
         "services/agent-runtime-and-infrastructure/openai-symphony.md",
+        "services/agent-runtime-and-infrastructure/orgo.md",
+        "services/agent-runtime-and-infrastructure/phone-harness.md",
         "services/agent-runtime-and-infrastructure/phonebox.md",
+        "services/agent-runtime-and-infrastructure/phoneuse.md",
         "services/agent-runtime-and-infrastructure/polos.md",
         "services/agent-runtime-and-infrastructure/sandbase-harness.md",
         "services/agent-runtime-and-infrastructure/scrapybara.md",
+        "services/agent-runtime-and-infrastructure/screenbox.md",
         "services/agent-runtime-and-infrastructure/serena.md",
+        "services/agent-runtime-and-infrastructure/simular-box.md",
         "services/agent-runtime-and-infrastructure/three-ws.md",
         "services/agent-runtime-and-infrastructure/uta-trust-api.md",
         "services/agent-runtime-and-infrastructure/vectoree.md",
@@ -355,7 +363,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 319
+    "services": 327
   },
   "categories": [
     {
@@ -398,7 +406,7 @@
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 43
+      "service_count": 51
     },
     {
       "id": "agent-harnesses-and-control-planes",
@@ -4969,6 +4977,41 @@
       ]
     },
     {
+      "id": "agent-runtime-and-infrastructure/holm",
+      "slug": "holm",
+      "name": "Holm",
+      "tagline": "Isolated desktops for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://holm.computer",
+      "repository": "https://github.com/holm-inc/holm",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/holm.md",
+      "source_path": "services/agent-runtime-and-infrastructure/holm.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "local CLI and self-hosted MCP. Not a one-URL join.",
+        "instruction": "# Install holm and holmd, then a runtime (Docker, Podman, smolvm, microsandbox, or E2B).\nholm mcp --stdio\n# or Streamable HTTP on your own holmd: /mcp",
+        "url": null
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "cli",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Checked 2026-11-25: homepage HTTP 200, title \"holm — Isolated desktops for AI agents.\"; repo MIT, 10 stars, last push 2026-10-05T07:01:29Z. No hosted cloud: /login on the site returned HTTP 404",
+      "verified_at": "2026-11-25",
+      "verification_sources": [
+        "https://holm.computer",
+        "https://github.com/holm-inc/holm"
+      ]
+    },
+    {
       "id": "agent-runtime-and-infrastructure/infisical-agent-sentinel",
       "slug": "infisical-agent-sentinel",
       "name": "Infisical Agent Sentinel",
@@ -5097,6 +5140,43 @@
       ]
     },
     {
+      "id": "agent-runtime-and-infrastructure/mandala-computer",
+      "slug": "mandala-computer",
+      "name": "Mandala Computer",
+      "tagline": "Computers for AI Agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://mandala.computer",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/mandala-computer.md",
+      "source_path": "services/agent-runtime-and-infrastructure/mandala-computer.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "hosted MCP with browser OAuth, or a human-minted API key. Not a one-URL join.",
+        "instruction": "# Hosted MCP: https://app.mandala.computer/mcp\n# Local stdio: npx mandala-computer-mcp",
+        "url": "https://app.mandala.computer/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "websocket",
+        "webhook",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Checked 2026-11-25: homepage HTTP 200, title \"Mandala Computer — Computers for AI Agents\"; llms.txt and API docs HTTP 200; MCP GET https://app.mandala.computer/mcp 401",
+      "verified_at": "2026-11-25",
+      "verification_sources": [
+        "https://mandala.computer",
+        "https://mandala.computer/llms.txt",
+        "https://app.mandala.computer/docs",
+        "https://app.mandala.computer/mcp"
+      ]
+    },
+    {
       "id": "agent-runtime-and-infrastructure/mobile-next",
       "slug": "mobile-next",
       "name": "Mobile Next",
@@ -5128,6 +5208,46 @@
       "verified_at": "2026-11-12",
       "verification_sources": [
         "https://github.com/mobile-next/mobile-mcp"
+      ]
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/mobilebox",
+      "slug": "mobilebox",
+      "name": "Mobilebox",
+      "tagline": "Mobile sandboxes for your AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://mobilebox.dev",
+      "repository": "https://github.com/mobilebox-dev/mobilebox",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/mobilebox.md",
+      "source_path": "services/agent-runtime-and-infrastructure/mobilebox.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "agent-readable setup document + hosted MCP + REST. Not a one-URL join.",
+        "instruction": "# Read https://mobilebox.dev/setup.md and follow it.\n# MCP (Streamable HTTP): https://mobilebox.dev/mcp\n#   Authorization: Bearer $MOBILESANDBOX_API_KEY\npip install mobilebox",
+        "url": "https://mobilebox.dev/setup.md"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "openapi",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Checked 2026-11-25: homepage HTTP 200, H1 \"Mobile sandboxes for your AI agents.\"; llms.txt, skill.md, setup.md, and OpenAPI HTTP 200; MCP GET https://mobilebox.dev/mcp 401; repo MIT, 1 star, pushed 2026-11-25T13:35:19Z",
+      "verified_at": "2026-11-25",
+      "verification_sources": [
+        "https://mobilebox.dev",
+        "https://mobilebox.dev/llms.txt",
+        "https://mobilebox.dev/skill.md",
+        "https://mobilebox.dev/setup.md",
+        "https://mobilebox.dev/openapi.json",
+        "https://mobilebox.dev/mcp",
+        "https://github.com/mobilebox-dev/mobilebox"
       ]
     },
     {
@@ -5260,6 +5380,87 @@
       ]
     },
     {
+      "id": "agent-runtime-and-infrastructure/orgo",
+      "slug": "orgo",
+      "name": "Orgo",
+      "tagline": "Computers for Agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://www.orgo.ai",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/orgo.md",
+      "source_path": "services/agent-runtime-and-infrastructure/orgo.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + REST + hosted MCP. Unclaimed accounts that have added less than $5 expire 72 hours after signup. While signups are busy, verification.required blocks launches until a person opens claim.url or credit is added. The usual claude mcp add sign-in is a person clicking Allow, which is not this URL path.",
+        "instruction": "Read https://www.orgo.ai/orgo.md and follow the instructions to create an agent account.",
+        "url": "https://www.orgo.ai/orgo.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Checked 2026-11-25: homepage HTTP 200, H1 \"Computers for Agents\"; orgo.md, for-agents, MCP guide, llms.txt, and computer skill HTTP 200; MCP GET https://www.orgo.ai/mcp 405",
+      "verified_at": "2026-11-25",
+      "verification_sources": [
+        "https://www.orgo.ai",
+        "https://www.orgo.ai/orgo.md",
+        "https://docs.orgo.ai/for-agents",
+        "https://docs.orgo.ai/guides/mcp",
+        "https://docs.orgo.ai/llms.txt",
+        "https://orgo.ai/skills/computer/SKILL.md",
+        "https://www.orgo.ai/mcp"
+      ]
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/phone-harness",
+      "slug": "phone-harness",
+      "name": "Phone Harness",
+      "tagline": "Let your agent use your phone.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://phone-harness.com",
+      "repository": "https://github.com/phone-harness/phone-harness",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/phone-harness.md",
+      "source_path": "services/agent-runtime-and-infrastructure/phone-harness.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "CLI + REST + hosted MCP, after a dashboard key. Not a one-URL join.",
+        "instruction": "pip install phone-harness\n# Hosted MCP (cloud phones only): https://mcp.phone-harness.com/mcp\n# REST base: https://api.phone-harness.com",
+        "url": "https://mcp.phone-harness.com/mcp"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "rest",
+        "cli",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "Checked 2026-11-25: homepage HTTP 200, H1 \"Let your agent use your phone.\"; docs index and docs skill HTTP 200; MCP GET https://mcp.phone-harness.com/mcp 401; repo MIT, 5776 stars, pushed 2026-11-24T03:20:48Z, SKILL.md present",
+      "verified_at": "2026-11-25",
+      "verification_sources": [
+        "https://phone-harness.com",
+        "https://phone-harness.com/docs/llms.txt",
+        "https://phone-harness.com/docs/skill.md",
+        "https://mcp.phone-harness.com/mcp",
+        "https://github.com/phone-harness/phone-harness"
+      ]
+    },
+    {
       "id": "agent-runtime-and-infrastructure/phonebox",
       "slug": "phonebox",
       "name": "Phonebox",
@@ -5292,6 +5493,43 @@
       "verified_at": "2026-11-12",
       "verification_sources": [
         "https://phonebox.dev"
+      ]
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/phoneuse",
+      "slug": "phoneuse",
+      "name": "PhoneUse",
+      "tagline": "Your agent now has a phone.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://www.phoneuse.com",
+      "repository": "https://github.com/phoneuse-official/phoneuse",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/phoneuse.md",
+      "source_path": "services/agent-runtime-and-infrastructure/phoneuse.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "hosted control-plane MCP + REST, after a human-minted key. Not a one-URL join.",
+        "instruction": "# Control-plane MCP (stateless Streamable HTTP): https://mcp.phoneuse.com/mcp\n# Docs for agents: https://docs.phoneuse.com/getting-started/for-agents.md",
+        "url": "https://mcp.phoneuse.com/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "rest",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Checked 2026-11-25: homepage HTTP 200, title \"PhoneUse: Phones for AI agents\", H1 \"Your agent now has a phone.\"; docs HTTP 200, description \"The mobile execution layer for AI agents.\"; MCP GET https://mcp.phoneuse.com/mcp 405; healthz HTTP 200 with status degraded; repo MIT, 123 stars, pushed 2026-11-23T09:51:52Z",
+      "verified_at": "2026-11-25",
+      "verification_sources": [
+        "https://www.phoneuse.com",
+        "https://docs.phoneuse.com/",
+        "https://mcp.phoneuse.com/mcp",
+        "https://mcp.phoneuse.com/healthz",
+        "https://github.com/phoneuse-official/phoneuse"
       ]
     },
     {
@@ -5386,6 +5624,38 @@
       "verification_sources": []
     },
     {
+      "id": "agent-runtime-and-infrastructure/screenbox",
+      "slug": "screenbox",
+      "name": "Screenbox",
+      "tagline": "Real desktops for AI agents.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://screenbox.dev",
+      "repository": "https://github.com/dklymentiev/screenbox",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/screenbox.md",
+      "source_path": "services/agent-runtime-and-infrastructure/screenbox.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "self-hosted Docker Compose and a local MCP URL. Not a one-URL join.",
+        "instruction": "git clone https://github.com/dklymentiev/screenbox\ncd screenbox\n./setup.sh\ndocker compose up -d\n# Dashboard: http://localhost:16000\n# MCP: http://localhost:8080/mcp",
+        "url": "https://github.com/dklymentiev/screenbox"
+      },
+      "protocols": [
+        "mcp",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Checked 2026-11-25: homepage HTTP 200; repo HTTP 200, 26 stars, pushed 2026-11-12T03:42:27Z; LICENSE file is GNU Affero General Public License. No public hosted MCP",
+      "verified_at": "2026-11-25",
+      "verification_sources": [
+        "https://screenbox.dev",
+        "https://github.com/dklymentiev/screenbox"
+      ]
+    },
+    {
       "id": "agent-runtime-and-infrastructure/serena",
       "slug": "serena",
       "name": "Serena",
@@ -5414,6 +5684,44 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/simular-box",
+      "slug": "simular-box",
+      "name": "box by Simular",
+      "tagline": "Give your agents a computer.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://box.simular.ai",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/simular-box.md",
+      "source_path": "services/agent-runtime-and-infrastructure/simular-box.md",
+      "onboarding": {
+        "type": "mcp",
+        "pattern": "remote MCP after a person's Simular login, or a human-created cb_ key. Not a one-URL join.",
+        "instruction": "https://mcp.box.simular.ai/mcp",
+        "url": "https://mcp.box.simular.ai/mcp"
+      },
+      "protocols": [
+        "mcp",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Checked 2026-11-25: homepage HTTP 200, title \"Give your agents a computer\"; llms.txt, auth.md, install.md, and docs/mcp HTTP 200; MCP GET https://mcp.box.simular.ai/mcp 401; server card https://box.simular.ai/.well-known/mcp/server-card.json HTTP 200; box-plugin MIT, 3 stars, pushed 2026-11-25T07:23:22Z",
+      "verified_at": "2026-11-25",
+      "verification_sources": [
+        "https://box.simular.ai",
+        "https://box.simular.ai/llms.txt",
+        "https://box.simular.ai/auth.md",
+        "https://box.simular.ai/install.md",
+        "https://box.simular.ai/docs/mcp",
+        "https://mcp.box.simular.ai/mcp",
+        "https://box.simular.ai/.well-known/mcp/server-card.json",
+        "https://github.com/simular-ai/box-plugin"
+      ]
     },
     {
       "id": "agent-runtime-and-infrastructure/three-ws",

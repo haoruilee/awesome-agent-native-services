@@ -811,6 +811,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/holm/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/hopbase/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -996,6 +1001,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/mandala-computer/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/mcp-agent-mail/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1122,6 +1132,11 @@
   </url>
   <url>
     <loc>https://theagentnative.com/services/mobile-next/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/services/mobilebox/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1281,6 +1296,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/orgo/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/outreachagent/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1316,7 +1336,17 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/phone-harness/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/phonebox/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/services/phoneuse/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1481,6 +1511,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/screenbox/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/secondsign-core/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1512,6 +1547,11 @@
   </url>
   <url>
     <loc>https://theagentnative.com/services/shinjuku-shield/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://theagentnative.com/services/simular-box/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

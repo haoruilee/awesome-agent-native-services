@@ -79,6 +79,7 @@ These services can be joined with a single instruction, right now, with no human
 | **Break Room** | Agent-only game tables (bluffing, Werewolf, auctions, Diplomacy) with a signed Nostr-key join and public replays | `Read https://breakroom.lol/llms.txt and follow it to join a table.` |
 | **Model Moot** | Problems with checkable answers, verified only by agents under other owners; open topics, notes and requests | `Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.` |
 | **Nova Vita** | A public simulation town where external agents register, then talk, trade, build houses, and adopt pets. Humans watch | `Read https://novavita.mertas.space/llms.txt and follow instructions to register and live in town.` |
+| **Orgo** | A cloud computer account with $2 starting credit and no email. Unclaimed accounts with under $5 added expire in 72 hours. When signups are busy, `verification.required` blocks launches until a person opens `claim.url` or credit is added. `claude mcp add` is a separate person sign-in | `Read https://www.orgo.ai/orgo.md and follow the instructions to create an agent account.` |
 | **The Vibe Hosting** | Root Ubuntu server on a live HTTPS subdomain from one HTTP call, no signup | `Read https://thevibehosting.com/SKILL.md and follow the instructions to deploy your project.` |
 | **deed.page** | Permanent static site at an agent-chosen `https://<slug>.deed.page/` URL from one PUT, no signup | `Read https://deed.page/skill.md and follow the instructions to publish a page.` |
 | **ReleaseLog** | Verified AI release intelligence: structured changelogs an agent can poll with no API key | `Read https://releaselog.site/skill.md and follow the instructions.` |
@@ -88,7 +89,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 294 Services
+## Full Catalog — 16 Categories, 302 Services
 
 ### 1. Communication (19 services)
 *Give agents a first-class communication identity on the internet.*
@@ -229,7 +230,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 6. Agent Runtime & Infrastructure (37 services)
+### 6. Agent Runtime & Infrastructure (44 services)
 *Secure execution, session isolation, secrets, identity, and gateway for production agents.*
 
 | Service | Tagline | Onboarding |
@@ -270,6 +271,14 @@ These services can be joined with a single instruction, right now, with no human
 | [UTA Trust API](https://uta-trust-api.eddyflores100.workers.dev) | The USB-C of agent trust — x402-paid verification of Agent Trust Cards | `Read https://uta-trust-api.eddyflores100.workers.dev/openapi.json and follow the instructions to settle via x402 and verify` — SDK: `npm install agent-trust-card` |
 | [deed.page](https://deed.page) ⭐ | Permanent static hosting for AI agents | `Read https://deed.page/skill.md and follow the instructions to publish a page.` or `npx skills add f-o-x11/deed-page-skill` — MCP: `https://deed.page/mcp` |
 | [three.ws](https://three.ws) | The 3D Agent Layer of the Internet | Add MCP `https://three.ws/api/mcp-grok`, or `Read https://three.ws/grok-skill.md` |
+| [Mobilebox](https://mobilebox.dev) | Mobile sandboxes for your AI agents. | ⚠️ Email from a person, then [setup.md](https://mobilebox.dev/setup.md) mints a key and a 6-digit inbox code keeps the workspace. MCP `https://mobilebox.dev/mcp` (OAuth Allow is a human click) |
+| [PhoneUse](https://www.phoneuse.com) | Your agent now has a phone. | ⚠️ Console signup and a human-minted key. Control-plane MCP `https://mcp.phoneuse.com/mcp`. Health was `degraded` on 2026-11-25 — [docs](https://docs.phoneuse.com/) |
+| [Phone Harness](https://phone-harness.com) | Let your agent use your phone. | ⚠️ Dashboard API key. Hosted MCP `https://mcp.phone-harness.com/mcp` is cloud phones only. Local path needs iPhone Mirroring or adb |
+| [Orgo](https://www.orgo.ai) ⭐ | Computers for Agents. | `Read https://www.orgo.ai/orgo.md and follow the instructions to create an agent account.` (⚠️ under $5 added and unclaimed expires in 72 hours; busy signups can set `verification.required`) |
+| [box by Simular](https://box.simular.ai) | Give your agents a computer. | ⚠️ No agent self-registration. OAuth or a human `cb_` key. MCP `https://mcp.box.simular.ai/mcp` |
+| [Mandala Computer](https://mandala.computer) | Computers for AI Agents. | ⚠️ Browser OAuth or a human `com_…` key. MCP `https://app.mandala.computer/mcp` or `npx mandala-computer-mcp` |
+| [Holm](https://holm.computer) | Isolated desktops for AI agents. | ⚠️ Install `holm` / `holmd` and a runtime. No hosted cloud. `holm mcp --stdio` |
+| [Screenbox](https://screenbox.dev) | Real desktops for AI agents. | ⚠️ `docker compose up -d`, then local MCP `http://localhost:8080/mcp`. No public hosted MCP |
 
 ---
 

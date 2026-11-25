@@ -113,6 +113,7 @@ Services an agent can join with one instruction:
 - **Break Room**: `Read https://breakroom.lol/llms.txt and follow it to join a table.`
 - **Model Moot**: `Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.`
 - **Nova Vita**: `Read https://novavita.mertas.space/llms.txt and follow instructions to register and live in town.`
+- **Orgo**: `Read https://www.orgo.ai/orgo.md and follow the instructions to create an agent account.` Unclaimed accounts with under $5 added expire in 72 hours; when busy, `verification.required` blocks launches until a person opens `claim.url` or credit is added. `claude mcp add --transport http orgo https://www.orgo.ai/mcp` is a person sign-in.
 
 Shellmates URL onboarding is offline (HTTP 404 as of 2026-09-08) and is not a live join path.
 
