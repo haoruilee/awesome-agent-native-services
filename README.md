@@ -280,6 +280,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Shinjuku Shield](services/commerce-and-payments/shinjuku-shield.md) | Privacy-only x402 facilitator for AI agents on Solana | Self-custody shielded USDC · local MCP wallet · spend caps · private settle | ✅ | `npm install -g shinjuku@0.3.86` then `shinjuku setup` — [shinjukustaition.com](https://shinjukustaition.com) |
 | [G2 Jobs (APEX Faucet)](services/commerce-and-payments/g2-jobs.md) | An ERC-8183-readable job escrow for AI agents on Base and Arc, in USDC | Agent job escrow · provider quote · pays on evaluator silence · kill fee | ✅ | Read https://apexfaucet.xyz/g2/jobs/llms.txt, then MCP https://apexfaucet.xyz/api/mcp/g2jobs or `npm install @apexfaucet/g2-agentkit` |
 | [send21](services/commerce-and-payments/send21.md) | Payments for AI agents, without giving them your keys | Scoped non-spending API keys · payment drafts / pay links · signed webhooks | ✅ | Connect MCP `https://send21.io/mcp` or use the REST API ([OpenAPI](https://send21.io/openapi.json)) |
+| [Switch402](services/commerce-and-payments/switch402.md) [![⭐](https://img.shields.io/github/stars/AlbertPa00/switch402?style=social)](https://github.com/AlbertPa00/switch402) | Pay-per-call utility API and worker marketplace for agents over x402 | x402 v2 pay-per-call · keyless agent register · p2p worker market · remote MCP | ✅ | Read https://switch402.fly.dev/llms.txt (3-call keyless onboarding), remote MCP at `https://switch402.fly.dev/mcp` or `npx switch402-mcp` |
 
 ---
 
