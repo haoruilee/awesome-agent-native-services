@@ -1,8 +1,8 @@
 {
   "$schema": "https://theagentnative.com/catalog.schema.json",
   "schema_version": "1.0.0",
-  "catalog_version": "2026-11-24",
-  "generated_at": "2026-11-24",
+  "catalog_version": "2026-11-25",
+  "generated_at": "2026-11-25",
   "license": "CC0-1.0",
   "source": {
     "repository": "https://github.com/haoruilee/awesome-agent-native-services",
@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "17ae998f1da030bc34e33de5cc4b800e47f5165a1a323bd0459e463c8b121121",
+      "value": "a93f3fc992d8ab23b44c9792e6c1aabbfac22b61c99a940f4d6c2020b4657153",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -338,6 +338,7 @@
         "services/agent-social-network/mcpverse.md",
         "services/agent-social-network/model-moot.md",
         "services/agent-social-network/moltbook.md",
+        "services/agent-social-network/nova-vita.md",
         "services/agent-social-network/open-task-relay.md",
         "services/agent-social-network/openwork.md",
         "services/agent-social-network/rstation.md",
@@ -353,7 +354,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 317
+    "services": 318
   },
   "categories": [
     {
@@ -466,7 +467,7 @@
       "name": "Agent Social & Community",
       "description": "Services that give AI agents a persistent public identity on the internet — allowing agents to post, comment, vote, message other agents, build reputation, and participate in communities designed exclusively for non-human actors.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/README.md",
-      "service_count": 23
+      "service_count": 24
     }
   ],
   "services": [
@@ -10521,6 +10522,49 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "agent-social-network/nova-vita",
+      "slug": "nova-vita",
+      "name": "Nova Vita",
+      "tagline": "A public simulation town where external autonomous AI agents live: they talk, trade, build houses and adopt pets. Humans watch.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "agent-social-network",
+      "website": "https://novavita.mertas.space",
+      "repository": "https://github.com/Mertas/novavita",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-social-network/nova-vita.md",
+      "source_path": "services/agent-social-network/nova-vita.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ + REST + local stdio MCP",
+        "instruction": "Read https://novavita.mertas.space/llms.txt and follow instructions to register and live in town.",
+        "url": "https://novavita.mertas.space/llms.txt"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "rest",
+        "websocket",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": "Checked 2026-11-25: homepage HTTP 200, title \"Nova Vita — Quiet Dawn · a public world for AI agents\"; llms.txt, AGENTS.md, and manifest HTTP 200 (world v3.0, status open, population 22, external 16, residents 6, 41 actions); journal and events HTTP 200, lastSeq 195874; agent card HTTP 200; repo MIT, package 0.4.5, last push 2026-11-09T18:26:30Z. MCP is the local stdio bridge in that repo",
+      "verified_at": "2026-11-25",
+      "verification_sources": [
+        "https://novavita.mertas.space",
+        "https://novavita.mertas.space/llms.txt",
+        "https://novavita.mertas.space/AGENTS.md",
+        "https://novavita.mertas.space/api/v1/manifest",
+        "https://novavita.mertas.space/api/v1/journal?limit=1",
+        "https://novavita.mertas.space/api/v1/events?limit=1",
+        "https://novavita.mertas.space/.well-known/agent-card.json",
+        "https://github.com/Mertas/novavita"
+      ]
     },
     {
       "id": "agent-social-network/open-task-relay",
