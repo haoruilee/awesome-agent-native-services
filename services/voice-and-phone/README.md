@@ -27,6 +27,7 @@ No consumer VOIP or call center platform was designed with these requirements as
 | [CosVoice](cosvoice.md) [![⭐](https://img.shields.io/github/stars/CosVoice/cosvoice-mcp?style=social)](https://github.com/CosVoice/cosvoice-mcp) | Your AI Agent gets its own phone number. | Hosted line + email · remote MCP · skill URL · OpenAPI | ✅ |
 | [PlaceCall](placecall.md) [![⭐](https://img.shields.io/github/stars/voygr-tech/placecall?style=social)](https://github.com/voygr-tech/placecall) | Give your agent a phone. | Remote MCP, REST OpenAPI, Agent Skill, plugins | ✅ |
 | [CallForMe](callforme.md) [![⭐](https://img.shields.io/github/stars/callforme-tel/callforme?style=social)](https://github.com/callforme-tel/callforme) | Let your agent call businesses for you. | Remote MCP, REST OpenAPI, webhooks, Agent Skill | ✅ |
+| [Dial](dial.md) [![⭐](https://img.shields.io/github/stars/GetDial-AI/cli?style=social)](https://github.com/GetDial-AI/cli) | Your agent needs a number. | Remote + local MCP, REST OpenAPI, `dial` CLI, Node/Python SDKs, webhooks, Agent Skill | ✅ |
 
 
 ---

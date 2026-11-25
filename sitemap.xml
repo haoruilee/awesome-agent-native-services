@@ -691,6 +691,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/dial/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/direct-hire/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

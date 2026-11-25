@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "a93f3fc992d8ab23b44c9792e6c1aabbfac22b61c99a940f4d6c2020b4657153",
+      "value": "530b06cf00b4fb6acaf4d4356c560e52f90848cb30a743dd496052163b40c0e3",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -303,6 +303,7 @@
         "services/voice-and-phone/README.md",
         "services/voice-and-phone/callforme.md",
         "services/voice-and-phone/cosvoice.md",
+        "services/voice-and-phone/dial.md",
         "services/voice-and-phone/livekit-agents.md",
         "services/voice-and-phone/patter.md",
         "services/voice-and-phone/pipecat.md",
@@ -354,7 +355,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 318
+    "services": 319
   },
   "categories": [
     {
@@ -453,7 +454,7 @@
       "name": "Voice & Phone",
       "description": "Services that give AI agents a first-class voice and telephony identity — letting agents make and receive phone calls, conduct voice conversations, and interact via speech with no human operating a phone on their behalf.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/README.md",
-      "service_count": 10
+      "service_count": 11
     },
     {
       "id": "llm-gateway-and-routing",
@@ -9425,6 +9426,53 @@
         "https://cosvoice.com/skill",
         "https://cosvoice.com/mcp",
         "https://github.com/CosVoice/cosvoice-mcp"
+      ]
+    },
+    {
+      "id": "voice-and-phone/dial",
+      "slug": "dial",
+      "name": "Dial",
+      "tagline": "Your agent needs a number.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "voice-and-phone",
+      "website": "https://getdial.ai",
+      "repository": "https://github.com/GetDial-AI/cli",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/voice-and-phone/dial.md",
+      "source_path": "services/voice-and-phone/dial.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⚠️ — partial.",
+        "instruction": "Read https://getdial.ai/skills.md and follow the instructions to get a Dial phone number.",
+        "url": "https://getdial.ai/skills.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "rest",
+        "webhook",
+        "cli",
+        "sdk",
+        "openapi",
+        "stdio",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "https://getdial.ai, https://getdial.ai/skills.md, https://getdial.ai/pricing, https://docs.getdial.ai and https://docs.getdial.ai/openapi.json returned HTTP 200. An unauthenticated MCP initialize POST to https://getdial.ai/mcp returned 401 with WWW-Authenticate: Bearer resource_metadata=\"https://getdial.ai/.well-known/oauth-protected-resource/mcp\", and that metadata URL returned 200. https://github.com/GetDial-AI/cli was pushed on 2026-11-24 (npm @getdial/cli 0.64.1)",
+      "verified_at": "2026-11-25",
+      "verification_sources": [
+        "https://getdial.ai",
+        "https://getdial.ai/skills.md",
+        "https://getdial.ai/pricing",
+        "https://docs.getdial.ai",
+        "https://docs.getdial.ai/openapi.json",
+        "https://getdial.ai/mcp",
+        "https://getdial.ai/.well-known/oauth-protected-resource/mcp",
+        "https://github.com/GetDial-AI/cli"
       ]
     },
     {
