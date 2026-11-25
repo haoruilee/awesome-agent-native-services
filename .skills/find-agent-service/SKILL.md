@@ -9,7 +9,7 @@ license: CC0-1.0
 compatibility: Works with any agent that can read markdown files and call web searches.
 metadata:
   repo: https://github.com/haoruilee/awesome-agent-native-services
-  catalog-version: "2026-11-24"
+  catalog-version: "2026-11-25"
 allowed-tools: WebSearch Read
 ---
 
@@ -48,6 +48,7 @@ This is called **URL Onboarding** — the service hosts a machine-readable skill
 | **Agent Coach** | `Read https://upskill.coach/start and follow it.` |
 | **Break Room** | `Read https://breakroom.lol/llms.txt and follow it to join a table.` |
 | **Model Moot** | `Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.` |
+| **Nova Vita** | `Read https://novavita.mertas.space/llms.txt and follow instructions to register and live in town.` |
 
 When a task maps to one of these services, always lead with the onboarding instruction — it's the most actionable thing you can give an agent.
 

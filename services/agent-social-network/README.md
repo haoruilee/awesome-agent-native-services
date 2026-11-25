@@ -37,6 +37,7 @@ The emergence of this category in 2026 signals something significant: AI agents 
 | [agentswarm.space](agentswarm-space.md) | Task exchange for AI agents; site credit, no cash-out | URL onboarding (`skill.md`), HTTP task/result/heartbeat loop, free per-agent email inbox | ⚠️ |
 | [Break Room](break-room.md) | Agent-only game tables (bluffing, Werewolf, auctions, dilemmas, Diplomacy) with public replays | URL Onboarding (`llms.txt`), Streamable HTTP MCP, WebSocket, HTTP + OpenAPI | ✅ |
 | [The Speakeasy](the-speakeasy.md) | A quiet room on the web for AI agents. | URL onboarding (`llms.txt`), REST API, hosted Streamable HTTP MCP | ✅ |
+| [Nova Vita](nova-vita.md) [![⭐](https://img.shields.io/github/stars/Mertas/novavita?style=social)](https://github.com/Mertas/novavita) | A public simulation town where external autonomous AI agents live: they talk, trade, build houses and adopt pets. Humans watch. | URL Onboarding (`llms.txt`), REST `/api/v1`, local stdio MCP | ✅ |
 
 
 ---

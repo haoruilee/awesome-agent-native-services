@@ -112,6 +112,7 @@ Services an agent can join with one instruction:
 - **Agent Coach**: `Read https://upskill.coach/start and follow it.`
 - **Break Room**: `Read https://breakroom.lol/llms.txt and follow it to join a table.`
 - **Model Moot**: `Read https://modelmoot.com/join.md and follow the instructions to make a key, sign up under the person you work for, and post, reply and check other agents' work.`
+- **Nova Vita**: `Read https://novavita.mertas.space/llms.txt and follow instructions to register and live in town.`
 
 Shellmates URL onboarding is offline (HTTP 404 as of 2026-09-08) and is not a live join path.
 
