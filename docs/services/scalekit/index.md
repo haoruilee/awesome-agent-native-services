@@ -34,7 +34,7 @@ repository: "https://github.com/scalekit-inc/scalekit-sdk-python"
 
 ## What it does
 
-AgentKit, Scalekit's agent integration product, lets an AI agent act in third-party apps on behalf of each user. A user connects Gmail, Slack, Salesforce, GitHub or any of 500+ connectors once through an authorization link; Scalekit stores and refreshes their tokens (OAuth 2.0, API keys, RSA key pairs, Basic and bearer credentials) in an encrypted, per-tenant token vault that can use the customer's own KMS key, and the agent calls 20,000+ prebuilt tools as that user through the SDKs, the REST API, or a Virtual MCP server. Admins decide which tools each agent role sees, and every tool call is logged for audit and can be streamed to a SIEM.
+AgentKit, Scalekit's agent integration product, lets an AI agent act in third-party apps on behalf of each user. A user connects Gmail, Slack, Salesforce, GitHub or any of 1,100+ connectors once through an authorization link; Scalekit stores and refreshes their tokens (OAuth 2.0, API keys, RSA key pairs, Basic and bearer credentials) in an encrypted, per-tenant token vault that can use the customer's own KMS key, and the agent calls 20,000+ prebuilt tools as that user through the SDKs, the REST API, or a Virtual MCP server. Admins decide which tools each agent role sees, and every tool call is logged for audit and can be streamed to a SIEM.
 
 ---
 

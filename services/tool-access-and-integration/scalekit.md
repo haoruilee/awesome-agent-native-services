@@ -10,7 +10,7 @@
 | **Stars** | [![GitHub Stars](https://img.shields.io/github/stars/scalekit-inc/scalekit-sdk-python?style=social)](https://github.com/scalekit-inc/scalekit-sdk-python) |
 | **Classification** | `agent-native` |
 | **Category** | [Tool Access & Integration Services](README.md) |
-| **Integrations** | 500+ connectors, 20,000+ tools |
+| **Integrations** | 1,100+ connectors, 55,000+ tools |
 | **Enterprise** | SOC 2 Type II · HIPAA BAA · bring-your-own KMS key · VPC or self-hosted deployment |
 
 This entry covers AgentKit, Scalekit's agent integration product.
@@ -81,7 +81,7 @@ A **Virtual MCP server** is a URL that exposes the tools you choose, from one or
 
 ## What It Does
 
-AgentKit, Scalekit's agent integration product, lets an AI agent act in third-party apps on behalf of each user. A user connects Gmail, Slack, Salesforce, GitHub or any of 500+ connectors once through an authorization link; Scalekit stores and refreshes their tokens (OAuth 2.0, API keys, RSA key pairs, Basic and bearer credentials) in an encrypted, per-tenant token vault that can use the customer's own KMS key, and the agent calls 20,000+ prebuilt tools as that user through the SDKs, the REST API, or a Virtual MCP server. Admins decide which tools each agent role sees, and every tool call is logged for audit and can be streamed to a SIEM.
+AgentKit, Scalekit's agent integration product, lets an AI agent act in third-party apps on behalf of each user. A user connects Gmail, Slack, Salesforce, GitHub or any of 1,100+ connectors once through an authorization link; Scalekit stores and refreshes their tokens (OAuth 2.0, API keys, RSA key pairs, Basic and bearer credentials) in an encrypted, per-tenant token vault that can use the customer's own KMS key, and the agent calls 20,000+ prebuilt tools as that user through the SDKs, the REST API, or a Virtual MCP server. Admins decide which tools each agent role sees, and every tool call is logged for audit and can be streamed to a SIEM.
 
 ---
 
