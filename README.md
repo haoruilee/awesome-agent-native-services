@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**327 services across 16 categories.**
+**328 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -97,7 +97,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 34 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 7 | Human-in-the-loop approval and escalation |
 | 5 | [Commerce & Payments](#5-commerce--payment-services) | 22 | Agent-native wallets, identity, and transactions |
-| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 51 | Execution, session isolation, secrets, and gateway |
+| 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 52 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 18 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 34 | Persistent agent memory across sessions |
 | 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 16 | LLM-optimized web search and content retrieval |
@@ -333,6 +333,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [Mobilebox](services/agent-runtime-and-infrastructure/mobilebox.md) [![⭐](https://img.shields.io/github/stars/mobilebox-dev/mobilebox?style=social)](https://github.com/mobilebox-dev/mobilebox) | Mobile sandboxes for your AI agents. | Cloud Android, iOS simulators, optional real devices · create/observe/act/park · hosted MCP | ✅ | ⚠️ A person supplies an email; the agent mints a key from [setup.md](https://mobilebox.dev/setup.md), then a 6-digit inbox code keeps the workspace. MCP OAuth is a human Allow. After that, no per-tap click — `https://mobilebox.dev/mcp` |
 | [PhoneUse](services/agent-runtime-and-infrastructure/phoneuse.md) [![⭐](https://img.shields.io/github/stars/phoneuse-official/phoneuse?style=social)](https://github.com/phoneuse-official/phoneuse) | Your agent now has a phone. | devices:lease / devices:act / runs · traces · org key · cloud Android plus optional robot-hand iPhone | ✅ | ⚠️ Console signup and a human-minted `pbk_`/`puk_` key; buy or rent the phone in the console. Interactive MCP OAuth is not live yet. Health on 2026-11-25: `degraded` — [docs](https://docs.phoneuse.com/) |
 | [Phone Harness](services/agent-runtime-and-infrastructure/phone-harness.md) [![⭐](https://img.shields.io/github/stars/phone-harness/phone-harness?style=social)](https://github.com/phone-harness/phone-harness) | Let your agent use your phone. | CLI · REST `api.phone-harness.com` · hosted MCP for cloud phones · MIT | ✅ | ⚠️ Open signup, $5 credit, dashboard API key. Local path needs iPhone Mirroring or adb. Hosted MCP is cloud phones only: `https://mcp.phone-harness.com/mcp` — [docs](https://phone-harness.com/docs/llms.txt) |
+| [ERIUS PHONE](services/agent-runtime-and-infrastructure/erius-phone.md) [![⭐](https://img.shields.io/github/stars/Protremix/erius-phone-mcp?style=social)](https://github.com/Protremix/erius-phone-mcp) | Give your AI agent its own Android phone. | Hosted Android cloud phone · HTTP API · stdio MCP (`uvx erius-phone-mcp`) · remote MCP `POST https://api.eriusphone.com/mcp` | ✅ | ⚠️ Operator completes https://eriusphone.com/start/ (email + Stripe card check, EUR 0, 24-hour trial) and receives the API key. Not a one-URL join. Then `uvx erius-phone-mcp` or remote MCP. Hosted phone is closed-source; the MCP repo is MIT |
 | [Orgo](services/agent-runtime-and-infrastructure/orgo.md) | Computers for Agents. | Agent signup · isolated Linux/Windows VM · screenshot/click/type/bash · hosted MCP | ✅ | Read https://www.orgo.ai/orgo.md and follow the instructions to create an agent account (⚠️ unclaimed accounts with under $5 added expire in 72 hours; when busy, `verification.required` blocks launches until a person opens `claim.url` or credit is added. `claude mcp add` is a person sign-in) |
 | [box by Simular](services/agent-runtime-and-infrastructure/simular-box.md) | Give your agents a computer. | One cloud Linux desktop per account · browser/click/type/shell · sleeps when idle | ✅ | ⚠️ No agent self-registration. OAuth with a Simular account, or a human-created `cb_` key from https://box.simular.ai/access. MCP `https://mcp.box.simular.ai/mcp` — [docs](https://box.simular.ai/docs/mcp) |
 | [Mandala Computer](services/agent-runtime-and-infrastructure/mandala-computer.md) | Computers for AI Agents. | Persistent Linux desktop · screenshot/input/exec/windows/clipboard/snapshots · hosted MCP | ✅ | ⚠️ Hosted MCP browser OAuth, or a human-minted `com_…` key (minting is not an MCP tool). `https://app.mandala.computer/mcp` or `npx mandala-computer-mcp` — [docs](https://app.mandala.computer/docs) |
