@@ -731,6 +731,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/erius-phone/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/exa/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

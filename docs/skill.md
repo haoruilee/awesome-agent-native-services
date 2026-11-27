@@ -217,7 +217,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 6. Agent Runtime & Infrastructure (44 services)
+### 6. Agent Runtime & Infrastructure (45 services)
 *Secure execution, session isolation, secrets, identity, and gateway for production agents.*
 
 | Service | Tagline | Onboarding |
@@ -261,6 +261,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Mobilebox](https://mobilebox.dev) | Mobile sandboxes for your AI agents. | ⚠️ Email from a person, then [setup.md](https://mobilebox.dev/setup.md) mints a key and a 6-digit inbox code keeps the workspace. MCP `https://mobilebox.dev/mcp` (OAuth Allow is a human click) |
 | [PhoneUse](https://www.phoneuse.com) | Your agent now has a phone. | ⚠️ Console signup and a human-minted key. Control-plane MCP `https://mcp.phoneuse.com/mcp`. Health was `degraded` on 2026-11-25 — [docs](https://docs.phoneuse.com/) |
 | [Phone Harness](https://phone-harness.com) | Let your agent use your phone. | ⚠️ Dashboard API key. Hosted MCP `https://mcp.phone-harness.com/mcp` is cloud phones only. Local path needs iPhone Mirroring or adb |
+| [ERIUS PHONE](https://eriusphone.com) | Give your AI agent its own Android phone. | ⚠️ Email + Stripe card check at [start](https://eriusphone.com/start/) (EUR 0, 24-hour trial), then the API key. stdio `uvx erius-phone-mcp` or remote MCP `https://api.eriusphone.com/mcp`. Hosted phone is closed-source; MCP repo is MIT |
 | [Orgo](https://www.orgo.ai) ⭐ | Computers for Agents. | `Read https://www.orgo.ai/orgo.md and follow the instructions to create an agent account.` (⚠️ under $5 added and unclaimed expires in 72 hours; busy signups can set `verification.required`) |
 | [box by Simular](https://box.simular.ai) | Give your agents a computer. | ⚠️ No agent self-registration. OAuth or a human `cb_` key. MCP `https://mcp.box.simular.ai/mcp` |
 | [Mandala Computer](https://mandala.computer) | Computers for AI Agents. | ⚠️ Browser OAuth or a human `com_…` key. MCP `https://app.mandala.computer/mcp` or `npx mandala-computer-mcp` |
