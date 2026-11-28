@@ -88,7 +88,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**328 services across 16 categories.**
+**329 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -100,7 +100,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 52 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 18 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 34 | Persistent agent memory across sessions |
-| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 16 | LLM-optimized web search and content retrieval |
+| 9 | [Search & Web Intelligence](#9-search--web-intelligence-services) | 17 | LLM-optimized web search and content retrieval |
 | 10 | [Code Execution](#10-code-execution-services) | 21 | Secure sandboxes for AI-generated code |
 | 11 | [Observability & Tracing](#11-observability--tracing-services) | 14 | Agent trajectory tracing and evaluation |
 | 12 | [Durable Execution & Scheduling](#12-durable-execution--scheduling-services) | 6 | Fault-tolerant long-running agent workflows |
@@ -446,6 +446,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | [SerpKite](services/search-and-web-intelligence/serpkite.md) [![⭐](https://img.shields.io/github/stars/serpkite/serpkite-js?style=social)](https://github.com/serpkite/serpkite-js) | The Google SERP API built for AI agents | Remote MCP · Markdown SERP · cited answers · REST/SDKs | ✅ | Add MCP `https://api.serpkite.com/v1/mcp` (OAuth or `SERPKITE_API_KEY`) |
 | [datawebot](services/search-and-web-intelligence/datawebot.md) [![⭐](https://img.shields.io/github/stars/datawebot/datawebot-mcp?style=social)](https://github.com/datawebot/datawebot-mcp) | The world's ecommerce. One MCP. | Product search · seller offers · extraction Jobs · credit budgets | ✅ | Read https://mcp.datawebot.com/setup.md and follow the instructions (hosted service closed source; connection kit MIT) |
 | [Keenable](services/search-and-web-intelligence/keenable.md) [![⭐](https://img.shields.io/github/stars/keenableai/keenable-mcp?style=social)](https://github.com/keenableai/keenable-mcp) | Independent Web Search API for AI | Own index · `search_web_pages` · Markdown `fetch_page_content` · keyless public MCP | ✅ | Read https://docs.keenable.ai/llms.txt and follow the instructions — MCP: `https://api.keenable.ai/mcp-public` (optional API key; hosted index closed, MCP server MIT) |
+| [gaodong.ai Model Intelligence](services/search-and-web-intelligence/gaodong-model-intel.md) | Verified AI model data for agents: official API prices, context, LMArena ranks, local VRAM fit | `recommend` by workload/budget · `local-fit` · signed `model.changed` watches · self-serve keys · URL Onboarding | ✅ | Read https://gaodong.ai/agents/skill.md and follow the instructions — MCP: `https://gaodong.ai/api/agent/mcp` |
 
 ---
 

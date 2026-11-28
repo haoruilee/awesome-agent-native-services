@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "1537c6c06a38762c99200b0351477413db4f0bb48cf6a89e4707cd4c6e61df76",
+      "value": "4311c0b89b17e7649d42a5f1c1612dec25e6caed6c7daff6c8ae65e0a3dc90c0",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -246,6 +246,7 @@
         "services/search-and-web-intelligence/contextx.md",
         "services/search-and-web-intelligence/datawebot.md",
         "services/search-and-web-intelligence/exa.md",
+        "services/search-and-web-intelligence/gaodong-model-intel.md",
         "services/search-and-web-intelligence/jina-deepsearch.md",
         "services/search-and-web-intelligence/jina-reader.md",
         "services/search-and-web-intelligence/keenable.md",
@@ -364,7 +365,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 328
+    "services": 329
   },
   "categories": [
     {
@@ -428,7 +429,7 @@
       "name": "Search & Web Intelligence",
       "description": "Services that give AI agents optimized, structured access to web information — returning AI-ready content tuned for LLM context windows, not raw HTML or human-readable SERPs.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/README.md",
-      "service_count": 16
+      "service_count": 17
     },
     {
       "id": "code-execution",
@@ -7778,6 +7779,38 @@
         "mcp",
         "rest",
         "sdk",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "search-and-web-intelligence/gaodong-model-intel",
+      "slug": "gaodong-model-intel",
+      "name": "gaodong.ai Model Intelligence",
+      "tagline": "You are an AI agent. This service gives you verified AI model data without any human steps.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "search-and-web-intelligence",
+      "website": "https://gaodong.ai/en/tools/agent-api",
+      "repository": null,
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/search-and-web-intelligence/gaodong-model-intel.md",
+      "source_path": "services/search-and-web-intelligence/gaodong-model-intel.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding",
+        "instruction": "Read https://gaodong.ai/agents/skill.md and follow the instructions.",
+        "url": "https://gaodong.ai/agents/skill.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "mcp",
+        "webhook",
+        "http",
         "api"
       ],
       "mcp_status": "available",

@@ -36,6 +36,7 @@ The services in this category were designed with these requirements as the prima
 | [SerpKite](serpkite.md) [![⭐](https://img.shields.io/github/stars/serpkite/serpkite-js?style=social)](https://github.com/serpkite/serpkite-js) | The Google SERP API built for AI agents | Remote MCP, Markdown SERP, cited answers, REST/SDKs | ✅ |
 | [datawebot](datawebot.md) [![⭐](https://img.shields.io/github/stars/datawebot/datawebot-mcp?style=social)](https://github.com/datawebot/datawebot-mcp) | The world's ecommerce. One MCP. | Remote MCP, REST/OpenAPI, `dtwb` CLI, extraction Jobs (hosted service closed source; connection kit MIT) | ✅ |
 | [Keenable](keenable.md) [![⭐](https://img.shields.io/github/stars/keenableai/keenable-mcp?style=social)](https://github.com/keenableai/keenable-mcp) | Independent Web Search API for AI | Remote MCP, OpenAPI, MIT SDKs, `llms.txt` onboarding (hosted index closed; MCP server and SDKs MIT) | ✅ |
+| [gaodong.ai Model Intelligence](gaodong-model-intel.md) | Verified LLM prices, context windows, LMArena ranks and local VRAM fit for agents, with change webhooks | REST API, remote MCP, signed webhooks, URL Onboarding | ✅ |
 
 
 ---

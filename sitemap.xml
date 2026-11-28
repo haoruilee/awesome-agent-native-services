@@ -776,6 +776,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://theagentnative.com/services/gaodong-model-intel/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://theagentnative.com/services/github-mcp-server/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
