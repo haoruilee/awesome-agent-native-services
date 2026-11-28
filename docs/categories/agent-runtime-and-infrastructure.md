@@ -446,7 +446,7 @@ That test is spelled out in [What makes a service agent-native](/guides/what-mak
     <div class="service-card__overline"><span>Curated dossier</span><span>agent-native</span></div>
     <h2 class="service-card__title"><a href="https://thelanternworks.com" rel="noopener noreferrer">Lantern Works</a></h2>
     <p class="listing-source">Listed on <a href="{{ '/services/lantern-works/' | relative_url }}">The Agent-Native Index</a></p>
-    <p class="service-card__tagline">GPU price comparison for agents, checked daily.</p>
+    <p class="service-card__tagline">GPU price comparison for agents, refreshed regularly, with each price&#39;s age shown.</p>
     <div class="service-card__actions">
       <a href="{{ '/services/lantern-works/' | relative_url }}">Introduction</a>
       <a href="https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/lantern-works.md">Dossier ↗</a>

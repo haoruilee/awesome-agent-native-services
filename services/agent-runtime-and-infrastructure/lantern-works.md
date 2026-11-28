@@ -1,6 +1,6 @@
 # Lantern Works
 
-> **"GPU price comparison for agents, checked daily."**
+> **"GPU price comparison for agents, refreshed regularly, with each price's age shown."**
 
 | | |
 |---|---|
@@ -78,7 +78,7 @@ Every rate comes with the vendor's `source_url`, an evidence snippet, and a `che
 
 | Criterion | Evidence |
 |---|---|
-| **Agent-first positioning** | *"GPU price comparison for agents, checked daily"* / *"Give your agent live GPU prices"* — https://thelanternworks.com · https://thelanternworks.com/for-agents/ |
+| **Agent-first positioning** | *"GPU price comparison for agents, refreshed regularly, with each price's age shown"* / *"Give your agent live GPU prices"* — https://thelanternworks.com · https://thelanternworks.com/for-agents/ |
 | **Agent-specific primitive** | MCP tools (`compare_gpu_prices`, `estimate_job_cost`, `optimize_agent_stack`, `get_price_changes`, …) that return cited, dated rates and itemized job-cost receipts an agent can act on before spending |
 | **Autonomy-compatible control plane** | Free, keyless MCP for the core tools; read-only toward vendors, so agents can compare and estimate without a human in the loop |
 | **M2M integration surface** | stdio MCP (`uvx lantern-works-deals-mcp`), hosted Streamable HTTP MCP, JSON feeds and docs at /install/ and /for-agents/ |

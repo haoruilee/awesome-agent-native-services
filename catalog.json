@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "4311c0b89b17e7649d42a5f1c1612dec25e6caed6c7daff6c8ae65e0a3dc90c0",
+      "value": "ec6c4953844023a4c01837d84e8734cb549af7e5dcba639b5a0bf976a298fc84",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -5089,7 +5089,7 @@
       "id": "agent-runtime-and-infrastructure/lantern-works",
       "slug": "lantern-works",
       "name": "Lantern Works",
-      "tagline": "GPU price comparison for agents, checked daily.",
+      "tagline": "GPU price comparison for agents, refreshed regularly, with each price's age shown.",
       "classification": "agent-native",
       "status": "listed",
       "lifecycle_status": "unknown",
