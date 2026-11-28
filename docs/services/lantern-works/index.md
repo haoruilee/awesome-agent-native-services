@@ -1,7 +1,7 @@
 ---
 title: "Lantern Works | Agent-Native Services"
 service_name: "Lantern Works"
-description: "GPU price comparison for agents, checked daily"
+description: "GPU price comparison for agents, refreshed regularly, with each price's age shown"
 permalink: /services/lantern-works/
 page_kind: service
 service_slug: "lantern-works"
@@ -12,7 +12,7 @@ image: "/assets/images/editorial-runtime.webp"
 classification: "agent-native"
 dossier_path: "services/agent-runtime-and-infrastructure/lantern-works.md"
 dossier_url: "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/lantern-works.md"
-tagline: "GPU price comparison for agents, checked daily"
+tagline: "GPU price comparison for agents, refreshed regularly, with each price's age shown"
 website: "https://thelanternworks.com"
 repository: "https://github.com/connormatthewdouglas/agent-work-stack-deals"
 ---
